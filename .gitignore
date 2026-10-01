@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.next/
+*.log
+
+# Data / models (large files don't belong in git)
+*.gguf
+*.safetensors
+*.ckpt
+*.bin
+/data/
+/models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

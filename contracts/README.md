@@ -9,6 +9,7 @@ module's internals. Everything here is JSON Schema (draft 2020-12).
 | `events/envelope.schema.json` | Shape of every session-log event | all |
 | `events/registry.json` | Every allowed event type, its version and payload schema; namespace → owning track | all (each track edits its own namespaces) |
 | `events/payloads/*.vN.schema.json` | Payload per event type and version | namespace owner |
+| `auth/actor.schema.json` | Who is acting (household → parent → students); every module reads it | Track C |
 | `curriculum/node.schema.json` | Curriculum graph node | Track C |
 | `lesson/lesson.schema.json` | Lesson-as-data format | Track C (steps), B (`widget`), A (`check.spec`) |
 | `widgets/widget.schema.json` | Widget reference (placeholder) | Track B |

@@ -1,7 +1,8 @@
 import type { EventEnvelope } from "@/contracts/generated";
 
 // Shared client for the local backend. Feature code calls these helpers instead of fetch()
-// so every request goes through one place.
+// so every request goes through one place, including whatever credentials the auth feature
+// (Track C) establishes. Features never attach tokens themselves.
 const base = typeof window === "undefined" ? (process.env.EDAPTIVE_API_URL ?? "http://localhost:8000") : "";
 
 export async function checkHealth(): Promise<boolean> {

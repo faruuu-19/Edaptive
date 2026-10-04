@@ -13,6 +13,7 @@ ROOT = contracts.root
 EXAMPLES = ROOT / "examples"
 
 EXAMPLE_SCHEMAS = {
+    "auth": "auth/actor.schema.json",
     "curriculum": "curriculum/node.schema.json",
     "lesson": "lesson/lesson.schema.json",
 }

@@ -14,7 +14,7 @@ The contracts each track publishes **first**, in this order, so nobody builds on
 
 | Order | Contract | Track | Unblocks |
 |---|---|---|---|
-| 1 | Curriculum node + lesson format (drafted), DB schema | C | A and B both read lessons |
+| 1 | Curriculum node + lesson format (drafted), DB schema, Actor (auth) | C | A and B read lessons and know who is acting |
 | 2 | Widget schema (`fraction_bar`, `number_line`, `base_ten`) | B | lesson authoring, player |
 | 3 | Tutor action schema + `tutor.*` / `verifier.*` events | A | player renders tutor turns |
 
@@ -22,7 +22,7 @@ Then in parallel:
 
 | Track A | Track B | Track C |
 |---|---|---|
-| Socratic Engine, SymPy verifier, verification-badge UI | Widget schema, avatar state machine, manipulative widgets, avatar v1 | Curriculum Compiler (maths), DB schema, Home & Profile UI |
+| Socratic Engine, SymPy verifier, verification-badge UI | Widget schema, avatar state machine, manipulative widgets, avatar v1 | Curriculum Compiler (maths), DB schema, auth + Home & Profile UI |
 
 Demo: child picks a profile → opens a maths lesson from the DB → tutor turn verified by
 SymPy → widget shown → all of it in the session log.
@@ -47,4 +47,4 @@ SymPy → widget shown → all of it in the session log.
 
 ## Still to decide (team)
 
-Local LLM model · auth mechanism · admin role · hosting/deployment · Mid-1 date.
+Local LLM model · auth mechanism (owner decided: Track C; proposed: profile picker + parent PIN) · admin role · hosting/deployment · Mid-1 date.

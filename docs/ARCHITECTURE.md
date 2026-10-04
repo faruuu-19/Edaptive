@@ -6,7 +6,7 @@ contracts/            JSON Schemas shared by everyone (single source of truth)
               └▶ frontend/src/contracts/generated  (TypeScript)
 
 backend/  FastAPI, local only
-  app/core/           config, DB, contract validation           (Track C)
+  app/core/           config, DB, contract validation, identity (Track C)
   app/session_log/    append-only event store + /api/events     (Track C)
   app/modules/<name>/ one package per module, owner in README    (A or C)
   migrations/         Alembic, Postgres 16 + pgvector            (Track C)
@@ -34,3 +34,20 @@ Appending is idempotent on `event_id`, so a client can safely retry.
 
 Create `app/modules/<name>/router.py` with `router = APIRouter()`. It is mounted at
 `/api/<name>` automatically; nobody edits `main.py`.
+
+## Identity and access
+
+Hierarchy: **household → parent → students**. Auth is owned by Track C
+(`app/modules/auth`, `frontend/src/features/auth`); the shape it produces is
+`contracts/auth/actor.schema.json`.
+
+Every other module only declares what it needs, from `app/core/identity.py`:
+
+| Need | Use |
+|---|---|
+| Any signed-in student or parent | `actor: CurrentActor` |
+| Parent-only (dashboard, consent, schedule/privacy controls) | `actor: ParentActor` |
+| A student may only touch their own data | `ensure_student_access(actor, student_id)` |
+
+No module reads PINs, cookies or tokens. Until the auth module installs its resolver,
+these dependencies return 401 (fail closed).

@@ -49,6 +49,7 @@ root_package = "app"
 name = "Modules talk through contracts and the session log, never each other's internals"
 type = "independence"
 modules = [
+  "app.modules.auth",
   "app.modules.curriculum",
   "app.modules.profiles",
   "app.modules.scheduling",

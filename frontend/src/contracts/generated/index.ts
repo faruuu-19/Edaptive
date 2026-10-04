@@ -4,6 +4,23 @@ export interface Contracts {
   [k: string]: unknown;
 }
 /**
+ * Who is acting on a request, as established by the auth module (Track C). Identity hierarchy: household -> parent -> students. Every module reads this; none of them establish identity themselves.
+ *
+ * This interface was referenced by `Contracts`'s JSON-Schema
+ * via the `definition` "Actor".
+ */
+export interface Actor {
+  household_id: string;
+  /**
+   * student: a child using their own profile. parent: the guardian, unlocked for parent-only areas (dashboard, consent, schedule and privacy controls).
+   */
+  role: "student" | "parent";
+  /**
+   * The active student profile. Required for role student; null for parent unless the parent is viewing a specific child.
+   */
+  student_id: string | null;
+}
+/**
  * One node of the curriculum graph (unit or lesson). Produced by the Curriculum Compiler (Track C); read by every module that needs to know where a student is.
  *
  * This interface was referenced by `Contracts`'s JSON-Schema

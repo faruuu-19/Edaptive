@@ -29,7 +29,7 @@ never advances on a reasoning error the system failed to catch.
 |---|---|
 | Faryal | Modules A & B — prompting architecture, verification bridge, misconception classification |
 | Amna | Module C + frontend half of E — widget engine, avatar state machine, live lesson player, replay UI |
-| Ibrahim | Data infra, Module D, backend half of E, Module F — curriculum ingestion, scheduling engine, data model, parent dashboard backend |
+| Ibrahim | Data infra, auth & profiles, Module D, backend half of E, Module F — curriculum ingestion, scheduling engine, data model, parent dashboard backend |
 
 ## Repo layout
 

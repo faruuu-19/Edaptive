@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "node_id": "math.g3.m5.l1",
+  "title": "Unit fractions: one part of a whole",
+  "subject": "math",
+  "grade": 3,
+  "objectives": ["Partition a whole into equal parts and name one part as a unit fraction."],
+  "steps": [
+    {
+      "step_id": "intro",
+      "kind": "explain",
+      "prompt": "This bar is cut into 4 equal parts. Each part is one fourth.",
+      "widget": { "widget_type": "fraction_bar", "props": { "parts": 4, "shaded": 1 } }
+    },
+    {
+      "step_id": "try-1",
+      "kind": "check",
+      "prompt": "Shade one third of the bar. What fraction did you shade?",
+      "widget": { "widget_type": "fraction_bar", "props": { "parts": 3, "shaded": 0 } },
+      "check": { "verifier": "sympy", "spec": { "expected": "1/3" } }
+    }
+  ]
+}

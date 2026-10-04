@@ -1,0 +1,33 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    services:
+      db:
+        image: pgvector/pgvector:pg16
+        env:
+          POSTGRES_USER: edaptive
+          POSTGRES_PASSWORD: edaptive
+          POSTGRES_DB: edaptive
+        ports: ["5433:5432"]
+        options: >-
+          --health-cmd "pg_isready -U edaptive" --health-interval 2s --health-timeout 3s --health-retries 20
+    env:
+      REQUIRE_DB: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: make setup
+      - run: make migrate
+      - run: make check

@@ -34,10 +34,27 @@ never advances on a reasoning error the system failed to catch.
 ## Repo layout
 
 ```
-backend/     # LLM orchestration, verification bridge, data infra, scheduling, parent/consent APIs
-frontend/    # Declarative UI engine, widget library, avatar, lesson player, parent dashboard UI
-docs/        # Proposal, curriculum sourcing, architecture notes
+contracts/   # Shared JSON Schemas: events, lessons, curriculum, widgets, tutor actions
+backend/     # FastAPI: session log, curriculum, scheduling, assessment, consent, parent, LLM + verifiers
+frontend/    # Next.js: widgets, avatar, lesson player, home/profile, timetable, dashboards
+tools/       # Codegen (contracts → Python + TypeScript types)
+docs/        # Proposal, curriculum sourcing, architecture, roadmap, contributing
 ```
+
+## Getting started
+
+Needs: Python via [uv](https://docs.astral.sh/uv/), Node 20.9+, Docker (for Postgres 16 + pgvector).
+
+```bash
+make setup            # install dependencies
+make db-up migrate    # start the database and apply migrations
+make dev-backend      # http://localhost:8000/docs
+make dev-frontend     # http://localhost:3000
+make check            # everything CI checks; run before every PR
+```
+
+Read [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) before your first PR, and
+[docs/ROADMAP.md](docs/ROADMAP.md) for build order.
 
 ## Status
 

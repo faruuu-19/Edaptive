@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "WidgetRef",
+  "description": "PLACEHOLDER owned by Track B (Widget Schema, Mid-1). Only the outer shape is fixed here so lessons can reference widgets; Track B tightens props per widget_type.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["widget_type", "props"],
+  "properties": {
+    "widget_type": { "type": "string", "pattern": "^[a-z][a-z_]*$" },
+    "props": { "type": "object" }
+  }
+}

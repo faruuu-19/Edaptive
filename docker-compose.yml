@@ -1,0 +1,21 @@
+# Local dev database: Postgres 16 + pgvector, on port 5433 so it never collides with
+# any other Postgres already running on a developer's machine.
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: edaptive
+      POSTGRES_PASSWORD: edaptive
+      POSTGRES_DB: edaptive
+    ports:
+      - "5433:5432"
+    volumes:
+      - edaptive-db:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U edaptive"]
+      interval: 2s
+      timeout: 3s
+      retries: 20
+
+volumes:
+  edaptive-db:

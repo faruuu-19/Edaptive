@@ -1,0 +1,40 @@
+# Who must review changes to each path. Contract changes need a reviewer from every
+# track (see docs/CONTRIBUTING.md); everything else is reviewed by the owning track.
+
+*                                  @faruuu-19 @amna-cpp @ibrahim-idcode
+
+# Shared contracts: any change affects all three tracks
+/contracts/                        @faruuu-19 @amna-cpp @ibrahim-idcode
+/contracts/tutor/                  @faruuu-19
+/contracts/widgets/                @amna-cpp
+/tools/                            @faruuu-19 @amna-cpp @ibrahim-idcode
+/.github/                          @faruuu-19 @amna-cpp @ibrahim-idcode
+
+# Track A: AI & Verification (Faryal)
+/backend/app/modules/socratic/     @faruuu-19
+/backend/app/modules/verification/ @faruuu-19
+/frontend/src/features/verification-badge/ @faruuu-19
+
+# Track B: Front-end, Avatar & Voice (Amna)
+/frontend/src/features/widgets/       @amna-cpp
+/frontend/src/features/avatar/        @amna-cpp
+/frontend/src/features/voice/         @amna-cpp
+/frontend/src/features/lesson-player/ @amna-cpp
+/frontend/src/features/replay/        @amna-cpp
+
+# Track C: Data, Scheduling & Parent (Ibrahim)
+/backend/app/core/                 @ibrahim-idcode
+/backend/app/session_log/          @ibrahim-idcode
+/backend/migrations/               @ibrahim-idcode
+/backend/app/modules/curriculum/   @ibrahim-idcode
+/backend/app/modules/profiles/     @ibrahim-idcode
+/backend/app/modules/scheduling/   @ibrahim-idcode
+/backend/app/modules/assessment/   @ibrahim-idcode
+/backend/app/modules/attention/    @ibrahim-idcode
+/backend/app/modules/consent/      @ibrahim-idcode
+/backend/app/modules/parent/       @ibrahim-idcode
+/frontend/src/features/home-profile/ @ibrahim-idcode
+/frontend/src/features/timetable/  @ibrahim-idcode
+/frontend/src/features/progress/   @ibrahim-idcode
+/frontend/src/features/attention/  @ibrahim-idcode
+/frontend/src/features/parent/     @ibrahim-idcode

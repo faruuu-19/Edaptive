@@ -1,0 +1,795 @@
+{
+  "schema_version": "0.1-draft",
+  "assessment_id": "math_g1_m1_end_of_module_assessment",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g1_m1_end_of_module",
+      "file": "math-g1-m1-end-of-module-assessment.pdf",
+      "source_version": "G1-M1-TE-1.3.0-06.2015",
+      "title": "Eureka Math / EngageNY, Grade 1, Module 1, End-of-Module Assessment Task",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "printed footer numbers"
+    }
+  ],
+  "grade": 1,
+  "subject": "math",
+  "module": 1,
+  "assessment_kind": "end_of_module",
+  "topics_covered": "A–J",
+  "covers_lessons": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39
+  ],
+  "standards": [
+    "1.OA.1",
+    "1.OA.3",
+    "1.OA.4",
+    "1.OA.5",
+    "1.OA.6",
+    "1.OA.7",
+    "1.OA.8"
+  ],
+  "purpose": {
+    "id": "purpose",
+    "text": "End-of-module check of Topics A to J (lessons 1 to 39). Four tasks, each scored on a 4-step scale (1 to 4 points). Goal for each child: Step 4.",
+    "origin": "derived",
+    "source_ref": {
+      "src": "src1",
+      "page": "490"
+    }
+  },
+  "items": [
+    {
+      "id": "ai_1",
+      "number": "1",
+      "title": "Addend unknown word problem",
+      "standards": [
+        "1.OA.1",
+        "1.OA.4",
+        "1.OA.6",
+        "1.OA.8"
+      ],
+      "parts": [
+        {
+          "id": "ai_1_stem",
+          "label": "stem",
+          "child_text": "There are 9 ducks swimming in a line. 2 of the ducks are grown-ups. The rest are babies. How many ducks are babies?",
+          "source_text": "There are 9 ducks swimming along in a line. There are 2 grown-up ducks, and the rest are babies. How many of the ducks are babies?",
+          "response_type": "number",
+          "tutorable": true,
+          "origin": "adapted",
+          "source_ref": {
+            "src": "src1",
+            "page": "488"
+          },
+          "rubric_id": "r_ai_1_stem",
+          "stimulus": {
+            "total": 9,
+            "grown_ups": 2
+          }
+        },
+        {
+          "id": "ai_1a",
+          "label": "a",
+          "child_text": "9 ducks swim in a line. 2 are grown-ups and the rest are babies. Tell me how you found how many are babies. Use numbers or words.",
+          "source_text": "Explain your thinking using pictures, numbers, or words.",
+          "response_type": "explain",
+          "tutorable": true,
+          "origin": "adapted",
+          "source_ref": {
+            "src": "src1",
+            "page": "488"
+          },
+          "rubric_id": "r_ai_1a",
+          "stimulus": {
+            "total": 9,
+            "grown_ups": 2
+          }
+        },
+        {
+          "id": "ai_1b",
+          "label": "b",
+          "child_text": "9 ducks swim in a line. 2 are grown-ups and the rest are babies. Write a number sentence that shows how you found how many are babies.",
+          "source_text": "Write a number sentence that shows how you solved the problem.",
+          "response_type": "number_sentence",
+          "tutorable": true,
+          "origin": "adapted",
+          "source_ref": {
+            "src": "src1",
+            "page": "488"
+          },
+          "rubric_id": "r_ai_1b",
+          "stimulus": {
+            "total": 9,
+            "grown_ups": 2
+          }
+        }
+      ],
+      "mastery_rubric_id": "mr_1",
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "488"
+      }
+    },
+    {
+      "id": "ai_2",
+      "number": "2",
+      "title": "Addition to solve subtraction",
+      "standards": [
+        "1.OA.4",
+        "1.OA.5",
+        "1.OA.7",
+        "1.OA.8"
+      ],
+      "parts": [
+        {
+          "id": "ai_2_stem",
+          "label": "stem",
+          "child_text": "Jennifer says you can use addition to solve a subtraction problem. She says to solve 9 minus 6 equals what number, just add 9 plus 6. Tell me how Jennifer is right and how she is wrong. Use words and numbers.",
+          "source_text": "Jennifer says you can use addition to solve subtraction. She says to solve 9 – 6 = [empty box], just add 9 + 6. Explain how Jennifer is right and wrong using words, pictures, and numbers.",
+          "response_type": "explain",
+          "tutorable": true,
+          "origin": "adapted",
+          "source_ref": {
+            "src": "src1",
+            "page": "488"
+          },
+          "rubric_id": "r_ai_2_stem",
+          "stimulus": {
+            "subtraction": "9 - 6 = _",
+            "jennifer_adds": "9 + 6"
+          }
+        }
+      ],
+      "mastery_rubric_id": "mr_2",
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "488"
+      }
+    },
+    {
+      "id": "ai_3",
+      "number": "3",
+      "title": "Teach: related addition sentences",
+      "standards": [
+        "1.OA.5",
+        "1.OA.4",
+        "1.OA.7",
+        "1.OA.8"
+      ],
+      "parts": [
+        {
+          "id": "ai_3_stem",
+          "label": "stem",
+          "child_text": "Jeremy is confused about this problem: what number equals 10 minus 8. Be his teacher. Tell me two addition sentences that can help him solve it. Then explain to Jeremy how they help. Use words or numbers.",
+          "source_text": "Jeremy is confused about this problem: [empty box] = 10 – 8. Be his teacher. Write two addition number sentences that might help him understand and solve it. Explain to Jeremy using words, pictures, or numbers, too.",
+          "response_type": "explain",
+          "tutorable": true,
+          "origin": "adapted",
+          "source_ref": {
+            "src": "src1",
+            "page": "489"
+          },
+          "rubric_id": "r_ai_3_stem",
+          "stimulus": {
+            "equation": "_ = 10 - 8"
+          }
+        }
+      ],
+      "mastery_rubric_id": "mr_3",
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "489"
+      }
+    },
+    {
+      "id": "ai_4",
+      "number": "4",
+      "title": "Add to, change unknown",
+      "standards": [
+        "1.OA.1",
+        "1.OA.3",
+        "1.OA.4",
+        "1.OA.6",
+        "1.OA.7",
+        "1.OA.8",
+        "1.OA.5"
+      ],
+      "parts": [
+        {
+          "id": "ai_4a",
+          "label": "a",
+          "child_text": "6 friends are playing baseball at the park. Some more friends come. Now 10 friends are playing. How many friends came? Tell me how you know. Use numbers and words.",
+          "source_text": "At the park, there are 6 friends playing baseball. Some more friends come. Now, there are 10 friends playing. How many friends come to play with the first 6 friends? Explain your thinking using a math drawing, numbers, and words.",
+          "response_type": "explain",
+          "tutorable": true,
+          "origin": "adapted",
+          "source_ref": {
+            "src": "src1",
+            "page": "489"
+          },
+          "rubric_id": "r_ai_4a",
+          "stimulus": {
+            "start": 6,
+            "total": 10
+          }
+        },
+        {
+          "id": "ai_4b",
+          "label": "b",
+          "child_text": "6 friends are playing baseball. Some more friends come. Now 10 friends are playing. Write an addition sentence and a subtraction sentence for the story.",
+          "source_text": "Write an addition sentence and a subtraction sentence to match the story.",
+          "response_type": "number_sentence",
+          "tutorable": true,
+          "origin": "adapted",
+          "source_ref": {
+            "src": "src1",
+            "page": "489"
+          },
+          "rubric_id": "r_ai_4b",
+          "stimulus": {
+            "start": 6,
+            "total": 10
+          }
+        },
+        {
+          "id": "ai_4c",
+          "label": "c",
+          "child_text": "6 friends play baseball. Some more come. Now 10 friends play. Write the addition sentence you found when you solved the problem. Then use the same 3 numbers to write 3 more number sentences.",
+          "source_text": "Write the addition sentence you found when solving the problem, and use the same 3 numbers to write 3 more number sentences:",
+          "response_type": "number_sentence",
+          "tutorable": true,
+          "origin": "adapted",
+          "source_ref": {
+            "src": "src1",
+            "page": "489"
+          },
+          "rubric_id": "r_ai_4c",
+          "stimulus": {
+            "start": 6,
+            "total": 10,
+            "sentences_wanted": 4
+          }
+        }
+      ],
+      "mastery_rubric_id": "mr_4",
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "489"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_ai_1_stem",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "The answer is 7 (7 ducks are babies).",
+      "partial": null,
+      "incorrect": "Any other number.",
+      "unclear": "No answer that can be understood.",
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "491",
+        "section": "Step 4, Task 1: determines that 7 ducks are babies"
+      }
+    },
+    {
+      "id": "r_ai_1a",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Explains with numbers or words how the 7 babies were found, for example 9 minus 2 equals 7, or 2 plus 7 equals 9, or 2 are grown-ups and the rest are babies.",
+      "partial": "Gives the answer 7 with no reason, or gives a reason that is only partly clear.",
+      "incorrect": "Gives a reason that does not fit the story, for example adding 9 and 2.",
+      "unclear": "No answer that can be understood.",
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "491",
+        "section": "Step 4, Task 1: explains thinking by drawing a picture, writing numbers or equations, or words"
+      }
+    },
+    {
+      "id": "r_ai_1b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 + 7 = 9",
+          "7 + 2 = 9",
+          "9 = 2 + 7",
+          "9 = 7 + 2",
+          "9 - 2 = 7",
+          "7 = 9 - 2",
+          "2 plus 7 equals 9",
+          "7 plus 2 equals 9",
+          "9 equals 2 plus 7",
+          "9 equals 7 plus 2",
+          "9 minus 2 equals 7",
+          "7 equals 9 minus 2",
+          "2 + _ = 9",
+          "_ + 2 = 9",
+          "9 = 2 + _",
+          "9 = _ + 2",
+          "9 - 2 = _",
+          "_ = 9 - 2"
+        ]
+      },
+      "correct": "Writes a true addition or subtraction sentence that finds the 7 babies: 2 plus 7 equals 9, or 9 minus 2 equals 7, in any printed form (a blank for the 7 is accepted).",
+      "partial": "Writes a true sentence with 9, 2 and 7 that does not find the babies, for example 9 minus 7 equals 2.",
+      "incorrect": "Writes a sentence that is not true or does not use 9, 2 and 7.",
+      "unclear": "No answer that can be understood.",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "491",
+        "section": "Step 4, Task 1: an equation that corresponds with her solution process (addition or subtraction)"
+      }
+    },
+    {
+      "id": "r_ai_2_stem",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says Jennifer is right that addition can solve a subtraction problem (for example 6 plus what number equals 9, so 9 minus 6 equals 3), and wrong to add 9 plus 6 (that makes 15, not the answer).",
+      "partial": "Says Jennifer is wrong to add 9 plus 6 but cannot fully explain why, or says addition can solve subtraction but does not say that adding 9 and 6 is wrong.",
+      "incorrect": "Says Jennifer is completely right (9 plus 6 solves it), or gives a reason that is not true.",
+      "unclear": "No answer that can be understood.",
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "491",
+        "section": "Step 4, Task 2 (answers 9 - 6 = 3 and 9 + 6 = 15 are derived)"
+      }
+    },
+    {
+      "id": "r_ai_3_stem",
+      "answer_key": {
+        "mode": "open",
+        "valid_sentences": [
+          "8 + 2 = 10",
+          "2 + 8 = 10",
+          "10 = 8 + 2",
+          "10 = 2 + 8"
+        ],
+        "min_distinct": 2
+      },
+      "correct": "Writes two different true addition sentences that use 8, 2 and 10 (for example 8 plus 2 equals 10 and 2 plus 8 equals 10), and explains that 10 minus 8 can be solved by finding what number added to 8 makes 10, so the answer is 2.",
+      "partial": "Writes only one true sentence, or writes sentences with a blank in place of the 2, or explains the link between adding and subtracting but writes fewer than two true sentences.",
+      "incorrect": "Writes sentences that are not true or do not use 8, 2 and 10, or writes only subtraction sentences.",
+      "unclear": "No answer that can be understood.",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "492",
+        "section": "Step 4, Task 3: two accurate addition equations using 8, 2, and 10; cites the connection between addition and subtraction"
+      }
+    },
+    {
+      "id": "r_ai_4a",
+      "answer_key": {
+        "mode": "open",
+        "correct_answer": "4"
+      },
+      "correct": "Says 4 friends came, and explains with numbers or words, for example 6 plus 4 equals 10, or 10 minus 6 equals 4.",
+      "partial": "Says 4 but gives no reason, or gives a clear reason but a wrong number.",
+      "incorrect": "Gives a wrong number with no clear reason, for example 16 (adds 6 and 10).",
+      "unclear": "No answer that can be understood.",
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "492",
+        "section": "Step 4, Task 4: determines that 4 friends came to play, and explains his thinking"
+      }
+    },
+    {
+      "id": "r_ai_4b",
+      "answer_key": {
+        "mode": "exact_list",
+        "answers": [
+          {
+            "prompt": "an addition sentence for the story",
+            "accept": [
+              "6 + 4 = 10",
+              "4 + 6 = 10",
+              "10 = 6 + 4",
+              "10 = 4 + 6",
+              "6 plus 4 equals 10",
+              "4 plus 6 equals 10",
+              "10 equals 6 plus 4",
+              "10 equals 4 plus 6",
+              "6 + _ = 10",
+              "_ + 6 = 10",
+              "10 = 6 + _",
+              "10 = _ + 6"
+            ]
+          },
+          {
+            "prompt": "a subtraction sentence for the story",
+            "accept": [
+              "10 - 6 = 4",
+              "4 = 10 - 6",
+              "10 minus 6 equals 4",
+              "4 equals 10 minus 6",
+              "10 - 6 = _",
+              "_ = 10 - 6"
+            ]
+          }
+        ]
+      },
+      "correct": "Writes a true addition sentence and a true subtraction sentence that match the story: 6 plus 4 equals 10 (or 4 plus 6 equals 10) and 10 minus 6 equals 4.",
+      "partial": "Writes only one of the two sentences correctly, or writes a true sentence that does not match the story, for example 10 minus 4 equals 6.",
+      "incorrect": "Writes sentences that are not true or do not use 6, 4 and 10.",
+      "unclear": "No answer that can be understood.",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "492",
+        "section": "Step 4, Task 4: writes addition and subtraction equations which correspond to the problem"
+      }
+    },
+    {
+      "id": "r_ai_4c",
+      "answer_key": {
+        "mode": "open",
+        "valid_sentences": [
+          "6 + 4 = 10",
+          "4 + 6 = 10",
+          "10 = 6 + 4",
+          "10 = 4 + 6",
+          "10 - 6 = 4",
+          "10 - 4 = 6",
+          "4 = 10 - 6",
+          "6 = 10 - 4"
+        ],
+        "min_distinct": 4
+      },
+      "correct": "Writes 4 different true sentences that use 6, 4 and 10: the addition sentence found when solving and 3 more, for example 6 plus 4 equals 10, 4 plus 6 equals 10, 10 equals 6 plus 4, 10 minus 6 equals 4.",
+      "partial": "Writes only 1 to 3 different true sentences, or repeats a sentence, or writes 4 sentences where one is not true.",
+      "incorrect": "Writes sentences that are not true or do not use 6, 4 and 10.",
+      "unclear": "No answer that can be understood.",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "492",
+        "section": "Step 4, Task 4: three additional equations (10 = 6 + 4; 4 + 6 = 10; 10 - 4 = 6; etc.)"
+      }
+    }
+  ],
+  "mastery_rubrics": [
+    {
+      "id": "mr_1",
+      "item_id": "ai_1",
+      "max_points": 4,
+      "steps": [
+        {
+          "step": 1,
+          "points": 1,
+          "descriptor": "The student demonstrates a limited ability to both explain his thinking and answer accurately."
+        },
+        {
+          "step": 2,
+          "points": 2,
+          "descriptor": "The student demonstrates a beginning concept of how to solve an addend unknown relationship problem using pictures, words, or numbers by attempting to show her thinking but provides an inaccurate answer."
+        },
+        {
+          "step": 3,
+          "points": 3,
+          "descriptor": "The student correctly solves the addend unknown relationship problem and writes a corresponding equation but cannot explain his thinking in pictures, words, or numbers. OR the student explains her thinking using pictures, words, or numbers, but is unable to write an accurate equation."
+        },
+        {
+          "step": 4,
+          "points": 4,
+          "descriptor": "The student correctly solves the addend unknown relationship problem and determines that 7 ducks are babies, explains thinking by drawing a picture, writing numbers or equations, or words, and writes an equation that corresponds with her solution process (addition or subtraction)."
+        }
+      ],
+      "full_credit_requirements": [
+        "Solves the addend unknown relationship problem and determines that 7 ducks are babies.",
+        "Explains thinking by drawing a picture, writing numbers or equations, or words.",
+        "Writes an equation that corresponds with her solution process (addition or subtraction)."
+      ],
+      "reference_answers": [
+        "7 ducks are babies"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "491"
+      }
+    },
+    {
+      "id": "mr_2",
+      "item_id": "ai_2",
+      "max_points": 4,
+      "steps": [
+        {
+          "step": 1,
+          "points": 1,
+          "descriptor": "The student shows little evidence of understanding how addition and subtraction differ or is unable to complete the task."
+        },
+        {
+          "step": 2,
+          "points": 2,
+          "descriptor": "The student shows evidence of beginning to understand how addition and subtraction differ through his explanation but demonstrates incomplete reasoning or an incorrect answer."
+        },
+        {
+          "step": 3,
+          "points": 3,
+          "descriptor": "The student identifies that Jennifer is incorrect but cannot fully support the claim or explain his thinking clearly."
+        },
+        {
+          "step": 4,
+          "points": 4,
+          "descriptor": "The student correctly identifies that Jennifer is correct, that addition can be used to solve a subtraction problem, and that she is incorrect in adding 9 and 6 to solve 9 – 6. The student shows her thinking using words, pictures, or numbers."
+        }
+      ],
+      "full_credit_requirements": [
+        "Identifies that Jennifer is correct that addition can be used to solve a subtraction problem.",
+        "Identifies that she is incorrect in adding 9 and 6 to solve 9 – 6.",
+        "Shows her thinking using words, pictures, or numbers."
+      ],
+      "reference_answers": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "491"
+      }
+    },
+    {
+      "id": "mr_3",
+      "item_id": "ai_3",
+      "max_points": 4,
+      "steps": [
+        {
+          "step": 1,
+          "points": 1,
+          "descriptor": "The student demonstrates little to no understanding of the concept of the connection between addition and subtraction and is unable to explain her thinking."
+        },
+        {
+          "step": 2,
+          "points": 2,
+          "descriptor": "The student demonstrates a beginning understanding of the connection between addition and subtraction but does not answer accurately."
+        },
+        {
+          "step": 3,
+          "points": 3,
+          "descriptor": "The student correctly writes two accurate equations using 8, 2, and 10 but is unable to explain her thinking. OR the student is able to explain her thinking, somehow citing the connection between addition and subtraction, but is unable to write two accurate equations."
+        },
+        {
+          "step": 4,
+          "points": 4,
+          "descriptor": "The student correctly writes two accurate addition equations using 8, 2, and 10, and explains her thinking using pictures, numbers, or words, and cites the connection between addition and subtraction in her explanation."
+        }
+      ],
+      "full_credit_requirements": [
+        "Writes two accurate addition equations using 8, 2, and 10.",
+        "Explains her thinking using pictures, numbers, or words, and cites the connection between addition and subtraction in her explanation."
+      ],
+      "reference_answers": [
+        "two addition equations using 8, 2, and 10"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "492"
+      }
+    },
+    {
+      "id": "mr_4",
+      "item_id": "ai_4",
+      "max_points": 4,
+      "steps": [
+        {
+          "step": 1,
+          "points": 1,
+          "descriptor": "The student shows very little understanding of how to solve the add to with change unknown problem and cannot write corresponding equations."
+        },
+        {
+          "step": 2,
+          "points": 2,
+          "descriptor": "The student shows a beginning understanding of how to solve the add to with change unknown problem, but lacks reasoning or equation writing skills."
+        },
+        {
+          "step": 3,
+          "points": 3,
+          "descriptor": "The student correctly answers the add to with change unknown problem (4 friends came to play), writes accurate addition and subtraction equations, including those that demonstrate an understanding of the commutative property, but is unable to explain his thinking. OR, the student writes addition and subtraction equations correctly and clearly explains his thinking, but does not answer accurately (something other than 4 friends came to play). OR, the student solves the problem (4 friends came to play) and explains thinking clearly, but does not write all addition and subtraction sentences accurately."
+        },
+        {
+          "step": 4,
+          "points": 4,
+          "descriptor": "The student clearly solves the add to with change unknown problem, determines that 4 friends came to play, and explains his thinking; writes addition and subtraction equations which correspond to the problem; and applies the commutative property and knowledge of the equal sign to write three additional equations (10 = 6 + 4; 4 + 6 = 10; 10 – 4 = 6; etc.)."
+        }
+      ],
+      "full_credit_requirements": [
+        "Solves the add to with change unknown problem, determines that 4 friends came to play, and explains his thinking.",
+        "Writes addition and subtraction equations which correspond to the problem.",
+        "Applies the commutative property and knowledge of the equal sign to write three additional equations (10 = 6 + 4; 4 + 6 = 10; 10 – 4 = 6; etc.)."
+      ],
+      "reference_answers": [
+        "4 friends came to play",
+        "three additional equations such as 10 = 6 + 4; 4 + 6 = 10; 10 - 4 = 6"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "492"
+      }
+    }
+  ],
+  "assets_required": [],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "whole card",
+      "issue": "This card is an AI draft. A person must review every item, answer key and rubric before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "source_refs",
+      "issue": "Source license: Eureka Math is CC BY-NC-SA 3.0 (Great Minds). Credit Great Minds, keep it non-commercial, share under the same license."
+    },
+    {
+      "id": "f3",
+      "severity": "medium",
+      "item": "all parts",
+      "issue": "Child wording was rewritten for a screen and the Tutor. A person must review the wording of all 8 parts."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "ai_1a, ai_2_stem, ai_3_stem, ai_4a",
+      "issue": "The printed tasks ask for pictures, words and numbers. Only typed or spoken words and numbers can be judged. A drawn explanation is not judged. Task 4a prints 'a math drawing, numbers, and words' (all three), so the drawing part is dropped here."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "ai_3_stem, ai_4a",
+      "issue": "Each of these printed parts asks for two things in one part (task 3: two addition sentences plus an explanation; 4a: the number plus an explanation). Each has one open rubric. A person may split them into separate parts."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "mastery_rubrics",
+      "issue": "The printed 4-step scales of all 4 tasks allow pictures as evidence. The Tutor sees no pictures, so the score for a child who only draws cannot be computed from the Tutor's answers. The reporting layer must decide how to score these children."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "r_ai_1b, r_ai_2_stem, r_ai_3_stem, r_ai_4b, r_ai_4c",
+      "issue": "Answer keys derived by the generator, not printed: the accepted sentence forms (r_ai_1b, r_ai_3_stem, r_ai_4b, r_ai_4c) and the values 9 - 6 = 3 and 9 + 6 = 15 (r_ai_2_stem). A person must recompute each one."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "mastery_rubrics",
+      "issue": "Sample student work on printed pages 493-494 (Maria) was not converted into items. It was only used to cross-check the printed answers."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "page 494, task 4c sample",
+      "issue": "The sample student work for 4c ends with '10 = 4 - 6', which is not true (4 minus 6 is not 10). It was not used for any answer key. A person should know that this sample is not a perfect model answer."
+    },
+    {
+      "id": "f10",
+      "severity": "low",
+      "item": "page 493, task 1b sample",
+      "issue": "The sample work for 1b shows a handwritten mark under the circled 7 that looks like an 8 or a B. It could not be read clearly and was ignored."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "ai_2_stem, ai_3_stem",
+      "issue": "Tasks 2 and 3 have no printed part labels. Each is one part with the label 'stem'. Task 1 uses 'stem' for the printed question before parts a and b."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "r_ai_1b, r_ai_4b, r_ai_3_stem, r_ai_4c",
+      "issue": "Blank forms such as 2 + _ = 9 are accepted in r_ai_1b and r_ai_4b (the sample work shows them) but not in r_ai_3_stem and r_ai_4c, where the printed Step 4 says 'using 8, 2, and 10' or 'the same 3 numbers'. A person must decide."
+    },
+    {
+      "id": "f13",
+      "severity": "low",
+      "item": "r_ai_1b, r_ai_4b",
+      "issue": "True sentences that do not match the task are marked partial, not correct: 9 - 7 = 2 (task 1b) and 10 - 4 = 6 (task 4b). 4 + 6 = 10 is accepted as an addition sentence for the story in task 4b. A person must confirm these choices."
+    },
+    {
+      "id": "f14",
+      "severity": "low",
+      "item": "r_ai_1b, r_ai_4b, r_ai_4c, r_ai_3_stem",
+      "issue": "Accept lists use a hyphen for minus and an underscore for a blank. The Tutor must treat a minus sign, a hyphen, an en dash and the word minus as the same, and read an underscore as a blank."
+    },
+    {
+      "id": "f15",
+      "severity": "low",
+      "item": "r_ai_1_stem",
+      "issue": "partial is null for this exact key. The script must map a wrong answer to a prepared response."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "assets_required",
+      "issue": "No part has a printed picture. The ducks (task 1) and the friends (task 4) are only words in the source, so assets_required is empty and no part is image-dependent."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "visual_generation_rules, extensions_beyond_pipeline_doc",
+      "issue": "The assessment prompt's worked example does not contain these two fields. They were copied from the lesson prompt's worked example, which is what the pipeline script does for every card type. A person should confirm they apply to assessment cards."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

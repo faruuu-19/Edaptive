@@ -1,0 +1,451 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "concept_card (DRAFT 0.1 - agree with Amna before use)",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "concept_id",
+    "card_version",
+    "source_refs",
+    "review_status",
+    "objective",
+    "prerequisite_ids",
+    "explanations",
+    "examples",
+    "questions",
+    "rubrics",
+    "hints"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "concept_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9_]+$"
+    },
+    "card_version": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "review_status": {
+      "enum": [
+        "draft",
+        "in_review",
+        "reviewed",
+        "rejected"
+      ]
+    },
+    "source_refs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "src",
+          "source_id",
+          "source_version"
+        ],
+        "properties": {
+          "src": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "source_version": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "objective": {
+      "$ref": "#/$defs/item_text"
+    },
+    "prerequisite_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "explanations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/item_text"
+      }
+    },
+    "examples": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/item_text"
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/question"
+      }
+    },
+    "rubrics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/rubric"
+      }
+    },
+    "hints": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/hint"
+      }
+    },
+    "misconceptions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/misconception"
+      }
+    },
+    "assets_required": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "asset_id",
+          "status",
+          "kind",
+          "recommended_method",
+          "diffusion_suitable",
+          "why_this_method",
+          "description",
+          "must_show_exactly",
+          "states_or_frames",
+          "interaction",
+          "alt_text",
+          "used_by",
+          "generation_caption"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "available",
+              "not_available"
+            ]
+          },
+          "kind": {
+            "enum": [
+              "interactive_widget",
+              "animation",
+              "static_illustration"
+            ]
+          },
+          "diffusion_suitable": {
+            "enum": [
+              "no",
+              "icon_only_then_code_layout",
+              "style_or_background_only",
+              "yes"
+            ]
+          },
+          "must_show_exactly": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "states_or_frames": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "used_by": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "review_flags": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "severity",
+          "item",
+          "issue"
+        ],
+        "properties": {
+          "severity": {
+            "enum": [
+              "high",
+              "medium",
+              "low"
+            ]
+          }
+        }
+      }
+    },
+    "visual_generation_rules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "$defs": {
+    "origin": {
+      "enum": [
+        "source",
+        "adapted",
+        "derived",
+        "generated"
+      ]
+    },
+    "source_ref": {
+      "type": "object",
+      "required": [
+        "src",
+        "page"
+      ],
+      "properties": {
+        "src": {
+          "type": "string"
+        },
+        "page": {
+          "type": "string"
+        }
+      }
+    },
+    "item_text": {
+      "type": "object",
+      "required": [
+        "id",
+        "text",
+        "origin"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "origin": {
+          "$ref": "#/$defs/origin"
+        },
+        "source_ref": {
+          "$ref": "#/$defs/source_ref"
+        },
+        "asset_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "if": {
+        "properties": {
+          "origin": {
+            "enum": [
+              "source",
+              "adapted",
+              "derived"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "source_ref"
+        ]
+      }
+    },
+    "question": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "text",
+        "rubric_id",
+        "hint_ids",
+        "origin"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "prior_knowledge",
+            "practice",
+            "application",
+            "debrief"
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "rubric_id": {
+          "type": "string"
+        },
+        "hint_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string"
+          }
+        },
+        "asset_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "origin": {
+          "$ref": "#/$defs/origin"
+        },
+        "source_ref": {
+          "$ref": "#/$defs/source_ref"
+        }
+      },
+      "if": {
+        "properties": {
+          "origin": {
+            "enum": [
+              "source",
+              "adapted",
+              "derived"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "source_ref"
+        ]
+      }
+    },
+    "rubric": {
+      "type": "object",
+      "required": [
+        "id",
+        "answer_key",
+        "correct",
+        "partial",
+        "incorrect",
+        "unclear",
+        "origin"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "answer_key": {
+          "type": "object",
+          "required": [
+            "mode"
+          ],
+          "properties": {
+            "mode": {
+              "enum": [
+                "exact",
+                "pair_of_parts",
+                "open"
+              ]
+            }
+          }
+        },
+        "correct": {
+          "type": "string",
+          "minLength": 1
+        },
+        "partial": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "incorrect": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unclear": {
+          "type": "string",
+          "minLength": 1
+        },
+        "misconception_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "origin": {
+          "$ref": "#/$defs/origin"
+        }
+      }
+    },
+    "hint": {
+      "type": "object",
+      "required": [
+        "id",
+        "level",
+        "text",
+        "origin"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "level": {
+          "enum": [
+            1,
+            2,
+            3
+          ]
+        },
+        "text": {
+          "type": "string"
+        },
+        "origin": {
+          "$ref": "#/$defs/origin"
+        }
+      }
+    },
+    "misconception": {
+      "type": "object",
+      "required": [
+        "id",
+        "label",
+        "description",
+        "response_text",
+        "origin"
+      ],
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "label": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "response_text": {
+          "type": "string"
+        },
+        "origin": {
+          "$ref": "#/$defs/origin"
+        }
+      }
+    }
+  }
+}

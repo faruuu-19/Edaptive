@@ -1,0 +1,1108 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g1_m1_l1_embedded_numbers",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g1_m1",
+      "file": "math-g1-m1-topic-a-lesson-1.pdf",
+      "source_version": "G1-M1-TE-1.3.0-06.2015",
+      "title": "Eureka Math / EngageNY, Grade 1, Module 1, Lesson 1",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "printed footer numbers (lesson runs p22-p34)"
+    }
+  ],
+  "grade": 1,
+  "subject": "math",
+  "standards": [
+    "K.CC.2",
+    "K.CC.4",
+    "K.CC.5"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Find numbers hiding inside a number up to 10. Show them with 5-groups and number bonds.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "22",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "k_counting_to_10",
+    "k_number_bonds"
+  ],
+  "explanations": [
+    {
+      "id": "exp_detective",
+      "title": "Number detectives",
+      "text": "Let's be number detectives! A number can have smaller numbers hiding inside it. Look at 5 beads. I can see 2 hiding inside the 5.",
+      "asset_ids": [
+        "a_egg_carton_board"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_total_parts",
+      "title": "Total and parts (number bond)",
+      "text": "A number bond shows a big number and the parts hiding inside it. The big number is the total, or the whole. The smaller numbers are the parts. 2 and 3 are the parts of 5.",
+      "asset_ids": [
+        "a_number_bond_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_five_group_count_on",
+      "title": "Five and some more (5-group way)",
+      "text": "Look at 7 beads. There is a row of 5 and 2 more. Draw 5 dots for one part and 2 dots for the other part. Now count on from 5: five, 6, 7. The total is 7.",
+      "asset_ids": [
+        "a_egg_carton_board",
+        "a_five_group_dots",
+        "a_number_bond_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "25",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_fingers_math_way",
+      "title": "Fingers the Math Way",
+      "text": "You can show numbers with your fingers. To show 6, hold up all 5 fingers on one hand and 1 finger on the other hand. Can you see the 5 inside the 6?",
+      "asset_ids": [
+        "a_fingers_flash"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "26",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_5_two_three",
+      "title": "Parts of 5: 2 and 3",
+      "text": "5 beads are in the top row. Cover 2 beads. The other part is 3. Number bond: total 5, parts 2 and 3.",
+      "asset_ids": [
+        "a_egg_carton_board",
+        "a_number_bond_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_7_five_two",
+      "title": "Parts of 7: 5 and 2",
+      "text": "7 beads: 5 in the top row and 2 in the bottom row. Number bond: total 7, parts 5 and 2. Count on from 5: five, 6, 7.",
+      "asset_ids": [
+        "a_egg_carton_board",
+        "a_five_group_dots",
+        "a_number_bond_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "25",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "I will show some fingers very fast. Look carefully! How many fingers did you see?",
+      "asset_ids": [
+        "a_fingers_flash"
+      ],
+      "stimulus": {
+        "fingers_shown": 3,
+        "display_seconds": 2
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_nocount"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "22",
+        "section": "Fluency: Math Fingers Flash"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Here are 5 fingers on one hand. Now I show 2 more fingers on the other hand. Count on from 5. How many fingers in all?",
+      "asset_ids": [
+        "a_fingers_flash"
+      ],
+      "stimulus": {
+        "fingers_shown": 7,
+        "five_hand_first": true
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_counton"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "23",
+        "section": "Fluency: Math Fingers Flash"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "There are 5 beads in the top row. Cover 2 of them. What is the other part of 5?",
+      "asset_ids": [
+        "a_egg_carton_board",
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "total": 5,
+        "known_part": 2
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_cover",
+        "h_dots"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "2 and 3 are parts of 5. Can you find two different parts that make 5?",
+      "asset_ids": [
+        "a_egg_carton_board",
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "total": 5,
+        "excluded_pair": [
+          2,
+          3
+        ]
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_cover",
+        "h_dots"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Now there are 7 beads: 5 in the top row and 2 in the bottom row. Cover the 5. What is the other part of 7?",
+      "asset_ids": [
+        "a_egg_carton_board",
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "total": 7,
+        "known_part": 5
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_cover",
+        "h_5row"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "25",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "You have 5 dots as one part and 2 dots as the other part. Count on from 5 to find the total. What is the total?",
+      "asset_ids": [
+        "a_five_group_dots",
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "parts": [
+          5,
+          2
+        ]
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_counton",
+        "h_nocount"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "25",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Look at 7 beads. What numbers can you see hiding inside the 7? Tell me how you see them.",
+      "asset_ids": [
+        "a_egg_carton_board"
+      ],
+      "stimulus": {
+        "total": 7
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_5row",
+        "h_cover"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development (turn and talk)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Eight fingernails have nail polish. One hand has 5 fingernails. Make 5 one part of the number bond. What is the other part of 8?",
+      "asset_ids": [
+        "a_nail_polish_hands",
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "total": 8,
+        "known_part": 5
+      },
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_5row",
+        "h_counton"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "29",
+        "section": "Problem Set, item 5"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Six fingernails have nail polish. One hand has 5 fingernails. Make 5 one part of the number bond. What is the other part of 6?",
+      "asset_ids": [
+        "a_nail_polish_hands",
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "total": 6,
+        "known_part": 5
+      },
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_5row",
+        "h_counton"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "29",
+        "section": "Problem Set, item 6"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Dora found 5 leaves that blew in through the window. Then she found 2 more leaves. How many leaves did Dora find in all? Show your thinking.",
+      "asset_ids": [
+        "a_dora_leaves_story"
+      ],
+      "stimulus": {
+        "story": "dora_leaves",
+        "parts": [
+          5,
+          2
+        ]
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_dots",
+        "h_counton"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "23",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Look at 8 soccer balls and 9 pencils. What is the same about them?",
+      "asset_ids": [
+        "a_soccer_pencil_images"
+      ],
+      "stimulus": {
+        "totals": [
+          8,
+          9
+        ]
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_group",
+        "h_5row"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "26",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "22",
+        "section": "Math Fingers Flash (S: 3)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7, counting on from 5 (5, 6, 7) or just saying 7.",
+      "partial": "Says 7 only after counting every finger from 1.",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [
+        "mis_touch_count"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "23",
+        "section": "Math Fingers Flash (5, 6, 7)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number (for example 2, the covered part, or 5, the total).",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development (S: 3)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "total": 5,
+        "valid_pairs": [
+          [
+            1,
+            4
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "excluded_pairs": [
+          [
+            2,
+            3
+          ]
+        ],
+        "order_matters": false
+      },
+      "correct": "Names a different pair of parts that make 5, for example 1 and 4 (or 4 and 1).",
+      "partial": "Names one correct part (1 or 4) but not the other, or repeats 2 and 3 or 3 and 2.",
+      "incorrect": "Names two numbers that do not make 5.",
+      "unclear": "No numbers that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development (find other numbers inside 5)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number (for example 7, the total, or 5, the covered part).",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "25",
+        "section": "Concept Development (S: 2)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7, counting on from 5 (five, 6, 7) or just saying 7.",
+      "partial": "Says 7 only after counting every dot from 1 (does not count on).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [
+        "mis_touch_count"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "25",
+        "section": "Concept Development (T/S: Fiiive, 6, 7)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "total": 7,
+        "valid_pairs": [
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            4
+          ]
+        ],
+        "order_matters": false
+      },
+      "correct": "Names a pair of numbers that make 7 (for example 5 and 2) AND says where they see them (for example 'a row of 5 and 2 more').",
+      "partial": "Names a correct pair but cannot say how they see it, or names only one number.",
+      "incorrect": "Names numbers that do not make 7.",
+      "unclear": "No numbers that can be understood.",
+      "misconception_ids": [
+        "mis_touch_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development (turn and talk about 7)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3 (parts 5 and 3 make 8).",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "29",
+        "section": "Problem Set, item 5 (total 8)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1 (parts 5 and 1 make 6).",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "29",
+        "section": "Problem Set, item 6 (total 6)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7 and shows it with 5 and 2 more (picture, dots, or numbers).",
+      "partial": "Says 7 but shows no thinking, or shows 5 and 2 but gives no total.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_touch_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "23",
+        "section": "Application Problem (source gives no answer; open-ended on purpose)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both have 5 inside (8 and 9 each have a 5 hiding in them).",
+      "partial": "Says they are both groups of objects or both big numbers, but does not mention the 5.",
+      "incorrect": "Says something that is not true about the pictures.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "26",
+        "section": "Student Debrief (guide students to see 5 embedded in 8 and 9)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_nocount",
+      "level": 1,
+      "text": "You do not have to count one by one. Can you see 2 or 3 together at once?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Notes on Multiple Means of Action and Expression"
+      }
+    },
+    {
+      "id": "h_5row",
+      "level": 1,
+      "text": "Look at the top row first. How many beads are in it?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "23",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_cover",
+      "level": 2,
+      "text": "Cover the part you know. How many beads can you still see?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_counton",
+      "level": 2,
+      "text": "Start at 5. Say 5, then count the rest one at a time: 6, ...",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "25",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_dots",
+      "level": 3,
+      "text": "Draw the dots first. Then write the numbers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Notes on Multiple Means of Representation"
+      }
+    },
+    {
+      "id": "h_group",
+      "level": 1,
+      "text": "Look for 1 or 2 groups that make it easier to find the total.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "27",
+        "section": "Sprint: Count Dots instructions"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_touch_count",
+      "label": "Touch and count instead of seeing the 5-group",
+      "description": "Child counts every object from 1 instead of seeing the 5 (or a group of 2 or 3) and counting on. The right total can still come out, but the child is not yet seeing embedded numbers.",
+      "detection_signals": [
+        "Answer is a count from 1 (for example '1, 2, 3, 4, 5, 6, 7') when counting on from 5 was asked.",
+        "Child cannot name the 5 or any other part inside the number."
+      ],
+      "response_text": "Nice counting! Here is a faster way. You can see the 5 right away. Start at 5, then count on: five, 6, 7.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Notes on Multiple Means of Action and Expression (discourage touch and count)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_fingers_flash",
+      "status": "not_available",
+      "kind": "animation",
+      "recommended_method": "code_rendered_svg_animation",
+      "diffusion_suitable": "no",
+      "why_this_method": "Finger counts must be exact and follow the Math Way order. Diffusion often draws extra or missing fingers.",
+      "description": "Two hands shown from the child's view. Fingers appear for a short time, then hide.",
+      "must_show_exactly": [
+        "Exactly N fingers raised for N = 0-10",
+        "Fingers fill left to right from the child's view",
+        "6 = five fingers on one hand plus the thumb of the other hand (source p26)",
+        "5-hand shown first for count-on (q_pk_2)"
+      ],
+      "states_or_frames": [
+        "N=0..10 (11 static poses)",
+        "Flash sequence: hidden -> show N for display_seconds (default 2) -> hidden",
+        "Count-on sequence: show 5-hand, then add fingers one at a time"
+      ],
+      "interaction": "Timed display. No child interaction while shown. Answer comes after hide.",
+      "alt_text": "Hands holding up N fingers.",
+      "review_notes": "Source says hand order depends on whether the teacher faces the class or a document camera (p22). Check the order against the child's screen view.",
+      "used_by": [
+        "exp_fingers_math_way",
+        "q_pk_1",
+        "q_pk_2"
+      ],
+      "generation_caption": "Flat cartoon child's hands held up facing the viewer, N fingers raised (N = 0 to 10), plain light background, no extra fingers. [Build N=0-10 as 11 poses by code]"
+    },
+    {
+      "asset_id": "a_egg_carton_board",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Needs exact slots, draggable beads and a cover action. This is behaviour, not a picture.",
+      "description": "A board of 10 slots in 2 rows of 5. Beads fill the top row left to right first.",
+      "must_show_exactly": [
+        "10 slots, 2 rows of 5",
+        "Beads placed 0-10, top row filled first, left to right",
+        "Bead count always matches the question stimulus"
+      ],
+      "states_or_frames": [
+        "empty",
+        "5 beads (top row full)",
+        "7 beads (5 top + 2 bottom)",
+        "any 0-10 from stimulus",
+        "cover state: chosen beads hidden by a cover"
+      ],
+      "interaction": "Drag beads in. Tap beads to cover or uncover them. Tutor can set the bead count from the question stimulus.",
+      "alt_text": "A box of 10 slots in two rows of 5 with beads in some slots.",
+      "used_by": [
+        "ex_5_two_three",
+        "ex_7_five_two",
+        "exp_detective",
+        "exp_five_group_count_on",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_5"
+      ],
+      "generation_caption": "Simple flat board with 10 round slots in 2 rows of 5, colourful beads in some slots, plain background, child-friendly."
+    },
+    {
+      "asset_id": "a_number_bond_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "A fixed diagram with input boxes. Needs exact labels and behaviour.",
+      "description": "Number bond: one total circle at the top joined by lines to two part circles below (labelled total, part, part in the source).",
+      "must_show_exactly": [
+        "1 total box, 2 part boxes",
+        "Each box accepts a numeral OR 5-group dots (source p25)"
+      ],
+      "states_or_frames": [
+        "empty",
+        "total filled",
+        "one part filled",
+        "all filled",
+        "dots mode vs numeral mode"
+      ],
+      "interaction": "Child (or tutor) fills boxes. Boxes can be shown covered or hidden for 'find the missing part'.",
+      "alt_text": "A number bond with a total on top and two parts below.",
+      "used_by": [
+        "ex_5_two_three",
+        "ex_7_five_two",
+        "exp_five_group_count_on",
+        "exp_total_parts",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_ps_5",
+        "q_ps_6"
+      ],
+      "generation_caption": "Clean number bond diagram: one big circle on top joined by two lines to two smaller circles below, empty boxes, bright simple colours."
+    },
+    {
+      "asset_id": "a_five_group_dots",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Dot counts and row layout must be exact. Diffusion cannot do this.",
+      "description": "Dots drawn the 5-group way: a row of 5, then the rest in a second row.",
+      "must_show_exactly": [
+        "N dots for N = 1-10",
+        "First 5 in one row, remaining dots in the next row",
+        "Parts can be drawn in different colours"
+      ],
+      "states_or_frames": [
+        "N=1..10 static layouts",
+        "dot-by-dot count-on highlight starting at the 5th dot"
+      ],
+      "interaction": "Highlight dots one by one for counting on. Optional draw mode for the child.",
+      "alt_text": "N dots arranged in a row of five and a row of the rest.",
+      "used_by": [
+        "ex_7_five_two",
+        "exp_five_group_count_on",
+        "q_pr_4"
+      ],
+      "generation_caption": "N bright round dots in a row of five with the rest in a second row, on a white background, flat style."
+    },
+    {
+      "asset_id": "a_nail_polish_hands",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "vector_art_by_code_or_artist",
+      "diffusion_suitable": "no",
+      "why_this_method": "Needs exactly 5 fingernails per hand and a colourable nail per finger. Diffusion often draws wrong finger counts. Diffusion may be used only for a decorative background.",
+      "description": "Two cartoon hands with 10 fingernails. Nails are coloured left to right to show the number in the question.",
+      "must_show_exactly": [
+        "2 hands, 5 fingers each, 10 nails",
+        "Total coloured nails = 8 for q_ps_5 and 6 for q_ps_6",
+        "Nails coloured left to right"
+      ],
+      "states_or_frames": [
+        "q_ps_5: 8 nails coloured",
+        "q_ps_6: 6 nails coloured"
+      ],
+      "interaction": "Display only. Child answers by voice or typing.",
+      "alt_text": "Two hands with some fingernails painted.",
+      "used_by": [
+        "q_ps_5",
+        "q_ps_6"
+      ],
+      "generation_caption": "Two friendly cartoon hands, 5 fingers each, visible fingernails, 8 nails painted pink (second version: 6 nails painted), flat vector style."
+    },
+    {
+      "asset_id": "a_soccer_pencil_images",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "icon_art_then_code_layout",
+      "diffusion_suitable": "icon_only_then_code_layout",
+      "why_this_method": "Diffusion may draw ONE soccer ball icon and ONE pencil icon in a child-friendly style. Code must tile them so the counts are exact.",
+      "description": "A set of 8 soccer balls and a set of 9 pencils, each arranged so a group of 5 is easy to see.",
+      "must_show_exactly": [
+        "Exactly 8 soccer balls",
+        "Exactly 9 pencils",
+        "Each set laid out as 5 + the rest (5-group way)"
+      ],
+      "states_or_frames": [
+        "soccer set (8)",
+        "pencil set (9)"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "Eight soccer balls and nine pencils, each set in a row of five and the rest.",
+      "review_notes": "The source uses pictures from the printed Problem Set. Re-draw them; do not copy the source images.",
+      "used_by": [
+        "q_db_1"
+      ],
+      "generation_caption": "ICON ONLY: one cartoon soccer ball, flat colourful style, white background. And separately: one cartoon yellow pencil, same style. (Code tiles 8 balls and 9 pencils.)"
+    },
+    {
+      "asset_id": "a_dora_leaves_story",
+      "status": "not_available",
+      "kind": "animation",
+      "recommended_method": "scene_by_code_with_icon_art",
+      "diffusion_suitable": "icon_only_then_code_layout",
+      "why_this_method": "Story with exact counts: 5 leaves, then 2 more. Use diffusion for character and leaf icon art only, then place and animate with code.",
+      "description": "A child character near a window. 5 leaves blow in, then 2 more leaves blow in.",
+      "must_show_exactly": [
+        "Beat 1: exactly 5 leaves",
+        "Beat 2: exactly 2 more leaves",
+        "7 leaves in the end"
+      ],
+      "states_or_frames": [
+        "frame 1: empty room",
+        "frame 2: 5 leaves arrive",
+        "frame 3: 2 more leaves arrive",
+        "frame 4: all 7 leaves on the floor"
+      ],
+      "interaction": "Play once, then child answers and may draw or use the 5-group dot widget.",
+      "alt_text": "Leaves blowing through a window: five first, then two more.",
+      "review_notes": "Use an ORIGINAL child character. Do not copy any existing cartoon character, even though the source names her Dora.",
+      "used_by": [
+        "q_app_1"
+      ],
+      "generation_caption": "ICON/SCENE ONLY: a cheerful original cartoon child by an open window in a bright classroom, no leaves. And separately: one orange autumn leaf icon. (Code animates 5 leaves, then 2 more.)"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Count Dots",
+      "reason": "Timed paper sheet (A and B) of 30 dot pictures; images only and no answer key in the extracted text.",
+      "source_ref": {
+        "src": "src1",
+        "page": "27-28"
+      }
+    },
+    {
+      "id": "na_physical",
+      "name": "Egg carton and bead hands-on work",
+      "reason": "Physical materials; replaced by the on-screen board (a_egg_carton_board).",
+      "source_ref": {
+        "src": "src1",
+        "page": "23-25"
+      }
+    },
+    {
+      "id": "na_two_hands",
+      "name": "Show me 5 with two hands / one hand",
+      "reason": "The camera is only an attention signal, so finger shapes cannot be checked.",
+      "source_ref": {
+        "src": "src1",
+        "page": "26"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child; covered by q_pr_5 (explain to the tutor).",
+      "source_ref": {
+        "src": "src1",
+        "page": "24"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "Problem Set items 1-4 and 7-12, Exit Ticket 1-2, Homework 1-16",
+      "issue": "These are picture-only items. The extracted text has no numbers or answer keys. Not added as questions. Needs human or vision extraction from the PDF images."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f3",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "k_counting_to_10 and k_number_bonds are Kindergarten cards that do not exist yet. The source only points to K.CC standards, it does not teach these."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states only one misconception (touch and count). Not added, because they are not in the source: giving the total instead of the missing part (for example 7 for q_pr_3), and mixing up total and part. Add them only after review."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "All 4 variants come from one teaching approach in the source. There is no truly different alternative (for example a number line). The Planner has little real choice for now."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hints. The 6 hints are adapted from teacher notes and instructions. Level 3 and wording need review."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "q_pr_2 and r_pr_2",
+      "issue": "The source never says whether 0 and 5 count as parts of 5. Left out of valid_pairs. Decide with the team."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "r_app_1",
+      "issue": "The source gives no answer and keeps this open on purpose. The key (7) is derived from 5 + 2. A child who draws instead of speaking or typing needs a widget."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 7 assets are marked not_available. Each has a visual spec (method, exact counts, frames). Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only K.CC.2, K.CC.4 and K.CC.5 appear in this lesson file. The Grade 1 standard is in the Module Overview and was not added."
+    },
+    {
+      "id": "f13",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f14",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "a_fingers_flash",
+      "issue": "Finger order depends on the viewer's side (source p22 and p26). Check the orientation for the child's screen."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "a_dora_leaves_story",
+      "issue": "Use an original character. Do not draw any known cartoon character."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

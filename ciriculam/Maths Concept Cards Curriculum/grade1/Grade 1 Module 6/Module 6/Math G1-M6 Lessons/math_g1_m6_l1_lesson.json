@@ -1,0 +1,1431 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g1_m6_l1_compare_difference_unknown",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "g1_m6_text_extract",
+      "file": "math-g1-m6-topic-a-lesson-1.md",
+      "source_version": "unknown (not printed in the file)",
+      "title": "Grade 1, Module 6, Lesson 1 (module, topic and lesson taken from the file name)",
+      "license": "unknown (not printed in the file)",
+      "page_numbering": "Plain-text .md file with no page numbers; every citation uses page n/a and a section name"
+    }
+  ],
+  "grade": 1,
+  "subject": "math",
+  "standards": [
+    "1.OA.6",
+    "1.NBT.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve word problems that compare two amounts. Find how many more or how many fewer.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective (Solve compare with difference unknown problem types)"
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_change_unknown",
+      "title": "Find the missing part",
+      "text": "Rose wrote 8 letters. Her goal is 12 letters. Draw a tape for the 8. The total is 12. The missing part is how many more she needs. Think 8 plus what number makes 12. Or take 8 away from 12.",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_double_tape",
+      "title": "Compare with two tapes",
+      "text": "Draw one tape for each amount. Put them one above the other. The longer tape is the bigger number. The extra piece on the longer tape shows how many more.",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (double tape diagram)"
+      }
+    },
+    {
+      "id": "exp_subtract_compare",
+      "title": "Subtract to compare",
+      "text": "Nikil wrote 12 letters. Rose wrote 8 letters. Cover up the 8 on Nikil's tape. What is left is how many more. That is 12 minus 8. We can use subtraction to compare.",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (cover up the 8)"
+      }
+    },
+    {
+      "id": "exp_more_fewer",
+      "title": "More and fewer go together",
+      "text": "If Nikil wrote 4 more letters, then Rose wrote 4 fewer letters. It is the same difference. We find it with the same subtraction.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (4 more and 4 fewer)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_rose_nikil",
+      "title": "Rose and Nikil",
+      "text": "Rose wrote 8 letters. Nikil wrote 12 letters. Nikil's tape is longer. 12 minus 8 equals 4. Nikil wrote 4 more letters. Rose wrote 4 fewer letters.",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "ex_rose_goal",
+      "title": "Rose's goal",
+      "text": "Rose wrote 8 letters. Her goal is 12 letters. 8 plus 4 equals 12. 12 minus 8 equals 4. She needs 4 more letters.",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Rose wrote 8 letters. Her goal is to write 12 letters. How many more letters does she need to write?",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_tape_total",
+        "h_missing_part"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Rose's goal)"
+      },
+      "stimulus": {
+        "written": 8,
+        "goal": 12,
+        "unknown": "change"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Rose wrote 8 letters. Nikil wrote 12 letters. How many more letters did Nikil write than Rose?",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (Rose and Nikil)"
+      },
+      "stimulus": {
+        "rose": 8,
+        "nikil": 12,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Rose wrote 8 letters. Nikil wrote 12 letters. How many fewer letters did Rose write than Nikil?",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_fewer_same"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (Rose and Nikil)"
+      },
+      "stimulus": {
+        "rose": 8,
+        "nikil": 12,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Rose wrote 8 letters. Nikil wrote 12 letters. Who wrote fewer letters?",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_compare_tapes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (Rose and Nikil)"
+      },
+      "stimulus": {
+        "rose": 8,
+        "nikil": 12
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Tamra collected 9 seashells. Julio collected 11 seashells. How many more seashells did Julio collect?",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (Tamra and Julio)"
+      },
+      "stimulus": {
+        "tamra": 9,
+        "julio": 11,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Tamra collected 9 seashells. Julio collected 11 seashells. How many fewer seashells did Tamra collect?",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_fewer_same"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (Tamra and Julio)"
+      },
+      "stimulus": {
+        "tamra": 9,
+        "julio": 11,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Tamra collected 9 seashells. Julio collected 11 seashells. How many seashells did they collect in all?",
+      "asset_ids": [],
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_total_add"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (put together contrast)"
+      },
+      "stimulus": {
+        "tamra": 9,
+        "julio": 11,
+        "unknown": "total"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Willie saw 13 lizards at the park. Fran saw 8 lizards. How many more lizards did Willie see?",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (Willie and Fran)"
+      },
+      "stimulus": {
+        "willie": 13,
+        "fran": 8,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Willie saw 13 lizards at the park. Fran saw 8 lizards. How many fewer lizards did Fran see?",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_fewer_same"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (Willie and Fran)"
+      },
+      "stimulus": {
+        "willie": 13,
+        "fran": 8,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Willie saw 13 lizards at the park. Fran saw 8 lizards. How many lizards did they see in all?",
+      "asset_ids": [],
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_total_add"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (put together contrast)"
+      },
+      "stimulus": {
+        "willie": 13,
+        "fran": 8,
+        "unknown": "total"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Peter has 3 goats on his farm. Julio has 9 goats on his farm. How many more goats does Julio have than Peter?",
+      "asset_ids": [],
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set item 1"
+      },
+      "stimulus": {
+        "peter": 3,
+        "julio": 9,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Willie picked 16 apples in the orchard. Emi picked 10 apples. How many more apples did Willie pick than Emi?",
+      "asset_ids": [],
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set item 2"
+      },
+      "stimulus": {
+        "willie": 16,
+        "emi": 10,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Lee collected 13 eggs from the hens. Ben collected 18 eggs. How many fewer eggs did Lee collect than Ben?",
+      "asset_ids": [],
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_fewer_same"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set item 3"
+      },
+      "stimulus": {
+        "lee": 13,
+        "ben": 18,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Shanika did 14 cartwheels during recess. Kim did 20 cartwheels. How many more cartwheels did Kim do than Shanika?",
+      "asset_ids": [],
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set item 4"
+      },
+      "stimulus": {
+        "shanika": 14,
+        "kim": 20,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_et_1",
+      "kind": "practice",
+      "text": "Anton drove around the racetrack 12 times. Rose drove around the racetrack 17 times. How many more times did Rose go around than Anton?",
+      "asset_ids": [],
+      "rubric_id": "r_et_1",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket (the one-problem sheet)"
+      },
+      "stimulus": {
+        "anton": 12,
+        "rose": 17,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_hw_1",
+      "kind": "practice",
+      "text": "Fran donated 11 old books to the library. Darnel donated 8 old books. How many more books did Fran donate than Darnel?",
+      "asset_ids": [],
+      "rubric_id": "r_hw_1",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework item 1"
+      },
+      "stimulus": {
+        "fran": 11,
+        "darnel": 8,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_hw_2",
+      "kind": "practice",
+      "text": "At recess, 7 students were reading books. 17 students were playing on the playground. How many fewer students were reading than playing?",
+      "asset_ids": [],
+      "rubric_id": "r_hw_2",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_fewer_same"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework item 2"
+      },
+      "stimulus": {
+        "reading": 7,
+        "playing": 17,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_hw_3",
+      "kind": "practice",
+      "text": "Maria is 18 years old. Her brother Nikil is 12 years old. How much older is Maria than Nikil?",
+      "asset_ids": [],
+      "rubric_id": "r_hw_3",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework item 3"
+      },
+      "stimulus": {
+        "maria": 18,
+        "nikil": 12,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_hw_4",
+      "kind": "practice",
+      "text": "It rained 15 days in March. It rained 19 days in April. How many more days did it rain in April than in March?",
+      "asset_ids": [],
+      "rubric_id": "r_hw_4",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_cover_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework item 4"
+      },
+      "stimulus": {
+        "march": 15,
+        "april": 19,
+        "unknown": "difference"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Peter has 3 goats. Julio has 9 goats. How many fewer goats does Peter have than Julio?",
+      "asset_ids": [],
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_compare_tapes",
+        "h_fewer_same"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Look at Problem 1, how many fewer goats)"
+      },
+      "stimulus": {
+        "peter": 3,
+        "julio": 9
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "You know the total and one part. How do you find the missing part?",
+      "asset_ids": [],
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_missing_part"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (When we know the total and just one of the parts)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Two tapes are drawn one above the other. This is a double tape diagram. How does it help you compare?",
+      "asset_ids": [
+        "a_double_tape"
+      ],
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_compare_tapes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (double tape diagram)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "4 letters",
+          "four letters"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 4 letters)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "4 letters",
+          "four letters"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 4 letters)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "4 letters",
+          "four letters"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: Four fewer letters)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "rose",
+          "rose wrote fewer",
+          "rose wrote fewer letters"
+        ]
+      },
+      "correct": "Says Rose.",
+      "partial": null,
+      "incorrect": "Says Nikil.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: Rose)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two",
+          "2 seashells",
+          "two seashells"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two",
+          "2 seashells",
+          "two seashells"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty",
+          "20 seashells",
+          "twenty seashells"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 lizards",
+          "five lizards"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 lizards",
+          "five lizards"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21",
+          "twenty one",
+          "21 lizards",
+          "twenty one lizards"
+        ]
+      },
+      "correct": "Says 21.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 goats",
+          "six goats"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set item 1 (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 apples",
+          "six apples"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set item 2 (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 eggs",
+          "five eggs"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set item 3 (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 cartwheels",
+          "six cartwheels"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set item 4 (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_et_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 times",
+          "five times"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_hw_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three",
+          "3 books",
+          "three books"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework item 1 (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_hw_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten",
+          "10 students",
+          "ten students"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework item 2 (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_hw_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 years",
+          "six years"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework item 3 (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_hw_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "4 days",
+          "four days"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework item 4 (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 goats",
+          "six goats"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set item 1 (answer computed; the debrief prints no answer)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to subtract the part from the total, or to add on from the part to the total.",
+      "partial": "Says to use a tape diagram or counting, but does not say subtract or add on.",
+      "incorrect": "Says to add the total and the part, or gives something that does not find the missing part.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (8 + __ = 12 and 12 – 8 = 4; the debrief prints no answer)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it lets you see which tape is longer, and how much longer, side by side.",
+      "partial": "Says it helps you see the numbers, but does not mention comparing the two lengths.",
+      "incorrect": "Gives a reason that is not about comparing the two tapes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (Nikil's tape is longer; the extra part is the difference; the debrief prints no answer)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_tape_total",
+      "level": 1,
+      "text": "Draw a tape for what Rose wrote. Is 12 a part or the total?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (is it a part or the total?)"
+      }
+    },
+    {
+      "id": "h_missing_part",
+      "level": 2,
+      "text": "You know the total and one part. Find the part that is missing.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (missing part)"
+      }
+    },
+    {
+      "id": "h_compare_tapes",
+      "level": 1,
+      "text": "Draw one tape for each number. Which tape is longer?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (draw the tapes to compare)"
+      }
+    },
+    {
+      "id": "h_cover_up",
+      "level": 2,
+      "text": "Cover up the part that is the same on both tapes. What is left over?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (cover up the 8)"
+      }
+    },
+    {
+      "id": "h_fewer_same",
+      "level": 3,
+      "text": "The difference is the same for more and for fewer. Find how much is left over.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (4 more and 4 fewer)"
+      }
+    },
+    {
+      "id": "h_total_add",
+      "level": 1,
+      "text": "This question asks for both groups together. Do you add or take away?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, repeat the process (put together contrast)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_double_tape",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Tape diagrams need exact relative lengths and labeled numbers. Diffusion cannot keep tape lengths to scale.",
+      "description": "A tape diagram on a plain background. One mode shows a single tape with parts 8 and a question mark under a total arm of 12. The other mode shows a double tape diagram: two tapes one above the other, labeled R (8) and N (12). Nikil's tape has a dotted split after 8 and the extra piece is circled with a question mark.",
+      "must_show_exactly": [
+        "Single tape mode: a tape labeled R with 8, a second part with a question mark labeled M, and a total arm of 12",
+        "Double tape mode: exactly 2 tapes, one above the other, left ends lined up",
+        "Tape R holds 8 and tape N holds 12; tape N is longer, to scale",
+        "Tape N is split by a dotted line after 8; the extra piece is circled and holds a question mark",
+        "Numbers can be swapped to other values (9 and 11, 13 and 8, and so on) with the tape lengths still to scale"
+      ],
+      "states_or_frames": [
+        "State 1: single tape with the missing part",
+        "State 2: double tape with both tapes drawn",
+        "State 3: double tape with the dotted split and circled extra piece"
+      ],
+      "interaction": "Child can reveal the dotted split. No typed input inside the widget. The text of the question comes from the chat.",
+      "alt_text": "Two tapes one above the other. The lower tape is longer. The extra piece is circled with a question mark.",
+      "review_notes": "The source refers to pictures with 'as shown to the right' but the .md file has no pictures. Build the layout from the words only; compare it with the original lesson.",
+      "generation_caption": "Clean double tape diagram: two rectangles one above the other, left ends lined up, the lower one longer, a dotted split and a circled extra piece, labels R and N, plain background. [Build by code]",
+      "used_by": [
+        "exp_change_unknown",
+        "exp_double_tape",
+        "exp_subtract_compare",
+        "ex_rose_nikil",
+        "ex_rose_goal",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_8",
+        "q_pr_9",
+        "q_db_3"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Differentiated Practice Sets (timed, 90 seconds)",
+      "reason": "Timed paper sets at several levels. The five printed sheets (My Addition Practice, My Missing Addend Practice, My Related Addition and Subtraction Practice, My Subtraction Practice, My Mixed Practice) were not turned into questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice (Core Fluency Differentiated Practice Sets)"
+      }
+    },
+    {
+      "id": "na_number_bond_game",
+      "name": "Number Bond Addition and Subtraction",
+      "reason": "Partner game with a die and a white board.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice (Number Bond Addition and Subtraction)"
+      }
+    },
+    {
+      "id": "na_happy_counting",
+      "name": "Happy Counting",
+      "reason": "Whole-class counting between 60 and 100, with no questions and answers to check.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice (Happy Counting)"
+      }
+    },
+    {
+      "id": "na_linking_cubes",
+      "name": "Building sticks with linking cubes and ten-sticks",
+      "reason": "Real-object partner work. A tape diagram widget (a_double_tape) replaces the picture.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Drawing tape diagrams and writing number sentences and statements on paper",
+      "reason": "Drawing and handwriting on paper in the Problem Set, Exit Ticket and Homework. Only the final number is judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set; Exit Ticket; Homework"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk and sharing strategies",
+      "reason": "Partner talk. The Tutor cannot check it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "whole card",
+      "issue": "This card is an AI draft. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "source file",
+      "issue": "The input is a plain-text .md file (Module_6.zip, 30 lessons, no assessment). It has no page numbers, no pictures, no footer, no source version and no license text. Every citation is page n/a plus a section name. I could not look at any page as a picture. Compare the card with the original lesson."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "source_refs",
+      "issue": "source_version and license are 'unknown (not printed in the file)'. Fill both in from the original. If this is Eureka Math (CC BY-NC-SA 3.0, Great Minds) like the other modules, credit Great Minds, stay non-commercial, share under the same license."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "concept_id / lesson choice",
+      "issue": "No lesson number was given. I took Lesson 1 (Topic A, 'Solve compare with difference unknown problem types'). Module 6 and the id come from the file name. Confirm."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "assessment",
+      "issue": "The Module 6 zip has no assessment file, so no assessment card was made."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "sheet names",
+      "issue": "The .md does not label its sheets. I read the four-problem sheet with goats (Problem 1 appears in the Debrief) as the Problem Set, the one-problem sheet as the Exit Ticket, and the last four-problem sheet as Homework. This is my reading of the order. Check it."
+    },
+    {
+      "id": "f7",
+      "severity": "high",
+      "item": "assets_required",
+      "issue": "Image models cannot be trusted for lengths or counts. A person must check the visual (a_double_tape) against the stimulus numbers."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "a_double_tape is not_available."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only 1.OA.6 and 1.NBT.1 are printed (in the Fluency list). The compare standard for this lesson is not printed in the file, so it was not added."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No prerequisite list was given and none was invented, so prerequisite_ids is []."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "child wording",
+      "issue": "Child wording was rewritten from a teacher script. Needs a wording review."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Not printed, computed by me twice: r_pr_5 to r_pr_10, r_ps_1 to r_ps_4, r_et_1, r_hw_1 to r_hw_4, r_db_1. Recompute by hand. The Concept Development prints 4 for Rose's goal and for Rose and Nikil (r_pr_1 to r_pr_4)."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket, Homework",
+      "issue": "The sheets ask for a tape diagram, a number sentence and a statement. Only the final number is judged. Drawn work is not judged."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_db_2, q_db_3",
+      "issue": "The Student Debrief prints questions with no answers. The open rubrics are derived from the Concept Development. Check them."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "na_core_fluency",
+      "issue": "The five Core Fluency sheets (30 items each) were not converted. They are generic fact practice, not compare problems. A person can decide to add them."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "prior_knowledge",
+      "issue": "No prior-knowledge questions: the Fluency exchanges in this lesson have no question-and-answer lines. The Number Bond and Happy Counting activities are listed in activities_not_tutorable."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception, so none was added. The put-together contrast (q_pr_7, q_pr_10) may trigger adding instead of comparing; a person may add it."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "All explanations come from one Concept Development scene, so the Planner has little choice."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "rubrics with partial = null",
+      "issue": "partial is null for exact keys (r_pr_1, r_pr_2, r_pr_3, r_pr_4, r_pr_5, r_pr_6, r_pr_7, r_pr_8, r_pr_9, r_pr_10, r_ps_1, r_ps_2, r_ps_3, r_ps_4, r_et_1, r_hw_1, r_hw_2, r_hw_3, r_hw_4, r_db_1). The script must map partial to the same path as incorrect."
+    },
+    {
+      "id": "f20",
+      "severity": "low",
+      "item": "application problem",
+      "issue": "The lesson has no Application Problem (stated in the Concept Development note), so none was made."
+    },
+    {
+      "id": "f21",
+      "severity": "low",
+      "item": "q_hw_2",
+      "issue": "Homework 2 says 'fewer students were reading than playing'. The question text keeps this order."
+    },
+    {
+      "id": "f22",
+      "severity": "low",
+      "item": "hints",
+      "issue": "All hints are adapted from the Concept Development; none is generated."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

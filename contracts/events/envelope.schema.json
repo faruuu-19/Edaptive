@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EventEnvelope",
+  "description": "One append-only entry in the session log. Every module writes and reads events in this shape. Payload shape is defined per event_type in registry.json.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "event_type",
+    "event_version",
+    "occurred_at",
+    "source",
+    "session_id",
+    "student_id",
+    "payload"
+  ],
+  "properties": {
+    "event_id": {
+      "$ref": "../common/ids.schema.json#/$defs/Uuid"
+    },
+    "event_type": {
+      "description": "<namespace>.<name>. The namespace decides which track owns the type (see registry.json).",
+      "type": "string",
+      "pattern": "^[a-z]+\\.[a-z][a-z_]*$"
+    },
+    "event_version": {
+      "description": "Version of the payload schema for this event_type.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "occurred_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "description": "Module that emitted the event, e.g. curriculum, socratic_engine, lesson_player.",
+      "type": "string",
+      "pattern": "^[a-z][a-z_]*$"
+    },
+    "session_id": {
+      "description": "Learning session this belongs to; null for events outside a session (e.g. profile.selected).",
+      "oneOf": [
+        {
+          "$ref": "../common/ids.schema.json#/$defs/Uuid"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "student_id": {
+      "description": "Student profile; null only for household-level events (e.g. parent actions).",
+      "oneOf": [
+        {
+          "$ref": "../common/ids.schema.json#/$defs/Uuid"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "payload": {
+      "description": "Shape depends on event_type; validated against the payload schema listed in registry.json.",
+      "type": "object",
+      "additionalProperties": true
+    }
+  }
+}

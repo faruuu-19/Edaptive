@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Lesson",
+  "description": "A lesson is data, not code: the engine interprets this file. Authoring a lesson means editing JSON only. Widget content belongs to Track B's widget schema; check specs belong to Track A's verifiers.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "node_id", "title", "subject", "grade", "steps"],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "node_id": { "$ref": "../common/ids.schema.json#/$defs/CurriculumNodeId" },
+    "title": { "type": "string", "minLength": 1 },
+    "subject": { "$ref": "../common/ids.schema.json#/$defs/Subject" },
+    "grade": { "$ref": "../common/ids.schema.json#/$defs/Grade" },
+    "objectives": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/Step" }
+    }
+  },
+  "$defs": {
+    "Step": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["step_id", "kind"],
+      "properties": {
+        "step_id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$" },
+        "kind": { "type": "string", "enum": ["explain", "practice", "check"] },
+        "prompt": { "type": "string" },
+        "widget": { "$ref": "../widgets/widget.schema.json" },
+        "check": { "$ref": "#/$defs/Check" }
+      }
+    },
+    "Check": {
+      "description": "Which deterministic verifier judges the answer, and its input. The shape of spec is owned by Track A.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["verifier", "spec"],
+      "properties": {
+        "verifier": { "type": "string", "enum": ["sympy", "grammar", "concept_card"] },
+        "spec": { "type": "object" }
+      }
+    }
+  }
+}

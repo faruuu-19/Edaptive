@@ -1,0 +1,56 @@
+[project]
+name = "edaptive-backend"
+version = "0.1.0"
+description = "Edaptive local backend (FastAPI)"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi>=0.115",
+  "uvicorn[standard]>=0.30",
+  "pydantic>=2.8",
+  "pydantic-settings>=2.4",
+  "sqlalchemy>=2.0.30",
+  "psycopg[binary]>=3.2",
+  "alembic>=1.13",
+  "jsonschema>=4.23",
+  "referencing>=0.35",
+  "rfc3339-validator>=0.1.4",
+]
+
+[dependency-groups]
+dev = [
+  "pytest>=8.3",
+  "httpx>=0.27",
+  "ruff>=0.6",
+  "import-linter>=2.1",
+  "httpx2>=2.13.1",
+]
+
+[tool.uv]
+package = false
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["db: needs a running Postgres (DATABASE_URL)"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP"]
+
+[tool.importlinter]
+root_package = "app"
+
+[[tool.importlinter.contracts]]
+name = "Modules talk through contracts and the session log, never each other's internals"
+type = "independence"
+# Wildcard: every module added later is covered without editing this file.
+modules = ["app.modules.*"]
+
+[[tool.importlinter.contracts]]
+name = "Core and the session log never depend on feature modules"
+type = "forbidden"
+source_modules = ["app.core", "app.session_log"]
+forbidden_modules = ["app.modules"]

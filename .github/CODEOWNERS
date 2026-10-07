@@ -1,0 +1,20 @@
+# Who reviews changes to each path. Shared areas need all three tracks; each track adds
+# lines for its own folders when it creates them (see docs/CONTRIBUTING.md).
+
+*                                    @faruuu-19 @amna-cpp @ibrahim-idcode
+
+# Shared: contracts and tooling affect everyone
+/contracts/                          @faruuu-19 @amna-cpp @ibrahim-idcode
+/tools/                              @faruuu-19 @amna-cpp @ibrahim-idcode
+/.github/                            @faruuu-19 @amna-cpp @ibrahim-idcode
+
+# Track C: Data, Scheduling & Parent, incl. auth & profiles (Ibrahim)
+/contracts/auth/                     @ibrahim-idcode
+/backend/app/core/                   @ibrahim-idcode
+/backend/app/session_log/            @ibrahim-idcode
+/backend/migrations/                 @ibrahim-idcode
+/backend/app/modules/auth/           @ibrahim-idcode
+/backend/app/modules/profiles/       @ibrahim-idcode
+/backend/app/modules/curriculum/     @ibrahim-idcode
+/frontend/src/features/auth/         @ibrahim-idcode
+/frontend/src/features/home-profile/ @ibrahim-idcode

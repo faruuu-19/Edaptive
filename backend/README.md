@@ -1,7 +1,13 @@
 # Backend
 
-Owns: LLM orchestration & verification (Modules A, B), data infrastructure,
-scheduling, and parent/consent systems (Module D backend half, E backend
-half, F backend).
+FastAPI, runs locally. Owns LLM orchestration and verification (Track A), data
+infrastructure, scheduling, assessment, attention, consent and parent systems (Track C).
 
-Nothing here yet — scaffold placeholder.
+```bash
+make db-up migrate    # Postgres 16 + pgvector on :5433, apply migrations
+make dev-backend      # http://localhost:8000/docs
+make test
+```
+
+Layout and rules: see `docs/ARCHITECTURE.md`. Each module under `app/modules/` has a
+README naming its owner and iteration.

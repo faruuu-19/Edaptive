@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "SessionStartedV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["entry"],
+  "properties": {
+    "entry": {
+      "description": "How the session began: from the timetable or as free practice.",
+      "type": "string",
+      "enum": ["scheduled", "free_practice"]
+    },
+    "node_id": {
+      "description": "Curriculum node the session opens on, if known.",
+      "$ref": "../../common/ids.schema.json#/$defs/CurriculumNodeId"
+    }
+  }
+}

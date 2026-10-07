@@ -2,21 +2,13 @@ import importlib
 import pkgutil
 
 from fastapi import FastAPI
-from fastapi.middleware.cors import CORSMiddleware
 
 from app import modules as feature_modules
-from app.core.config import get_settings
 from app.session_log.router import router as session_log_router
 
 
 def create_app() -> FastAPI:
     api = FastAPI(title="Edaptive", version="0.1.0")
-    api.add_middleware(
-        CORSMiddleware,
-        allow_origins=get_settings().cors_origins,
-        allow_methods=["*"],
-        allow_headers=["*"],
-    )
 
     @api.get("/api/health", tags=["platform"])
     def health() -> dict[str, str]:

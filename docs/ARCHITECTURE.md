@@ -2,13 +2,13 @@
 
 ```
 contracts/            JSON Schemas shared by everyone (single source of truth)
-  └─ make gen ─▶ backend/app/contracts/generated   (Pydantic)
-              └▶ frontend/src/contracts/generated  (TypeScript)
+  └─ make gen ─▶ frontend/src/contracts/generated  (TypeScript)
+     backend validates against the schemas directly (app/core/contracts.py)
 
 backend/  FastAPI, local only
   app/core/           config, DB, contract validation, identity (Track C)
   app/session_log/    append-only event store + /api/events     (Track C)
-  app/modules/<name>/ one package per module, owner in README    (A or C)
+  app/modules/<name>/ one package per module, owner in README    (created by the owning track)
   migrations/         Alembic, Postgres 16 + pgvector            (Track C)
 
 frontend/ Next.js + TypeScript

@@ -5,7 +5,7 @@ Maths first: English and Science reuse the same pipeline with a different verifi
 
 ## 0. Foundation (now)
 
-The base structure: contracts, session log, module layout, ownership, CI.
+The base structure: contracts, session log, identity seam, module layout, ownership, `make check`.
 **Everyone branches from `main` after this merges.**
 
 ## Mid-1: fully verified maths slice

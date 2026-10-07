@@ -50,7 +50,7 @@ make setup            # install dependencies
 make db-up migrate    # start the database and apply migrations
 make dev-backend      # http://localhost:8000/docs
 make dev-frontend     # http://localhost:3000
-make check            # everything CI checks; run before every PR
+make check            # lint, boundaries, tests, build; run before every PR
 ```
 
 Read [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) before your first PR, and

@@ -11,7 +11,6 @@ class Settings(BaseSettings):
 
     database_url: str = "postgresql+psycopg://edaptive:edaptive@localhost:5433/edaptive"
     contracts_dir: Path = REPO_ROOT / "contracts"
-    cors_origins: list[str] = ["http://localhost:3000"]
 
 
 @lru_cache

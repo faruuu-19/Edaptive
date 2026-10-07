@@ -2,7 +2,8 @@
 
 ## Branches
 
-- `main` is always demoable. Nobody pushes to it directly; everything lands by PR with CI green.
+- `main` is always demoable. Nobody pushes to it directly; everything lands by PR, after
+  `make check` passes.
 - Branch per piece of work, named by track: `track-a/…`, `track-b/…`, `track-c/…`,
   plus `contracts/…` for contract-only changes.
 - Keep branches short (days, not weeks). Rebase or merge `main` in daily so you never
@@ -12,7 +13,7 @@
 
 ## Who touches what
 
-Paths and owners are in `.github/CODEOWNERS`. Rule of thumb: edit only your track's
+Paths and owners are in `.github/CODEOWNERS`; add your own folders there when you create them. Rule of thumb: edit only your track's
 folders. If you need something from another track, ask for a contract change; don't
 reach into their code. Tooling enforces this:
 
@@ -32,13 +33,13 @@ reach into their code. Tooling enforces this:
 make check
 ```
 
-That's the same thing CI runs: codegen up to date, lint, module boundaries, tests against
-Postgres, frontend build.
+It checks generated types are up to date, lint, module boundaries, tests against Postgres,
+and the frontend build. Paste the result in your PR.
 
 ## Ground rules from the project brief
 
 - Offline only at runtime: no paid APIs, no cloud services, no fonts/CDNs fetched at build.
-- No unverified LLM output reaches the UI. The LLM is called only from `modules/socratic`,
+- No unverified LLM output reaches the UI. The LLM is called only from the Socratic Engine (Track A),
   1–2 calls per turn, with schema-constrained output.
 - Lessons are JSON data. Authoring a lesson never requires engine code changes.
 - Children's data: minimal fields, consent-gated, attention processing stays in the browser,

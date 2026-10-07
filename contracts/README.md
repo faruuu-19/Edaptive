@@ -12,8 +12,7 @@ module's internals. Everything here is JSON Schema (draft 2020-12).
 | `auth/actor.schema.json` | Who is acting (household → parent → students); every module reads it | Track C |
 | `curriculum/node.schema.json` | Curriculum graph node | Track C |
 | `lesson/lesson.schema.json` | Lesson-as-data format | Track C (steps), B (`widget`), A (`check.spec`) |
-| `widgets/widget.schema.json` | Widget reference (placeholder) | Track B |
-| `tutor/` | Tutor action schema (to come) | Track A |
+| `widgets/widget.schema.json` | Widget reference: outer shape only, so lessons can point at widgets | Track B (proposal, to tighten) |
 | `examples/` | One valid instance per contract; tests validate them | whoever changes the contract |
 
 ## Rules
@@ -26,6 +25,5 @@ module's internals. Everything here is JSON Schema (draft 2020-12).
    moved over.
 3. **Never reuse or renumber a curriculum node id** once data references it.
 4. After any change run `make gen` and commit the regenerated types
-   (`backend/app/contracts/generated`, `frontend/src/contracts/generated`). CI fails if they are
-   stale.
+   (`frontend/src/contracts/generated`). `make check` fails if they are stale.
 5. Contract PRs are small, separate from feature work, and approved by **all three tracks**.

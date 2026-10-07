@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description: "Local, offline homeschool tutor for Grades 1-5",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body>{children}</body>

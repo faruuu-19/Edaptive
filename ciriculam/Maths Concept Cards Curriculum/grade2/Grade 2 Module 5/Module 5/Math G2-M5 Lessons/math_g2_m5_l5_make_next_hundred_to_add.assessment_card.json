@@ -1,0 +1,329 @@
+{
+  "schema_version": "0.1-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g2_m5_l5_make_next_hundred_to_add_v1",
+  "card_version": 1,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g2_m5_l5_make_next_hundred_to_add",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 2,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "chatgpt_manual_fixture",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "use_only_if_partial_credit_eligible_else_same_as_incorrect",
+    "incorrect": "give_next_hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_level_without_using_an_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "after_max_attempts_reveal_answer_reference_and_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_1"
+      },
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_1"
+      },
+      "hint_refs": [
+        {
+          "scope": "concept_card",
+          "id": "h_4"
+        },
+        {
+          "scope": "concept_card",
+          "id": "h_5"
+        },
+        {
+          "scope": "concept_card",
+          "id": "h_6"
+        }
+      ],
+      "routes": "default"
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_1"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_3"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_4"
+        }
+      ],
+      "prompt": "A shop has 398 stickers. It gets 24 more stickers. Move a small part of 24 to make the next hundred first. Then add the rest. How many stickers are there?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "give_followup_fu_aq_med_01_then_bottom_out",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_1"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_3"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_4"
+        }
+      ],
+      "prompt": "A club has 596 cards. It gets 27 more cards: 20 blue cards and 7 red cards. Make the next hundred, 600, by moving 4 of the new cards to the first group.",
+      "response_type": "multi_part",
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "Split the 27 new cards. After moving 4 to make 600, how many new cards are still left to add?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p2",
+          "prompt": "Use your first answer. Add that part to 600. How many cards are there in all?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p3",
+          "prompt": "Check without moving cards. Start at 596. Add the 20 blue cards, then the 7 red cards. How many cards are there in all?",
+          "response_type": "numeric_short"
+        }
+      ],
+      "final_part_id": "p2",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incomplete": "give_followup_fu_aq_hard_01_then_bottom_out",
+        "incorrect": "give_next_hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_1"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_3"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_4"
+        }
+      ],
+      "prompt": "Let's try an easier one: A box has 198 stickers. You put in 2 more to make the next hundred. How many stickers are there?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_med_01_then_bottom_out"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_1"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_3"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_4"
+        }
+      ],
+      "prompt": "Let's try an easier one: There are 27 new cards. You move 4 of them to make the next hundred, 600. Split the 27 new cards. After moving 4 to make 600, how many new cards are still left to add?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_hard_01_then_bottom_out"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "422",
+          "four hundred twenty two"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 422.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 422.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "parts": [
+          {
+            "part_id": "p1",
+            "accept": [
+              "23",
+              "twenty three"
+            ]
+          },
+          {
+            "part_id": "p2",
+            "accept": [
+              "623",
+              "six hundred twenty three"
+            ]
+          },
+          {
+            "part_id": "p3",
+            "accept": [
+              "623",
+              "six hundred twenty three"
+            ]
+          }
+        ],
+        "final_part_id": "p2"
+      },
+      "partial_credit_eligible": true,
+      "correct": "Says 23 for p1, 623 for p2, and 623 for p3.",
+      "partial": "Gives some of the parts correctly but not all of them.",
+      "incorrect": "Gives clear numbers but none of the parts are correct.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 200.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 200.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "23",
+          "twenty three"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 23.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 23.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    }
+  ]
+}

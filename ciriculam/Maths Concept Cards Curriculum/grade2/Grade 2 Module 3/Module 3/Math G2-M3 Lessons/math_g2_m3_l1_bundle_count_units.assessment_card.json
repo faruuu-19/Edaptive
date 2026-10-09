@@ -1,0 +1,342 @@
+{
+  "schema_version": "0.1-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g2_m3_l1_bundle_count_units_v1",
+  "card_version": 1,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g2_m3_l1_bundle_count_units",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 2,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "chatgpt_manual_fixture",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "use_only_if_partial_credit_eligible_else_same_as_incorrect",
+    "incorrect": "give_next_hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_level_without_using_an_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "after_max_attempts_reveal_answer_reference_and_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_2"
+      },
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "visual_asset",
+        "asset_ref": {
+          "scope": "concept_card",
+          "id": "a_straw_bundles"
+        },
+        "state": "10 bundles of 10 joined into 1 hundred",
+        "description": "Straws that bundle into tens, tens that bundle into hundreds, and hundreds that bundle into 1 thousand.",
+        "must_show_exactly": [
+          "1 ten = exactly 10 single straws",
+          "1 hundred = exactly 10 tens = 100 straws",
+          "1 thousand = exactly 10 hundreds",
+          "Counts shown always match the question stimulus (for example 6 tens, 3 ones, 2 hundreds)"
+        ],
+        "states_or_frames": [
+          "10 single straws",
+          "1 bundle of 10",
+          "10 bundles of 10 joined into 1 hundred",
+          "10 hundreds joined into 1 thousand",
+          "any count of ones, tens, hundreds from the stimulus",
+          "unbundled state: a hundred opened into 10 tens"
+        ],
+        "alt_text": "Single straws and bundles of ten, one hundred and one thousand straws."
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_2"
+      },
+      "hint_refs": [
+        {
+          "scope": "concept_card",
+          "id": "h_skip_tens"
+        }
+      ],
+      "routes": "default"
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_bundle_tens"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_ten_tens_hundred"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_draw_models"
+        }
+      ],
+      "prompt": "A craft box has 7 bundles of straws. Each bundle has 10 straws. There are 3 loose straws too. Count the tens, then the ones. How many straws are there?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "give_followup_fu_aq_med_01_then_bottom_out",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_bundle_tens"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_ten_tens_hundred"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_draw_models"
+        }
+      ],
+      "prompt": "A tray has 8 bundles of straws. You add 2 more bundles. Each bundle has 10 straws. There are also 5 loose straws. Bundle the tens into a hundred to count them.",
+      "response_type": "multi_part",
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "Put the 8 bundles and the 2 bundles together. How many ten-bundles are there?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p2",
+          "prompt": "Use your first answer. Bundle that many ten-bundles into a hundred and count the 5 loose straws too. How many straws are there in all?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p3",
+          "prompt": "Check by counting in a different order. Start with the 5 loose straws. Count on 10 for each of the 8 bundles, then for each of the 2 bundles. How many straws are there?",
+          "response_type": "numeric_short"
+        }
+      ],
+      "final_part_id": "p2",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incomplete": "give_followup_fu_aq_hard_01_then_bottom_out",
+        "incorrect": "give_next_hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_bundle_tens"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_ten_tens_hundred"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_draw_models"
+        }
+      ],
+      "prompt": "Let's try an easier one: There are 4 bundles of straws. Each bundle has 10 straws. How many straws are there?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_med_01_then_bottom_out"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_bundle_tens"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_ten_tens_hundred"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_draw_models"
+        }
+      ],
+      "prompt": "Let's try an easier one: A tray has 8 bundles of straws. You add 2 more bundles. Put the 8 bundles and the 2 bundles together. How many ten-bundles are there?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_hard_01_then_bottom_out"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "73",
+          "seventy three"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 73.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 73.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "parts": [
+          {
+            "part_id": "p1",
+            "accept": [
+              "10",
+              "ten"
+            ]
+          },
+          {
+            "part_id": "p2",
+            "accept": [
+              "105",
+              "one hundred five"
+            ]
+          },
+          {
+            "part_id": "p3",
+            "accept": [
+              "105",
+              "one hundred five"
+            ]
+          }
+        ],
+        "final_part_id": "p2"
+      },
+      "partial_credit_eligible": true,
+      "correct": "Says 10 for p1, 105 for p2, and 105 for p3.",
+      "partial": "Gives some of the parts correctly but not all of them.",
+      "incorrect": "Gives clear numbers but none of the parts are correct.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 40.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 10.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    }
+  ]
+}

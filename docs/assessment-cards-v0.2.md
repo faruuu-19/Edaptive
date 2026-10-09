@@ -1,5 +1,9 @@
 # Assessment cards v0.2 draft
 
+Assessment files are now collections, one per source concept JSON. Unwrap each
+object in the collection's `cards` array and match it by concept ID before
+following this lesson-level contract. See [collection naming and loader rules](assessment-card-collections.md).
+
 These assessments are complete data inputs for a future script agent. Supply one
 assessment and the concept card matching `linked_concept.concept_id` and
 `linked_concept.concept_version`. Every card remains a draft for human review.
@@ -79,7 +83,7 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-The set has 26 assessments for 26 concept cards: Grade 1 Modules 1–6 Lesson 1;
+The set has 26 lesson assessments in 10 files for 26 concept cards: Grade 1 Modules 1–6 Lesson 1;
 Grade 2 Module 1 Lessons 1–8 in one combined source card, Module 3 Lesson 1,
 Module 5 Lessons 1–8, and Module 6 Lessons 1–10. The root README has the full
 hierarchy and links. Across the set there are 78 main questions, 52 follow-ups,
@@ -89,7 +93,7 @@ Python checks passed for source and local references, field coverage, copied
 source assets, answers independently recomputed from prompts, rubric accepts,
 hint coverage, worked answers and 202 solution equations. The reference
 controller passed 624 routing scenarios and seven multipart classification
-scenarios. [Validation evidence](assessment-cards-v0.2-validation.json) records
+scenarios. [Original lesson validation evidence](assessment-cards-v0.2-validation.json) records
 per-card results and file hashes. These checks do not replace educational review
 or testing the eventual script agent. The [reference controller](assessment-cards-v0.2-routing-reference.py)
 is a standalone example; the caller must grade answers against the rubrics and

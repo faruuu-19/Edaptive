@@ -68,89 +68,80 @@ Build phase (proposal defended Sept 2026). FYP-1 evaluation: 7–11 Dec 2026.
 
 ## Assessment card coverage
 
-**26 concept cards are covered by 26 assessment cards:** 6 for Grade 1 and 20
-for Grade 2. Completed coverage follows this hierarchy:
+**One concept JSON file now has one matching assessment JSON file.**
+The 26 existing lesson assessments are combined into **10 assessment JSON
+collections** matching 10 source concept JSON files: six in Grade 1 and four
+in Grade 2. Each filename follows `<source JSON stem>.assessment_card.json`,
+and sits beside the source JSON. Multi-lesson sources have all their existing
+lesson assessments in that one file's `cards` array, in source order.
 
 ```text
-Mathematics
-├── Grade 1 — 6 assessment cards
-│   ├── Module 1 → Lesson 1
-│   ├── Module 2 → Lesson 1
-│   ├── Module 3 → Lesson 1
-│   ├── Module 4 → Lesson 1
-│   ├── Module 5 → Lesson 1
-│   └── Module 6 → Lesson 1
-└── Grade 2 — 20 assessment cards
-    ├── Module 1 → Lessons 1–8 in one combined concept card → 1 assessment card
-    ├── Module 3 → Lesson 1 → 1 assessment card
-    ├── Module 5 → Lessons 1–8 → 8 assessment cards, one per lesson
-    └── Module 6 → Lessons 1–10 → 10 assessment cards, one per lesson
+Mathematics — 10 matched JSON pairs / 26 lesson assessment entries
+├── Grade 1 — 6 pairs / 6 entries
+│   ├── Module 1 → Lesson 1 → 1 pair
+│   ├── Module 2 → Lesson 1 → 1 pair
+│   ├── Module 3 → Lesson 1 → 1 pair
+│   ├── Module 4 → Lesson 1 → 1 pair
+│   ├── Module 5 → Lesson 1 → 1 pair
+│   └── Module 6 → Lesson 1 → 1 pair
+└── Grade 2 — 4 pairs / 20 entries
+    ├── Module 1 → Lessons 1–8 combined in source → 1 pair / 1 entry
+    ├── Module 3 → Lesson 1 included in source → 1 pair / 1 entry
+    ├── Module 5 → Lessons 1–8 assessed → 1 pair / 8 entries
+    └── Module 6 → Lessons 1–10 assessed → 1 pair / 10 entries
 ```
 
-Grade 2 Module 1 is an explicit source exception: its JSON combines Lessons 1–8
-under `math_g2_m1_make_ten_take_from_ten`. Its assessment preserves that concept
-ID and combined objective. It is one assessment card. The source flags this
-combined structure for human review.
-
-| Grade | Curriculum module | Lesson(s) | Concept ID / assessment JSON | Levels present | Review status |
+| Grade | Module | Source concept JSON | Matching assessment JSON | Assessments / source concepts | Coverage |
 |---|---|---|---|---|---|
-| 1 | 1 | 1 | [math_g1_m1_l1_embedded_numbers](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%201/Module%201/math_g1_m1_l1_embedded_numbers.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 1 | 2 | 1 | [math_g1_m2_l1_three_addends_make_ten](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%202/Module%202/Math%20G1-M2%20Lessons/math_g1_m2_l1_three_addends_make_ten.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 1 | 3 | 1 | [math_g1_m3_l1_compare_length_endpoints](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%203/Module%203/Math%20G1-M3%20Lessons/math_g1_m3_l1_compare_length_endpoints.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 1 | 4 | 1 | [math_g1_m4_l1_group_tens_ones](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%204/Module%204/Math%20G1-M4%20Lessons/math_g1_m4_l1_group_tens_ones.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 1 | 5 | 1 | [math_g1_m5_l1_shape_attributes](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%205/Module%205/Math%20G1-M5%20Lessons/math_g1_m5_l1_shape_attributes.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 1 | 6 | 1 | [math_g1_m6_l1_compare_difference_unknown](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%206/Module%206/Math%20G1-M6%20Lessons/math_g1_m6_l1_compare_difference_unknown.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 1 | 1–8 (combined source card) | [math_g2_m1_make_ten_take_from_ten](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/math_g2_m1_make_ten_take_from_ten.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 3 | 1 | [math_g2_m3_l1_bundle_count_units](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%203/Module%203/Math%20G2-M3%20Lessons/math_g2_m3_l1_bundle_count_units.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 5 | 1 | [math_g2_m5_l1_ten_hundred_more_less](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_l1_ten_hundred_more_less.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 5 | 2 | [math_g2_m5_l2_add_subtract_multiples_100](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_l2_add_subtract_multiples_100.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 5 | 3 | [math_g2_m5_l3_add_hundreds_and_tens](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_l3_add_hundreds_and_tens.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 5 | 4 | [math_g2_m5_l4_subtract_hundreds_and_tens](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_l4_subtract_hundreds_and_tens.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 5 | 5 | [math_g2_m5_l5_make_next_hundred_to_add](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_l5_make_next_hundred_to_add.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 5 | 6 | [math_g2_m5_l6_compensation_subtract_check](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_l6_compensation_subtract_check.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 5 | 7 | [math_g2_m5_l7_share_critique_strategies](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_l7_share_critique_strategies.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 5 | 8 | [math_g2_m5_l8_disks_to_addition_algorithm](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_l8_disks_to_addition_algorithm.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 1 | [math_g2_m6_l1_equal_groups_manipulatives](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l1_equal_groups_manipulatives.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 2 | [math_g2_m6_l2_equal_groups_repeated_addition](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l2_equal_groups_repeated_addition.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 3 | [math_g2_m6_l3_equal_groups_doubles_bundling](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l3_equal_groups_doubles_bundling.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 4 | [math_g2_m6_l4_equal_groups_tape_diagrams](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l4_equal_groups_tape_diagrams.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 5 | [math_g2_m6_l5_arrays_rows_columns](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l5_arrays_rows_columns.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 6 | [math_g2_m6_l6_arrays_decompose_repeated_addition](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l6_arrays_decompose_repeated_addition.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 7 | [math_g2_m6_l7_arrays_math_drawings](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l7_arrays_math_drawings.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 8 | [math_g2_m6_l8_arrays_square_tiles_gaps](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l8_arrays_square_tiles_gaps.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 9 | [math_g2_m6_l9_equal_groups_word_problems](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l9_equal_groups_word_problems.assessment_card.json) | Easy, medium, hard | Draft; human review required |
-| 2 | 6 | 10 | [math_g2_m6_l10_tiles_rectangles_arrays](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_l10_tiles_rectangles_arrays.assessment_card.json) | Easy, medium, hard | Draft; human review required |
+| 1 | 1 | [math_g1_m1_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%201/Module%201/math_g1_m1_l1_lesson.json) | [math_g1_m1_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%201/Module%201/math_g1_m1_l1_lesson.assessment_card.json) | 1 / 1 | Complete |
+| 1 | 2 | [math_g1_m2_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%202/Module%202/Math%20G1-M2%20Lessons/math_g1_m2_l1_lesson.json) | [math_g1_m2_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%202/Module%202/Math%20G1-M2%20Lessons/math_g1_m2_l1_lesson.assessment_card.json) | 1 / 1 | Complete |
+| 1 | 3 | [math_g1_m3_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%203/Module%203/Math%20G1-M3%20Lessons/math_g1_m3_l1_lesson.json) | [math_g1_m3_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%203/Module%203/Math%20G1-M3%20Lessons/math_g1_m3_l1_lesson.assessment_card.json) | 1 / 1 | Complete |
+| 1 | 4 | [math_g1_m4_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%204/Module%204/Math%20G1-M4%20Lessons/math_g1_m4_l1_lesson.json) | [math_g1_m4_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%204/Module%204/Math%20G1-M4%20Lessons/math_g1_m4_l1_lesson.assessment_card.json) | 1 / 1 | Complete |
+| 1 | 5 | [math_g1_m5_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%205/Module%205/Math%20G1-M5%20Lessons/math_g1_m5_l1_lesson.json) | [math_g1_m5_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%205/Module%205/Math%20G1-M5%20Lessons/math_g1_m5_l1_lesson.assessment_card.json) | 1 / 1 | Complete |
+| 1 | 6 | [math_g1_m6_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%206/Module%206/Math%20G1-M6%20Lessons/math_g1_m6_l1_lesson.json) | [math_g1_m6_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%206/Module%206/Math%20G1-M6%20Lessons/math_g1_m6_l1_lesson.assessment_card.json) | 1 / 1 | Complete |
+| 2 | 1 | [math_g2_m1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/math_g2_m1_lesson.json) | [math_g2_m1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/math_g2_m1_lesson.assessment_card.json) | 1 / 1 | Complete |
+| 2 | 3 | [math_g2_m3_Lessons.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%203/Module%203/Math%20G2-M3%20Lessons/math_g2_m3_Lessons.json) | [math_g2_m3_Lessons.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%203/Module%203/Math%20G2-M3%20Lessons/math_g2_m3_Lessons.assessment_card.json) | 1 / 1 | Complete |
+| 2 | 5 | [math_g2_m5_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_lesson.json) | [math_g2_m5_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_lesson.assessment_card.json) | 8 / 20 | Partial |
+| 2 | 6 | [math_g2_m6_Lessons.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_Lessons.json) | [math_g2_m6_Lessons.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_Lessons.assessment_card.json) | 10 / 20 | Partial |
 
-Each assessment sits beside its linked concept card. All 26 assessments now use
-`0.2-draft`, with one reused easy question, generated medium and hard questions,
-two follow-ups, four local rubrics, and three question-specific hint levels for
-every main question and follow-up. Each hard question has three required parts
-and an independent check of the final answer. Grade and number ranges follow
-the linked concept card.
+This change combines existing assessments; it creates no new lesson content.
+Module 5 has assessments for 8 of its 20 included concept cards; Lessons 9–20
+remain unassessed. Module 6 has assessments for 10 of its 20 cards; Lessons 11–20
+remain unassessed. Both collections mark `coverage.status` as `partial` and list
+`missing_concept_ids`. The other eight pairs cover every concept card included
+in their source file. Complete file coverage does not mean reviewed for delivery.
 
-The complete set contains **78 main questions, 52 follow-ups, 104 local rubrics,
-390 generated hints, and 130 tutor guidance records**. Guidance includes spoken
-feedback, worked answer reveals, help and silence handling, attempt limits,
-partial/incomplete grading, follow-up return rules, and closing instructions.
-The original 16 published assessments were upgraded to the complete format
-alongside the 10 new Module 6 assessments.
+Grade 2 Module 1 contains one combined concept card for Lessons 1–8. Module 3's
+source contains only Lesson 1, although its source manifest expects 21 lessons
+and marks the other concept cards pending. Neither file is split into invented
+lesson cards. The other 14 lesson JSON files in the curriculum have no generated
+assessments yet; no empty assessment files are used to imply coverage.
 
-The complete format adds `hints` and `tutor_guidance` to the original template;
-assessment IDs end in `_v2` and `card_version` is 2. Consumers must support
-v0.2 explicitly. See [the v0.2 input and routing contract](docs/assessment-cards-v0.2.md).
+Each output root is an `assessment_card_collection` with source-file identity,
+coverage and a `cards` array. Each array entry remains a complete v0.2 assessment:
+one reused easy question, generated medium and three-part hard questions,
+two follow-ups, four local rubrics, 15 progressive hints and five tutor guidance
+records. Across all collections: **78 main questions, 52 follow-ups, 104 local
+rubrics, 390 hints and 130 guidance records**. All lesson IDs, prompts, hints,
+answers, rubrics, routes and worked solutions are preserved exactly.
 
-All files use UTF-8 JSON with 2-space indentation. Validation confirmed field
-coverage, concept-card references, copied asset specifications, answers derived
-independently from saved prompts, rubric accepts, hint references, feedback and
-worked solutions. The source's partial-credit descriptions are preserved for
-reused questions. Across the set, 202 worked-solution equations and 624
-reference-controller routing scenarios passed; multipart classification also
-passed seven scenarios. These are reference-controller checks, not script-agent
-integration tests. Generated situations and number combinations are new;
-individual numbers taught in the lesson may recur.
+For a script agent, load the concept source and matching assessment collection,
+then match each assessment to its concept using `linked_concept.concept_id`.
+Do not match by array position: the two partial collections omit unassessed
+lessons. Question, rubric, hint and asset IDs remain scoped to that lesson pair.
+See [the collection contract and loader example](docs/assessment-card-collections.md)
+and [the lesson assessment contract](docs/assessment-cards-v0.2.md).
 
-All 26 remain drafts: `ready_for_delivery` is `false`, and human educational
-review is required. Source uncertainties include Grade 1 Module 3 pagination,
-Grade 1 Module 6 metadata, Grade 2 Module 1 combined lessons and metadata, and
-Grade 2 Modules 3 and 6 worksheet labels and pagination. Module 6 Lessons 11–20
-and Modules 7–8 are not covered by this batch.
+Validation confirms 10 matched filenames/source hashes, 26 preserved entries,
+scoped references, original source order, accurate missing-lesson lists, and no
+lost or duplicated assessments. JSON files use UTF-8 with 2-space indentation.
+[Collection validation evidence](docs/assessment-card-collections-validation.json)
+records the results. The existing answer checks, 202 worked-solution equation
+checks, 624 routing scenarios and seven multipart classification scenarios remain
+applicable because the lesson entries were preserved without changes.
+
+All entries remain drafts with `ready_for_delivery: false`; human educational
+review and eventual script-agent integration tests are still required. Source
+metadata and worksheet-numbering uncertainties remain in the linked concept
+cards. Individual assessment files were replaced by these collections in this
+branch so each covered source JSON has exactly one assessment JSON beside it.

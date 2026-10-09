@@ -1,0 +1,325 @@
+{
+  "schema_version": "0.1-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g1_m6_l1_compare_difference_unknown_v1",
+  "card_version": 1,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g1_m6_l1_compare_difference_unknown",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 1,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "chatgpt_manual_fixture",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "use_only_if_partial_credit_eligible_else_same_as_incorrect",
+    "incorrect": "give_next_hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_level_without_using_an_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "after_max_attempts_reveal_answer_reference_and_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_ps_1"
+      },
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_ps_1"
+      },
+      "hint_refs": [
+        {
+          "scope": "concept_card",
+          "id": "h_compare_tapes"
+        },
+        {
+          "scope": "concept_card",
+          "id": "h_cover_up"
+        }
+      ],
+      "routes": "default"
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ],
+      "prompt": "Eva has 14 toy boats. Ben has 6 toy boats. Match Ben's boats with the same number of Eva's boats. How many more boats does Eva have?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "give_followup_fu_aq_med_01_then_bottom_out",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ],
+      "prompt": "Mai has 5 beach balls. Omar has 17 beach balls. Match Mai's balls with the same number of Omar's balls. The extra balls show the difference.",
+      "response_type": "multi_part",
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "Take the matched 5 away from Omar's 17. How many extra beach balls does Omar have?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p2",
+          "prompt": "Use the difference you found. How many fewer beach balls does Mai have than Omar?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p3",
+          "prompt": "Check the difference by counting on instead. Start at 5 and count on to 17. How many counts do you make?",
+          "response_type": "numeric_short"
+        }
+      ],
+      "final_part_id": "p2",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incomplete": "give_followup_fu_aq_hard_01_then_bottom_out",
+        "incorrect": "give_next_hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ],
+      "prompt": "Let's try an easier one: Nia has 6 kites. Leo has 4 kites. How many more kites does Nia have?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_med_01_then_bottom_out"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ],
+      "prompt": "Let's try an easier one: Mai has 5 beach balls. Omar has 17 beach balls. Take the matched 5 away from Omar's 17. How many extra beach balls does Omar have?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_hard_01_then_bottom_out"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 8.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "parts": [
+          {
+            "part_id": "p1",
+            "accept": [
+              "12",
+              "twelve"
+            ]
+          },
+          {
+            "part_id": "p2",
+            "accept": [
+              "12",
+              "twelve"
+            ]
+          },
+          {
+            "part_id": "p3",
+            "accept": [
+              "12",
+              "twelve"
+            ]
+          }
+        ],
+        "final_part_id": "p2"
+      },
+      "partial_credit_eligible": true,
+      "correct": "Says 12 for p1, 12 for p2, and 12 for p3.",
+      "partial": "Gives some of the parts correctly but not all of them.",
+      "incorrect": "Gives clear numbers but none of the parts are correct.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 2.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 12.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    }
+  ]
+}

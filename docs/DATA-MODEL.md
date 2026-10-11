@@ -177,9 +177,9 @@ per subject, latency, accuracy and mastery over time) are plain SQL over these f
 
 | | Decision | Proposed default | Who |
 |---|---|---|---|
-| ● | Concept card + assessment card are the official content formats; schemas move into `contracts/` | Yes | A, B, C |
+| ✅ | Concept card + assessment card are the official content formats; schemas move into `contracts/` | **Decided** (Oct 2026) | A, B, C |
 | ● | Content ids are Faryal's `math_g<g>_m<m>_l<l>_<name>` | Yes | A, C |
-| ● | One file layout per content file (one collection shape) | One `cards` collection | A, B |
+| ✅ | One file layout for every content file (one collection shape) | **Decided**: one `cards` collection | A, B |
 | ● | Each track confirms its event types in §5 for Mid-1 | — | A, B |
 | | Draft content allowed in dev and demo (`allow_draft_content`) | Yes | All |
 | | Assessment runtime in Track C's module, grading by Track A's verifiers, routing spec from Amna's controller | Yes | All |

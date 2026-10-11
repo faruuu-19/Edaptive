@@ -21,7 +21,8 @@ frontend/ Next.js + TypeScript
 
 Modules never call each other's internals. They share data two ways:
 
-1. **Contracts:** shapes of lessons, curriculum nodes, widgets, tutor actions.
+1. **Contracts:** shapes of events, identity, curriculum content, widgets and tutor actions,
+   each added by a contract PR once its owners agree it.
 2. **The session log:** every student action, verifier verdict, tutor action and attention
    signal is appended as an event (`POST /api/events` or `app.session_log.append`).
    Dashboards, replay, mastery and evaluation are *projections*: they read the log in

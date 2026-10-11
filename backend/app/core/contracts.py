@@ -36,7 +36,7 @@ class Contracts:
         return json.loads((self.root / "events" / "registry.json").read_text())
 
     def validator(self, schema_path: str) -> Draft202012Validator:
-        """schema_path is relative to /contracts, e.g. 'lesson/lesson.schema.json'."""
+        """schema_path is relative to /contracts, e.g. 'auth/actor.schema.json'."""
         if schema_path not in self._validators:
             uri = (self.root / schema_path).as_uri()
             self.schemas.get_or_retrieve(uri)  # fail fast on a bad path

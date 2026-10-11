@@ -83,18 +83,20 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-The set has 26 lesson assessments in 10 files for 26 concept cards: Grade 1 Modules 1–6 Lesson 1;
-Grade 2 Module 1 Lessons 1–8 in one combined source card, Module 3 Lesson 1,
-Module 5 Lessons 1–8, and Module 6 Lessons 1–10. The root README has the full
-hierarchy and links. Across the set there are 78 main questions, 52 follow-ups,
-104 local rubrics, 390 generated hints and 130 question guidance records.
+The set has 38 lesson assessments in 10 files for 38 included concept cards:
+Grade 1 Modules 1–6 Lesson 1; Grade 2 Module 1 Lessons 1–8 in one combined source
+card, Module 3 Lesson 1, Module 5 Lessons 1–20, and Module 6 Lessons 1–10.
+The root README has the full hierarchy and links. Totals are 114 main questions,
+76 follow-ups, 152 local rubrics, 570 generated hints and 190 guidance records.
 
 Python checks passed for source and local references, field coverage, copied
-source assets, answers independently recomputed from prompts, rubric accepts,
-hint coverage, worked answers and 202 solution equations. The reference
-controller passed 624 routing scenarios and seven multipart classification
-scenarios. [Original lesson validation evidence](assessment-cards-v0.2-validation.json) records
-per-card results and file hashes. These checks do not replace educational review
-or testing the eventual script agent. The [reference controller](assessment-cards-v0.2-routing-reference.py)
+source assets, independently recomputed answers and accept variants, hints,
+worked answers and 418 cumulative solution equations. The reference controller
+passed 912 routing scenarios and seven multipart classification scenarios.
+[Original lesson validation](assessment-cards-v0.2-validation.json) records
+historical per-card evidence; [new Module 5 batch validation](assessment-cards-grade2-module5-lessons9-20-validation.json)
+records the twelve additions. [Collection validation](assessment-card-collections-validation.json)
+records current file coverage and preservation. These checks do not replace
+educational review or testing the eventual script agent. The [reference controller](assessment-cards-v0.2-routing-reference.py)
 is a standalone example; the caller must grade answers against the rubrics and
 retain correct parts before passing an outcome to it.

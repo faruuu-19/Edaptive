@@ -2,12 +2,32 @@
   "status": "passed",
   "assessment_json_files": 10,
   "source_json_files_matched": 10,
-  "lesson_assessments_preserved": 26,
-  "complete_source_files": 8,
-  "partial_source_files": 2,
-  "missing_concept_entries_in_partial_files": 22,
+  "lesson_assessment_entries": 38,
+  "existing_lesson_assessments_preserved": 26,
+  "new_lesson_assessments": 12,
+  "complete_source_files": 9,
+  "partial_source_files": 1,
+  "missing_concept_entries_in_partial_files": 10,
   "unassessed_source_files": 14,
-  "scope": "Existing assessments combined only. JSON parsing, matching names/source hashes, original source order, per-concept scoped references, exact preservation of all lesson objects, no lost or duplicated entries, correct partial-coverage lists, and ZIP byte equality. Answers and hints are unchanged from previously validated assessments.",
+  "totals": {
+    "main_questions": 114,
+    "follow_ups": 76,
+    "local_rubrics": 152,
+    "generated_hints": 570,
+    "guidance_records": 190,
+    "worked_solution_equations_checked": 418,
+    "routing_scenarios": 912,
+    "multipart_classification_scenarios": 7
+  },
+  "scope": "All 38 entries match validated build inputs; original 26 are preserved exactly. Matching filenames/source hashes, source order, per-concept scoped references, unique included IDs, coverage lists, sibling-folder pairing and ZIP byte equality checked. Newly generated answers and accept variants were independently recomputed from saved prompts.",
+  "new_batch_validation": "assessment-cards-grade2-module5-lessons9-20-validation.json",
+  "limitations": [
+    "Human educational review remains required; script-agent integration is not tested.",
+    "Easy is one reused practice calculation. Some source lessons have no simpler core practice item and require several place value actions to finish it.",
+    "Numeric answers assess use of strategies; explanations of why a method is faster are modeled in guidance but not scored as spoken reasoning.",
+    "Lesson 11 exp_1 incorrectly says the tens total in 342 + 169 is 10; the correct total including the new ten is 11. New generated items cite exp_2, exp_3 and ex_1; the reused easy answer uses corrected arithmetic. Original concept JSON is preserved.",
+    "Source metadata and worksheet numbering remain draft uncertainties."
+  ],
   "pairs": [
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 1/Module 1/math_g1_m1_l1_lesson.json",
@@ -85,10 +105,10 @@
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/math_g2_m5_lesson.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/math_g2_m5_lesson.assessment_card.json",
       "status": "passed",
-      "assessment_entries": 8,
+      "assessment_entries": 20,
       "source_concept_entries": 20,
-      "coverage": "partial",
-      "assessment_sha256": "af707dd55f8875c5e7a88d6fd2f925ca0283a09875ceefaaf94d30eeb7f4efce"
+      "coverage": "complete",
+      "assessment_sha256": "82897e72ce103191effb2b64860a4b66bf1152267e466845485c7d81fbebb216"
     },
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/math_g2_m6_Lessons.json",

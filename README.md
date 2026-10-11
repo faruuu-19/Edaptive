@@ -68,15 +68,18 @@ Build phase (proposal defended Sept 2026). FYP-1 evaluation: 7–11 Dec 2026.
 
 ## Assessment card coverage
 
-**One concept JSON file now has one matching assessment JSON file.**
-The 26 existing lesson assessments are combined into **10 assessment JSON
-collections** matching 10 source concept JSON files: six in Grade 1 and four
-in Grade 2. Each filename follows `<source JSON stem>.assessment_card.json`,
-and sits beside the source JSON. Multi-lesson sources have all their existing
-lesson assessments in that one file's `cards` array, in source order.
+**One covered concept JSON file has one matching assessment JSON file.**
+There are **38 lesson assessment entries in 10 assessment JSON collections**,
+matching six source files in Grade 1 and four in Grade 2. Each assessment file
+is named `<source JSON stem>.assessment_card.json` and sits beside its source.
+Its `cards` array contains the assessed concepts in source order.
+
+The latest batch adds **Grade 2 Module 5 Lessons 9–20**. Module 5 now covers
+all 20 concepts included in its source; the previous 26 assessment entries
+are preserved exactly.
 
 ```text
-Mathematics — 10 matched JSON pairs / 26 lesson assessment entries
+Mathematics — 10 matched JSON pairs / 38 lesson assessment entries
 ├── Grade 1 — 6 pairs / 6 entries
 │   ├── Module 1 → Lesson 1 → 1 pair
 │   ├── Module 2 → Lesson 1 → 1 pair
@@ -84,10 +87,10 @@ Mathematics — 10 matched JSON pairs / 26 lesson assessment entries
 │   ├── Module 4 → Lesson 1 → 1 pair
 │   ├── Module 5 → Lesson 1 → 1 pair
 │   └── Module 6 → Lesson 1 → 1 pair
-└── Grade 2 — 4 pairs / 20 entries
+└── Grade 2 — 4 pairs / 32 entries
     ├── Module 1 → Lessons 1–8 combined in source → 1 pair / 1 entry
     ├── Module 3 → Lesson 1 included in source → 1 pair / 1 entry
-    ├── Module 5 → Lessons 1–8 assessed → 1 pair / 8 entries
+    ├── Module 5 → Lessons 1–20 assessed → 1 pair / 20 entries
     └── Module 6 → Lessons 1–10 assessed → 1 pair / 10 entries
 ```
 
@@ -101,47 +104,49 @@ Mathematics — 10 matched JSON pairs / 26 lesson assessment entries
 | 1 | 6 | [math_g1_m6_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%206/Module%206/Math%20G1-M6%20Lessons/math_g1_m6_l1_lesson.json) | [math_g1_m6_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%206/Module%206/Math%20G1-M6%20Lessons/math_g1_m6_l1_lesson.assessment_card.json) | 1 / 1 | Complete |
 | 2 | 1 | [math_g2_m1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/math_g2_m1_lesson.json) | [math_g2_m1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/math_g2_m1_lesson.assessment_card.json) | 1 / 1 | Complete |
 | 2 | 3 | [math_g2_m3_Lessons.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%203/Module%203/Math%20G2-M3%20Lessons/math_g2_m3_Lessons.json) | [math_g2_m3_Lessons.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%203/Module%203/Math%20G2-M3%20Lessons/math_g2_m3_Lessons.assessment_card.json) | 1 / 1 | Complete |
-| 2 | 5 | [math_g2_m5_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_lesson.json) | [math_g2_m5_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_lesson.assessment_card.json) | 8 / 20 | Partial |
+| 2 | 5 | [math_g2_m5_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_lesson.json) | [math_g2_m5_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/math_g2_m5_lesson.assessment_card.json) | 20 / 20 | Complete |
 | 2 | 6 | [math_g2_m6_Lessons.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_Lessons.json) | [math_g2_m6_Lessons.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/math_g2_m6_Lessons.assessment_card.json) | 10 / 20 | Partial |
 
-This change combines existing assessments; it creates no new lesson content.
-Module 5 has assessments for 8 of its 20 included concept cards; Lessons 9–20
-remain unassessed. Module 6 has assessments for 10 of its 20 cards; Lessons 11–20
-remain unassessed. Both collections mark `coverage.status` as `partial` and list
-`missing_concept_ids`. The other eight pairs cover every concept card included
-in their source file. Complete file coverage does not mean reviewed for delivery.
+Nine collections cover every concept included in their source JSON. Grade 2
+Module 6 remains partial: Lessons 1–10 are assessed and Lessons 11–20 remain
+unassessed. Its `coverage.missing_concept_ids` lists those ten concepts.
+Complete coverage describes the included source content; it does not mean
+reviewed for delivery.
 
-Grade 2 Module 1 contains one combined concept card for Lessons 1–8. Module 3's
-source contains only Lesson 1, although its source manifest expects 21 lessons
-and marks the other concept cards pending. Neither file is split into invented
-lesson cards. The other 14 lesson JSON files in the curriculum have no generated
-assessments yet; no empty assessment files are used to imply coverage.
+Grade 2 Module 1 has one combined concept card for Lessons 1–8. Module 3's
+source includes only Lesson 1 although its manifest expects 21 lessons and
+marks the other concepts pending. The other 14 lesson JSON files in the
+curriculum have no generated assessments yet.
 
-Each output root is an `assessment_card_collection` with source-file identity,
-coverage and a `cards` array. Each array entry remains a complete v0.2 assessment:
-one reused easy question, generated medium and three-part hard questions,
-two follow-ups, four local rubrics, 15 progressive hints and five tutor guidance
-records. Across all collections: **78 main questions, 52 follow-ups, 104 local
-rubrics, 390 hints and 130 guidance records**. All lesson IDs, prompts, hints,
-answers, rubrics, routes and worked solutions are preserved exactly.
+Each collection contains complete v0.2 lesson assessments: one reused easy
+practice question, generated medium and three-part hard questions, two
+follow-ups, four local rubrics, 15 progressive hints and five tutor guidance
+records. Across all collections: **114 main questions, 76 follow-ups, 152
+local rubrics, 570 hints and 190 guidance records**. Guidance covers correct,
+partial, incorrect, unclear and incomplete responses; help, silence, retries,
+follow-up returns and worked-answer reveals have explicit rules.
 
-For a script agent, load the concept source and matching assessment collection,
-then match each assessment to its concept using `linked_concept.concept_id`.
-Do not match by array position: the two partial collections omit unassessed
-lessons. Question, rubric, hint and asset IDs remain scoped to that lesson pair.
-See [the collection contract and loader example](docs/assessment-card-collections.md)
-and [the lesson assessment contract](docs/assessment-cards-v0.2.md).
+For a script agent, load the source and its matching collection, then match
+by `linked_concept.concept_id`. Do not match by array position: partial
+collections omit unassessed lessons. Question, rubric, hint and asset IDs
+remain scoped to each concept/assessment pair. See the
+[collection contract and loader example](docs/assessment-card-collections.md)
+and [lesson assessment contract](docs/assessment-cards-v0.2.md).
 
-Validation confirms 10 matched filenames/source hashes, 26 preserved entries,
-scoped references, original source order, accurate missing-lesson lists, and no
-lost or duplicated assessments. JSON files use UTF-8 with 2-space indentation.
-[Collection validation evidence](docs/assessment-card-collections-validation.json)
-records the results. The existing answer checks, 202 worked-solution equation
-checks, 624 routing scenarios and seven multipart classification scenarios remain
-applicable because the lesson entries were preserved without changes.
+Python validation checks JSON parsing, field coverage, source hashes and order,
+all references, answer keys and accept variants, original-entry preservation,
+coverage lists and ZIP byte equality. Cumulative validation covers **418
+worked-solution equations, 912 tutoring-route scenarios and seven multipart
+classification scenarios**. [Collection validation](docs/assessment-card-collections-validation.json)
+records current coverage; [new-batch validation](docs/assessment-cards-grade2-module5-lessons9-20-validation.json)
+records the independently recomputed answers and checks for the twelve new entries.
 
 All entries remain drafts with `ready_for_delivery: false`; human educational
-review and eventual script-agent integration tests are still required. Source
-metadata and worksheet-numbering uncertainties remain in the linked concept
-cards. Individual assessment files were replaced by these collections in this
-branch so each covered source JSON has exactly one assessment JSON beside it.
+review and script-agent integration tests remain outstanding. The reused easy
+item is one source practice calculation; in some lessons it requires several
+place value actions. Numeric answers assess strategy use, while guidance
+models why a method helps without scoring a spoken explanation. Lesson 11's
+source `exp_1` says its tens total is 10; including the new ten gives 11. The
+assessment's worked answer uses the correct arithmetic and preserves the
+original concept file. Source metadata and worksheet-numbering uncertainties
+remain in the concept cards.

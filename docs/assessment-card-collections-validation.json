@@ -1,31 +1,32 @@
 {
   "status": "passed",
-  "assessment_json_files": 10,
-  "source_json_files_matched": 10,
-  "lesson_assessment_entries": 48,
-  "existing_lesson_assessments_preserved": 38,
+  "assessment_json_files": 11,
+  "source_json_files_matched": 11,
+  "lesson_assessment_entries": 58,
+  "existing_lesson_assessments_preserved": 48,
   "new_lesson_assessments": 10,
   "complete_source_files": 10,
-  "partial_source_files": 0,
-  "missing_concept_entries_in_partial_files": 0,
-  "unassessed_source_files": 14,
+  "partial_source_files": 1,
+  "missing_concept_entries_in_partial_files": 16,
+  "unassessed_source_files": 13,
   "totals": {
-    "main_questions": 144,
-    "follow_ups": 96,
-    "local_rubrics": 192,
-    "generated_hints": 720,
-    "guidance_records": 240,
-    "worked_solution_equations_checked": 497,
-    "routing_scenarios": 1170,
+    "main_questions": 174,
+    "follow_ups": 116,
+    "local_rubrics": 232,
+    "generated_hints": 870,
+    "guidance_records": 290,
+    "worked_solution_equations_checked": 599,
+    "routing_scenarios": 1412,
     "multipart_classification_scenarios": 7
   },
-  "scope": "All 48 entries match validated build inputs; the existing 38 entries are preserved exactly. Matching filenames/source hashes, source order, per-concept scoped references, unique included IDs, coverage lists, sibling-folder pairing and ZIP byte equality checked. New numeric answers, open-answer parity truths and accept variants were independently checked from saved prompts.",
+  "scope": "All 58 entries match validated build inputs; the existing 48 entries are preserved exactly. Matching filenames/source hashes, source order, per-concept scoped references, unique included IDs, coverage lists, sibling-folder pairing and ZIP byte equality checked. Numeric answers and accept variants are independently checked in the referenced lesson validation reports, with open-answer truth checks where applicable.",
   "validation_reports": [
     "assessment-cards-v0.2-validation.json",
     "assessment-cards-grade2-module5-lessons9-20-validation.json",
-    "assessment-cards-grade2-module6-lessons11-20-validation.json"
+    "assessment-cards-grade2-module6-lessons11-20-validation.json",
+    "assessment-cards-grade2-module7-lessons1-10-validation.json"
   ],
-  "new_batch_validation": "assessment-cards-grade2-module6-lessons11-20-validation.json",
+  "new_batch_validation": "assessment-cards-grade2-module7-lessons1-10-validation.json",
   "limitations": [
     "Human educational review required; all cards are drafts.",
     "Reference controller verified; script-agent integration not tested.",
@@ -38,7 +39,12 @@
     "Lessons 18–20 reuse open questions. Grade equivalent explanations against the linked rubric, using partial only when its stated criterion is met.",
     "Generated parity questions use numeric codes with explicit labels. These codes represent even/odd judgments rather than object counts.",
     "Lesson 12 is about constructing equal squares, shared lines and spatial structuring. These actions are prompted and explained, but numeric answers do not validate the actual drawing.",
-    "Source metadata and pictured worksheet uncertainties remain in the linked concept cards."
+    "Source metadata and pictured worksheet uncertainties remain in the linked concept cards.",
+    "Lessons 1–4 prompt sorting, tallies and graph construction, but numeric answers do not verify the actual tables, labels, scales or drawings.",
+    "Lesson 5 answers count coins rather than their value in cents. Lessons 6–9 use the source US coin and dollar denominations.",
+    "Lesson 9 numeric totals and worked solutions model fair trades; accepting a total alone cannot verify a learner performed the trade.",
+    "Lesson 10 asks for the minimum coin count; the answer does not itself verify the learner selected the shown combination.",
+    "Source easy items are the simplest numeric practice items available; Lesson 7 needs skip-counting two coin types and Lesson 9 easy checks counting as a prerequisite to equivalent combinations."
   ],
   "pairs": [
     {
@@ -130,6 +136,15 @@
       "source_concept_entries": 20,
       "coverage": "complete",
       "assessment_sha256": "9dd68a8eae3d72b1ded188bda7cb00daaae2071c08f1a297677906faa4838fdf"
+    },
+    {
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.assessment_card.json",
+      "status": "passed",
+      "assessment_entries": 10,
+      "source_concept_entries": 26,
+      "coverage": "partial",
+      "assessment_sha256": "270068583df5019b41b85fe122b97fb4d720884cf820dc148f50563eb5027b2b"
     }
   ],
   "local_source_folder_pairing_verified": true

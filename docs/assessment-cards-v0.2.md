@@ -83,24 +83,34 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-The set has 48 lesson assessments in 10 files for 48 included concept cards:
+The set has 58 lesson assessments in 11 files for 58 included concept cards:
 Grade 1 Modules 1–6 Lesson 1; Grade 2 Module 1 Lessons 1–8 in one combined source
-card, Module 3 Lesson 1, Module 5 Lessons 1–20, and Module 6 Lessons 1–20.
-The root README has the full hierarchy and links. Totals are 144 main questions,
-96 follow-ups, 192 local rubrics, 720 generated hints and 240 guidance records.
+card, Module 3 Lesson 1, Module 5 Lessons 1–20, Module 6 Lessons 1–20, and Module 7
+Lessons 1–10. Module 7 contains 26 source concepts; its collection lists the
+16 pending lesson IDs. The root README has the full hierarchy and links.
+Totals are 174 main questions, 116 follow-ups, 232 local rubrics, 870 generated
+hints and 290 guidance records.
 
-Python checks passed for source and local references, field coverage, copied
-source assets, independently recomputed answers and accept variants, hints,
-worked answers and 497 cumulative solution equations. The reference controller
-passed 1,170 routing scenarios and seven multipart classification scenarios.
-[Original lesson validation](assessment-cards-v0.2-validation.json) records
-historical per-card evidence; [new Module 5 batch validation](assessment-cards-grade2-module5-lessons9-20-validation.json)
-records its twelve additions. [New Module 6 batch validation](assessment-cards-grade2-module6-lessons11-20-validation.json)
-records ten more entries, including three open easy questions and their
-partial-credit feedback. Grade those open answers against the source rubric,
-accepting equivalent explanations. Generated parity responses are numeric
-codes with explicit meanings in the prompts. [Collection validation](assessment-card-collections-validation.json)
-records current file coverage and preservation. These checks do not replace
-educational review or testing the eventual script agent. The [reference controller](assessment-cards-v0.2-routing-reference.py)
-is a standalone example; the caller must grade answers against the rubrics and
-retain correct parts before passing an outcome to it.
+Python checks passed for source and local references, exact field coverage,
+copied source assets, independently recomputed answers and accept variants,
+hints, worked answers and 599 cumulative solution equations. The reference
+controller passed 1,412 routing scenarios and seven multipart classification
+scenarios. [Original lesson validation](assessment-cards-v0.2-validation.json)
+records historical per-card evidence; [Module 5 validation](assessment-cards-grade2-module5-lessons9-20-validation.json)
+records its twelve additions; [Module 6 validation](assessment-cards-grade2-module6-lessons11-20-validation.json)
+records its ten additions, including three open easy questions with partial
+credit. Grade those open answers against their source rubric and accept
+equivalent explanations. Generated parity questions use explicitly labelled
+numeric codes.
+
+[New Module 7 validation](assessment-cards-grade2-module7-lessons1-10-validation.json)
+records ten additions with 102 worked equations and 242 route checks. Source
+money-unit variants, fair trades and exhaustive minimum-coin counts were
+checked. Lesson 5 counts coins; Lessons 6–9 use source US coin/dollar values.
+Numeric responses do not verify actual tables, graphs or coin combinations.
+[Collection validation](assessment-card-collections-validation.json) records
+current coverage and preservation. All cards remain drafts. These checks do
+not replace educational review or testing the eventual script agent.
+The [reference controller](assessment-cards-v0.2-routing-reference.py) is a
+standalone example; its caller must grade against the rubrics and retain
+correct hard parts before passing an outcome to it.

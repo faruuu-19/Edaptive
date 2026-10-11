@@ -79,26 +79,31 @@ one child assessment object, not the collection wrapper.
 
 ## Coverage and verification
 
-The six Grade 1 source files contain six assessments. Four Grade 2 source files
-contain 42 assessments: Module 1 one combined concept, Module 3 its one included
-concept, Module 5 Lessons 1–20, and Module 6 Lessons 1–20. All ten collections
-are complete for the concepts included in their source. Fourteen other source
-lesson files still have no generated assessments.
+The six Grade 1 source files contain six assessments. Five Grade 2 source files
+contain 52 assessments: Module 1 one combined concept, Module 3 its one included
+concept, Module 5 Lessons 1–20, Module 6 Lessons 1–20, and Module 7 Lessons 1–10.
+Ten collections are complete for their included source concepts. Module 7 is
+partial: 10 of 26 concepts are assessed and 16 IDs are listed as missing.
+Thirteen other source lesson files have no generated assessments.
 
-All 48 entries match validated build inputs; the previous 38 are preserved
+All 58 entries match validated build inputs; the previous 48 are preserved
 exactly. Matching names, source hashes, source order, scoped references, unique
 IDs, coverage status, missing IDs and ZIP byte equality were checked.
-The new ten entries have independently checked numeric answers, open-answer
-parity truths and rubric accept variants, 79 worked-equation checks and 258
-routing scenarios. These include partial-credit retry and exhaustion for the
-reused easy questions. Cumulative evidence covers 497 equations, 1,170 routing
-scenarios and seven multipart classification scenarios. Future script-agent
-integration is untested.
+The ten new Module 7 entries have independently checked numeric answers and
+accept variants, including source cents/dollars forms. Validation includes
+fair-trade conservation, exhaustive minimum-coin counts, 102 worked-equation
+checks and 242 routing scenarios, including the reused easy partial-credit
+route. Cumulative evidence covers 599 equations, 1,412 routing scenarios and
+seven multipart classification scenarios. Future script-agent integration is
+untested; every child remains a draft.
 
-New-batch educational limitations, including drawing validation and open-answer
-grading, are in the validation report. The earlier Module 5 Lesson 11 source
-arithmetic discrepancy remains documented. Every child is a draft.
+Numeric totals cannot verify a learner's actual graph, tally table, fair trade
+or chosen coin combination. New-batch limitations are in the
+[Module 7 validation](assessment-cards-grade2-module7-lessons1-10-validation.json).
+Earlier open-answer grading and drawing limits, and the Module 5 Lesson 11
+source arithmetic discrepancy, remain documented in previous batch reports
+and the root README.
 
-[Pair mapping](assessment-card-collections-manifest.json) lists the source and
+[Pair mapping](assessment-card-collections-manifest.json) lists source and
 assessment paths. [Collection validation](assessment-card-collections-validation.json)
-records per-pair results. The root README lists full curriculum coverage.
+records per-pair results. The root README lists the curriculum hierarchy.

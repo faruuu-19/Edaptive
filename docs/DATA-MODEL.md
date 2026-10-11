@@ -100,7 +100,7 @@ them is also an event.
 ## 5. The event catalog (the contract between tracks)
 
 Envelope ✅: `event_id, event_type, event_version, occurred_at, source, session_id,
-student_id, payload`. Every event about content carries `concept_id` and `card_version`.
+student_id, payload`. How to add and emit events without rejection: `AGENTS.md`. Every event about content carries `concept_id` and `card_version`.
 Each track owns its namespace and confirms its list.
 
 | Namespace | Owner | Proposed types (payload essentials) | Ships |
@@ -109,7 +109,7 @@ Each track owns its namespace and confirms its list.
 | `session` ✅ | C | `session.started` (entry, concept_id), `session.ended` (reason) | Mid-1 |
 | `tutor` | A | `tutor.turn` (turn_id, action type, text shown, widget/avatar directive, llm_calls, latency_ms) | Mid-1 |
 | `verifier` | A | `verifier.verdict` (turn_id, verifier: sympy / grammar / concept_card, claim, result: pass / fail / unclear, misconception_id, latency_ms) | Mid-1 |
-| `student` | A + B | `student.answered` (question_id, response text or structured, input mode: touch / voice / keyboard) | Mid-1 |
+| `student` | B | `student.answered` (question_id, response text or structured, input mode: touch / voice / keyboard) | Mid-1 |
 | `widget` | B | `widget.mounted`, `widget.interacted` (widget_type, action, value) | Mid-1 |
 | `avatar` | B | `avatar.state_changed` (state) | Mid-1 |
 | `mastery` | A | `mastery.updated` (concept_id, from, to, evidence) | Final-1 |
@@ -178,7 +178,7 @@ per subject, latency, accuracy and mastery over time) are plain SQL over these f
 | | Decision | Proposed default | Who |
 |---|---|---|---|
 | ✅ | Concept card + assessment card are the official content formats; schemas move into `contracts/` | **Decided** (Oct 2026) | A, B, C |
-| ● | Content ids are Faryal's `math_g<g>_m<m>_l<l>_<name>` | Yes | A, C |
+| ✅ | Content ids are Faryal's `math_g<g>_m<m>_l<l>_<name>` (now in `contracts/common/ids.schema.json`) | **Decided** | A, C |
 | ✅ | One file layout for every content file (one collection shape) | **Decided**: one `cards` collection | A, B |
 | ● | Each track confirms its event types in §5 for Mid-1 | — | A, B |
 | | Draft content allowed in dev and demo (`allow_draft_content`) | Yes | All |

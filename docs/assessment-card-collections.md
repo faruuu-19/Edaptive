@@ -79,30 +79,28 @@ one child assessment object, not the collection wrapper.
 
 ## Coverage and verification
 
-The six Grade 1 source files contain six assessments. Five Grade 2 source files
-contain 52 assessments: Module 1 one combined concept, Module 3 its one included
-concept, Module 5 Lessons 1–20, Module 6 Lessons 1–20, and Module 7 Lessons 1–10.
-Ten collections are complete for their included source concepts. Module 7 is
-partial: 10 of 26 concepts are assessed and 16 IDs are listed as missing.
-Thirteen other source lesson files have no generated assessments.
+Six Grade 1 source files contain six assessments. Six Grade 2 source files
+contain 62 assessments: Module 1 one combined concept, Module 3 its one included
+concept, Module 5 Lessons 1–20, Module 6 Lessons 1–20, and Modules 7 and 8 Lessons
+1–10 each. Ten collections are complete for included source concepts. Module 7
+is partial at 10 of 26 concepts; Module 8 is partial at 10 of 16. They list 22
+missing IDs in all. Twelve other source lesson files have no assessments.
 
-All 58 entries match validated build inputs; the previous 48 are preserved
-exactly. Matching names, source hashes, source order, scoped references, unique
-IDs, coverage status, missing IDs and ZIP byte equality were checked.
-The ten new Module 7 entries have independently checked numeric answers and
-accept variants, including source cents/dollars forms. Validation includes
-fair-trade conservation, exhaustive minimum-coin counts, 102 worked-equation
-checks and 242 routing scenarios, including the reused easy partial-credit
-route. Cumulative evidence covers 599 equations, 1,412 routing scenarios and
-seven multipart classification scenarios. Future script-agent integration is
-untested; every child remains a draft.
+All 68 entries match validated build inputs; the previous 58 are preserved
+exactly. Names, source hashes and order, scoped references, unique IDs, coverage
+status, missing IDs and ZIP byte equality were checked. The ten new Module 8
+entries have independently checked geometry, counts, rational shares and every
+accept variant. Numeric choice-key meanings, cube attributes, triangle
+composition and square/rhombus classification were checked. There are 28 new
+worked-equation checks and 240 route scenarios. Cumulative evidence covers
+627 equations, 1,652 routes and seven multipart classification scenarios.
 
-Numeric totals cannot verify a learner's actual graph, tally table, fair trade
-or chosen coin combination. New-batch limitations are in the
-[Module 7 validation](assessment-cards-grade2-module7-lessons1-10-validation.json).
-Earlier open-answer grading and drawing limits, and the Module 5 Lesson 11
-source arithmetic discrepancy, remain documented in previous batch reports
-and the root README.
+Every child is a draft and script-agent integration is untested. Numeric
+choices cannot verify spoken vocabulary or actual drawings, folds and joins.
+The [Module 8 validation](assessment-cards-grade2-module8-lessons1-10-validation.json)
+records educational limits and source review blockers for Lessons 3 and 5.
+Previous reports retain money, open-answer grading and drawing limitations,
+and the Module 5 source arithmetic discrepancy.
 
 [Pair mapping](assessment-card-collections-manifest.json) lists source and
 assessment paths. [Collection validation](assessment-card-collections-validation.json)

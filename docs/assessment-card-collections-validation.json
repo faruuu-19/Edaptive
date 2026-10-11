@@ -1,32 +1,33 @@
 {
   "status": "passed",
-  "assessment_json_files": 11,
-  "source_json_files_matched": 11,
-  "lesson_assessment_entries": 58,
-  "existing_lesson_assessments_preserved": 48,
+  "assessment_json_files": 12,
+  "source_json_files_matched": 12,
+  "lesson_assessment_entries": 68,
+  "existing_lesson_assessments_preserved": 58,
   "new_lesson_assessments": 10,
   "complete_source_files": 10,
-  "partial_source_files": 1,
-  "missing_concept_entries_in_partial_files": 16,
-  "unassessed_source_files": 13,
+  "partial_source_files": 2,
+  "missing_concept_entries_in_partial_files": 22,
+  "unassessed_source_files": 12,
   "totals": {
-    "main_questions": 174,
-    "follow_ups": 116,
-    "local_rubrics": 232,
-    "generated_hints": 870,
-    "guidance_records": 290,
-    "worked_solution_equations_checked": 599,
-    "routing_scenarios": 1412,
+    "main_questions": 204,
+    "follow_ups": 136,
+    "local_rubrics": 272,
+    "generated_hints": 1020,
+    "guidance_records": 340,
+    "worked_solution_equations_checked": 627,
+    "routing_scenarios": 1652,
     "multipart_classification_scenarios": 7
   },
-  "scope": "All 58 entries match validated build inputs; the existing 48 entries are preserved exactly. Matching filenames/source hashes, source order, per-concept scoped references, unique included IDs, coverage lists, sibling-folder pairing and ZIP byte equality checked. Numeric answers and accept variants are independently checked in the referenced lesson validation reports, with open-answer truth checks where applicable.",
+  "scope": "All 68 entries match validated build inputs; the existing 58 entries are preserved exactly. Matching filenames/source hashes, source order, per-concept scoped references, unique included IDs, coverage lists, sibling-folder pairing and ZIP byte equality checked. Numeric answers and accept variants are independently checked in the referenced lesson validation reports, with open-answer truth checks where applicable.",
   "validation_reports": [
     "assessment-cards-v0.2-validation.json",
     "assessment-cards-grade2-module5-lessons9-20-validation.json",
     "assessment-cards-grade2-module6-lessons11-20-validation.json",
-    "assessment-cards-grade2-module7-lessons1-10-validation.json"
+    "assessment-cards-grade2-module7-lessons1-10-validation.json",
+    "assessment-cards-grade2-module8-lessons1-10-validation.json"
   ],
-  "new_batch_validation": "assessment-cards-grade2-module7-lessons1-10-validation.json",
+  "new_batch_validation": "assessment-cards-grade2-module8-lessons1-10-validation.json",
   "limitations": [
     "Human educational review required; all cards are drafts.",
     "Reference controller verified; script-agent integration not tested.",
@@ -44,7 +45,12 @@
     "Lesson 5 answers count coins rather than their value in cents. Lessons 6–9 use the source US coin and dollar denominations.",
     "Lesson 9 numeric totals and worked solutions model fair trades; accepting a total alone cannot verify a learner performed the trade.",
     "Lesson 10 asks for the minimum coin count; the answer does not itself verify the learner selected the shown combination.",
-    "Source easy items are the simplest numeric practice items available; Lesson 7 needs skip-counting two coin types and Lesson 9 easy checks counting as a prerequisite to equivalent combinations."
+    "Source easy items are the simplest numeric practice items available; Lesson 7 needs skip-counting two coin types and Lesson 9 easy checks counting as a prerequisite to equivalent combinations.",
+    "Generated shape/fraction naming questions use explicitly stated numeric choice keys. A correct code does not verify spoken mathematical vocabulary or a learner explanation.",
+    "Drawings, folds, joins and matching actions are described and modelled; numeric responses do not verify that the learner actually constructed or checked them.",
+    "The source defines trapezoid inclusively as at least one parallel side pair. The square question asks for the most specific name among the listed choices.",
+    "Lesson 2 easy combines quadrilateral recognition with finding missing sides; Lesson 4 easy counts index-card angles as a prerequisite for square-corner classification.",
+    "Source geometry specifications, metadata and pictured worksheet uncertainties remain in linked concept cards."
   ],
   "pairs": [
     {
@@ -145,6 +151,15 @@
       "source_concept_entries": 26,
       "coverage": "partial",
       "assessment_sha256": "270068583df5019b41b85fe122b97fb4d720884cf820dc148f50563eb5027b2b"
+    },
+    {
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.assessment_card.json",
+      "status": "passed",
+      "assessment_entries": 10,
+      "source_concept_entries": 16,
+      "coverage": "partial",
+      "assessment_sha256": "6ac8288065a38bb63f6c0d7e11637d732708eab213efd04a0cd246b6c3c88010"
     }
   ],
   "local_source_folder_pairing_verified": true

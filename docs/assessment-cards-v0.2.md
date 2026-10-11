@@ -83,34 +83,37 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-The set has 58 lesson assessments in 11 files for 58 included concept cards:
-Grade 1 Modules 1–6 Lesson 1; Grade 2 Module 1 Lessons 1–8 in one combined source
-card, Module 3 Lesson 1, Module 5 Lessons 1–20, Module 6 Lessons 1–20, and Module 7
-Lessons 1–10. Module 7 contains 26 source concepts; its collection lists the
-16 pending lesson IDs. The root README has the full hierarchy and links.
-Totals are 174 main questions, 116 follow-ups, 232 local rubrics, 870 generated
-hints and 290 guidance records.
+The set has 68 lesson assessments in 12 matching files: Grade 1 Modules 1–6
+Lesson 1; Grade 2 Module 1 Lessons 1–8 in one combined source card, Module 3
+Lesson 1, Modules 5 and 6 Lessons 1–20 each, and Modules 7 and 8 Lessons 1–10
+each. Modules 7 and 8 contain 26 and 16 source concepts, so their collections
+list 16 and 6 missing IDs respectively. The root README gives the hierarchy.
+Totals are 204 main questions, 136 follow-ups, 272 local rubrics, 1,020 generated
+hints and 340 guidance records.
 
-Python checks passed for source and local references, exact field coverage,
-copied source assets, independently recomputed answers and accept variants,
-hints, worked answers and 599 cumulative solution equations. The reference
-controller passed 1,412 routing scenarios and seven multipart classification
-scenarios. [Original lesson validation](assessment-cards-v0.2-validation.json)
-records historical per-card evidence; [Module 5 validation](assessment-cards-grade2-module5-lessons9-20-validation.json)
-records its twelve additions; [Module 6 validation](assessment-cards-grade2-module6-lessons11-20-validation.json)
-records its ten additions, including three open easy questions with partial
-credit. Grade those open answers against their source rubric and accept
-equivalent explanations. Generated parity questions use explicitly labelled
-numeric codes.
+Python checks passed for source/local references, exact fields, copied source
+assets, independently recomputed answers and accept variants, hints, worked
+answers and 627 cumulative equations. The reference controller passed 1,652
+route scenarios and seven multipart classification scenarios.
+[Original lesson validation](assessment-cards-v0.2-validation.json),
+[Module 5 validation](assessment-cards-grade2-module5-lessons9-20-validation.json),
+[Module 6 validation](assessment-cards-grade2-module6-lessons11-20-validation.json)
+and [Module 7 validation](assessment-cards-grade2-module7-lessons1-10-validation.json)
+retain historical evidence. Open answers use the source rubric with equivalent
+explanations; explicit numeric codes in parity items denote classifications.
 
-[New Module 7 validation](assessment-cards-grade2-module7-lessons1-10-validation.json)
-records ten additions with 102 worked equations and 242 route checks. Source
-money-unit variants, fair trades and exhaustive minimum-coin counts were
-checked. Lesson 5 counts coins; Lessons 6–9 use source US coin/dollar values.
-Numeric responses do not verify actual tables, graphs or coin combinations.
+[New Module 8 validation](assessment-cards-grade2-module8-lessons1-10-validation.json)
+records ten additions with geometric and rational equal-share checks,
+28 equations and 240 routes. Choice keys explicitly map numbers to shape and
+share names. A correct choice code cannot verify spoken vocabulary, explanations
+or actual constructions, drawings, folds and joins. The source trapezoid
+definition is inclusive; the square question requests the most specific listed
+name. Source high flags naming reused questions in Lessons 3 and 5 are retained
+as review blockers.
+
 [Collection validation](assessment-card-collections-validation.json) records
 current coverage and preservation. All cards remain drafts. These checks do
 not replace educational review or testing the eventual script agent.
 The [reference controller](assessment-cards-v0.2-routing-reference.py) is a
-standalone example; its caller must grade against the rubrics and retain
-correct hard parts before passing an outcome to it.
+standalone example; the caller grades against rubrics and retains correct hard
+parts before passing an outcome to it.

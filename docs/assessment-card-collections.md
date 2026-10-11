@@ -1,9 +1,9 @@
 # One assessment JSON per concept JSON
 
-There are 38 lesson assessment entries in 10 matching assessment JSON files.
+There are 48 lesson assessment entries in 10 matching assessment JSON files.
 Each covered source concept JSON has one counterpart, including sources that
-contain many lessons. Grade 2 Module 5 now covers Lessons 1–20; Module 6 remains
-partial with Lessons 1–10 assessed.
+contain many lessons. Grade 2 Modules 5 and 6 now each cover Lessons 1–20. All ten covered source
+files have complete assessment collections.
 
 ## Naming and root shape
 
@@ -80,20 +80,24 @@ one child assessment object, not the collection wrapper.
 ## Coverage and verification
 
 The six Grade 1 source files contain six assessments. Four Grade 2 source files
-contain 32 assessments: Module 1 one combined concept, Module 3 its one included
-concept, Module 5 Lessons 1–20, and Module 6 Lessons 1–10. Only Module 6 remains
-partial, missing ten included concepts. The other 14 source lesson files have
-no generated assessments.
+contain 42 assessments: Module 1 one combined concept, Module 3 its one included
+concept, Module 5 Lessons 1–20, and Module 6 Lessons 1–20. All ten collections
+are complete for the concepts included in their source. Fourteen other source
+lesson files still have no generated assessments.
 
-All 38 entries match their validated build inputs and the original 26 are
-preserved exactly. Matching names, source hashes, source order, scoped
-references, unique IDs, coverage status, missing IDs and ZIP byte equality
-were checked. The new twelve entries have independently recomputed answers
-and accept variants, 216 worked-equation checks and 288 routing scenarios.
-Across all entries, cumulative evidence covers 418 equations, 912 routing
+All 48 entries match validated build inputs; the previous 38 are preserved
+exactly. Matching names, source hashes, source order, scoped references, unique
+IDs, coverage status, missing IDs and ZIP byte equality were checked.
+The new ten entries have independently checked numeric answers, open-answer
+parity truths and rubric accept variants, 79 worked-equation checks and 258
+routing scenarios. These include partial-credit retry and exhaustion for the
+reused easy questions. Cumulative evidence covers 497 equations, 1,170 routing
 scenarios and seven multipart classification scenarios. Future script-agent
-integration remains untested. New-batch educational limitations and the source
-Lesson 11 arithmetic discrepancy are recorded in the validation report.
+integration is untested.
+
+New-batch educational limitations, including drawing validation and open-answer
+grading, are in the validation report. The earlier Module 5 Lesson 11 source
+arithmetic discrepancy remains documented. Every child is a draft.
 
 [Pair mapping](assessment-card-collections-manifest.json) lists the source and
 assessment paths. [Collection validation](assessment-card-collections-validation.json)

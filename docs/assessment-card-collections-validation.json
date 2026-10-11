@@ -2,31 +2,43 @@
   "status": "passed",
   "assessment_json_files": 10,
   "source_json_files_matched": 10,
-  "lesson_assessment_entries": 38,
-  "existing_lesson_assessments_preserved": 26,
-  "new_lesson_assessments": 12,
-  "complete_source_files": 9,
-  "partial_source_files": 1,
-  "missing_concept_entries_in_partial_files": 10,
+  "lesson_assessment_entries": 48,
+  "existing_lesson_assessments_preserved": 38,
+  "new_lesson_assessments": 10,
+  "complete_source_files": 10,
+  "partial_source_files": 0,
+  "missing_concept_entries_in_partial_files": 0,
   "unassessed_source_files": 14,
   "totals": {
-    "main_questions": 114,
-    "follow_ups": 76,
-    "local_rubrics": 152,
-    "generated_hints": 570,
-    "guidance_records": 190,
-    "worked_solution_equations_checked": 418,
-    "routing_scenarios": 912,
+    "main_questions": 144,
+    "follow_ups": 96,
+    "local_rubrics": 192,
+    "generated_hints": 720,
+    "guidance_records": 240,
+    "worked_solution_equations_checked": 497,
+    "routing_scenarios": 1170,
     "multipart_classification_scenarios": 7
   },
-  "scope": "All 38 entries match validated build inputs; original 26 are preserved exactly. Matching filenames/source hashes, source order, per-concept scoped references, unique included IDs, coverage lists, sibling-folder pairing and ZIP byte equality checked. Newly generated answers and accept variants were independently recomputed from saved prompts.",
-  "new_batch_validation": "assessment-cards-grade2-module5-lessons9-20-validation.json",
+  "scope": "All 48 entries match validated build inputs; the existing 38 entries are preserved exactly. Matching filenames/source hashes, source order, per-concept scoped references, unique included IDs, coverage lists, sibling-folder pairing and ZIP byte equality checked. New numeric answers, open-answer parity truths and accept variants were independently checked from saved prompts.",
+  "validation_reports": [
+    "assessment-cards-v0.2-validation.json",
+    "assessment-cards-grade2-module5-lessons9-20-validation.json",
+    "assessment-cards-grade2-module6-lessons11-20-validation.json"
+  ],
+  "new_batch_validation": "assessment-cards-grade2-module6-lessons11-20-validation.json",
   "limitations": [
+    "Human educational review required; all cards are drafts.",
+    "Reference controller verified; script-agent integration not tested.",
+    "Grade 2 Module 1 remains one combined concept card for Lessons 1–8.",
     "Human educational review remains required; script-agent integration is not tested.",
     "Easy is one reused practice calculation. Some source lessons have no simpler core practice item and require several place value actions to finish it.",
     "Numeric answers assess use of strategies; explanations of why a method is faster are modeled in guidance but not scored as spoken reasoning.",
     "Lesson 11 exp_1 incorrectly says the tens total in 342 + 169 is 10; the correct total including the new ten is 11. New generated items cite exp_2, exp_3 and ex_1; the reused easy answer uses corrected arithmetic. Original concept JSON is preserved.",
-    "Source metadata and worksheet numbering remain draft uncertainties."
+    "Source metadata and worksheet numbering remain draft uncertainties.",
+    "Lessons 18–20 reuse open questions. Grade equivalent explanations against the linked rubric, using partial only when its stated criterion is met.",
+    "Generated parity questions use numeric codes with explicit labels. These codes represent even/odd judgments rather than object counts.",
+    "Lesson 12 is about constructing equal squares, shared lines and spatial structuring. These actions are prompted and explained, but numeric answers do not validate the actual drawing.",
+    "Source metadata and pictured worksheet uncertainties remain in the linked concept cards."
   ],
   "pairs": [
     {
@@ -114,10 +126,10 @@
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/math_g2_m6_Lessons.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/math_g2_m6_Lessons.assessment_card.json",
       "status": "passed",
-      "assessment_entries": 10,
+      "assessment_entries": 20,
       "source_concept_entries": 20,
-      "coverage": "partial",
-      "assessment_sha256": "0463a06b29416d5171dff39a3c84eca38d032b0f4d3cdafd07729834e18301ea"
+      "coverage": "complete",
+      "assessment_sha256": "9dd68a8eae3d72b1ded188bda7cb00daaae2071c08f1a297677906faa4838fdf"
     }
   ],
   "local_source_folder_pairing_verified": true

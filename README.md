@@ -143,16 +143,15 @@ The [previous Module 5 validation](docs/assessment-cards-grade2-module5-lessons9
 records the twelve additions that completed that module.
 
 All entries remain drafts with `ready_for_delivery: false`; human educational
-review and script-agent integration tests remain outstanding. The reused easy
-item is one source practice calculation; in some lessons it requires several
-place value actions. Numeric answers assess strategy use, while guidance
+review and script-agent integration tests remain outstanding. Reused easy
+items follow their source practice questions; some calculation items require
+several place value actions. Numeric answers assess strategy use, while guidance
 models why a method helps. Module 6 Lessons 18–20 also reuse open questions
 whose linked rubrics grade explanations and permit partial credit for a correct
 classification without its reason. Generated parity questions use explicit
 numeric labels: 1 for even and 2 for odd/not even. Drawing prompts explain equal
 squares and shared lines, but numeric answers do not verify the drawing itself.
-Module 5 Lesson 11's
-source `exp_1` says its tens total is 10; including the new ten gives 11. The
+Module 5 Lesson 11's source `exp_1` says its tens total is 10; including the new ten gives 11. The
 assessment's worked answer uses the correct arithmetic and preserves the
 original concept file. Source metadata and worksheet-numbering uncertainties
 remain in the concept cards.

@@ -1,0 +1,112 @@
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  gap: 16px;
+}
+
+.tile {
+  font: inherit;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 28px 16px;
+  background: var(--surface);
+  border: 2px solid var(--border);
+  border-radius: 24px;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform 120ms ease, border-color 120ms ease;
+}
+
+.tile:hover:not(:disabled) {
+  transform: translateY(-2px);
+  border-color: var(--accent);
+}
+
+.tile:disabled {
+  cursor: default;
+}
+
+.tileIcon {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.tileName {
+  font-size: 1.35rem;
+  font-weight: 800;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.heroIcon {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.subject {
+  composes: tile;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.subjectSoon {
+  opacity: 0.6;
+}
+
+.badge {
+  font-size: 0.85rem;
+  font-weight: 700;
+  border-radius: 999px;
+  padding: 3px 10px;
+  background: var(--surface-2);
+  color: var(--muted);
+}
+
+.avatarChoices {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.avatarChoice {
+  font-size: 1.8rem;
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  border: 2px solid var(--border);
+  background: var(--surface);
+  cursor: pointer;
+}
+
+.avatarChoice[aria-pressed="true"] {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.listItem {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 0;
+  border-top: 1px solid var(--border);
+}
+
+.listItem:first-child {
+  border-top: none;
+}
+
+.listIcon {
+  font-size: 2.2rem;
+}
+
+.grow {
+  flex: 1;
+  min-width: 0;
+}

@@ -11,8 +11,6 @@ module's internals. Everything here is JSON Schema (draft 2020-12).
 | `events/payloads/*.vN.schema.json` | Payload per event type and version | namespace owner |
 | `auth/actor.schema.json` | Who is acting (household → parent → students); every module reads it | Track C |
 | `curriculum/node.schema.json` | Curriculum graph node | Track C |
-| `lesson/lesson.schema.json` | Lesson-as-data format | Track C (steps), B (`widget`), A (`check.spec`) |
-| `widgets/widget.schema.json` | Widget reference: outer shape only, so lessons can point at widgets | Track B (proposal, to tighten) |
 | `examples/` | One valid instance per contract; tests validate them | whoever changes the contract |
 
 ## Rules

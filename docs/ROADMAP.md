@@ -14,7 +14,7 @@ The contracts each track publishes **first**, in this order, so nobody builds on
 
 | Order | Contract | Track | Unblocks |
 |---|---|---|---|
-| 1 | Curriculum node + lesson format (drafted), DB schema, Actor (auth) | C | A and B read lessons and know who is acting |
+| 1 | Content formats (concept card + assessment card, to agree), DB schema, Actor (auth) | C (with A, B) | A and B read content and know who is acting |
 | 2 | Widget schema (`fraction_bar`, `number_line`, `base_ten`) | B | lesson authoring, player |
 | 3 | Tutor action schema + `tutor.*` / `verifier.*` events | A | player renders tutor turns |
 

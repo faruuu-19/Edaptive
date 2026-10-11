@@ -34,7 +34,7 @@ never advances on a reasoning error the system failed to catch.
 ## Repo layout
 
 ```
-contracts/   # Shared JSON Schemas: events, lessons, curriculum, widgets, tutor actions
+contracts/   # Shared JSON Schemas: session-log events, identity, curriculum (more added by contract PR)
 backend/     # FastAPI: session log, curriculum, scheduling, assessment, consent, parent, LLM + verifiers
 frontend/    # Next.js: widgets, avatar, lesson player, home/profile, timetable, dashboards
 tools/       # Codegen (contracts → Python + TypeScript types)

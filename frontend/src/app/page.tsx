@@ -17,8 +17,10 @@ export default function Start() {
   }, [status, router]);
 
   return (
-    <main className="page">
-      {error && <p className="error">Can&apos;t reach the backend. Start it with `make dev-backend`.</p>}
+    <main>
+      {error && (
+        <p className="page error">Can&apos;t reach the backend. Start it with `make dev-backend`.</p>
+      )}
       {status?.setup_complete && status.actor?.role !== "student" && <ProfilePicker />}
     </main>
   );

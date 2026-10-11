@@ -17,7 +17,7 @@ export function ParentGate({ children }: { children: ReactNode }) {
   if (status.actor?.role === "parent") return <>{children}</>;
 
   return (
-    <div className="stack">
+    <div className="stack" style={{ maxWidth: 440, margin: "0 auto" }}>
       <PinForm
         title="Parents only"
         hint="Enter your parent PIN to manage profiles and settings."

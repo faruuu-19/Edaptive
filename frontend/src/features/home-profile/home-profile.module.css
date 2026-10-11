@@ -1,43 +1,99 @@
+/* Profile picker ---------------------------------------------------------------- */
+
+.scene {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.ground {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 120px;
+  background: var(--ground);
+  border-top: 2px solid var(--ink);
+}
+
+.sun {
+  position: absolute;
+  right: 8%;
+  bottom: 92px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: var(--mustard);
+  border: 2px solid var(--ink);
+}
+
+.sceneContent {
+  position: relative;
+}
+
 .tiles {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
-  gap: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
 }
 
 .tile {
   font: inherit;
-  color: inherit;
+  color: var(--ink);
+  width: 220px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 10px;
-  padding: 28px 16px;
+  gap: 12px;
+  padding: 28px 20px 24px;
   background: var(--surface);
-  border: 2px solid var(--border);
-  border-radius: 24px;
-  box-shadow: var(--shadow);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: 5px 5px 0 var(--ink);
   cursor: pointer;
-  transition: transform 120ms ease, border-color 120ms ease;
+  transition: transform 100ms ease, box-shadow 100ms ease;
 }
 
 .tile:hover:not(:disabled) {
-  transform: translateY(-2px);
-  border-color: var(--accent);
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--ink);
+}
+
+.tile:active:not(:disabled) {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 var(--ink);
 }
 
 .tile:disabled {
   cursor: default;
 }
 
-.tileIcon {
-  font-size: 4rem;
+.tileName {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.75rem;
   line-height: 1;
 }
 
-.tileName {
-  font-size: 1.35rem;
-  font-weight: 800;
+.grade {
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
 }
+
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  font-family: var(--display);
+  font-weight: 800;
+  color: var(--ink);
+}
+
+/* Child home -------------------------------------------------------------------- */
 
 .hero {
   display: flex;
@@ -45,68 +101,111 @@
   gap: 18px;
 }
 
-.heroIcon {
-  font-size: 4.5rem;
-  line-height: 1;
+.subjects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
 }
 
 .subject {
-  composes: tile;
-  align-items: flex-start;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 250px;
+  padding: 24px;
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
 }
 
-.subjectSoon {
-  opacity: 0.6;
+.subjectCurrent {
+  box-shadow: 6px 6px 0 var(--tomato);
 }
 
-.badge {
-  font-size: 0.85rem;
+.subjectArt {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--ink);
+  border-radius: 10px;
+  color: var(--ink);
+}
+
+.subjectName {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+
+.subjectNote {
+  margin-top: auto;
   font-weight: 700;
-  border-radius: 999px;
-  padding: 3px 10px;
-  background: var(--surface-2);
   color: var(--muted);
 }
 
-.avatarChoices {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
+.subjectCurrent .subjectNote {
+  color: var(--tomato);
 }
 
-.avatarChoice {
-  font-size: 1.8rem;
-  width: 52px;
-  height: 52px;
-  border-radius: 14px;
-  border: 2px solid var(--border);
-  background: var(--surface);
-  cursor: pointer;
+/* Profile manager --------------------------------------------------------------- */
+
+.manager {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  align-items: start;
 }
 
-.avatarChoice[aria-pressed="true"] {
-  border-color: var(--accent);
-  background: var(--accent-soft);
+.list {
+  padding: 6px 20px;
 }
 
 .listItem {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 14px;
-  padding: 12px 0;
-  border-top: 1px solid var(--border);
+  gap: 8px 14px;
+  padding: 14px 0;
+  border-top: 2px dashed var(--rule);
 }
 
 .listItem:first-child {
   border-top: none;
 }
 
-.listIcon {
-  font-size: 2.2rem;
+.grow {
+  flex: 1 1 120px;
+  min-width: 0;
 }
 
-.grow {
-  flex: 1;
-  min-width: 0;
+/* On narrow screens the buttons drop below the name instead of covering it. */
+.itemActions {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.listName {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.swatch {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  cursor: pointer;
+}
+
+.swatch[aria-pressed="true"] {
+  box-shadow: 0 0 0 3px var(--surface), 0 0 0 5px var(--tomato);
 }

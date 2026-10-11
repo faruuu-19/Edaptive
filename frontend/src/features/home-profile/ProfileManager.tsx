@@ -14,10 +14,12 @@ import {
   updateProfile,
 } from "@/lib/api";
 
-import { AVATARS, avatarFor } from "./avatars";
+import { AVATAR_COLOURS, DEFAULT_AVATAR } from "./avatars";
+import { Avatar } from "./Avatar";
 import styles from "./home-profile.module.css";
+import { LockIcon } from "./icons";
 
-const EMPTY: ProfileInput = { display_name: "", grade: 1, avatar_key: "default" };
+const EMPTY: ProfileInput = { display_name: "", grade: 1, avatar_key: DEFAULT_AVATAR };
 
 /** Parent-only: add, edit and archive children. Render inside the auth feature's ParentGate. */
 export function ProfileManager() {
@@ -60,50 +62,60 @@ export function ProfileManager() {
   return (
     <div className="stack" style={{ gap: 24 }}>
       <div className="row spread">
-        <h1>Children</h1>
+        <div>
+          <div className="eyebrow">Parent area</div>
+          <h1 style={{ fontSize: "2.1rem" }}>Children</h1>
+        </div>
         <div className="row">
           <Link className="btn" href="/">
             Profiles screen
           </Link>
-          <button className="btn" onClick={lock}>
-            🔒 Lock
+          <button className="btn btn-dark" onClick={lock}>
+            <LockIcon size={16} /> Lock
           </button>
         </div>
       </div>
 
-      <p className="notice">
-        Keep it minimal: a first name or nickname and a grade is all Edaptive needs.
-      </p>
-
-      <div className="card">
-        {profiles.length === 0 && <p className="muted" style={{ margin: 0 }}>No children added yet.</p>}
-        {profiles.map((p) => (
-          <div key={p.id} className={styles.listItem}>
-            <span className={styles.listIcon} aria-hidden>
-              {avatarFor(p.avatar_key)}
-            </span>
-            <div className={styles.grow}>
-              <strong>{p.display_name}</strong>
-              <div className="muted">Grade {p.grade}</div>
-            </div>
-            <button className="btn" onClick={() => setEditing(p)}>
-              Edit
-            </button>
-            <button className="btn btn-quiet btn-danger" onClick={() => archive(p)}>
-              Remove
-            </button>
+      <div className={styles.manager}>
+        <div className="stack">
+          <div className={`card ${styles.list}`}>
+            {profiles.length === 0 && (
+              <p className="muted" style={{ margin: "14px 0" }}>
+                No children added yet.
+              </p>
+            )}
+            {profiles.map((p) => (
+              <div key={p.id} className={styles.listItem}>
+                <Avatar name={p.display_name} avatarKey={p.avatar_key} size={46} />
+                <div className={styles.grow}>
+                  <div className={styles.listName}>{p.display_name}</div>
+                  <div className={styles.grade} style={{ fontWeight: 400 }}>
+                    Grade {p.grade}
+                  </div>
+                </div>
+                <div className={styles.itemActions}>
+                  <button className="btn" onClick={() => setEditing(p)}>
+                    Edit
+                  </button>
+                  <button className="btn btn-quiet btn-danger" onClick={() => archive(p)}>
+                    Remove
+                  </button>
+                </div>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
+          <p className="notice">Keep it minimal: a first name or nickname and a grade is all Edaptive needs.</p>
+        </div>
 
-      <ProfileForm
-        key={editing?.id ?? "new"}
-        initial={editing ?? EMPTY}
-        title={editing ? `Edit ${editing.display_name}` : "Add a child"}
-        submitLabel={editing ? "Save changes" : "Add child"}
-        onSubmit={save}
-        onCancel={editing ? () => setEditing(null) : undefined}
-      />
+        <ProfileForm
+          key={editing?.id ?? "new"}
+          initial={editing ?? EMPTY}
+          title={editing ? `Edit ${editing.display_name}` : "Add a child"}
+          submitLabel={editing ? "Save changes" : "Add child"}
+          onSubmit={save}
+          onCancel={editing ? () => setEditing(null) : undefined}
+        />
+      </div>
       {error && (
         <p className="error" role="alert">
           {error}
@@ -164,19 +176,18 @@ function ProfileForm({ initial, title, submitLabel, onSubmit, onCancel }: FormPr
         </select>
       </label>
       <div className="field">
-        Picture
-        <div className={styles.avatarChoices}>
-          {Object.entries(AVATARS).map(([key, icon]) => (
+        Colour
+        <div className={styles.swatches}>
+          {Object.entries(AVATAR_COLOURS).map(([key, { label, fill }]) => (
             <button
               key={key}
               type="button"
-              className={styles.avatarChoice}
-              aria-pressed={form.avatar_key === key}
-              aria-label={key}
+              className={styles.swatch}
+              style={{ background: fill }}
+              aria-pressed={(AVATAR_COLOURS[form.avatar_key] ? form.avatar_key : DEFAULT_AVATAR) === key}
+              aria-label={label}
               onClick={() => setForm({ ...form, avatar_key: key })}
-            >
-              {icon}
-            </button>
+            />
           ))}
         </div>
       </div>

@@ -4,14 +4,15 @@ import { useRouter } from "next/navigation";
 
 import { type Profile, signOut } from "@/lib/api";
 
-import { avatarFor } from "./avatars";
+import { Avatar } from "./Avatar";
 import styles from "./home-profile.module.css";
+import { BookIcon, FlaskIcon, MathsIcon, SwitchIcon } from "./icons";
 
 // Maths is the Mid-1 slice; English and Science reuse the same pipeline later (roadmap).
 const SUBJECTS = [
-  { key: "math", icon: "🔢", name: "Maths", note: "Lessons are on their way" },
-  { key: "english", icon: "📖", name: "English", note: "Coming later" },
-  { key: "science", icon: "🔬", name: "Science", note: "Coming later" },
+  { key: "math", Icon: MathsIcon, art: "var(--tomato-soft)", name: "Maths", note: "Lessons are on their way", current: true },
+  { key: "english", Icon: BookIcon, art: "var(--mustard-soft)", name: "English", note: "Coming later", current: false },
+  { key: "science", Icon: FlaskIcon, art: "var(--teal-soft)", name: "Science", note: "Coming later", current: false },
 ];
 
 export function ChildHome({ profile }: { profile: Profile }) {
@@ -23,34 +24,32 @@ export function ChildHome({ profile }: { profile: Profile }) {
   }
 
   return (
-    <div className="stack" style={{ gap: 28 }}>
+    <div className="stack" style={{ gap: 30 }}>
       <div className="row spread">
         <div className={styles.hero}>
-          <span className={styles.heroIcon} aria-hidden>
-            {avatarFor(profile.avatar_key)}
-          </span>
+          <Avatar name={profile.display_name} avatarKey={profile.avatar_key} size={80} />
           <div>
             <h1>Hi, {profile.display_name}!</h1>
-            <p className="muted" style={{ margin: "4px 0 0" }}>
+            <div className={styles.grade} style={{ marginTop: 4 }}>
               Grade {profile.grade}
-            </p>
+            </div>
           </div>
         </div>
         <button className="btn" onClick={switchProfile}>
-          Switch profile
+          <SwitchIcon /> Switch profile
         </button>
       </div>
 
-      <h2>Your subjects</h2>
-      <div className={styles.tiles}>
-        {SUBJECTS.map((s) => (
-          <button key={s.key} className={`${styles.subject} ${styles.subjectSoon}`} disabled>
-            <span className={styles.tileIcon} aria-hidden>
-              {s.icon}
-            </span>
-            <span className={styles.tileName}>{s.name}</span>
-            <span className={styles.badge}>{s.note}</span>
-          </button>
+      <h2 style={{ fontWeight: 600 }}>Your subjects</h2>
+      <div className={styles.subjects}>
+        {SUBJECTS.map(({ key, Icon, art, name, note, current }) => (
+          <div key={key} className={`${styles.subject} ${current ? styles.subjectCurrent : ""}`}>
+            <div className={styles.subjectArt} style={{ background: art }}>
+              <Icon />
+            </div>
+            <span className={styles.subjectName}>{name}</span>
+            <span className={styles.subjectNote}>{note}</span>
+          </div>
         ))}
       </div>
     </div>

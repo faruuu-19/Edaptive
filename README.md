@@ -54,7 +54,8 @@ make check            # lint, boundaries, tests, build; run before every PR
 ```
 
 Read [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) before your first PR, and
-[docs/ROADMAP.md](docs/ROADMAP.md) for build order.
+[docs/ROADMAP.md](docs/ROADMAP.md) for build order, and [docs/DESIGN.md](docs/DESIGN.md) before
+building any UI. Coding agents: see [AGENTS.md](AGENTS.md).
 
 ## Status
 

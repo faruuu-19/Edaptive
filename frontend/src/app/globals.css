@@ -1,14 +1,25 @@
+/* Storybook theme: paper ground, navy ink outlines, tomato + mustard accents.
+   One light theme on purpose: a children's app should look the same on every machine. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --paper: #fbf5e9;
+  --paper-2: #fdfaf3;
+  --ground: #e8dcc2;
+  --surface: #fffdf8;
+  --ink: #22304b;
+  --muted: #57607a;
+  --rule: #d9cfbc;
+  --tomato: #b8452c;
+  --tomato-soft: #f6d9cf;
+  --mustard: #e3a92b;
+  --mustard-soft: #f7e7c2;
+  --teal-soft: #d3ece9;
+  --danger: #a33a23;
+  --notice: #fbf1d6;
+  --notice-ink: #4a3b12;
+  --radius: 16px;
+  --display: "Fraunces", Georgia, serif;
+  --body: "Andika", ui-rounded, system-ui, sans-serif;
+  color-scheme: light;
 }
 
 * {
@@ -18,7 +29,198 @@
 html,
 body {
   margin: 0;
-  background: var(--background);
-  color: var(--foreground);
-  font-family: var(--font-sans);
+  min-height: 100%;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3rem);
+}
+
+h2 {
+  font-size: 1.6rem;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 36px 16px 64px;
+}
+
+.page-narrow {
+  max-width: 440px;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.spread {
+  justify-content: space-between;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.eyebrow {
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.wordmark {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.6rem;
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.card {
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  padding: 24px;
+}
+
+.btn {
+  font: inherit;
+  font-weight: 700;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 18px;
+  border: 2px solid var(--ink);
+  border-radius: 12px;
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 100ms ease, box-shadow 100ms ease;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--paper-2);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.btn-primary {
+  background: var(--tomato);
+  color: #ffffff;
+  box-shadow: 4px 4px 0 var(--ink);
+}
+
+.btn-primary:hover:not(:disabled) {
+  background: var(--tomato);
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 0 var(--ink);
+}
+
+.btn-primary:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.btn-dark {
+  background: var(--ink);
+  color: var(--surface);
+}
+
+.btn-dark:hover:not(:disabled) {
+  background: var(--ink);
+}
+
+.btn-quiet {
+  border-color: transparent;
+  background: transparent;
+}
+
+.btn-quiet:hover:not(:disabled) {
+  background: transparent;
+  text-decoration: underline;
+}
+
+.btn-danger {
+  color: var(--danger);
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-weight: 700;
+}
+
+.input {
+  font: inherit;
+  font-size: 1.05rem;
+  font-weight: 400;
+  min-height: 44px;
+  padding: 0 14px;
+  border: 2px solid var(--ink);
+  border-radius: 10px;
+  background: #ffffff;
+  color: var(--ink);
+}
+
+.input:focus-visible,
+.btn:focus-visible,
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--mustard);
+  outline-offset: 2px;
+}
+
+.pin {
+  letter-spacing: 0.5em;
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.error {
+  color: var(--danger);
+  font-weight: 700;
+  margin: 0;
+}
+
+.notice {
+  margin: 0;
+  padding: 14px 16px;
+  border: 2px dashed #c9b98f;
+  border-radius: 12px;
+  background: var(--notice);
+  color: var(--notice-ink);
+  line-height: 1.5;
 }

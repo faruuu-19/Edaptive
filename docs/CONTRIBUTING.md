@@ -36,6 +36,11 @@ make check
 It checks generated types are up to date, lint, module boundaries, tests against Postgres,
 and the frontend build. Paste the result in your PR.
 
+## UI
+
+Every screen follows the Storybook theme in `docs/DESIGN.md`. Use the shared tokens and
+classes; don't add a second look.
+
 ## Ground rules from the project brief
 
 - Offline only at runtime: no paid APIs, no cloud services, no fonts/CDNs fetched at build.

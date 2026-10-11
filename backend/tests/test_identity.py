@@ -6,6 +6,7 @@ from fastapi import FastAPI
 from fastapi.testclient import TestClient
 
 from app.core.contracts import ContractError, get_contracts
+from app.core.db import get_db
 from app.core.identity import (
     Actor,
     CurrentActor,
@@ -37,7 +38,8 @@ def make_client(actor: Actor | None, install: bool = True) -> TestClient:
         return {"ok": True}
 
     if install:
-        install_actor_resolver(api, lambda request: actor)
+        install_actor_resolver(api, lambda request, db: actor)
+    api.dependency_overrides[get_db] = lambda: None  # these resolvers never touch the DB
     return TestClient(api)
 
 

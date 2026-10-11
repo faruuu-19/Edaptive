@@ -1,12 +1,27 @@
-import { checkHealth } from "@/lib/api";
+"use client";
 
-// Placeholder until the Home & Profile UI (Track C, Mid-1) lands in src/features/home-profile.
-export default async function Home() {
-  const backendUp = await checkHealth();
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
+
+import { useAuthStatus } from "@/features/auth";
+import { ProfilePicker } from "@/features/home-profile";
+
+export default function Start() {
+  const router = useRouter();
+  const { status, error } = useAuthStatus();
+
+  useEffect(() => {
+    if (!status) return;
+    if (!status.setup_complete) router.replace("/setup");
+    else if (status.actor?.role === "student") router.replace("/home");
+  }, [status, router]);
+
   return (
-    <main style={{ padding: 24 }}>
-      <h1>Edaptive</h1>
-      <p>Backend: {backendUp ? "connected" : "not reachable (run `make dev-backend`)"}</p>
+    <main>
+      {error && (
+        <p className="page error">Can&apos;t reach the backend. Start it with `make dev-backend`.</p>
+      )}
+      {status?.setup_complete && status.actor?.role !== "student" && <ProfilePicker />}
     </main>
   );
 }

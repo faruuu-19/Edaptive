@@ -22,14 +22,19 @@ Establishes who is acting and hands every other module an `Actor`
 - Auth events go in the `auth.*` namespace (registered to Track C), e.g. parent unlocked or
   locked. Never log PINs, tokens or anything secret in an event payload.
 
-## Open decision (team): mechanism
+## Mechanism (implemented; confirm with the team)
 
-Proposed, offline-first: children pick their profile (no child passwords); a parent PIN,
-stored only as a hash, unlocks parent-only areas; a short-lived HTTP-only session cookie;
-no accounts, cloud identity or admin role. Confirm against the proposal before building.
+- **First run:** the parent creates a 4–6 digit PIN (`POST /api/auth/setup`). One household
+  per installation.
+- **Children:** pick their profile from the picker (`POST /api/auth/student`); no child
+  passwords. Each pick is logged as `profile.selected`.
+- **Parent:** unlocks parent-only areas with the PIN (`POST /api/auth/parent`). 5 wrong PINs
+  lock it for 5 minutes.
+- **Sessions:** HTTP-only, SameSite=Strict cookie. Only a SHA-256 of the token is stored.
+  Parent sessions last 15 minutes, student sessions 12 hours. Archiving a profile signs that
+  child out immediately.
+- PINs are stored as salted scrypt hashes (Python standard library, no extra dependency).
+- No accounts, no cloud identity, no admin role.
 
-## When this lands
-
-- Turn on actor checks for `POST/GET /api/events`: the event's `student_id` must pass
-  `ensure_student_access`.
-- Parent, consent, scheduling-controls and privacy endpoints use `ParentActor`.
+The session log (`/api/events`) now requires a signed-in actor: students can read and write
+only their own events, and parents can access any of their children's.

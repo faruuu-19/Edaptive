@@ -17,6 +17,9 @@ from dataclasses import dataclass
 from typing import Annotated, Literal
 
 from fastapi import Depends, FastAPI, HTTPException, Request, status
+from sqlalchemy.orm import Session
+
+from app.core.db import DbSession
 
 
 @dataclass(frozen=True)
@@ -35,7 +38,8 @@ class Actor:
         return self.role == "parent" or self.student_id == student_id
 
 
-ActorResolver = Callable[[Request], Actor | None]
+# Gets the request's DB session so lookups share the request's transaction.
+ActorResolver = Callable[[Request, Session], Actor | None]
 
 
 def install_actor_resolver(api: FastAPI, resolver: ActorResolver) -> None:
@@ -43,9 +47,9 @@ def install_actor_resolver(api: FastAPI, resolver: ActorResolver) -> None:
     api.state.actor_resolver = resolver
 
 
-def get_actor(request: Request) -> Actor:
+def get_actor(request: Request, db: DbSession) -> Actor:
     resolver: ActorResolver | None = getattr(request.app.state, "actor_resolver", None)
-    actor = resolver(request) if resolver else None
+    actor = resolver(request, db) if resolver else None
     if actor is None:
         raise HTTPException(status.HTTP_401_UNAUTHORIZED, "not signed in")
     return actor

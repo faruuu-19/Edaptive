@@ -1,0 +1,211 @@
+/* Profile picker ---------------------------------------------------------------- */
+
+.scene {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.ground {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 120px;
+  background: var(--ground);
+  border-top: 2px solid var(--ink);
+}
+
+.sun {
+  position: absolute;
+  right: 8%;
+  bottom: 92px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: var(--mustard);
+  border: 2px solid var(--ink);
+}
+
+.sceneContent {
+  position: relative;
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+
+.tile {
+  font: inherit;
+  color: var(--ink);
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 28px 20px 24px;
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: 5px 5px 0 var(--ink);
+  cursor: pointer;
+  transition: transform 100ms ease, box-shadow 100ms ease;
+}
+
+.tile:hover:not(:disabled) {
+  transform: translate(-2px, -2px);
+  box-shadow: 7px 7px 0 var(--ink);
+}
+
+.tile:active:not(:disabled) {
+  transform: translate(3px, 3px);
+  box-shadow: 2px 2px 0 var(--ink);
+}
+
+.tile:disabled {
+  cursor: default;
+}
+
+.tileName {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.75rem;
+  line-height: 1;
+}
+
+.grade {
+  font-weight: 700;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  font-family: var(--display);
+  font-weight: 800;
+  color: var(--ink);
+}
+
+/* Child home -------------------------------------------------------------------- */
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.subjects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
+}
+
+.subject {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  min-height: 250px;
+  padding: 24px;
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  border-radius: var(--radius);
+}
+
+.subjectCurrent {
+  box-shadow: 6px 6px 0 var(--tomato);
+}
+
+.subjectArt {
+  height: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid var(--ink);
+  border-radius: 10px;
+  color: var(--ink);
+}
+
+.subjectName {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+
+.subjectNote {
+  margin-top: auto;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.subjectCurrent .subjectNote {
+  color: var(--tomato);
+}
+
+/* Profile manager --------------------------------------------------------------- */
+
+.manager {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.list {
+  padding: 6px 20px;
+}
+
+.listItem {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 14px;
+  padding: 14px 0;
+  border-top: 2px dashed var(--rule);
+}
+
+.listItem:first-child {
+  border-top: none;
+}
+
+.grow {
+  flex: 1 1 120px;
+  min-width: 0;
+}
+
+/* On narrow screens the buttons drop below the name instead of covering it. */
+.itemActions {
+  display: flex;
+  gap: 4px;
+  margin-left: auto;
+}
+
+.listName {
+  font-weight: 700;
+  font-size: 1.05rem;
+}
+
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.swatch {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  border: 2px solid var(--ink);
+  cursor: pointer;
+}
+
+.swatch[aria-pressed="true"] {
+  box-shadow: 0 0 0 3px var(--surface), 0 0 0 5px var(--tomato);
+}

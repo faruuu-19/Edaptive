@@ -1,7 +1,13 @@
 import type { Metadata } from "next";
+
+// Fonts are bundled from npm (@fontsource, OFL licence) so the app works fully offline.
+// Fraunces for headings; Andika (designed for beginning readers) for everything else.
+import "@fontsource/andika/400.css";
+import "@fontsource/andika/700.css";
+import "@fontsource/fraunces/600.css";
+import "@fontsource/fraunces/800.css";
 import "./globals.css";
 
-// No next/font/google here: Edaptive must build and run fully offline.
 export const metadata: Metadata = {
   title: "Edaptive",
   description: "Local, offline homeschool tutor for Grades 1-5",

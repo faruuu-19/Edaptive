@@ -2,9 +2,12 @@ from logging.config import fileConfig
 
 from alembic import context
 
+# Register every table on Base.metadata.
+from app.core import household  # noqa: F401
 from app.core.config import get_settings
 from app.core.db import Base, get_engine
-from app.session_log import models  # noqa: F401  (register tables on Base.metadata)
+from app.modules.auth import models as auth_models  # noqa: F401
+from app.session_log import models  # noqa: F401
 
 config = context.config
 if config.config_file_name:

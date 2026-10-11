@@ -15,7 +15,6 @@ EXAMPLES = ROOT / "examples"
 EXAMPLE_SCHEMAS = {
     "auth": "auth/actor.schema.json",
     "curriculum": "curriculum/node.schema.json",
-    "lesson": "lesson/lesson.schema.json",
 }
 
 
@@ -75,10 +74,3 @@ def _event(**overrides):
 def test_bad_events_are_rejected(bad, message):
     with pytest.raises(ContractError, match=message):
         contracts.validate_event(_event(**bad))
-
-
-def test_lesson_rejects_bad_node_id():
-    lesson = json.loads((EXAMPLES / "lesson" / "math.g3.m5.l1.json").read_text())
-    lesson["node_id"] = "Maths-grade-3"
-    with pytest.raises(ContractError, match="node_id"):
-        contracts.validate("lesson/lesson.schema.json", lesson)

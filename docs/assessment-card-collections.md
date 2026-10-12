@@ -1,17 +1,19 @@
 # Concept and assessment file pairing
 
-Grade 2 Module 1 has eight standalone lesson pairs. Each concept is a single
-object and its counterpart is a complete v0.2 assessment object with
-`card_type: assessment_card`. Other covered sources retain collections with
-`card_type: assessment_card_collection` until converted. Every source JSON
-has one counterpart named `<source stem>.assessment_card.json` beside it.
+Grade 2 Modules 1 and 5 have eight and twenty standalone lesson pairs.
+Module 3 has its available Lesson 1 pair standalone; Lessons 2–21 lack supplied
+concept sources. Each concept is a single object and its matching full
+assessment has `card_type: assessment_card`. Other covered sources retain
+collections with `card_type: assessment_card_collection`. Every active source
+JSON has one counterpart named `<source stem>.assessment_card.json` beside it.
 
-For Module 1, select a lesson in the module's `lesson-wise/module_index.json`.
-The index names the concept ID/version, both paths and their SHA-256 hashes.
-Repository index paths are relative to the repository root. The downloadable
-module ZIP has its own index whose paths are relative to the extracted folder.
-Pass only the selected two objects to the script agent. The old combined pair
-is in `legacy/module-wide` and is excluded from active indexes and packages.
+Select the lesson in its module's `lesson-wise/module_index.json`. The index
+names linked concept ID/version, both paths and their SHA-256 hashes. Repository
+paths are relative to the repository root; downloadable module ZIP indexes use
+paths relative to their extracted folder. Pass only the selected two objects
+to the script agent. Original combined files are preserved under
+`legacy/module-wide/` and excluded from active indexes and packages.
+Module 3's index lists all twenty missing source/assessment lessons.
 
 ## Reading either assessment format
 
@@ -59,35 +61,38 @@ The reference controller consumes one assessment object.
 
 ## Current coverage and verification
 
-75 active entries are packaged in 19 matching files: eight standalone lesson
-pairs and eleven collections. Grade 1 has six Lesson 1 entries. Grade 2 has
-69 entries: Module 1 Lessons 1–8 individually, Module 3 its one included lesson,
-Modules 5 and 6 Lessons 1–20 each, and Modules 7 and 8 Lessons 1–10 each.
-The last two sources have 16 and 6 unassessed concepts. Twelve Grade 3/4 source
-files have no assessments. Grade 2 Modules 2 and 4 have no provided sources.
+75 active entries are packaged in 38 matching files: 29 standalone lesson
+pairs and nine collections. Grade 1 has six Lesson 1 entries. Grade 2 has
+69 entries: Module 1 Lessons 1–8 individually, Module 3 Lesson 1 individually,
+Module 5 Lessons 1–20 individually, Module 6 Lessons 1–20 in a collection, and
+Modules 7 and 8 Lessons 1–10 in collections. Modules 7/8 have 16/6 pending
+assessments. Module 3 expects 21 lessons but includes one source concept.
+Twelve Grade 3/4 source files have no assessments. Grade 2 Modules 2/4 have no
+provided source files.
 
-67 earlier active entries are preserved exactly. The combined Module 1 entry
-is archived unchanged and replaced with eight new entries; it is not counted
-as an active lesson. Source/assessment names, hashes, scoped references, unique
-IDs, coverage lists, archive preservation and package bytes were checked.
-Module 1 extraction preserves 112 questions/rubrics; checks cover 96 numeric
-keys/accept variants, one pair key, three text truths and 12 original open
-rubrics. New assessment validation covers 96 equations and 192 routes.
-Active cumulative totals are 713 equations, 1,820 routes and seven multipart
-classification scenarios, excluding the archived assessment checks.
+All 75 earlier active entries are preserved exactly. The original Module 3/5
+collections are archived byte-for-byte and their unchanged lesson assessments
+remain active. Module 1's old mixed entry is retired and excluded. Matching
+formats, names, scoped references, source/index hashes, unique IDs, pending
+lists, archive preservation and ZIP bytes were checked. Conversion validation
+independently rechecks all numeric answers/accept variants, 308 equations and
+504 tutoring routes for the 21 converted pairs. Repeat checks are not counted
+again in cumulative totals, which remain 713 equations, 1,820 routes and seven
+multipart classification scenarios.
 
-[Module 1 extraction validation](concept-cards-grade2-module1-lesson-wise-validation.json)
-and [Module 1 assessment validation](assessment-cards-grade2-module1-lesson-wise-validation.json)
-record the new evidence. [Pair mapping](assessment-card-collections-manifest.json)
-records formats and paths; [current validation](assessment-card-collections-validation.json)
-records active coverage and preservation. [Migration progress](grade2-lesson-file-migration.json)
-tracks module-by-module file conversion separately from assessment coverage.
+[Module 3/5 conversion validation](assessment-cards-grade2-modules3-5-lesson-wise-validation.json)
+records current conversion evidence. [Pair mapping](assessment-card-collections-manifest.json)
+records active paths/formats and archive mapping; [current validation](assessment-card-collections-validation.json)
+records coverage and package preservation. [Migration progress](grade2-lesson-file-migration.json)
+tracks module conversion separately from assessment coverage. Historical
+Module 1 extraction/assessment reports retain their original evidence.
 
-All entries are drafts and script-agent integration is untested. Objectives
-and asset scopes are adapted from the combined JSON, without newly consulting
-original lesson PDFs. Shared generic hints retain original provenance;
-assessment grounds reference only the current lesson. Fixed ten/teen facts
-can recur in new stories. Source open answers need semantic grading; source
-`pair_of_parts` can use `valid_pairs`, while hard assessment keys use three
-named parts. Earlier educational limits remain documented in previous reports
-and the root README.
+All entries remain drafts; human educational review and actual script-agent
+integration remain outstanding. Source review flags and limitations are
+preserved. Module 5 Lesson 11 source exp_1 gives 10 for a tens total that is 11
+including the new ten; its assessment uses correct arithmetic. Numeric answers
+do not verify actual drawings, folds, graphs or chosen coin combinations.
+Source open questions need semantic grading. Source `pair_of_parts` keys can
+use `valid_pairs`; hard assessment keys use three named parts. Read the actual
+answer-key shape. Original concept IDs and versions are unchanged in the
+Module 3/5 standalone files.

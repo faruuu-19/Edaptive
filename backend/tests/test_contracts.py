@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 import pytest
+from jsonschema import Draft202012Validator
 
 from app.core.contracts import ContractError, get_contracts
 
@@ -14,7 +15,6 @@ EXAMPLES = ROOT / "examples"
 
 EXAMPLE_SCHEMAS = {
     "auth": "auth/actor.schema.json",
-    "curriculum": "curriculum/node.schema.json",
 }
 
 
@@ -74,3 +74,36 @@ def _event(**overrides):
 def test_bad_events_are_rejected(bad, message):
     with pytest.raises(ContractError, match=message):
         contracts.validate_event(_event(**bad))
+
+
+def _id_valid(definition: str, value: str) -> bool:
+    schema = {"$ref": (ROOT / "common/ids.schema.json").as_uri() + f"#/$defs/{definition}"}
+    return Draft202012Validator(schema, registry=contracts.schemas).is_valid(value)
+
+
+@pytest.mark.parametrize(
+    "definition, value",
+    [
+        ("ModuleId", "math_g3_m5"),
+        ("ConceptId", "math_g1_m1_l1_embedded_numbers"),
+        ("ConceptId", "math_g3_m5_l1_partition_whole_unit_fractions_concrete"),
+        ("AssessmentCardId", "assess_math_g1_m1_l1_embedded_numbers"),
+        ("ModuleAssessmentId", "math_g1_m1_end_of_module_assessment"),
+    ],
+)
+def test_content_ids_accept_the_curriculum_format(definition, value):
+    assert _id_valid(definition, value)
+
+
+@pytest.mark.parametrize(
+    "definition, value",
+    [
+        ("ConceptId", "math.g3.m5.l1"),  # old dotted draft format
+        ("ConceptId", "math_g2_m1_make_ten_take_from_ten"),  # no lesson number
+        ("ConceptId", "math_g6_m1_l1_too_high"),  # grade out of range
+        ("ConceptId", "Math_G1_M1_L1_caps"),
+        ("ModuleId", "math_g3"),
+    ],
+)
+def test_content_ids_reject_other_formats(definition, value):
+    assert not _id_valid(definition, value)

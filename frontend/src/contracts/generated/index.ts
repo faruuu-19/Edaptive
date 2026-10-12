@@ -21,34 +21,6 @@ export interface Actor {
   student_id: string | null;
 }
 /**
- * One node of the curriculum graph (unit or lesson). Produced by the Curriculum Compiler (Track C); read by every module that needs to know where a student is.
- *
- * This interface was referenced by `Contracts`'s JSON-Schema
- * via the `definition` "CurriculumNode".
- */
-export interface CurriculumNode {
-  /**
-   * Stable dotted id: <subject>.g<grade>[.<segment>]*, e.g. math.g3.m5.l12. Never reuse or renumber once published.
-   */
-  id: string;
-  subject: "math" | "english" | "science";
-  grade: number;
-  level: "unit" | "lesson";
-  title: string;
-  parent_id: string | null;
-  /**
-   * Position among siblings, starting at 1.
-   */
-  order: number;
-  prerequisites: string[];
-  objectives?: string[];
-  source: {
-    name: string;
-    url?: string;
-    license: string;
-  };
-}
-/**
  * One append-only entry in the session log. Every module writes and reads events in this shape. Payload shape is defined per event_type in registry.json.
  *
  * This interface was referenced by `Contracts`'s JSON-Schema
@@ -106,7 +78,11 @@ export interface SessionStartedV1 {
    */
   entry: "scheduled" | "free_practice";
   /**
-   * Stable dotted id: <subject>.g<grade>[.<segment>]*, e.g. math.g3.m5.l12. Never reuse or renumber once published.
+   * Concept card the session opens on, if known.
    */
-  node_id?: string;
+  concept_id?: string;
+  /**
+   * Version of a concept or assessment card. Events record the exact version a child saw.
+   */
+  card_version?: number;
 }

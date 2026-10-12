@@ -52,3 +52,7 @@ Every other module only declares what it needs, from `app/core/identity.py`:
 
 No module reads PINs, cookies or tokens. Until the auth module installs its resolver,
 these dependencies return 401 (fail closed).
+
+## Data model
+
+Tables, the event catalog and the analytics layer are specified in `docs/DATA-MODEL.md`.

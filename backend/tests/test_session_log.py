@@ -25,7 +25,7 @@ def test_append_then_read_in_order(db):
     assert second > first
     events = read(db, session_id=uuid.UUID(session_id))
     assert [e.event_type for e in events] == ["session.started", "session.ended"]
-    assert events[0].to_contract()["payload"] == {"entry": "scheduled", "node_id": "math.g3.m5.l1"}
+    assert events[0].to_contract()["payload"]["concept_id"].startswith("math_g3_m5_l1_")
 
 
 def test_append_is_idempotent(db):

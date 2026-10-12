@@ -1,0 +1,1494 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l6_arrays_decompose_repeated_addition",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-b-lesson-6.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 6",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.NBT.5",
+    "2.NBT.7",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Break an array into rows or columns. Write a repeated addition equation for the total.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l5_arrays_rows_columns",
+    "math_g2_m6_l2_equal_groups_repeated_addition",
+    "ext_g2_skip_count_by_10"
+  ],
+  "explanations": [
+    {
+      "id": "exp_row_is_group",
+      "title": "A row is a group",
+      "text": "Call each row a group. Write how many are in each row beside it. Then add the numbers. 4 rows of 5 is 5 plus 5 plus 5 plus 5, which is 20.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (4 rows of 5)"
+      }
+    },
+    {
+      "id": "exp_column_is_group",
+      "title": "A column is a group",
+      "text": "Call each column a group. Write how many are in each column below it. 5 columns of 4 is 4 plus 4 plus 4 plus 4 plus 4, which is 20.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (5 columns of 4)"
+      }
+    },
+    {
+      "id": "exp_same_total",
+      "title": "Rows or columns, same total",
+      "text": "3 rows of 6 and 6 columns of 3 are the same array turned. Both make 18. The total does not change.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (3 rows of 6 and 6 columns of 3)"
+      }
+    },
+    {
+      "id": "exp_add_remove_unit",
+      "title": "Add or remove one unit",
+      "text": "Add one more column of 4 to 20 and you have 24. Add one more column of 3 to 18 and you have 21. When you take away a row or a column, you take away one unit.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (20 plus 4 is 24; remove a unit)"
+      }
+    },
+    {
+      "id": "exp_count_addends",
+      "title": "Count the addends",
+      "text": "The number of addends is the number of rows or columns. 4 rows of 5 gives 4 addends: 5 plus 5 plus 5 plus 5.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 addends)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_4_rows_5",
+      "title": "4 rows of 5",
+      "text": "Write 5 beside each row. 5 plus 5 is 10. 10 plus 5 is 15. 15 plus 5 is 20. 4 fives equals 20.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_5_columns_4",
+      "title": "5 columns of 4",
+      "text": "Write 4 under each column. 4 plus 4 is 8. 8 plus 4 is 12. 12 plus 4 is 16. 16 plus 4 is 20.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_6_columns_4",
+      "title": "Add one column",
+      "text": "5 columns of 4 is 20. Add 1 more column of 4. Now there are 6 columns and 24 beans.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_3_rows_6",
+      "title": "3 rows of 6",
+      "text": "6 plus 6 plus 6 equals 18. The same array has 6 columns of 3. 3 plus 3 plus 3 plus 3 plus 3 plus 3 equals 18.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is the next hundred after 170? What do you add to 170 to make it?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_next_hundred"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "number": 170,
+        "next_hundred": 200
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred Drill"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What do you add to 190 to make the next hundred?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_next_hundred"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "number": 190,
+        "next_hundred": 200
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred Drill"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What do you add to 160 to make the next hundred?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_next_hundred"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "number": 160,
+        "next_hundred": 200
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred Drill"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "Count by tens. Start at 90 and stop at 140.",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_count_by_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 90,
+        "step": 10,
+        "stop": 140
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens: Crossing 100"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "An array has 4 rows of 5 beans. Each row is one group. How many equal groups are there?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_count_lines"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 equal groups)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "How many beans are in each group?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_beside_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 beans)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Say the repeated addition for 4 rows of 5 beans.",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_beside_row",
+        "h_count_lines"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 + 5 + 5 = 20)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Add the 4 fives. What is the total?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_add_next"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 20)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "How many addends are in 5 plus 5 plus 5 plus 5?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_count_lines"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 addends!)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "An array has 5 columns of 4 beans. How many beans are in each column?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_beside_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "columns": 5,
+        "per_column": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 beans)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Add 4 plus 4 plus 4 plus 4 plus 4. What is the total?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_add_next"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "columns": 5,
+        "per_column": 4,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 8, 12, 16, 20)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "4 rows of 5 beans and 5 columns of 4 beans. Is the total the same?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_add_on"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "a": [
+          4,
+          5
+        ],
+        "b": [
+          5,
+          4
+        ],
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Yes!)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Add 1 more column of 4 to 5 columns of 4. How many beans are there now?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_add_on"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "columns": 6,
+        "per_column": 4,
+        "total": 24
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: There are 24 beans)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "An array has 3 rows of 6 tiles. Say the repeated addition.",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_beside_row",
+        "h_count_lines"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 6 + 6 + 6 = 18)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Add 6 plus 6 plus 6. What is the total?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_add_next"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 6,
+        "total": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 18)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "The same 18 tiles are in columns. How many columns are there, and how many tiles are in each column?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_count_lines",
+        "h_beside_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 6,
+        "columns": 6,
+        "per_column": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 6 columns of 3 tiles)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Say the repeated addition for 6 columns of 3 tiles.",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_beside_row",
+        "h_count_lines"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "columns": 6,
+        "per_column": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 + 3 + 3 + 3 + 3 + 3 = 18)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Add 1 more column of 3 to the array. How many tiles are there now?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_add_on"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "columns": 7,
+        "per_column": 3,
+        "total": 21
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: There are 21 tiles)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Sam puts 8 red cards in 2 equal columns. How many red cards are in each column?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_count_lines"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "story": "sam_cards",
+        "color": "red",
+        "columns": 2,
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Sam also puts 8 blue cards in 2 equal columns. How many cards are in her whole array?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_add_on",
+        "h_add_next"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "story": "sam_cards",
+        "columns": 4,
+        "per_column": 4,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "You add one more row to an array. How does the repeated addition change?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_add_on"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2(d): How would adding one more row change the equation?)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Does it matter if you write the repeated addition for rows or for columns? Why or why not?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_add_on"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "a": [
+          3,
+          6
+        ],
+        "b": [
+          6,
+          3
+        ],
+        "total": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3(a): Why didn't it matter?)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "When you remove one row or one column from an array, what do you remove?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_count_lines"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (remove a row or column, remove a unit)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty",
+          "200 minus 170"
+        ]
+      },
+      "correct": "Says 30 (170 plus 30 equals 200).",
+      "partial": "Says 200 (the next hundred) without the 30.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Making the Next Hundred Drill (S: 200; S: 30; S: 170 + 30 = 200)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Making the Next Hundred Drill (sequence item 190; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Making the Next Hundred Drill (sequence item 160; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "90, 100, 110, 120, 130, 140",
+          "90 100 110 120 130 140",
+          "ninety, one hundred, one hundred ten, one hundred twenty, one hundred thirty, one hundred forty",
+          "ninety one hundred one hundred ten one hundred twenty one hundred thirty one hundred forty"
+        ]
+      },
+      "correct": "Says 90, 100, 110, 120, 130, 140 in order.",
+      "partial": "Starts correctly but stops early or skips a number.",
+      "incorrect": "Says a different counting pattern.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Happy Counting by Tens (S: 90, 100, 110, 120, 130, 140)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 equal groups)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 beans)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 + 5 + 5 + 5",
+          "5 plus 5 plus 5 plus 5",
+          "five plus five plus five plus five"
+        ]
+      },
+      "correct": "Says 5 plus 5 plus 5 plus 5.",
+      "partial": "Says an addition with 5 but not four 5s.",
+      "incorrect": "Says an addition that is not four 5s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 + 5 + 5 = 20)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": "Says 10 or 15 (stops early).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 10, 15, 20)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number (for example 20, the total).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 addends!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 beans)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": "Says 8, 12 or 16 (stops early).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 8, 12, 16, 20)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "the same",
+          "yes the same"
+        ]
+      },
+      "correct": "Says yes, both are 20.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Yes!)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty-four"
+        ]
+      },
+      "correct": "Says 24 (20 plus 4).",
+      "partial": "Says 20 or 4.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 + 4 + 4 + 4 + 4 + 4 = 24; 20 and 4 more)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6 + 6 + 6",
+          "6 plus 6 plus 6",
+          "six plus six plus six"
+        ]
+      },
+      "correct": "Says 6 plus 6 plus 6.",
+      "partial": "Says an addition with 6 but not three 6s.",
+      "incorrect": "Says an addition that is not three 6s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 6 + 6 + 6 = 18)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": "Says 12 (stops early).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 6 + 6 + 6 = 18)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 6 columns of 3 tiles.",
+      "partial": "Says 6 columns or 3 tiles in each, but not both.",
+      "incorrect": "Says something else, for example 3 columns of 6.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: There are 6 columns of 3 tiles)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3 + 3 + 3 + 3 + 3",
+          "3 plus 3 plus 3 plus 3 plus 3 plus 3",
+          "three plus three plus three plus three plus three plus three"
+        ]
+      },
+      "correct": "Says 3 plus 3 plus 3 plus 3 plus 3 plus 3.",
+      "partial": "Says an addition with 3 but not six 3s.",
+      "incorrect": "Says an addition that is not six 3s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 + 3 + 3 + 3 + 3 + 3 = 18)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21",
+          "twenty-one"
+        ]
+      },
+      "correct": "Says 21 (18 plus 3).",
+      "partial": "Says 18 or 3.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 18 plus 3 more is 21)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 8 in 2 equal columns is 4 each)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16 (4 columns of 4).",
+      "partial": "Says 8 (counts only one color).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 8 plus 8 is 16)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says there is one more addend, the same number again.",
+      "partial": "Says it changes but not how.",
+      "incorrect": "Says nothing changes, or gives a wrong change.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development adds one more column and one more addend)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no, because the total is the same for rows or columns.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says the totals are different.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development: 3 rows of 6 and 6 columns of 3 both make 18)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "a unit",
+          "one unit",
+          "1 unit",
+          "a group",
+          "one group"
+        ]
+      },
+      "correct": "Says one unit (one group).",
+      "partial": null,
+      "incorrect": "Says something else.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (when they remove a column or row, they remove a unit)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_beside_row",
+      "level": 1,
+      "text": "Write how many are in each row. Then add the numbers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (write 5 to the right of the row)"
+      }
+    },
+    {
+      "id": "h_count_lines",
+      "level": 1,
+      "text": "Count the rows. Each row is one group.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (let's call a row a group)"
+      }
+    },
+    {
+      "id": "h_add_next",
+      "level": 2,
+      "text": "Add one row at a time. Start with the first two rows.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (5 + 5, add 5 more, add 5 more)"
+      }
+    },
+    {
+      "id": "h_add_on",
+      "level": 2,
+      "text": "You know the old total. Add one more group to it.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (there were 20, and I added on 4 more)"
+      }
+    },
+    {
+      "id": "h_count_by_tens",
+      "level": 1,
+      "text": "Count up from 90. Each number is 10 more than the last.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens"
+      }
+    },
+    {
+      "id": "h_next_hundred",
+      "level": 1,
+      "text": "Find the next hundred. How far is it from the number?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred Drill"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_array_board",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact object counts, spaced rows or columns, the numbers written beside them, and adding or removing a row or column need exact behaviour. Diffusion cannot count.",
+      "description": "A board of identical objects in an array. Rows or columns can be pulled apart. A number can be shown beside each row or under each column. One row or column can be added or removed.",
+      "must_show_exactly": [
+        "Exactly the object count in the stimulus",
+        "Every row has the same number of objects",
+        "Every column has the same number of objects",
+        "Numbers beside rows or under columns match the objects",
+        "Add or remove changes the count by exactly one row or column"
+      ],
+      "states_or_frames": [
+        "4 rows of 5",
+        "4 rows of 5 with rows pulled apart and 5 written beside each",
+        "5 columns of 4",
+        "6 columns of 4 (added a column)",
+        "3 rows of 6",
+        "6 columns of 3",
+        "7 columns of 3 (added a column)",
+        "8 red cards in 2 columns and 8 blue cards in 2 columns (4 columns of 4)"
+      ],
+      "interaction": "Tutor sets rows, columns and spacing from the stimulus. Child can add or remove a row or column. Child answers by voice or typing.",
+      "alt_text": "Objects arranged in an array with numbers beside the rows.",
+      "used_by": [
+        "ex_3_rows_6",
+        "ex_4_rows_5",
+        "ex_5_columns_4",
+        "ex_6_columns_4",
+        "exp_add_remove_unit",
+        "exp_column_is_group",
+        "exp_count_addends",
+        "exp_row_is_group",
+        "exp_same_total",
+        "q_app_1",
+        "q_app_2",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat cartoon beans (or tiles) in an exact grid, a small gap between rows, plain background. [Build by code]",
+      "review_notes": "The card colour story for q_app_1 and q_app_2 needs red and blue object colours."
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Grade 2 Core Fluency Practice Sets",
+      "reason": "Timed paper sets from Lesson 1. Review only. No items are printed in this lesson file.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_counting_signals",
+      "name": "Happy Counting hand signals and counting with a partner",
+      "reason": "Needs hand signals and a second child. Covered by q_pk_4.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens"
+      }
+    },
+    {
+      "id": "na_physical",
+      "name": "Lima beans, 1-inch tiles and a ruler",
+      "reason": "Physical materials. Replaced by the on-screen widget a_array_board.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk with a partner",
+      "reason": "Needs a second child. Covered by questions where the child explains to the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Write numbers beside the array on the white board, circle rows and columns",
+      "reason": "Handwriting and circling cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set, Exit Ticket and Homework",
+      "issue": "All items use arrays shown as pictures (triangles, squares, stars, smiley faces). The counts are not in the text and no image was attached. No Problem Set question was made. Needs a person or image extraction from the PDF."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Concept Development extension",
+      "issue": "The source says to repeat with arrays of 2 by 7, 3 by 4 and 4 by 4 but gives no steps. Not added as questions."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Making the Next Hundred Drill",
+      "issue": "The source lists a long sequence. Three items were used. The rest follow the same pattern."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Core Fluency Practice Sets",
+      "issue": "The sets are in Lesson 1. This lesson only refers to them. No questions made."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l5_arrays_rows_columns and math_g2_m6_l2_equal_groups_repeated_addition are earlier cards of this module. ext_g2_skip_count_by_10 is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added. Proposal for review: a child may count the objects in one row as the total."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has no hint notes in this text. Hints are adapted from teacher moves. Hint coverage is thin. Level 3 wording needs review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_pk_2, q_pk_3, q_app_1, q_app_2, q_db_1, q_db_2 and their rubrics",
+      "issue": "Answers are derived. The source prints no answer. Check them."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_app_1 and q_app_2",
+      "issue": "The source says Sam makes an array and asks for a statement. The questions here use the numbers only. Check that 4 columns of 4 is a fair reading."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the schema must allow null."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "Student Debrief",
+      "issue": "Debrief questions that name Problem Set pictures (Problems 1(a) to 1(d), 2 and 3(d)) were not made. The question 'How is decomposing arrays similar to decomposing numbers?' has no answer in the source and was not made."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only 2.NBT.2, 2.NBT.5, 2.NBT.7 and 2.OA.2 appear in this lesson file (Fluency headings). The lesson's own module standard is not printed here and was not added."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_array_board). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

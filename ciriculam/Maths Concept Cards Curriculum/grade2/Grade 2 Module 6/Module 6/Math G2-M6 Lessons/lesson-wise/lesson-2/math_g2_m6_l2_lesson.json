@@ -1,0 +1,1444 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l2_equal_groups_repeated_addition",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-a-lesson-2.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 2",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.NBT.7",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Draw equal groups with circles. Write a repeated addition equation to find the total.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l1_equal_groups_manipulatives",
+    "ext_g1_add_within_20"
+  ],
+  "explanations": [
+    {
+      "id": "exp_add_groups",
+      "title": "Add the groups",
+      "text": "4 groups have 3 counters each. To find the total, add the number in each group. 3 plus 3 plus 3 plus 3 equals 12. This is repeated addition.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (4 groups of 3)"
+      }
+    },
+    {
+      "id": "exp_math_drawing",
+      "title": "Draw groups of circles",
+      "text": "In math, we draw circles to show groups. Draw a big circle for each group. Draw the same number of small circles in each. Draw a line under each group.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (draw circles)"
+      }
+    },
+    {
+      "id": "exp_repeating_number",
+      "title": "The repeating number",
+      "text": "The number that repeats is how many are in each group. The number of times it repeats is how many groups there are. 4 groups of 3 gives 3 plus 3 plus 3 plus 3.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The 3 stands for how many are in each group)"
+      }
+    },
+    {
+      "id": "exp_say_groups_of",
+      "title": "Say it in words",
+      "text": "You can say 3 plus 3 plus 3 plus 3 equals 12 as 4 groups of 3 equals 12. For 3 groups of 5, you can also say 3 fives equals 15.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (3 fives equals 15)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_4_threes",
+      "title": "4 groups of 3",
+      "text": "4 groups of 3 counters. Write 3 under each group. 3 plus 3 equals 6. 6 plus 3 equals 9. 9 plus 3 equals 12. 4 groups of 3 equals 12.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_5_twos",
+      "title": "5 groups of 2",
+      "text": "Draw 5 groups with 2 circles in each. Write 2 under each group. 2 plus 2 plus 2 plus 2 plus 2 equals 10. 5 groups of 2 equals 10.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_3_fives",
+      "title": "3 groups of 5",
+      "text": "Draw 3 groups with 5 circles in each. 5 plus 5 plus 5 equals 15. 3 groups of 5 equals 15. 3 fives equals 15.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Use the ten to solve 16 minus 9. First, what is 10 minus 9?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_nearest_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "16 - 9",
+        "bond": [
+          6,
+          10
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Now solve 46 minus 9. Break 46 into 36 and 10. What is 46 minus 9?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_nearest_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "46 - 9",
+        "bond": [
+          36,
+          10
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 2 tens less than 130?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_place_value"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 130,
+        "subtract_tens": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtracting Multiples of Hundreds and Tens"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is 2 hundreds less than 350?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_place_value"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 350,
+        "subtract_hundreds": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtracting Multiples of Hundreds and Tens"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "There are 4 groups with 3 counters in each group. How can you add to find the total? Say the addition.",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_add_each",
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 4,
+        "per_group": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 + 3 + 3 + 3)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Add the 4 groups of 3. What is 3 plus 3 plus 3 plus 3?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_add_two_at_a_time",
+        "h_add_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 4,
+        "per_group": 3,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 12)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "In 3 plus 3 plus 3 plus 3, what does each 3 show?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 4,
+        "per_group": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The 3 stands for how many are in each group)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "There are 4 groups of 3. Why do we add 3 four times?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_groups",
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 4,
+        "per_group": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: There are 4 groups of 3, so that's why we added 3 four times)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Draw 5 groups with 2 circles in each group. What number do you write under each group?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_line_under",
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 2, because there are 2 in each group)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Write the repeated addition for 5 groups of 2. Say it.",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_count_groups",
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (2 + 2 + 2 + 2 + 2)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Add 2 plus 2 plus 2 plus 2 plus 2. What is the total?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_add_two_at_a_time"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 2,
+        "total": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 10)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Draw one group of 5. Add another group of 5. Then draw 5 more. How many groups are there?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_count_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "per_group": 5,
+        "groups": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 groups)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "What is the repeated addition for 3 groups of 5?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_each_group",
+        "h_count_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 3,
+        "per_group": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 + 5)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "What is 5 plus 5 plus 5? Say it as groups: 3 groups of 5 equals what?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_add_two_at_a_time"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 3,
+        "per_group": 5,
+        "total": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Three groups of 5 equals 15)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "3 groups of 5 is also 3 of what? Finish: 3 what equals 15?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 3,
+        "per_group": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 fives equals 15)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "2 groups of 3 stars. Say the repeated addition. Then say the total.",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_each_group",
+        "h_count_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 2,
+        "per_group": 3,
+        "total": 6,
+        "shape": "star"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket (Draw 2 groups of 3 stars, then write a repeated addition equation)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "4 groups of 3 circles. Say the repeated addition. Then say the total.",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_each_group",
+        "h_count_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_group_circles"
+      ],
+      "stimulus": {
+        "groups": 4,
+        "per_group": 3,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (Draw 4 groups of 3 circles, then write a repeated addition equation)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Mayra has 4 purple, 4 yellow, 4 pink and 4 orange socks. Say a repeated addition for her socks.",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_each_group",
+        "h_count_groups"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_socks_story"
+      ],
+      "stimulus": {
+        "story": "mayra_socks",
+        "groups": 4,
+        "per_group": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "How many socks does Mayra have in all?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_add_two_at_a_time",
+        "h_add_each"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_socks_story"
+      ],
+      "stimulus": {
+        "story": "mayra_socks",
+        "groups": 4,
+        "per_group": 4,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Finish the sentence. In a repeated addition equation, the repeated number shows what?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (fill in the blank)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "A picture has 4 equal groups. Why does the equation have 4 addends?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_count_groups"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1(b): Why are there 4 addends?)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "There are 4 equal groups of 3 stars. Why do we not add 4 plus 4 plus 4 plus 4?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_each_group",
+        "h_count_groups"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "groups": 4,
+        "per_group": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3: Why didn't you add 4 + 4 + 4 + 4?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Using the Nearest Ten to Subtract (S: 1)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "37",
+          "thirty-seven"
+        ]
+      },
+      "correct": "Says 37.",
+      "partial": "Says 1 (10 minus 9) or 36 only.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Using the Nearest Ten to Subtract (S: 37)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "110",
+          "one hundred ten"
+        ]
+      },
+      "correct": "Says 110.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Subtracting Multiples of Hundreds and Tens (S: 110)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "150",
+          "one hundred fifty"
+        ]
+      },
+      "correct": "Says 150.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Subtracting Multiples of Hundreds and Tens (S: 150)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3 + 3 + 3",
+          "3 plus 3 plus 3 plus 3",
+          "three plus three plus three plus three"
+        ]
+      },
+      "correct": "Says 3 plus 3 plus 3 plus 3.",
+      "partial": "Says an addition with 3 but not four 3s.",
+      "incorrect": "Says an addition that does not use 3 four times.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 + 3 + 3 + 3 = ____)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve",
+          "4 groups of 3 equals 12"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": "Says 6 or 9 (stops early).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Four groups of 3 equals 12)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says each 3 is how many are in each group.",
+      "partial": "Says it is a group or a number but not how many in each group.",
+      "incorrect": "Says something else, for example the total.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The 3 stands for how many are in each group)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says there are 4 groups of 3, so 3 is added once for each group.",
+      "partial": "Says there are 4 groups but not that each group has 3.",
+      "incorrect": "Gives a reason that does not match the groups.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: There are 4 groups of 3...)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number (for example 5, the number of groups).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 2, because there are 2 in each group)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 + 2 + 2 + 2 + 2",
+          "2 plus 2 plus 2 plus 2 plus 2",
+          "two plus two plus two plus two plus two"
+        ]
+      },
+      "correct": "Says 2 plus 2 plus 2 plus 2 plus 2.",
+      "partial": "Says 2 plus 2 plus 2 plus 2, or 2 plus 2 plus 2 (not five 2s).",
+      "incorrect": "Says 5 plus 5 plus 5 plus 5 plus 5 or another wrong addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T: write 2 + 2 + 2 + 2 + 2 = ____)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten",
+          "5 groups of 2 equals 10"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": "Says 4, 6 or 8 (stops early).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 groups of 2 equals 10)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 groups)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 + 5 + 5",
+          "5 plus 5 plus 5",
+          "five plus five plus five"
+        ]
+      },
+      "correct": "Says 5 plus 5 plus 5.",
+      "partial": "Says an addition with 5 but not three 5s.",
+      "incorrect": "Says 3 plus 3 plus 3 plus 3 plus 3 or another wrong addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 + 5)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "3 fives equals 15",
+          "3 groups of 5 equals 15"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": "Says 10 (stops early).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 15)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "fives",
+          "3 fives",
+          "three fives",
+          "5s",
+          "five"
+        ]
+      },
+      "correct": "Says fives (3 fives equals 15).",
+      "partial": null,
+      "incorrect": "Says any other word or number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 fives equals 15)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3 = 6",
+          "3 plus 3 equals 6",
+          "three plus three equals six",
+          "6"
+        ]
+      },
+      "correct": "Says 3 plus 3 and the total 6.",
+      "partial": "Says 3 plus 3 or the total 6, but not both.",
+      "incorrect": "Says a different addition or total.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket (answer not printed; 2 groups of 3 stars)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3 + 3 + 3 = 12",
+          "3 plus 3 plus 3 plus 3 equals 12",
+          "three plus three plus three plus three equals twelve",
+          "12"
+        ]
+      },
+      "correct": "Says 3 plus 3 plus 3 plus 3 and the total 12.",
+      "partial": "Says the addition or the total 12, but not both.",
+      "incorrect": "Says a different addition or total.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (answer not printed; 4 groups of 3 circles)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 + 4 + 4 + 4",
+          "4 plus 4 plus 4 plus 4",
+          "four plus four plus four plus four"
+        ]
+      },
+      "correct": "Says 4 plus 4 plus 4 plus 4.",
+      "partial": "Says an addition with 4 but not four 4s.",
+      "incorrect": "Says an addition that is not four 4s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer; 4 colours of 4 socks)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": "Says 12 (adds only three groups).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer; 4 plus 4 plus 4 plus 4 equals 16)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it shows how many are in each group.",
+      "partial": "Says it shows a group or a number but not how many in each group.",
+      "incorrect": "Says something else, for example the total or the number of groups.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The 3 stands for how many are in each group); the debrief blank is not answered in the source"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says each group is one addend, so 4 groups means 4 addends.",
+      "partial": "Says there are 4 groups but does not link groups to addends.",
+      "incorrect": "Gives a reason that does not match the groups.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: There are 4 groups of 3, so that's why we added 3 four times)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 4 is how many groups there are, but you add how many are in each group (3).",
+      "partial": "Says it is wrong but gives no reason.",
+      "incorrect": "Says 4 plus 4 plus 4 plus 4 is correct.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_group_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (source asks the question but gives no answer; the answer follows from Concept Development)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_add_each",
+      "level": 1,
+      "text": "Add the number in each group. Add the groups one at a time.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (add them all up)"
+      }
+    },
+    {
+      "id": "h_line_under",
+      "level": 1,
+      "text": "Draw a line under each group. Write the number in that group on the line.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (draw a line beneath each group)"
+      }
+    },
+    {
+      "id": "h_each_group",
+      "level": 2,
+      "text": "Look at one group. How many circles are in it? That number repeats.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (what number is repeating?)"
+      }
+    },
+    {
+      "id": "h_count_groups",
+      "level": 2,
+      "text": "Count the groups. That tells you how many times to write the number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (there are 4 groups of 3)"
+      }
+    },
+    {
+      "id": "h_add_two_at_a_time",
+      "level": 3,
+      "text": "Add the first two numbers. Then add the next number to your answer.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (3 + 3, then 6 + 3, then 9 + 3)"
+      }
+    },
+    {
+      "id": "h_nearest_ten",
+      "level": 1,
+      "text": "Break 16 into 10 and 6. Subtract the 9 from the 10 first.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "h_place_value",
+      "level": 1,
+      "text": "Say the units. Think of tens or hundreds as one unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtracting Multiples of Hundreds and Tens"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_add_group_count",
+      "label": "Adds the number of groups instead of the number in each group",
+      "description": "The child adds the number of groups. For 4 groups of 3, the child writes 4 plus 4 plus 4 plus 4. The repeated number must be how many are in each group.",
+      "detection_signals": [
+        "Says or writes the number of groups as the repeated addend, for example 4 plus 4 plus 4 plus 4 for 4 groups of 3.",
+        "Cannot say what the repeated number shows."
+      ],
+      "response_text": "Look at one group. It has 3 circles. So we add 3 each time. We add 3 four times because there are 4 groups.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3: Why didn't you add 4 + 4 + 4 + 4?)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_group_circles",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact group counts, small circles in each group, number lines under each group and a growing equation need exact behaviour. Diffusion cannot count.",
+      "description": "Groups drawn as big circles. Small circles (or stars) sit inside each group. A line sits under each group. The addition shows as the groups are added.",
+      "must_show_exactly": [
+        "Exactly stimulus.groups big circles",
+        "Exactly stimulus.per_group small shapes inside every group",
+        "A line under each group",
+        "Same shape in every group (circle by default, star when stimulus.shape is star)"
+      ],
+      "states_or_frames": [
+        "4 groups of 3",
+        "5 groups of 2",
+        "3 groups of 5",
+        "2 groups of 3 stars",
+        "4 groups of 3 circles",
+        "numbers appear under each group one at a time",
+        "running total shown step by step (for example 3, 6, 9, 12)"
+      ],
+      "interaction": "Tutor sets groups and per_group from the stimulus. Numbers under the groups can be shown or hidden. Child answers by voice or typing.",
+      "alt_text": "Groups of small circles with a line under each group.",
+      "used_by": [
+        "ex_3_fives",
+        "ex_4_threes",
+        "ex_5_twos",
+        "exp_add_groups",
+        "exp_math_drawing",
+        "exp_repeating_number",
+        "exp_say_groups_of",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Simple flat groups: big outlined circles with the same number of small dots in each, a short line under each, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_socks_story",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "icon_art_then_code_layout",
+      "diffusion_suitable": "icon_only_then_code_layout",
+      "why_this_method": "Diffusion may draw ONE sock icon in a child-friendly style. Code must lay out exactly 4 socks in each of 4 colours.",
+      "description": "16 socks sorted into 4 colour groups of 4: purple, yellow, pink and orange.",
+      "must_show_exactly": [
+        "Exactly 4 purple socks",
+        "Exactly 4 yellow socks",
+        "Exactly 4 pink socks",
+        "Exactly 4 orange socks",
+        "16 socks in total",
+        "Each colour is its own group"
+      ],
+      "states_or_frames": [
+        "4 groups of 4 socks sorted by colour"
+      ],
+      "interaction": "Display only. Child answers by voice or typing.",
+      "alt_text": "Sixteen socks sorted into four groups of four colours.",
+      "used_by": [
+        "q_app_1",
+        "q_app_2"
+      ],
+      "generation_caption": "ICON ONLY: one cartoon sock, flat colourful style, white background. (Code makes 4 copies in each of 4 colours.)"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Grade 2 Core Fluency Practice Sets",
+      "reason": "Timed paper sets from Lesson 1 (details in Lesson 1). Review only. No items are printed in this lesson file.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Talk with your partner",
+      "reason": "Needs a second child. Covered by the questions where the child explains to the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Student Debrief"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw groups of circles and write equations on the personal white board",
+      "reason": "Drawing and handwriting cannot be checked by a voice or text tutor. The widget shows the groups.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    },
+    {
+      "id": "na_physical",
+      "name": "Counters shown by the teacher",
+      "reason": "Replaced by the on-screen widget a_group_circles.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set, Exit Ticket and Homework picture items",
+      "issue": "Most items show a picture of objects in groups. The number in each group is not in the text and no image was attached. Only the three items with printed numbers (2 groups of 3 stars, 3 groups of 5 stars, 4 groups of 3 circles) were used. Needs a person or image extraction from the PDF."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md text has three unlabelled sheets and no item numbers. The debrief names Problems 1(a), 1(b), 2, 3 and 4 but the mapping to the sheet is not clear. Questions cite the sheet name, not an item number."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l1_equal_groups_manipulatives is the Lesson 1 card of this module. ext_g1_add_within_20 is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "mis_add_group_count",
+      "issue": "The source only asks 'Why didn't you add 4 + 4 + 4 + 4?' in the Debrief. The misconception is read from that question. A person should confirm it."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has no hint notes in this text. All hints are adapted from teacher moves. Hint coverage is thin. Level 3 wording needs review."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "q_pr_12, q_pr_13, q_app_1, q_app_2, q_db_3 and their rubrics",
+      "issue": "Answers are derived. The source prints no answer. Each follows from the numbers in the question. Check them."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_db_1",
+      "issue": "The debrief blank has no printed answer. The answer is taken from the Concept Development (the 3 stands for how many are in each group)."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Core Fluency Practice Sets",
+      "issue": "The sets are in Lesson 1. This lesson only refers to them. No questions made."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the schema must allow null."
+    },
+    {
+      "id": "f15",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only 2.NBT.5, 2.NBT.7 and 2.OA.2 appear in this lesson file (Fluency headings). The lesson's own module standard is not printed here and was not added."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "q_pr_11",
+      "issue": "Answer 'fives' is a word, not a number. The accept list has no digit and word pair. Confirm how the Tutor matches it."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_group_circles, a_socks_story). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

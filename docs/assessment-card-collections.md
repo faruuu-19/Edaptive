@@ -1,107 +1,93 @@
-# One assessment JSON per concept JSON
+# Concept and assessment file pairing
 
-There are 48 lesson assessment entries in 10 matching assessment JSON files.
-Each covered source concept JSON has one counterpart, including sources that
-contain many lessons. Grade 2 Modules 5 and 6 now each cover Lessons 1–20. All ten covered source
-files have complete assessment collections.
+Grade 2 Module 1 has eight standalone lesson pairs. Each concept is a single
+object and its counterpart is a complete v0.2 assessment object with
+`card_type: assessment_card`. Other covered sources retain collections with
+`card_type: assessment_card_collection` until converted. Every source JSON
+has one counterpart named `<source stem>.assessment_card.json` beside it.
 
-## Naming and root shape
+For Module 1, select a lesson in the module's `lesson-wise/module_index.json`.
+The index names the concept ID/version, both paths and their SHA-256 hashes.
+Repository index paths are relative to the repository root. The downloadable
+module ZIP has its own index whose paths are relative to the extracted folder.
+Pass only the selected two objects to the script agent. The old combined pair
+is in `legacy/module-wide` and is excluded from active indexes and packages.
 
-`math_g2_m6_Lessons.json` pairs with
-`math_g2_m6_Lessons.assessment_card.json` in the same folder. The spelling and
-case of the source stem are retained. Every output uses this root structure,
-including sources with only one concept card:
-
-```json
-{
-  "schema_version": "0.2-draft",
-  "card_type": "assessment_card_collection",
-  "collection_id": "<source stem>_assessment_collection",
-  "review_status": "draft",
-  "linked_concept_file": {
-    "file_name": "<source filename>.json",
-    "sha256": "<SHA-256 of the source file bytes>"
-  },
-  "coverage": {
-    "status": "complete or partial",
-    "concept_cards_in_source": 20,
-    "assessment_cards_included": 10,
-    "assessed_concept_ids": ["<covered concept IDs, in source order>"],
-    "missing_concept_ids": ["<unassessed concept IDs, in source order>"]
-  },
-  "cards": ["<full lesson assessment objects>"]
-}
-```
-
-The example shows the shape; `cards` contains objects, not strings. Each child
-has `card_type: assessment_card` and the unchanged complete v0.2 lesson schema,
-including hints and tutor guidance. `card_type` distinguishes the collection
-container from a lesson assessment. A file's complete coverage is separate from
-its draft review status and delivery readiness.
-
-## Loading the two script-agent inputs
-
-Source JSON files have three shapes: a single concept object, an array of
-concepts, or an object with a `cards` array. Normalize the source, then look up
-concept IDs. Never zip the two arrays by position: partial coverage is explicit
-and an assessment's matching concept may occur later in the source array.
+## Reading either assessment format
 
 ```python
 import hashlib
 import json
 from pathlib import Path
 
-concept_path = Path("math_g2_m6_Lessons.json")
-assessment_path = concept_path.with_name(
-    concept_path.stem + ".assessment_card.json"
-)
-source_bytes = concept_path.read_bytes()
-source = json.loads(source_bytes.decode("utf-8"))
-collection = json.loads(assessment_path.read_text(encoding="utf-8"))
-assert collection["card_type"] == "assessment_card_collection"
-assert collection["linked_concept_file"]["file_name"] == concept_path.name
-assert collection["linked_concept_file"]["sha256"] == hashlib.sha256(source_bytes).hexdigest()
-
-concepts = source if isinstance(source, list) else source.get("cards", [source])
-concept_by_id = {concept["concept_id"]: concept for concept in concepts}
-for assessment in collection["cards"]:
-    concept = concept_by_id[assessment["linked_concept"]["concept_id"]]
-    assert concept["card_version"] == assessment["linked_concept"]["concept_version"]
-    # Give this matched concept object and assessment object to the script agent.
+def load_pair(concept_path, assessment_path, expected_source_sha256=None):
+    raw = Path(concept_path).read_bytes()
+    if expected_source_sha256 is not None:
+        assert hashlib.sha256(raw).hexdigest() == expected_source_sha256
+    source = json.loads(raw)
+    concepts = source if isinstance(source, list) else source.get("cards", [source])
+    concept_by_id = {c["concept_id"]: c for c in concepts}
+    assessment = json.loads(Path(assessment_path).read_text(encoding="utf-8"))
+    if assessment["card_type"] == "assessment_card":
+        assert len(concepts) == 1
+        children = [assessment]
+    else:
+        assert assessment["card_type"] == "assessment_card_collection"
+        assert assessment["linked_concept_file"]["file_name"] == Path(concept_path).name
+        assert assessment["linked_concept_file"]["sha256"] == hashlib.sha256(raw).hexdigest()
+        children = assessment["cards"]
+    pairs = []
+    for child in children:
+        concept = concept_by_id[child["linked_concept"]["concept_id"]]
+        assert concept["card_version"] == child["linked_concept"]["concept_version"]
+        pairs.append((concept, child))
+    return pairs
 ```
 
-Resolve `concept_card` references against that matched concept only, and
-`this_card` references against that child assessment only. For example,
-`aq_med_01` and `h_aq_med_01_1` may occur in many children; they are distinct
-because they belong to different linked concepts. Keep attempt, hint, and
-follow-up state separate for each assessment. The reference controller expects
-one child assessment object, not the collection wrapper.
+Collections have `schema_version`, `card_type`, `collection_id`, `review_status`,
+`linked_concept_file`, `coverage` and `cards`. Their coverage includes the source
+concept count, included assessment count, covered IDs and missing IDs. Partial
+collections preserve source order, but consumers must match IDs rather than
+zip arrays by position. Standalone assessments retain the exact lesson-level
+v0.2 schema; hashes and coverage belong to the module index, not extra fields
+added to the assessment.
 
-## Coverage and verification
+Resolve `concept_card` references against the selected concept and `this_card`
+references against the selected assessment. Keep attempts, hints and follow-up
+state separate for each lesson. Local IDs can recur in other lessons.
+The reference controller consumes one assessment object.
 
-Six Grade 1 source files contain six assessments. Six Grade 2 source files
-contain 62 assessments: Module 1 one combined concept, Module 3 its one included
-concept, Module 5 Lessons 1–20, Module 6 Lessons 1–20, and Modules 7 and 8 Lessons
-1–10 each. Ten collections are complete for included source concepts. Module 7
-is partial at 10 of 26 concepts; Module 8 is partial at 10 of 16. They list 22
-missing IDs in all. Twelve other source lesson files have no assessments.
+## Current coverage and verification
 
-All 68 entries match validated build inputs; the previous 58 are preserved
-exactly. Names, source hashes and order, scoped references, unique IDs, coverage
-status, missing IDs and ZIP byte equality were checked. The ten new Module 8
-entries have independently checked geometry, counts, rational shares and every
-accept variant. Numeric choice-key meanings, cube attributes, triangle
-composition and square/rhombus classification were checked. There are 28 new
-worked-equation checks and 240 route scenarios. Cumulative evidence covers
-627 equations, 1,652 routes and seven multipart classification scenarios.
+75 active entries are packaged in 19 matching files: eight standalone lesson
+pairs and eleven collections. Grade 1 has six Lesson 1 entries. Grade 2 has
+69 entries: Module 1 Lessons 1–8 individually, Module 3 its one included lesson,
+Modules 5 and 6 Lessons 1–20 each, and Modules 7 and 8 Lessons 1–10 each.
+The last two sources have 16 and 6 unassessed concepts. Twelve Grade 3/4 source
+files have no assessments. Grade 2 Modules 2 and 4 have no provided sources.
 
-Every child is a draft and script-agent integration is untested. Numeric
-choices cannot verify spoken vocabulary or actual drawings, folds and joins.
-The [Module 8 validation](assessment-cards-grade2-module8-lessons1-10-validation.json)
-records educational limits and source review blockers for Lessons 3 and 5.
-Previous reports retain money, open-answer grading and drawing limitations,
-and the Module 5 source arithmetic discrepancy.
+67 earlier active entries are preserved exactly. The combined Module 1 entry
+is archived unchanged and replaced with eight new entries; it is not counted
+as an active lesson. Source/assessment names, hashes, scoped references, unique
+IDs, coverage lists, archive preservation and package bytes were checked.
+Module 1 extraction preserves 112 questions/rubrics; checks cover 96 numeric
+keys/accept variants, one pair key, three text truths and 12 original open
+rubrics. New assessment validation covers 96 equations and 192 routes.
+Active cumulative totals are 713 equations, 1,820 routes and seven multipart
+classification scenarios, excluding the archived assessment checks.
 
-[Pair mapping](assessment-card-collections-manifest.json) lists source and
-assessment paths. [Collection validation](assessment-card-collections-validation.json)
-records per-pair results. The root README lists the curriculum hierarchy.
+[Module 1 extraction validation](concept-cards-grade2-module1-lesson-wise-validation.json)
+and [Module 1 assessment validation](assessment-cards-grade2-module1-lesson-wise-validation.json)
+record the new evidence. [Pair mapping](assessment-card-collections-manifest.json)
+records formats and paths; [current validation](assessment-card-collections-validation.json)
+records active coverage and preservation. [Migration progress](grade2-lesson-file-migration.json)
+tracks module-by-module file conversion separately from assessment coverage.
+
+All entries are drafts and script-agent integration is untested. Objectives
+and asset scopes are adapted from the combined JSON, without newly consulting
+original lesson PDFs. Shared generic hints retain original provenance;
+assessment grounds reference only the current lesson. Fixed ten/teen facts
+can recur in new stories. Source open answers need semantic grading; source
+`pair_of_parts` can use `valid_pairs`, while hard assessment keys use three
+named parts. Earlier educational limits remain documented in previous reports
+and the root README.

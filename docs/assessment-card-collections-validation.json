@@ -1,33 +1,34 @@
 {
   "status": "passed",
-  "assessment_json_files": 12,
-  "source_json_files_matched": 12,
-  "lesson_assessment_entries": 68,
-  "existing_lesson_assessments_preserved": 58,
-  "new_lesson_assessments": 10,
-  "complete_source_files": 10,
+  "assessment_json_files": 19,
+  "source_json_files_matched": 19,
+  "lesson_assessment_entries": 75,
+  "existing_lesson_assessments_preserved": 67,
+  "new_lesson_assessments": 8,
+  "complete_source_files": 17,
   "partial_source_files": 2,
   "missing_concept_entries_in_partial_files": 22,
   "unassessed_source_files": 12,
   "totals": {
-    "main_questions": 204,
-    "follow_ups": 136,
-    "local_rubrics": 272,
-    "generated_hints": 1020,
-    "guidance_records": 340,
-    "worked_solution_equations_checked": 627,
-    "routing_scenarios": 1652,
+    "main_questions": 225,
+    "follow_ups": 150,
+    "local_rubrics": 300,
+    "generated_hints": 1125,
+    "guidance_records": 375,
+    "worked_solution_equations_checked": 713,
+    "routing_scenarios": 1820,
     "multipart_classification_scenarios": 7
   },
-  "scope": "All 68 entries match validated build inputs; the existing 58 entries are preserved exactly. Matching filenames/source hashes, source order, per-concept scoped references, unique included IDs, coverage lists, sibling-folder pairing and ZIP byte equality checked. Numeric answers and accept variants are independently checked in the referenced lesson validation reports, with open-answer truth checks where applicable.",
+  "scope": "All 75 active entries match validated build inputs; 67 earlier entries are preserved exactly, and 1 superseded entry is preserved byte-for-byte in the archive. Matching filenames, source order, scoped references, unique IDs, coverage lists, folder pairing and ZIP byte equality checked. Source hashes are verified for collections and in the lesson module index. Numeric answers and accept variants are checked in the referenced lesson validation reports. Archived checks are excluded from active totals.",
   "validation_reports": [
     "assessment-cards-v0.2-validation.json",
     "assessment-cards-grade2-module5-lessons9-20-validation.json",
     "assessment-cards-grade2-module6-lessons11-20-validation.json",
     "assessment-cards-grade2-module7-lessons1-10-validation.json",
-    "assessment-cards-grade2-module8-lessons1-10-validation.json"
+    "assessment-cards-grade2-module8-lessons1-10-validation.json",
+    "assessment-cards-grade2-module1-lesson-wise-validation.json"
   ],
-  "new_batch_validation": "assessment-cards-grade2-module8-lessons1-10-validation.json",
+  "new_batch_validation": "assessment-cards-grade2-module1-lesson-wise-validation.json",
   "limitations": [
     "Human educational review required; all cards are drafts.",
     "Reference controller verified; script-agent integration not tested.",
@@ -50,12 +51,18 @@
     "Drawings, folds, joins and matching actions are described and modelled; numeric responses do not verify that the learner actually constructed or checked them.",
     "The source defines trapezoid inclusively as at least one parallel side pair. The square question asks for the most specific name among the listed choices.",
     "Lesson 2 easy combines quadrilateral recognition with finding missing sides; Lesson 4 easy counts index-card angles as a prerequisite for square-corner classification.",
-    "Source geometry specifications, metadata and pictured worksheet uncertainties remain in linked concept cards."
+    "Source geometry specifications, metadata and pictured worksheet uncertainties remain in linked concept cards.",
+    "Human educational review and script-agent integration remain outstanding.",
+    "Lesson objectives and asset scopes are adapted from the combined concept, without consulting the unavailable original lesson PDFs. Source metadata and worksheet uncertainties remain.",
+    "Shared original support hints retain their source provenance; those generic hints do not authorize importing another lesson's explanations or assessment methods.",
+    "Lesson 1 has a finite set of ten/teen facts, so fixed facts can recur in new situations. Hard work includes counting ones, forming and naming a ten-and-ones number, then checking in the opposite order.",
+    "Source open questions retain their original semantic rubrics and require semantic grading; they are not converted into exact-answer questions."
   ],
   "pairs": [
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 1/Module 1/math_g1_m1_l1_lesson.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 1/Module 1/math_g1_m1_l1_lesson.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 1,
       "source_concept_entries": 1,
@@ -65,6 +72,7 @@
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 2/Module 2/Math G1-M2 Lessons/math_g1_m2_l1_lesson.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 2/Module 2/Math G1-M2 Lessons/math_g1_m2_l1_lesson.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 1,
       "source_concept_entries": 1,
@@ -74,6 +82,7 @@
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 3/Module 3/Math G1-M3 Lessons/math_g1_m3_l1_lesson.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 3/Module 3/Math G1-M3 Lessons/math_g1_m3_l1_lesson.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 1,
       "source_concept_entries": 1,
@@ -83,6 +92,7 @@
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 4/Module 4/Math G1-M4 Lessons/math_g1_m4_l1_lesson.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 4/Module 4/Math G1-M4 Lessons/math_g1_m4_l1_lesson.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 1,
       "source_concept_entries": 1,
@@ -92,6 +102,7 @@
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 5/Module 5/Math G1-M5 Lessons/math_g1_m5_l1_lesson.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 5/Module 5/Math G1-M5 Lessons/math_g1_m5_l1_lesson.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 1,
       "source_concept_entries": 1,
@@ -101,6 +112,7 @@
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 6/Module 6/Math G1-M6 Lessons/math_g1_m6_l1_lesson.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 6/Module 6/Math G1-M6 Lessons/math_g1_m6_l1_lesson.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 1,
       "source_concept_entries": 1,
@@ -108,17 +120,89 @@
       "assessment_sha256": "b90af5690051b334e7a0ea3562b359f0f12c279d4d8fd2a62834556067a6c6b4"
     },
     {
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/math_g2_m1_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/math_g2_m1_lesson.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-1/math_g2_m1_l1_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-1/math_g2_m1_l1_lesson.assessment_card.json",
+      "assessment_format": "single_lesson",
       "status": "passed",
       "assessment_entries": 1,
       "source_concept_entries": 1,
       "coverage": "complete",
-      "assessment_sha256": "432d0343620a7bef376ac5e23300d07d493b3c39a59974941348be6c58c70327"
+      "assessment_sha256": "18f750efe47988eae7d995f37ee141dcf568825e96a2082352cf03b6a542e782"
+    },
+    {
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-2/math_g2_m1_l2_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-2/math_g2_m1_l2_lesson.assessment_card.json",
+      "assessment_format": "single_lesson",
+      "status": "passed",
+      "assessment_entries": 1,
+      "source_concept_entries": 1,
+      "coverage": "complete",
+      "assessment_sha256": "133bd0716abf02028f90de3ed69070ddb7c409ac78741bddb53b108e9b3f5ec1"
+    },
+    {
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-3/math_g2_m1_l3_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-3/math_g2_m1_l3_lesson.assessment_card.json",
+      "assessment_format": "single_lesson",
+      "status": "passed",
+      "assessment_entries": 1,
+      "source_concept_entries": 1,
+      "coverage": "complete",
+      "assessment_sha256": "262f77dc7ff87488e5c827295416920c963bf8949203fc5c0cd705240f1dd4ca"
+    },
+    {
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-4/math_g2_m1_l4_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-4/math_g2_m1_l4_lesson.assessment_card.json",
+      "assessment_format": "single_lesson",
+      "status": "passed",
+      "assessment_entries": 1,
+      "source_concept_entries": 1,
+      "coverage": "complete",
+      "assessment_sha256": "bb71e97fe11d92c0b2b29be1964417f733b26986b940b593563b0991d85442ef"
+    },
+    {
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-5/math_g2_m1_l5_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-5/math_g2_m1_l5_lesson.assessment_card.json",
+      "assessment_format": "single_lesson",
+      "status": "passed",
+      "assessment_entries": 1,
+      "source_concept_entries": 1,
+      "coverage": "complete",
+      "assessment_sha256": "09dac955d65fac62a99fcf568b6eb7c3f3bdeaa2d8212827eeba871999af0db4"
+    },
+    {
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-6/math_g2_m1_l6_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-6/math_g2_m1_l6_lesson.assessment_card.json",
+      "assessment_format": "single_lesson",
+      "status": "passed",
+      "assessment_entries": 1,
+      "source_concept_entries": 1,
+      "coverage": "complete",
+      "assessment_sha256": "bb760b6ba6b3144f3323ea129b51509bd90511c1ed4e4d4420c9bbe21b8ee611"
+    },
+    {
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-7/math_g2_m1_l7_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-7/math_g2_m1_l7_lesson.assessment_card.json",
+      "assessment_format": "single_lesson",
+      "status": "passed",
+      "assessment_entries": 1,
+      "source_concept_entries": 1,
+      "coverage": "complete",
+      "assessment_sha256": "1a24cea433fbc99ed2dbba34bbd3196d319b320b05b131f9897a177a4cdc8dd4"
+    },
+    {
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-8/math_g2_m1_l8_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-8/math_g2_m1_l8_lesson.assessment_card.json",
+      "assessment_format": "single_lesson",
+      "status": "passed",
+      "assessment_entries": 1,
+      "source_concept_entries": 1,
+      "coverage": "complete",
+      "assessment_sha256": "15006be1c4ced32f98da45b8ad934045ca6ac5d4852845c801756cf87605d676"
     },
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/math_g2_m3_Lessons.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/math_g2_m3_Lessons.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 1,
       "source_concept_entries": 1,
@@ -128,6 +212,7 @@
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/math_g2_m5_lesson.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/math_g2_m5_lesson.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 20,
       "source_concept_entries": 20,
@@ -137,6 +222,7 @@
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/math_g2_m6_Lessons.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/math_g2_m6_Lessons.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 20,
       "source_concept_entries": 20,
@@ -146,6 +232,7 @@
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 10,
       "source_concept_entries": 26,
@@ -155,6 +242,7 @@
     {
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json",
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.assessment_card.json",
+      "assessment_format": "collection",
       "status": "passed",
       "assessment_entries": 10,
       "source_concept_entries": 16,
@@ -162,5 +250,8 @@
       "assessment_sha256": "6ac8288065a38bb63f6c0d7e11637d732708eab213efd04a0cd246b6c3c88010"
     }
   ],
-  "local_source_folder_pairing_verified": true
+  "local_source_folder_pairing_verified": true,
+  "archived_assessment_entries": 1,
+  "single_lesson_assessment_files": 8,
+  "collection_assessment_files": 11
 }

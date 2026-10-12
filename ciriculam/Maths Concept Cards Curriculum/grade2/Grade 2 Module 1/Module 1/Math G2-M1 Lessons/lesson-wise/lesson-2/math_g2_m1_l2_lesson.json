@@ -1,0 +1,910 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m1_l2_tens_and_ones",
+  "card_version": 2,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m1",
+      "file": "Module_1.zip (math-g2-m1-topic-a-lesson-1.md to math-g2-m1-topic-b-lesson-8.md)",
+      "source_version": "not_stated_in_file",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 1, Lesson 2 (lesson-scoped extraction from combined JSON)",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none: markdown files without page numbers; page is 'n/a' and section names (with lesson number) are used"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_l2",
+    "text": "Read tens and ones, use ten-plus facts with other tens, and find the next ten within 100.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "L2 lesson content in the combined Module 1 concept JSON; objective adapted from its explanations and questions"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g1_add_subtract_within_10",
+    "ext_k_say_ten_counting",
+    "ext_g1_place_value_tens_ones",
+    "math_g2_m1_l1_pairs_to_ten"
+  ],
+  "explanations": [
+    {
+      "id": "exp_l2_tens_ones",
+      "title": "L2 Value of tens and ones",
+      "text": "A quick ten is a stick of 10. Count the tens first. Then count the ones. 2 tens and 2 ones make 22. 20 plus 2 equals 22.",
+      "asset_ids": [
+        "a_quick_ten_drawing"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: The Value of Tens and Ones"
+      }
+    },
+    {
+      "id": "exp_l2_next_ten",
+      "title": "L2 Make the next ten",
+      "text": "8 needs 2 to make the next ten. 28 needs 2 to make 30. 58 needs 2 to make 60. The ones tell you how many.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Make the Next Ten (8, 28, 58: S: 2)"
+      }
+    },
+    {
+      "id": "exp_l2_ten_fact",
+      "title": "L2 A ten fact helps with other tens",
+      "text": "Knowing 10 plus 3 helps with 50 plus 3. Both add 3 ones. 10 plus 3 equals 13. So 50 plus 3 equals 53.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Student Debrief (how does knowing 10 + 3 help us with 50 + 3)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_l2_28",
+      "title": "L2 2 tens 8 is 28",
+      "text": "2 tens 8 is 28. 20 plus 8 equals 28.",
+      "asset_ids": [
+        "a_quick_ten_drawing"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Happy Counting Part 2 (2 tens 8, S: 20 + 8 = 28)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_l2_1",
+      "kind": "prior_knowledge",
+      "text": "You see 2 tens and 2 ones. What number is that?",
+      "stimulus": {
+        "tens": 2,
+        "ones": 2
+      },
+      "rubric_id": "r_pk_l2_1",
+      "hint_ids": [
+        "h_21"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: The Value of Tens and Ones (2 tens and 2 ones, S: 22)"
+      },
+      "asset_ids": [
+        "a_quick_ten_drawing"
+      ]
+    },
+    {
+      "id": "q_pk_l2_2",
+      "kind": "prior_knowledge",
+      "text": "Say Ten way, 5 tens 3. What number is it?",
+      "stimulus": {
+        "say_ten": "5 tens 3"
+      },
+      "rubric_id": "r_pk_l2_2",
+      "hint_ids": [
+        "h_21",
+        "h_11"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Happy Counting Part 2 (5 tens 3, S: 50 + 3 = 53)"
+      }
+    },
+    {
+      "id": "q_pk_l2_3",
+      "kind": "prior_knowledge",
+      "text": "28 needs what number to make the next ten?",
+      "stimulus": {
+        "number": 28
+      },
+      "rubric_id": "r_pk_l2_3",
+      "hint_ids": [
+        "h_13",
+        "h_2"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Make the Next Ten (28, S: 2)"
+      }
+    },
+    {
+      "id": "q_pk_l2_4",
+      "kind": "prior_knowledge",
+      "text": "67 needs what number to make the next ten?",
+      "stimulus": {
+        "number": 67
+      },
+      "rubric_id": "r_pk_l2_4",
+      "hint_ids": [
+        "h_13",
+        "h_2"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Make the Next Ten (67 is in the sequence 7, 27, 67, 87)"
+      }
+    },
+    {
+      "id": "q_sp_l2_a4",
+      "kind": "practice",
+      "text": "50 plus 3 equals what number?",
+      "stimulus": {
+        "equation": "50 + 3 = ?"
+      },
+      "rubric_id": "r_sp_l2_a4",
+      "hint_ids": [
+        "h_11"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 4 (50 + 3 = ____)"
+      }
+    },
+    {
+      "id": "q_sp_l2_a7",
+      "kind": "practice",
+      "text": "What number equals 40 plus 1?",
+      "stimulus": {
+        "equation": "? = 40 + 1"
+      },
+      "rubric_id": "r_sp_l2_a7",
+      "hint_ids": [
+        "h_11"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 7 (____ = 40 + 1)"
+      }
+    },
+    {
+      "id": "q_sp_l2_a16",
+      "kind": "practice",
+      "text": "10 plus what number equals 13?",
+      "stimulus": {
+        "equation": "10 + ? = 13"
+      },
+      "rubric_id": "r_sp_l2_a16",
+      "hint_ids": [
+        "h_13"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 16 (10 + ____ = 13)"
+      }
+    },
+    {
+      "id": "q_sp_l2_a25",
+      "kind": "practice",
+      "text": "What number plus 6 equals 76?",
+      "stimulus": {
+        "equation": "? + 6 = 76"
+      },
+      "rubric_id": "r_sp_l2_a25",
+      "hint_ids": [
+        "h_12",
+        "h_8"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 25 (____ + 6 = 76)"
+      }
+    },
+    {
+      "id": "q_sp_l2_a28",
+      "kind": "practice",
+      "text": "What number plus 60 equals 67?",
+      "stimulus": {
+        "equation": "? + 60 = 67"
+      },
+      "rubric_id": "r_sp_l2_a28",
+      "hint_ids": [
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 28 (____ + 60 = 67)"
+      }
+    },
+    {
+      "id": "q_sp_l2_a30",
+      "kind": "practice",
+      "text": "97 equals 7 plus what number?",
+      "stimulus": {
+        "equation": "97 = 7 + ?"
+      },
+      "rubric_id": "r_sp_l2_a30",
+      "hint_ids": [
+        "h_12",
+        "h_8"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 30 (97 = 7 + ____)"
+      }
+    },
+    {
+      "id": "q_pr_l2_1",
+      "kind": "practice",
+      "text": "23 equals 20 plus what number?",
+      "stimulus": {
+        "equation": "23 = 20 + ?"
+      },
+      "rubric_id": "r_pr_l2_1",
+      "hint_ids": [
+        "h_12",
+        "h_11"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Homework 3"
+      }
+    },
+    {
+      "id": "q_pr_l2_2",
+      "kind": "practice",
+      "text": "78 equals what number plus 8?",
+      "stimulus": {
+        "equation": "78 = ? + 8"
+      },
+      "rubric_id": "r_pr_l2_2",
+      "hint_ids": [
+        "h_12",
+        "h_8"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Homework 3"
+      }
+    },
+    {
+      "id": "q_db_l2_1",
+      "kind": "debrief",
+      "text": "How does knowing 10 plus 3 help us with 50 plus 3?",
+      "stimulus": {
+        "compare": [
+          "10 + 3",
+          "50 + 3"
+        ]
+      },
+      "rubric_id": "r_db_l2_1",
+      "hint_ids": [
+        "h_22"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_l2_2",
+      "kind": "debrief",
+      "text": "How does knowing 8 needs 2 to make ten help us with 28?",
+      "stimulus": {
+        "compare": [
+          8,
+          28
+        ]
+      },
+      "rubric_id": "r_db_l2_2",
+      "hint_ids": [
+        "h_22"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_l2_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22",
+          "twenty-two",
+          "twenty two"
+        ]
+      },
+      "correct": "Says 22 or twenty-two.",
+      "partial": null,
+      "incorrect": "Says any other number (for example 4, adding the digits).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: The Value of Tens and Ones (2 tens and 2 ones, S: 22) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pk_l2_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53",
+          "fifty-three",
+          "fifty three"
+        ]
+      },
+      "correct": "Says 53 or fifty-three.",
+      "partial": null,
+      "incorrect": "Says any other number (for example 8, adding the digits).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Happy Counting Part 2 (5 tens 3, S: 50 + 3 = 53) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pk_l2_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2 or two.",
+      "partial": null,
+      "incorrect": "Says any other number (for example 30, the next ten).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Make the Next Ten (28, S: 2) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pk_l2_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3 or three.",
+      "partial": null,
+      "incorrect": "Says any other number (for example 70, the next ten).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Make the Next Ten (67 is in the sequence 7, 27, 67, 87) (answer not printed)"
+      }
+    },
+    {
+      "id": "r_sp_l2_a4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53",
+          "fifty-three",
+          "fifty three"
+        ]
+      },
+      "correct": "Says 53 or fifty-three.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 4 (50 + 3 = ____) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l2_a7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "41",
+          "forty-one",
+          "forty one"
+        ]
+      },
+      "correct": "Says 41 or forty-one.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 7 (____ = 40 + 1) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l2_a16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3 or three.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 16 (10 + ____ = 13) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l2_a25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "70",
+          "seventy"
+        ]
+      },
+      "correct": "Says 70 or seventy.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 25 (____ + 6 = 76) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l2_a28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7 or seven.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 28 (____ + 60 = 67) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l2_a30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "90",
+          "ninety"
+        ]
+      },
+      "correct": "Says 90 or ninety.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Sprint A item 30 (97 = 7 + ____) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_pr_l2_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3 or three.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Homework 3 (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_pr_l2_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "70",
+          "seventy"
+        ]
+      },
+      "correct": "Says 70 or seventy.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Homework 3 (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_db_l2_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both add 3 ones, so 10 plus 3 equals 13 gives 50 plus 3 equals 53 by keeping the 5 tens.",
+      "partial": "Says the problems are alike but does not say why the ones are added the same way.",
+      "incorrect": "Gives an answer that does not compare the two problems.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Student Debrief (source gives no single answer; guided by the lesson)"
+      }
+    },
+    {
+      "id": "r_db_l2_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 28 needs 2 to reach 30 the same way 8 needs 2 to reach 10.",
+      "partial": "Says the numbers are alike but does not name the 2.",
+      "incorrect": "Gives an answer that does not link 8 and 28.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Student Debrief (source gives no single answer; guided by the lesson)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_2",
+      "level": 2,
+      "text": "Think of a number bond with 10 on top. One part is shown. What part goes with it?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L1 Fluency: Pairs to Ten with Number Bonds"
+      }
+    },
+    {
+      "id": "h_8",
+      "level": 3,
+      "text": "Start at the small number. Count on to the big number. How many steps do you take?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_11",
+      "level": 2,
+      "text": "Add tens to tens, or ones to ones. Do not mix them up.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (tens from tens)"
+      }
+    },
+    {
+      "id": "h_12",
+      "level": 2,
+      "text": "Break the number into tens and ones. Which part changes?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (number bond for 51)"
+      }
+    },
+    {
+      "id": "h_13",
+      "level": 1,
+      "text": "How many more make the next ten? Use your partners to ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Make the Next Ten"
+      }
+    },
+    {
+      "id": "h_21",
+      "level": 1,
+      "text": "Count the tens first. Then count the ones.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_22",
+      "level": 1,
+      "text": "Say what is the same and what is different. Use words or numbers.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_quick_ten_drawing",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Needs an exact number of tens sticks and ones dots. Image models cannot count.",
+      "description": "A quick-ten picture: each ten is a stick of 10 dots, each one is a single dot. For make-a-ten problems the extra dots can be drawn as circles and Xs.",
+      "must_show_exactly": [
+        "T sticks of 10 dots and U single dots represent 10T + U for the current lesson stimulus.",
+        "For make-a-ten tasks, the added dots complete the next ten first and the remaining dots stay outside that group."
+      ],
+      "states_or_frames": [
+        "22: 2 sticks + 2 dots",
+        "28: 2 sticks + 8 dots",
+        "configured from the current lesson question stimulus"
+      ],
+      "interaction": "Shows the picture. The child answers by typing or speaking. Adding tens or Xs can be animated one at a time.",
+      "alt_text": "Sticks of ten dots and some single dots showing a two-digit number.",
+      "generation_caption": "Flat quick-ten drawing: T vertical sticks of 10 dots and U single dots, plain background, no text. [Build by code]",
+      "used_by": [
+        "q_pk_l2_1",
+        "ex_l2_28",
+        "exp_l2_tens_ones"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint_l2",
+      "name": "Sprint: Add Tens and Ones (Lesson 2 Sprint A and B race)",
+      "reason": "Timed paper race with scoring and two parallel sheets. The items are used as practice questions the corresponding lesson task*.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_happy_counting",
+      "name": "Happy Counting (Say Ten way) with thumb signals and Rekenrek or Hide Zero cards",
+      "reason": "Whole-class chanting with hand signals and teacher-run tools. The camera cannot check it. a_say_ten_rekenrek replaces part of it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L1 and L2 Fluency: Happy Counting; L5 Fluency: Happy Counting"
+      }
+    },
+    {
+      "id": "na_target_practice",
+      "name": "Target Practice: Within 10",
+      "reason": "Partner game with a numeral die, a white board and a printed target template.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L1 and L2 Fluency: Target Practice"
+      }
+    },
+    {
+      "id": "na_partner_pairs",
+      "name": "Partners take turns saying pairs to make 10 (or 20 to 100)",
+      "reason": "Needs a second child. Covered by the corresponding lesson task, where the child tells the tutor two numbers.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L1 and L2 Fluency: pairs to ten"
+      }
+    },
+    {
+      "id": "na_number_bond_dash",
+      "name": "Number Bond Dash (90 seconds)",
+      "reason": "Timed paper template with 20 number bonds. The bonds are pictures.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Number Bond Dash template"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before any use."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "source_refs / license",
+      "issue": "Source license is CC BY-NC-SA 3.0 (Great Minds). Cards made from it must credit Great Minds, stay non-commercial, and share under the same license. Check before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "lesson assets and visuals",
+      "issue": "Build the 1 lesson visual specifications by code and check exact quantities against each rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "lesson extraction",
+      "issue": "Lesson 2 was extracted by lesson-specific IDs. Its objective and scoped asset states are adapted. Review them against the original lesson before use."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "source_refs and every source_ref.page",
+      "issue": "The source is 8 markdown files with no printed page numbers, no images and no 'This file derived from' footer. Every page is 'n/a' with a section name. source_version is 'not_stated_in_file' and source_refs holds one item for the whole zip. Fill both in from the original PDFs."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "worksheet identification (all lessons)",
+      "issue": "The worksheets have no printed titles in these files. They were named by order after the Exit Ticket instructions: Lessons 1 to 3 start with Sprint A and Sprint B. Lessons 3 to 8 then show Problem Set, Exit Ticket, Homework. Lessons 1 and 2 show Exit Ticket, Homework. A person must confirm this against the PDFs. Section names that say Problem Set, Exit Ticket or Homework depend on it."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "child-facing wording",
+      "issue": "The source is a teacher script for a class with a Rekenrek, cards and partners. All child text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g1_add_subtract_within_10, ext_k_say_ten_counting and ext_g1_place_value_tens_ones are external prerequisite cards that do not exist yet. The source names Grade 1 and Kindergarten work as earlier learning but does not teach it."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "The source prints no answers for Sprints, Exit Tickets, Homework or Problem Sets, and none for most Fluency and word-problem items. Every such key is derived. Each was solved by code from the printed item, then checked against the lesson text."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework items left out",
+      "issue": "Only the original questions assigned to Lesson 2 are included. Repeated worksheet items remain unconverted; review the original source before adding them."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "This lesson has 3 original explanations. Keep its own method; do not import another lesson to pad the explanation count."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "shared hints",
+      "issue": "Referenced original hints are retained, including generic support from other lesson sections. Their original source references are provenance; they do not authorize teaching later-lesson methods."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map a null partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f22",
+      "severity": "low",
+      "item": "standards",
+      "issue": "The standard codes are inherited from the combined module source. Confirm which apply to this individual lesson against the original lesson document."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

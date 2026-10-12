@@ -1,0 +1,864 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m1_l8_take_from_ten_within_100",
+  "card_version": 2,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m1",
+      "file": "Module_1.zip (math-g2-m1-topic-a-lesson-1.md to math-g2-m1-topic-b-lesson-8.md)",
+      "source_version": "not_stated_in_file",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 1, Lesson 8 (lesson-scoped extraction from combined JSON)",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none: markdown files without page numbers; page is 'n/a' and section names (with lesson number) are used"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_l8",
+    "text": "Subtract a single-digit number within 100, choosing the ones or taking from a ten.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "L8 lesson content in the combined Module 1 concept JSON; objective adapted from its explanations and questions"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g1_add_subtract_within_10",
+    "ext_k_say_ten_counting",
+    "ext_g1_place_value_tens_ones",
+    "math_g2_m1_l7_take_from_ten_teens"
+  ],
+  "explanations": [
+    {
+      "id": "exp_l8_which",
+      "title": "L8 Take from the ones or from a ten",
+      "text": "Look at the ones. If you have enough ones, take from the ones. If not, take from a ten.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Fluency: Take from a Ten or Take from the Ones"
+      }
+    },
+    {
+      "id": "exp_l8_ten_100",
+      "title": "L8 Take from a ten within 100",
+      "text": "To take 8 from 23, break 23 into 13 and 10. 10 minus 8 equals 2. Then 13 plus 2 equals 15.",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_l8_13_8",
+      "title": "L8 13 minus 8",
+      "text": "13 minus 8 equals 5. Break 13 into 3 and 10. 10 minus 8 equals 2. 2 plus 3 equals 5.",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (Jacob and Pete)"
+      }
+    },
+    {
+      "id": "ex_l8_23_8",
+      "title": "L8 23 minus 8",
+      "text": "23 minus 8 equals 15. Break 23 into 13 and 10. 10 minus 8 equals 2. 13 plus 2 equals 15.",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_l8_1",
+      "kind": "prior_knowledge",
+      "text": "For 24 minus 1, do you take from a ten or from the ones?",
+      "stimulus": {
+        "equation": "24 - 1"
+      },
+      "rubric_id": "r_pk_l8_1",
+      "hint_ids": [
+        "h_18"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Fluency: Take from a Ten or Take from the Ones (24 - 1, S: take from the ones)"
+      }
+    },
+    {
+      "id": "q_pk_l8_2",
+      "kind": "prior_knowledge",
+      "text": "For 24 minus 9, do you take from a ten or from the ones?",
+      "stimulus": {
+        "equation": "24 - 9"
+      },
+      "rubric_id": "r_pk_l8_2",
+      "hint_ids": [
+        "h_18"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Fluency: Take from a Ten or Take from the Ones (24 - 9, S: take from a ten)"
+      }
+    },
+    {
+      "id": "q_pr_l8_1",
+      "kind": "practice",
+      "text": "13 minus 8 equals what number?",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "equation": "13 - 8 = ?"
+      },
+      "rubric_id": "r_pr_l8_1",
+      "hint_ids": [
+        "h_16",
+        "h_17"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (13 - 8, S: 5)"
+      }
+    },
+    {
+      "id": "q_pr_l8_2",
+      "kind": "practice",
+      "text": "23 minus 8 equals what number?",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "equation": "23 - 8 = ?"
+      },
+      "rubric_id": "r_pr_l8_2",
+      "hint_ids": [
+        "h_16",
+        "h_17"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (23 - 8, S: 15)"
+      }
+    },
+    {
+      "id": "q_pr_l8_3",
+      "kind": "practice",
+      "text": "43 minus 8 equals what number?",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "equation": "43 - 8 = ?"
+      },
+      "rubric_id": "r_pr_l8_3",
+      "hint_ids": [
+        "h_16",
+        "h_17"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (43 - 8)"
+      }
+    },
+    {
+      "id": "q_pr_l8_4",
+      "kind": "practice",
+      "text": "64 minus 9 equals what number?",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "equation": "64 - 9 = ?"
+      },
+      "rubric_id": "r_pr_l8_4",
+      "hint_ids": [
+        "h_16",
+        "h_17"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (sequence ... 64 - 9)"
+      }
+    },
+    {
+      "id": "q_ps_l8_2a",
+      "kind": "practice",
+      "text": "22 minus 9 equals what number?",
+      "stimulus": {
+        "equation": "22 - 9 = ?"
+      },
+      "rubric_id": "r_ps_l8_2a",
+      "hint_ids": [
+        "h_16",
+        "h_17"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Exit Ticket (b: 22 - 9)"
+      }
+    },
+    {
+      "id": "q_ps_l8_2b",
+      "kind": "practice",
+      "text": "53 minus 8 equals what number?",
+      "stimulus": {
+        "equation": "53 - 8 = ?"
+      },
+      "rubric_id": "r_ps_l8_2b",
+      "hint_ids": [
+        "h_16",
+        "h_17"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Exit Ticket (f: 53 - 8)"
+      }
+    },
+    {
+      "id": "q_ps_l8_2c",
+      "kind": "practice",
+      "text": "36 minus 7 equals what number?",
+      "stimulus": {
+        "equation": "36 - 7 = ?"
+      },
+      "rubric_id": "r_ps_l8_2c",
+      "hint_ids": [
+        "h_16",
+        "h_17"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Exit Ticket 2b (36 - 7)"
+      }
+    },
+    {
+      "id": "q_ps_l8_3",
+      "kind": "practice",
+      "text": "Mrs Watts has 17 tacos. The children eat some. Now there are 9 tacos. How many tacos did they eat?",
+      "stimulus": {
+        "start": 17,
+        "left": 9
+      },
+      "rubric_id": "r_ps_l8_3",
+      "hint_ids": [
+        "h_19",
+        "h_20"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Exit Ticket (Mrs. Watts)"
+      }
+    },
+    {
+      "id": "q_app_l8_1",
+      "kind": "application",
+      "text": "Emma has 45 pencils. 8 pencils are sharpened. How many pencils are not sharpened?",
+      "stimulus": {
+        "total": 45,
+        "sharpened": 8
+      },
+      "rubric_id": "r_app_l8_1",
+      "hint_ids": [
+        "h_19",
+        "h_16"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Application Problem"
+      }
+    },
+    {
+      "id": "q_db_l8_1",
+      "kind": "debrief",
+      "text": "What patterns do you see when you take from a ten?",
+      "stimulus": {
+        "topic": "pattern"
+      },
+      "rubric_id": "r_db_l8_1",
+      "hint_ids": [
+        "h_22"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (patterns) and Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_l8_2",
+      "kind": "debrief",
+      "text": "What do you think was the math goal of this module? What name would you give it?",
+      "stimulus": {
+        "topic": "module goal"
+      },
+      "rubric_id": "r_db_l8_2",
+      "hint_ids": [
+        "h_9"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Student Debrief (math goal and lesson name)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_l8_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "take from the ones",
+          "from the ones",
+          "the ones",
+          "ones"
+        ]
+      },
+      "correct": "Says the ones (take from the ones).",
+      "partial": null,
+      "incorrect": "Says a ten (take from a ten).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Fluency: Take from a Ten or Take from the Ones (24 - 1, S: take from the ones) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pk_l8_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "take from a ten",
+          "from a ten",
+          "a ten",
+          "ten",
+          "tens"
+        ]
+      },
+      "correct": "Says a ten (take from a ten).",
+      "partial": null,
+      "incorrect": "Says the ones (take from the ones).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Fluency: Take from a Ten or Take from the Ones (24 - 9, S: take from a ten) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l8_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5 or five.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (13 - 8, S: 5) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l8_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15 or fifteen.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (23 - 8, S: 15) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l8_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five",
+          "thirty five"
+        ]
+      },
+      "correct": "Says 35 or thirty-five.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (43 - 8) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_pr_l8_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55",
+          "fifty-five",
+          "fifty five"
+        ]
+      },
+      "correct": "Says 55 or fifty-five.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (sequence ... 64 - 9) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_ps_l8_2a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13 or thirteen.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Exit Ticket (b: 22 - 9) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_ps_l8_2b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five",
+          "forty five"
+        ]
+      },
+      "correct": "Says 45 or forty-five.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Exit Ticket (f: 53 - 8) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_ps_l8_2c",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "29",
+          "twenty-nine",
+          "twenty nine"
+        ]
+      },
+      "correct": "Says 29 or twenty-nine.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Exit Ticket 2b (36 - 7) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_ps_l8_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8 or eight.",
+      "partial": null,
+      "incorrect": "Says any other number (for example one of the numbers in the story).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Exit Ticket (Mrs. Watts) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_app_l8_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "37",
+          "thirty-seven",
+          "thirty seven"
+        ]
+      },
+      "correct": "Says 37 or thirty-seven.",
+      "partial": null,
+      "incorrect": "Says any other number (for example one of the numbers in the story).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Application Problem (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_db_l8_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says you take the ten out, subtract from the ten, then add the parts that are left.",
+      "partial": "Says there is a pattern but does not describe the steps.",
+      "incorrect": "Gives an answer that does not describe the steps.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Concept Development (patterns) and Student Debrief (source gives no single answer; guided by the lesson)"
+      }
+    },
+    {
+      "id": "r_db_l8_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names a goal about making a ten to add or taking from a ten to subtract.",
+      "partial": "Names adding or subtracting in general but not making or taking from a ten.",
+      "incorrect": "Gives an answer that is not about the math work.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Student Debrief (math goal and lesson name) (source gives no single answer; guided by the lesson)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_9",
+      "level": 1,
+      "text": "Think about the lesson. What did you do with the number 10?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_16",
+      "level": 1,
+      "text": "Break the big number. One part is a ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L6 Concept Development Part 2 (number bond)"
+      }
+    },
+    {
+      "id": "h_17",
+      "level": 2,
+      "text": "First take from the ten. Then put together the parts that are left.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L6 Concept Development Part 2 (take from ten, add the parts left)"
+      }
+    },
+    {
+      "id": "h_18",
+      "level": 1,
+      "text": "Are there enough ones to take away? If not, take from a ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L8 Fluency: Take from a Ten or Take from the Ones"
+      }
+    },
+    {
+      "id": "h_19",
+      "level": 1,
+      "text": "Picture the story. Do you add or take away?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Application Problem (RDW: understand and draw the situation)"
+      }
+    },
+    {
+      "id": "h_20",
+      "level": 2,
+      "text": "You can find a missing part by taking away or by adding on.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L7 Application Problem (note: subtract or add on)"
+      }
+    },
+    {
+      "id": "h_22",
+      "level": 1,
+      "text": "Say what is the same and what is different. Use words or numbers.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_number_bond",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Needs exact numbers in fixed circles and a hidden part. This is layout and behaviour, not a picture.",
+      "description": "A number bond: one circle on top (the total) joined by lines to two circles below (the parts). One circle can show a question mark.",
+      "must_show_exactly": [
+        "Total circle on top, two part circles below",
+        "Known numbers shown; the missing part shows a question mark",
+        "Numbers and any missing part match the current lesson question stimulus."
+      ],
+      "states_or_frames": [
+        "total 23, parts 13 and 10 (ex_l8_23_8)",
+        "configured from the current lesson question stimulus"
+      ],
+      "interaction": "Shows the bond. The child answers by typing or speaking. The missing part is revealed after the answer.",
+      "alt_text": "A number bond with a total on top and two parts below.",
+      "generation_caption": "Flat number bond: one big circle on top joined by two lines to two smaller circles below, plain background, numbers set by the question. [Build by code]",
+      "used_by": [
+        "q_pr_l8_1",
+        "q_pr_l8_2",
+        "q_pr_l8_3",
+        "q_pr_l8_4",
+        "ex_l8_13_8",
+        "ex_l8_23_8",
+        "exp_l8_ten_100"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_draw_on_board",
+      "name": "Drawing quick tens, 5-group columns, ten-frame drawings and number bonds on a white board",
+      "reason": "Needs drawing or writing on paper. The tutor sees only typed text or a transcript.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Fluency: Draw Tens and Ones; L5 Concept Development; L6 and L7 Concept Development; Exit Tickets and Homework with bonds"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Covered by the open debrief questions, where the child explains to the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 to L8 Concept Development and Student Debrief"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before any use."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "source_refs / license",
+      "issue": "Source license is CC BY-NC-SA 3.0 (Great Minds). Cards made from it must credit Great Minds, stay non-commercial, and share under the same license. Check before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "lesson assets and visuals",
+      "issue": "Build the 1 lesson visual specifications by code and check exact quantities against each rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "lesson extraction",
+      "issue": "Lesson 8 was extracted by lesson-specific IDs. Its objective and scoped asset states are adapted. Review them against the original lesson before use."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "source_refs and every source_ref.page",
+      "issue": "The source is 8 markdown files with no printed page numbers, no images and no 'This file derived from' footer. Every page is 'n/a' with a section name. source_version is 'not_stated_in_file' and source_refs holds one item for the whole zip. Fill both in from the original PDFs."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "worksheet identification (all lessons)",
+      "issue": "The worksheets have no printed titles in these files. They were named by order after the Exit Ticket instructions: Lessons 1 to 3 start with Sprint A and Sprint B. Lessons 3 to 8 then show Problem Set, Exit Ticket, Homework. Lessons 1 and 2 show Exit Ticket, Homework. A person must confirm this against the PDFs. Section names that say Problem Set, Exit Ticket or Homework depend on it."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "child-facing wording",
+      "issue": "The source is a teacher script for a class with a Rekenrek, cards and partners. All child text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g1_add_subtract_within_10, ext_k_say_ten_counting and ext_g1_place_value_tens_ones are external prerequisite cards that do not exist yet. The source names Grade 1 and Kindergarten work as earlier learning but does not teach it."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "The source prints no answers for Sprints, Exit Tickets, Homework or Problem Sets, and none for most Fluency and word-problem items. Every such key is derived. Each was solved by code from the printed item, then checked against the lesson text."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework items left out",
+      "issue": "Only the original questions assigned to Lesson 8 are included. Repeated worksheet items remain unconverted; review the original source before adding them."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "This lesson has 2 original explanations. Keep its own method; do not import another lesson to pad the explanation count."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "shared hints",
+      "issue": "Referenced original hints are retained, including generic support from other lesson sections. Their original source references are provenance; they do not authorize teaching later-lesson methods."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map a null partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f22",
+      "severity": "low",
+      "item": "standards",
+      "issue": "The standard codes are inherited from the combined module source. Confirm which apply to this individual lesson against the original lesson document."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

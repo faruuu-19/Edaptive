@@ -1,8 +1,9 @@
 # Assessment cards v0.2 draft
 
-Assessment files are now collections, one per source concept JSON. Unwrap each
-object in the collection's `cards` array and match it by concept ID before
-following this lesson-level contract. See [collection naming and loader rules](assessment-card-collections.md).
+Grade 2 Module 1 has one standalone assessment object per lesson, paired with
+one standalone lesson concept. Other sources still use assessment collections:
+select a child from `cards` by concept ID before following this contract.
+See [file pairing and loader rules](assessment-card-collections.md).
 
 These assessments are complete data inputs for a future script agent. Supply one
 assessment and the concept card matching `linked_concept.concept_id` and
@@ -83,37 +84,38 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-The set has 68 lesson assessments in 12 matching files: Grade 1 Modules 1–6
-Lesson 1; Grade 2 Module 1 Lessons 1–8 in one combined source card, Module 3
-Lesson 1, Modules 5 and 6 Lessons 1–20 each, and Modules 7 and 8 Lessons 1–10
-each. Modules 7 and 8 contain 26 and 16 source concepts, so their collections
-list 16 and 6 missing IDs respectively. The root README gives the hierarchy.
-Totals are 204 main questions, 136 follow-ups, 272 local rubrics, 1,020 generated
-hints and 340 guidance records.
+There are 75 active assessments in 19 matching files. Grade 2 Module 1 has
+eight standalone concept/assessment pairs for Lessons 1–8. Eleven other
+covered sources retain collections. The old combined Module 1 pair is archived
+and excluded from active totals. The root README has the complete hierarchy;
+the [migration index](grade2-lesson-file-migration.json) tracks conversion.
+Active totals are 225 main questions, 150 follow-ups, 300 local rubrics,
+1,125 hints and 375 guidance records.
 
-Python checks passed for source/local references, exact fields, copied source
-assets, independently recomputed answers and accept variants, hints, worked
-answers and 627 cumulative equations. The reference controller passed 1,652
-route scenarios and seven multipart classification scenarios.
-[Original lesson validation](assessment-cards-v0.2-validation.json),
-[Module 5 validation](assessment-cards-grade2-module5-lessons9-20-validation.json),
-[Module 6 validation](assessment-cards-grade2-module6-lessons11-20-validation.json)
-and [Module 7 validation](assessment-cards-grade2-module7-lessons1-10-validation.json)
-retain historical evidence. Open answers use the source rubric with equivalent
-explanations; explicit numeric codes in parity items denote classifications.
+[Module 1 assessment validation](assessment-cards-grade2-module1-lesson-wise-validation.json)
+records eight new assessments with prompt-based answers/accept variants,
+96 worked equations, 192 route scenarios and current-lesson-only grounding.
+[Concept extraction validation](concept-cards-grade2-module1-lesson-wise-validation.json)
+records 112 original questions/rubrics preserved exactly, 96 numeric keys,
+one pair key, three text truths, 12 preserved open rubrics, source references,
+asset scopes and package hashes. New concepts use card version 2; assessments
+link to that exact version. Original shared support hints retain provenance.
 
-[New Module 8 validation](assessment-cards-grade2-module8-lessons1-10-validation.json)
-records ten additions with geometric and rational equal-share checks,
-28 equations and 240 routes. Choice keys explicitly map numbers to shape and
-share names. A correct choice code cannot verify spoken vocabulary, explanations
-or actual constructions, drawings, folds and joins. The source trapezoid
-definition is inclusive; the square question requests the most specific listed
-name. Source high flags naming reused questions in Lessons 3 and 5 are retained
-as review blockers.
+[Current pair validation](assessment-card-collections-validation.json) checks
+75 active entries, preserved earlier entries, archived original bytes, pair
+formats and ZIP equality. Active cumulative evidence covers 713 worked
+equations, 1,820 routes and seven multipart classification scenarios; archived
+assessment checks are excluded. Earlier reports retain historical evidence.
 
-[Collection validation](assessment-card-collections-validation.json) records
-current coverage and preservation. All cards remain drafts. These checks do
-not replace educational review or testing the eventual script agent.
+Source concept rubrics with mode `exact` can accept words as well as numbers.
+Read their actual accept lists. Open answers need semantic grading; source
+`pair_of_parts` can provide unordered `valid_pairs`. The assessment hard rubric
+uses three named `parts`. Do not confuse these answer-key shapes.
+
+All entries remain drafts. Numeric responses do not verify actual drawings,
+folds, graphs, spoken mathematical vocabulary or selected coin combinations.
+Lesson extraction uses the combined JSON rather than newly read original PDFs.
+The checks do not replace educational review or script-agent integration tests.
 The [reference controller](assessment-cards-v0.2-routing-reference.py) is a
-standalone example; the caller grades against rubrics and retains correct hard
-parts before passing an outcome to it.
+standalone example; the caller grades against the actual rubric and retains
+correct hard parts before passing an outcome to it.

@@ -1,6 +1,9 @@
 import base64
 import http.client
+import inspect
 import json
+import subprocess
+import sys
 import tempfile
 import threading
 import unittest
@@ -91,6 +94,23 @@ class ApiTests(unittest.TestCase):
         self.assertEqual(status, 200)
         self.assertEqual([json.loads(line)['type'] for line in body.splitlines()], ['start', 'audio', 'done'])
         self.assertEqual(self.narrator.calls, [('s1', 'af_heart')])
+
+    def request(self, method, path, body=None):
+        connection = http.client.HTTPConnection('127.0.0.1', self.server.server_port, timeout=5)
+        connection.request(method, path, body, {'Content-Type': 'application/json'})
+        response = connection.getresponse(); response.read(); connection.close()
+        return response.status
+
+    def test_no_shortcut_around_real_preparation_exists(self):
+        """Classes are prepared by the real script agent and its checks. There is no
+        in-memory schedule and no mode that rechecks an older saved script."""
+        self.assertEqual(self.request('GET', '/schedule'), 404)
+        for path in ('/schedule', '/schedule-action'):
+            self.assertEqual(self.request('POST', path, '{"mode":"reuse"}'), 404)
+        self.assertNotIn('timetable', inspect.signature(handler_for).parameters)
+        worker = subprocess.run([sys.executable, '-B', '-m', 'voice_service.preparation_worker', '--help'],
+                                capture_output=True, text=True, cwd=Path(__file__).resolve().parents[1]).stdout
+        self.assertNotIn('--reuse', worker)
 
     def test_remote_origin_cannot_request_speech(self):
         status, _ = self.post({'segment_id': 's1', 'voice': 'af_heart'}, {'Origin': 'https://example.com'})

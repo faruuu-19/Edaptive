@@ -32,7 +32,7 @@ def main():
     connection=args.backend_runtime/'database-url.txt'
     if 'DATABASE_URL' not in environment:
         if not connection.exists():
-            raise SystemExit('Set DATABASE_URL for Postgres or complete the isolated local database setup described in docs/voice/REAL_LESSON_FLOW.md.')
+            raise SystemExit('Set DATABASE_URL for Postgres or complete the isolated local database setup described in docs/voice/TIMETABLE_FLOW.md.')
         # Reattach the previously initialized local Postgres; it preserves all data.
         subprocess.run([str(backend),'-c', 'import pgserver,sys; from pathlib import Path; pgserver.get_server(Path(sys.argv[1]),cleanup_mode=None)', str(args.backend_runtime/"postgres")],check=True)
         environment['DATABASE_URL']=connection.read_text().strip()

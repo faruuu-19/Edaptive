@@ -16,7 +16,7 @@ export class LiveNarrator {
   private stopped = false;
   private caption = -1;
 
-  async speak(segmentId: string, voice: string, callbacks: Callbacks, scheduleId?: string, delivery?: DeliveryContext) {
+  async speak(segmentId: string, voice: string, callbacks: Callbacks, delivery?: DeliveryContext) {
     await this.context.resume();
     const tick = () => {
       if (this.stopped) return;
@@ -60,7 +60,7 @@ export class LiveNarrator {
         source.onended = () => { this.sources.delete(source); source.disconnect(); complete(); };
         source.start(starts);
         if (!this.playing) { this.playing = true; callbacks.onPlaying(); }
-      }, scheduleId, delivery);
+      }, delivery);
     } catch (error) {
       const cancelled = this.stopped;
       this.cancel();

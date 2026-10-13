@@ -21,7 +21,6 @@ def main():
     parser.add_argument("--concept-id", required=True)
     parser.add_argument("--assessment-id", required=True)
     parser.add_argument("--output", type=Path, required=True)
-    parser.add_argument("--reuse", type=Path)
     args = parser.parse_args()
     signal.signal(signal.SIGTERM, lambda *_: (_ for _ in ()).throw(KeyboardInterrupt()))
     sys.path.insert(0, str(args.root))
@@ -38,39 +37,14 @@ def main():
     total = len(plan["segments"])
     emit(phase="planning", percent=3, completed=0, total=total)
     model = LocalModel("qwen3.5:9b-q4_K_M")
-    cache = None
-    if args.reuse:
-        saved = json.loads(args.reuse.read_text())
-        provenance = json.loads((args.reuse.parent / "source-pair.json").read_text())
-        hashes = provenance["source_hashes"]
-        for key in ["concept_path", "assessment_path"]:
-            old = Path(provenance[key])
-            expected = hashes[str(old.relative_to(args.root))]["sha256"]
-            actual = args.concept if key == "concept_path" else args.assessment
-            if hashlib.sha256(actual.read_bytes()).hexdigest() != expected:
-                raise ValueError("Saved script source changed; use fresh preparation.")
-        if (
-            saved.get("validation", {}).get("passed") is not True
-            or saved["concept_id"] != c["concept_id"]
-        ):
-            raise ValueError("Saved script is not a matching checked draft.")
-        cache = {
-            s["id"]: {"template": s["template"], "attempts_log": s["attempts_log"]}
-            for s in saved["segments"]
-        }
-        if set(cache) != {s["id"] for s in plan["segments"]}:
-            raise ValueError("Saved script plan changed; use fresh preparation.")
-        before = None
-        weight = 0
-    else:
-        installed = identity(model)
-        if not installed:
-            raise ValueError("The existing local Qwen model is unavailable.")
-        weight = installed["size"]
-        before = snapshot()
-        issues = guard(before, weight)
-        if issues:
-            raise ValueError("; ".join(issues))
+    installed = identity(model)
+    if not installed:
+        raise ValueError("The existing local Qwen model is unavailable.")
+    weight = installed["size"]
+    before = snapshot()
+    issues = guard(before, weight)
+    if issues:
+        raise ValueError("; ".join(issues))
     args.output.mkdir(parents=True, exist_ok=True)
     code = b"".join(
         p.read_bytes() for p in sorted((args.root / "script_agent").glob("*.py"))
@@ -93,26 +67,25 @@ def main():
         completed += 1
         checkpoint.add(segment)
         emit(
-            phase="rechecking" if args.reuse else "generating",
+            phase="generating",
             completed=completed,
             total=total,
             percent=3 + int(90 * completed / total),
         )
-        if before:
-            now = snapshot()
-            fatal = tolerance.check(
-                guard(now, weight, current_model_loaded=True),
-                now.get("vm_pressure_level"),
-                time.monotonic(),
-                now.get("swap_used_bytes"),
-                before.get("swap_used_bytes") or 0,
-            )
-            if fatal:
-                raise RuntimeError("; ".join(fatal))
+        now = snapshot()
+        fatal = tolerance.check(
+            guard(now, weight, current_model_loaded=True),
+            now.get("vm_pressure_level"),
+            time.monotonic(),
+            now.get("swap_used_bytes"),
+            before.get("swap_used_bytes") or 0,
+        )
+        if fatal:
+            raise RuntimeError("; ".join(fatal))
 
     try:
         result = generate_lesson(
-            plan, model, on_segment=progress, cache=cache or checkpoint.cache or None
+            plan, model, on_segment=progress, cache=checkpoint.cache or None
         )
         if not result["validation"]["passed"]:
             write_lesson(result, args.output / "flagged-before-repair")
@@ -159,17 +132,16 @@ def main():
                         repair_total=len(bad),
                         repair_round=round_no + 1,
                     )
-                if before:
-                    now = snapshot()
-                    fatal = tolerance.check(
-                        guard(now, weight, current_model_loaded=True),
-                        now.get("vm_pressure_level"),
-                        time.monotonic(),
-                        now.get("swap_used_bytes"),
-                        before.get("swap_used_bytes") or 0,
-                    )
-                    if fatal:
-                        raise RuntimeError("; ".join(fatal))
+                now = snapshot()
+                fatal = tolerance.check(
+                    guard(now, weight, current_model_loaded=True),
+                    now.get("vm_pressure_level"),
+                    time.monotonic(),
+                    now.get("swap_used_bytes"),
+                    before.get("swap_used_bytes") or 0,
+                )
+                if fatal:
+                    raise RuntimeError("; ".join(fatal))
 
             result = generate_lesson(
                 plan, RepairModel(), on_segment=repair_progress, cache=valid_cache
@@ -190,8 +162,7 @@ def main():
             script=str(path.resolve()),
         )
     finally:
-        if not args.reuse:
-            model.unload()
+        model.unload()
 
 
 if __name__ == "__main__":

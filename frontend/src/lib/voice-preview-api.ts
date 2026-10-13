@@ -16,15 +16,15 @@ export type SpeechFrame =
   | { type: "done"; segment_id: string }
   | { type: "error"; detail: string };
 
-export async function getPreviewLesson(signal: AbortSignal, scheduleId?: string): Promise<PreviewLesson> {
-  const response = await fetch("/voice-preview-api/lesson" + (scheduleId ? `?schedule_id=${encodeURIComponent(scheduleId)}` : ""), { cache: "no-store", signal });
+export async function getPreviewLesson(signal: AbortSignal): Promise<PreviewLesson> {
+  const response = await fetch("/voice-preview-api/lesson", { cache: "no-store", signal });
   if (!response.ok) throw new Error("The local teacher is unavailable. Start the voice preview service, then retry.");
   return response.json();
 }
 
-export async function streamPreviewSpeech(segmentId: string, voice: string, signal: AbortSignal, onFrame: (frame: SpeechFrame) => void, scheduleId?: string, delivery?: DeliveryContext) {
+export async function streamPreviewSpeech(segmentId: string, voice: string, signal: AbortSignal, onFrame: (frame: SpeechFrame) => void, delivery?: DeliveryContext) {
   const response = await fetch(delivery ? `/api/lesson_delivery/${delivery.timetableId}/narrate` : "/voice-preview-api/narrate", {
-    method: "POST", body: JSON.stringify({ segment_id: segmentId, voice, ...(delivery ? { slot_id: delivery.slotId } : scheduleId ? { schedule_id: scheduleId } : {}) }),
+    method: "POST", body: JSON.stringify({ segment_id: segmentId, voice, ...(delivery ? { slot_id: delivery.slotId } : {}) }),
     headers: { "Content-Type": "application/json" }, cache: "no-store", signal,
   });
   if (!response.ok || !response.body) {

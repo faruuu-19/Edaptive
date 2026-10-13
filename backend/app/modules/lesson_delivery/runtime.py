@@ -19,16 +19,18 @@ from app.session_log import append
 from .models import Timetable
 
 VOICE = "http://127.0.0.1:8766"
+# The teacher voice is unloaded between classes; reserving it may have to load the model again.
+RELOAD_TIMEOUT = 60
 
 
-def voice_request(path, payload=None):
+def voice_request(path, payload=None, timeout=5):
     req = Request(
         VOICE + path,
         data=json.dumps(payload).encode() if payload is not None else None,
         headers={"Content-Type": "application/json"},
     )
     try:
-        with urlopen(req, timeout=5) as response:
+        with urlopen(req, timeout=timeout) as response:
             return json.load(response)
     except HTTPError as error:
         detail = json.load(error).get("detail", "Local lesson service unavailable.")
@@ -163,7 +165,7 @@ def act(db, row, slot_id, action, position=None):
         # The actual start time shifts later slots, preserving the planned break.
         if now > slot["start_ms"]:
             shift(state, index, now - slot["start_ms"])
-        voice_request("/jobs/" + slot["job_id"] + "/reserve", {})
+        voice_request("/jobs/" + slot["job_id"] + "/reserve", {}, RELOAD_TIMEOUT)
         slot.update(status="started", session_id=str(uuid.uuid4()), started_at_ms=now, last_seen_ms=now)
     elif action == "heartbeat":
         if slot["status"] != "started":

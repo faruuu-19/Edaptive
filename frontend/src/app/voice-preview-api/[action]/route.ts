@@ -7,7 +7,7 @@ async function proxy(request: NextRequest, context: { params: Promise<{ action: 
     return Response.json({ detail: "Lesson preview is disabled." }, { status: 404 });
   }
   const { action } = await context.params;
-  if (!(request.method === "GET" && ["health", "lesson", "catalog", "schedule"].includes(action)) && !(request.method === "POST" && ["narrate", "schedule", "schedule-action"].includes(action))) {
+  if (!(request.method === "GET" && ["health", "lesson", "catalog"].includes(action)) && !(request.method === "POST" && action === "narrate")) {
     return Response.json({ detail: "Unknown preview endpoint." }, { status: 404 });
   }
   const origin = request.headers.get("origin");
@@ -20,8 +20,6 @@ async function proxy(request: NextRequest, context: { params: Promise<{ action: 
   }
   try {
     const url = new URL(`/${action}`, target);
-    const sid = request.nextUrl.searchParams.get("schedule_id");
-    if (sid) url.searchParams.set("schedule_id", sid);
     const upstream = await fetch(url, {
       method: request.method, headers: { "Content-Type": "application/json" },
       body: request.method === "POST" ? await request.text() : undefined,

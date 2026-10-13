@@ -139,6 +139,22 @@ def test_start_position_reload_finish_events_are_real(parent_client, child, db, 
     assert action(parent_client, result, slot, "start").status_code == 409
 
 
+def test_starting_a_class_waits_long_enough_for_a_released_voice_to_reload(
+    parent_client, child, db, monkeypatch
+):
+    """After a class ends or is unattended the voice model is unloaded, so the next
+    Start may have to load it again; a five second request timeout would fail that start."""
+    calls = []
+    monkeypatch.setattr(runtime, "voice_request", lambda *args: calls.append(args) or {"reserved": True})
+    result = parent_client.post("/api/lesson_delivery", json=plan(child)).json()
+    _, slot = prepared(db, result)
+    monkeypatch.setattr(runtime.time, "time", lambda: slot["start_ms"] / 1000 + 1)
+    assert action(parent_client, result, slot, "start").status_code == 200
+    reserve = [c for c in calls if c[0].endswith("/reserve")]
+    assert reserve, "start must reserve the teacher voice"
+    assert reserve[0][2] >= 30
+
+
 def test_borrow_and_cancellation_block_lesson_access(parent_client, child, db, monkeypatch):
     result = parent_client.post("/api/lesson_delivery", json=plan(child)).json()
     _, slot = prepared(db, result)

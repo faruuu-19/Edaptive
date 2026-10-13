@@ -226,7 +226,6 @@ class PreparationJobs:
                         int(p["plan_segments"] * seconds_per_section * 1.25 / 60) + 3,
                     ),
                     "timing": {**timing, "basis": "card_plan"},
-                    "quick_demo_available": False,
                 }
             )
         return result
@@ -265,12 +264,19 @@ class PreparationJobs:
 
     def release(self, key):
         with self.lock:
-            if self.reservation == key:
-                self.reservation = None
-                self.reservation_until = 0
-                with self.connect() as db:
-                    db.execute("DELETE FROM reservation WHERE name='delivery'")
-            return {"released": True}
+            if self.reservation != key:
+                return {"released": True}
+            self.reservation = None
+            self.reservation_until = 0
+            with self.connect() as db:
+                db.execute("DELETE FROM reservation WHERE name='delivery'")
+        # Free the teacher voice's memory once the class is finished, cancelled or unattended.
+        # If a sentence is still playing the model stays loaded; the next narration reloads it.
+        try:
+            self.narrator.release()
+        except ValueError:
+            pass
+        return {"released": True}
 
     def loop(self):
         while not self.closed.wait(0.5):
@@ -301,10 +307,14 @@ class PreparationJobs:
             with self.lock:
                 row = self.get(key)
                 if (
-                    row["status"] not in {"queued", "paused"}
+                    row["status"] not in {"queued", "paused", "paused_for_delivery"}
                     or time.time() < self.reservation_until
                 ):
                     return
+                if row["status"] == "paused_for_delivery":
+                    # The class has released the voice; continue from the saved checkpoint.
+                    row.update(status="queued", message="Resuming preparation after the class")
+                    self.write(row)
                 self.running = key
                 self.idle.clear()
                 self.update(key, status="preparing", message="Planning the lesson")

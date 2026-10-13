@@ -38,6 +38,6 @@ Speech preparation is copied byte-for-byte from Amna's tested `voice_module/spee
 
 Frontend implementation follows the installed Next.js route-handler and client-component guides. Cross-feature imports use public `index.ts` exports. Existing household/profile screens are unchanged. Subject-to-voice assignments remain pending; this review screen offers both candidates.
 
-## Timed class demo
+## Scheduled classes
 
-Open `http://127.0.0.1:3001/timetable-demo` after starting the same services. Choose a custom Pakistan class time or click Quick demo for a class in 30 seconds. Preparation, due-time alarm, Start class and Borrow 5 minutes are documented in `docs/voice/TIMETABLE_FLOW.md`. The original manual `/lesson-preview` remains available when no timetable preparation is running. The service uses `--content-root` (default: the sibling assessment-card-generator workspace) for the audited catalog and existing script agent.
+Open `http://127.0.0.1:3001/timetable` after starting the services (`tools/run_local_application.py`). A parent creates the timetable, the lesson is prepared ahead from its concept and assessment cards, and at class time the child starts or borrows five minutes. There is no shortcut that skips preparation or rechecks an older saved script. Full flow, memory behaviour and verification status: `docs/voice/TIMETABLE_FLOW.md`. The manual `/lesson-preview` remains available for reviewing one saved script. The service uses `--content-root` (default: the sibling assessment-card-generator workspace) for the audited catalog and the existing script agent.

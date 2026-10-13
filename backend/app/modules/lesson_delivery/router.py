@@ -18,7 +18,7 @@ from app.core.household import get_active_profile
 from app.core.identity import CurrentActor, ParentActor, ensure_student_access
 
 from .models import Timetable
-from .runtime import VOICE, act, snapshot, start_worker, voice_request
+from .runtime import RELOAD_TIMEOUT, VOICE, act, snapshot, start_worker, voice_request
 
 router = APIRouter()
 
@@ -250,7 +250,7 @@ def narrate(key: uuid.UUID, body: NarrateInput, actor: CurrentActor, db: DbSessi
     row = owned(db, actor, key)
     slot = active_slot(row, body.slot_id)
     try:
-        voice_request("/jobs/" + slot["job_id"] + "/reserve", {})
+        voice_request("/jobs/" + slot["job_id"] + "/reserve", {}, RELOAD_TIMEOUT)
         prepared = voice_request("/jobs/" + slot["job_id"] + "/lesson")
         if body.segment_id != prepared["segments"][slot["position"]]["id"]:
             raise HTTPException(409, "Narrate the current lesson part.")

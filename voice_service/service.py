@@ -11,7 +11,6 @@ import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from urllib.parse import urlparse
-from urllib.parse import parse_qs
 
 from .speech_prep import prepare_segment
 
@@ -164,7 +163,7 @@ class Narrator:
         yield {"type": "done", "segment_id": segment["id"]}
 
 
-def handler_for(lesson: dict, narrator, timetable=None, jobs=None):
+def handler_for(lesson: dict, narrator, jobs=None):
     class Handler(BaseHTTPRequestHandler):
         protocol_version = "HTTP/1.1"
 
@@ -197,13 +196,8 @@ def handler_for(lesson: dict, narrator, timetable=None, jobs=None):
                 return self.reply(
                     200, {"ready": True, "model": "kokoro", "preview_only": True}
                 )
-            if (jobs or timetable) and path == "/catalog":
-                return self.reply(
-                    200,
-                    {"cards": jobs.list_cards() if jobs else timetable.list_cards()},
-                )
-            if timetable and path == "/schedule":
-                return self.reply(200, timetable.snapshot())
+            if jobs and path == "/catalog":
+                return self.reply(200, {"cards": jobs.list_cards()})
             if jobs and path.startswith("/jobs/"):
                 parts = path.strip("/").split("/")
                 try:
@@ -220,20 +214,12 @@ def handler_for(lesson: dict, narrator, timetable=None, jobs=None):
                     return self.reply(
                         404, {"detail": "Use the authenticated scheduled lesson."}
                     )
-                sid = parse_qs(parsed.query).get("schedule_id", [None])[0]
-                try:
-                    return self.reply(
-                        200, timetable.lesson(sid) if sid and timetable else lesson
-                    )
-                except ValueError as error:
-                    return self.reply(409, {"detail": str(error)})
+                return self.reply(200, lesson)
             self.reply(404, {"detail": "Unknown preview endpoint."})
 
         def do_POST(self):
             if self.path not in {
                 "/narrate",
-                "/schedule",
-                "/schedule-action",
                 "/jobs",
             } and not self.path.startswith("/jobs/"):
                 return self.reply(404, {"detail": "Unknown preview endpoint."})
@@ -261,20 +247,10 @@ def handler_for(lesson: dict, narrator, timetable=None, jobs=None):
                     if parts[2] == "release":
                         return self.reply(200, jobs.release(parts[1]))
                     raise ValueError("Unknown job action.")
-                if self.path in {"/schedule", "/schedule-action"}:
-                    if not timetable:
-                        raise ValueError("Timetable preview is unavailable.")
-                    data = (
-                        timetable.create(request)
-                        if self.path == "/schedule"
-                        else timetable.action(request)
-                    )
-                    return self.reply(200, data)
                 if (
                     set(request)
                     not in (
                         {"segment_id", "voice"},
-                        {"segment_id", "voice", "schedule_id"},
                         {"segment_id", "voice", "job_id"},
                     )
                     or request["voice"] not in VOICES
@@ -285,8 +261,6 @@ def handler_for(lesson: dict, narrator, timetable=None, jobs=None):
                 active = (
                     jobs.lesson(request["job_id"])
                     if request.get("job_id") and jobs
-                    else timetable.lesson(request["schedule_id"])
-                    if request.get("schedule_id") and timetable
                     else lesson
                 )
                 segment = next(

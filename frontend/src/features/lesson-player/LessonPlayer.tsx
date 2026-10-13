@@ -19,7 +19,7 @@ function PlayIcon({ paused }: { paused: boolean }) {
   </svg>;
 }
 
-export function LessonPlayer({ scheduleId, onFinished, autoStart = false, delivery }: { delivery?: DeliveryContext; scheduleId?: string; onFinished?: () => void; autoStart?: boolean } = {}) {
+export function LessonPlayer({ onFinished, autoStart = false, delivery }: { delivery?: DeliveryContext; onFinished?: () => void; autoStart?: boolean } = {}) {
   const timetableId = delivery?.timetableId;
   const slotId = delivery?.slotId;
   const stableDelivery = useMemo(() => timetableId && slotId ? { timetableId, slotId } : undefined, [timetableId, slotId]);
@@ -45,11 +45,11 @@ export function LessonPlayer({ scheduleId, onFinished, autoStart = false, delive
 
   useEffect(() => {
     const controller = new AbortController();
-    (stableDelivery ? getDeliveryLesson(stableDelivery, controller.signal) : getPreviewLesson(controller.signal, scheduleId)).then(data => { setLesson(data); if ("position" in data) setIndex(data.position as number); }).catch(e => {
+    (stableDelivery ? getDeliveryLesson(stableDelivery, controller.signal) : getPreviewLesson(controller.signal)).then(data => { setLesson(data); if ("position" in data) setIndex(data.position as number); }).catch(e => {
       if (!controller.signal.aborted) setError(e.message);
     });
     return () => controller.abort();
-  }, [reload, scheduleId, stableDelivery]);
+  }, [reload, stableDelivery]);
 
   useEffect(() => () => {
     generation.current++;
@@ -89,7 +89,7 @@ export function LessonPlayer({ scheduleId, onFinished, autoStart = false, delive
           advanceTimer.current = setTimeout(() => void move(partIndex + 1, data, selectedVoice), 600);
         }
       },
-    }, scheduleId, delivery).catch(e => {
+    }, delivery).catch(e => {
       if (generation.current === token) { setError(e.message); setPhase("ready"); }
     });
   }

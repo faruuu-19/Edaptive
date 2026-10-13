@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LessonDeliveryChangedV1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "timetable_id",
+    "slot_id",
+    "action",
+    "concept_id",
+    "card_version",
+    "position"
+  ],
+  "properties": {
+    "timetable_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "slot_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "action": {
+      "type": "string",
+      "enum": [
+        "start",
+        "borrow",
+        "position",
+        "finish",
+        "cancel"
+      ]
+    },
+    "concept_id": {
+      "$ref": "../../common/ids.schema.json#/$defs/ConceptId"
+    },
+    "card_version": {
+      "$ref": "../../common/ids.schema.json#/$defs/CardVersion"
+    },
+    "position": {
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}

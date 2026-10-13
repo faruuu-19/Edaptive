@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -19,5 +20,5 @@ export default function Home() {
     else getProfile(studentId).then(setProfile, () => router.replace("/"));
   }, [status, router]);
 
-  return <main className="page">{profile && <ChildHome profile={profile} />}</main>;
+  return <main className="page">{profile && <div className="stack"><ChildHome profile={profile} /><Link className="btn btn-primary" href="/timetable">Open your timetable</Link></div>}</main>;
 }

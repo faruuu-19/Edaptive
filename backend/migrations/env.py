@@ -7,6 +7,7 @@ from app.core import household  # noqa: F401
 from app.core.config import get_settings
 from app.core.db import Base, get_engine
 from app.modules.auth import models as auth_models  # noqa: F401
+from app.modules.lesson_delivery import models as lesson_models  # noqa: F401
 from app.session_log import models  # noqa: F401
 
 config = context.config

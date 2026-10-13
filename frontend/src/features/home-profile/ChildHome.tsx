@@ -10,9 +10,9 @@ import { BookIcon, FlaskIcon, MathsIcon, SwitchIcon } from "./icons";
 
 // Maths is the Mid-1 slice; English and Science reuse the same pipeline later (roadmap).
 const SUBJECTS = [
-  { key: "math", Icon: MathsIcon, art: "var(--tomato-soft)", name: "Maths", note: "Lessons are on their way", current: true },
-  { key: "english", Icon: BookIcon, art: "var(--mustard-soft)", name: "English", note: "Coming later", current: false },
-  { key: "science", Icon: FlaskIcon, art: "var(--teal-soft)", name: "Science", note: "Coming later", current: false },
+  { key: "math", Icon: MathsIcon, art: "var(--tomato-soft)", name: "Maths", note: "Your scheduled lessons", current: true },
+  { key: "english", Icon: BookIcon, art: "var(--mustard-soft)", name: "English", note: "Coming soon", current: false },
+  { key: "science", Icon: FlaskIcon, art: "var(--teal-soft)", name: "Science", note: "Coming soon", current: false },
 ];
 
 export function ChildHome({ profile }: { profile: Profile }) {

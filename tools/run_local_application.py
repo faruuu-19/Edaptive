@@ -16,6 +16,8 @@ def main():
     parser.add_argument('--backend-runtime', type=Path, default=Path.home()/'edaptive-backend')
     parser.add_argument('--voice-runtime', type=Path, default=Path.home()/'edaptive-voice')
     parser.add_argument('--frontend-port', type=int, default=3001)
+    parser.add_argument('--allow-draft-lessons', action='store_true', help='Operator-only local evaluation: use audited draft cards; not approval for child delivery.')
+    parser.add_argument('--demo-job-id', help='Existing ready job for the isolated demo page; never generates a demo script.')
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[1]
     backend = args.backend_runtime/'venv/bin/python'
@@ -38,6 +40,20 @@ def main():
         environment['DATABASE_URL']=connection.read_text().strip()
     environment.update(HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1',EDAPTIVE_LESSON_WORKER='1',
                        EDAPTIVE_API_URL='http://127.0.0.1:8000',NEXT_TELEMETRY_DISABLED='1')
+    demo_job = args.demo_job_id
+    if not demo_job:
+        import json, sqlite3
+        cache = args.voice_runtime/'jobs/jobs.sqlite3'
+        if cache.exists():
+            with sqlite3.connect(cache) as db:
+                ready = [json.loads(row[0]) for row in db.execute('SELECT body FROM job')]
+            ready = [job for job in ready if job['status']=='ready' and job['concept_id']=='math_g2_m1_l1_pairs_to_ten' and Path(job.get('script','')).is_file()]
+            if ready: demo_job = max(ready, key=lambda job: job.get('finished_at',job['created_at']))['id']
+    if demo_job:
+        import uuid
+        environment.update(EDAPTIVE_VOICE_PREVIEW='1', EDAPTIVE_DEMO_JOB_ID=str(uuid.UUID(demo_job)))
+    if args.allow_draft_lessons:
+        environment['EDAPTIVE_ALLOW_DRAFT_LESSONS']='1'
     subprocess.run([str(backend),'-m','alembic','upgrade','head'],cwd=root/'backend',env=environment,check=True)
     children=[]
     def stop(*_):
@@ -49,7 +65,7 @@ def main():
         children.append(subprocess.Popen([str(voice),'-B','-m','voice_service.service','--content-root',str(args.content_root)],cwd=root,env=environment,start_new_session=True))
         children.append(subprocess.Popen([str(backend),'-m','uvicorn','app.main:app','--host','127.0.0.1','--port','8000'],cwd=root/'backend',env=environment,start_new_session=True))
         children.append(subprocess.Popen(['npm','run','dev','--','--hostname','127.0.0.1','--port',str(args.frontend_port)],cwd=root/'frontend',env=environment,start_new_session=True))
-        print('Open http://127.0.0.1:%s/timetable; set up your own household if this is the first run.'%args.frontend_port,flush=True)
+        print('Open http://127.0.0.1:%s/; set up your own household if this is the first run.'%args.frontend_port,flush=True)
         while all(child.poll() is None for child in children):time.sleep(1)
     except KeyboardInterrupt:pass
     finally:

@@ -1,6 +1,6 @@
 # Lesson and voice events — proposal for Ibrahim
 
-Owner: Amna, Track B. These are proposals for team review, not registered payloads. `tutor.turn` already appears in the data-model proposal and belongs to Track A; the lesson/playback names below are suggested additions for agreement, not existing catalog entries. No code emits them yet and `contracts/` is unchanged. Existing registered `profile.selected`, `session.started`, `session.ended` events remain unchanged.
+Owner: Amna, Track B. The additional voice/replay names below remain proposals. The delivery integration separately registers `lesson.delivery_changed` (start, borrow, position, finish, cancel) through its contract PR. `tutor.turn` already appears in the data-model proposal and belongs to Track A; the lesson/playback names below are suggested additions for agreement, not existing catalog entries. No code emits the proposed voice/replay events below. Registered delivery events are separate from these proposals. Existing registered `profile.selected`, `session.started`, `session.ended` events remain unchanged.
 
 The current preview does not collect student identity, answers, transcripts, attention scores or audio. Production integration must use the shared identity resolver and event envelope, through authenticated endpoints and `appendEvent`/`append`.
 

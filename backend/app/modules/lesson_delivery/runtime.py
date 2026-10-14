@@ -216,7 +216,26 @@ def act(db, row, slot_id, action, position=None):
         event(db, row, action, slot)
     row.state = state
     db.flush()
+    if action == "start":
+        from .curriculum import mark_started
+
+        mark_started(db, row.student_id, slot["concept_id"])
+        db.flush()
+    if action == "finish":
+        from .curriculum import mark_delivered
+
+        mark_delivered(db, row.student_id, slot["concept_id"])
+        db.flush()
     return snapshot(row)
+
+
+def apply_prepared(state, index, lesson, status):
+    slot = state["slots"][index]
+    timing = estimate(lesson)
+    delta = slot["start_ms"] + timing["minutes"] * 60000 - slot["end_ms"]
+    slot["end_ms"] += delta
+    slot.update(timing=timing, segment_count=len(lesson["segments"]), preparation=status)
+    shift(state, index + 1, delta)
 
 
 def poll_preparation():
@@ -224,6 +243,9 @@ def poll_preparation():
     while True:
         try:
             with Session(get_engine()) as db, db.begin():
+                from .routines import maintain_routines
+
+                maintain_routines(db)
                 rows = list(
                     db.scalars(
                         select(Timetable)
@@ -265,13 +287,7 @@ def poll_preparation():
                                 slot["preparation"]["status"] = "checking"
                                 slot["preparation"]["percent"] = 98
                                 lesson = voice_request("/jobs/" + slot["job_id"] + "/lesson")
-                                timing = estimate(lesson)
-                                duration = timing["minutes"] * 60000
-                                delta = slot["start_ms"] + duration - slot["end_ms"]
-                                slot["end_ms"] += delta
-                                slot.update(timing=timing, segment_count=len(lesson["segments"]))
-                                slot["preparation"] = status
-                                shift(state, index + 1, delta)
+                                apply_prepared(state, index, lesson, status)
                             # One scheduled preparation at a time across the voice process.
                             if status["status"] in {"queued", "preparing"}:
                                 break

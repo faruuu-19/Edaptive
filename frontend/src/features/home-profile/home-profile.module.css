@@ -118,6 +118,11 @@
   border-radius: var(--radius);
 }
 
+.subjectLink {
+  color: var(--ink);
+  text-decoration: none;
+}
+
 .subjectCurrent {
   box-shadow: 6px 6px 0 var(--tomato);
 }
@@ -163,6 +168,7 @@
 }
 
 .listItem {
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -182,6 +188,8 @@
 
 /* On narrow screens the buttons drop below the name instead of covering it. */
 .itemActions {
+  position: relative;
+  z-index: 1;
   display: flex;
   gap: 4px;
   margin-left: auto;
@@ -209,3 +217,17 @@
 .swatch[aria-pressed="true"] {
   box-shadow: 0 0 0 3px var(--surface), 0 0 0 5px var(--tomato);
 }
+
+/* The existing child row opens its dashboard; Edit and Remove stay separate. */
+.profileLink {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1 1 160px;
+  min-width: 0;
+  min-height: 44px;
+  color: var(--ink);
+  text-decoration: none;
+}
+.profileLink::after { content: ""; position: absolute; inset: 0; }
+.profileLink:hover .listName { text-decoration: underline; }

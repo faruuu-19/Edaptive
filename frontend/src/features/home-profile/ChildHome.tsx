@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 import { type Profile, signOut } from "@/lib/api";
@@ -15,7 +16,7 @@ const SUBJECTS = [
   { key: "science", Icon: FlaskIcon, art: "var(--teal-soft)", name: "Science", note: "Coming soon", current: false },
 ];
 
-export function ChildHome({ profile }: { profile: Profile }) {
+export function ChildHome({ profile, mathsHref }: { profile: Profile; mathsHref?: string }) {
   const router = useRouter();
 
   async function switchProfile() {
@@ -42,15 +43,21 @@ export function ChildHome({ profile }: { profile: Profile }) {
 
       <h2 style={{ fontWeight: 600 }}>Your subjects</h2>
       <div className={styles.subjects}>
-        {SUBJECTS.map(({ key, Icon, art, name, note, current }) => (
-          <div key={key} className={`${styles.subject} ${current ? styles.subjectCurrent : ""}`}>
+        {SUBJECTS.map(({ key, Icon, art, name, note, current }) => {
+          const className = `${styles.subject} ${current ? styles.subjectCurrent : ""}`;
+          const content = <>
             <div className={styles.subjectArt} style={{ background: art }}>
               <Icon />
             </div>
             <span className={styles.subjectName}>{name}</span>
             <span className={styles.subjectNote}>{note}</span>
-          </div>
-        ))}
+          </>;
+          return key === "math" && mathsHref ? (
+            <Link key={key} className={`${className} ${styles.subjectLink}`} href={mathsHref}>
+              {content}
+            </Link>
+          ) : <div key={key} className={className}>{content}</div>;
+        })}
       </div>
     </div>
   );

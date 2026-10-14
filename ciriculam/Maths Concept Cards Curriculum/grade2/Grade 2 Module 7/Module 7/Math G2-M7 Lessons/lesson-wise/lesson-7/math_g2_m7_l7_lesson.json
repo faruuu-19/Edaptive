@@ -1,0 +1,2511 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l7_coin_total_word_problems",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-b-lesson-7.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 7",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve word problems involving the total value of a group of coins.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l6_coin_values_count_up",
+    "ext_g2_rdw_process"
+  ],
+  "explanations": [
+    {
+      "id": "exp_rdw",
+      "title": "Read, Draw, Write",
+      "text": "Read the problem. Draw and label. Write number sentences. Write a statement. Reread and adjust as you work.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (RDW process)"
+      }
+    },
+    {
+      "id": "exp_put_together",
+      "title": "Put together",
+      "text": "When coins are in two places, find the value of each group. Then add the two values. A tape diagram with two parts shows this.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_take_from",
+      "title": "Take from",
+      "text": "When coins are given away, find the value given. Subtract it from what you started with. A number bond shows the whole and the parts.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_flexible",
+      "title": "Many ways to add coins",
+      "text": "You can count from the largest coin, skip-count, or make a ten. Pick a way that makes the adding easy.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note; Concept Development"
+      }
+    },
+    {
+      "id": "exp_bills",
+      "title": "Skip-count dollars",
+      "text": "Count ten-dollar bills by tens. Count five-dollar bills by fives. You can cross a hundred.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Count by $5 and $10 Between 85 and 205"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_ignacio",
+      "title": "Ignacio's pockets",
+      "text": "Pocket 1: 3 dimes and 2 nickels is 40 cents. Pocket 2: 1 quarter and 7 pennies is 32 cents. 40 plus 32 equals 72. Ignacio has 72 cents.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_reese",
+      "title": "Reese's money",
+      "text": "Reese gave away 35 cents and 39 cents. That is 74 cents. 94 minus 74 equals 20. Reese has 20 cents now.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "You have 85 dollars in bills. You add ten-dollar bills. How many dollars is 85 plus 10 plus 10 plus 10?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_skip_dollars"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 85,
+        "tens": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Count by $5 and $10"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "You have 115 dollars and take away 2 ten-dollar bills. How many dollars do you have?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_skip_dollars"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 115,
+        "tens_removed": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Count by $5 and $10"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "You have 185 dollars. You add three five-dollar bills. How many dollars do you have?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_skip_dollars"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 185,
+        "fives": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Count by $5 and $10"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Danny has 2 dimes, 1 quarter, 3 nickels and 5 pennies. What is the total value, in cents?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "2 dimes, 1 quarter, 3 nickels, 5 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Show two different ways Danny might add to find the total.",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "What do we do first when we see a word problem?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Read it.)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Ignacio has 3 dimes and 2 nickels in one pocket. How many cents are in that pocket?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_each_group",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "3 dimes, 2 nickels"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (40 cents)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "His other pocket has 1 quarter and 7 pennies. How many cents are in that pocket?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_each_group",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 7 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (32 cents)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "How much money is in both of Ignacio's pockets?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "parts": [
+          40,
+          32
+        ],
+        "total": 72
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 72 cents)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Tamika has 12 pennies and 2 quarters in her piggy bank. She puts in 4 nickels, 1 dime and 4 more pennies. How much money does she have altogether, in cents?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_each_group",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (Tamika)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Reese gave her sister 2 dimes and 3 nickels on Monday. How many cents is that?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "coins": "2 dimes, 3 nickels"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "On Tuesday, Reese gave her sister 1 quarter, 1 dime and 4 pennies. How many cents is that?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 1 dime, 4 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "How many cents did Reese give her sister in all?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "parts": [
+          35,
+          39
+        ],
+        "total": 74
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 74 cents)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Reese started with 94 cents. How much money does she have now, in cents?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "whole": 94,
+        "part": 74
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Reese has 20 cents now)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Reese started with 94 cents. That is the whole. What is the part she gave away, and what is the part she has left?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Grace has 3 dimes, 2 nickels and 12 pennies. How much money does she have, in cents?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "3 dimes, 2 nickels, 12 pennies",
+        "answer": 52
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Lisa has 2 dimes and 4 pennies in one pocket, and 4 nickels and 1 quarter in the other. How much money does she have in all, in cents?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "2 dimes, 4 pennies, 4 nickels, 1 quarter",
+        "answer": 69
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Mamadou found 39 cents last week. This week he found 2 nickels, 4 dimes and 5 pennies. How much money does he have altogether, in cents?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "39 + 2 nickels, 4 dimes, 5 pennies",
+        "answer": 94
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Emanuel had 53 cents. He gave 1 dime and 1 nickel to his brother. How much money does he have left, in cents?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "53 - 1 dime, 1 nickel",
+        "answer": 38
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "The top drawer has 2 quarters and 14 pennies. The bottom drawer has 7 pennies, 2 nickels and 1 dime. What is the total value of the money in both drawers, in cents?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "two drawers",
+        "answer": 91
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Ricardo has 3 quarters, 1 dime, 1 nickel and 4 pennies. He gave 68 cents to his friend. How much money does he have left, in cents?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "3 quarters, 1 dime, 1 nickel, 4 pennies - 68",
+        "answer": 26
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Greg had 1 quarter, 1 dime and 3 nickels. He found 3 more nickels. How much money does he have, in cents?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Greg",
+        "answer": 65
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "Robert gave Sandra 1 quarter, 5 nickels and 2 pennies. Sandra already had 3 pennies and 2 dimes. How much money does Sandra have now, in cents?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Sandra",
+        "answer": 75
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Owen has 4 dimes, 3 nickels and 16 pennies. How much money does he have, in cents?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Owen",
+        "answer": 71
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "Eli found 1 quarter, 1 dime and 2 pennies in his desk. He found 16 pennies and 2 dimes in his backpack. How much money does he have in all, in cents?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Eli",
+        "answer": 73
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Carrie had 2 dimes, 1 quarter and 11 pennies. She bought a soft pretzel for 35 cents. How much money does she have left, in cents?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Carrie",
+        "answer": 21
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "Ethan had 67 cents. He gave 1 quarter and 6 pennies to his sister. How much money does he have left, in cents?",
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Ethan",
+        "answer": 36
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "Susan's piggy bank has 4 dimes and 3 nickels. Nevaeh's has 17 pennies and 3 nickels. What is the total value of the money in both piggy banks, in cents?",
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Susan and Nevaeh",
+        "answer": 87
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "Tison had 1 quarter, 4 dimes, 4 nickels and 5 pennies. He gave 57 cents to his cousin. How much money does he have left, in cents?",
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_each_group",
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Tison",
+        "answer": 33
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How could you think about the nickels to make them easier to count?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "How does understanding place value help you find the value of coins?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "How are number bonds and part-whole tape diagrams the same and different?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 10 minus 3?",
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 - 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_a3",
+      "kind": "practice",
+      "text": "What is 12 minus 3?",
+      "rubric_id": "r_sp_a3",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "12 - 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 3)"
+      }
+    },
+    {
+      "id": "q_sp_a5",
+      "kind": "practice",
+      "text": "What is 11 minus 2?",
+      "rubric_id": "r_sp_a5",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 5)"
+      }
+    },
+    {
+      "id": "q_sp_a7",
+      "kind": "practice",
+      "text": "What is 11 minus 5?",
+      "rubric_id": "r_sp_a7",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 7)"
+      }
+    },
+    {
+      "id": "q_sp_a9",
+      "kind": "practice",
+      "text": "What is 14 minus 5?",
+      "rubric_id": "r_sp_a9",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "14 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 9)"
+      }
+    },
+    {
+      "id": "q_sp_a12",
+      "kind": "practice",
+      "text": "What is 12 minus 4?",
+      "rubric_id": "r_sp_a12",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "12 - 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 12)"
+      }
+    },
+    {
+      "id": "q_sp_a16",
+      "kind": "practice",
+      "text": "What is 12 minus 7?",
+      "rubric_id": "r_sp_a16",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "12 - 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 16)"
+      }
+    },
+    {
+      "id": "q_sp_a17",
+      "kind": "practice",
+      "text": "What is 15 minus 7?",
+      "rubric_id": "r_sp_a17",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "15 - 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 17)"
+      }
+    },
+    {
+      "id": "q_sp_a22",
+      "kind": "practice",
+      "text": "What is 10 minus 9?",
+      "rubric_id": "r_sp_a22",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 22)"
+      }
+    },
+    {
+      "id": "q_sp_a24",
+      "kind": "practice",
+      "text": "What is 12 minus 9?",
+      "rubric_id": "r_sp_a24",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "12 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 24)"
+      }
+    },
+    {
+      "id": "q_sp_a25",
+      "kind": "practice",
+      "text": "What is 17 minus 9?",
+      "rubric_id": "r_sp_a25",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "17 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 25)"
+      }
+    },
+    {
+      "id": "q_sp_a31",
+      "kind": "practice",
+      "text": "What is 13 minus 6?",
+      "rubric_id": "r_sp_a31",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "13 - 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 31)"
+      }
+    },
+    {
+      "id": "q_sp_a36",
+      "kind": "practice",
+      "text": "What is 16 minus 7?",
+      "rubric_id": "r_sp_a36",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "16 - 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 36)"
+      }
+    },
+    {
+      "id": "q_sp_a40",
+      "kind": "practice",
+      "text": "What is 17 minus 8?",
+      "rubric_id": "r_sp_a40",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "17 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 40)"
+      }
+    },
+    {
+      "id": "q_sp_a44",
+      "kind": "practice",
+      "text": "What is 18 minus 9?",
+      "rubric_id": "r_sp_a44",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "18 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Across a Ten (Sprint A item 44)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "115",
+          "one hundred fifteen",
+          "$115",
+          "115 dollars",
+          "one hundred fifteen dollars",
+          "$115.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Count by $5 and $10 (S: $115)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "95",
+          "ninety-five",
+          "$95",
+          "95 dollars",
+          "ninety-five dollars",
+          "$95.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Count by $5 and $10 (S: $95)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred",
+          "$200",
+          "200 dollars",
+          "two hundred dollars",
+          "$200.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Count by $5 and $10 (S: $200)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "65",
+          "sixty-five",
+          "65 cents",
+          "sixty-five cents",
+          "65¢",
+          "65 cent",
+          "65 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 25 + 20 + 15 + 5 = 65)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Shows two valid ways, such as counting from the largest coin and making a ten, that both give 65 cents.",
+      "partial": "Shows one valid way.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (note: order coins greatest to least, skip-count, or make a ten)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "read it",
+          "read",
+          "read the problem"
+        ]
+      },
+      "correct": "Says read it.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Read it.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty",
+          "40 cents",
+          "forty cents",
+          "40¢",
+          "40 cent",
+          "40 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 10, 20, 30, 35, 40 cents)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32",
+          "thirty-two",
+          "32 cents",
+          "thirty-two cents",
+          "32¢",
+          "32 cent",
+          "32 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 32 cents)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "72",
+          "seventy-two",
+          "72 cents",
+          "seventy-two cents",
+          "72¢",
+          "72 cent",
+          "72 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 40 + 32 = 72)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "96",
+          "ninety-six",
+          "96 cents",
+          "ninety-six cents",
+          "96¢",
+          "96 cent",
+          "96 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (Tamika; answer not printed; 62 + 34 = 96)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five",
+          "35 cents",
+          "thirty-five cents",
+          "35¢",
+          "35 cent",
+          "35 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (35 + 39 = 74; Monday 35 cents)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "39",
+          "thirty-nine",
+          "39 cents",
+          "thirty-nine cents",
+          "39¢",
+          "39 cent",
+          "39 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (Tuesday 39 cents)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "74",
+          "seventy-four",
+          "74 cents",
+          "seventy-four cents",
+          "74¢",
+          "74 cent",
+          "74 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 74 cents)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty",
+          "20 cents",
+          "twenty cents",
+          "20¢",
+          "20 cent",
+          "20 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 94 - 74 = 20)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "74 and 20",
+          "74 cents and 20 cents",
+          "seventy-four and twenty",
+          "74, 20"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": "Says only one of the two parts.",
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: whole 94; part 74 given away; find the part left)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "52",
+          "fifty-two",
+          "52 cents",
+          "fifty-two cents",
+          "52¢",
+          "52 cent",
+          "52 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (answer not printed; 52 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "69",
+          "sixty-nine",
+          "69 cents",
+          "sixty-nine cents",
+          "69¢",
+          "69 cent",
+          "69 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (answer not printed; 69 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "94",
+          "ninety-four",
+          "94 cents",
+          "ninety-four cents",
+          "94¢",
+          "94 cent",
+          "94 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (answer not printed; 94 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "38",
+          "thirty-eight",
+          "38 cents",
+          "thirty-eight cents",
+          "38¢",
+          "38 cent",
+          "38 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4 (answer not printed; 38 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "91",
+          "ninety-one",
+          "91 cents",
+          "ninety-one cents",
+          "91¢",
+          "91 cent",
+          "91 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5 (answer not printed; 91 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty-six",
+          "26 cents",
+          "twenty-six cents",
+          "26¢",
+          "26 cent",
+          "26 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6 (answer not printed; 26 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "65",
+          "sixty-five",
+          "65 cents",
+          "sixty-five cents",
+          "65¢",
+          "65 cent",
+          "65 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1 (answer not printed; 65 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "75",
+          "seventy-five",
+          "75 cents",
+          "seventy-five cents",
+          "75¢",
+          "75 cent",
+          "75 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2 (answer not printed; 75 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "71",
+          "seventy-one",
+          "71 cents",
+          "seventy-one cents",
+          "71¢",
+          "71 cent",
+          "71 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (answer not printed; 71 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "73",
+          "seventy-three",
+          "73 cents",
+          "seventy-three cents",
+          "73¢",
+          "73 cent",
+          "73 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2 (answer not printed; 73 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21",
+          "twenty-one",
+          "21 cents",
+          "twenty-one cents",
+          "21¢",
+          "21 cent",
+          "21 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3 (answer not printed; 21 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "36",
+          "thirty-six",
+          "36 cents",
+          "thirty-six cents",
+          "36¢",
+          "36 cent",
+          "36 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4 (answer not printed; 36 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "87",
+          "eighty-seven",
+          "87 cents",
+          "eighty-seven cents",
+          "87¢",
+          "87 cent",
+          "87 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5 (answer not printed; 87 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33",
+          "thirty-three",
+          "33 cents",
+          "thirty-three cents",
+          "33¢",
+          "33 cent",
+          "33 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6 (answer not printed; 33 cents computed from the coin counts)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says skip-count by fives, or put two nickels together to make ten.",
+      "partial": "Says count them but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; skip-count by fives or pair nickels to make tens)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says dimes are tens and pennies are ones, so we count the tens first and add the ones.",
+      "partial": "Says it helps but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; tens and ones)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both show parts that make a whole. They look different, a bond uses circles and a tape uses a bar.",
+      "partial": "Says only how they are the same or different.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; both show parts and a whole)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1 (no answer printed; 10 - 3)"
+      }
+    },
+    {
+      "id": "r_sp_a3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 3 (no answer printed; 12 - 3)"
+      }
+    },
+    {
+      "id": "r_sp_a5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 5 (no answer printed; 11 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 7 (no answer printed; 11 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 9 (no answer printed; 14 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 12 (no answer printed; 12 - 4)"
+      }
+    },
+    {
+      "id": "r_sp_a16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 16 (no answer printed; 12 - 7)"
+      }
+    },
+    {
+      "id": "r_sp_a17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 17 (no answer printed; 15 - 7)"
+      }
+    },
+    {
+      "id": "r_sp_a22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 22 (no answer printed; 10 - 9)"
+      }
+    },
+    {
+      "id": "r_sp_a24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 24 (no answer printed; 12 - 9)"
+      }
+    },
+    {
+      "id": "r_sp_a25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 25 (no answer printed; 17 - 9)"
+      }
+    },
+    {
+      "id": "r_sp_a31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 31 (no answer printed; 13 - 6)"
+      }
+    },
+    {
+      "id": "r_sp_a36",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 36 (no answer printed; 16 - 7)"
+      }
+    },
+    {
+      "id": "r_sp_a40",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 40 (no answer printed; 17 - 8)"
+      }
+    },
+    {
+      "id": "r_sp_a44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 44 (no answer printed; 18 - 9)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_each_group",
+      "level": 1,
+      "text": "Find the value of each group of coins first.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (the total in Pocket 1 and in Pocket 2, then add them)"
+      }
+    },
+    {
+      "id": "h_largest",
+      "level": 1,
+      "text": "Start with the coin worth the most. Count on from there.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_subtract",
+      "level": 2,
+      "text": "First add the coins that were given away. Then subtract from the start.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (add the groups, then subtract)"
+      }
+    },
+    {
+      "id": "h_sp_ten",
+      "level": 1,
+      "text": "Think about the ten. Subtract from the ten first. Then add back the rest.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_skip_dollars",
+      "level": 1,
+      "text": "Count by tens for ten-dollar bills. Count by fives for five-dollar bills.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_coins",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact coin counts and coin images need exact behaviour. Diffusion cannot count or draw the same coin every time.",
+      "description": "Coins in groups, such as two pockets or two drawers. Each coin is a penny, nickel, dime or quarter.",
+      "must_show_exactly": [
+        "Exactly the coins in the stimulus",
+        "Each coin looks like its real coin",
+        "Groups are shown separately",
+        "Value labels only when the stimulus asks"
+      ],
+      "states_or_frames": [
+        "Ignacio's two pockets",
+        "Danny's coins",
+        "Tamika's piggy bank",
+        "Reese's Monday and Tuesday coins",
+        "Grace's coins",
+        "two drawers",
+        "Ricardo's coins"
+      ],
+      "interaction": "Tutor sets the coins from the stimulus. Child can move coins between groups. Child answers by voice or typing.",
+      "alt_text": "Real-looking coins in groups.",
+      "used_by": [
+        "ex_ignacio",
+        "ex_reese",
+        "exp_flexible",
+        "q_app_1",
+        "q_app_2",
+        "q_db_1",
+        "q_db_2",
+        "q_pr_10",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Plain flat coin icons, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_part_whole",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact part and whole numbers need exact behaviour.",
+      "description": "A tape diagram or number bond with a whole and two parts. One value can be unknown.",
+      "must_show_exactly": [
+        "Parts add to the whole",
+        "Unknown shown with a question mark",
+        "Numbers match the stimulus"
+      ],
+      "states_or_frames": [
+        "40 and 32 make 72",
+        "94 whole, 74 part, 20 unknown"
+      ],
+      "interaction": "Tutor sets the whole and parts from the stimulus. Child answers by voice or typing.",
+      "alt_text": "A tape diagram with two parts.",
+      "used_by": [
+        "ex_ignacio",
+        "ex_reese",
+        "exp_put_together",
+        "exp_take_from",
+        "q_db_3",
+        "q_pr_10",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Tape diagram with two parts and numbers, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Subtraction Across a Ten (timed Sprint A and B)",
+      "reason": "Timed paper race with 44 items per sheet. The items are used as questions. The race cannot run on a screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_bills",
+      "name": "Skip-count real bills on the carpet",
+      "reason": "Needs a teacher and bills. Three questions are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Count by $5 and $10"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw and label, write number sentences and statements on a white board",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_coins, a_part_whole). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Problem Set and Homework numbering",
+      "issue": "The .md has three unlabelled sheets. Items were counted from the printed prompts. Check against the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Answer key for money problems",
+      "issue": "Most answers are not printed. Each was computed from the coin counts in the text by code. Check a sample against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Sprint A item numbers",
+      "issue": "The .md table has no printed item numbers. Items 1 to 22 are the left column and 23 to 44 the right column. Check against the PDF."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Sprint items used and left out",
+      "issue": "Used Sprint A items 1, 3, 5, 7, 9, 12, 16, 17, 22, 24, 25, 31, 36, 40, 44. This is the same sheet as Module 6 Lesson 18 (Subtraction from Teens). Sprint B was not used."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l6_coin_values_count_up is an earlier card. ext_g2_rdw_process is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "h_sp_ten, h_skip_dollars",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

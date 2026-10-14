@@ -1,40 +1,40 @@
 {
   "status": "passed",
   "format": "one_assessment_object_per_concept_id",
-  "assessment_json_files": 75,
-  "lesson_assessment_entries": 75,
-  "unique_assessed_concept_ids": 75,
-  "source_json_files_matched": 57,
+  "assessment_json_files": 91,
+  "lesson_assessment_entries": 91,
+  "unique_assessed_concept_ids": 91,
+  "source_json_files_matched": 82,
   "assessment_collection_files": 0,
   "existing_lesson_assessments_preserved": 75,
-  "new_lesson_assessments": 0,
+  "new_lesson_assessments": 16,
   "deleted_old_assessment_json_files": 222,
   "deleted_obsolete_zip_files": 7,
-  "complete_source_files": 55,
-  "partial_source_files": 2,
-  "missing_concept_entries_in_partial_files": 22,
+  "complete_source_files": 81,
+  "partial_source_files": 1,
+  "missing_concept_entries_in_partial_files": 6,
   "unassessed_source_files": 12,
   "totals": {
-    "main_questions": 225,
-    "follow_ups": 150,
-    "local_rubrics": 300,
-    "generated_hints": 1125,
-    "guidance_records": 375,
-    "worked_solution_equations_checked": 713,
-    "routing_scenarios": 1820,
+    "main_questions": 273,
+    "follow_ups": 182,
+    "local_rubrics": 364,
+    "generated_hints": 1365,
+    "guidance_records": 455,
+    "worked_solution_equations_checked": 822,
+    "routing_scenarios": 2210,
     "multipart_classification_scenarios": 7
   },
-  "cleanup_rechecks": {
-    "worked_equations": 713,
-    "routing_scenarios": 1830,
-    "module_indexes": 4,
-    "module_zips": 4,
+  "current_rechecks": {
+    "worked_equations": 822,
+    "routing_scenarios": 2220,
+    "module_indexes": 5,
+    "module_zips": 5,
     "global_zips": 2
   },
-  "scope": "All 75 canonical assessment hashes match the validated pre-cleanup objects. Concepts are unchanged. All references, hints, guidance, routes, worked equations, source/index hashes and ZIP contents rechecked. Prior independent answer verification remains applicable to unchanged content; rechecks are not added to historical totals.",
+  "scope": "All 75 earlier canonical assessment objects are unchanged. 16 new assessments match their independent answer-validation report hashes. All references, hints, guidance, routes, worked equations, source/index hashes and ZIP contents rechecked. Rechecks are not added again to historical totals.",
   "limitations": [
     "All cards are drafts; human educational review and actual script-agent integration remain outstanding.",
-    "Module 7 Lessons 11–26 and Module 8 Lessons 11–16 remain unassessed. Module 3 Lessons 2–21 lack supplied concepts.",
+    "Module 7 Lessons 1–26 are complete. Module 8 Lessons 11–16 remain unassessed. Module 3 Lessons 2–21 lack supplied concepts.",
     "Some concept source JSONs still contain cards[]; select the exact concept child by concept_id. No assessment file contains a cards[] bundle.",
     "Source review flags and numeric/drawing limitations are preserved."
   ],
@@ -482,82 +482,210 @@
     {
       "concept_id": "math_g2_m7_l1_sort_record_data_tables",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l1_sort_record_data_tables.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-1/math_g2_m7_l1_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-1/math_g2_m7_l1_sort_record_data_tables.assessment_card.json",
       "assessment_sha256": "ddd74e8b528c358067faa6f4fbb3944f4222ddd79d8e53e407399ab58fd2ff93",
       "content_unchanged": true
     },
     {
       "concept_id": "math_g2_m7_l2_picture_graphs",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l2_picture_graphs.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-2/math_g2_m7_l2_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-2/math_g2_m7_l2_picture_graphs.assessment_card.json",
       "assessment_sha256": "60de951e16c42581cee8883a6c83c9ccfb20da0f574382d2293669cf78371e26",
       "content_unchanged": true
     },
     {
       "concept_id": "math_g2_m7_l3_bar_graphs_scale",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l3_bar_graphs_scale.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-3/math_g2_m7_l3_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-3/math_g2_m7_l3_bar_graphs_scale.assessment_card.json",
       "assessment_sha256": "8458a4ce7dd7e4c671c671dd7b0a4150bb6a223413e903d69cccbf44b2746ff4",
       "content_unchanged": true
     },
     {
       "concept_id": "math_g2_m7_l4_draw_bar_graph_from_data",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l4_draw_bar_graph_from_data.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-4/math_g2_m7_l4_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-4/math_g2_m7_l4_draw_bar_graph_from_data.assessment_card.json",
       "assessment_sha256": "fe335cd0f0d39452915e00b6a5bafb930df7f98fcca5466b8d1745f6134b3b3b",
       "content_unchanged": true
     },
     {
       "concept_id": "math_g2_m7_l5_word_problems_bar_graph_money",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l5_word_problems_bar_graph_money.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-5/math_g2_m7_l5_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-5/math_g2_m7_l5_word_problems_bar_graph_money.assessment_card.json",
       "assessment_sha256": "bb10f63f84af4d092cf9862d365386d6c481c1f0e6427ddccd99c801fe7120e8",
       "content_unchanged": true
     },
     {
       "concept_id": "math_g2_m7_l6_coin_values_count_up",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l6_coin_values_count_up.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-6/math_g2_m7_l6_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-6/math_g2_m7_l6_coin_values_count_up.assessment_card.json",
       "assessment_sha256": "53820372d03635cf4fab9ed8b861c91835ae36c83a14f688146507f914f9782d",
       "content_unchanged": true
     },
     {
       "concept_id": "math_g2_m7_l7_coin_total_word_problems",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l7_coin_total_word_problems.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-7/math_g2_m7_l7_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-7/math_g2_m7_l7_coin_total_word_problems.assessment_card.json",
       "assessment_sha256": "28ead9512ab71e44fe5c7790d364b9fb180e430fbd6dd4ccc591648adbda4c4a",
       "content_unchanged": true
     },
     {
       "concept_id": "math_g2_m7_l8_bill_total_word_problems",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l8_bill_total_word_problems.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-8/math_g2_m7_l8_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-8/math_g2_m7_l8_bill_total_word_problems.assessment_card.json",
       "assessment_sha256": "4880ea38a7adb29c106357b0af60a582d864d43de7ac63d60126f3f6dce0985d",
       "content_unchanged": true
     },
     {
       "concept_id": "math_g2_m7_l9_same_value_coin_combinations",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l9_same_value_coin_combinations.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-9/math_g2_m7_l9_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-9/math_g2_m7_l9_same_value_coin_combinations.assessment_card.json",
       "assessment_sha256": "d23f9dfebd27b24dcd62f1a2fbc4b7d2dba44544d682b3b407878be508d105fe",
       "content_unchanged": true
     },
     {
       "concept_id": "math_g2_m7_l10_fewest_coins_for_a_value",
       "status": "passed",
-      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l10_fewest_coins_for_a_value.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-10/math_g2_m7_l10_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-10/math_g2_m7_l10_fewest_coins_for_a_value.assessment_card.json",
       "assessment_sha256": "4f4fc76adb488c76f178e91c126f4da7e0c2250d4de993d5251d96bc5af49893",
       "content_unchanged": true
+    },
+    {
+      "concept_id": "math_g2_m7_l11_make_a_dollar_and_change",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-11/math_g2_m7_l11_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-11/math_g2_m7_l11_make_a_dollar_and_change.assessment_card.json",
+      "assessment_sha256": "fc0d3f41809d7a742fd0b8472aaadce76f50438fa63a18aad22f3afd08495191",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l12_make_change_from_dollar_word_problems",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-12/math_g2_m7_l12_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-12/math_g2_m7_l12_make_change_from_dollar_word_problems.assessment_card.json",
+      "assessment_sha256": "815ebc12b4f4a8ab061a84f2b65b4bfc71c31f8dc58ad0f4f5932edbd2fde650",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l13_two_step_word_problems_dollars_cents",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-13/math_g2_m7_l13_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-13/math_g2_m7_l13_two_step_word_problems_dollars_cents.assessment_card.json",
+      "assessment_sha256": "71892ee259fa667ee98374a65788237cecf33571fff3d5b1849c8583b8952e43",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l14_measure_with_inch_tile_iteration",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-14/math_g2_m7_l14_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-14/math_g2_m7_l14_measure_with_inch_tile_iteration.assessment_card.json",
+      "assessment_sha256": "be653a21ad6ca6736c94fe1cecf5b9ac2aef00bd4b29b8af82924330347d408a",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l15_make_and_use_inch_ruler",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-15/math_g2_m7_l15_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-15/math_g2_m7_l15_make_and_use_inch_ruler.assessment_card.json",
+      "assessment_sha256": "ff3cc74cb690c88bbd74c8866b9ec873c5a4149af8279a56242a2fb7b8efec86",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l16_measure_inch_ruler_yardstick",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-16/math_g2_m7_l16_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-16/math_g2_m7_l16_measure_inch_ruler_yardstick.assessment_card.json",
+      "assessment_sha256": "f4c56a532a9354d683c6dfa5f40224920b99ab59a2de9513ff45793de4ea8180",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l17_estimate_length_benchmarks",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-17/math_g2_m7_l17_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-17/math_g2_m7_l17_estimate_length_benchmarks.assessment_card.json",
+      "assessment_sha256": "383920c556bc09c2f67458e14537912109a116183f99535fa029bdf06deb8f85",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l18_compare_cm_and_inches",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-18/math_g2_m7_l18_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-18/math_g2_m7_l18_compare_cm_and_inches.assessment_card.json",
+      "assessment_sha256": "d9f7e92ec06e7e1d8456ba7779902130e5c9dfde0b093a94b386ec78caaa26b3",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l19_compare_length_differences",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-19/math_g2_m7_l19_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-19/math_g2_m7_l19_compare_length_differences.assessment_card.json",
+      "assessment_sha256": "4d5e747ef2f4734b386ec9d2cdd7aca38b2b70f1aa9c3be546ce932f5e27e39f",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l20_length_word_problems_tape_diagrams",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-20/math_g2_m7_l20_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-20/math_g2_m7_l20_length_word_problems_tape_diagrams.assessment_card.json",
+      "assessment_sha256": "fefcb9217334517f48f88b3700f9cf977e9fba7838d3f256356aeb196bbc8dd2",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l21_number_line_unknown_points",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-21/math_g2_m7_l21_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-21/math_g2_m7_l21_number_line_unknown_points.assessment_card.json",
+      "assessment_sha256": "abde1baec3b6cc47d7cb1139c98dcbc69b33f2e89ff38d6d5f3fce57761944e0",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l22_ruler_number_line_add_subtract_length",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-22/math_g2_m7_l22_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-22/math_g2_m7_l22_ruler_number_line_add_subtract_length.assessment_card.json",
+      "assessment_sha256": "8e4ce4e3876b832751fa715c18a6efede0f8a947dfa14b82f98b0be486245b80",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l23_handspan_data_tally_table",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-23/math_g2_m7_l23_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-23/math_g2_m7_l23_handspan_data_tally_table.assessment_card.json",
+      "assessment_sha256": "3ce6d4948cdd096a2a5b9bb4ca0cd5c2cf97ca472ce2b9c5cc43b03a8d0910e6",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l24_line_plot_measurement_data",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-24/math_g2_m7_l24_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-24/math_g2_m7_l24_line_plot_measurement_data.assessment_card.json",
+      "assessment_sha256": "61616e21aa54ec9161142f5b1197492b66e1472c3a93b509e9c817a2ea902601",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l25_line_plot_answer_questions",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-25/math_g2_m7_l25_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-25/math_g2_m7_l25_line_plot_answer_questions.assessment_card.json",
+      "assessment_sha256": "0ed771283ebc5007e3c612599469c5a54d1c91b56425b11798792346fb803f03",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g2_m7_l26_line_plots_scales_and_tables",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-26/math_g2_m7_l26_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/lesson-wise/lesson-26/math_g2_m7_l26_line_plots_scales_and_tables.assessment_card.json",
+      "assessment_sha256": "57df2930be25fbef33096c5883c04f62dcc1372aa741ed0956796f165df6785d",
+      "content_unchanged": false
     },
     {
       "concept_id": "math_g2_m8_l1_shape_attributes",
@@ -639,5 +767,15 @@
       "assessment_sha256": "83e7856130bee60cdde25a9c63a2fc7774386fc12ce0198585cec98857dba157",
       "content_unchanged": true
     }
-  ]
+  ],
+  "validation_reports": [
+    "assessment-cards-v0.2-validation.json",
+    "assessment-cards-grade2-module5-lessons9-20-validation.json",
+    "assessment-cards-grade2-module6-lessons11-20-validation.json",
+    "assessment-cards-grade2-module7-lessons1-10-validation.json",
+    "assessment-cards-grade2-module8-lessons1-10-validation.json",
+    "assessment-cards-grade2-module1-lesson-wise-validation.json",
+    "assessment-cards-grade2-module7-lessons11-26-validation.json"
+  ],
+  "new_batch_validation": "assessment-cards-grade2-module7-lessons11-26-validation.json"
 }

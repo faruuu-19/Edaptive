@@ -1,0 +1,1443 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l18_compare_cm_and_inches",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-d-lesson-18.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 18",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Measure one object with two different length units and compare. See how the size of the unit changes the number.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l17_estimate_length_benchmarks",
+    "ext_g2_measure_with_centimeter_ruler",
+    "ext_g2_unit_size_and_count"
+  ],
+  "explanations": [
+    {
+      "id": "exp_two_units",
+      "title": "Same object, two units",
+      "text": "Measure one pencil with an inch ruler and a centimeter ruler. You get two different numbers. Both are correct. The units are different.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_unit_size",
+      "title": "Smaller unit, more units",
+      "text": "A centimeter is smaller than an inch. It takes more centimeters to cover the same length. The smaller the unit, the more units you need.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1; Part 2"
+      }
+    },
+    {
+      "id": "exp_bigger_unit",
+      "title": "Bigger unit, fewer units",
+      "text": "An inch is bigger than a centimeter. The bigger the unit, the fewer units you use.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_five_five",
+      "title": "5 inches and 5 centimeters",
+      "text": "Draw a line 5 inches long and a line 5 centimeters long. The 5-inch line is longer. One inch is longer than one centimeter.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_about_13",
+      "title": "Use what you know",
+      "text": "13 centimeters is about 5 inches. A line with more than 13 centimeters is longer than 5 inches. You do not have to measure again.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_decomp",
+      "title": "Break apart 20 inches",
+      "text": "A decomposition tree breaks a whole into two parts. The two parts add up to the whole. You can break 20 inches in many ways.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_decomp_tree"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_pencil",
+      "title": "The pencil",
+      "text": "The pencil is about 7 inches long. It is about 18 centimeters long. Both are correct. We need more centimeters because they are smaller.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_crayon",
+      "title": "Thomas and Chris",
+      "text": "Thomas says the crayon is 8 centimeters. Chris says it is 3 inches. Both are right. They used different units.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (Thomas and Chris)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Break 20 inches into two parts. Name one pair of parts.",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_parts_add"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_decomp_tree"
+      ],
+      "stimulus": {
+        "total": 20,
+        "unit": "inches"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Break 20 inches into two parts. One part is 12 inches. What is the other part?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_parts_add"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_decomp_tree"
+      ],
+      "stimulus": {
+        "total": 20,
+        "part": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Break 20 inches into two parts. One part is 5 inches. What is the other part?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_parts_add"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_decomp_tree"
+      ],
+      "stimulus": {
+        "total": 20,
+        "part": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Ezra thinks his bed is about 2 yards long. Is this a reasonable estimate? Why?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_benchmark"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "You measure a pencil with an inch ruler and with a centimeter ruler. Are both measurements correct?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_unit_size"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "stimulus": {
+        "inches": 7,
+        "centimeters": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Which is longer, one centimeter or one inch?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_unit_size"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "The pencil is about 7 inches or about 18 centimeters. Did you use more inches or more centimeters?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_smaller_more"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "stimulus": {
+        "inches": 7,
+        "centimeters": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Why do you need more centimeters than inches to measure the pencil?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_smaller_more"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Does the length of the pencil change when you use a different unit?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_unit_size"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "When the unit is smaller, do you need more of that unit or fewer?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_smaller_more"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "When the unit is bigger, do you need more of that unit or fewer?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_smaller_more"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Which line is longer, a 5-inch line or a 5-centimeter line?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_unit_size"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "stimulus": {
+        "line_a": "5 inches",
+        "line_b": "5 centimeters"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "About how many centimeters are the same length as 5 inches?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_unit_size"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "stimulus": {
+        "inches": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "About how many inches are the same length as 5 centimeters?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_unit_size"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "stimulus": {
+        "centimeters": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "A line is 15 centimeters long. Is it longer or shorter than 5 inches?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_know_13"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "stimulus": {
+        "centimeters": 15,
+        "inches": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Thomas measures a crayon and says 8 centimeters. Chris says 3 inches. Why can both be correct?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_unit_size"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (Thomas and Chris)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Takeesha draws a line 9 centimeters long. Damani draws a line 4 inches long. Whose line is longer?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_unit_size"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "stimulus": {
+        "takeesha_cm": 9,
+        "damani_in": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (Takeesha and Damani)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Takeesha says her line is longer because 9 is greater than 4. Why might she be wrong?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_label_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (Takeesha and Damani)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Why is it important to label a length with the unit?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_label_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What word do we use for a measurement that is not exact?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_label_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Why does the size of the unit matter when we measure?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_smaller_more"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "When would you measure with a small unit? When would you use a large unit?",
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_unit_job"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_two_rulers"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "total": 20,
+        "valid_pairs": [
+          [
+            1,
+            19
+          ],
+          [
+            2,
+            18
+          ],
+          [
+            3,
+            17
+          ],
+          [
+            4,
+            16
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            6,
+            14
+          ],
+          [
+            7,
+            13
+          ],
+          [
+            8,
+            12
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "order_matters": false
+      },
+      "correct": "Names two parts that add up to 20, such as 12 and 8.",
+      "partial": "Names two numbers that do not add up to 20.",
+      "incorrect": "Names numbers that do not make 20.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (break apart 20 inches in as many ways as you can; no answers printed; pairs computed; 0 and 20 not listed)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight",
+          "8 inches",
+          "eight inches",
+          "about 8 inches",
+          "about 8"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (no answers printed; 20 - 12 = 8 computed)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 inches",
+          "fifteen inches",
+          "about 15 inches",
+          "about 15"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (no answers printed; 20 - 5 = 15 computed)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes or no and gives a reason that uses a benchmark, such as a yard is about 3 feet or a door width.",
+      "partial": "Says yes or no but gives no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; reasoning should use a yard benchmark such as a door width or 3 feet)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes both",
+          "both are correct",
+          "yes, both"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Yes!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "inch",
+          "an inch",
+          "one inch",
+          "1 inch",
+          "inches"
+        ]
+      },
+      "correct": "Says inch.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: An inch!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "centimeters",
+          "more centimeters",
+          "centimeter",
+          "cm"
+        ]
+      },
+      "correct": "Says centimeters.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: More centimeters.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says centimeters are smaller than inches, so it takes more of them.",
+      "partial": "Says centimeters take more but gives no reason.",
+      "incorrect": "Says centimeters are bigger.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Centimeters are smaller, so it takes more of them)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no it does not",
+          "it stays the same",
+          "the same"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (Both measurements are correct; the pencil stays the same length)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "more",
+          "more of them",
+          "more units",
+          "more of that unit"
+        ]
+      },
+      "correct": "Says more.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The smaller the unit means it takes more of those units)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "fewer",
+          "less",
+          "fewer of them",
+          "fewer units"
+        ]
+      },
+      "correct": "Says fewer.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The bigger the unit means you use less of them)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 inch",
+          "5-inch",
+          "the 5-inch line",
+          "5 inches",
+          "the 5 inch line",
+          "inch",
+          "inches"
+        ]
+      },
+      "correct": "Says 5 inch.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The 5-inch line!)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen",
+          "13 centimeters",
+          "thirteen centimeters",
+          "about 13 centimeters",
+          "about 13"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Thirteen centimeters is about 5 inches)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two",
+          "2 inches",
+          "two inches",
+          "about 2 inches",
+          "about 2"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: About 2 inches!)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "longer",
+          "longer than 5 inches",
+          "longer than"
+        ]
+      },
+      "correct": "Says longer.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (13 centimeters is about 5 inches, so more than 13 is longer; 15 chosen and computed)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says they used different units, and centimeters are smaller so the number is bigger.",
+      "partial": "Says they used different units but gives nothing more.",
+      "incorrect": "Says one of them is wrong.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (no answer printed; they used different units)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "damani",
+          "damani's",
+          "damanis",
+          "damani's line",
+          "damani line",
+          "the 4-inch line",
+          "the 4 inch line"
+        ]
+      },
+      "correct": "Says damani.",
+      "partial": "Says Takeesha because 9 is greater than 4.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_bigger_number"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (no answer printed; 4 inches is about 10 centimeters, which is more than 9)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the units are different, and an inch is longer than a centimeter, so the bigger number does not mean longer.",
+      "partial": "Says she is wrong but gives no reason.",
+      "incorrect": "Says she is right.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_bigger_number"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (no answer printed; the units are different, and an inch is longer than a centimeter)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the number means different lengths with different units, so the unit tells which one.",
+      "partial": "Says it is important but gives no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; the number alone does not tell the size)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "about",
+          "approximately",
+          "around",
+          "almost",
+          "nearly"
+        ]
+      },
+      "correct": "Says about.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (answer not printed; the lesson says about 7 inches and about 18 centimeters)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says a smaller unit gives a bigger number, and a bigger unit gives a smaller number, for the same length.",
+      "partial": "Says it matters but gives no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; smaller units give a bigger number)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says small unit for small things, such as a bean or a book, and a large unit for long things, such as a wall or a field.",
+      "partial": "Answers only one part.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; small things need small units, long things need large units)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_unit_size",
+      "level": 1,
+      "text": "Think about the size of each unit. Which unit is longer?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_smaller_more",
+      "level": 1,
+      "text": "A smaller unit takes more copies to cover the same length.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (the smaller the unit, the more units)"
+      }
+    },
+    {
+      "id": "h_parts_add",
+      "level": 2,
+      "text": "The two parts must add up to the whole.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (parts add to the whole)"
+      }
+    },
+    {
+      "id": "h_know_13",
+      "level": 1,
+      "text": "You already know how many centimeters make about 5 inches. Do you need to measure again?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "h_label_unit",
+      "level": 1,
+      "text": "Look at the unit after each number. Do the two lines use the same unit?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (label with your chosen unit)"
+      }
+    },
+    {
+      "id": "h_benchmark",
+      "level": 1,
+      "text": "Think about the benchmarks you know. How long is a yard?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_unit_job",
+      "level": 1,
+      "text": "Think about big and small things. Which unit fits each one?",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_bigger_number",
+      "label": "Bigger number means longer line",
+      "description": "A child thinks a line measured as 9 is longer than a line measured as 4, even when the units are different.",
+      "detection_signals": [
+        "says Takeesha's line is longer because 9 is greater than 4",
+        "compares the numbers and ignores the units"
+      ],
+      "response_text": "Look at the units. An inch is longer than a centimeter. The bigger number is not always the longer line.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (why might someone think the lines should be equal); Problem Set (Takeesha)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_two_rulers",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact tick marks and unit sizes need exact scale. Diffusion cannot draw correct rulers.",
+      "description": "An inch ruler and a centimeter ruler drawn at true scale, with an object laid next to both. The tutor can set the object length.",
+      "must_show_exactly": [
+        "Inch ruler with equal inch marks",
+        "Centimeter ruler with equal centimeter marks, true to inch scale",
+        "One inch is longer than one centimeter, about 2.5 times",
+        "Object ends line up with the right marks: pencil about 7 inches and about 18 centimeters"
+      ],
+      "states_or_frames": [
+        "pencil beside the inch ruler",
+        "pencil beside the centimeter ruler",
+        "5-inch line and 5-centimeter line",
+        "crayon with 8 centimeters and 3 inches"
+      ],
+      "interaction": "Tutor sets the object. Child answers by voice or typing.",
+      "alt_text": "An inch ruler and a centimeter ruler next to a pencil.",
+      "used_by": [
+        "ex_crayon",
+        "ex_pencil",
+        "exp_about_13",
+        "exp_bigger_unit",
+        "exp_five_five",
+        "exp_two_units",
+        "exp_unit_size",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Plain flat rulers with clear tick marks, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_decomp_tree",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact whole and parts need exact behaviour.",
+      "description": "A decomposition tree with a whole at the top and two parts below. One part can be hidden.",
+      "must_show_exactly": [
+        "Whole is 20 inches",
+        "Two parts add to the whole",
+        "Hidden part shown as a question mark"
+      ],
+      "states_or_frames": [
+        "whole 20 with both parts hidden",
+        "whole 20 with one part given"
+      ],
+      "interaction": "Tutor sets the whole and one part. Child answers by voice or typing.",
+      "alt_text": "A tree with 20 at the top and two branches.",
+      "used_by": [
+        "exp_decomp",
+        "q_pk_1",
+        "q_pk_2",
+        "q_pk_3"
+      ],
+      "generation_caption": "Plain flat tree diagram with two branches, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_decomp_timed",
+      "name": "Decomposition Tree race (90 seconds)",
+      "reason": "Timed paper activity with a partner check. Three questions are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "na_core",
+      "name": "Grade 2 Core Fluency Differentiated Practice Sets",
+      "reason": "Core Fluency Practice Sets are paper practice sheets from Lesson 1. They are not used as questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Grade 2 Core Fluency Differentiated Practice Sets"
+      }
+    },
+    {
+      "id": "na_measure_objects",
+      "name": "Measure a pencil, crayon, eraser and paper with two rulers, then draw lines",
+      "reason": "Needs real objects, two rulers and paper. Measuring and drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Parts 1 and 2; Problem Set (draw lines)"
+      }
+    },
+    {
+      "id": "na_recording",
+      "name": "Record measurements on a chart; write explanations on paper",
+      "reason": "Handwriting and charts cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_two_rulers, a_decomp_tree). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set and Exit Ticket measuring lines",
+      "issue": "The sheets ask the child to measure printed lines in inches and centimeters, round, and compare more inches or more centimeters. These need the pictures of the lines. Items were left out. Add them from the PDF if the line lengths are known."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Problem Set numbering",
+      "issue": "Items are unnumbered in the .md. Problem Set items were counted from the printed prompts. Thomas and Chris (q_pr_12) and Takeesha and Damani (q_pr_13, q_pr_14) were used. Drawing lines were left out. Check against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_pk_1, q_pk_2, q_pk_3",
+      "issue": "The Fluency note gives no answers. The pairs and the answers 8 and 15 were computed by code. The source is silent about 0 and 20, so these pairs are left out of q_pk_1."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "q_app_1",
+      "issue": "No answer is printed for Ezra's bed. The rubric accepts yes or no with a benchmark reason. Check the expected answer in the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_pr_5, q_pr_11, q_pr_13",
+      "issue": "q_pr_5 is derived from the source line that both measurements are correct. q_pr_11 uses the source fact that 13 centimeters is about 5 inches, with a new number, 15. q_pr_13 uses 4 inches as about 10 centimeters, which is more than 9. Check."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_pr_9, q_pr_10",
+      "issue": "The source dialog says 13 centimeters is about 5 inches and 5 centimeters is about 2 inches. Real values are 12.7 and 1.97. The rubrics accept the source values."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_db_2",
+      "issue": "No answer is printed for the word for not exact. About was inferred from the lesson dialog. The rubric also accepts other near words."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "h_benchmark, h_unit_job",
+      "issue": "Generated hints. The source gives no hint for these tasks. Hint coverage is thin. Need review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Student Debrief Problem 6",
+      "issue": "The Debrief asks about Problem 6 and why someone might think two lines are equal. Problem 6 cannot be seen in the .md. It is covered through mis_bigger_number, which is built from the Debrief and the Takeesha problem. The match was inferred. Check."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l17_estimate_length_benchmarks is an earlier card. ext_g2_measure_with_centimeter_ruler and ext_g2_unit_size_and_count are prerequisite cards that do not exist yet. Map to real ids."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

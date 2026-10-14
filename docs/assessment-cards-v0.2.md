@@ -6,7 +6,7 @@ object. If the source JSON contains `cards[]`, select the concept by ID first.
 See [loading rules](assessment-card-collections.md).
 
 The full v0.2 schema and every retained assessment object are unchanged by
-cleanup. All 75 cards remain drafts. Script-agent integration is untested.
+cleanup. All 91 cards remain drafts. Script-agent integration is untested.
 
 ## Structure
 
@@ -77,10 +77,10 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-75 concept IDs have 75 standalone assessments; no assessment collections remain.
+91 concept IDs have 91 standalone assessments; no assessment collections remain.
 Each includes three main questions, two follow-ups, four local rubrics, 15 hints
-and five guidance records. Active totals and educational limitations remain the
-same. The root README lists grade/module/lesson coverage.
+and five guidance records. Module 7 Lessons 1–26 are complete, including sixteen
+new full assessments. See the root README for totals and coverage.
 
 [Cleanup validation](assessment-cards-cleanup-validation.json) checks unchanged
 content, IDs, references, guidance, hashes, worked arithmetic, tutoring routes
@@ -89,3 +89,5 @@ Human educational review and actual script-agent integration remain pending.
 The [reference controller](assessment-cards-v0.2-routing-reference.py) is a
 standalone example; the caller grades against actual rubrics and retains correct
 hard parts. Numeric answers cannot verify actual drawings or spoken reasoning.
+
+Module 7 Lessons 17, 18 and 24 have open easy answers; follow the source semantic and partial criteria. Lesson 18 unit measurements are approximate and choice codes are explicitly labelled. [New assessment validation](assessment-cards-grade2-module7-lessons11-26-validation.json) and [module-pair validation](assessment-cards-grade2-module7-lesson-wise-validation.json) retain the answer and preservation evidence.

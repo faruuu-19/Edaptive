@@ -68,17 +68,13 @@ Build phase (proposal defended Sept 2026). FYP-1 evaluation: 7–11 Dec 2026.
 
 ## Assessment card coverage
 
-There are **75 standalone assessment JSONs for 75 concept IDs**. Every file
-contains one full assessment object and is named
-`<concept_id>.assessment_card.json`. There are **no active or archived module-wide
-assessment bundles** in this checkout. All 75 existing assessments are preserved
-without question, rubric, hint, follow-up or tutoring-rule changes.
-
-222 duplicate, superseded or bundled assessment JSONs and seven obsolete ZIPs
-were removed locally. The assessment content branch also removes its previous
-61 assessment paths and uses 75 canonical concept-ID paths. Concept JSONs,
-validation reports, runtime/model outputs and test fixtures are preserved.
-Earlier assessment versions remain recoverable in Git history.
+There are **91 standalone assessment JSONs for 91 concept IDs**. Each file is
+named `<concept_id>.assessment_card.json` and contains one full assessment object.
+**Grade 2 Module 7 Lessons 1–26 are complete**, each with a separate concept JSON
+and matching assessment JSON. Sixteen missing assessments were added; the ten
+existing Module 7 assessments and all 75 earlier assessments are unchanged.
+All 26 Module 7 concepts, including 980 source questions, are preserved.
+No assessment bundles or duplicate draft JSONs were created.
 
 | Grade | Module | Assessed lessons | Assessment JSONs | Remaining work |
 |---|---|---|---:|---|
@@ -89,46 +85,50 @@ Earlier assessment versions remain recoverable in Git history.
 | 2 | 4 | — | 0 | Source not provided |
 | 2 | 5 | 1–20 | 20 | — |
 | 2 | 6 | 1–20 | 20 | — |
-| 2 | 7 | 1–10 | 10 | Lessons 11–26 need assessments |
+| 2 | 7 | 1–26 | 26 | Complete |
 | 2 | 8 | 1–10 | 10 | Lessons 11–16 need assessments |
 
-The 75 assessments refer to **57 concept source JSON files**. Grade 2 Modules
-1, 3, 5 and 6 have separate supplied lesson concepts, totaling 49 pairs.
-Module 7 and Module 8 concept sources still contain multiple `cards[]` entries.
-Select the child with the required `concept_id` and pass it with the single
-assessment whose `linked_concept.concept_id` and `concept_version` match.
-The cleanup generates no new assessments and does not change concept sources.
-Twelve Grade 3/4 source files still have no assessments in this manual dataset.
+Grade 1 has six assessments; Grade 2 has 85. The 91 assessments refer to 82
+active concept source JSON files. Grade 2 Modules 1, 3, 5, 6 and 7 have 75
+standalone lesson pairs. Module 8's source still has `cards[]`: select its child
+by concept ID and pass it with that concept's standalone assessment. Twelve
+Grade 3/4 source files remain unassessed in this manual dataset.
 
-Use the [canonical concept-ID index](docs/assessment-card-collections-manifest.json)
-for every assessment path, concept version and file hash. See the
-[loading contract](docs/assessment-card-collections.md),
+Use the [Module 7 lesson index](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%207/Module%207/Math%20G2-M7%20Lessons/lesson-wise/module_index.json) for all 26 input pairs and their
+hashes. Use the [canonical concept-ID index](docs/assessment-card-collections-manifest.json)
+for the whole dataset, and see the [loading contract](docs/assessment-card-collections.md),
 [full assessment contract](docs/assessment-cards-v0.2.md) and
 [module conversion progress](docs/grade2-lesson-file-migration.json).
-Updated lesson indexes are available for:
+Repository index paths are relative to repository root; ZIP paths are relative
+to their extracted directory. Module 7's original concept collection is retained
+under `legacy/module-wide/` for provenance and excluded from active coverage.
 
-- [Grade 2 Module 1 lessons](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/module_index.json).
-- [Grade 2 Module 3 lessons](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%203/Module%203/Math%20G2-M3%20Lessons/lesson-wise/module_index.json).
-- [Grade 2 Module 5 lessons](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/module_index.json).
-- [Grade 2 Module 6 lessons](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/module_index.json).
+Every assessment has three main questions, two follow-ups, four local rubrics,
+15 hints and five guidance records with feedback, worked answers and bounded
+retry/fallback rules. Totals are **273 main questions, 182 follow-ups, 364 local
+rubrics, 1,365 hints and 455 guidance records**.
 
-Every retained assessment has three main questions, two follow-ups, four local
-rubrics, 15 hints and five guidance records. Totals remain **225 main questions,
-150 follow-ups, 300 local rubrics, 1,125 hints and 375 guidance records**.
+[New Module 7 assessment validation](docs/assessment-cards-grade2-module7-lessons11-26-validation.json)
+checks all sixteen new cards, independently recomputed answers and accept
+variants, three-part checks, references, full hints/guidance, 109 worked
+equations and 390 reference-controller route scenarios.
+[Complete Module 7 pair validation](docs/assessment-cards-grade2-module7-lesson-wise-validation.json)
+checks all 26 pairs, preserved source objects, hashes and ZIP contents. It
+rechecks 211 equations and 632 routes across the full module; those repeats are
+not added again to cumulative evidence. [Current dataset validation](docs/assessment-card-collections-validation.json)
+checks all 91 cards and preservation of the prior 75. Active cumulative evidence
+is **822 worked equations, 2,210 routes and seven multipart classification scenarios**.
 
-[Cleanup validation](docs/assessment-cards-cleanup-validation.json) verifies all
-75 unchanged assessment objects, unique concept IDs, scoped references,
-concept/index hashes, full guidance, removal of obsolete files and ZIP contents.
-It rechecks 713 worked equations and 1,830 reference-controller route scenarios;
-these rechecks are recorded separately from historical evidence. Prior active
-validation totals remain **713 worked equations, 1,820 routing scenarios and
-seven multipart classification scenarios**. Earlier reports retain the
-independent answer/accept-list verification history.
+The earlier cleanup removed 222 old/duplicate assessment JSONs and seven obsolete
+ZIPs locally. Only canonical per-concept assessment files are active; earlier
+assessment versions are recoverable in Git history. Historical validation
+reports and concept provenance are retained.
 
 All cards remain drafts requiring human educational review. Actual script-agent
-integration is untested. Open questions require semantic grading against their
-source rubrics. Numeric answers do not verify drawings, folds, graph labels,
-spoken vocabulary or coin choices. Module 6 Lessons 18–20 retain their semantic
-rubrics; generated parity questions use explicitly labelled numeric codes.
-Module 5 Lesson 11 source `exp_1` contains a tens-total discrepancy; its assessment
-uses correct arithmetic. Source review flags remain preserved.
+integration is untested. Module 7 Lessons 17, 18 and 24 reuse open questions:
+accept equivalent explanations under their source rubrics and apply partial
+credit only for the stated criteria. Lesson 18 measurements are approximate;
+numeric codes label unit choices. Numeric answers do not verify physical
+measuring, ruler construction, tape diagrams, graph labels or spoken reasoning.
+Source review flags and worksheet uncertainties remain preserved, including
+Module 5 Lesson 11's documented source arithmetic discrepancy.

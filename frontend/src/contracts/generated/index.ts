@@ -58,6 +58,24 @@ export interface EventEnvelope {
 }
 /**
  * This interface was referenced by `Contracts`'s JSON-Schema
+ * via the `definition` "LessonDeliveryChangedV1".
+ */
+export interface LessonDeliveryChangedV1 {
+  timetable_id: string;
+  slot_id: string;
+  action: "start" | "borrow" | "position" | "finish" | "cancel";
+  /**
+   * One lesson's concept card: <subject>_g<grade>_m<module>_l<lesson>_<short_name>, e.g. math_g1_m1_l1_embedded_numbers
+   */
+  concept_id: string;
+  /**
+   * Version of a concept or assessment card. Events record the exact version a child saw.
+   */
+  card_version: number;
+  position: number;
+}
+/**
+ * This interface was referenced by `Contracts`'s JSON-Schema
  * via the `definition` "ProfileSelectedV1".
  */
 export interface ProfileSelectedV1 {}
@@ -78,7 +96,7 @@ export interface SessionStartedV1 {
    */
   entry: "scheduled" | "free_practice";
   /**
-   * Concept card the session opens on, if known.
+   * One lesson's concept card: <subject>_g<grade>_m<module>_l<lesson>_<short_name>, e.g. math_g1_m1_l1_embedded_numbers
    */
   concept_id?: string;
   /**

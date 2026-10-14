@@ -1,20 +1,12 @@
 # Assessment cards v0.2 draft
 
-Grade 2 Modules 1, 5 and 6 have eight, twenty and twenty standalone lesson assessments.
-Module 3's available Lesson 1 is standalone; its other twenty source lessons
-remain absent. Other sources still use collections: select a child from
-`cards` by concept ID before following this contract. See
-[file pairing and loader rules](assessment-card-collections.md).
+Each assessed concept ID now has one canonical standalone file named
+`<concept_id>.assessment_card.json`. Supply it with the matching single concept
+object. If the source JSON contains `cards[]`, select the concept by ID first.
+See [loading rules](assessment-card-collections.md).
 
-These assessments are complete data inputs for a future script agent. Supply one
-assessment and the concept card matching `linked_concept.concept_id` and
-`linked_concept.concept_version`. Every card remains a draft for human review.
-
-The format extends v0.1 with root `hints` and `tutor_guidance`; it also changes
-route tokens to make retries and follow-up returns explicit. Consumers must
-support v0.2 deliberately. The assessment ID ends in `_v2`, `card_version` is 2,
-and `schema_version` is `0.2-draft`. This data upgrade does not change the app
-runtime or establish script-agent compatibility.
+The full v0.2 schema and every retained assessment object are unchanged by
+cleanup. All 75 cards remain drafts. Script-agent integration is untested.
 
 ## Structure
 
@@ -85,45 +77,15 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-75 active assessments have 57 matching files: 49 standalone lesson pairs and
-eight collections. Grade 2 Modules 1, 5 and 6 are converted for all included
-lessons. Module 3 has only its available Lesson 1 converted; Lessons 2–21 remain
-pending due to missing concepts. Modules 7/8 contain ten assessments each in
-partial collections, with 16/6 pending. Grade 1 has six Lesson 1 entries in six
-collections. Grade 2 Modules 2/4 have no provided source files. Twelve Grade
-3/4 source files have no assessments.
+75 concept IDs have 75 standalone assessments; no assessment collections remain.
+Each includes three main questions, two follow-ups, four local rubrics, 15 hints
+and five guidance records. Active totals and educational limitations remain the
+same. The root README lists grade/module/lesson coverage.
 
-Active totals remain 225 main questions, 150 follow-ups, 300 local rubrics,
-1,125 hints and 375 guidance records. All 75 earlier active entries are
-preserved. Original Module 3/5/6 collection bytes are archived. Module 1's old
-mixed assessment is retired and excluded.
-
-[Module 6 conversion validation](assessment-cards-grade2-module6-lesson-wise-validation.json)
-records twenty unchanged standalone pairs and 700 preserved concept questions
-and rubrics. Numeric/parity answers and accept variants, 150 worked equations
-and 506 tutoring routes were independently rechecked. Scoped references, full
-guidance, index hashes, archive bytes and portable package bytes also passed.
-This conversion creates no new assessment entries. Repeat checks do not
-increase cumulative totals: 713 equations, 1,820 routes and seven multipart
-classification scenarios.
-
-[Module 3/5 conversion validation](assessment-cards-grade2-modules3-5-lesson-wise-validation.json)
-retains evidence for the preceding conversion. [Pair mapping](assessment-card-collections-manifest.json)
-records active paths/formats and archives; [current validation](assessment-card-collections-validation.json)
-records coverage and package preservation. [Migration progress](grade2-lesson-file-migration.json)
-tracks conversion separately from assessment coverage. Earlier reports retain
-mathematical validation history, including Module 1's rebuilt assessments.
-
-All entries remain drafts. Educational review and actual script-agent
-integration remain outstanding. Module 6 Lessons 18–20 reuse open questions:
-grade equivalent explanations against source rubrics and apply partial credit
-only for the stated criteria. Generated parity questions use explicitly
-labelled numeric codes. Numeric answers do not verify drawings, folds, graph
-labels, spoken vocabulary or coin choices. Source review flags and worksheet
-uncertainties are preserved, including the Module 5 Lesson 11 exp_1 discrepancy;
-its assessment uses correct arithmetic. Read actual accept lists and answer-key
-shapes: source `pair_of_parts` keys can use `valid_pairs`, while hard assessment
-keys use three named parts. Original IDs, versions and content are unchanged
-by file conversion.
-
-The [reference controller](assessment-cards-v0.2-routing-reference.py) is a standalone example; the caller grades against actual rubrics and retains correct hard parts before passing an outcome to it.
+[Cleanup validation](assessment-cards-cleanup-validation.json) checks unchanged
+content, IDs, references, guidance, hashes, worked arithmetic, tutoring routes
+and ZIP bytes. Original independent answer verification remains applicable.
+Human educational review and actual script-agent integration remain pending.
+The [reference controller](assessment-cards-v0.2-routing-reference.py) is a
+standalone example; the caller grades against actual rubrics and retains correct
+hard parts. Numeric answers cannot verify actual drawings or spoken reasoning.

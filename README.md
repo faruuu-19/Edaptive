@@ -68,148 +68,67 @@ Build phase (proposal defended Sept 2026). FYP-1 evaluation: 7–11 Dec 2026.
 
 ## Assessment card coverage
 
-There are **75 active assessment entries in 57 matching JSON pairs**.
-**Grade 2 Module 6 Lessons 1–20 now each have a standalone concept JSON and
-matching full assessment JSON.** All existing concept and assessment content,
-including 700 concept questions and their rubrics, is preserved. This conversion
-creates 20 separate lesson pairs and requires no new assessment entries.
+There are **75 standalone assessment JSONs for 75 concept IDs**. Every file
+contains one full assessment object and is named
+`<concept_id>.assessment_card.json`. There are **no active or archived module-wide
+assessment bundles** in this checkout. All 75 existing assessments are preserved
+without question, rubric, hint, follow-up or tutoring-rule changes.
 
-Use the [Module 6 lesson index](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/module_index.json) to select the two inputs for a
-one-lesson script. Each index records linked concept ID/version and both file
-hashes. Repository paths are relative to the repository root; downloadable ZIP
-paths are relative to the extracted folder. Original collection files are
-retained byte-for-byte under each converted module's `legacy/module-wide/`
-folder and excluded from active indexes, coverage and packages.
+222 duplicate, superseded or bundled assessment JSONs and seven obsolete ZIPs
+were removed locally. The assessment content branch also removes its previous
+61 assessment paths and uses 75 canonical concept-ID paths. Concept JSONs,
+validation reports, runtime/model outputs and test fixtures are preserved.
+Earlier assessment versions remain recoverable in Git history.
 
-```text
-Mathematics — 57 active JSON pairs / 75 assessment entries
-├── Grade 1 — 6 pairs / 6 entries
-│   └── Modules 1–6 → Lesson 1 in each → existing collections
-└── Grade 2 — 51 pairs / 69 entries
-    ├── Module 1 → Lessons 1–8 → 8 standalone pairs → converted
-    ├── Module 2 → source not present
-    ├── Module 3 → Lesson 1 → 1 standalone pair → available lesson converted
-    │             Lessons 2–21 still need concept sources and assessments
-    ├── Module 4 → source not present
-    ├── Module 5 → Lessons 1–20 → 20 standalone pairs → converted
-    ├── Module 6 → Lessons 1–20 → 20 standalone pairs → converted
-    ├── Module 7 → Lessons 1–10 → 1 collection / 10 assessments
-    │             Lessons 11–26 still need assessments
-    └── Module 8 → Lessons 1–10 → 1 collection / 10 assessments
-                  Lessons 11–16 still need assessments
-```
+| Grade | Module | Assessed lessons | Assessment JSONs | Remaining work |
+|---|---|---|---:|---|
+| 1 | 1–6 | Lesson 1 in each module | 6 | — |
+| 2 | 1 | 1–8 | 8 | — |
+| 2 | 2 | — | 0 | Source not provided |
+| 2 | 3 | 1 | 1 | Lessons 2–21 lack supplied concepts |
+| 2 | 4 | — | 0 | Source not provided |
+| 2 | 5 | 1–20 | 20 | — |
+| 2 | 6 | 1–20 | 20 | — |
+| 2 | 7 | 1–10 | 10 | Lessons 11–26 need assessments |
+| 2 | 8 | 1–10 | 10 | Lessons 11–16 need assessments |
 
-There are **49 standalone lesson pairs and eight remaining collections**.
-Modules 1, 5 and 6 are fully converted for all their included lessons. Module 3
-is converted only for its one supplied concept; its index lists twenty missing
-source lessons. Modules 7 and 8 retain partial collections with 16 and 6 pending
-assessments. The [conversion progress index](docs/grade2-lesson-file-migration.json)
-separates file conversion from assessment coverage. Grade 2 Modules 2 and 4
-have no provided source files. Twelve active Grade 3/4 source files still have
-no assessments.
+The 75 assessments refer to **57 concept source JSON files**. Grade 2 Modules
+1, 3, 5 and 6 have separate supplied lesson concepts, totaling 49 pairs.
+Module 7 and Module 8 concept sources still contain multiple `cards[]` entries.
+Select the child with the required `concept_id` and pass it with the single
+assessment whose `linked_concept.concept_id` and `concept_version` match.
+The cleanup generates no new assessments and does not change concept sources.
+Twelve Grade 3/4 source files still have no assessments in this manual dataset.
 
-| Grade | Module | Lesson/file format | Concept JSON | Assessment JSON | Assessments / source concepts |
-|---|---|---|---|---|---|
-| 1 | 1 | Collection | [math_g1_m1_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%201/Module%201/math_g1_m1_l1_lesson.json) | [math_g1_m1_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%201/Module%201/math_g1_m1_l1_lesson.assessment_card.json) | 1 / 1 |
-| 1 | 2 | Collection | [math_g1_m2_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%202/Module%202/Math%20G1-M2%20Lessons/math_g1_m2_l1_lesson.json) | [math_g1_m2_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%202/Module%202/Math%20G1-M2%20Lessons/math_g1_m2_l1_lesson.assessment_card.json) | 1 / 1 |
-| 1 | 3 | Collection | [math_g1_m3_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%203/Module%203/Math%20G1-M3%20Lessons/math_g1_m3_l1_lesson.json) | [math_g1_m3_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%203/Module%203/Math%20G1-M3%20Lessons/math_g1_m3_l1_lesson.assessment_card.json) | 1 / 1 |
-| 1 | 4 | Collection | [math_g1_m4_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%204/Module%204/Math%20G1-M4%20Lessons/math_g1_m4_l1_lesson.json) | [math_g1_m4_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%204/Module%204/Math%20G1-M4%20Lessons/math_g1_m4_l1_lesson.assessment_card.json) | 1 / 1 |
-| 1 | 5 | Collection | [math_g1_m5_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%205/Module%205/Math%20G1-M5%20Lessons/math_g1_m5_l1_lesson.json) | [math_g1_m5_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%205/Module%205/Math%20G1-M5%20Lessons/math_g1_m5_l1_lesson.assessment_card.json) | 1 / 1 |
-| 1 | 6 | Collection | [math_g1_m6_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%206/Module%206/Math%20G1-M6%20Lessons/math_g1_m6_l1_lesson.json) | [math_g1_m6_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade1/Grade%201%20Module%206/Module%206/Math%20G1-M6%20Lessons/math_g1_m6_l1_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 1 | 1 | [math_g2_m1_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-1/math_g2_m1_l1_lesson.json) | [math_g2_m1_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-1/math_g2_m1_l1_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 1 | 2 | [math_g2_m1_l2_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-2/math_g2_m1_l2_lesson.json) | [math_g2_m1_l2_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-2/math_g2_m1_l2_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 1 | 3 | [math_g2_m1_l3_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-3/math_g2_m1_l3_lesson.json) | [math_g2_m1_l3_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-3/math_g2_m1_l3_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 1 | 4 | [math_g2_m1_l4_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-4/math_g2_m1_l4_lesson.json) | [math_g2_m1_l4_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-4/math_g2_m1_l4_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 1 | 5 | [math_g2_m1_l5_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-5/math_g2_m1_l5_lesson.json) | [math_g2_m1_l5_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-5/math_g2_m1_l5_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 1 | 6 | [math_g2_m1_l6_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-6/math_g2_m1_l6_lesson.json) | [math_g2_m1_l6_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-6/math_g2_m1_l6_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 1 | 7 | [math_g2_m1_l7_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-7/math_g2_m1_l7_lesson.json) | [math_g2_m1_l7_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-7/math_g2_m1_l7_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 1 | 8 | [math_g2_m1_l8_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-8/math_g2_m1_l8_lesson.json) | [math_g2_m1_l8_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/lesson-8/math_g2_m1_l8_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 3 | 1 | [math_g2_m3_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%203/Module%203/Math%20G2-M3%20Lessons/lesson-wise/lesson-1/math_g2_m3_l1_lesson.json) | [math_g2_m3_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%203/Module%203/Math%20G2-M3%20Lessons/lesson-wise/lesson-1/math_g2_m3_l1_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 1 | [math_g2_m5_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-1/math_g2_m5_l1_lesson.json) | [math_g2_m5_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-1/math_g2_m5_l1_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 2 | [math_g2_m5_l2_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-2/math_g2_m5_l2_lesson.json) | [math_g2_m5_l2_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-2/math_g2_m5_l2_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 3 | [math_g2_m5_l3_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-3/math_g2_m5_l3_lesson.json) | [math_g2_m5_l3_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-3/math_g2_m5_l3_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 4 | [math_g2_m5_l4_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-4/math_g2_m5_l4_lesson.json) | [math_g2_m5_l4_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-4/math_g2_m5_l4_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 5 | [math_g2_m5_l5_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-5/math_g2_m5_l5_lesson.json) | [math_g2_m5_l5_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-5/math_g2_m5_l5_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 6 | [math_g2_m5_l6_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-6/math_g2_m5_l6_lesson.json) | [math_g2_m5_l6_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-6/math_g2_m5_l6_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 7 | [math_g2_m5_l7_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-7/math_g2_m5_l7_lesson.json) | [math_g2_m5_l7_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-7/math_g2_m5_l7_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 8 | [math_g2_m5_l8_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-8/math_g2_m5_l8_lesson.json) | [math_g2_m5_l8_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-8/math_g2_m5_l8_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 9 | [math_g2_m5_l9_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-9/math_g2_m5_l9_lesson.json) | [math_g2_m5_l9_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-9/math_g2_m5_l9_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 10 | [math_g2_m5_l10_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-10/math_g2_m5_l10_lesson.json) | [math_g2_m5_l10_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-10/math_g2_m5_l10_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 11 | [math_g2_m5_l11_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-11/math_g2_m5_l11_lesson.json) | [math_g2_m5_l11_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-11/math_g2_m5_l11_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 12 | [math_g2_m5_l12_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-12/math_g2_m5_l12_lesson.json) | [math_g2_m5_l12_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-12/math_g2_m5_l12_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 13 | [math_g2_m5_l13_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-13/math_g2_m5_l13_lesson.json) | [math_g2_m5_l13_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-13/math_g2_m5_l13_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 14 | [math_g2_m5_l14_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-14/math_g2_m5_l14_lesson.json) | [math_g2_m5_l14_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-14/math_g2_m5_l14_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 15 | [math_g2_m5_l15_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-15/math_g2_m5_l15_lesson.json) | [math_g2_m5_l15_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-15/math_g2_m5_l15_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 16 | [math_g2_m5_l16_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-16/math_g2_m5_l16_lesson.json) | [math_g2_m5_l16_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-16/math_g2_m5_l16_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 17 | [math_g2_m5_l17_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-17/math_g2_m5_l17_lesson.json) | [math_g2_m5_l17_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-17/math_g2_m5_l17_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 18 | [math_g2_m5_l18_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-18/math_g2_m5_l18_lesson.json) | [math_g2_m5_l18_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-18/math_g2_m5_l18_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 19 | [math_g2_m5_l19_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-19/math_g2_m5_l19_lesson.json) | [math_g2_m5_l19_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-19/math_g2_m5_l19_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 5 | 20 | [math_g2_m5_l20_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-20/math_g2_m5_l20_lesson.json) | [math_g2_m5_l20_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/lesson-20/math_g2_m5_l20_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 1 | [math_g2_m6_l1_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-1/math_g2_m6_l1_lesson.json) | [math_g2_m6_l1_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-1/math_g2_m6_l1_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 2 | [math_g2_m6_l2_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-2/math_g2_m6_l2_lesson.json) | [math_g2_m6_l2_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-2/math_g2_m6_l2_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 3 | [math_g2_m6_l3_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-3/math_g2_m6_l3_lesson.json) | [math_g2_m6_l3_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-3/math_g2_m6_l3_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 4 | [math_g2_m6_l4_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-4/math_g2_m6_l4_lesson.json) | [math_g2_m6_l4_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-4/math_g2_m6_l4_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 5 | [math_g2_m6_l5_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-5/math_g2_m6_l5_lesson.json) | [math_g2_m6_l5_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-5/math_g2_m6_l5_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 6 | [math_g2_m6_l6_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-6/math_g2_m6_l6_lesson.json) | [math_g2_m6_l6_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-6/math_g2_m6_l6_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 7 | [math_g2_m6_l7_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-7/math_g2_m6_l7_lesson.json) | [math_g2_m6_l7_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-7/math_g2_m6_l7_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 8 | [math_g2_m6_l8_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-8/math_g2_m6_l8_lesson.json) | [math_g2_m6_l8_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-8/math_g2_m6_l8_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 9 | [math_g2_m6_l9_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-9/math_g2_m6_l9_lesson.json) | [math_g2_m6_l9_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-9/math_g2_m6_l9_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 10 | [math_g2_m6_l10_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-10/math_g2_m6_l10_lesson.json) | [math_g2_m6_l10_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-10/math_g2_m6_l10_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 11 | [math_g2_m6_l11_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-11/math_g2_m6_l11_lesson.json) | [math_g2_m6_l11_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-11/math_g2_m6_l11_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 12 | [math_g2_m6_l12_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-12/math_g2_m6_l12_lesson.json) | [math_g2_m6_l12_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-12/math_g2_m6_l12_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 13 | [math_g2_m6_l13_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-13/math_g2_m6_l13_lesson.json) | [math_g2_m6_l13_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-13/math_g2_m6_l13_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 14 | [math_g2_m6_l14_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-14/math_g2_m6_l14_lesson.json) | [math_g2_m6_l14_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-14/math_g2_m6_l14_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 15 | [math_g2_m6_l15_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-15/math_g2_m6_l15_lesson.json) | [math_g2_m6_l15_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-15/math_g2_m6_l15_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 16 | [math_g2_m6_l16_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-16/math_g2_m6_l16_lesson.json) | [math_g2_m6_l16_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-16/math_g2_m6_l16_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 17 | [math_g2_m6_l17_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-17/math_g2_m6_l17_lesson.json) | [math_g2_m6_l17_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-17/math_g2_m6_l17_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 18 | [math_g2_m6_l18_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-18/math_g2_m6_l18_lesson.json) | [math_g2_m6_l18_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-18/math_g2_m6_l18_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 19 | [math_g2_m6_l19_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-19/math_g2_m6_l19_lesson.json) | [math_g2_m6_l19_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-19/math_g2_m6_l19_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 6 | 20 | [math_g2_m6_l20_lesson.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-20/math_g2_m6_l20_lesson.json) | [math_g2_m6_l20_lesson.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/lesson-20/math_g2_m6_l20_lesson.assessment_card.json) | 1 / 1 |
-| 2 | 7 | Collection | [math_g2_m7_Lessons.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%207/Module%207/Math%20G2-M7%20Lessons/math_g2_m7_Lessons.json) | [math_g2_m7_Lessons.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%207/Module%207/Math%20G2-M7%20Lessons/math_g2_m7_Lessons.assessment_card.json) | 10 / 26 |
-| 2 | 8 | Collection | [math_g2_m8_Lessons.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%208/Module%208/Math%20G2-M8%20Lessons/math_g2_m8_Lessons.json) | [math_g2_m8_Lessons.assessment_card.json](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%208/Module%208/Math%20G2-M8%20Lessons/math_g2_m8_Lessons.assessment_card.json) | 10 / 16 |
+Use the [canonical concept-ID index](docs/assessment-card-collections-manifest.json)
+for every assessment path, concept version and file hash. See the
+[loading contract](docs/assessment-card-collections.md),
+[full assessment contract](docs/assessment-cards-v0.2.md) and
+[module conversion progress](docs/grade2-lesson-file-migration.json).
+Updated lesson indexes are available for:
 
-Each standalone assessment is a complete v0.2 object with `card_type:
-assessment_card`; pass it directly with its linked concept. Remaining
-collections have `card_type: assessment_card_collection`; select a child by
-concept ID. Always match `linked_concept.concept_id` and `concept_version`.
-Local question/rubric/hint/asset IDs stay scoped to the selected pair. Source
-hashes for standalone pairs are stored in the module index. See the
-[pairing and loader contract](docs/assessment-card-collections.md) and
-[lesson assessment contract](docs/assessment-cards-v0.2.md).
+- [Grade 2 Module 1 lessons](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%201/Module%201/Math%20G2-M1%20Lessons/lesson-wise/module_index.json).
+- [Grade 2 Module 3 lessons](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%203/Module%203/Math%20G2-M3%20Lessons/lesson-wise/module_index.json).
+- [Grade 2 Module 5 lessons](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%205/Module%205/Math%20G2-M5%20Lessons/lesson-wise/module_index.json).
+- [Grade 2 Module 6 lessons](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%206/Module%206/Math%20G2-M6%20Lessons/lesson-wise/module_index.json).
 
-Every assessment retains three main questions, two follow-ups, four local
-rubrics, 15 progressive hints and five guidance records with feedback, worked
-answers, attempts, help, silence and fallback rules. Active totals remain
-**225 main questions, 150 follow-ups, 300 local rubrics, 1,125 hints and 375
-guidance records**. All 75 earlier active entries are preserved exactly.
-Module 1's former mixed assessment remains retired and excluded from totals;
-Module 3/5/6 collections are archived without retiring their unchanged lesson
-assessments.
+Every retained assessment has three main questions, two follow-ups, four local
+rubrics, 15 hints and five guidance records. Totals remain **225 main questions,
+150 follow-ups, 300 local rubrics, 1,125 hints and 375 guidance records**.
 
-[Module 6 conversion validation](docs/assessment-cards-grade2-module6-lesson-wise-validation.json)
-checks 20 pairs, original object equality, scoped references, full hints and
-guidance, index hashes and portable package bytes. Numeric answers and parity
-truths, accept variants, 150 worked equations and 506 reference-controller
-routes were independently rechecked. Repeat checks are not added again to
-cumulative totals. [Current pair validation](docs/assessment-card-collections-validation.json)
-records all 57 pairs, archive preservation and ZIP byte equality. Active
-cumulative evidence remains **713 worked equations, 1,820 routes and seven
-multipart classification scenarios**.
-
-[Module 3/5 conversion validation](docs/assessment-cards-grade2-modules3-5-lesson-wise-validation.json)
-retains evidence for 21 unchanged pairs and 381 preserved concept questions.
-[Module 1 extraction validation](docs/concept-cards-grade2-module1-lesson-wise-validation.json)
-and [Module 1 assessment validation](docs/assessment-cards-grade2-module1-lesson-wise-validation.json)
-retain evidence for its eight rebuilt assessments and 112 preserved concept
-questions. Concept and assessment IDs/versions remain unchanged by conversion.
+[Cleanup validation](docs/assessment-cards-cleanup-validation.json) verifies all
+75 unchanged assessment objects, unique concept IDs, scoped references,
+concept/index hashes, full guidance, removal of obsolete files and ZIP contents.
+It rechecks 713 worked equations and 1,830 reference-controller route scenarios;
+these rechecks are recorded separately from historical evidence. Prior active
+validation totals remain **713 worked equations, 1,820 routing scenarios and
+seven multipart classification scenarios**. Earlier reports retain the
+independent answer/accept-list verification history.
 
 All cards remain drafts requiring human educational review. Actual script-agent
-integration is untested. Module 6 Lessons 18–20 reuse open source questions:
-grade equivalent explanations against their rubrics and apply partial credit
-only for the stated criteria. Generated parity questions use explicitly
-labelled numeric codes. Source `pair_of_parts` keys can contain `valid_pairs`,
-whereas hard assessment keys use three named parts. Numeric answers/codes do
-not verify actual drawings, folds, graph labels, spoken vocabulary or coin
-choices. Module 5 Lesson 11 source `exp_1` says its tens total is 10; including
-the new ten gives 11. The preserved assessment uses correct arithmetic. Other
-source review flags and worksheet uncertainties remain unchanged.
+integration is untested. Open questions require semantic grading against their
+source rubrics. Numeric answers do not verify drawings, folds, graph labels,
+spoken vocabulary or coin choices. Module 6 Lessons 18–20 retain their semantic
+rubrics; generated parity questions use explicitly labelled numeric codes.
+Module 5 Lesson 11 source `exp_1` contains a tens-total discrepancy; its assessment
+uses correct arithmetic. Source review flags remain preserved.

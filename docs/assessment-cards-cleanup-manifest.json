@@ -1,0 +1,753 @@
+{
+  "operation": "remove_superseded_assessment_files",
+  "canonical_format": "one_assessment_object_per_concept_id",
+  "retained_concept_ids": 75,
+  "retained_assessment_files": 75,
+  "deleted_repository_assessment_paths": [
+    "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 1/Module 1/math_g1_m1_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 2/Module 2/Math G1-M2 Lessons/math_g1_m2_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 3/Module 3/Math G1-M3 Lessons/math_g1_m3_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 4/Module 4/Math G1-M4 Lessons/math_g1_m4_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 5/Module 5/Math G1-M5 Lessons/math_g1_m5_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 6/Module 6/Math G1-M6 Lessons/math_g1_m6_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/legacy/module-wide/math_g2_m1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-1/math_g2_m1_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-2/math_g2_m1_l2_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-3/math_g2_m1_l3_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-4/math_g2_m1_l4_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-5/math_g2_m1_l5_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-6/math_g2_m1_l6_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-7/math_g2_m1_l7_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-8/math_g2_m1_l8_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/legacy/module-wide/math_g2_m3_Lessons.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/lesson-wise/lesson-1/math_g2_m3_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/legacy/module-wide/math_g2_m5_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-1/math_g2_m5_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-10/math_g2_m5_l10_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-11/math_g2_m5_l11_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-12/math_g2_m5_l12_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-13/math_g2_m5_l13_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-14/math_g2_m5_l14_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-15/math_g2_m5_l15_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-16/math_g2_m5_l16_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-17/math_g2_m5_l17_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-18/math_g2_m5_l18_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-19/math_g2_m5_l19_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-2/math_g2_m5_l2_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-20/math_g2_m5_l20_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-3/math_g2_m5_l3_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-4/math_g2_m5_l4_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-5/math_g2_m5_l5_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-6/math_g2_m5_l6_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-7/math_g2_m5_l7_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-8/math_g2_m5_l8_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-9/math_g2_m5_l9_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/legacy/module-wide/math_g2_m6_Lessons.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-1/math_g2_m6_l1_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-10/math_g2_m6_l10_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-11/math_g2_m6_l11_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-12/math_g2_m6_l12_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-13/math_g2_m6_l13_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-14/math_g2_m6_l14_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-15/math_g2_m6_l15_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-16/math_g2_m6_l16_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-17/math_g2_m6_l17_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-18/math_g2_m6_l18_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-19/math_g2_m6_l19_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-2/math_g2_m6_l2_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-20/math_g2_m6_l20_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-3/math_g2_m6_l3_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-4/math_g2_m6_l4_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-5/math_g2_m6_l5_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-6/math_g2_m6_l6_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-7/math_g2_m6_l7_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-8/math_g2_m6_l8_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-9/math_g2_m6_l9_lesson.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.assessment_card.json",
+    "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.assessment_card.json"
+  ],
+  "local_deleted_assessment_json_files": 222,
+  "local_deleted_obsolete_zip_files": 7,
+  "assessment_content_unchanged": true,
+  "concept_sources_unchanged": true,
+  "recover_previous_assessments": "Use Git history before this cleanup commit.",
+  "retained_index": "assessment-card-collections-manifest.json",
+  "validation_report": "assessment-cards-cleanup-validation.json",
+  "retained_paths": [
+    {
+      "concept_id": "math_g1_m1_l1_embedded_numbers",
+      "grade": 1,
+      "module": 1,
+      "lesson": 1,
+      "assessment_sha256": "aa18b1e287264b25aae49c4bc875105e33c38b639d68da4f97b3e7413e63fd26",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 1/Module 1/math_g1_m1_l1_embedded_numbers.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 1/Module 1/math_g1_m1_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g1_m2_l1_three_addends_make_ten",
+      "grade": 1,
+      "module": 2,
+      "lesson": 1,
+      "assessment_sha256": "3ddd3bf54a2ccba6c1c58c1707ae7b795b0eaeae1e1d331a03e7c7c2e62d3d3e",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 2/Module 2/Math G1-M2 Lessons/math_g1_m2_l1_three_addends_make_ten.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 2/Module 2/Math G1-M2 Lessons/math_g1_m2_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g1_m3_l1_compare_length_endpoints",
+      "grade": 1,
+      "module": 3,
+      "lesson": 1,
+      "assessment_sha256": "878334508ac8a7dcafecaf60b8617dec574fd95c92b6017cf843dd58c0158ac5",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 3/Module 3/Math G1-M3 Lessons/math_g1_m3_l1_compare_length_endpoints.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 3/Module 3/Math G1-M3 Lessons/math_g1_m3_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g1_m4_l1_group_tens_ones",
+      "grade": 1,
+      "module": 4,
+      "lesson": 1,
+      "assessment_sha256": "15b012142df3320957a074b0d2f23711c57bd8fbf3b6dd0389088b6b442d850b",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 4/Module 4/Math G1-M4 Lessons/math_g1_m4_l1_group_tens_ones.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 4/Module 4/Math G1-M4 Lessons/math_g1_m4_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g1_m5_l1_shape_attributes",
+      "grade": 1,
+      "module": 5,
+      "lesson": 1,
+      "assessment_sha256": "9a822a577aac5adec9e9cae8296941efa68f84a8fe966a953a5188709277bcb4",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 5/Module 5/Math G1-M5 Lessons/math_g1_m5_l1_shape_attributes.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 5/Module 5/Math G1-M5 Lessons/math_g1_m5_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g1_m6_l1_compare_difference_unknown",
+      "grade": 1,
+      "module": 6,
+      "lesson": 1,
+      "assessment_sha256": "c4d3cbcc1bc151068e7d7400a87e7f6be2cc8ce2be92cc8e2efd78905f244d89",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 6/Module 6/Math G1-M6 Lessons/math_g1_m6_l1_compare_difference_unknown.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade1/Grade 1 Module 6/Module 6/Math G1-M6 Lessons/math_g1_m6_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m1_l1_pairs_to_ten",
+      "grade": 2,
+      "module": 1,
+      "lesson": 1,
+      "assessment_sha256": "18f750efe47988eae7d995f37ee141dcf568825e96a2082352cf03b6a542e782",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-1/math_g2_m1_l1_pairs_to_ten.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-1/math_g2_m1_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m1_l2_tens_and_ones",
+      "grade": 2,
+      "module": 1,
+      "lesson": 2,
+      "assessment_sha256": "133bd0716abf02028f90de3ed69070ddb7c409ac78741bddb53b108e9b3f5ec1",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-2/math_g2_m1_l2_tens_and_ones.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-2/math_g2_m1_l2_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m1_l3_add_subtract_like_units",
+      "grade": 2,
+      "module": 1,
+      "lesson": 3,
+      "assessment_sha256": "262f77dc7ff87488e5c827295416920c963bf8949203fc5c0cd705240f1dd4ca",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-3/math_g2_m1_l3_add_subtract_like_units.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-3/math_g2_m1_l3_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m1_l4_make_ten_within_20",
+      "grade": 2,
+      "module": 1,
+      "lesson": 4,
+      "assessment_sha256": "bb71e97fe11d92c0b2b29be1964417f733b26986b940b593563b0991d85442ef",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-4/math_g2_m1_l4_make_ten_within_20.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-4/math_g2_m1_l4_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m1_l5_make_ten_within_100",
+      "grade": 2,
+      "module": 1,
+      "lesson": 5,
+      "assessment_sha256": "09dac955d65fac62a99fcf568b6eb7c3f3bdeaa2d8212827eeba871999af0db4",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-5/math_g2_m1_l5_make_ten_within_100.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-5/math_g2_m1_l5_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m1_l6_take_from_ten_multiples",
+      "grade": 2,
+      "module": 1,
+      "lesson": 6,
+      "assessment_sha256": "bb760b6ba6b3144f3323ea129b51509bd90511c1ed4e4d4420c9bbe21b8ee611",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-6/math_g2_m1_l6_take_from_ten_multiples.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-6/math_g2_m1_l6_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m1_l7_take_from_ten_teens",
+      "grade": 2,
+      "module": 1,
+      "lesson": 7,
+      "assessment_sha256": "1a24cea433fbc99ed2dbba34bbd3196d319b320b05b131f9897a177a4cdc8dd4",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-7/math_g2_m1_l7_take_from_ten_teens.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-7/math_g2_m1_l7_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m1_l8_take_from_ten_within_100",
+      "grade": 2,
+      "module": 1,
+      "lesson": 8,
+      "assessment_sha256": "15006be1c4ced32f98da45b8ad934045ca6ac5d4852845c801756cf87605d676",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-8/math_g2_m1_l8_take_from_ten_within_100.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 1/Module 1/Math G2-M1 Lessons/lesson-wise/lesson-8/math_g2_m1_l8_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m3_l1_bundle_count_units",
+      "grade": 2,
+      "module": 3,
+      "lesson": 1,
+      "assessment_sha256": "fe03da7a26b50a45dfc81d8c7e32a6befcc409fe5f09435603d947efc7793c7e",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/lesson-wise/lesson-1/math_g2_m3_l1_bundle_count_units.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/lesson-wise/lesson-1/math_g2_m3_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l1_ten_hundred_more_less",
+      "grade": 2,
+      "module": 5,
+      "lesson": 1,
+      "assessment_sha256": "0e639b879df02ee96f10f4b0f96c97da2f0a514a2329196998a87d6d10932fca",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-1/math_g2_m5_l1_ten_hundred_more_less.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-1/math_g2_m5_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l2_add_subtract_multiples_100",
+      "grade": 2,
+      "module": 5,
+      "lesson": 2,
+      "assessment_sha256": "401c6bb964799f94bb8613275e437a9d1cc7993f821a7dd8877d37c28499c9a8",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-2/math_g2_m5_l2_add_subtract_multiples_100.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-2/math_g2_m5_l2_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l3_add_hundreds_and_tens",
+      "grade": 2,
+      "module": 5,
+      "lesson": 3,
+      "assessment_sha256": "a6a678c35f678223b288ee1568766f6be6e524fbed2b24bd21371cd78c554698",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-3/math_g2_m5_l3_add_hundreds_and_tens.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-3/math_g2_m5_l3_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l4_subtract_hundreds_and_tens",
+      "grade": 2,
+      "module": 5,
+      "lesson": 4,
+      "assessment_sha256": "816aee6fbda205700a66bcf40f73799ddda3bc1d96c6506de55b415714a6a22a",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-4/math_g2_m5_l4_subtract_hundreds_and_tens.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-4/math_g2_m5_l4_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l5_make_next_hundred_to_add",
+      "grade": 2,
+      "module": 5,
+      "lesson": 5,
+      "assessment_sha256": "2891596fb7447fe61d2dc5c930e4329791a3ab41e3c7239a22ebfd510e8ca2c7",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-5/math_g2_m5_l5_make_next_hundred_to_add.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-5/math_g2_m5_l5_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l6_compensation_subtract_check",
+      "grade": 2,
+      "module": 5,
+      "lesson": 6,
+      "assessment_sha256": "4610e03153230f8d8bfd0cea28e16597b98086febe328c248e3f63fd07bcfd2f",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-6/math_g2_m5_l6_compensation_subtract_check.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-6/math_g2_m5_l6_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l7_share_critique_strategies",
+      "grade": 2,
+      "module": 5,
+      "lesson": 7,
+      "assessment_sha256": "8ea1eb15b8a0ef7a9054b8edeffa5a5f2e642f78793e46dfc9c9e95e8f15c3c9",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-7/math_g2_m5_l7_share_critique_strategies.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-7/math_g2_m5_l7_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l8_disks_to_addition_algorithm",
+      "grade": 2,
+      "module": 5,
+      "lesson": 8,
+      "assessment_sha256": "fa550c0e9543c556d0efee9013f36b599c24fb0ddc4d640425c92fa1a32467b6",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-8/math_g2_m5_l8_disks_to_addition_algorithm.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-8/math_g2_m5_l8_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l9_add_with_disks_two_regroupings",
+      "grade": 2,
+      "module": 5,
+      "lesson": 9,
+      "assessment_sha256": "c907302715f63e1e3a0bdc644f0a4af3ad36bafd4e107905d42d94052818c8fb",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-9/math_g2_m5_l9_add_with_disks_two_regroupings.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-9/math_g2_m5_l9_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l10_chip_drawings_addition",
+      "grade": 2,
+      "module": 5,
+      "lesson": 10,
+      "assessment_sha256": "edc37aeb2416a54e03aeb057c72e5ef15b74d27e14e1a91302050145dd3aa87e",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-10/math_g2_m5_l10_chip_drawings_addition.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-10/math_g2_m5_l10_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l11_chip_drawings_two_compositions",
+      "grade": 2,
+      "module": 5,
+      "lesson": 11,
+      "assessment_sha256": "6f70967bd2470f6825524080dcea517128b753c2b26fe61ee80d1560a444aea0",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-11/math_g2_m5_l11_chip_drawings_two_compositions.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-11/math_g2_m5_l11_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l12_choose_addition_strategy",
+      "grade": 2,
+      "module": 5,
+      "lesson": 12,
+      "assessment_sha256": "e3c97b8db522475329bb986108aec6ed8f3869a8307277575f30f489be8d5e01",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-12/math_g2_m5_l12_choose_addition_strategy.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-12/math_g2_m5_l12_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l13_disks_to_subtraction_algorithm",
+      "grade": 2,
+      "module": 5,
+      "lesson": 13,
+      "assessment_sha256": "a674f0f1ed9a73b66d9176af9466c98f3c3269da75599cc20c411f773b58b765",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-13/math_g2_m5_l13_disks_to_subtraction_algorithm.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-13/math_g2_m5_l13_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l14_subtract_with_chip_drawings",
+      "grade": 2,
+      "module": 5,
+      "lesson": 14,
+      "assessment_sha256": "5151915b523333d15a4655cbed74f74a6faa1b85597aa9e02ae3c0b0aa555dd6",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-14/math_g2_m5_l14_subtract_with_chip_drawings.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-14/math_g2_m5_l14_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l15_subtract_two_unbundlings_check",
+      "grade": 2,
+      "module": 5,
+      "lesson": 15,
+      "assessment_sha256": "033427ca09707537e5651010fab4d6917d0108d3e7d081ab2977f5fad2c86c08",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-15/math_g2_m5_l15_subtract_two_unbundlings_check.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-15/math_g2_m5_l15_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l16_subtract_zero_tens_place",
+      "grade": 2,
+      "module": 5,
+      "lesson": 16,
+      "assessment_sha256": "56204c3efb20f6129786174ab14eef9a741ad02602b0a76d9d2e5a760805ad89",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-16/math_g2_m5_l16_subtract_zero_tens_place.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-16/math_g2_m5_l16_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l17_subtract_from_hundreds_zero_tens",
+      "grade": 2,
+      "module": 5,
+      "lesson": 17,
+      "assessment_sha256": "224ea70d5c768bf6a32775cc8b82de1e1e956cbc70069b77b72411f267ce06e8",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-17/math_g2_m5_l17_subtract_from_hundreds_zero_tens.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-17/math_g2_m5_l17_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l18_alternate_ways_subtract_zero",
+      "grade": 2,
+      "module": 5,
+      "lesson": 18,
+      "assessment_sha256": "240250a9eaed66c956a3daac3bb4179b72b3d0d03f835bf5149a891aa7e79583",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-18/math_g2_m5_l18_alternate_ways_subtract_zero.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-18/math_g2_m5_l18_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l19_choose_add_subtract_strategy",
+      "grade": 2,
+      "module": 5,
+      "lesson": 19,
+      "assessment_sha256": "7ea29e98d54ee7db88d2d5c8c111b15e9473ad72c24f4b6b097b4eccc9fa0e00",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-19/math_g2_m5_l19_choose_add_subtract_strategy.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-19/math_g2_m5_l19_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m5_l20_solve_by_two_strategies",
+      "grade": 2,
+      "module": 5,
+      "lesson": 20,
+      "assessment_sha256": "0e51ee77b599305ac09064d17536e4e7e618fc322445103fe5ae092c22bb7296",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-20/math_g2_m5_l20_solve_by_two_strategies.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-20/math_g2_m5_l20_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l1_equal_groups_manipulatives",
+      "grade": 2,
+      "module": 6,
+      "lesson": 1,
+      "assessment_sha256": "7bddd5262d20d34f12e9c9a28b204a90838f6c59393393eae6dbc5009e9f9636",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-1/math_g2_m6_l1_equal_groups_manipulatives.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-1/math_g2_m6_l1_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l2_equal_groups_repeated_addition",
+      "grade": 2,
+      "module": 6,
+      "lesson": 2,
+      "assessment_sha256": "645266635815d4b40765923b183865655b50b15e4149c1fb9a4f1da05b61c75b",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-2/math_g2_m6_l2_equal_groups_repeated_addition.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-2/math_g2_m6_l2_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l3_equal_groups_doubles_bundling",
+      "grade": 2,
+      "module": 6,
+      "lesson": 3,
+      "assessment_sha256": "ceb07063d855d8e8a32ceb2e1a27a90ba7b5d5da09844d9e7bfc3b5def042704",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-3/math_g2_m6_l3_equal_groups_doubles_bundling.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-3/math_g2_m6_l3_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l4_equal_groups_tape_diagrams",
+      "grade": 2,
+      "module": 6,
+      "lesson": 4,
+      "assessment_sha256": "1cc807178a1ed0003a12a044e99867a90ffce186819068161ffff369af4c4e2c",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-4/math_g2_m6_l4_equal_groups_tape_diagrams.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-4/math_g2_m6_l4_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l5_arrays_rows_columns",
+      "grade": 2,
+      "module": 6,
+      "lesson": 5,
+      "assessment_sha256": "4c5c1bb641885369ff0a672ba9f77e4ef30826460d5dc739455c0424d45cfdb8",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-5/math_g2_m6_l5_arrays_rows_columns.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-5/math_g2_m6_l5_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l6_arrays_decompose_repeated_addition",
+      "grade": 2,
+      "module": 6,
+      "lesson": 6,
+      "assessment_sha256": "68f679f8ba7fc5d98947b09d4162d14821eda7c5a636545beb445c50b18b0858",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-6/math_g2_m6_l6_arrays_decompose_repeated_addition.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-6/math_g2_m6_l6_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l7_arrays_math_drawings",
+      "grade": 2,
+      "module": 6,
+      "lesson": 7,
+      "assessment_sha256": "70f58b9ad73bf41d2fbc2d475e7300a593cf0d4eeef87b885bca67b61e2d805e",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-7/math_g2_m6_l7_arrays_math_drawings.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-7/math_g2_m6_l7_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l8_arrays_square_tiles_gaps",
+      "grade": 2,
+      "module": 6,
+      "lesson": 8,
+      "assessment_sha256": "00c7222bba0d41864513c4e62abd838b4d5b7ec675c2f227dcfcc15d970bcf97",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-8/math_g2_m6_l8_arrays_square_tiles_gaps.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-8/math_g2_m6_l8_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l9_equal_groups_word_problems",
+      "grade": 2,
+      "module": 6,
+      "lesson": 9,
+      "assessment_sha256": "f0cf4cfab886c98047505272d510eda91dfa062551b7f13d2ee9cd6bbfcbfa6b",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-9/math_g2_m6_l9_equal_groups_word_problems.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-9/math_g2_m6_l9_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l10_tiles_rectangles_arrays",
+      "grade": 2,
+      "module": 6,
+      "lesson": 10,
+      "assessment_sha256": "694c780c56ace9a40a8abad79865914651f44bb54a1771b34972cf1eda926f42",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-10/math_g2_m6_l10_tiles_rectangles_arrays.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-10/math_g2_m6_l10_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l11_tiles_one_row_to_arrays",
+      "grade": 2,
+      "module": 6,
+      "lesson": 11,
+      "assessment_sha256": "6e18752f8f5d824b2c59480e6a7d6ee2a8668cac4e06c7319ac3ce1cd0eadd6d",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-11/math_g2_m6_l11_tiles_one_row_to_arrays.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-11/math_g2_m6_l11_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l12_math_drawings_square_tiles",
+      "grade": 2,
+      "module": 6,
+      "lesson": 12,
+      "assessment_sha256": "d0647ac518726365a8ccd79f1a41b0f99271c9eaee9542c26f302046c8e4a115",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-12/math_g2_m6_l12_math_drawings_square_tiles.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-12/math_g2_m6_l12_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l13_decompose_rectangle_tiles",
+      "grade": 2,
+      "module": 6,
+      "lesson": 13,
+      "assessment_sha256": "9063e7150395a7f2ee482d615a25e9de0cf02895cf89634d9a34150cff532f09",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-13/math_g2_m6_l13_decompose_rectangle_tiles.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-13/math_g2_m6_l13_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l14_scissors_partition_rectangles",
+      "grade": 2,
+      "module": 6,
+      "lesson": 14,
+      "assessment_sha256": "209d84cd509ead20f72530ead5b779c34a4bc98208c6e1888ec94074e50bf05e",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-14/math_g2_m6_l14_scissors_partition_rectangles.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-14/math_g2_m6_l14_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l15_shade_arrays_repeated_addition",
+      "grade": 2,
+      "module": 6,
+      "lesson": 15,
+      "assessment_sha256": "687e7a900e18b7d72753d628b95fc47ece40feff39b6455d90d3f31567e552c0",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-15/math_g2_m6_l15_shade_arrays_repeated_addition.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-15/math_g2_m6_l15_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l16_grid_paper_designs_tessellation",
+      "grade": 2,
+      "module": 6,
+      "lesson": 16,
+      "assessment_sha256": "36ed943fef05856026529ce5d46ea4d0031717f9d7b9049acd2baa399c247c51",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-16/math_g2_m6_l16_grid_paper_designs_tessellation.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-16/math_g2_m6_l16_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l17_doubles_even_numbers",
+      "grade": 2,
+      "module": 6,
+      "lesson": 17,
+      "assessment_sha256": "3d8aeb42430ac12aa31d9d887b2b4d44a8c9672e20af3c0b66c2c79045f9f11c",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-17/math_g2_m6_l17_doubles_even_numbers.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-17/math_g2_m6_l17_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l18_pairing_skip_counting_even",
+      "grade": 2,
+      "module": 6,
+      "lesson": 18,
+      "assessment_sha256": "b71c41b29c7ec06ffcd4800d625631025f7279e9dd6c16b1b51598e98e50734f",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-18/math_g2_m6_l18_pairing_skip_counting_even.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-18/math_g2_m6_l18_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l19_even_pattern_ones_place_odd",
+      "grade": 2,
+      "module": 6,
+      "lesson": 19,
+      "assessment_sha256": "633ab6195870e296a5e8c8dbb82902ff5790a8f3f3abd0ac7b8160b896680bef",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-19/math_g2_m6_l19_even_pattern_ones_place_odd.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-19/math_g2_m6_l19_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m6_l20_rectangular_arrays_odd_even_sums",
+      "grade": 2,
+      "module": 6,
+      "lesson": 20,
+      "assessment_sha256": "d1a93e2042da8353ff6a24a26db6720a695d6892dcf468df2d7739e73104eb3f",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-20/math_g2_m6_l20_rectangular_arrays_odd_even_sums.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 6/Module 6/Math G2-M6 Lessons/lesson-wise/lesson-20/math_g2_m6_l20_lesson.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l1_sort_record_data_tables",
+      "grade": 2,
+      "module": 7,
+      "lesson": 1,
+      "assessment_sha256": "ddd74e8b528c358067faa6f4fbb3944f4222ddd79d8e53e407399ab58fd2ff93",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l1_sort_record_data_tables.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l2_picture_graphs",
+      "grade": 2,
+      "module": 7,
+      "lesson": 2,
+      "assessment_sha256": "60de951e16c42581cee8883a6c83c9ccfb20da0f574382d2293669cf78371e26",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l2_picture_graphs.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l3_bar_graphs_scale",
+      "grade": 2,
+      "module": 7,
+      "lesson": 3,
+      "assessment_sha256": "8458a4ce7dd7e4c671c671dd7b0a4150bb6a223413e903d69cccbf44b2746ff4",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l3_bar_graphs_scale.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l4_draw_bar_graph_from_data",
+      "grade": 2,
+      "module": 7,
+      "lesson": 4,
+      "assessment_sha256": "fe335cd0f0d39452915e00b6a5bafb930df7f98fcca5466b8d1745f6134b3b3b",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l4_draw_bar_graph_from_data.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l5_word_problems_bar_graph_money",
+      "grade": 2,
+      "module": 7,
+      "lesson": 5,
+      "assessment_sha256": "bb10f63f84af4d092cf9862d365386d6c481c1f0e6427ddccd99c801fe7120e8",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l5_word_problems_bar_graph_money.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l6_coin_values_count_up",
+      "grade": 2,
+      "module": 7,
+      "lesson": 6,
+      "assessment_sha256": "53820372d03635cf4fab9ed8b861c91835ae36c83a14f688146507f914f9782d",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l6_coin_values_count_up.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l7_coin_total_word_problems",
+      "grade": 2,
+      "module": 7,
+      "lesson": 7,
+      "assessment_sha256": "28ead9512ab71e44fe5c7790d364b9fb180e430fbd6dd4ccc591648adbda4c4a",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l7_coin_total_word_problems.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l8_bill_total_word_problems",
+      "grade": 2,
+      "module": 7,
+      "lesson": 8,
+      "assessment_sha256": "4880ea38a7adb29c106357b0af60a582d864d43de7ac63d60126f3f6dce0985d",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l8_bill_total_word_problems.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l9_same_value_coin_combinations",
+      "grade": 2,
+      "module": 7,
+      "lesson": 9,
+      "assessment_sha256": "d23f9dfebd27b24dcd62f1a2fbc4b7d2dba44544d682b3b407878be508d105fe",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l9_same_value_coin_combinations.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m7_l10_fewest_coins_for_a_value",
+      "grade": 2,
+      "module": 7,
+      "lesson": 10,
+      "assessment_sha256": "4f4fc76adb488c76f178e91c126f4da7e0c2250d4de993d5251d96bc5af49893",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_l10_fewest_coins_for_a_value.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 7/Module 7/Math G2-M7 Lessons/math_g2_m7_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l1_shape_attributes",
+      "grade": 2,
+      "module": 8,
+      "lesson": 1,
+      "assessment_sha256": "7498e92d08fbfc1ed5ee460585e7820da9d7fce1be769e8c4dde6ef7daa1ca8d",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l1_shape_attributes.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l2_naming_polygons",
+      "grade": 2,
+      "module": 8,
+      "lesson": 2,
+      "assessment_sha256": "4b30f0bb9f634cdaf9068402ce601a3bdb7d54e169fe0ef38581a5a55dca5ae3",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l2_naming_polygons.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l3_drawing_polygons",
+      "grade": 2,
+      "module": 8,
+      "lesson": 3,
+      "assessment_sha256": "c18feb2a34d0d24b4abd944dad06b4bb605ba4599b3e4dbdd4b6431114e683c4",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l3_drawing_polygons.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l4_quadrilateral_types",
+      "grade": 2,
+      "module": 8,
+      "lesson": 4,
+      "assessment_sha256": "5323f60ef3168be388a16d9d2ca31cdab2584a0f8674ec2612e3cd32b415dc4f",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l4_quadrilateral_types.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l5_cube_attributes",
+      "grade": 2,
+      "module": 8,
+      "lesson": 5,
+      "assessment_sha256": "98b7db84daeaf16dbea1dcfc5d879fe5910c6f214ef10cc65ae108805cab702d",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l5_cube_attributes.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l6_composite_shapes",
+      "grade": 2,
+      "module": 8,
+      "lesson": 6,
+      "assessment_sha256": "61a9c149b28a21aa7cb0bcc7a5e86db4ed34998e55ca22495d23dec006a883c8",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l6_composite_shapes.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l7_equal_shares_composite",
+      "grade": 2,
+      "module": 8,
+      "lesson": 7,
+      "assessment_sha256": "36022994accd5e248d8e0fb35adc2ae8e652e39300162a269de061354c533f0d",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l7_equal_shares_composite.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l8_pattern_block_fractions",
+      "grade": 2,
+      "module": 8,
+      "lesson": 8,
+      "assessment_sha256": "b500818b56576830e88a2fa02de3cfea8e2cb9d0c2a08c1bbced312d901cda75",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l8_pattern_block_fractions.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l9_partition_halves",
+      "grade": 2,
+      "module": 8,
+      "lesson": 9,
+      "assessment_sha256": "41f1461196cb73fa524a97fcc8fc000445384bd998ea63883e898fb5a602d0ed",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l9_partition_halves.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    },
+    {
+      "concept_id": "math_g2_m8_l10_thirds_and_fourths",
+      "grade": 2,
+      "module": 8,
+      "lesson": 10,
+      "assessment_sha256": "83e7856130bee60cdde25a9c63a2fc7774386fc12ce0198585cec98857dba157",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_l10_thirds_and_fourths.assessment_card.json",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/math_g2_m8_Lessons.json"
+    }
+  ]
+}

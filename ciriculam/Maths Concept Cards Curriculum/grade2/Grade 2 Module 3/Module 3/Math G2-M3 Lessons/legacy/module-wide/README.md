@@ -1,3 +1,3 @@
-# Archived Module 3 collection
+# Historical concept source
 
-These original JSON bytes are retained for provenance. Use ../../lesson-wise/module_index.json for active script inputs. They are excluded from active coverage and packages.
+The concept JSON is retained for provenance. Obsolete assessment bundles were removed from the current checkout; Git history retains them. Use the current concept-ID assessment index and lesson index for script inputs.

@@ -1,5 +1,3 @@
-# Archived module-wide pair
+# Historical concept source
 
-This combined Lessons 1–8 concept and mixed assessment are preserved for provenance.
-Use the eight individual pairs listed in ../../lesson-wise/module_index.json
-for one-lesson scripts. These archived files are excluded from active coverage and ZIPs.
+The concept JSON is retained for provenance. Obsolete assessment bundles were removed from the current checkout; Git history retains them. Use the current concept-ID assessment index and lesson index for script inputs.

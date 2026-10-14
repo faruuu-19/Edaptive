@@ -9,13 +9,15 @@
   "lessons_assessed": 20,
   "missing_source_lessons": [],
   "missing_assessment_lessons": [],
-  "script_input_rule": "Select one lesson. Pass its standalone concept object and standalone assessment object directly; match linked concept ID and version. Repository paths are relative to repository root.",
+  "script_input_rule": "Select one lesson; pass its concept and its standalone concept-ID assessment. Match linked concept ID/version and hashes. Paths are relative to repository root.",
   "extraction_provenance": {
     "original_source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/legacy/module-wide/math_g2_m5_lesson.json",
     "original_source_sha256": "444516d4dbad05a5dfd26c768ab2f8dd49c9112ae23857ef33b12fa68a58e692",
     "original_assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/legacy/module-wide/math_g2_m5_lesson.assessment_card.json",
     "original_assessment_sha256": "82897e72ce103191effb2b64860a4b66bf1152267e466845485c7d81fbebb216",
-    "content_policy": "Each original concept and matching full assessment is preserved exactly as a JSON object. Existing IDs and versions are unchanged."
+    "content_policy": "Each original concept and matching full assessment is preserved exactly as a JSON object. Existing IDs and versions are unchanged.",
+    "original_assessment_removed": true,
+    "assessment_history": "The previous assessment bundle was removed from the current checkout; its original bytes remain in Git history."
   },
   "pending_lessons": [],
   "lessons": [
@@ -26,10 +28,10 @@
       "concept_id": "math_g2_m5_l1_ten_hundred_more_less",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-1/math_g2_m5_l1_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-1/math_g2_m5_l1_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-1/math_g2_m5_l1_ten_hundred_more_less.assessment_card.json",
       "concept_sha256": "ac46367ebd05a001c455a94c3100db6aeb10abb839fe5189c74c3b2ac3ab2737",
       "assessment_sha256": "0e639b879df02ee96f10f4b0f96c97da2f0a514a2329196998a87d6d10932fca",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -39,10 +41,10 @@
       "concept_id": "math_g2_m5_l2_add_subtract_multiples_100",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-2/math_g2_m5_l2_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-2/math_g2_m5_l2_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-2/math_g2_m5_l2_add_subtract_multiples_100.assessment_card.json",
       "concept_sha256": "463bbc08b0f2f5267742d89e46483d0540d32b736e95bdf94a12b1b812c2e25b",
       "assessment_sha256": "401c6bb964799f94bb8613275e437a9d1cc7993f821a7dd8877d37c28499c9a8",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -52,10 +54,10 @@
       "concept_id": "math_g2_m5_l3_add_hundreds_and_tens",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-3/math_g2_m5_l3_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-3/math_g2_m5_l3_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-3/math_g2_m5_l3_add_hundreds_and_tens.assessment_card.json",
       "concept_sha256": "a0a235cc10d32d3b447a795055fb944076993a77d9d47581a8ef1893bdf97502",
       "assessment_sha256": "a6a678c35f678223b288ee1568766f6be6e524fbed2b24bd21371cd78c554698",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -65,10 +67,10 @@
       "concept_id": "math_g2_m5_l4_subtract_hundreds_and_tens",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-4/math_g2_m5_l4_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-4/math_g2_m5_l4_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-4/math_g2_m5_l4_subtract_hundreds_and_tens.assessment_card.json",
       "concept_sha256": "5b567bcf21be6aafa206eb2d9059e4b7458cbefd56525934769575b3a5adc28d",
       "assessment_sha256": "816aee6fbda205700a66bcf40f73799ddda3bc1d96c6506de55b415714a6a22a",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -78,10 +80,10 @@
       "concept_id": "math_g2_m5_l5_make_next_hundred_to_add",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-5/math_g2_m5_l5_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-5/math_g2_m5_l5_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-5/math_g2_m5_l5_make_next_hundred_to_add.assessment_card.json",
       "concept_sha256": "dde22f3b2d42cdaf5e3dbb5ae9a9980a2c695874978cec277fce555d14f7b3bb",
       "assessment_sha256": "2891596fb7447fe61d2dc5c930e4329791a3ab41e3c7239a22ebfd510e8ca2c7",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -91,10 +93,10 @@
       "concept_id": "math_g2_m5_l6_compensation_subtract_check",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-6/math_g2_m5_l6_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-6/math_g2_m5_l6_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-6/math_g2_m5_l6_compensation_subtract_check.assessment_card.json",
       "concept_sha256": "5bdc05937eefb199836d98cf6efb883eb30fd7883ce691e5cc81e9d30a9b1102",
       "assessment_sha256": "4610e03153230f8d8bfd0cea28e16597b98086febe328c248e3f63fd07bcfd2f",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -104,10 +106,10 @@
       "concept_id": "math_g2_m5_l7_share_critique_strategies",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-7/math_g2_m5_l7_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-7/math_g2_m5_l7_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-7/math_g2_m5_l7_share_critique_strategies.assessment_card.json",
       "concept_sha256": "0073998141ab558549f8e10f944d4499bfb598a93ccc8509957062d310d5eb5c",
       "assessment_sha256": "8ea1eb15b8a0ef7a9054b8edeffa5a5f2e642f78793e46dfc9c9e95e8f15c3c9",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -117,10 +119,10 @@
       "concept_id": "math_g2_m5_l8_disks_to_addition_algorithm",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-8/math_g2_m5_l8_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-8/math_g2_m5_l8_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-8/math_g2_m5_l8_disks_to_addition_algorithm.assessment_card.json",
       "concept_sha256": "5661f169811f5935d32f4b3123c41c1a37b0b8fce4ab88e35311fee7f4611e2e",
       "assessment_sha256": "fa550c0e9543c556d0efee9013f36b599c24fb0ddc4d640425c92fa1a32467b6",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -130,10 +132,10 @@
       "concept_id": "math_g2_m5_l9_add_with_disks_two_regroupings",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-9/math_g2_m5_l9_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-9/math_g2_m5_l9_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-9/math_g2_m5_l9_add_with_disks_two_regroupings.assessment_card.json",
       "concept_sha256": "10631e2f1607f0f20e4612c8a552b0c682ba7b55c39b98de9cf5c66849abf6bb",
       "assessment_sha256": "c907302715f63e1e3a0bdc644f0a4af3ad36bafd4e107905d42d94052818c8fb",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -143,10 +145,10 @@
       "concept_id": "math_g2_m5_l10_chip_drawings_addition",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-10/math_g2_m5_l10_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-10/math_g2_m5_l10_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-10/math_g2_m5_l10_chip_drawings_addition.assessment_card.json",
       "concept_sha256": "bdd7191231f876097df88613c37aa42249d66c7174922711ae7ce12ac8044c4d",
       "assessment_sha256": "edc37aeb2416a54e03aeb057c72e5ef15b74d27e14e1a91302050145dd3aa87e",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -156,10 +158,10 @@
       "concept_id": "math_g2_m5_l11_chip_drawings_two_compositions",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-11/math_g2_m5_l11_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-11/math_g2_m5_l11_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-11/math_g2_m5_l11_chip_drawings_two_compositions.assessment_card.json",
       "concept_sha256": "fe710440ee5d9ea4156b219ec35a4a117ddd4f68ad5121820c5a0abc2d060c2e",
       "assessment_sha256": "6f70967bd2470f6825524080dcea517128b753c2b26fe61ee80d1560a444aea0",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -169,10 +171,10 @@
       "concept_id": "math_g2_m5_l12_choose_addition_strategy",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-12/math_g2_m5_l12_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-12/math_g2_m5_l12_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-12/math_g2_m5_l12_choose_addition_strategy.assessment_card.json",
       "concept_sha256": "83aeeb6526bb0f1ff80aaf8d9f8830f07f37441729c9e60b4f930405ac01b2e9",
       "assessment_sha256": "e3c97b8db522475329bb986108aec6ed8f3869a8307277575f30f489be8d5e01",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -182,10 +184,10 @@
       "concept_id": "math_g2_m5_l13_disks_to_subtraction_algorithm",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-13/math_g2_m5_l13_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-13/math_g2_m5_l13_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-13/math_g2_m5_l13_disks_to_subtraction_algorithm.assessment_card.json",
       "concept_sha256": "d304200ae299c00bfc1f7aef5aec2cb4d7af7523a71ab061e403d2b4c3c0ae22",
       "assessment_sha256": "a674f0f1ed9a73b66d9176af9466c98f3c3269da75599cc20c411f773b58b765",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -195,10 +197,10 @@
       "concept_id": "math_g2_m5_l14_subtract_with_chip_drawings",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-14/math_g2_m5_l14_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-14/math_g2_m5_l14_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-14/math_g2_m5_l14_subtract_with_chip_drawings.assessment_card.json",
       "concept_sha256": "099c284ccd123afdbdaab189a434589d224b6eb6b7709cc3cfa07c5e70cc0c23",
       "assessment_sha256": "5151915b523333d15a4655cbed74f74a6faa1b85597aa9e02ae3c0b0aa555dd6",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -208,10 +210,10 @@
       "concept_id": "math_g2_m5_l15_subtract_two_unbundlings_check",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-15/math_g2_m5_l15_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-15/math_g2_m5_l15_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-15/math_g2_m5_l15_subtract_two_unbundlings_check.assessment_card.json",
       "concept_sha256": "236fc5cb9d72087a64ec083e18107fd10026b0a5084e895e2fe6dcea648b47c1",
       "assessment_sha256": "033427ca09707537e5651010fab4d6917d0108d3e7d081ab2977f5fad2c86c08",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -221,10 +223,10 @@
       "concept_id": "math_g2_m5_l16_subtract_zero_tens_place",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-16/math_g2_m5_l16_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-16/math_g2_m5_l16_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-16/math_g2_m5_l16_subtract_zero_tens_place.assessment_card.json",
       "concept_sha256": "09df1c12ea8a75a01318dbc1523513512881c9c33ae7d8416411fd590affb57e",
       "assessment_sha256": "56204c3efb20f6129786174ab14eef9a741ad02602b0a76d9d2e5a760805ad89",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -234,10 +236,10 @@
       "concept_id": "math_g2_m5_l17_subtract_from_hundreds_zero_tens",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-17/math_g2_m5_l17_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-17/math_g2_m5_l17_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-17/math_g2_m5_l17_subtract_from_hundreds_zero_tens.assessment_card.json",
       "concept_sha256": "7bfc0e9f9b7845499fa883cb529641686c919805e50bf8949c9edebaa93bd437",
       "assessment_sha256": "224ea70d5c768bf6a32775cc8b82de1e1e956cbc70069b77b72411f267ce06e8",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -247,10 +249,10 @@
       "concept_id": "math_g2_m5_l18_alternate_ways_subtract_zero",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-18/math_g2_m5_l18_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-18/math_g2_m5_l18_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-18/math_g2_m5_l18_alternate_ways_subtract_zero.assessment_card.json",
       "concept_sha256": "4d5ef028a134cd444149c6f1724bdc700b2fc912584492d8f6ae989f5ace13b2",
       "assessment_sha256": "240250a9eaed66c956a3daac3bb4179b72b3d0d03f835bf5149a891aa7e79583",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -260,10 +262,10 @@
       "concept_id": "math_g2_m5_l19_choose_add_subtract_strategy",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-19/math_g2_m5_l19_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-19/math_g2_m5_l19_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-19/math_g2_m5_l19_choose_add_subtract_strategy.assessment_card.json",
       "concept_sha256": "f0ccacaf15f9c1f378cba4b4b4d4ad72491bc6e3f22363bc9f8bb288907baacf",
       "assessment_sha256": "7ea29e98d54ee7db88d2d5c8c111b15e9473ad72c24f4b6b097b4eccc9fa0e00",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     },
     {
@@ -273,10 +275,10 @@
       "concept_id": "math_g2_m5_l20_solve_by_two_strategies",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-20/math_g2_m5_l20_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-20/math_g2_m5_l20_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 5/Module 5/Math G2-M5 Lessons/lesson-wise/lesson-20/math_g2_m5_l20_solve_by_two_strategies.assessment_card.json",
       "concept_sha256": "e18e72454d3c4919760254395ed3b9806c61ee211c57749ae5a6713eed9972d3",
       "assessment_sha256": "0e51ee77b599305ac09064d17536e4e7e618fc322445103fe5ae092c22bb7296",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     }
   ]

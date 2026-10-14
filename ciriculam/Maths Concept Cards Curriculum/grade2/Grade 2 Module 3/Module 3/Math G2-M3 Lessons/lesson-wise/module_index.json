@@ -51,13 +51,15 @@
     20,
     21
   ],
-  "script_input_rule": "Select one lesson. Pass its standalone concept object and standalone assessment object directly; match linked concept ID and version. Repository paths are relative to repository root.",
+  "script_input_rule": "Select one lesson; pass its concept and its standalone concept-ID assessment. Match linked concept ID/version and hashes. Paths are relative to repository root.",
   "extraction_provenance": {
     "original_source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/legacy/module-wide/math_g2_m3_Lessons.json",
     "original_source_sha256": "90fcdaae94d8dd41debf44d011150f5f4e2309fe938b84951e40e6e306e3a3a8",
     "original_assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/legacy/module-wide/math_g2_m3_Lessons.assessment_card.json",
     "original_assessment_sha256": "6a7caafc77eac56e9b2d20337edfafe922f336fcb257e051d5edefd9756def1a",
-    "content_policy": "Each original concept and matching full assessment is preserved exactly as a JSON object. Existing IDs and versions are unchanged."
+    "content_policy": "Each original concept and matching full assessment is preserved exactly as a JSON object. Existing IDs and versions are unchanged.",
+    "original_assessment_removed": true,
+    "assessment_history": "The previous assessment bundle was removed from the current checkout; its original bytes remain in Git history."
   },
   "pending_lessons": [
     {
@@ -189,10 +191,10 @@
       "concept_id": "math_g2_m3_l1_bundle_count_units",
       "concept_version": 1,
       "source_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/lesson-wise/lesson-1/math_g2_m3_l1_lesson.json",
-      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/lesson-wise/lesson-1/math_g2_m3_l1_lesson.assessment_card.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 3/Module 3/Math G2-M3 Lessons/lesson-wise/lesson-1/math_g2_m3_l1_bundle_count_units.assessment_card.json",
       "concept_sha256": "5bf8b606cdb088e8fd7698d729a00ad5ddf3db062ac2ce2526dd9549e4ee9abd",
       "assessment_sha256": "fe03da7a26b50a45dfc81d8c7e32a6befcc409fe5f09435603d947efc7793c7e",
-      "assessment_format": "single_lesson",
+      "assessment_format": "single_concept",
       "preserved_without_content_changes": true
     }
   ]

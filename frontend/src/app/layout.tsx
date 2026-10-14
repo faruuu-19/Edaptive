@@ -1,3 +1,4 @@
+import { ScheduledAlarm } from "@/features/lesson-player";
 import type { Metadata } from "next";
 
 // Fonts are bundled from npm (@fontsource, OFL licence) so the app works fully offline.
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body><ScheduledAlarm />{children}</body>
     </html>
   );
 }

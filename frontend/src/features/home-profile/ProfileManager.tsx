@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { type FormEvent, useEffect, useState } from "react";
+import { type FormEvent, type ReactNode, useEffect, useState } from "react";
 
 import {
   archiveProfile,
@@ -22,7 +22,7 @@ import { LockIcon } from "./icons";
 const EMPTY: ProfileInput = { display_name: "", grade: 1, avatar_key: DEFAULT_AVATAR };
 
 /** Parent-only: add, edit and archive children. Render inside the auth feature's ParentGate. */
-export function ProfileManager() {
+export function ProfileManager({ headerActions }: { headerActions?: ReactNode } = {}) {
   const router = useRouter();
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [editing, setEditing] = useState<Profile | null>(null);
@@ -67,6 +67,7 @@ export function ProfileManager() {
           <h1 style={{ fontSize: "2.1rem" }}>Children</h1>
         </div>
         <div className="row">
+          {headerActions}
           <Link className="btn" href="/">
             Profiles screen
           </Link>
@@ -86,13 +87,15 @@ export function ProfileManager() {
             )}
             {profiles.map((p) => (
               <div key={p.id} className={styles.listItem}>
-                <Avatar name={p.display_name} avatarKey={p.avatar_key} size={46} />
-                <div className={styles.grow}>
-                  <div className={styles.listName}>{p.display_name}</div>
-                  <div className={styles.grade} style={{ fontWeight: 400 }}>
-                    Grade {p.grade}
+                <Link className={styles.profileLink} href={`/parent/${p.id}`} aria-label={`Open ${p.display_name}'s parent dashboard`}>
+                  <Avatar name={p.display_name} avatarKey={p.avatar_key} size={46} />
+                  <div className={styles.grow}>
+                    <div className={styles.listName}>{p.display_name}</div>
+                    <div className={styles.grade} style={{ fontWeight: 400 }}>
+                      Grade {p.grade}
+                    </div>
                   </div>
-                </div>
+                </Link>
                 <div className={styles.itemActions}>
                   <button className="btn" onClick={() => setEditing(p)}>
                     Edit

@@ -2,3 +2,4 @@
 export { ChildHome } from "./ChildHome";
 export { ProfileManager } from "./ProfileManager";
 export { ProfilePicker } from "./ProfilePicker";
+export { Avatar } from "./Avatar";

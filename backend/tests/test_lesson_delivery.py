@@ -384,3 +384,57 @@ def test_parent_cannot_read_another_households_routine_or_mark_narration(parent_
         ).status_code
         == 403
     )
+
+
+def _voice(monkeypatch, *, job, lesson=None):
+    def fake(path, payload=None, timeout=5):
+        if path.endswith("/lesson"):
+            if lesson is None:
+                raise ValueError("The prepared lesson is not ready.")
+            return lesson
+        return job
+
+    monkeypatch.setattr(runtime, "voice_request", fake)
+
+
+FINISHED = {"status": "ready", "percent": 100, "message": "Lesson ready", "completed": 84, "total": 84}
+LESSON = {"segments": [{"id": "a"}, {"id": "b"}], "timing": TIMING}
+
+
+def test_a_finished_voice_job_becomes_ready_not_stuck_at_98(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    state = copy.deepcopy(row.state)
+    _voice(monkeypatch, job=dict(FINISHED), lesson=LESSON)
+    assert runtime.refresh_preparation(state, 0) is False
+    slot = state["slots"][0]
+    assert slot["preparation"]["status"] == "ready"
+    assert slot["preparation"]["percent"] == 100
+    assert slot["segment_count"] == 2 and slot["timing"] == TIMING
+    # Saved like the worker saves it, the child can now join at class time.
+    row.state = state
+    db.flush()
+    monkeypatch.setattr(runtime.time, "time", lambda: slot["start_ms"] / 1000 + 1)
+    assert action(student_client, result, slot, "start").status_code == 200
+
+
+def test_a_lesson_that_cannot_be_fetched_yet_stays_checking_and_is_retried(
+    parent_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    state = copy.deepcopy(db.get(Timetable, uuid.UUID(result["id"])).state)
+    _voice(monkeypatch, job=dict(FINISHED), lesson=None)
+    with pytest.raises(ValueError):
+        runtime.refresh_preparation(state, 0)
+    prep = state["slots"][0]["preparation"]
+    assert prep["status"] == "checking" and prep["percent"] == 98
+
+
+def test_a_lesson_still_being_prepared_keeps_the_worker_waiting(parent_client, child, db, monkeypatch):
+    result = create_plan(parent_client, child)
+    state = copy.deepcopy(db.get(Timetable, uuid.UUID(result["id"])).state)
+    _voice(monkeypatch, job={"status": "preparing", "percent": 40, "message": "Working"})
+    assert runtime.refresh_preparation(state, 0) is True
+    assert state["slots"][0]["preparation"]["status"] == "preparing"

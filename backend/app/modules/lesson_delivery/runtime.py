@@ -240,6 +240,19 @@ def apply_prepared(state, index, lesson, status):
     shift(state, index + 1, delta)
 
 
+def refresh_preparation(state, index):
+    """Move one planned lesson's preparation forward; True while the voice service is still working."""
+    slot = state["slots"][index]
+    status = voice_request("/jobs", {"job_id": slot["job_id"], "concept_id": slot["concept_id"]})
+    slot["preparation"] = status
+    if status["status"] == "ready":
+        # Fetch the finished lesson before offering Join class. A failure leaves "checking" and is retried.
+        slot["preparation"] = {**status, "status": "checking", "percent": 98}
+        lesson = voice_request("/jobs/" + slot["job_id"] + "/lesson")
+        apply_prepared(state, index, lesson, {**status, "status": "ready", "percent": 100})
+    return status["status"] in {"queued", "preparing"}
+
+
 def poll_preparation():
     """Recoverable dispatcher: job ids and progress survive either service restarting."""
     while True:
@@ -281,17 +294,7 @@ def poll_preparation():
                         if slot["preparation"]["status"] in {"ready", "failed"}:
                             continue
                         try:
-                            status = voice_request(
-                                "/jobs", {"job_id": slot["job_id"], "concept_id": slot["concept_id"]}
-                            )
-                            slot["preparation"] = status
-                            if status["status"] == "ready":
-                                slot["preparation"]["status"] = "checking"
-                                slot["preparation"]["percent"] = 98
-                                lesson = voice_request("/jobs/" + slot["job_id"] + "/lesson")
-                                apply_prepared(state, index, lesson, status)
-                            # One scheduled preparation at a time across the voice process.
-                            if status["status"] in {"queued", "preparing"}:
+                            if refresh_preparation(state, index):
                                 break
                         except (OSError, ValueError) as error:
                             slot["preparation"]["message"] = (

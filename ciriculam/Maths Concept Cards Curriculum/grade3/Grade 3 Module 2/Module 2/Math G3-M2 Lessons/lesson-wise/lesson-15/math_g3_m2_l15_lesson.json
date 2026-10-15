@@ -1,0 +1,1212 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l15_add_measurements_rename_once",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-d-lesson-15.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 15",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.MD.2",
+    "3.NBT.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Add measurements with the standard algorithm. Rename 10 ones as 1 ten when you need to.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g2_add_within_1000",
+    "ext_g3_m2_rounding"
+  ],
+  "explanations": [
+    {
+      "id": "exp_disks",
+      "title": "Add with place value disks",
+      "text": "Show 56 and 27 with disks. 6 ones plus 7 ones is 13 ones. Change 10 ones for 1 ten.",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_algorithm",
+      "title": "The standard algorithm",
+      "text": "Write the numbers in columns. Add the ones. If you get 10 or more, rename them as a ten and write it in the tens column.",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (renaming in the algorithm is the same as changing with disks)"
+      }
+    },
+    {
+      "id": "exp_mental",
+      "title": "Mental math can be quicker",
+      "text": "For 39 plus 8, add 1 to make 40, then add 7 more. 39 plus 8 equals 47.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (possible strategies)"
+      }
+    },
+    {
+      "id": "exp_keep_unit",
+      "title": "Keep the unit",
+      "text": "56 milliliters plus 27 milliliters equals 83 milliliters. Always say the unit in the answer.",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (What unit do we need to include?)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_56_27",
+      "title": "56 mL plus 27 mL",
+      "text": "Ones: 6 plus 7 is 13. Write 3, rename 1 ten. Tens: 5 plus 2 plus 1 is 8. Answer: 83 milliliters.",
+      "asset_ids": [
+        "a_place_value_chart",
+        "a_beaker_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_46_5",
+      "title": "46 mL plus 5 mL",
+      "text": "46 plus 4 is 50. 50 plus 1 more is 51 milliliters.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (possible strategy)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "There are 100 centimeters in 1 meter. How many centimeters are in 8 meters?",
+      "asset_ids": [],
+      "stimulus": {
+        "meters": 8
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole with Measurement Units"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "45 minutes plus how many minutes equals 1 hour?",
+      "asset_ids": [],
+      "stimulus": {
+        "part": 45,
+        "whole": 60
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole (45 minutes)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "1 kilogram minus 650 grams equals how many grams?",
+      "asset_ids": [],
+      "stimulus": {
+        "whole_g": 1000,
+        "minus_g": 650
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole (1 kg − 650 g)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "Round 1,678 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "value": 1678
+      },
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round Three- and Four-Digit Numbers (1,678)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Use mental math. What is 125 grams plus 7 grams?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_g": [
+          125,
+          7
+        ]
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_make_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem, item c"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Beaker A has 56 milliliters. Beaker B has 27 milliliters. What is 6 ones plus 7 ones?",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "stimulus": {
+        "parts_ml": [
+          56,
+          27
+        ]
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_ones_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "56 milliliters plus 27 milliliters. What is the total?",
+      "asset_ids": [
+        "a_place_value_chart",
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "parts_ml": [
+          56,
+          27
+        ]
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_rename",
+        "h_ones_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Marcus erases 32 centimeters from Lisa's line. Now it is 187 centimeters. How long was Lisa's line?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "now_cm": 187,
+        "erased_cm": 32
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_tape",
+        "h_rename"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Lisa and Marcus)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "John reads 74 minutes on Wednesday. On Thursday he reads 17 minutes more. How many minutes in total?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "wed": 74,
+        "more": 17
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_tape",
+        "h_rename"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (John)"
+      }
+    },
+    {
+      "id": "q_ps_1b",
+      "kind": "practice",
+      "text": "46 milliliters plus 25 milliliters equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_ml": [
+          46,
+          25
+        ]
+      },
+      "rubric_id": "r_ps_1b",
+      "hint_ids": [
+        "h_rename",
+        "h_ones_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1b"
+      }
+    },
+    {
+      "id": "q_ps_1e",
+      "kind": "practice",
+      "text": "509 centimeters plus 83 centimeters equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_cm": [
+          509,
+          83
+        ]
+      },
+      "rubric_id": "r_ps_1e",
+      "hint_ids": [
+        "h_rename",
+        "h_ones_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1e"
+      }
+    },
+    {
+      "id": "q_ps_1i",
+      "kind": "practice",
+      "text": "480 grams plus 476 grams equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_g": [
+          480,
+          476
+        ]
+      },
+      "rubric_id": "r_ps_1i",
+      "hint_ids": [
+        "h_rename",
+        "h_ones_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1i"
+      }
+    },
+    {
+      "id": "q_ps_1j",
+      "kind": "practice",
+      "text": "1 liter 245 milliliters plus 2 liters 412 milliliters. What is the total?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": [
+          1,
+          245
+        ],
+        "b": [
+          2,
+          412
+        ]
+      },
+      "rubric_id": "r_ps_1j",
+      "hint_ids": [
+        "h_ones_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1j"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Greg mows the front lawn in 15 minutes. The back takes 17 minutes more. How long does he mow in total?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "front": 15,
+        "more": 17
+      },
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "345 kilometers plus 239 kilometers equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_km": [
+          345,
+          239
+        ]
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_rename",
+        "h_ones_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 1c"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Jen drinks apple juice (125 milliliters) and water (248 milliliters). How much does she drink?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_ml": [
+          125,
+          248
+        ]
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_rename",
+        "h_ones_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2a"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "When would you use mental math instead of the standard algorithm?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_make_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "800",
+          "eight hundred",
+          "800 centimeters",
+          "eight hundred centimeters"
+        ]
+      },
+      "correct": "Says 800.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole (S: 800 centimeters.)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 minutes",
+          "fifteen minutes"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole (45 minutes)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "350",
+          "three hundred fifty",
+          "350 grams",
+          "three hundred fifty grams"
+        ]
+      },
+      "correct": "Says 350.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole (1 kg − 650 g)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1700",
+          "one thousand seven hundred",
+          "1,700"
+        ]
+      },
+      "correct": "Says 1700.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round Three- and Four-Digit Numbers (1,678)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "132",
+          "one hundred thirty-two",
+          "132 grams",
+          "one hundred thirty-two grams"
+        ]
+      },
+      "correct": "Says 132.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (possible strategy: 125 g + 5 g + 2 g = 132 g)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen",
+          "13 ones",
+          "thirteen ones"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 13 ones.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "83",
+          "eighty-three",
+          "83 milliliters",
+          "eighty-three milliliters"
+        ]
+      },
+      "correct": "Says 83.",
+      "partial": "Says 73 (forgot the renamed ten).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 83 milliliters.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "219",
+          "two hundred nineteen",
+          "219 centimeters",
+          "two hundred nineteen centimeters"
+        ]
+      },
+      "correct": "Says 219.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Lisa and Marcus)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "165",
+          "one hundred sixty-five",
+          "165 minutes",
+          "one hundred sixty-five minutes"
+        ]
+      },
+      "correct": "Says 165.",
+      "partial": "Says 91 (only Thursday).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (John)"
+      }
+    },
+    {
+      "id": "r_ps_1b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "71",
+          "seventy-one",
+          "71 milliliters",
+          "seventy-one milliliters"
+        ]
+      },
+      "correct": "Says 71.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1b"
+      }
+    },
+    {
+      "id": "r_ps_1e",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "592",
+          "five hundred ninety-two",
+          "592 centimeters",
+          "five hundred ninety-two centimeters"
+        ]
+      },
+      "correct": "Says 592.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1e"
+      }
+    },
+    {
+      "id": "r_ps_1i",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "956",
+          "nine hundred fifty-six",
+          "956 grams",
+          "nine hundred fifty-six grams"
+        ]
+      },
+      "correct": "Says 956.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1i"
+      }
+    },
+    {
+      "id": "r_ps_1j",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 liters 657 milliliters",
+          "3 L 657 mL",
+          "3 liters and 657 milliliters"
+        ]
+      },
+      "correct": "Says 3 liters 657 milliliters.",
+      "partial": "Gets the liters or the milliliters right, but not both.",
+      "incorrect": "Gives a different amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1j"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "47",
+          "forty-seven",
+          "47 minutes",
+          "forty-seven minutes"
+        ]
+      },
+      "correct": "Says 47.",
+      "partial": "Says 32 (only the back lawn).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "584",
+          "five hundred eighty-four",
+          "584 kilometers",
+          "five hundred eighty-four kilometers"
+        ]
+      },
+      "correct": "Says 584.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 1c"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "373",
+          "three hundred seventy-three",
+          "373 milliliters",
+          "three hundred seventy-three milliliters"
+        ]
+      },
+      "correct": "Says 373.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2a"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says mental math is quick when one number is close to a ten or small (like 46 plus 5); use the algorithm for bigger numbers with renaming.",
+      "partial": "Gives a reason for only one of the two.",
+      "incorrect": "Says you must always use the algorithm.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note (mental math can be efficient even when renaming is required)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_ones_first",
+      "level": 1,
+      "text": "Start with the ones. Add the ones column first.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_rename",
+      "level": 2,
+      "text": "Do you have 10 or more ones? Rename 10 ones as 1 ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (change 10 ones for 1 ten)"
+      }
+    },
+    {
+      "id": "h_make_ten",
+      "level": 2,
+      "text": "Make the next ten first, then add what is left.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (possible strategies)"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 3,
+      "text": "Draw a tape diagram. Find the unknown part first if there are two steps.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (tape diagram for Problem 4)"
+      }
+    },
+    {
+      "id": "h_bond",
+      "level": 1,
+      "text": "Think of the whole: 1 hour is 60 minutes, 1 liter is 1,000 milliliters.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole with Measurement Units"
+      }
+    },
+    {
+      "id": "h_round",
+      "level": 1,
+      "text": "Find the two tens or hundreds on each side. Is it past halfway?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round Three- and Four-Digit Numbers"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_place_value_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Disks or digits must be exact in each place, and regrouping (bundling or unbundling) must be shown step by step.",
+      "description": "A place value chart (hundreds, tens, ones) with number disks that can be bundled or unbundled.",
+      "must_show_exactly": [
+        "Columns: hundreds, tens, ones",
+        "Exactly the disks or digits in the stimulus",
+        "Regrouping shown as 10 of one unit becoming 1 of the next",
+        "q_pr_1: disks for 56 above disks for 27",
+        "q_pr_2: 56 mL and 27 mL beakers; disks regrouped"
+      ],
+      "states_or_frames": [
+        "start number",
+        "regroup step",
+        "result"
+      ],
+      "interaction": "Child or tutor moves disks. Child answers by voice or typing.",
+      "alt_text": "A place value chart with hundreds, tens and ones.",
+      "used_by": [
+        "ex_56_27",
+        "exp_algorithm",
+        "exp_disks",
+        "q_pr_1",
+        "q_pr_2"
+      ],
+      "generation_caption": "Three-column place value chart labelled hundreds, tens, ones, with round number disks, flat colours. [Build by code]"
+    },
+    {
+      "asset_id": "a_beaker_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Liquid level and scale marks must be exact.",
+      "description": "Two beakers: Beaker A with 56 mL and Beaker B with 27 mL; pouring one into the other shows 83 mL.",
+      "must_show_exactly": [
+        "Beaker A at exactly 56 mL",
+        "Beaker B at exactly 27 mL",
+        "After pouring: exactly 83 mL",
+        "q_pr_2: 56 mL and 27 mL beakers; disks regrouped"
+      ],
+      "states_or_frames": [
+        "two beakers side by side",
+        "B poured into A",
+        "A shows 83 mL"
+      ],
+      "interaction": "Tutor sets the scale and level. Child answers by voice or typing.",
+      "alt_text": "A container with a scale, filled with water.",
+      "used_by": [
+        "ex_56_27",
+        "exp_keep_unit",
+        "q_pr_2"
+      ],
+      "generation_caption": "Clear flat beaker with a vertical scale of evenly spaced marks and blue water inside, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Unit bars must be exactly equal and the number of units must be exact. Labels and the question mark must be placed exactly.",
+      "description": "A tape diagram: one long bar cut into equal units. A label shows the size of a unit or the total, and a question mark shows the unknown.",
+      "must_show_exactly": [
+        "Exactly the number of equal units given in the stimulus",
+        "All units the same length",
+        "Known value labelled, unknown shown as a question mark",
+        "q_pr_3: tape: 187 cm and 32 cm, whole ?",
+        "q_pr_4: Wed bar 74, Thu bar 74 + 17",
+        "q_ps_4: front bar 15, back bar 15 + 17"
+      ],
+      "states_or_frames": [
+        "empty bar",
+        "bar cut into units",
+        "labels and question mark shown"
+      ],
+      "interaction": "Display only, or child taps a unit to label it. Child answers by voice or typing.",
+      "alt_text": "A bar cut into equal parts with a question mark.",
+      "used_by": [
+        "q_pr_3",
+        "q_pr_4",
+        "q_ps_4"
+      ],
+      "generation_caption": "Clean horizontal bar divided into equal rectangular units, with a brace and a question mark, flat colours, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    },
+    {
+      "id": "na_counters",
+      "name": "Hands-on counters or objects",
+      "reason": "Physical materials; replaced by on-screen widgets where the card uses them.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set items 2-3; Homework item 5",
+      "issue": "The popcorn and pretzel weights, Jason and Andrea's beaker table, and Kylie's three object weights exist only as pictures. Not used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Problem Set 1a, c, d, f, g, h, k; Exit Ticket 1a-b, 2 (Brianna); Homework 1a-f, 2b, 3, 4 repeat used patterns (one renaming, adding mixed units, compare-then-total)."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "q_ps_1j, r_ps_1j",
+      "issue": "Mixed-unit answer (liters and milliliters). Exact accept list holds three wordings; check the Tutor normalises others (for example '3,657 mL')."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposal, not added: forgetting to add the renamed ten (56 + 27 = 73), linked only as partial in r_pr_2."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 15, 350, 1,700, 219, 165, 71, 592, 956, 3 L 657 mL, 47, 584, 373. Recheck."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "No Sprint",
+      "issue": "This lesson has no Sprint."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g2_add_within_1000 (Grade 2 addition within 1,000 with place value disks); ext_g3_m2_rounding (rounding to the nearest ten and hundred, Lessons 12-14 (fluency)). Replace with real card ids after review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available: a_place_value_chart, a_beaker_widget, a_tape_diagram. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.MD.2, 3.NBT.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

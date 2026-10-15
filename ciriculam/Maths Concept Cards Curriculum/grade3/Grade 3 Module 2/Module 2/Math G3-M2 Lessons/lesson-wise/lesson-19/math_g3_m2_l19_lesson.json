@@ -1,0 +1,1159 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l19_subtract_decompose_twice",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-e-lesson-19.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 19",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.NBT.2",
+    "3.MD.2",
+    "3.NBT.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Subtract measurements when you must unbundle twice, even when the top number has zeros.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_subtract_decompose_once"
+  ],
+  "explanations": [
+    {
+      "id": "exp_twice",
+      "title": "Unbundle twice",
+      "text": "223 minus 194: not enough ones, so unbundle a ten. Not enough tens, so unbundle a hundred. Then subtract.",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "exp_zero_tens",
+      "title": "When the tens digit is zero",
+      "text": "703 has 0 tens, so you cannot unbundle a ten yet. First change 1 hundred into 10 tens. Then change 1 ten into 10 ones.",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "exp_prepare",
+      "title": "Prepare before subtracting",
+      "text": "Unbundle every place that needs it before you subtract anything.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Students should prepare their problems... before performing the operation.)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_223_194",
+      "title": "223 g minus 194 g",
+      "text": "Unbundle: 1 hundred, 11 tens, 13 ones. 13 minus 4 is 9. 11 minus 9 is 2. 1 minus 1 is 0. The apple is 29 grams heavier.",
+      "asset_ids": [
+        "a_place_value_chart",
+        "a_tape_diagram"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "ex_703_124",
+      "title": "703 mL minus 124 mL",
+      "text": "703 becomes 6 hundreds, 9 tens and 13 ones. Subtract to get 579 milliliters.",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "42 tens minus 5 tens equals how many tens?",
+      "asset_ids": [],
+      "stimulus": {
+        "a_tens": 42,
+        "b_tens": 5
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_units"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtract Mentally (42 tens – 5 tens)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Round 1,450 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "value": 1450
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round Three- and Four-Digit Numbers (1,450)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "practice",
+      "text": "908 grams minus 425 grams equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 908,
+        "b": 425
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_enough",
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Use Subtraction Algorithm (908 g – 425 g)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "An apple and an orange weigh 417 grams together. The apple weighs 223 grams. What does the orange weigh?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "whole_g": 417,
+        "part_g": 223
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_tape",
+        "h_enough"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "223 minus 194. After you unbundle 1 ten, how many tens and ones are there?",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "stimulus": {
+        "a": 223,
+        "b": 194
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "The apple weighs 223 grams. The orange weighs 194 grams. How much heavier is the apple?",
+      "asset_ids": [
+        "a_place_value_chart",
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "a": 223,
+        "b": 194
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_enough",
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "764 grams minus 485 grams equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 764,
+        "b": 485
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_enough",
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (764 g – 485 g)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "703 minus 124. The tens digit is 0. What do you unbundle first?",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "stimulus": {
+        "a": 703,
+        "b": 124
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_zero"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Kerrin had 703 milliliters. Now 124 milliliters are left. How much did she pour out?",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "stimulus": {
+        "a": 703,
+        "b": 124
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_zero",
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "500 grams minus 467 grams equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 500,
+        "b": 467
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_zero",
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (500 g – 467 g)"
+      }
+    },
+    {
+      "id": "q_ps_1d",
+      "kind": "practice",
+      "text": "641 grams minus 387 grams equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 641,
+        "b": 387
+      },
+      "rubric_id": "r_ps_1d",
+      "hint_ids": [
+        "h_enough",
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1d"
+      }
+    },
+    {
+      "id": "q_ps_1f",
+      "kind": "practice",
+      "text": "700 milliliters minus 452 milliliters equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 700,
+        "b": 452
+      },
+      "rubric_id": "r_ps_1f",
+      "hint_ids": [
+        "h_zero",
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1f"
+      }
+    },
+    {
+      "id": "q_ps_1h",
+      "kind": "practice",
+      "text": "5 liters 920 milliliters minus 3 liters 869 milliliters. What is left?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": [
+          5,
+          920
+        ],
+        "b": [
+          3,
+          869
+        ]
+      },
+      "rubric_id": "r_ps_1h",
+      "hint_ids": [
+        "h_enough"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1h"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "The drive is 617 kilometers. David has 468 kilometers left. How far has he driven?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "whole_km": 617,
+        "left_km": 468
+      },
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_tape",
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Tank B holds 400 liters. Tank A holds 165 fewer liters. How much does Tank A hold?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "b_l": 400,
+        "fewer_l": 165
+      },
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_tape",
+        "h_zero"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "A cow weighs 725 kilograms. The sheep weighs 647 kilograms less. How much does the sheep weigh?",
+      "asset_ids": [],
+      "stimulus": {
+        "cow_kg": 725,
+        "less_kg": 647
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_tape",
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Why is it important to unbundle all your units before you subtract?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_enough"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "37",
+          "thirty-seven",
+          "37 tens",
+          "thirty-seven tens",
+          "370"
+        ]
+      },
+      "correct": "Says 37.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtract Mentally (42 tens – 5 tens)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1500",
+          "one thousand five hundred",
+          "1,500"
+        ]
+      },
+      "correct": "Says 1500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round Three- and Four-Digit Numbers (1,450)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "483",
+          "four hundred eighty-three",
+          "483 grams",
+          "four hundred eighty-three grams"
+        ]
+      },
+      "correct": "Says 483.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Use Subtraction Algorithm (908 g – 425 g)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "194",
+          "one hundred ninety-four",
+          "194 grams",
+          "one hundred ninety-four grams"
+        ]
+      },
+      "correct": "Says 194.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (her orange weighs 194 grams)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 1 ten and 13 ones.",
+      "partial": "Gets only the tens or only the ones right.",
+      "incorrect": "Gives other numbers.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (S: 1 ten and 13 ones.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "29",
+          "twenty-nine",
+          "29 grams",
+          "twenty-nine grams"
+        ]
+      },
+      "correct": "Says 29.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (S: The apple is 29 grams heavier than the orange!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "279",
+          "two hundred seventy-nine",
+          "279 grams",
+          "two hundred seventy-nine grams"
+        ]
+      },
+      "correct": "Says 279.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (764 g – 485 g)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says unbundle 1 hundred into 10 tens first (then 1 ten into 10 ones).",
+      "partial": "Says unbundle, but not which unit.",
+      "incorrect": "Says unbundle a ten first, or that it cannot be done.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (S: We can change 1 hundred into 10 tens!)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "579",
+          "five hundred seventy-nine",
+          "579 milliliters",
+          "five hundred seventy-nine milliliters"
+        ]
+      },
+      "correct": "Says 579.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (S: She poured out 579 milliliters of water!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33",
+          "thirty-three",
+          "33 grams",
+          "thirty-three grams"
+        ]
+      },
+      "correct": "Says 33.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (500 g – 467 g)"
+      }
+    },
+    {
+      "id": "r_ps_1d",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "254",
+          "two hundred fifty-four",
+          "254 grams",
+          "two hundred fifty-four grams"
+        ]
+      },
+      "correct": "Says 254.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1d"
+      }
+    },
+    {
+      "id": "r_ps_1f",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "248",
+          "two hundred forty-eight",
+          "248 milliliters",
+          "two hundred forty-eight milliliters"
+        ]
+      },
+      "correct": "Says 248.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1f"
+      }
+    },
+    {
+      "id": "r_ps_1h",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 liters 51 milliliters",
+          "2 L 51 mL",
+          "2 liters and 51 milliliters"
+        ]
+      },
+      "correct": "Says 2 liters 51 milliliters.",
+      "partial": "Gets the liters or the milliliters right, but not both.",
+      "incorrect": "Gives a different amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1h"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "149",
+          "one hundred forty-nine",
+          "149 kilometers",
+          "one hundred forty-nine kilometers"
+        ]
+      },
+      "correct": "Says 149.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "235",
+          "two hundred thirty-five",
+          "235 liters",
+          "two hundred thirty-five liters"
+        ]
+      },
+      "correct": "Says 235.",
+      "partial": "Says 565 (added instead of subtracting).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "78",
+          "seventy-eight",
+          "78 kilograms",
+          "seventy-eight kilograms"
+        ]
+      },
+      "correct": "Says 78.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says so every place has enough to subtract, and you do not get mixed up halfway through.",
+      "partial": "Says it is a rule but not why.",
+      "incorrect": "Says it does not matter.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (prepare problems by unbundling all necessary digits before performing the operation)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_enough",
+      "level": 1,
+      "text": "Check each place. Are there enough ones? Enough tens?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "h_unbundle",
+      "level": 2,
+      "text": "Not enough? Unbundle 1 from the next bigger place into 10.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "h_zero",
+      "level": 2,
+      "text": "Zero tens? Unbundle a hundred into 10 tens first. Then unbundle a ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 3,
+      "text": "Draw a tape diagram. To find a missing part or a difference, subtract.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (tape diagrams)"
+      }
+    },
+    {
+      "id": "h_units",
+      "level": 1,
+      "text": "Say it in units: 42 tens minus 5 tens.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtract Mentally"
+      }
+    },
+    {
+      "id": "h_round",
+      "level": 1,
+      "text": "Is the tens digit 5 or more? Then round up to the next hundred.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round Three- and Four-Digit Numbers"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_place_value_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Disks or digits must be exact in each place, and regrouping (bundling or unbundling) must be shown step by step.",
+      "description": "A place value chart (hundreds, tens, ones) with number disks that can be bundled or unbundled.",
+      "must_show_exactly": [
+        "Columns: hundreds, tens, ones",
+        "Exactly the disks or digits in the stimulus",
+        "Regrouping shown as 10 of one unit becoming 1 of the next",
+        "q_pr_1: 2 hundreds 2 tens 3 ones, 1 ten unbundled",
+        "q_pr_2: apple bar 223 g, orange bar 194 g, difference ?",
+        "q_pr_4: 7 hundreds 0 tens 3 ones"
+      ],
+      "states_or_frames": [
+        "start number as disks",
+        "1 ten unbundled into 10 ones",
+        "1 hundred unbundled into 10 tens",
+        "with a zero in the tens: unbundle the hundred first, then a ten",
+        "result"
+      ],
+      "interaction": "Child or tutor moves disks. Child answers by voice or typing.",
+      "alt_text": "A place value chart with hundreds, tens and ones.",
+      "used_by": [
+        "ex_223_194",
+        "ex_703_124",
+        "exp_twice",
+        "exp_zero_tens",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_4",
+        "q_pr_5"
+      ],
+      "generation_caption": "Three-column place value chart labelled hundreds, tens, ones, with round number disks, flat colours. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Unit bars must be exactly equal and the number of units must be exact. Labels and the question mark must be placed exactly.",
+      "description": "A tape diagram: one long bar cut into equal units. A label shows the size of a unit or the total, and a question mark shows the unknown.",
+      "must_show_exactly": [
+        "Exactly the number of equal units given in the stimulus",
+        "All units the same length",
+        "Known value labelled, unknown shown as a question mark",
+        "q_pr_2: apple bar 223 g, orange bar 194 g, difference ?"
+      ],
+      "states_or_frames": [
+        "empty bar",
+        "bar cut into units",
+        "labels and question mark shown"
+      ],
+      "interaction": "Display only, or child taps a unit to label it. Child answers by voice or typing.",
+      "alt_text": "A bar cut into equal parts with a question mark.",
+      "used_by": [
+        "ex_223_194",
+        "q_app_1",
+        "q_pr_2",
+        "q_ps_2",
+        "q_ps_4"
+      ],
+      "generation_caption": "Clean horizontal bar divided into equal rectangular units, with a brace and a question mark, flat colours, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    },
+    {
+      "id": "na_counters",
+      "name": "Hands-on counters or objects",
+      "reason": "Physical materials; replaced by on-screen widgets where the card uses them.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set item 3; Homework item 2",
+      "issue": "The piano and bench weights and the giraffe calf weight exist only as pictures. Not used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Problem Set 1a-c, e, g; Exit Ticket 1a-b; Homework 1a-h, 3, 4 and Concept Development repeats (342 − 55, 573 − 375, 703 − 37, 700 − 356) repeat used patterns."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "q_ps_1h, r_ps_1h",
+      "issue": "Mixed-unit answer (liters and milliliters). Check the Tutor normalises other wordings (for example '2,051 mL')."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The Debrief mentions students may subtract 6 tens from 34 tens instead of decomposing, as a valid strategy, not an error. No misconception stated. Proposal, not added: trying to unbundle from a zero tens place."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 37 tens, 1,500, 483, 279, 33, 254, 248, 2 L 51 mL, 149, 235, 78. Recheck."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "No Sprint",
+      "issue": "This lesson has no Sprint."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_subtract_decompose_once (unbundling once to subtract, Lesson 18). Replace with real card ids after review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_place_value_chart, a_tape_diagram. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.NBT.2, 3.MD.2, 3.NBT.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

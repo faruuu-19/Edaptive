@@ -1,0 +1,1092 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l13_round_three_digit_tens",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-c-lesson-13.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 13",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.OA.1",
+    "3.NBT.3",
+    "3.NBT.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Round two- and three-digit numbers to the nearest ten using a vertical number line.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_round_nearest_ten"
+  ],
+  "explanations": [
+    {
+      "id": "exp_count_tens",
+      "title": "Count all the tens",
+      "text": "117 has 11 tens. 100 is 10 tens, and 17 has 1 more ten.",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_endpoints",
+      "title": "Endpoints for a three-digit number",
+      "text": "For 117, the endpoints are 110 (11 tens) and 120 (12 tens). Halfway is 115.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_same_shape",
+      "title": "Same picture, 100 apart",
+      "text": "Rounding 17 and 117 looks the same. Every number on the line is just 1 hundred more.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (corresponding points are 1 hundred milliliters apart)"
+      }
+    },
+    {
+      "id": "exp_unit_form",
+      "title": "Say it in unit form",
+      "text": "2 tens 8 ones rounded to the nearest ten is 3 tens.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 2 tens 8 ones rounded... is 3 tens.)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_28",
+      "title": "Round 28",
+      "text": "Endpoints 20 and 30. Halfway is 25. 28 is more than 25, so 28 rounds to 30.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_117",
+      "title": "Round 117",
+      "text": "Endpoints 110 and 120. Halfway is 115. 117 is more than 115, so 117 rounds to 120.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "63 tens equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "tens": 63
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Tens (63 tens)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What number is halfway between 830 and 840?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "low": 830,
+        "high": 840
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Halfway on the Number Line (830 and 840)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "The ballet recital begins at 12:17 p.m. and ends at 12:45 p.m. How many minutes long is it?",
+      "asset_ids": [],
+      "stimulus": {
+        "start": "12:17",
+        "end": "12:45"
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_minutes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Round 28 minutes to the nearest ten.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 28,
+        "low": 20,
+        "high": 30
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "How many tens are in 117?",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "stimulus": {
+        "value": 117
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What number is halfway between 110 and 120?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "low": 110,
+        "high": 120
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Round 117 milliliters to the nearest ten.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 117,
+        "low": 110,
+        "high": 120
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Round 175 milliliters to the nearest ten.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 175,
+        "low": 170,
+        "high": 180
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (175 mL)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Round 103 kilograms to the nearest ten.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 103,
+        "low": 100,
+        "high": 110
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (103 kg)"
+      }
+    },
+    {
+      "id": "q_ps_1f",
+      "kind": "practice",
+      "text": "Round 405 to the nearest ten.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 405,
+        "low": 400,
+        "high": 410
+      },
+      "rubric_id": "r_ps_1f",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1f"
+      }
+    },
+    {
+      "id": "q_ps_2c",
+      "kind": "practice",
+      "text": "Round 142 grams to the nearest ten.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 142,
+        "low": 140,
+        "high": 150
+      },
+      "rubric_id": "r_ps_2c",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2 (142 grams)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Carl's game begins at 3:03 p.m. and ends at 3:51 p.m. About how many minutes is that, to the nearest 10?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "start": "3:03",
+        "end": "3:51",
+        "minutes": 48
+      },
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_minutes",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Bobby rounds 603 to the nearest ten. He says 610. Is he correct? Why?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 603
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_tens",
+        "h_distance"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "One seed packet weighs 28 grams. Round the weight of 2 packets to the nearest 10 grams.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "packet_g": 28,
+        "packets": 2,
+        "total_g": 56
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How is rounding 17 like rounding 117?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (discuss similarities)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "630",
+          "six hundred thirty"
+        ]
+      },
+      "correct": "Says 630.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Tens (63 tens)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "835",
+          "eight hundred thirty-five"
+        ]
+      },
+      "correct": "Says 835.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Halfway on the Number Line (830 and 840)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "28",
+          "twenty-eight",
+          "28 minutes",
+          "twenty-eight minutes"
+        ]
+      },
+      "correct": "Says 28.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (round 28 minutes; recital took about 30 minutes)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty",
+          "30 minutes",
+          "thirty minutes"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 30.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven",
+          "11 tens",
+          "eleven tens"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: Eleven tens.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "115",
+          "one hundred fifteen"
+        ]
+      },
+      "correct": "Says 115.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 115 = 11 tens 5 ones.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "120",
+          "one hundred twenty",
+          "120 milliliters",
+          "one hundred twenty milliliters"
+        ]
+      },
+      "correct": "Says 120.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 117 rounded to the nearest ten is 120.)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "180",
+          "one hundred eighty",
+          "180 milliliters",
+          "one hundred eighty milliliters"
+        ]
+      },
+      "correct": "Says 180.",
+      "partial": "Says 170 (rounds down at the halfway point).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (175 mL)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 kilograms",
+          "one hundred kilograms"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (103 kg)"
+      }
+    },
+    {
+      "id": "r_ps_1f",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "410",
+          "four hundred ten"
+        ]
+      },
+      "correct": "Says 410.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1f"
+      }
+    },
+    {
+      "id": "r_ps_2c",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "140",
+          "one hundred forty",
+          "140 grams",
+          "one hundred forty grams"
+        ]
+      },
+      "correct": "Says 140.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2 (142 grams)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty",
+          "50 minutes",
+          "fifty minutes"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": "Says 48 (the exact minutes) without rounding.",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no: 603 is between 600 and 610 and less than halfway (605), so it rounds to 600.",
+      "partial": "Says no but gives no reason or no correct rounding.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty",
+          "60 grams",
+          "sixty grams"
+        ]
+      },
+      "correct": "Says 60.",
+      "partial": "Says 56 (the exact total) or rounds one packet (30).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the number lines look the same; every number is 1 hundred more, and both round up (20 and 120).",
+      "partial": "Says they are similar but not how.",
+      "incorrect": "Says they round in different directions.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: All the numbers went in the same place, we just wrote a 1 in front... still just paid attention to the number of tens.)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_tens",
+      "level": 1,
+      "text": "Cover the ones digit. How many tens do you see? That is the bottom ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (cover the zero)"
+      }
+    },
+    {
+      "id": "h_next",
+      "level": 1,
+      "text": "Add 1 more ten to find the top of the number line.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (What is 1 more ten?)"
+      }
+    },
+    {
+      "id": "h_half",
+      "level": 2,
+      "text": "Is the number below or above the halfway point? Halfway ends in 5.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_distance",
+      "level": 3,
+      "text": "How far is it to each ten? Pick the closer ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 17 is only 3 away from 20...)"
+      }
+    },
+    {
+      "id": "h_minutes",
+      "level": 2,
+      "text": "Count by ones to the next five, then by fives or tens.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note (strategies)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_vertical_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Endpoints, halfway point and the plotted number must be in exact positions.",
+      "description": "A vertical number line for rounding: the two nearest tens (or hundreds) as endpoints, the halfway point marked, and the number plotted.",
+      "must_show_exactly": [
+        "Endpoints exactly as in the stimulus",
+        "Halfway point marked and labelled",
+        "Number plotted at its exact position",
+        "Equal spacing",
+        "q_pk_2: 830 at bottom, 840 at top",
+        "q_pr_1: 20-30 line, 25 marked, 28 plotted",
+        "q_pr_3: 110 at bottom, 120 at top",
+        "q_pr_4: 110-120 line, 115 marked, 117 plotted",
+        "q_pr_5: 170-180 line, 175 marked, 175 plotted",
+        "q_pr_6: 100-110 line, 105 marked, 103 plotted",
+        "q_ps_1f: 400-410 line, 405 marked, 405 plotted",
+        "q_ps_2c: 140-150 line, 145 marked, 142 plotted",
+        "q_ps_3: 40-50 line, 48 plotted",
+        "q_pr_7: 600-610 line, 603 plotted",
+        "q_pr_8: 50-60 line, 56 plotted"
+      ],
+      "states_or_frames": [
+        "endpoints only",
+        "halfway point added",
+        "number plotted",
+        "arrow to the nearer endpoint"
+      ],
+      "interaction": "Tutor sets the number. Child answers by voice or typing.",
+      "alt_text": "A vertical number line with a number between two tens.",
+      "used_by": [
+        "ex_117",
+        "ex_28",
+        "exp_endpoints",
+        "exp_same_shape",
+        "q_pk_2",
+        "q_pr_1",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_ps_1f",
+        "q_ps_2c",
+        "q_ps_3"
+      ],
+      "generation_caption": "Vertical number line with two labelled endpoints, a marked halfway point and one dot, flat colours, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_place_value_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Disks or digits must be exact in each place, and regrouping (bundling or unbundling) must be shown step by step.",
+      "description": "Place value cards showing a number split into hundreds, tens and ones, with the ones covered to show the number of tens.",
+      "must_show_exactly": [
+        "Digits exactly as in the stimulus",
+        "Covering the ones digit shows the number of tens",
+        "q_pr_2: cards 100 + 10 + 7, ones covered"
+      ],
+      "states_or_frames": [
+        "whole number",
+        "cards pulled apart",
+        "ones covered to show tens"
+      ],
+      "interaction": "Child or tutor moves disks. Child answers by voice or typing.",
+      "alt_text": "A place value chart with hundreds, tens and ones.",
+      "used_by": [
+        "exp_count_tens",
+        "q_pr_2"
+      ],
+      "generation_caption": "Three overlapping place value cards (hundreds, tens, ones) for a number, flat colours. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Problem Set 1a-e (32, 36, 62, 162, 278), 2a-b (36 g, 52 g), Exit Ticket 1 (26, 276), Homework 1-2 and Concept Development repeats (17, 75, 212 g, 315 mL) repeat used patterns. Homework 2 table is blank in the extract."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "q_pr_2",
+      "issue": "Question text contains 11 (in 117) and the answer is 11 tens. Check the item."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Two-step rounding items",
+      "issue": "q_ps_3 and q_pr_8 need a calculation before rounding. The exact value (48, 56) is marked partial."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The Debrief asks if the zero in 405 made it hard, but states no misconception. Proposal, not added: rounding 405 to 400 by ignoring the ones."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Rounding keys computed by script: 180, 100, 410, 140, 50, 600, 60. Recheck."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "No Sprint",
+      "issue": "This lesson has no Sprint."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_round_nearest_ten (rounding two-digit measurements, Lesson 12). Replace with real card ids after review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_vertical_number_line, a_place_value_chart. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.OA.1, 3.NBT.3, 3.NBT.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

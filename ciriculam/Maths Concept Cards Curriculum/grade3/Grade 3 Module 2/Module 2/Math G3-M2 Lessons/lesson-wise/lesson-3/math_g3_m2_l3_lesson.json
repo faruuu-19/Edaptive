@@ -1,0 +1,1022 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l3_time_nearest_minute",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-a-lesson-3.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 3",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "2.MD.7",
+    "3.MD.1",
+    "3.OA.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Tell time to the nearest minute. Count by fives, then count on by ones.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_time_number_line_fives"
+  ],
+  "explanations": [
+    {
+      "id": "exp_fives_ones",
+      "title": "Fives, then ones",
+      "text": "To find 58 minutes, count by fives to 55. Then count on by ones: 56, 57, 58.",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_imagine_ticks",
+      "title": "Imagine the small ticks",
+      "text": "Between two labels there are 4 small tick marks. Each one is 1 minute.",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 1, 2, 3, and 4... 6, 7, 8, and 9)"
+      }
+    },
+    {
+      "id": "exp_number_sentence",
+      "title": "Write it as a number sentence",
+      "text": "58 minutes is 11 fives and 3 ones. That is 11 times 5, plus 3.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: (11 × 5) + 3)"
+      }
+    },
+    {
+      "id": "exp_clock_minutes",
+      "title": "Minutes on the clock",
+      "text": "The small marks on a clock are single minutes. Count by fives from the 12, then on by ones to the minute hand.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "exp_count_back",
+      "title": "Count back from a near time",
+      "text": "For 2:28, start at 2:30 and count back 2 minutes.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: I started at 2:30 p.m. and counted back 2 minutes)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_737",
+      "title": "7:37 a.m.",
+      "text": "From 7:00, count 7 fives to 7:35. Then 2 ones to 7:37. 7 times 5, plus 2, equals 37.",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "ex_548",
+      "title": "5:48 a.m.",
+      "text": "Count by fives from 12 to 45. Count on 46, 47, 48. The hour hand is past 5. The time is 5:48.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "60 minutes is 50 minutes and how many more minutes?",
+      "asset_ids": [
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "whole": 60,
+        "part": 50
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_bond60"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 60 Minutes"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "60 minutes is 45 minutes and how many more minutes?",
+      "asset_ids": [
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "whole": 60,
+        "part": 45
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_bond60"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 60 Minutes (repeat with 45)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Count by nines: 36, 45. What number comes next?",
+      "asset_ids": [],
+      "stimulus": {
+        "step": 9,
+        "shown": [
+          36,
+          45
+        ]
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (nines to 54)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "11 tables have 5 students each. The last table has 3 students. How many students in all?",
+      "asset_ids": [],
+      "stimulus": {
+        "story": "cafeteria",
+        "groups": 11,
+        "size": 5,
+        "extra": 3
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_mult_plus"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Count by fives from 0 to 55. How many fives did you count?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "to": 55,
+        "step": 5
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_fives_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "From 55, count on by ones to 58. How many ones did you count?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "from": 55,
+        "to": 58
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "4 fives and 2 ones. How many minutes is that?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "fives": 4,
+        "ones": 2
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_mult_plus"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (repeat with (4 × 5) + 2)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "To get to 7:37 from 7:00, how many fives and how many ones do you count?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "start": "7:00",
+        "time": "7:37"
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_fives_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "From 7:00, how many fives and ones do you count to reach 7:49?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "start": "7:00",
+        "time": "7:49"
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_fives_first",
+        "h_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (repeat with 7:49 a.m.)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "The minute hand is 3 small marks past the 9. Count by fives to 45, then ones. How many minutes?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "time": "5:48"
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_fives_first",
+        "h_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (5:48 a.m.)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "What do the small tick marks on a clock stand for?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "The clock shows 2:28. Name a quick way to read it, other than counting fives from 12.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "time": "2:28"
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_fives_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (another strategy for 2:28)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How is the number line like the analog clock? How is it different?",
+      "asset_ids": [
+        "a_clock_widget",
+        "a_time_number_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten",
+          "10 minutes",
+          "ten minutes"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 60 Minutes (S: 10 minutes)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 minutes",
+          "fifteen minutes"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 60 Minutes (repeat with 45)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "54",
+          "fifty-four"
+        ]
+      },
+      "correct": "Says 54.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (nines to 54)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "58",
+          "fifty-eight"
+        ]
+      },
+      "correct": "Says 58.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer; related in Concept Development to (11 × 5) + 3 = 58)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 11.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 3.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22",
+          "twenty-two"
+        ]
+      },
+      "correct": "Says 22.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (repeat with (4 × 5) + 2)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 7 fives and 2 ones.",
+      "partial": "Gets only the fives or only the ones right.",
+      "incorrect": "Gives other numbers.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 7 fives... 2 ones)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 9 fives and 4 ones.",
+      "partial": "Gets only the fives or only the ones right.",
+      "incorrect": "Gives other numbers.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (repeat with 7:49 a.m.)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "48",
+          "forty-eight"
+        ]
+      },
+      "correct": "Says 48.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 46, 47, 48... 48)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 minute",
+          "one minute",
+          "minutes",
+          "ones"
+        ]
+      },
+      "correct": "Says 1 minute each.",
+      "partial": null,
+      "incorrect": "Says 5 minutes or hours.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: Ones. 1 minute!)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says start at 2:30 and count back 2 minutes (or a similar near-time strategy).",
+      "partial": "Says the time 2:28 but no strategy.",
+      "incorrect": "Gives a wrong time or strategy.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: I started at 2:30 p.m. and counted back 2 minutes)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both have 5-minute intervals with 4 small marks between; the clock is a circle (starts at 12), the number line is straight (starts at 0).",
+      "partial": "Gives only a likeness or only a difference.",
+      "incorrect": "Says they measure different things.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: There are 4 tick marks between the numbers on both... a clock is a circular number line)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_fives_first",
+      "level": 1,
+      "text": "Count by fives as far as you can. Then count on by ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: Count by fives to 7:35 and then by ones)"
+      }
+    },
+    {
+      "id": "h_ones",
+      "level": 2,
+      "text": "Use the small tick marks. Each one is 1 minute.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "h_bond60",
+      "level": 2,
+      "text": "The whole is 60 minutes. What part adds on to make 60?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 60 Minutes"
+      }
+    },
+    {
+      "id": "h_skip",
+      "level": 1,
+      "text": "Count by the same number each time. Keep track on your fingers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting"
+      }
+    },
+    {
+      "id": "h_mult_plus",
+      "level": 3,
+      "text": "Count the fives and multiply by 5. Then add the ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 ((11 × 5) + 3)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_time_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Tick marks for each minute and labels at 5-minute intervals must be exact; hops must start and end at exact times.",
+      "description": "A number line for time: tick marks for minutes, labels every 5 minutes, and hops that show elapsed minutes.",
+      "must_show_exactly": [
+        "Endpoints exactly as in the stimulus",
+        "Equal spacing for each minute",
+        "Labels every 5 minutes",
+        "Hops start and end at the exact times in the stimulus",
+        "q_pr_1: 0 to 60, hops of 5 to 55",
+        "q_pr_2: ticks 56, 57, 58 after 55",
+        "q_pr_3: 4 hops of 5, then 2 ones",
+        "q_pr_4: 7:00 a.m. to 8:00 a.m., point at 7:37",
+        "q_pr_5: 7:00 a.m. to 8:00 a.m., point at 7:49"
+      ],
+      "states_or_frames": [
+        "empty line with endpoints",
+        "intervals of 5 labelled",
+        "hops drawn one at a time",
+        "point plotted at a time"
+      ],
+      "interaction": "Tutor sets the range and points. Child can drag a point or hop. Child answers by voice or typing.",
+      "alt_text": "A number line labelled in minutes with hops.",
+      "used_by": [
+        "ex_737",
+        "exp_fives_ones",
+        "exp_imagine_ticks",
+        "q_db_1",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5"
+      ],
+      "generation_caption": "Horizontal number line with small minute ticks, bigger ticks every 5 minutes, curved hops above, flat colours. [Build by code]"
+    },
+    {
+      "asset_id": "a_clock_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Hand positions must show an exact time to the minute. Image models draw clocks with wrong numbers and hand positions.",
+      "description": "An analog clock with numbers 1-12, 60 minute tick marks, a short hour hand and a long minute hand.",
+      "must_show_exactly": [
+        "Numbers 1-12 in the correct places",
+        "60 minute marks, longer marks at every 5 minutes",
+        "Hands set exactly to the time in the stimulus (hour hand moves between numbers as minutes pass)",
+        "q_pr_6: clock at 5:48",
+        "q_pr_7: clock face, small ticks highlighted",
+        "q_pr_8: clock at 2:28"
+      ],
+      "states_or_frames": [
+        "static time from the stimulus",
+        "minute hand moving in 5-minute jumps",
+        "child-settable hands"
+      ],
+      "interaction": "Tutor sets the time. In 'set' mode the child drags the hands. Child answers by voice or typing.",
+      "alt_text": "An analog clock showing a time.",
+      "used_by": [
+        "ex_548",
+        "exp_clock_minutes",
+        "q_db_1",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8"
+      ],
+      "generation_caption": "Clean analog clock face with numbers 1 to 12, minute ticks, short hour hand and long minute hand, flat style. [Build by code]"
+    },
+    {
+      "asset_id": "a_number_bond_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "A fixed diagram with exact numbers in exact boxes.",
+      "description": "A number bond with 60 minutes as the whole and two parts in minutes.",
+      "must_show_exactly": [
+        "Whole: 60 minutes",
+        "One part shown, one part unknown, as in the stimulus",
+        "q_pk_1: whole 60, part 50",
+        "q_pk_2: whole 60, part 45"
+      ],
+      "states_or_frames": [
+        "empty",
+        "total filled",
+        "parts filled",
+        "all filled"
+      ],
+      "interaction": "Child or tutor fills the circles. Child answers by voice or typing.",
+      "alt_text": "A number bond with a total and two parts.",
+      "used_by": [
+        "q_pk_1",
+        "q_pk_2"
+      ],
+      "generation_caption": "Number bond: one circle labelled 60 minutes joined to two smaller circles, flat colours. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    },
+    {
+      "id": "na_ruler_line",
+      "name": "Drawing a 12-centimeter number line and tick marks with a ruler",
+      "reason": "Paper and ruler task; replaced by the number line widget.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set items 1-5; Exit Ticket; Homework items 1-4",
+      "issue": "Every worksheet item reads a time from a clock picture (Rebecca, Mason, Jason, Zachary). The clock times are not in the extract, so no worksheet item can be used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "q_pr_6",
+      "issue": "The clock picture for 5:48 is not in the extract; the minute reading comes from the S: lines (count to 45, then 46, 47, 48). The widget must show 5:48."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Fluency: Tell Time on the Clock (4:00, 4:15)",
+      "issue": "Needs the clock widget and an exact time-format key. Not used."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposal, not added: reading the hour hand number when it has not reached it yet (5:48 read as 6:48)."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys for repeats and the Application Problem are computed. Recheck: 60 − 45 = 15; (11 × 5) + 3 = 58; (4 × 5) + 2 = 22; 7:49 = 9 fives and 4 ones."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "No Sprint",
+      "issue": "This lesson has no Sprint."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_time_number_line_fives (telling time to the nearest 5 minutes, Lesson 2). Replace with real card ids after review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available: a_time_number_line, a_clock_widget, a_number_bond_widget. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 2.MD.7, 3.MD.1, 3.OA.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

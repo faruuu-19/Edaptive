@@ -68,13 +68,12 @@ Build phase (proposal defended Sept 2026). FYP-1 evaluation: 7–11 Dec 2026.
 
 ## Assessment card coverage
 
-There are **97 standalone assessment JSONs for 97 concept IDs**. Each file is
+There are **118 standalone assessment JSONs for 118 concept IDs**. Each file is
 named `<concept_id>.assessment_card.json` and contains one full assessment object.
-**Grade 2 Module 8 Lessons 1–16 are complete**, each with a separate concept JSON
-and matching assessment JSON. Six missing assessments (Lessons 11–16) were added;
-the ten existing Module 8 assessments and all 91 earlier assessments are unchanged.
-All 16 Module 8 concepts, including their source questions, are preserved.
-No assessment bundles or duplicate draft JSONs were created.
+**Grade 3 Module 2 Lessons 1–21 are complete**, each with a separate concept JSON
+and matching assessment JSON; all 21 assessments are new. All 97 earlier assessments
+are unchanged. All 21 Grade 3 Module 2 concepts, including their source questions,
+are preserved. No assessment bundles or duplicate draft JSONs were created.
 
 | Grade | Module | Assessed lessons | Assessment JSONs | Remaining work |
 |---|---|---|---:|---|
@@ -87,42 +86,47 @@ No assessment bundles or duplicate draft JSONs were created.
 | 2 | 6 | 1–20 | 20 | — |
 | 2 | 7 | 1–26 | 26 | Complete |
 | 2 | 8 | 1–16 | 16 | Complete |
+| 3 | 2 | 1–21 | 21 | Complete |
+| 3 | 3–7 | — | 0 | Not yet assessed (21, 16, 30, 9 and 34 lessons in the sources) |
+| 4 | 1–6 | — | 0 | Not yet assessed |
 
-Grade 1 has six assessments; Grade 2 has 91. The 97 assessments refer to 97
-active concept source JSON files, one per assessed concept. Grade 2 Modules 1, 3,
-5, 6, 7 and 8 have 91 standalone lesson pairs. Twelve Grade 3/4 source files
-remain unassessed in this manual dataset.
+Grade 1 has six assessments, Grade 2 has 91 and Grade 3 has 21. The 118 assessments
+refer to 118 active concept source JSON files, one per assessed concept. Grade 2
+Modules 1, 3, 5, 6, 7 and 8 have 91 standalone lesson pairs and Grade 3 Module 2
+has 21. Eleven Grade 3/4 source files remain unassessed in this manual dataset.
 
-Use the [Module 8 lesson index](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%208/Module%208/Math%20G2-M8%20Lessons/lesson-wise/module_index.json) or the
-[Module 7 lesson index](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%207/Module%207/Math%20G2-M7%20Lessons/lesson-wise/module_index.json) for the standalone input pairs and
+Use the [Grade 3 Module 2 lesson index](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade3/Grade%203%20Module%202/Module%202/Math%20G3-M2%20Lessons/lesson-wise/module_index.json),
+the [Grade 2 Module 8 lesson index](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%208/Module%208/Math%20G2-M8%20Lessons/lesson-wise/module_index.json) or the
+[Grade 2 Module 7 lesson index](ciriculam/Maths%20Concept%20Cards%20Curriculum/grade2/Grade%202%20Module%207/Module%207/Math%20G2-M7%20Lessons/lesson-wise/module_index.json) for the standalone input pairs and
 hashes. Use the [canonical concept-ID index](docs/assessment-card-collections-manifest.json)
 for the whole dataset, and see the [loading contract](docs/assessment-card-collections.md),
-[full assessment contract](docs/assessment-cards-v0.2.md) and
-[module conversion progress](docs/grade2-lesson-file-migration.json).
+[full assessment contract](docs/assessment-cards-v0.2.md) and the module conversion progress for
+[Grade 2](docs/grade2-lesson-file-migration.json) and [Grade 3](docs/grade3-lesson-file-migration.json).
 Repository index paths are relative to repository root; ZIP paths are relative
-to their extracted directory. The original Module 7 and Module 8 concept
-collections are retained under `legacy/module-wide/` for provenance and excluded
-from active coverage.
+to their extracted directory. The original Grade 2 Module 7 and 8 and Grade 3
+Module 2 concept collections are retained under `legacy/module-wide/` for
+provenance and excluded from active coverage.
 
 Every assessment has three main questions, two follow-ups, four local rubrics,
 15 hints and five guidance records with feedback, worked answers and bounded
-retry/fallback rules. Totals are **291 main questions, 194 follow-ups, 388 local
-rubrics, 1,455 hints and 485 guidance records**.
+retry/fallback rules. Totals are **354 main questions, 236 follow-ups, 472 local rubrics, 1,770 hints and 590 guidance records**.
 
-[New Module 8 assessment validation](docs/assessment-cards-grade2-module8-lessons11-16-validation.json)
-checks all six new cards, independently recomputed answers and accept variants
-(area, clock-hand and elapsed-time arithmetic from the saved prompts), three-part
-different-route checks, references, full hints/guidance, 35 worked equations and
-144 reference-controller route scenarios.
-[Complete Module 8 pair validation](docs/assessment-cards-grade2-module8-lesson-wise-validation.json)
-checks all 16 pairs, preserved source objects, hashes and ZIP contents. It
-rechecks 63 equations and 384 routes across the full module; those repeats are
+[New Grade 3 Module 2 assessment validation](docs/assessment-cards-grade3-module2-lessons1-21-validation.json)
+checks all 21 new cards, independently recomputed answers and accept variants
+(exact integer arithmetic, half-up rounding, clock-minute arithmetic from the saved
+prompts), three-part different-route checks, references, full hints/guidance, 182
+worked equations and 504 reference-controller route scenarios.
+[Complete Grade 3 Module 2 pair validation](docs/assessment-cards-grade3-module2-lesson-wise-validation.json)
+checks all 21 pairs, preserved source objects, hashes and ZIP contents. It
+rechecks 182 equations and 504 routes across the full module; those repeats are
 not added again to cumulative evidence. Earlier validations:
+[Grade 2 Module 8 new assessments](docs/assessment-cards-grade2-module8-lessons11-16-validation.json),
+[Grade 2 Module 8 pairs](docs/assessment-cards-grade2-module8-lesson-wise-validation.json),
 [Module 7 new assessments](docs/assessment-cards-grade2-module7-lessons11-26-validation.json) and
 [Module 7 pairs](docs/assessment-cards-grade2-module7-lesson-wise-validation.json).
 [Current dataset validation](docs/assessment-card-collections-validation.json)
-checks all 97 cards and preservation of the prior 91. Active cumulative evidence
-is **857 worked equations, 2,354 routes and seven multipart classification scenarios**.
+checks all 118 cards and preservation of the prior 97. Active cumulative evidence
+is **1039 worked equations, 2,858 routes and seven multipart classification scenarios**.
 
 The earlier cleanup removed 222 old/duplicate assessment JSONs and seven obsolete
 ZIPs locally. Only canonical per-concept assessment files are active; earlier
@@ -133,10 +137,12 @@ All cards remain drafts requiring human educational review. Actual script-agent
 integration is untested. Module 7 Lessons 17, 18 and 24 reuse open questions:
 accept equivalent explanations under their source rubrics and apply partial
 credit only for the stated criteria. Lesson 18 measurements are approximate;
-numeric codes label unit choices. Module 8 Lessons 11 and 12 reuse easy questions
-whose exact answers are words ("another fourth", "yes"); Lesson 13's hard answers are
-clock-number labels and Lesson 15 uses explicit 1 = a.m. / 2 = p.m. codes. Numeric
+numeric codes label unit choices. Grade 2 Module 8 Lessons 11 and 12 reuse easy
+questions whose exact answers are words ("another fourth", "yes"); Lesson 13's hard
+answers are clock-number labels and Lesson 15 uses explicit 1 = a.m. / 2 = p.m. codes.
+Grade 3 Module 2 uses whole-number answers, with one word answer ("minute") in Lesson 1,
+and many source worksheet items exist only as pictures and were not used. Numeric
 answers do not verify physical measuring, ruler construction, tape diagrams, graph
-labels, folds, partitions, drawings, clock-hand positions or spoken reasoning.
-Source review flags and worksheet uncertainties remain preserved, including
-Module 5 Lesson 11's documented source arithmetic discrepancy.
+labels, folds, partitions, drawings, number-line drawings, clock or scale readings
+or spoken reasoning. Source review flags and worksheet uncertainties remain
+preserved, including Module 5 Lesson 11's documented source arithmetic discrepancy.

@@ -1,0 +1,1446 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l14_round_nearest_hundred",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-c-lesson-14.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 14",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.NBT.1",
+    "3.NBT.3"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Round three- and four-digit numbers to the nearest hundred using a vertical number line.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_round_three_digit_tens"
+  ],
+  "explanations": [
+    {
+      "id": "exp_hundreds",
+      "title": "Count the hundreds",
+      "text": "132 has 1 hundred. The endpoints are 100 and 200. Halfway is 150.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_round_hundred",
+      "title": "Round to the nearer hundred",
+      "text": "132 is less than 150, so it rounds down to 100. 3 tens is less than 5 tens.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 3 tens is less than 5 tens.)"
+      }
+    },
+    {
+      "id": "exp_total_hundreds",
+      "title": "Total hundreds in a big number",
+      "text": "1,387 has 13 hundreds in all. Its endpoints are 13 hundreds and 14 hundreds.",
+      "asset_ids": [
+        "a_place_value_chart",
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note and Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_ten_vs_hundred",
+      "title": "Nearest ten or nearest hundred",
+      "text": "To round to the nearest hundred, look at the tens. Halfway is 5 tens, like 150.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 and Student Debrief"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_132",
+      "title": "Round 132 grams",
+      "text": "Endpoints 100 and 200. Halfway 150. 132 is below 150, so 132 grams rounds to 100 grams.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_1387",
+      "title": "Round 1,387 milliliters",
+      "text": "Endpoints 1,300 and 1,400. Halfway 1,350. 1,387 is above halfway, so it rounds to 1,400 milliliters.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "28 tens equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "tens": 28
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Tens (28 tens)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Show 13 hundreds 8 tens 7 ones. How many hundreds are in 1,387 in all?",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "stimulus": {
+        "value": 1387
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "What number is halfway between 100 and 200?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "low": 100,
+        "high": 200
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Round 132 grams to the nearest hundred.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 132,
+        "low": 100,
+        "high": 200
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_hundreds",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Round 250 grams to the nearest hundred.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 250,
+        "low": 200,
+        "high": 300
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_hundreds",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (250 grams)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Round 1,387 milliliters to the nearest hundred.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 1387,
+        "low": 1300,
+        "high": 1400
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_hundreds",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Round 2,146 to the nearest hundred.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 2146,
+        "low": 2100,
+        "high": 2200
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_hundreds",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (2,146)"
+      }
+    },
+    {
+      "id": "q_ps_1b",
+      "kind": "practice",
+      "text": "Round 286 to the nearest hundred.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 286,
+        "low": 200,
+        "high": 300
+      },
+      "rubric_id": "r_ps_1b",
+      "hint_ids": [
+        "h_hundreds",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1b"
+      }
+    },
+    {
+      "id": "q_ps_1f",
+      "kind": "practice",
+      "text": "Round 1,250 to the nearest hundred.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 1250,
+        "low": 1200,
+        "high": 1300
+      },
+      "rubric_id": "r_ps_1f",
+      "hint_ids": [
+        "h_hundreds",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1f"
+      }
+    },
+    {
+      "id": "q_ps_2d",
+      "kind": "practice",
+      "text": "Glen spends 1,297 dollars on a computer. Round the amount to the nearest 100 dollars.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 1297
+      },
+      "rubric_id": "r_ps_2d",
+      "hint_ids": [
+        "h_hundreds",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2 (Glen)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Which of these round to 600: 527, 550, 639, 681, 713, 603?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "numbers": [
+          527,
+          550,
+          639,
+          681,
+          713,
+          603
+        ],
+        "target": 600
+      },
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_tens_digit",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Round 1,865 to the nearest hundred. Christian says one thousand nine hundred. Alexis says 19 hundreds. Who is correct?",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "stimulus": {
+        "value": 1865
+      },
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "There are 685 people at the game. Round the number of people to the nearest hundred.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 685
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_hundreds",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How is rounding to the nearest hundred different from rounding to the nearest ten?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_tens_digit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What number is halfway between 0 and 10?",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 1,
+        "ends": [
+          0,
+          10
+        ]
+      },
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_middle"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1"
+      }
+    },
+    {
+      "id": "q_sp_a5",
+      "kind": "practice",
+      "text": "What number is halfway between 80 and 70?",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 5,
+        "ends": [
+          80,
+          70
+        ]
+      },
+      "rubric_id": "r_sp_a5",
+      "hint_ids": [
+        "h_halfway5",
+        "h_middle"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 5"
+      }
+    },
+    {
+      "id": "q_sp_a17",
+      "kind": "practice",
+      "text": "What number is halfway between 150 and 160?",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 17,
+        "ends": [
+          150,
+          160
+        ]
+      },
+      "rubric_id": "r_sp_a17",
+      "hint_ids": [
+        "h_halfway5",
+        "h_middle"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 17"
+      }
+    },
+    {
+      "id": "q_sp_a29",
+      "kind": "practice",
+      "text": "What number is halfway between 470 and 460?",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 29,
+        "ends": [
+          470,
+          460
+        ]
+      },
+      "rubric_id": "r_sp_a29",
+      "hint_ids": [
+        "h_halfway5",
+        "h_middle"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 29"
+      }
+    },
+    {
+      "id": "q_sp_a32",
+      "kind": "practice",
+      "text": "What number is halfway between 990 and 1,000?",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 32,
+        "ends": [
+          990,
+          1000
+        ]
+      },
+      "rubric_id": "r_sp_a32",
+      "hint_ids": [
+        "h_halfway5",
+        "h_middle"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 32"
+      }
+    },
+    {
+      "id": "q_sp_a35",
+      "kind": "practice",
+      "text": "What number is halfway between 1,070 and 1,080?",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 35,
+        "ends": [
+          1070,
+          1080
+        ]
+      },
+      "rubric_id": "r_sp_a35",
+      "hint_ids": [
+        "h_halfway5",
+        "h_middle"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 35"
+      }
+    },
+    {
+      "id": "q_sp_a41",
+      "kind": "practice",
+      "text": "What number is halfway between 1,790 and 1,780?",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 41,
+        "ends": [
+          1790,
+          1780
+        ]
+      },
+      "rubric_id": "r_sp_a41",
+      "hint_ids": [
+        "h_halfway5",
+        "h_middle"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 41"
+      }
+    },
+    {
+      "id": "q_sp_a42",
+      "kind": "practice",
+      "text": "What number is halfway between 400 and 390?",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 42,
+        "ends": [
+          400,
+          390
+        ]
+      },
+      "rubric_id": "r_sp_a42",
+      "hint_ids": [
+        "h_halfway5",
+        "h_middle"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 42"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "280",
+          "two hundred eighty"
+        ]
+      },
+      "correct": "Says 280.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Tens (28 tens)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen",
+          "13 hundreds",
+          "thirteen hundreds"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": "Says 3 (the digit in the hundreds place, not the total hundreds).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note (There are 13 hundreds in 1387) and Concept Development, Problem 2 (S: 13 hundreds.)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "150",
+          "one hundred fifty"
+        ]
+      },
+      "correct": "Says 150.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 150.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 grams",
+          "one hundred grams"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 100 grams.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "300",
+          "three hundred",
+          "300 grams",
+          "three hundred grams"
+        ]
+      },
+      "correct": "Says 300.",
+      "partial": "Says 200 (rounds down at the halfway point).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (250 grams)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1400",
+          "one thousand four hundred",
+          "1,400",
+          "1,400 milliliters",
+          "one thousand four hundred milliliters"
+        ]
+      },
+      "correct": "Says 1400.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 14 hundred milliliters.)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2100",
+          "two thousand one hundred",
+          "2,100"
+        ]
+      },
+      "correct": "Says 2100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (2,146)"
+      }
+    },
+    {
+      "id": "r_ps_1b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "300",
+          "three hundred"
+        ]
+      },
+      "correct": "Says 300.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1b"
+      }
+    },
+    {
+      "id": "r_ps_1f",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1300",
+          "one thousand three hundred",
+          "1,300"
+        ]
+      },
+      "correct": "Says 1300.",
+      "partial": "Says 1,200 (rounds down at the halfway point).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1f"
+      }
+    },
+    {
+      "id": "r_ps_2d",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1300",
+          "one thousand three hundred",
+          "1,300",
+          "1,300 dollars",
+          "thirteen hundred dollars"
+        ]
+      },
+      "correct": "Says 1300.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2 (Glen)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names exactly 550, 639 and 603.",
+      "partial": "Names some of 550, 639, 603 and no wrong numbers, or all three plus one wrong number.",
+      "incorrect": "Names mostly numbers that do not round to 600 (527, 681, 713).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both are correct: 1,865 rounds to 1,900, and 1,900 is the same as 19 hundreds.",
+      "partial": "Says only one of them is correct, with 1,900 as the rounded number.",
+      "incorrect": "Says neither, or gives a different rounded number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "700",
+          "seven hundred",
+          "700 people",
+          "seven hundred people"
+        ]
+      },
+      "correct": "Says 700.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the endpoints are hundreds (not tens) and you look at the tens (halfway is 5 tens), not the ones.",
+      "partial": "Says the endpoints change but not which digit to look at.",
+      "incorrect": "Says it is done exactly the same way with the same endpoints.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (endpoints are hundreds; 5 tens is halfway)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1"
+      }
+    },
+    {
+      "id": "r_sp_a5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "75",
+          "seventy-five"
+        ]
+      },
+      "correct": "Says 75.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 5"
+      }
+    },
+    {
+      "id": "r_sp_a17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "155",
+          "one hundred fifty-five"
+        ]
+      },
+      "correct": "Says 155.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 17"
+      }
+    },
+    {
+      "id": "r_sp_a29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "465",
+          "four hundred sixty-five"
+        ]
+      },
+      "correct": "Says 465.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 29"
+      }
+    },
+    {
+      "id": "r_sp_a32",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "995",
+          "nine hundred ninety-five"
+        ]
+      },
+      "correct": "Says 995.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 32"
+      }
+    },
+    {
+      "id": "r_sp_a35",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1075",
+          "one thousand seventy-five",
+          "1,075"
+        ]
+      },
+      "correct": "Says 1075.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 35"
+      }
+    },
+    {
+      "id": "r_sp_a41",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1785",
+          "one thousand seven hundred eighty-five",
+          "1,785"
+        ]
+      },
+      "correct": "Says 1785.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 41"
+      }
+    },
+    {
+      "id": "r_sp_a42",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "395",
+          "three hundred ninety-five"
+        ]
+      },
+      "correct": "Says 395.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 42"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_hundreds",
+      "level": 1,
+      "text": "How many hundreds are in the number? That is the bottom endpoint.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (How many hundreds?)"
+      }
+    },
+    {
+      "id": "h_next",
+      "level": 1,
+      "text": "Add 1 more hundred to find the top endpoint.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (What is 1 more hundred?)"
+      }
+    },
+    {
+      "id": "h_half",
+      "level": 2,
+      "text": "Halfway between two hundreds has 5 tens. Is the number below or above it?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "h_tens_digit",
+      "level": 3,
+      "text": "Look at the tens. Fewer than 5 tens rounds down. 5 tens or more rounds up.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 5 tens is halfway...)"
+      }
+    },
+    {
+      "id": "h_halfway5",
+      "level": 2,
+      "text": "Halfway between two tens ends in 5. It does not matter which number comes first.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint (Find the Halfway Point) note"
+      }
+    },
+    {
+      "id": "h_middle",
+      "level": 1,
+      "text": "Count in from both ends by the same steps. Where do you meet?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_rename",
+      "level": 1,
+      "text": "10 tens is 100. Count the extra tens.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Tens"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_vertical_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Endpoints, halfway point and the plotted number must be in exact positions.",
+      "description": "A vertical number line for rounding: the two nearest tens (or hundreds) as endpoints, the halfway point marked, and the number plotted.",
+      "must_show_exactly": [
+        "Endpoints exactly as in the stimulus",
+        "Halfway point marked and labelled",
+        "Number plotted at its exact position",
+        "Equal spacing",
+        "q_pr_1: 100 at bottom, 200 at top",
+        "q_pr_2: 100-200 line, 150 marked, 132 plotted",
+        "q_pr_3: 200-300 line, 250 marked, 250 plotted",
+        "q_pr_4: 1,300-1,400 line, 1,350 marked, 1,387 plotted",
+        "q_pr_5: 2,100-2,200 line, 2,150 marked, 2,146 plotted",
+        "q_ps_1b: 200-300 line, 250 marked, 286 plotted",
+        "q_ps_1f: 1,200-1,300 line, 1,250 marked, 1,250 plotted"
+      ],
+      "states_or_frames": [
+        "endpoints only",
+        "halfway point added",
+        "number plotted",
+        "arrow to the nearer endpoint"
+      ],
+      "interaction": "Tutor sets the number. Child answers by voice or typing.",
+      "alt_text": "A vertical number line with a number between two tens.",
+      "used_by": [
+        "ex_132",
+        "ex_1387",
+        "exp_hundreds",
+        "exp_round_hundred",
+        "exp_total_hundreds",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_ps_1b",
+        "q_ps_1f",
+        "q_ps_2d",
+        "q_ps_3"
+      ],
+      "generation_caption": "Vertical number line with two labelled endpoints, a marked halfway point and one dot, flat colours, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_place_value_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Disks or digits must be exact in each place, and regrouping (bundling or unbundling) must be shown step by step.",
+      "description": "An unlabeled place value chart with place value disks (thousands, hundreds, tens, ones) showing numbers like 13 hundreds 8 tens 7 ones.",
+      "must_show_exactly": [
+        "Exactly the disks in the stimulus",
+        "13 hundreds can be shown as 1 thousand 3 hundreds",
+        "q_app_1: 13 hundreds 8 tens 7 ones",
+        "q_ps_4: 1,900 shown as 19 hundred disks and as 1 thousand 9 hundreds"
+      ],
+      "states_or_frames": [
+        "10 tens",
+        "10 hundreds",
+        "13 tens",
+        "13 hundreds",
+        "13 hundreds 8 tens 7 ones"
+      ],
+      "interaction": "Child or tutor moves disks. Child answers by voice or typing.",
+      "alt_text": "A place value chart with hundreds, tens and ones.",
+      "used_by": [
+        "exp_total_hundreds",
+        "q_app_1",
+        "q_ps_4"
+      ],
+      "generation_caption": "Three-column place value chart labelled hundreds, tens, ones, with round number disks, flat colours. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Timed Sprint A and Sprint B race",
+      "reason": "Timed paper race with scoring, standing and Sprint A versus Sprint B. The printed items are used as practice questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Sprint A and B item numbers",
+      "issue": "No printed numbers in the extract. Items numbered left column 1-22, right column 23-44 of the table. Check against the PDF."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Sprint items used",
+      "issue": "Used Sprint A items 1, 5, 17, 29, 32, 35, 41, 42 (2-digit up, 2-digit reversed, 3-digit, 3-digit reversed, crossing 1,000, 4-digit, 4-digit reversed, reversed across a hundred). Sprint B repeats these patterns with other numbers; not used. All keys derived; recheck."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "h_middle",
+      "issue": "Generated hint (no source text) used for the Sprint halfway items, because h_halfway5 would give away the answer to q_sp_a1. Review it."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "q_ps_3, q_ps_4",
+      "issue": "Multi-answer items use open rubrics. q_ps_3 key: 550, 639, 603. q_ps_4 key: both correct (1,900 = 19 hundreds)."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_app_1",
+      "issue": "Question text contains 13 (in '13 hundreds' and 1,387). The point is the total hundreds versus the hundreds digit; check the item."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Problem Set 1a, c, d, e, 2 (stickers, pages, container, drive), Exit Ticket 1 and Homework (156, 342, 260, 1,260, 1,685, 1,804, Luis, audience, juice, book, Joanie, round to 400, Julia and Kim) repeat used patterns. Concept Development 387 mL, 1,582 and 3,245 left out."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The Application note says students must see the difference between the total hundreds (13) and the hundreds digit (3). Linked only as partial in r_app_1. Proposal: add mis_hundreds_digit_vs_total after review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Rounding keys computed by script: 300, 1,400, 2,100, 300, 1,300, 1,300, 700. Recheck."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_round_three_digit_tens (rounding to the nearest ten, Lessons 12-13). Replace with real card ids after review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_vertical_number_line, a_place_value_chart. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f19",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.NBT.1, 3.NBT.3. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

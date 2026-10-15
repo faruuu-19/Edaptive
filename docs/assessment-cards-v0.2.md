@@ -6,7 +6,7 @@ object. If the source JSON contains `cards[]`, select the concept by ID first.
 See [loading rules](assessment-card-collections.md).
 
 The full v0.2 schema and every retained assessment object are unchanged by
-cleanup. All 97 cards remain drafts. Script-agent integration is untested.
+cleanup. All 118 cards remain drafts. Script-agent integration is untested.
 
 ## Structure
 
@@ -77,10 +77,11 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-97 concept IDs have 97 standalone assessments; no assessment collections remain.
+118 concept IDs have 118 standalone assessments; no assessment collections remain.
 Each includes three main questions, two follow-ups, four local rubrics, 15 hints
-and five guidance records. Module 7 Lessons 1–26 and Module 8 Lessons 1–16 are
-complete, including sixteen and six new full assessments respectively. See the root README for totals and coverage.
+and five guidance records. Grade 2 Module 7 Lessons 1–26, Module 8 Lessons 1–16
+and Grade 3 Module 2 Lessons 1–21 are complete, including sixteen, six and
+twenty-one new full assessments respectively. See the root README for totals and coverage.
 
 [Cleanup validation](assessment-cards-cleanup-validation.json) checks unchanged
 content, IDs, references, guidance, hashes, worked arithmetic, tutoring routes
@@ -97,5 +98,12 @@ Module 8 Lessons 11–16 ([new assessment validation](assessment-cards-grade2-mo
 easy items with exact non-integer answers in Lessons 11 and 12 ("another fourth", "yes"),
 use clock-number labels in the Lesson 13 hard question and explicit 1 = a.m. / 2 = p.m.
 codes in the Lesson 15 medium follow-up. Numeric responses do not verify folds,
-partitions, drawings or clock-hand positions. Cards written in this batch record
+partitions, drawings or clock-hand positions. Cards written in these batches record
 `generated_by: claude_manual_fixture`; earlier cards keep their original value.
+
+Grade 3 Module 2 Lessons 1–21 ([new assessment validation](assessment-cards-grade3-module2-lessons1-21-validation.json),
+[module-pair validation](assessment-cards-grade3-module2-lesson-wise-validation.json)) use whole-number
+answers throughout. Their hard questions state the place-value decompositions that the
+check part needs, so the check introduces no new numbers. Lesson 1's reused easy answer is
+the word "minute". Numeric responses do not verify number-line drawings, clock or scale
+readings or measuring.

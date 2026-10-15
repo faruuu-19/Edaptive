@@ -1,37 +1,37 @@
 {
   "status": "passed",
   "format": "one_assessment_object_per_concept_id",
-  "assessment_json_files": 97,
-  "lesson_assessment_entries": 97,
-  "unique_assessed_concept_ids": 97,
-  "source_json_files_matched": 97,
+  "assessment_json_files": 118,
+  "lesson_assessment_entries": 118,
+  "unique_assessed_concept_ids": 118,
+  "source_json_files_matched": 118,
   "assessment_collection_files": 0,
   "existing_lesson_assessments_preserved": 75,
-  "new_lesson_assessments": 22,
+  "new_lesson_assessments": 43,
   "deleted_old_assessment_json_files": 222,
   "deleted_obsolete_zip_files": 7,
-  "complete_source_files": 97,
+  "complete_source_files": 118,
   "partial_source_files": 0,
   "missing_concept_entries_in_partial_files": 0,
-  "unassessed_source_files": 12,
+  "unassessed_source_files": 11,
   "totals": {
-    "main_questions": 291,
-    "follow_ups": 194,
-    "local_rubrics": 388,
-    "generated_hints": 1455,
-    "guidance_records": 485,
-    "worked_solution_equations_checked": 857,
-    "routing_scenarios": 2354,
+    "main_questions": 354,
+    "follow_ups": 236,
+    "local_rubrics": 472,
+    "generated_hints": 1770,
+    "guidance_records": 590,
+    "worked_solution_equations_checked": 1039,
+    "routing_scenarios": 2858,
     "multipart_classification_scenarios": 7
   },
   "current_rechecks": {
-    "worked_equations": 857,
-    "routing_scenarios": 2364,
-    "module_indexes": 6,
-    "module_zips": 6,
+    "worked_equations": 1022,
+    "routing_scenarios": 2868,
+    "module_indexes": 7,
+    "module_zips": 7,
     "global_zips": 2
   },
-  "scope": "All 75 earlier canonical assessment objects are unchanged. 22 new assessments match their independent answer-validation report hashes. All references, hints, guidance, routes, worked equations, source/index hashes and ZIP contents rechecked. Rechecks are not added again to historical totals.",
+  "scope": "All 75 earlier canonical assessment objects are unchanged. 43 new assessments match their independent answer-validation report hashes. All references, hints, guidance, routes, worked equations, source/index hashes and ZIP contents rechecked. Rechecks are not added again to historical totals.",
   "limitations": [
     "All cards are drafts; human educational review and actual script-agent integration remain outstanding.",
     "Module 7 Lessons 1–26 and Module 8 Lessons 1–16 are complete. Module 3 Lessons 2–21 lack supplied concepts; Grade 2 Modules 2 and 4 have no supplied source.",
@@ -814,6 +814,174 @@
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade2/Grade 2 Module 8/Module 8/Math G2-M8 Lessons/lesson-wise/lesson-16/math_g2_m8_l16_elapsed_time.assessment_card.json",
       "assessment_sha256": "a3e8526cb6610473fb5519c6be569ffd9e53b9ed6cb1478ba275c0bd96240c68",
       "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l1_time_seconds_minutes",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-1/math_g3_m2_l1_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-1/math_g3_m2_l1_time_seconds_minutes.assessment_card.json",
+      "assessment_sha256": "5f6926a6324661bbc86cc9508517f9d1469e281a95885a41a4ad386fd4aa6a20",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l2_time_number_line_fives",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-2/math_g3_m2_l2_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-2/math_g3_m2_l2_time_number_line_fives.assessment_card.json",
+      "assessment_sha256": "ccd62df6ddcb2c8c1e01010a0a39a23930ad2f69093fb062eafe2cbfa3b70465",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l3_time_nearest_minute",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-3/math_g3_m2_l3_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-3/math_g3_m2_l3_time_nearest_minute.assessment_card.json",
+      "assessment_sha256": "85a89f7808a2bce84c44b777324086be339cf84b3e642697bfe2e7e0ea87c272",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l4_time_intervals_word_problems",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-4/math_g3_m2_l4_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-4/math_g3_m2_l4_time_intervals_word_problems.assessment_card.json",
+      "assessment_sha256": "8db5af7ff09f7513a40853214c6eb209cf6a2416717d16b626748d1e516ed487",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l5_time_add_subtract_number_line",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-5/math_g3_m2_l5_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-5/math_g3_m2_l5_time_add_subtract_number_line.assessment_card.json",
+      "assessment_sha256": "d9a1edba9e2a038d4c7dd65fcd13510ed0e53a218549850faa62b00e08438f1f",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l6_kilogram_grams",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-6/math_g3_m2_l6_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-6/math_g3_m2_l6_kilogram_grams.assessment_card.json",
+      "assessment_sha256": "8c5c732e73b6740e8c2583b36abb20a8d7b99beba828741267d2a95ed9bb385f",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l7_estimate_weight_benchmarks",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-7/math_g3_m2_l7_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-7/math_g3_m2_l7_estimate_weight_benchmarks.assessment_card.json",
+      "assessment_sha256": "875fe088993bc6831f2b3e32472b0a74a57cdb69ac743e16a08b9a9c28fe217e",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l8_weight_word_problems",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-8/math_g3_m2_l8_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-8/math_g3_m2_l8_weight_word_problems.assessment_card.json",
+      "assessment_sha256": "ab1744dad381c16b5a6aa89763e13eb5cea08a6fcab78da5ba44a7b85a829456",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l9_liter_milliliters",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-9/math_g3_m2_l9_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-9/math_g3_m2_l9_liter_milliliters.assessment_card.json",
+      "assessment_sha256": "dcb493be505924c37cf5ec8062aa4e6814500b59a5ced5a0c5fe0f79beb4fc4f",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l10_liquid_volume_vertical_line",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-10/math_g3_m2_l10_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-10/math_g3_m2_l10_liquid_volume_vertical_line.assessment_card.json",
+      "assessment_sha256": "67276f6a7049c182b8d8b8a21c19b679a21c7aff1d67a44bb6b160b392214314",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l11_mass_volume_word_problems",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-11/math_g3_m2_l11_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-11/math_g3_m2_l11_mass_volume_word_problems.assessment_card.json",
+      "assessment_sha256": "a39f4c17a7e8bd8e316960b315e4c2c71a47a006843e149ccaa156e03b348c78",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l12_round_nearest_ten",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-12/math_g3_m2_l12_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-12/math_g3_m2_l12_round_nearest_ten.assessment_card.json",
+      "assessment_sha256": "813cb1f6b01d3906ff1bbc0e9d037045df2ed60a919b1723d739596188ab93b8",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l13_round_three_digit_tens",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-13/math_g3_m2_l13_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-13/math_g3_m2_l13_round_three_digit_tens.assessment_card.json",
+      "assessment_sha256": "59dbb662c2fb211cbf285455f102425e562a27d511ba136aaacbbe6e5d9f2393",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l14_round_nearest_hundred",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-14/math_g3_m2_l14_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-14/math_g3_m2_l14_round_nearest_hundred.assessment_card.json",
+      "assessment_sha256": "2e29d55ebfa380cfb77cbe6f1575821caeb47ccd05b0f256871eacaf71999226",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l15_add_measurements_rename_once",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-15/math_g3_m2_l15_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-15/math_g3_m2_l15_add_measurements_rename_once.assessment_card.json",
+      "assessment_sha256": "8f4612acd508b24d4a3f3e12b46754276b85f3fe81a58d821654a851e59a7e01",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l16_add_measurements_rename_twice",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-16/math_g3_m2_l16_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-16/math_g3_m2_l16_add_measurements_rename_twice.assessment_card.json",
+      "assessment_sha256": "47bbc18f695f95460d67a5d3a5ae4162e48aff641325958860b028b463b01cd3",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l17_estimate_sums_rounding",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-17/math_g3_m2_l17_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-17/math_g3_m2_l17_estimate_sums_rounding.assessment_card.json",
+      "assessment_sha256": "4e0417f19297900acf43c660bcb32cbdc832c254ddfa1aba187b6d979f0d3329",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l18_subtract_decompose_once",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-18/math_g3_m2_l18_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-18/math_g3_m2_l18_subtract_decompose_once.assessment_card.json",
+      "assessment_sha256": "980ca75c3291a823e3f3c80dd5ba0aa9dfe5e09872555a5d9e652b103d524a0e",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l19_subtract_decompose_twice",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-19/math_g3_m2_l19_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-19/math_g3_m2_l19_subtract_decompose_twice.assessment_card.json",
+      "assessment_sha256": "add90c17430113bf45da2b1e7670c5c2fdbd3046cc0a9cff3f3d3b39b81d2923",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l20_estimate_differences_rounding",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-20/math_g3_m2_l20_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-20/math_g3_m2_l20_estimate_differences_rounding.assessment_card.json",
+      "assessment_sha256": "aabaa1e0856bcd873793750729a507dffe795b5f54040448a7ae91cd6f0efc90",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g3_m2_l21_estimate_mixed_measurement_problems",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-21/math_g3_m2_l21_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-21/math_g3_m2_l21_estimate_mixed_measurement_problems.assessment_card.json",
+      "assessment_sha256": "48c6ac4f64dde9d1c37c978cf8ed723602cbf0aec9cf433ae809b02d96d6af8f",
+      "content_unchanged": false
     }
   ],
   "validation_reports": [
@@ -824,7 +992,8 @@
     "assessment-cards-grade2-module8-lessons1-10-validation.json",
     "assessment-cards-grade2-module1-lesson-wise-validation.json",
     "assessment-cards-grade2-module7-lessons11-26-validation.json",
-    "assessment-cards-grade2-module8-lessons11-16-validation.json"
+    "assessment-cards-grade2-module8-lessons11-16-validation.json",
+    "assessment-cards-grade3-module2-lessons1-21-validation.json"
   ],
-  "new_batch_validation": "assessment-cards-grade2-module8-lessons11-16-validation.json"
+  "new_batch_validation": "assessment-cards-grade3-module2-lessons1-21-validation.json"
 }

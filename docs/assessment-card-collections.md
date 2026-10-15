@@ -1,6 +1,6 @@
 # One assessment per concept ID
 
-The canonical dataset has 97 assessment files for 97 concept IDs. Each is named
+The canonical dataset has 118 assessment files for 118 concept IDs. Each is named
 `<concept_id>.assessment_card.json` and has `card_type: assessment_card`.
 Assessment `cards[]` collections, obsolete versions and duplicate snapshots
 were removed. Concept sources are preserved; some still contain `cards[]`.
@@ -41,7 +41,9 @@ Grade 1 has six assessments, covering Lesson 1 in Modules 1–6. Grade 2 has 91:
 Module 1 Lessons 1–8; Module 3 Lesson 1; Modules 5/6 Lessons 1–20; Module 7
 Lessons 1–26; Module 8 Lessons 1–16. Grade 2 Modules 1/3/5/6/7/8 have standalone
 lesson concepts. Module 3 has twenty missing source concepts; Grade 2 Modules 2/4
-have no supplied source.
+have no supplied source. Grade 3 has 21: Module 2 Lessons 1–21, each with a
+standalone lesson concept. Grade 3 Modules 3–7 and Grade 4 Modules 1–6 remain
+unassessed.
 
 [Module 7 new assessment validation](assessment-cards-grade2-module7-lessons11-26-validation.json)
 records independent answer/accept-list checks and 390 route scenarios for sixteen
@@ -50,9 +52,12 @@ checks all 26 pairs and 980 preserved source questions.
 [Module 8 new assessment validation](assessment-cards-grade2-module8-lessons11-16-validation.json)
 records independent answer/accept-list checks, 35 worked equations and 144 route
 scenarios for six new cards; [Module 8 lesson-pair validation](assessment-cards-grade2-module8-lesson-wise-validation.json)
-checks all 16 pairs, preserved source objects and ZIP bytes. Current totals are
-291 main questions, 194 follow-ups, 388 local rubrics, 1,455 hints and 485 guidance
-records. Cumulative evidence is 857 equations, 2,354 routes and seven multipart
+checks all 16 pairs, preserved source objects and ZIP bytes.
+[Grade 3 Module 2 new assessment validation](assessment-cards-grade3-module2-lessons1-21-validation.json)
+records independent answer/accept-list checks, 182 worked equations and 504 route
+scenarios for 21 new cards; [Grade 3 Module 2 lesson-pair validation](assessment-cards-grade3-module2-lesson-wise-validation.json)
+checks all 21 pairs, preserved source objects and ZIP bytes. Current totals are
+354 main questions, 236 follow-ups, 472 local rubrics, 1,770 hints and 590 guidance records. Cumulative evidence is 1039 equations, 2,858 routes and seven multipart
 classification scenarios; repeated module/package checks are kept separate.
 
 [Cleanup validation](assessment-cards-cleanup-validation.json) records exact

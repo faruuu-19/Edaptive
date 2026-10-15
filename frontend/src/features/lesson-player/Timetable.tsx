@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { useAuthStatus } from '@/features/auth';
 import { getProfile, listProfiles, type Profile } from '@/lib/api';
 import { deliveryAction, getSchoolRoutine, getTimetables, saveSchoolStartTime, type SchoolRoutine, type SavedTimetable } from '@/lib/lesson-delivery-api';
+import { childMessage } from '@/lib/friendly-error';
 import { LessonPlayer } from './LessonPlayer';
 import styles from './timetable.module.css';
 import { ChildClass } from './ChildClass';
@@ -51,12 +52,12 @@ export function Timetable({ autoStart = false, studentId }: { autoStart?: boolea
     let active = true; let timer: ReturnType<typeof setTimeout>;
     const poll = async () => {
       try { const r = await getTimetables(student); if (active) { setSchedule(chooseDay(r.timetables)); setRoutine(r.routine); setPollError(''); setLoaded(true); } }
-      catch (e) { if (active) setPollError((e as Error).message); }
+      catch (e) { if (active) setPollError(parent ? (e as Error).message : childMessage(e)); }
       if (active) timer = setTimeout(poll, 1000);
     };
     void poll();
     return () => { active = false; clearTimeout(timer); };
-  }, [student]);
+  }, [student, parent]);
 
   const slot = schedule?.slots.find(s => s.id === schedule.current_slot_id);
   const timetableId = schedule?.id; const currentSlotId = slot?.id; const isStarted = slot?.class_phase === 'started';
@@ -70,7 +71,7 @@ export function Timetable({ autoStart = false, studentId }: { autoStart?: boolea
     if (!schedule || !slot) return;
     setBusy(true); setError('');
     try { if (kind === 'start' || kind === 'rejoin') setPlayOnStart(true); setSchedule(await deliveryAction({ timetableId: schedule.id, slotId: slot.id }, kind)); }
-    catch (e) { setError((e as Error).message); if (rethrow) throw e; }
+    catch (e) { setError(parent ? (e as Error).message : childMessage(e)); if (rethrow) throw e; }
     finally { setBusy(false); }
   }
   async function saveTime(e: React.FormEvent) {

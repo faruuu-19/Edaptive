@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { LiveNarrator } from "@/features/voice";
+import { childMessage } from "@/lib/friendly-error";
 import { getPreviewLesson, type PreviewLesson } from "@/lib/voice-preview-api";
 import { deliveryAction, getDeliveryLesson, type DeliveryContext } from "@/lib/lesson-delivery-api";
 import { LeaveClassDialog } from "./LeaveClassDialog";
@@ -19,6 +20,8 @@ function PlayIcon({ paused }: { paused: boolean }) {
     {paused ? <><path d="M8 5v14M16 5v14" /></> : <path d="m8 5 11 7-11 7Z" />}
   </svg>;
 }
+
+const shown = (delivery: boolean, e: unknown) => (delivery ? childMessage(e) : (e as Error).message);
 
 export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery }: { delivery?: DeliveryContext; onFinished?: () => void; onLeave?: () => Promise<void>; autoStart?: boolean } = {}) {
   const timetableId = delivery?.timetableId;
@@ -50,7 +53,7 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
   useEffect(() => {
     const controller = new AbortController();
     (stableDelivery ? getDeliveryLesson(stableDelivery, controller.signal) : getPreviewLesson(controller.signal)).then(data => { setLesson(data); if ("position" in data) setIndex(data.position as number); }).catch(e => {
-      if (!controller.signal.aborted) setError(e.message);
+      if (!controller.signal.aborted) setError(shown(!!stableDelivery, e));
     });
     return () => controller.abort();
   }, [reload, stableDelivery]);
@@ -72,7 +75,7 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
     try {
       if (delivery) await deliveryAction(delivery, "position", partIndex);
       start(partIndex, data, selectedVoice);
-    } catch (e) { setError((e as Error).message); setPhase("ready"); }
+    } catch (e) { setError(shown(!!delivery, e)); setPhase("ready"); }
   }
 
   function start(partIndex: number, data = lesson, selectedVoice = voice) {
@@ -94,7 +97,7 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
         }
       },
     }, delivery).catch(e => {
-      if (generation.current === token) { setError(e.message); setPhase("ready"); }
+      if (generation.current === token) { setError(shown(!!delivery, e)); setPhase("ready"); }
     });
   }
 
@@ -119,7 +122,7 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
     if (!onLeave) return;
     setLeaveBusy(true); stop();
     try { await onLeave(); }
-    catch (e) { setError((e as Error).message); setPhase("ready"); setLeaveBusy(false); setLeaving(false); }
+    catch (e) { setError(shown(true, e)); setPhase("ready"); setLeaveBusy(false); setLeaving(false); }
   }
 
   const brand = onLeave ? <span className="wordmark">Edaptive</span> : <Link className="wordmark" href="/">Edaptive</Link>;
@@ -130,7 +133,7 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
 
   async function navigate(next: number) {
     stop();
-    if (delivery) { try { await deliveryAction(delivery, "position", next); } catch (e) { setError((e as Error).message); return; } } setIndex(next); setCaption(-1); setPhase("ready"); setError("");
+    if (delivery) { try { await deliveryAction(delivery, "position", next); } catch (e) { setError(shown(true, e)); return; } } setIndex(next); setCaption(-1); setPhase("ready"); setError("");
   }
 
   if (!lesson) return <div className="stack">
@@ -185,6 +188,6 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
     </div>
     <p className={styles.status} role="status">{phase === "preparing" ? "The teacher is getting ready to speak." : phase === "paused" ? "Paused. Keep listening when you’re ready." : phase === "playing" ? "Listen and follow the highlighted sentence." : "You can listen, replay or move through the lesson."}</p>
     {error && <p className="error" role="alert">{error}</p>}
-    <p className={styles.draftNote}>{delivery ? "Your lesson position is saved. Draft cards are enabled for evaluation." : "Review preview: the lesson content is still a draft. Answers and progress are not recorded here."}</p>
+    <p className={styles.draftNote}>{delivery ? (lesson.preview_only ? "Your place is saved. This lesson is still a draft." : "Your place is saved.") : "Review preview: the lesson content is still a draft. Answers and progress are not recorded here."}</p>
   </div>;
 }

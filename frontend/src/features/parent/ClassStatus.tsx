@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
+import { needsMemoryHelp } from '@/features/lesson-player';
 import { getTimetables, type SavedTimetable } from '@/lib/lesson-delivery-api';
 import styles from './parent.module.css';
 
@@ -13,6 +14,19 @@ export type ClassSummary = { headline: string; detail: string; attention: boolea
 export function describeClass(name: string, day: SavedTimetable | undefined): ClassSummary {
   const slot = day?.slots.find(s => s.id === day.current_slot_id) ?? day?.slots.find(s => s.kind === 'lesson');
   if (!day || !slot || slot.kind !== 'lesson') return { headline: 'No class is scheduled yet', detail: 'Set a daily start time below.', attention: false };
+  const prep = slot.preparation;
+  const waiting = slot.class_phase === 'waiting' || slot.class_phase === 'ringing';
+  if (waiting && prep && prep.status !== 'ready') {
+    if (needsMemoryHelp(prep)) {
+      return { headline: `${name}’s Maths lesson is paused`, detail: 'This computer is low on memory. Please close other browser tabs and apps; the lesson will carry on preparing by itself.', attention: true };
+    }
+    if (prep.status === 'failed') {
+      return { headline: `${name}’s Maths lesson could not be prepared`, detail: 'Edaptive will try again automatically. If this stays, restart Edaptive.', attention: true };
+    }
+    if (/unavailable/i.test(prep.message ?? '')) {
+      return { headline: 'The lesson teacher is not responding', detail: 'Edaptive will keep trying. If this stays, restart Edaptive.', attention: true };
+    }
+  }
   const part = `part ${(slot.position ?? 0) + 1}${slot.segment_count ? ` of ${slot.segment_count}` : ''}`;
   switch (slot.class_phase) {
     case 'completed':

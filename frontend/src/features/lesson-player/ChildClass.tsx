@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import type { PreparedSlot, SavedTimetable } from '@/lib/lesson-delivery-api';
+import { needsMemoryHelp } from './preparation-message';
 import styles from './timetable.module.css';
 
 const clock = (ms: number) =>
@@ -30,6 +31,13 @@ export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnoo
   const percent = ready ? 100 : Math.round(slot?.preparation?.percent ?? 0);
   const snoozed = (slot?.borrowed_minutes ?? 0) > 0;
   const active = schedule?.status === 'active';
+  const memory = needsMemoryHelp(slot?.preparation);
+  const stuck = !memory && slot?.preparation?.status === 'failed';
+  const trouble = (memory || stuck) && slot?.preparation?.status !== 'ready'
+    ? <p className="notice" role="alert">{memory
+      ? 'Your teacher needs a little more room to get ready. Please ask a grown-up to close other tabs and apps.'
+      : 'Your teacher is having trouble getting ready. A grown-up has been told.'}</p>
+    : null;
 
   let body: React.ReactNode = null;
   if (!loaded) {
@@ -60,6 +68,7 @@ export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnoo
       <div className={styles.classArt}><MathsMark /></div>
       <h2 className={styles.classTitle}>It’s time for Maths!</h2>
       <p className={styles.classLine}>{ready ? 'Your lesson is ready.' : 'Your teacher is almost ready.'}</p>
+      {trouble}
       {!ready && <label className={styles.classProgress}>
         <progress max="100" value={percent} aria-label="Getting the lesson ready" />
         <span>{percent}%</span>
@@ -73,6 +82,7 @@ export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnoo
     body = <section className={`card ${styles.classCard}`} role="status" aria-label="Maths class">
       <div className={styles.classArt}><MathsMark /></div>
       <h2 className={styles.classTitle}>Maths starts at {clock(slot.start_ms)}</h2>
+      {trouble}
     </section>;
   }
 

@@ -1,9 +1,8 @@
 "use client";
 
 import Link from 'next/link';
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useAuthStatus } from '@/features/auth';
-import { LocalAlarm } from '@/features/voice';
 import { getProfile, listProfiles, type Profile } from '@/lib/api';
 import { deliveryAction, getSchoolRoutine, getTimetables, saveSchoolStartTime, type SchoolRoutine, type SavedTimetable } from '@/lib/lesson-delivery-api';
 import { LessonPlayer } from './LessonPlayer';
@@ -27,9 +26,7 @@ export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
   const [pollError, setPollError] = useState('');
   const [loaded, setLoaded] = useState(false);
   const [busy, setBusy] = useState(false);
-  const [armed, setArmed] = useState(false);
   const [playOnStart, setPlayOnStart] = useState(autoStart);
-  const alarm = useRef<LocalAlarm | null>(null);
   const parent = status?.actor?.role === 'parent';
 
   useEffect(() => {
@@ -69,17 +66,11 @@ export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
     return () => clearInterval(timer);
   }, [timetableId, currentSlotId, isStarted, parent]);
   useEffect(() => { if (autoStart && isStarted) router.replace('/timetable'); }, [autoStart, isStarted, router]);
-  useEffect(() => {
-    alarm.current?.stop();
-  }, [slot?.class_phase, armed, parent]);
-  useEffect(() => () => alarm.current?.close(), []);
-
-  async function arm() { alarm.current ??= new LocalAlarm(); await alarm.current.unlock(); setArmed(true); }
-  async function action(kind: string) {
+  async function action(kind: string, rethrow = false) {
     if (!schedule || !slot) return;
     setBusy(true); setError('');
-    try { if (kind === 'start') { await arm(); setPlayOnStart(true); } setSchedule(await deliveryAction({ timetableId: schedule.id, slotId: slot.id }, kind)); }
-    catch (e) { setError((e as Error).message); }
+    try { if (kind === 'start' || kind === 'rejoin') setPlayOnStart(true); setSchedule(await deliveryAction({ timetableId: schedule.id, slotId: slot.id }, kind)); }
+    catch (e) { setError((e as Error).message); if (rethrow) throw e; }
     finally { setBusy(false); }
   }
   async function saveTime(e: React.FormEvent) {
@@ -95,12 +86,11 @@ export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
   if (!status.actor) return <div className="stack"><h1>Your timetable</h1><p>Select a child profile or unlock the parent area.</p><Link className="btn btn-primary" href="/">Choose a profile</Link><Link className="btn" href="/parent">Parent area</Link></div>;
 
   if (!parent && slot?.class_phase === 'started') return <div className="stack">
-    <div className="row spread"><Link className="wordmark" href="/home">Edaptive</Link><button className="btn" onClick={() => router.push('/home')}>Back to your day</button></div>
-    <LessonPlayer key={slot.id} delivery={{ timetableId: schedule!.id, slotId: slot.id }} autoStart={playOnStart} onFinished={() => void action('finish')} />
+    <LessonPlayer key={slot.id} delivery={{ timetableId: schedule!.id, slotId: slot.id }} autoStart={playOnStart} onLeave={async () => { await action('exit', true); }} onFinished={() => void action('finish')} />
     {(error || pollError) && <p className="error" role="alert">{error || pollError}</p>}
   </div>;
 
-  if (!parent) return <ChildClass loaded={loaded} schedule={schedule} slot={slot} busy={busy} error={error || pollError} onJoin={() => void action('start')} onSnooze={() => void action('borrow')} />;
+  if (!parent) return <ChildClass loaded={loaded} schedule={schedule} slot={slot} busy={busy} error={error || pollError} onJoin={() => void action('start')} onSnooze={() => void action('borrow')} onRejoin={() => void action('rejoin')} />;
 
   const active = schedule?.status === 'active';
   const remaining = slot ? Math.max(0, Math.ceil((slot.start_ms - schedule!.server_now_ms) / 1000)) : 0;

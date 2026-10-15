@@ -22,3 +22,12 @@
   .controls :global(.btn) { flex: 1 1 42%; }
   .settings select { max-width: 100%; }
 }
+
+/* Confirm-to-leave dialog (child). */
+.leaveDialog { border: 2px solid var(--ink); border-radius: var(--radius); background: var(--surface); color: var(--ink); padding: 28px; max-width: min(92vw, 460px); box-shadow: 6px 6px 0 var(--ink); }
+.leaveDialog::backdrop { background: rgba(34, 48, 75, 0.45); }
+.leaveDialog h2 { font-family: var(--display); font-weight: 800; font-size: 1.8rem; margin: 0 0 12px; }
+.leaveDialog p { font-size: 1.1rem; line-height: 1.5; margin: 0 0 22px; }
+.leaveActions { display: flex; flex-wrap: wrap; gap: 12px; }
+.leaveActions .btn { min-height: 52px; font-size: 1.05rem; }
+@media (max-width: 500px) { .leaveActions .btn { width: 100%; } }

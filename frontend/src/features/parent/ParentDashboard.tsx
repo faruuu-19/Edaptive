@@ -4,9 +4,11 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState, type FormEvent } from 'react';
 import { Avatar } from '@/features/home-profile';
+import { lessonAlarm } from '@/features/voice';
 import { getProfile, signOut, type Profile } from '@/lib/api';
 import { getSchoolRoutine, saveSchoolStartTime, type SchoolRoutine } from '@/lib/lesson-delivery-api';
 import { getPermissions, setPermission, type PermissionKind, type Permissions } from '@/lib/parent-api';
+import { ClassStatus } from './ClassStatus';
 import styles from './parent.module.css';
 
 // Presentation fixtures only. Never saved as a child's measured progress,
@@ -17,6 +19,12 @@ const SAMPLE_EVALUATIONS = [
   { title: 'Independent practice', result: 'Needs a little support', detail: 'A short review could help with a more challenging question.' },
   { title: 'Learning habits', result: 'Steady effort', detail: 'Takes time to think and stays with the lesson.' },
 ];
+
+const permissionText = (name: string): Record<PermissionKind, { title: string; about: string; allow: string }> => ({
+  camera: { title: 'Camera', about: 'Permission for future camera features.', allow: 'Allow camera' },
+  microphone: { title: 'Voice input', about: 'Permission for future microphone features.', allow: 'Allow voice input' },
+  lesson_alarm: { title: 'Lesson alarm sound', about: `Plays a short chime on ${name}’s device when class time starts. ${name} can’t turn this on or off.`, allow: 'Allow lesson alarm' },
+});
 
 function SampleProgress() {
   const points = SAMPLE_PROGRESS.map((v, i) => `${50 + i * 74},${158 - v * 1.2}`).join(' ');
@@ -62,6 +70,8 @@ export function ParentDashboard({ studentId }: { studentId: string }) {
     finally { setSaving(false); }
   }
   async function decide(kind: PermissionKind, granted: boolean) {
+    // Clicking Allow is the browser gesture that lets this device play the chime later.
+    if (kind === 'lesson_alarm' && granted) void lessonAlarm().unlock();
     setSavingPermission(kind); setActionError('');
     try { setPermissions(await setPermission(studentId, kind, granted)); }
     catch (error) { setActionError((error as Error).message); }
@@ -85,6 +95,7 @@ export function ParentDashboard({ studentId }: { studentId: string }) {
       <div><span className="eyebrow">Daily school time</span><p className={styles.schoolTime}>{routine?.start_time ?? 'Not set yet'}</p><small className="muted">Pakistan time</small></div>
     </div>
     {actionError && <p className="error" role="alert">{actionError}</p>}
+    <ClassStatus studentId={studentId} name={profile.display_name} />
     <div className={styles.grid}>
       <section className="card stack" aria-labelledby="progress-title">
         <div className="row spread"><h2 id="progress-title">Learning progress</h2><span className={styles.sampleBadge}>Sample data</span></div>
@@ -112,13 +123,13 @@ export function ParentDashboard({ studentId }: { studentId: string }) {
         <p className={styles.sampleNote}>No evaluation has been run from these examples.</p>
       </section>
       <section className="card stack" aria-labelledby="permissions-title">
-        <h2 id="permissions-title">Camera &amp; voice permissions</h2>
-        <p>Your choices are saved for this child. Camera and voice input are not active in this stage.</p>
-        {permissions.permissions.map(permission => <div className={styles.permission} key={permission.kind}>
-          <div className="row spread"><h3>{permission.kind === 'camera' ? 'Camera' : 'Voice input'}</h3><span className={styles.permissionStatus}>{permission.granted ? 'Allowed' : 'Not allowed'}</span></div>
-          <p>{permission.kind === 'camera' ? 'Permission for future camera features.' : 'Permission for future microphone features.'}</p>
-          <button className="btn" disabled={savingPermission !== null} onClick={() => void decide(permission.kind, !permission.granted)}>{savingPermission === permission.kind ? 'Saving…' : permission.granted ? 'Revoke permission' : `Allow ${permission.kind === 'camera' ? 'camera' : 'voice input'}`}</button>
-        </div>)}
+        <h2 id="permissions-title">Permissions</h2>
+        <p>Your choices are saved for this child. Camera and voice input are not active in this stage; the lesson alarm sound is.</p>
+        {permissions.permissions.map(permission => { const text = permissionText(profile.display_name)[permission.kind]; return <div className={styles.permission} key={permission.kind}>
+          <div className="row spread"><h3>{text.title}</h3><span className={styles.permissionStatus}>{permission.granted ? 'Allowed' : 'Not allowed'}</span></div>
+          <p>{text.about}</p>
+          <button className="btn" disabled={savingPermission !== null} onClick={() => void decide(permission.kind, !permission.granted)}>{savingPermission === permission.kind ? 'Saving…' : permission.granted ? 'Revoke permission' : text.allow}</button>
+        </div>; })}
         <p className="notice">Saving permission does not turn on the camera or microphone. No audio or video is collected.</p>
         <p className="muted">The lesson teacher’s spoken voice works independently of microphone permission.</p>
       </section>

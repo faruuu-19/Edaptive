@@ -21,10 +21,11 @@ type Props = {
   error: string;
   onJoin: () => void;
   onSnooze: () => void;
+  onRejoin: () => void;
 };
 
 /** What a child sees after tapping Maths: one calm card, no timetable and no planning detail. */
-export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnooze }: Props) {
+export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnooze, onRejoin }: Props) {
   const ready = slot?.preparation?.status === 'ready';
   const percent = ready ? 100 : Math.round(slot?.preparation?.percent ?? 0);
   const snoozed = (slot?.borrowed_minutes ?? 0) > 0;
@@ -39,6 +40,21 @@ export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnoo
     body = <p className={styles.childNote}>Your parent can set your daily school start time in the parent area.</p>;
   } else if (!slot) {
     body = <p className={styles.childNote} role="status">Your Maths lesson isn’t ready yet.</p>;
+  } else if (slot.class_phase === 'exited') {
+    body = <section className={`card ${styles.classCard}`} role="status" aria-label="Maths class">
+      <div className={styles.classArt}><MathsMark /></div>
+      <h2 className={styles.classTitle}>You left Maths class</h2>
+      <p className={styles.classLine}>You can come back until {clock(slot.end_ms)}. Your place is saved.</p>
+      <div className={styles.classActions}>
+        <button className={`btn btn-primary ${styles.big}`} disabled={busy} onClick={onRejoin}>Rejoin class</button>
+      </div>
+    </section>;
+  } else if (slot.class_phase === 'left_early') {
+    body = <section className={`card ${styles.classCard}`} role="status" aria-label="Maths class">
+      <div className={styles.classArt}><MathsMark /></div>
+      <h2 className={styles.classTitle}>Maths class has finished for today</h2>
+      <p className={styles.classLine}>We’ll carry on from where you stopped on the next school day.</p>
+    </section>;
   } else if (slot.class_phase === 'ringing') {
     body = <section className={`card ${styles.classCard}`} role="alert" aria-label="Maths class">
       <div className={styles.classArt}><MathsMark /></div>

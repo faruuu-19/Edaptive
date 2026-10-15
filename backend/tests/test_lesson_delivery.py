@@ -776,3 +776,51 @@ def test_a_class_that_is_not_over_yet_is_not_moved(parent_client, child, db, mon
     refresh_at(db, child, monkeypatch, datetime(2026, 10, 14, 3, 0, tzinfo=UTC))  # 08:00, before class
     slot = db.get(Timetable, uuid.UUID(result["id"])).state["slots"][0]
     assert slot["start_ms"] == old["start_ms"] and slot["job_id"] == old["job_id"]
+
+
+# ---- Preparation follows the timetable: a job that started too early is held until its time ----------
+
+
+@pytest.mark.parametrize("status", ["queued", "preparing", "paused"])
+def test_a_job_that_started_before_its_preparation_time_is_cancelled_and_made_again_on_time(
+    parent_client, child, db, status
+):
+    """E.g. the parent moved the class later after preparation had already begun."""
+    result = create_plan(parent_client, child)
+    old = unrun_class(db, result, {"status": status, "percent": 14})
+    state = copy.deepcopy(db.get(Timetable, uuid.UUID(result["id"])).state)
+    early = old["prepare_at_ms"] - 60_000
+    assert runtime.hold_early_jobs(state, early) == [old["job_id"]]
+    slot = state["slots"][0]
+    assert slot["job_id"] != old["job_id"], "the early job is not reused"
+    assert slot["preparation"]["status"] == "waiting" and slot["preparation"]["percent"] == 0
+
+
+@pytest.mark.parametrize(
+    ("status", "when"),
+    [
+        ("preparing", "on_time"),
+        ("paused", "on_time"),
+        ("ready", "early"),
+        ("checking", "early"),
+        ("waiting", "early"),
+        ("failed", "early"),
+        ("cancelled", "early"),
+    ],
+)
+def test_jobs_are_left_alone_when_it_is_time_or_there_is_nothing_to_hold(
+    parent_client, child, db, status, when
+):
+    result = create_plan(parent_client, child)
+    old = unrun_class(db, result, {"status": status, "percent": 50})
+    state = copy.deepcopy(db.get(Timetable, uuid.UUID(result["id"])).state)
+    now = old["prepare_at_ms"] + (1000 if when == "on_time" else -60_000)
+    assert runtime.hold_early_jobs(state, now) == []
+    assert state["slots"][0]["job_id"] == old["job_id"]
+    assert state["slots"][0]["preparation"]["status"] == status
+
+
+def test_a_started_class_is_never_held(parent_client, student_client, child, db, monkeypatch):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    state = copy.deepcopy(db.get(Timetable, uuid.UUID(result["id"])).state)
+    assert runtime.hold_early_jobs(state, slot["prepare_at_ms"] - 60_000) == []

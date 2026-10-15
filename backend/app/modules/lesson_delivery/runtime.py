@@ -369,6 +369,30 @@ def apply_prepared(state, index, lesson, status):
     shift(state, index + 1, delta)
 
 
+def hold_early_jobs(state, now_ms):
+    """Preparation follows the timetable. A job that started before its slot's preparation time (for
+    example the class was moved later after it began) is cancelled and made again when its time comes.
+    Returns the cancelled job ids so the caller can stop them."""
+    cancelled = []
+    for slot in state["slots"]:
+        if (
+            slot["kind"] == "lesson"
+            and slot["status"] == "planned"
+            and slot.get("preparation", {}).get("status") in {"queued", "preparing", "paused"}
+            and now_ms < slot["prepare_at_ms"]
+        ):
+            cancelled.append(slot["job_id"])
+            slot.update(
+                job_id=str(uuid.uuid4()),
+                preparation={
+                    "status": "waiting",
+                    "percent": 0,
+                    "message": "Coming soon · waiting for preparation time",
+                },
+            )
+    return cancelled
+
+
 def refresh_preparation(state, index):
     """Move one planned lesson's preparation forward; True while the voice service is still working."""
     slot = state["slots"][index]
@@ -402,6 +426,12 @@ def poll_preparation():
                     if expire_disconnected(db, row, time.time() * 1000):
                         continue
                     state = copy.deepcopy(row.state)
+                    for stale in hold_early_jobs(state, time.time() * 1000):
+                        try:
+                            voice_request("/jobs/" + stale + "/cancel", {})
+                        except (OSError, ValueError):
+                            pass
+                    row.state = state
                     # Prioritise current delivery over loading another large model.
                     active = next((s for s in state["slots"] if s["status"] == "started"), None)
                     if active:

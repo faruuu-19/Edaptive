@@ -1,0 +1,1357 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l3_drawing_polygons",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-a-lesson-3.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 3",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Draw polygons with a set number of sides or angles, and name them.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Use attributes to draw different polygons including triangles, quadrilaterals, pentagons, and hexagons."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_straight_sides",
+      "title": "Polygons have straight sides",
+      "text": "A polygon has straight sides that meet at corners. A shape with a curve is not a polygon.",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: curved shape vs pentagon"
+      }
+    },
+    {
+      "id": "exp_draw_with_ruler",
+      "title": "Draw with a straightedge",
+      "text": "Use a straightedge to draw each side. Then the sides are straight and meet neatly at corners.",
+      "asset_ids": [
+        "a_draw_pad"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: drawing with a straightedge"
+      }
+    },
+    {
+      "id": "exp_same_name_different_look",
+      "title": "Same name, different looks",
+      "text": "All these shapes have 6 sides and 6 angles. They are all hexagons, even with different side lengths.",
+      "asset_ids": [
+        "a_draw_pad"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: comparing hexagons"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_count_hexagon",
+      "title": "Checking a hexagon",
+      "text": "Circle each corner: 6 angles. Put your finger on a side and count around: 6 sides. It is a hexagon.",
+      "asset_ids": [
+        "a_draw_pad"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: circle and count angles and sides"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 159 plus 17?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 159,
+        "b": 17
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_unit_form"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (S: 176)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 224 plus 28?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 224,
+        "b": 28
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit_form"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (sequence 224 + 28)"
+      }
+    },
+    {
+      "id": "q_pr_cf1",
+      "kind": "practice",
+      "text": "10 plus 9 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "sheet": "A",
+        "item": 1
+      },
+      "rubric_id": "r_pr_cf1",
+      "hint_ids": [
+        "h_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set A item 1"
+      }
+    },
+    {
+      "id": "q_pr_cf2",
+      "kind": "practice",
+      "text": "9 plus 4 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "sheet": "A",
+        "item": 14
+      },
+      "rubric_id": "r_pr_cf2",
+      "hint_ids": [
+        "h_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set A item 14"
+      }
+    },
+    {
+      "id": "q_pr_cf3",
+      "kind": "practice",
+      "text": "15 plus what number equals 19?",
+      "asset_ids": [],
+      "stimulus": {
+        "sheet": "B",
+        "item": 8
+      },
+      "rubric_id": "r_pr_cf3",
+      "hint_ids": [
+        "h_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set B item 8"
+      }
+    },
+    {
+      "id": "q_pr_cf4",
+      "kind": "practice",
+      "text": "What number plus 4 equals 12?",
+      "asset_ids": [],
+      "stimulus": {
+        "sheet": "B",
+        "item": 23
+      },
+      "rubric_id": "r_pr_cf4",
+      "hint_ids": [
+        "h_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set B item 23"
+      }
+    },
+    {
+      "id": "q_pr_cf5",
+      "kind": "practice",
+      "text": "20 equals 13 plus what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "sheet": "B",
+        "item": 37
+      },
+      "rubric_id": "r_pr_cf5",
+      "hint_ids": [
+        "h_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set B item 37"
+      }
+    },
+    {
+      "id": "q_pr_cf6",
+      "kind": "practice",
+      "text": "15 minus 12 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "sheet": "C",
+        "item": 5
+      },
+      "rubric_id": "r_pr_cf6",
+      "hint_ids": [
+        "h_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set C item 5"
+      }
+    },
+    {
+      "id": "q_pr_cf7",
+      "kind": "practice",
+      "text": "15 minus 7 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "sheet": "C",
+        "item": 21
+      },
+      "rubric_id": "r_pr_cf7",
+      "hint_ids": [
+        "h_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set C item 21"
+      }
+    },
+    {
+      "id": "q_pr_cf8",
+      "kind": "practice",
+      "text": "What number equals 11 minus 9?",
+      "asset_ids": [],
+      "stimulus": {
+        "sheet": "D",
+        "item": 11
+      },
+      "rubric_id": "r_pr_cf8",
+      "hint_ids": [
+        "h_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set D item 11"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "A shape has 4 sides. Three sides are 19, 23 and 26 centimeters. All 4 sides add to 86 centimeters. How long is the fourth side?",
+      "asset_ids": [
+        "a_quad_side_story"
+      ],
+      "stimulus": {
+        "known_sides_cm": [
+          19,
+          23,
+          26
+        ],
+        "total_cm": 86
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_add_known"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "This shape has a curved side. Is it a polygon?",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "stimulus": {
+        "straight_sides": 2,
+        "curved_sides": 1
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_straight"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: curved shape (S: No!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "What attribute is this shape missing to be a polygon?",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "stimulus": {
+        "curved_sides": 1
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_straight"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Straight sides!)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What do we call a polygon with 4 sides and 4 angles?",
+      "asset_ids": [
+        "a_draw_pad"
+      ],
+      "stimulus": {
+        "sides": 4
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_name_bank"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: A quadrilateral!)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "You draw a hexagon. How many straight sides does it have?",
+      "asset_ids": [
+        "a_draw_pad"
+      ],
+      "stimulus": {
+        "angles": 6
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_around",
+        "h_same_number"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: polygon with six angles"
+      }
+    },
+    {
+      "id": "q_ps_1a",
+      "kind": "practice",
+      "text": "A polygon has 3 angles. What is the name of this polygon?",
+      "asset_ids": [
+        "a_draw_pad"
+      ],
+      "stimulus": {
+        "angles": 3
+      },
+      "rubric_id": "r_ps_1a",
+      "hint_ids": [
+        "h_name_bank",
+        "h_same_number"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(a): 'Draw a polygon with 3 angles. Name of polygon'"
+      }
+    },
+    {
+      "id": "q_ps_1b",
+      "kind": "practice",
+      "text": "A polygon has 5 sides. What is the name of this polygon?",
+      "asset_ids": [
+        "a_draw_pad"
+      ],
+      "stimulus": {
+        "sides": 5
+      },
+      "rubric_id": "r_ps_1b",
+      "hint_ids": [
+        "h_name_bank",
+        "h_same_number"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(b): 'Draw a five-sided polygon. Name of polygon'"
+      }
+    },
+    {
+      "id": "q_ps_1c",
+      "kind": "practice",
+      "text": "A polygon has 4 angles. What is the name of this polygon?",
+      "asset_ids": [
+        "a_draw_pad"
+      ],
+      "stimulus": {
+        "angles": 4
+      },
+      "rubric_id": "r_ps_1c",
+      "hint_ids": [
+        "h_name_bank"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(c): 'Draw a polygon with 4 angles. Name of polygon'"
+      }
+    },
+    {
+      "id": "q_ps_1d",
+      "kind": "practice",
+      "text": "A polygon has 6 sides. What is the name of this polygon?",
+      "asset_ids": [
+        "a_draw_pad"
+      ],
+      "stimulus": {
+        "sides": 6
+      },
+      "rubric_id": "r_ps_1d",
+      "hint_ids": [
+        "h_name_bank"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(d): 'Draw a six-sided polygon. Name of polygon'"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Can a hexagon have 5 sides? Why not?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_name_bank"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'Can hexagons have five sides? Why not?'"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "You know a polygon has 5 corners. What else do you know about it?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_same_number"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'If you know how many corners a polygon has, what else do you know?'"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Why is it good to use a straightedge when you draw polygons?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_straight"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'Why is it important to use a straightedge?'"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "176",
+          "one hundred seventy-six"
+        ]
+      },
+      "correct": "Says 176.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (S: 176)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "252",
+          "two hundred fifty-two"
+        ]
+      },
+      "correct": "Says 252.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (sequence 224 + 28)"
+      }
+    },
+    {
+      "id": "r_pr_cf1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19",
+          "nineteen"
+        ]
+      },
+      "correct": "Says 19.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set A item 1"
+      }
+    },
+    {
+      "id": "r_pr_cf2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set A item 14"
+      }
+    },
+    {
+      "id": "r_pr_cf3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set B item 8"
+      }
+    },
+    {
+      "id": "r_pr_cf4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set B item 23"
+      }
+    },
+    {
+      "id": "r_pr_cf5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set B item 37"
+      }
+    },
+    {
+      "id": "r_pr_cf6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set C item 5"
+      }
+    },
+    {
+      "id": "r_pr_cf7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set C item 21"
+      }
+    },
+    {
+      "id": "r_pr_cf8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Practice Set D item 11"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen",
+          "18 cm",
+          "18 centimeters",
+          "eighteen centimeters"
+        ]
+      },
+      "correct": "Says 18 centimeters (or 18).",
+      "partial": "Says 68 (the three sides added) and stops.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer): 86 - (19 + 23 + 26) = 18"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no (may add: it needs straight sides).",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_curve_polygon"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: curved shape (S: No!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "straight sides",
+          "straight side",
+          "straight"
+        ]
+      },
+      "correct": "Says straight sides.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_curve_polygon"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Straight sides!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "quadrilateral",
+          "a quadrilateral"
+        ]
+      },
+      "correct": "Says quadrilateral.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: A quadrilateral!)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: polygon with six angles"
+      }
+    },
+    {
+      "id": "r_ps_1a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "triangle",
+          "a triangle"
+        ]
+      },
+      "correct": "Says triangle.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(a): 'Draw a polygon with 3 angles. Name of polygon'"
+      }
+    },
+    {
+      "id": "r_ps_1b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "pentagon",
+          "a pentagon"
+        ]
+      },
+      "correct": "Says pentagon.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(b): 'Draw a five-sided polygon. Name of polygon'"
+      }
+    },
+    {
+      "id": "r_ps_1c",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "quadrilateral",
+          "a quadrilateral"
+        ]
+      },
+      "correct": "Says quadrilateral.",
+      "partial": "Names a special quadrilateral, like square or rectangle.",
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(c): 'Draw a polygon with 4 angles. Name of polygon'"
+      }
+    },
+    {
+      "id": "r_ps_1d",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "hexagon",
+          "a hexagon"
+        ]
+      },
+      "correct": "Says hexagon.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(d): 'Draw a six-sided polygon. Name of polygon'"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no, because a hexagon has 6 sides (a 5-sided polygon is a pentagon).",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from the hexagon work in Concept Development"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it has 5 sides (and 5 angles), or that it is a pentagon.",
+      "partial": "Says it has sides but not how many.",
+      "incorrect": "Gives a different number of sides.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from 'same number of sides and corners' in Concept Development"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it makes the sides straight (and corners neat), because polygons have straight sides.",
+      "partial": "Says 'so it looks nice' without mentioning straight sides.",
+      "incorrect": "Gives an unrelated reason.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'Since polygons have straight sides ... be precise'"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_straight",
+      "level": 1,
+      "text": "Look at every side. Are they all straight?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'What attribute is it missing?'"
+      }
+    },
+    {
+      "id": "h_count_around",
+      "level": 2,
+      "text": "Put your finger at the start. Count around so you count each one once.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: count sides"
+      }
+    },
+    {
+      "id": "h_same_number",
+      "level": 3,
+      "text": "A polygon has the same number of sides as angles.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'same number of sides and corners'"
+      }
+    },
+    {
+      "id": "h_name_bank",
+      "level": 1,
+      "text": "Count the sides. Then think of the shape name that matches.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2: naming the shapes"
+      }
+    },
+    {
+      "id": "h_add_known",
+      "level": 2,
+      "text": "Add the three sides you know. Then find what is left.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note: subtract or count up"
+      }
+    },
+    {
+      "id": "h_fact",
+      "level": 2,
+      "text": "Use a fact you know, like a double or making ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency note: discuss strategies"
+      }
+    },
+    {
+      "id": "h_unit_form",
+      "level": 1,
+      "text": "Add the ones, then the tens, then the hundreds.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_curve_polygon",
+      "label": "Calling a shape with a curve a polygon",
+      "description": "Child thinks a closed shape with a curved side is a polygon.",
+      "detection_signals": [
+        "Says yes when asked if a shape with a curve is a polygon.",
+        "Counts a curved part as a side."
+      ],
+      "response_text": "A polygon needs straight sides. This one has a curve, so it is not a polygon.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'What attribute is it missing? Straight sides!'"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_shape_viewer",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Side and angle counts must be exact. Diffusion often draws wrong numbers of sides.",
+      "description": "Draws one polygon (or open figure) from a list of corner points. Can mark each angle with a small arc and number the sides.",
+      "must_show_exactly": [
+        "Number of sides and corners exactly equals the question stimulus",
+        "Straight sides only, unless the stimulus asks for a curve",
+        "Open figures show a clear gap",
+        "Curved figure for q_pr_1 has exactly 2 straight sides and 1 curved side"
+      ],
+      "states_or_frames": [
+        "closed polygon with N sides (N = 3-8)",
+        "angles marked with arcs",
+        "count-around mode: sides or angles highlight one at a time",
+        "curved figure",
+        "pentagon",
+        "hexagon"
+      ],
+      "interaction": "Display. Optional tap to mark each counted side or angle.",
+      "alt_text": "A flat shape with straight sides.",
+      "used_by": [
+        "exp_straight_sides",
+        "q_pr_1",
+        "q_pr_2"
+      ],
+      "generation_caption": "A single flat outline shape with N straight sides on a white background, thick dark lines, no labels. [Build by code]"
+    },
+    {
+      "asset_id": "a_draw_pad",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Child draws straight sides with a ruler tool; the tool must count sides exactly.",
+      "description": "A drawing area with a straightedge tool. Lines snap straight. The tool reports sides and angles.",
+      "must_show_exactly": [
+        "Lines are straight segments",
+        "Tool counts sides and corners of a closed shape",
+        "Can circle each angle"
+      ],
+      "states_or_frames": [
+        "empty",
+        "child drawing",
+        "angles circled"
+      ],
+      "interaction": "Child taps points to draw straight sides; tool closes and counts.",
+      "alt_text": "A drawing area with a ruler tool.",
+      "used_by": [
+        "ex_count_hexagon",
+        "exp_draw_with_ruler",
+        "exp_same_name_different_look",
+        "q_pr_3",
+        "q_pr_4",
+        "q_ps_1a",
+        "q_ps_1b",
+        "q_ps_1c",
+        "q_ps_1d"
+      ],
+      "generation_caption": "Plain white drawing area with a simple ruler icon at the edge, flat style. [Build by code]"
+    },
+    {
+      "asset_id": "a_quad_side_story",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Side lengths must be labelled exactly; the unknown side is marked.",
+      "description": "A 4-sided shape with three sides labelled 19 cm, 23 cm and 26 cm and the fourth side marked with a question mark.",
+      "must_show_exactly": [
+        "4 sides",
+        "Labels exactly 19 cm, 23 cm, 26 cm and ?",
+        "Total 86 cm shown as a caption by code"
+      ],
+      "states_or_frames": [
+        "labelled quadrilateral"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "A four-sided shape with three side lengths and one unknown.",
+      "used_by": [
+        "q_app_1"
+      ],
+      "generation_caption": "Simple outline quadrilateral, plain background; code adds the labels. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets A-E (timed, Sprint-like)",
+      "reason": "Timed 120-second paper sheets with leveled progress. Items are used as q_pr_cf* questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_drawing_paper",
+      "name": "Drawing polygons on folded paper",
+      "reason": "Handwritten drawing; replaced by a_draw_pad.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "na_find_friend",
+      "name": "Find a Friend with a different polygon",
+      "reason": "Needs other children moving around the room.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "na_sort_chart",
+      "name": "Cut, trade and sort polygons on a class chart",
+      "reason": "Physical cards and group chart.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 2 (draw 2 examples), Exit Ticket, Homework drawings",
+      "issue": "These items ask the child to draw and copy polygons; a text tutor cannot check a drawing. Problem Set 1 name parts were used (q_ps_1a-1d); the count parts are covered by q_pr_4 and the hint h_same_number. Exit Ticket and Homework repeat the same prompts and were not added again."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Core Fluency Practice Sets A-E",
+      "issue": "Items used: A1, A14, B8, B23, B37, C5, C21, D11 (add within 20, missing first or second number, number on the left of the equal sign, subtract within 20). Set E mixes the same patterns; none used. Items are numbered 1-40 in the text."
+    },
+    {
+      "id": "f7",
+      "severity": "low",
+      "item": "Core Fluency Set A items 14 and 40; 21 and 38; 34 and 39",
+      "issue": "These pairs are identical in the extracted text. Probably intentional review; check the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "Only one misconception is stated (a curved side is not a polygon). Proposal not added: thinking a shape is a different kind because its sides are different lengths."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "r_pk_2, r_pr_cf1, r_pr_cf2, r_pr_cf3, r_pr_cf4, r_pr_cf5, r_pr_cf6, r_pr_cf7, r_pr_cf8, r_app_1, r_ps_1a, r_ps_1b, r_ps_1c, r_ps_1d, r_db_1, r_db_2",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l2_*)."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_shape_viewer, a_draw_pad, a_quad_side_story). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

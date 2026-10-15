@@ -1,0 +1,1481 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l16_elapsed_time",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-d-lesson-16.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 16",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.7",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Find how much time passes in whole hours and half hours.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Solve elapsed time problems involving whole hours and a half hour."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_count_hours",
+      "title": "Count the hours",
+      "text": "Start at the first time. Count each hour on the clock until you reach the end time.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: I counted on the clock)"
+      }
+    },
+    {
+      "id": "exp_cross_noon",
+      "title": "Crossing noon or midnight",
+      "text": "From a.m. to p.m., you cannot just subtract. Count the hours forward past 12.",
+      "asset_ids": [
+        "a_time_arrow"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 4"
+      }
+    },
+    {
+      "id": "exp_arrow_way",
+      "title": "The arrow way",
+      "text": "Hop to midnight first. Then hop to the end time. Add the hops.",
+      "asset_ids": [
+        "a_time_arrow"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 5"
+      }
+    },
+    {
+      "id": "exp_half_day",
+      "title": "Same time, a.m. and p.m.",
+      "text": "8:00 a.m. and 8:00 p.m. look the same on a clock. They are 12 hours apart.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_beth_sleep",
+      "title": "Beth's sleep",
+      "text": "8:00 p.m. to midnight is 4 hours. Midnight to 3:30 a.m. is 3 and a half hours. That is 7 and a half hours.",
+      "asset_ids": [
+        "a_time_arrow"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 5"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 600 minus 356?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 600,
+        "b": 356
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_place_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (S: 244)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 406 minus 218?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 406,
+        "b": 218
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_place_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (sequence 406 - 218)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Jean watches cartoons of 14 minutes and 28 minutes. After a 5-minute break, she watches 15 minutes more. How long does she watch cartoons?",
+      "asset_ids": [
+        "a_cartoon_story"
+      ],
+      "stimulus": {
+        "cartoons_min": [
+          14,
+          28,
+          15
+        ],
+        "break_min": 5
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_only_cartoons"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (first question)"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Jean may watch for 1 hour. Did she go over her time limit?",
+      "asset_ids": [
+        "a_cartoon_story"
+      ],
+      "stimulus": {
+        "watched_min": 57,
+        "limit_min": 60
+      },
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_only_cartoons"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (second question)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Kalpana gets up at 7:00 a.m. She leaves at 7:30 a.m. How long does she take to get ready?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "start": "7:00 am",
+        "end": "7:30 am",
+        "elapsed_min": 30
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 30 minutes. Half an hour.)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Tony goes bowling at 2:00 p.m. He gets home at 9:00 p.m. How long was he out?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "start": "2:00 pm",
+        "end": "9:00 pm",
+        "elapsed_min": 420
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 7 hours!)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Students arrive at the museum at 10:00 a.m. They leave at 2:00 p.m. How long are they there?",
+      "asset_ids": [
+        "a_clock_widget",
+        "a_time_arrow"
+      ],
+      "stimulus": {
+        "start": "10:00 am",
+        "end": "2:00 pm",
+        "elapsed_min": 240
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_am_pm",
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (S: 4 hours!)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "A movie starts at 11:30 a.m. It ends at 1:30 p.m. How long is the movie?",
+      "asset_ids": [
+        "a_clock_widget",
+        "a_time_arrow"
+      ],
+      "stimulus": {
+        "start": "11:30 am",
+        "end": "1:30 pm",
+        "elapsed_min": 120
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_am_pm",
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 4 (S: 2 hours.)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Beth goes to bed at 8:00 p.m. She wakes up at 3:30 a.m. How long did she sleep?",
+      "asset_ids": [
+        "a_clock_widget",
+        "a_time_arrow"
+      ],
+      "stimulus": {
+        "start": "8:00 pm",
+        "end": "3:30 am",
+        "elapsed_min": 450
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_noon_first",
+        "h_am_pm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 5 (S: Seven and a half hours.)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "One clock shows 8:00 a.m. Another shows 8:00 p.m. the same day. How much time is between them?",
+      "asset_ids": [
+        "a_clock_widget",
+        "a_time_arrow"
+      ],
+      "stimulus": {
+        "start": "8:00 am",
+        "end": "8:00 pm",
+        "elapsed_min": 720
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_am_pm",
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6 (S: 12 hours.)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "How much time passes from 1:30 p.m. to 4:30 p.m.?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "start": "1:30 pm",
+        "end": "4:30 pm",
+        "elapsed_min": 180
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6 sequence: 4:30 p.m. and 1:30 p.m."
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "How much time passes from 2:30 a.m. to 7:00 a.m.?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "start": "2:30 am",
+        "end": "7:00 am",
+        "elapsed_min": 270
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_half",
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6 sequence: 7:00 a.m. and 2:30 a.m."
+      }
+    },
+    {
+      "id": "q_ps_1a",
+      "kind": "practice",
+      "text": "How much time passes from 6:30 a.m. to 7:00 a.m.?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "start": "6:30 am",
+        "end": "7:00 am",
+        "elapsed_min": 30
+      },
+      "rubric_id": "r_ps_1a",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(a)"
+      }
+    },
+    {
+      "id": "q_ps_1c",
+      "kind": "practice",
+      "text": "How much time passes from 11:00 a.m. to 5:00 p.m.?",
+      "asset_ids": [
+        "a_clock_widget",
+        "a_time_arrow"
+      ],
+      "stimulus": {
+        "start": "11:00 am",
+        "end": "5:00 pm",
+        "elapsed_min": 360
+      },
+      "rubric_id": "r_ps_1c",
+      "hint_ids": [
+        "h_am_pm",
+        "h_noon_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(c)"
+      }
+    },
+    {
+      "id": "q_ps_1e",
+      "kind": "practice",
+      "text": "How much time passes from 7:00 p.m. to 1:30 a.m.?",
+      "asset_ids": [
+        "a_clock_widget",
+        "a_time_arrow"
+      ],
+      "stimulus": {
+        "start": "7:00 pm",
+        "end": "1:30 am",
+        "elapsed_min": 390
+      },
+      "rubric_id": "r_ps_1e",
+      "hint_ids": [
+        "h_am_pm",
+        "h_noon_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(e)"
+      }
+    },
+    {
+      "id": "q_ps_2a",
+      "kind": "practice",
+      "text": "Tracy gets to school at 7:30 a.m. She leaves at 3:30 p.m. How long is she at school?",
+      "asset_ids": [
+        "a_clock_widget",
+        "a_time_arrow"
+      ],
+      "stimulus": {
+        "start": "7:30 am",
+        "end": "3:30 pm",
+        "elapsed_min": 480
+      },
+      "rubric_id": "r_ps_2a",
+      "hint_ids": [
+        "h_am_pm",
+        "h_noon_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a)"
+      }
+    },
+    {
+      "id": "q_ps_2b",
+      "kind": "practice",
+      "text": "Anna spent 3 hours at dance practice. She finished at 6:15 p.m. What time did she start?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "end": "6:15 pm",
+        "duration_h": 3
+      },
+      "rubric_id": "r_ps_2b",
+      "hint_ids": [
+        "h_count_back"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(b)"
+      }
+    },
+    {
+      "id": "q_ps_2c",
+      "kind": "practice",
+      "text": "Andy's practice was 2 hours long. It finished at 4:30 p.m. What time did it start?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "end": "4:30 pm",
+        "duration_h": 2
+      },
+      "rubric_id": "r_ps_2c",
+      "hint_ids": [
+        "h_count_back"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(c)"
+      }
+    },
+    {
+      "id": "q_ps_2d",
+      "kind": "practice",
+      "text": "Marcus drove from 7:00 a.m. to 4:00 p.m. on Monday. On Tuesday he drove from 6:00 a.m. to 3:30 p.m. How long did he drive in all?",
+      "asset_ids": [
+        "a_clock_widget",
+        "a_time_arrow"
+      ],
+      "stimulus": {
+        "monday": [
+          "7:00 am",
+          "4:00 pm"
+        ],
+        "tuesday": [
+          "6:00 am",
+          "3:30 pm"
+        ],
+        "elapsed_min": 1110
+      },
+      "rubric_id": "r_ps_2d",
+      "hint_ids": [
+        "h_noon_first",
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(d)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Jamal's picnic started at 1:30 p.m. He stayed 4 and a half hours. What time did he leave?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "start": "1:30 pm",
+        "duration_min": 270
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_count_on",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2(b)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Tracy arrives and leaves on the half hour. Why isn't she at school 8 and a half hours?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: Problem 2(a) question"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "244",
+          "two hundred forty-four"
+        ]
+      },
+      "correct": "Says 244.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (S: 244)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "188",
+          "one hundred eighty-eight"
+        ]
+      },
+      "correct": "Says 188.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (sequence 406 - 218)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "57 minutes",
+          "57",
+          "fifty-seven minutes"
+        ]
+      },
+      "correct": "Says 57 minutes.",
+      "partial": null,
+      "incorrect": "Says 62 minutes (added the break) or any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_break"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer): 14 + 28 + 15 = 57"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no (57 minutes is less than 60).",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_add_break"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem: 57 < 60"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30 minutes",
+          "30",
+          "thirty minutes",
+          "half an hour",
+          "half hour"
+        ]
+      },
+      "correct": "Says 30 minutes (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 30 minutes. Half an hour.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7 hours",
+          "7",
+          "seven hours",
+          "seven"
+        ]
+      },
+      "correct": "Says 7 hours (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 7 hours!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 hours",
+          "4",
+          "four hours",
+          "four"
+        ]
+      },
+      "correct": "Says 4 hours (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_subtract_across_noon"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (S: 4 hours!)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 hours",
+          "2",
+          "two hours",
+          "two"
+        ]
+      },
+      "correct": "Says 2 hours (or the same amount in other words).",
+      "partial": "Says 10 hours (subtracted the clock numbers).",
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_subtract_across_noon"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 4 (S: 2 hours.)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7 and a half hours",
+          "7 hours 30 minutes",
+          "7 hours and 30 minutes",
+          "7 and a half",
+          "seven and a half hours",
+          "seven hours thirty minutes"
+        ]
+      },
+      "correct": "Says 7 and a half hours (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_subtract_across_noon"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 5 (S: Seven and a half hours.)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12 hours",
+          "12",
+          "twelve hours",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12 hours (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_subtract_across_noon"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6 (S: 12 hours.)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 hours",
+          "3",
+          "three hours",
+          "three"
+        ]
+      },
+      "correct": "Says 3 hours (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6 sequence: 4:30 p.m. and 1:30 p.m."
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 and a half hours",
+          "4 hours 30 minutes",
+          "4 hours and 30 minutes",
+          "4 and a half",
+          "four and a half hours",
+          "four hours thirty minutes"
+        ]
+      },
+      "correct": "Says 4 and a half hours (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6 sequence: 7:00 a.m. and 2:30 a.m."
+      }
+    },
+    {
+      "id": "r_ps_1a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30 minutes",
+          "30",
+          "thirty minutes",
+          "half an hour",
+          "half hour"
+        ]
+      },
+      "correct": "Says 30 minutes (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(a)"
+      }
+    },
+    {
+      "id": "r_ps_1c",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6 hours",
+          "6",
+          "six hours",
+          "six"
+        ]
+      },
+      "correct": "Says 6 hours (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_subtract_across_noon"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(c)"
+      }
+    },
+    {
+      "id": "r_ps_1e",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6 and a half hours",
+          "6 hours 30 minutes",
+          "6 hours and 30 minutes",
+          "6 and a half",
+          "six and a half hours",
+          "six hours thirty minutes"
+        ]
+      },
+      "correct": "Says 6 and a half hours (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_subtract_across_noon"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(e)"
+      }
+    },
+    {
+      "id": "r_ps_2a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8 hours",
+          "8",
+          "eight hours",
+          "eight"
+        ]
+      },
+      "correct": "Says 8 hours (or the same amount in other words).",
+      "partial": null,
+      "incorrect": "Says any other amount of time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_subtract_across_noon"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a)"
+      }
+    },
+    {
+      "id": "r_ps_2b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3:15 p.m.",
+          "3:15",
+          "three fifteen p.m.",
+          "three fifteen",
+          "quarter past 3",
+          "a quarter past three"
+        ]
+      },
+      "correct": "Says 3:15 p.m.",
+      "partial": "Says 3:15 without p.m., or 9:15 (counted forward).",
+      "incorrect": "Says any other time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(b): 6:15 p.m. minus 3 hours"
+      }
+    },
+    {
+      "id": "r_ps_2c",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2:30 p.m.",
+          "2:30",
+          "two thirty p.m.",
+          "two thirty",
+          "half past 2",
+          "half past two"
+        ]
+      },
+      "correct": "Says 2:30 p.m.",
+      "partial": "Says 2:30 without p.m., or 6:30 (counted forward).",
+      "incorrect": "Says any other time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(c): 4:30 p.m. minus 2 hours"
+      }
+    },
+    {
+      "id": "r_ps_2d",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18 and a half hours",
+          "18 hours 30 minutes",
+          "18 hours and 30 minutes",
+          "18 and a half",
+          "eighteen and a half hours",
+          "eighteen hours thirty minutes"
+        ]
+      },
+      "correct": "Says 18 and a half hours (9 hours + 9 and a half hours).",
+      "partial": "Finds one day correctly (9 hours or 9 and a half hours) but not the total.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_subtract_across_noon"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(d): Monday 9 hours + Tuesday 9 and a half hours"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6:00 p.m.",
+          "6:00",
+          "six o'clock p.m.",
+          "six o'clock",
+          "6 p.m.",
+          "6 pm"
+        ]
+      },
+      "correct": "Says 6:00 p.m.",
+      "partial": "Says 6:00 without p.m., or 5:30 or 6:30 (half hour slip).",
+      "incorrect": "Says any other time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2(b): 1:30 p.m. plus 4 and a half hours"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both times are on the half hour, so the half hours cancel and the time is whole hours (8 hours).",
+      "partial": "Says 8 hours but cannot explain why.",
+      "incorrect": "Says she is there 8 and a half hours.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; 7:30 a.m. to 3:30 p.m. = 8 hours"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_count_on",
+      "level": 2,
+      "text": "Start at the first time. Count each hour on the clock.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "h_noon_first",
+      "level": 3,
+      "text": "Hop to 12 first. Then hop to the end time.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 5: 'the arrow way'"
+      }
+    },
+    {
+      "id": "h_am_pm",
+      "level": 1,
+      "text": "Check the a.m. and p.m. Does it pass noon or midnight?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 4"
+      }
+    },
+    {
+      "id": "h_half",
+      "level": 2,
+      "text": "From :30 to the next o'clock is half an hour.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "h_count_back",
+      "level": 2,
+      "text": "Count back from the end time.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (S: I went back in time)"
+      }
+    },
+    {
+      "id": "h_only_cartoons",
+      "level": 1,
+      "text": "Add only the cartoon times. Do not add the break.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note"
+      }
+    },
+    {
+      "id": "h_place_value",
+      "level": 1,
+      "text": "Subtract the ones, then the tens, then the hundreds.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_add_break",
+      "label": "Adding time that is not part of the question",
+      "description": "Child adds the 5-minute break into Jean's cartoon time, and thinks she broke the time limit.",
+      "detection_signals": [
+        "Says 62 minutes for Jean's cartoons.",
+        "Says Jean broke her time limit."
+      ],
+      "response_text": "The break is not cartoon time. Add only the 3 cartoons.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note: 'not to add in the 5-minute break'"
+      }
+    },
+    {
+      "id": "mis_subtract_across_noon",
+      "label": "Subtracting clock numbers across noon or midnight",
+      "description": "Child subtracts the hour numbers when the times go from a.m. to p.m. (for example 11:30 to 1:30 gives 10).",
+      "detection_signals": [
+        "Says 10 hours for 11:30 a.m. to 1:30 p.m.",
+        "Gives a very large answer for a short time that crosses 12."
+      ],
+      "response_text": "We go past 12, so we cannot just subtract. Count the hours forward on the clock.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 4 (S: I couldn't just subtract because it's not 10 hours long.)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_clock_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Hand positions must be exact, and the hour hand must move partway between numbers. Diffusion cannot do this.",
+      "description": "An analog clock with numbers 1-12, minute marks, an hour hand and a minute hand. Can also show a digital readout.",
+      "must_show_exactly": [
+        "Numbers 1-12 in correct positions, 60 minute marks",
+        "Minute hand points exactly at the stimulus minute",
+        "Hour hand sits between hours in proportion to the minutes (for example halfway between 3 and 4 at 3:30)",
+        "Two clocks side by side for start and end times, each with a.m. or p.m. label"
+      ],
+      "states_or_frames": [
+        "any time hh:mm from the stimulus",
+        "digital readout on or off",
+        "start clock + end clock",
+        "minute hand moving from start to end"
+      ],
+      "interaction": "Display, or the child drags the hands. The tutor sets the time from the question stimulus.",
+      "alt_text": "A clock face with an hour hand and a minute hand.",
+      "used_by": [
+        "exp_count_hours",
+        "exp_half_day",
+        "q_db_1",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1a",
+        "q_ps_1c",
+        "q_ps_1e",
+        "q_ps_2a",
+        "q_ps_2b",
+        "q_ps_2c",
+        "q_ps_2d"
+      ],
+      "generation_caption": "Clean flat analog clock face, numbers 1 to 12, two hands, plain white background, no text. [Build by code]"
+    },
+    {
+      "asset_id": "a_time_arrow",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Hops must be exact hours and half hours between labelled times.",
+      "description": "The 'arrow way': a start time, hops of 1 hour (or a half hour), and an end time. Can pass through 12:00 noon or midnight.",
+      "must_show_exactly": [
+        "Each full hop = 1 hour; half hop = 30 minutes",
+        "Noon and midnight marked when crossed",
+        "Hop count equals the answer key"
+      ],
+      "states_or_frames": [
+        "8:00 p.m. -> 12:00 a.m. (4 hops) -> 3:30 a.m. (3 and a half hops)",
+        "11:30 a.m. -> 1:30 p.m. (2 hops)"
+      ],
+      "interaction": "Tap to add a hop; the tool shows the time after each hop.",
+      "alt_text": "Hops from a start time to an end time.",
+      "used_by": [
+        "ex_beth_sleep",
+        "exp_arrow_way",
+        "exp_cross_noon",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_ps_1c",
+        "q_ps_1e",
+        "q_ps_2a",
+        "q_ps_2d"
+      ],
+      "generation_caption": "Simple horizontal arrow with curved hop arrows above, flat style. [Build by code]"
+    },
+    {
+      "asset_id": "a_cartoon_story",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Minutes must be exact labels.",
+      "description": "A row of boxes: cartoon 14 minutes, cartoon 28 minutes, break 5 minutes, cartoon 15 minutes; a 1-hour limit line.",
+      "must_show_exactly": [
+        "Labels exactly: 14, 28, break 5, 15 minutes",
+        "Limit: 1 hour (60 minutes)"
+      ],
+      "states_or_frames": [
+        "timeline"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "A timeline of cartoons and a break.",
+      "used_by": [
+        "q_app_1",
+        "q_app_2"
+      ],
+      "generation_caption": "Simple row of TV-screen icons with time labels, flat style. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets (timed, Sprint-like)",
+      "reason": "Timed paper sheets from Lesson 3; not in this file.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_third_grade_days",
+      "name": "Extension: in how many days will you be third-graders?",
+      "reason": "Depends on the class's real school dates; group chart-paper work.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Extension"
+      }
+    },
+    {
+      "id": "na_choral",
+      "name": "Read the problem chorally / solve with a partner",
+      "reason": "Whole-class and partner work.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 1(f-h) and Debrief about 1(h) (Jovan)",
+      "issue": "The Debrief mentions Problem 1(h), but only items 1(a)-1(e) are in the extracted text. Items may be missing from the extraction. Check the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Problem Set 1(b), 1(d); Exit Ticket 1-3; Homework 1(a-e), 2(a), 2(c), 2(d)",
+      "issue": "Text items left out to avoid repeats of the same pattern. Their answers are easy to add: Exit Ticket 8 hours, 7 hours, 10 hours; Homework Kylie 3 and a half hours, Christopher 3:30 p.m., Henry 10 and a half hours."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "q_pr_7, q_pr_8",
+      "issue": "The source lists '4:30 p.m. and 1:30 p.m., 7:00 a.m. and 2:30 a.m.' with the later time first. The questions use the earlier time as the start. Check intent."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "r_pk_2, r_app_1, r_app_2, r_pr_7, r_pr_8, r_ps_1a, r_ps_1c, r_ps_1e, r_ps_2a, r_ps_2b, r_ps_2c, r_ps_2d, r_pr_9, r_db_1",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l15_*)."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_clock_widget, a_time_arrow, a_cartoon_story). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f15",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

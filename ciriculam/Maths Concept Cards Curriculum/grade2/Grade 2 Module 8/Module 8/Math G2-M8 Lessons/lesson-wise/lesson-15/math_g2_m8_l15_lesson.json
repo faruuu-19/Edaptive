@@ -1,0 +1,1078 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l15_am_pm",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-d-lesson-15.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 15",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.NBT.7",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Tell time to five minutes. Use a.m. for morning and p.m. for afternoon and night.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Tell time to the nearest five minutes; relate a.m. and p.m. to time of day."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_clock_no_ampm",
+      "title": "The clock shows the same time twice",
+      "text": "A clock looks the same in the morning and at night. It cannot tell us which one it is.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_am_pm",
+      "title": "a.m. and p.m.",
+      "text": "a.m. is from midnight to noon: the morning. p.m. is from noon to midnight. A comes before P, like morning before afternoon.",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'an easy way to remember a.m. and p.m.'"
+      }
+    },
+    {
+      "id": "exp_digital",
+      "title": "Digital clocks",
+      "text": "A digital clock shows the time with digits, like 7:35. It has no hands.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'Why do you think it's called a digital clock?'"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_wake_up",
+      "title": "Waking up is a.m.",
+      "text": "You wake up for school in the morning. The sun is rising. So it is a.m.",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(a)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 300 minus 118?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 300,
+        "b": 118
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_place_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (S: 182)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 500 minus 276?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 500,
+        "b": 276
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_place_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (sequence 500 - 276)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Recess is a quarter hour. Lunch is 33 minutes. How much free time is that in all?",
+      "asset_ids": [
+        "a_recess_story"
+      ],
+      "stimulus": {
+        "recess": "quarter hour",
+        "lunch_min": 33
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_quarter"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (first question)"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "How much more time is lunch than recess?",
+      "asset_ids": [
+        "a_recess_story"
+      ],
+      "stimulus": {
+        "recess_min": 15,
+        "lunch_min": 33
+      },
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_quarter"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (second question)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Can a clock by itself tell you if it is morning or night?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_morning"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The clock doesn't tell that.)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "We use a.m. for one part of the day. Which part?",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_alphabet",
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'a.m. ... between 12:00 midnight and 12:00 noon, or morning'"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "We use p.m. for which part of the day?",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'p.m. ... between 12:00 noon and midnight'"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Why is it called a digital clock?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Because it shows the digits of the hour and minutes.)"
+      }
+    },
+    {
+      "id": "q_ps_1a",
+      "kind": "practice",
+      "text": "Waking up for school. Does it happen in the a.m.?",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1a",
+      "hint_ids": [
+        "h_morning",
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(a)"
+      }
+    },
+    {
+      "id": "q_ps_1b",
+      "kind": "practice",
+      "text": "Eating dinner. Does it happen in the a.m.?",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1b",
+      "hint_ids": [
+        "h_morning",
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(b)"
+      }
+    },
+    {
+      "id": "q_ps_1d",
+      "kind": "practice",
+      "text": "Making breakfast. Does it happen in the a.m.?",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1d",
+      "hint_ids": [
+        "h_morning",
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(d)"
+      }
+    },
+    {
+      "id": "q_ps_1e",
+      "kind": "practice",
+      "text": "A play date after school. Does it happen in the a.m.?",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1e",
+      "hint_ids": [
+        "h_morning",
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(e)"
+      }
+    },
+    {
+      "id": "q_ps_1f",
+      "kind": "practice",
+      "text": "Going to bed. Does it happen in the p.m.?",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1f",
+      "hint_ids": [
+        "h_morning",
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(f)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Doing homework after school. Does it happen in the p.m.?",
+      "asset_ids": [
+        "a_day_scenes"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_morning",
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1(b)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "12 p.m. has a special name. What is it?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_middle_day"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'What is the difference between 12 a.m. and 12 p.m.?'"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "You sleep all night. Is that all p.m. time? Explain.",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_noon"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'When you are sleeping at night, are you sleeping during the a.m. or p.m.?'"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "182",
+          "one hundred eighty-two"
+        ]
+      },
+      "correct": "Says 182.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (S: 182)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "224",
+          "two hundred twenty-four"
+        ]
+      },
+      "correct": "Says 224.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (sequence 500 - 276)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "48 minutes",
+          "48",
+          "forty-eight minutes"
+        ]
+      },
+      "correct": "Says 48 minutes.",
+      "partial": "Uses 25 or 30 for a quarter hour but adds correctly.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer): 15 + 33 = 48"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18 minutes",
+          "18",
+          "eighteen minutes"
+        ]
+      },
+      "correct": "Says 18 minutes.",
+      "partial": null,
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer): 33 - 15 = 18"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The clock doesn't tell that.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "morning",
+          "the morning",
+          "midnight to noon"
+        ]
+      },
+      "correct": "Says morning.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'a.m. ... between 12:00 midnight and 12:00 noon, or morning'"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "afternoon",
+          "afternoon and night",
+          "evening",
+          "night",
+          "noon to midnight",
+          "after noon"
+        ]
+      },
+      "correct": "Says afternoon, evening or night (from noon to midnight).",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'p.m. ... between 12:00 noon and midnight'"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it shows the time with digits (numbers), not hands.",
+      "partial": "Says 'it is electronic' (the source accepts this as an idea, but digits is the key point).",
+      "incorrect": "Says something unrelated.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Because it shows the digits of the hour and minutes.)"
+      }
+    },
+    {
+      "id": "r_ps_1a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(a); answer from the a.m. and p.m. meanings in Concept Development"
+      }
+    },
+    {
+      "id": "r_ps_1b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(b); answer from the a.m. and p.m. meanings in Concept Development"
+      }
+    },
+    {
+      "id": "r_ps_1d",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(d); answer from the a.m. and p.m. meanings in Concept Development"
+      }
+    },
+    {
+      "id": "r_ps_1e",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(e); answer from the a.m. and p.m. meanings in Concept Development"
+      }
+    },
+    {
+      "id": "r_ps_1f",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1(f); answer from the a.m. and p.m. meanings in Concept Development"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1(b); answer from the a.m. and p.m. meanings in Concept Development"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "noon",
+          "12 noon",
+          "midday"
+        ]
+      },
+      "correct": "Says noon.",
+      "partial": null,
+      "incorrect": "Says midnight.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from 'p.m. ... between 12:00 noon and midnight' in Concept Development"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no: before midnight it is p.m., after midnight it is a.m.",
+      "partial": "Says both, but cannot say where it changes.",
+      "incorrect": "Says it is all p.m. or all a.m.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from the a.m. and p.m. definitions in Concept Development"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_morning",
+      "level": 1,
+      "text": "Is this in the morning, before lunch?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: morning clues (sun shining, before lunch)"
+      }
+    },
+    {
+      "id": "h_noon",
+      "level": 2,
+      "text": "a.m. ends at noon. p.m. starts at noon.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: a.m. and p.m. definitions"
+      }
+    },
+    {
+      "id": "h_alphabet",
+      "level": 2,
+      "text": "A comes before P in the alphabet. Which part of the day comes first?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: alphabet trick"
+      }
+    },
+    {
+      "id": "h_quarter",
+      "level": 2,
+      "text": "A quarter hour is 15 minutes.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note"
+      }
+    },
+    {
+      "id": "h_middle_day",
+      "level": 2,
+      "text": "12 p.m. is in the middle of the day, at lunch time.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: a.m. and p.m. definitions"
+      }
+    },
+    {
+      "id": "h_place_value",
+      "level": 1,
+      "text": "Subtract the ones, then the tens, then the hundreds.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_clock_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Hand positions must be exact, and the hour hand must move partway between numbers. Diffusion cannot do this.",
+      "description": "An analog clock with numbers 1-12, minute marks, an hour hand and a minute hand. Can also show a digital readout.",
+      "must_show_exactly": [
+        "Numbers 1-12 in correct positions, 60 minute marks",
+        "Minute hand points exactly at the stimulus minute",
+        "Hour hand sits between hours in proportion to the minutes (for example halfway between 3 and 4 at 3:30)",
+        "Digital readout shows hh:mm with a.m. or p.m."
+      ],
+      "states_or_frames": [
+        "any time hh:mm from the stimulus",
+        "digital readout on or off",
+        "analog with digital readout"
+      ],
+      "interaction": "Display, or the child drags the hands. The tutor sets the time from the question stimulus.",
+      "alt_text": "A clock face with an hour hand and a minute hand.",
+      "used_by": [
+        "exp_clock_no_ampm",
+        "exp_digital",
+        "q_db_1",
+        "q_pr_1",
+        "q_pr_4"
+      ],
+      "generation_caption": "Clean flat analog clock face, numbers 1 to 12, two hands, plain white background, no text. [Build by code]"
+    },
+    {
+      "asset_id": "a_day_scenes",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "image_generation",
+      "diffusion_suitable": "yes",
+      "why_this_method": "These scenes show activities and sky; no exact counts matter.",
+      "description": "Simple scenes of daily activities: waking up with the sun rising, eating dinner, a play date after school, going to bed with the moon.",
+      "must_show_exactly": [
+        "One activity per scene",
+        "Morning scenes show a rising sun; night scenes show a dark sky",
+        "No clocks or text inside the picture"
+      ],
+      "states_or_frames": [
+        "waking up",
+        "making breakfast",
+        "play date after school",
+        "eating dinner",
+        "going to bed"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "A child doing a daily activity.",
+      "used_by": [
+        "ex_wake_up",
+        "exp_am_pm",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_5",
+        "q_ps_1a",
+        "q_ps_1b",
+        "q_ps_1d",
+        "q_ps_1e",
+        "q_ps_1f"
+      ],
+      "generation_caption": "Flat cartoon scene of an original child waking up as the sun rises, soft colours, plain background, no text.",
+      "review_notes": "Use original characters. The source booklet pictures are not copied."
+    },
+    {
+      "asset_id": "a_recess_story",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Minutes must be exact.",
+      "description": "Two bars: morning recess (a quarter hour) and lunch break (33 minutes).",
+      "must_show_exactly": [
+        "Labels exactly: recess = a quarter hour, lunch = 33 minutes"
+      ],
+      "states_or_frames": [
+        "two bars"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "Bars for recess time and lunch time.",
+      "used_by": [
+        "q_app_1",
+        "q_app_2"
+      ],
+      "generation_caption": "Simple two-bar picture with a sun icon and a lunchbox icon, flat style. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets (timed, Sprint-like)",
+      "reason": "Timed paper sheets from Lesson 3; not in this file.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_happy_counting",
+      "name": "Happy Counting by Fives with hand signals",
+      "reason": "Teacher hand signals; see the Lesson 14 card.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Fives"
+      }
+    },
+    {
+      "id": "na_class_clock",
+      "name": "Read the real classroom clock and class schedule",
+      "reason": "Depends on the real time and the class's own schedule.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_story_booklet",
+      "name": "Telling time story booklet: order, colour and fill in times",
+      "reason": "Booklet pictures are not in the extracted text; ordering and colouring are physical.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 2-4, Exit Ticket, Homework 2-4",
+      "issue": "Items ask the child to read pictured analog or digital clocks, draw hands, or write their own activities. Clock pictures are not in the extracted text and no page images were attached. Not used."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Problem Set 1(c), 1(g), 1(h); Homework 1(f)",
+      "issue": "Left out: 'reading a bedtime story' (fine, but similar to going to bed), 'eating a piece of cake' (could be a.m. or p.m.), 'eating lunch' (could be just before or after noon). Decide whether the lunch and cake items have one answer."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "q_ps_1a to q_ps_1f, q_pr_5",
+      "issue": "The source asks 'circle a.m. or p.m.'. Rewritten as yes/no questions so the answer is not in the question. Answers are typical for a child's day; check with the team."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposals not added: thinking 12 p.m. is midnight; thinking all night-time is p.m."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "The lesson's main teaching tool is a picture story booklet (Template) that is not in the extracted text, so variety of explanations is limited."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "r_pk_2, r_app_1, r_app_2, r_ps_1a, r_ps_1b, r_ps_1d, r_ps_1e, r_ps_1f, r_pr_5, r_db_1, r_db_2",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l14_*)."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_clock_widget, a_day_scenes, a_recess_story). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

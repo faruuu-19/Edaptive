@@ -1,0 +1,1006 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l11_whole_from_parts",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-c-lesson-11.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 11",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "A whole is 2 halves, 3 thirds or 4 fourths. Find the missing parts to make a whole.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Describe a whole by the number of equal parts including 2 halves, 3 thirds, and 4 fourths."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_complete_whole",
+      "title": "Complete the whole",
+      "text": "1 half and 1 half make 1 whole. 3 thirds make 1 whole. 4 fourths make 1 whole.",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_size_compare",
+      "title": "Fewer parts, bigger pieces",
+      "text": "Halves are the biggest pieces. Fourths are the smallest. Thirds are in the middle.",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_draw_whole",
+      "title": "Draw the rest of the whole",
+      "text": "This is 1 fourth. Draw 3 more fourths of the same size. Now there is 1 whole.",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_thirds_whole",
+      "title": "Thirds of a rectangle",
+      "text": "2 children hold 1 third each. That is 2 thirds. Add 1 more third. 3 thirds make 1 whole.",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 112 plus 159?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 112,
+        "b": 159
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_unit_form"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (S: 271)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 184 plus 135?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 184,
+        "b": 135
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit_form"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (sequence 184 + 135)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Jacob has 70 baseball cards. He gives half to his brother. How many cards does Jacob have left?",
+      "asset_ids": [
+        "a_cards_story"
+      ],
+      "stimulus": {
+        "cards": 70,
+        "fraction_given": "half"
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_half_equal"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "This circle piece is one of 2 equal parts. What do you need to make the whole circle?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_how_many_make"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Another half!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "2 children each hold 1 third of a rectangle. How many thirds is that altogether?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {
+        "thirds_held": 2
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_count_have"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 2 thirds.)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What do they need to complete the whole rectangle?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {
+        "thirds_held": 2
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_how_many_make",
+        "h_count_have"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 1 more third.)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "How many thirds make a whole?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_how_many_make"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: '3 thirds make a whole'"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Some children hold 3 fourths of a square. What do they need to complete it?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {
+        "fourths_held": 3
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_how_many_make",
+        "h_count_have"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 1 more fourth.)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "How many fourths make 1 whole?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_how_many_make"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: '4 fourths make 1 whole'"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Same-size circles are cut into 2, 3 and 4 equal parts. What are the biggest pieces called?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_fewer_bigger"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The halves are the biggest.)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "And what are the smallest pieces called?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_fewer_bigger"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The fourths are the smallest.)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "This piece is 1 fourth. How many more fourths do you need for the whole?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {
+        "have_fourths": 1
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_how_many_make",
+        "h_count_have"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 3 more.)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Is 2 thirds closer to 1 whole than 1 third is?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_count_have"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'which is closer to one whole, 1 third or 2 thirds?'"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "You shade 3 fourths of a rectangle. Can 2 fourths be left unshaded? Why?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_how_many_make"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'If you shade 3 fourths ... 2 fourths are left unshaded?'"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Sangeeta says 2 halves cannot equal 3 thirds. Do you agree? Why?",
+      "asset_ids": [
+        "a_fraction_pieces"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_how_many_make"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: Sangeeta's statement"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "271",
+          "two hundred seventy-one"
+        ]
+      },
+      "correct": "Says 271.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (S: 271)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "319",
+          "three hundred nineteen"
+        ]
+      },
+      "correct": "Says 319.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (sequence 184 + 135)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five"
+        ]
+      },
+      "correct": "Says 35.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source solutions not in the text): 70 split into 2 equal halves = 35"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "another half",
+          "1 half",
+          "one half",
+          "1 more half",
+          "a half"
+        ]
+      },
+      "correct": "Says another half.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Another half!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 thirds",
+          "two thirds"
+        ]
+      },
+      "correct": "Says 2 thirds.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 2 thirds.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 more third",
+          "one more third",
+          "1 third",
+          "one third",
+          "another third"
+        ]
+      },
+      "correct": "Says 1 more third.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 1 more third.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: '3 thirds make a whole'"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 more fourth",
+          "one more fourth",
+          "1 fourth",
+          "one fourth",
+          "another fourth",
+          "a fourth"
+        ]
+      },
+      "correct": "Says 1 more fourth.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 1 more fourth.)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: '4 fourths make 1 whole'"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "halves",
+          "half",
+          "a half"
+        ]
+      },
+      "correct": "Says halves.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The halves are the biggest.)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "fourths",
+          "fourth",
+          "a fourth",
+          "quarters"
+        ]
+      },
+      "correct": "Says fourths.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The fourths are the smallest.)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": "Says 4 (the total, not how many more).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 3 more.)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes (only 1 more third is needed).",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'which is closer to one whole, 1 third or 2 thirds?'"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no, because 4 fourths make the whole, so only 1 fourth is left.",
+      "partial": "Says no with no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'If you shade 3 fourths ... 2 fourths are left unshaded?'"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Disagrees: 2 halves and 3 thirds each make 1 whole (of the same-size shape).",
+      "partial": "Disagrees but gives no reason.",
+      "incorrect": "Agrees with Sangeeta.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_different_counts_not_equal"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from '2 halves make a whole ... 3 thirds make a whole' in Concept Development Part 1"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_how_many_make",
+      "level": 2,
+      "text": "How many of these parts make a whole?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_count_have",
+      "level": 1,
+      "text": "Count the parts you already have.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_fewer_bigger",
+      "level": 2,
+      "text": "Fewer parts in a whole means bigger pieces.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The halves are the biggest)"
+      }
+    },
+    {
+      "id": "h_half_equal",
+      "level": 2,
+      "text": "Half means 2 equal parts. Split 70 into 2 equal parts.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note: halves are equal"
+      }
+    },
+    {
+      "id": "h_unit_form",
+      "level": 1,
+      "text": "Add the ones, then the tens, then the hundreds.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_different_counts_not_equal",
+      "label": "Thinking different numbers of parts cannot be equal wholes",
+      "description": "Child thinks 2 halves and 3 thirds cannot be the same amount because the numbers differ.",
+      "detection_signals": [
+        "Says 2 halves cannot equal 3 thirds.",
+        "Says 3 thirds is more than 2 halves because 3 is more than 2."
+      ],
+      "response_text": "2 halves make 1 whole. 3 thirds also make 1 whole. If the wholes are the same size, they are equal.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'Sangeeta says that 2 halves cannot equal 3 thirds.'"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_fraction_pieces",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Pieces must be exact halves, thirds and fourths of same-size wholes.",
+      "description": "Labelled fraction pieces: halves of a circle, thirds of a rectangle, fourths of a square, and halves, thirds and fourths of same-size circles. Pieces snap together into a whole.",
+      "must_show_exactly": [
+        "Labels '1 half', '1 third', '1 fourth' drawn by code",
+        "All circles the same size",
+        "q_pr_9: 1 fourth of a square shown, 3 fourths missing"
+      ],
+      "states_or_frames": [
+        "1 half + missing half",
+        "2 thirds + missing third",
+        "3 fourths + missing fourth",
+        "halves, thirds, fourths of the same circle side by side"
+      ],
+      "interaction": "Drag pieces to complete a whole.",
+      "alt_text": "Labelled fraction pieces making a whole.",
+      "used_by": [
+        "ex_thirds_whole",
+        "exp_complete_whole",
+        "exp_draw_whole",
+        "exp_size_compare",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat circle, rectangle and square pieces in bright colours, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_cards_story",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Shows 70 split into 2 equal groups; exact numbers needed.",
+      "description": "A tape diagram of 70 baseball cards split into 2 equal halves: Jacob and Sammy.",
+      "must_show_exactly": [
+        "Total labelled 70",
+        "2 equal parts labelled Jacob and Sammy",
+        "Part sizes left as ?"
+      ],
+      "states_or_frames": [
+        "tape diagram"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "A bar of 70 cards split into two equal parts.",
+      "used_by": [
+        "q_app_1"
+      ],
+      "generation_caption": "Simple tape diagram with a baseball card icon, flat style. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets (timed, Sprint-like)",
+      "reason": "Timed paper sheets from Lesson 3; not in this file.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_find_whole",
+      "name": "Find your whole (walk around the room)",
+      "reason": "Needs a group of children moving around.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "na_glue_draw",
+      "name": "Glue a piece on paper and draw the rest of the whole",
+      "reason": "Physical gluing and drawing; replaced by a_fraction_pieces.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 1(a-f), 2; Exit Ticket; Homework 1-3",
+      "issue": "Items show shaded shapes ('identify the shaded area', 'what fraction do you need to color') that are not in the extracted text. No page images were attached. Not used. Problem Set 3 'This is 1 half/third/fourth. Draw 1 whole' is covered by q_pr_1 to q_pr_9."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "q_app_1",
+      "issue": "The source says three possible solutions are 'shown above', but they are pictures not in the text. Key 35 is derived (half of 70)."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "r_pk_2, r_app_1, r_db_1, r_db_2, r_db_3",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l10_*)."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_fraction_pieces, a_cards_story). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f14",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f15",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

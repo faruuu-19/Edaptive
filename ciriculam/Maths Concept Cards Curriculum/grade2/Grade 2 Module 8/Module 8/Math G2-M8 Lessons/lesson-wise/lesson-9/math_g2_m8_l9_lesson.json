@@ -1,0 +1,1356 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l9_partition_halves",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-c-lesson-9.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 9",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.1",
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Split rectangles and circles into 2 equal parts. Each part is a half.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Partition circles and rectangles into equal parts, and describe those parts as halves, thirds, or fourths."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_halves_fold",
+      "title": "Halves by folding",
+      "text": "Fold a paper so both sides match. Now there are 2 equal parts. Each part is a half.",
+      "asset_ids": [
+        "a_fold_paper"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: folding the paper"
+      }
+    },
+    {
+      "id": "exp_whole",
+      "title": "Two halves make a whole",
+      "text": "Cut on the fold. Hold the 2 halves. Put them together. Now you have 1 whole again.",
+      "asset_ids": [
+        "a_fold_paper"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: cutting along the fold"
+      }
+    },
+    {
+      "id": "exp_equal_not_turn",
+      "title": "Equal parts, any direction",
+      "text": "Turn the circle. The line can go any way. If the 2 parts are equal, they are halves.",
+      "asset_ids": [
+        "a_partition_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: rotating circles"
+      }
+    },
+    {
+      "id": "exp_fair_shares",
+      "title": "Fair shares",
+      "text": "Think of a pizza. If 2 parts are not the same size, they are not fair shares. They are not halves.",
+      "asset_ids": [
+        "a_partition_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: shaded shapes discussion (Shape B)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_shape_c",
+      "title": "Three parts that are not equal",
+      "text": "Shape C has 3 parts. The parts are not equal. So it is not halves, and it is not thirds.",
+      "asset_ids": [
+        "a_partition_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: shaded shapes discussion (Shape C)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "12 ones equals 1 ten and how many ones?",
+      "asset_ids": [],
+      "stimulus": {
+        "ones": 12
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_largest_units"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 12 ones = 1 ten 2 ones)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "29 ones equals 1 ten and how many ones?",
+      "asset_ids": [],
+      "stimulus": {
+        "ones": 29
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_largest_units"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 29 ones = 1 ten 19 ones)"
+      }
+    },
+    {
+      "id": "q_sp_a2",
+      "kind": "practice",
+      "text": "15 minus 1 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 15,
+        "op": "minus",
+        "b": 1
+      },
+      "rubric_id": "r_sp_a2",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 2"
+      }
+    },
+    {
+      "id": "q_sp_a11",
+      "kind": "practice",
+      "text": "43 minus 10 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 43,
+        "op": "minus",
+        "b": 10
+      },
+      "rubric_id": "r_sp_a11",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 11"
+      }
+    },
+    {
+      "id": "q_sp_a13",
+      "kind": "practice",
+      "text": "43 minus 21 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 43,
+        "op": "minus",
+        "b": 21
+      },
+      "rubric_id": "r_sp_a13",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 13"
+      }
+    },
+    {
+      "id": "q_sp_a17",
+      "kind": "practice",
+      "text": "62 minus 12 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 62,
+        "op": "minus",
+        "b": 12
+      },
+      "rubric_id": "r_sp_a17",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 17"
+      }
+    },
+    {
+      "id": "q_sp_a25",
+      "kind": "practice",
+      "text": "21 minus 2 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 21,
+        "op": "minus",
+        "b": 2
+      },
+      "rubric_id": "r_sp_a25",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 25"
+      }
+    },
+    {
+      "id": "q_sp_a36",
+      "kind": "practice",
+      "text": "72 minus 15 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 72,
+        "op": "minus",
+        "b": 15
+      },
+      "rubric_id": "r_sp_a36",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 36"
+      }
+    },
+    {
+      "id": "q_sp_a43",
+      "kind": "practice",
+      "text": "51 minus 19 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 51,
+        "op": "minus",
+        "b": 19
+      },
+      "rubric_id": "r_sp_a43",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 43"
+      }
+    },
+    {
+      "id": "q_sp_a44",
+      "kind": "practice",
+      "text": "65 minus 46 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 65,
+        "op": "minus",
+        "b": 46
+      },
+      "rubric_id": "r_sp_a44",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 44"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "A class raised 96 dollars. They need 120 dollars in all. How much more do they need?",
+      "asset_ids": [
+        "a_field_trip_story"
+      ],
+      "stimulus": {
+        "raised": 96,
+        "goal": 120
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_count_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (a)"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Then they raise 86 more dollars. How much extra money will they have?",
+      "asset_ids": [
+        "a_field_trip_story"
+      ],
+      "stimulus": {
+        "still_needed": 24,
+        "raised_more": 86
+      },
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_count_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (b)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "This paper has 4 straight sides and 4 square corners. What shape is it?",
+      "asset_ids": [
+        "a_fold_paper"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_corners"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: A rectangle!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "A square corner has another name. What is it?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_corners"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'A square corner is called a right angle.'"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Fold the paper so both sides match. How many equal parts are there?",
+      "asset_ids": [
+        "a_fold_paper"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_fold_match"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: we both have two equal parts)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "What do we call each of the 2 equal parts?",
+      "asset_ids": [
+        "a_fold_paper"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_fold_match"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'two equal shares called halves'"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Put the 2 halves back together. What do you have now?",
+      "asset_ids": [
+        "a_fold_paper"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_fold_match"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: One whole!)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "This shape has 2 parts that are not the same size. Is it split into halves?",
+      "asset_ids": [
+        "a_partition_widget"
+      ],
+      "stimulus": {
+        "shape": "B",
+        "parts": 2,
+        "equal": false
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_count_equal"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Shape B (S: ... it's not halves)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "The line in this circle is turned. Both parts are still equal. Is it halves?",
+      "asset_ids": [
+        "a_partition_widget"
+      ],
+      "stimulus": {
+        "shape": "circle",
+        "parts": 2,
+        "equal": true,
+        "line_angle_deg": 30
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_fold_match"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: rotating circles"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Shape C has 3 parts that are not equal. Is it split into thirds? Why?",
+      "asset_ids": [
+        "a_partition_widget"
+      ],
+      "stimulus": {
+        "shape": "C",
+        "parts": 3,
+        "equal": false
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_count_equal"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Shape C (S: it's not thirds because the parts aren't equal)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How many ways can you split a circle into halves? What do you notice?",
+      "asset_ids": [
+        "a_partition_widget"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_fold_match"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'how many ways can you split the shapes into halves? ... circles?'"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 12 ones = 1 ten 2 ones)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19",
+          "nineteen"
+        ]
+      },
+      "correct": "Says 19.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 29 ones = 1 ten 19 ones)"
+      }
+    },
+    {
+      "id": "r_sp_a2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 2"
+      }
+    },
+    {
+      "id": "r_sp_a11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33",
+          "thirty-three"
+        ]
+      },
+      "correct": "Says 33.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 11"
+      }
+    },
+    {
+      "id": "r_sp_a13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22",
+          "twenty-two"
+        ]
+      },
+      "correct": "Says 22.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 13"
+      }
+    },
+    {
+      "id": "r_sp_a17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 17"
+      }
+    },
+    {
+      "id": "r_sp_a25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19",
+          "nineteen"
+        ]
+      },
+      "correct": "Says 19.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 25"
+      }
+    },
+    {
+      "id": "r_sp_a36",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "57",
+          "fifty-seven"
+        ]
+      },
+      "correct": "Says 57.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 36"
+      }
+    },
+    {
+      "id": "r_sp_a43",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32",
+          "thirty-two"
+        ]
+      },
+      "correct": "Says 32.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 43"
+      }
+    },
+    {
+      "id": "r_sp_a44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19",
+          "nineteen"
+        ]
+      },
+      "correct": "Says 19.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Subtraction Patterns) item 44"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty-four",
+          "24 dollars",
+          "twenty-four dollars"
+        ]
+      },
+      "correct": "Says 24 dollars (or 24).",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (a) (source gives no answer): 120 - 96 = 24"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "62",
+          "sixty-two",
+          "62 dollars",
+          "sixty-two dollars"
+        ]
+      },
+      "correct": "Says 62 dollars (or 62).",
+      "partial": "Says 182 (96 + 86) and stops.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (b) (source gives no answer): 86 - 24 = 62"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "rectangle",
+          "a rectangle"
+        ]
+      },
+      "correct": "Says rectangle.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: A rectangle!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "right angle",
+          "a right angle"
+        ]
+      },
+      "correct": "Says right angle.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'A square corner is called a right angle.'"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: we both have two equal parts)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "half",
+          "a half",
+          "halves"
+        ]
+      },
+      "correct": "Says half.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'two equal shares called halves'"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "one whole",
+          "1 whole",
+          "a whole",
+          "whole"
+        ]
+      },
+      "correct": "Says one whole (or the whole paper).",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: One whole!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no (may add: the parts are not equal).",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_two_parts_halves"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Shape B (S: ... it's not halves)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_line_direction"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: rotating circles"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no, because the parts are not equal.",
+      "partial": "Says no with no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_two_parts_halves"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Shape C (S: it's not thirds because the parts aren't equal)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says many ways: any straight line through the middle makes 2 equal halves.",
+      "partial": "Says 2 or 3 ways, or 'lots' with no reason.",
+      "incorrect": "Says only 1 way.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_line_direction"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from 'halves are determined by equal parts not by the orientation of the line' in Concept Development"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_fold_match",
+      "level": 1,
+      "text": "Imagine folding it. Would both sides match?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'if you can fold one side on top of the other'"
+      }
+    },
+    {
+      "id": "h_count_equal",
+      "level": 2,
+      "text": "Count the parts. Then check if they are the same size.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: shaded shapes discussion"
+      }
+    },
+    {
+      "id": "h_corners",
+      "level": 1,
+      "text": "Count the sides and the square corners.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'How can you prove that?'"
+      }
+    },
+    {
+      "id": "h_count_up",
+      "level": 2,
+      "text": "Count up from 96 to 120.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note: a variety of strategies"
+      }
+    },
+    {
+      "id": "h_tens_ones",
+      "level": 1,
+      "text": "Think of the tens and the ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint note: relate facts to larger numbers"
+      }
+    },
+    {
+      "id": "h_largest_units",
+      "level": 1,
+      "text": "Make as many tens as you can.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_two_parts_halves",
+      "label": "Any 2 parts are halves",
+      "description": "Child calls a shape split into 2 parts 'halves' even when the parts are not the same size.",
+      "detection_signals": [
+        "Says 'halves' or 'yes' for a shape with 2 unequal parts.",
+        "Does not mention equal size when explaining halves."
+      ],
+      "response_text": "Halves are 2 equal parts. These parts are different sizes, so they are not halves.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Shape B ('it wouldn't be fair shares')"
+      }
+    },
+    {
+      "id": "mis_line_direction",
+      "label": "Thinking the line direction decides halves",
+      "description": "Child thinks only an up-and-down (or across) line makes halves, or that turning the shape changes it.",
+      "detection_signals": [
+        "Says a turned or slanted half-line does not make halves.",
+        "Says a circle can be cut in half only one way."
+      ],
+      "response_text": "Turn it any way. If the 2 parts are equal, they are still halves.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'halves are determined by equal parts not by the orientation of the line'"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_partition_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Lines must cut shapes into exactly equal (or deliberately unequal) parts; shading must match the stimulus.",
+      "description": "Rectangles and circles of the same size. The child or tutor draws lines to partition them and taps parts to shade.",
+      "must_show_exactly": [
+        "Equal parts are exactly equal in area",
+        "Shaded count matches the stimulus",
+        "All shapes in one question are the same size unless the stimulus says otherwise",
+        "Shape A: rectangle in 2 equal parts, 1 shaded",
+        "Shape B: 2 unequal parts",
+        "Shape C: 3 unequal parts",
+        "q_pr_7: a circle with its half-line turned to a new angle"
+      ],
+      "states_or_frames": [
+        "shape A",
+        "shape B",
+        "shape C",
+        "circle halves with the line turned",
+        "rectangle halves 2 ways"
+      ],
+      "interaction": "Draw partition lines; tap parts to shade.",
+      "alt_text": "A rectangle or circle split into parts, some shaded.",
+      "used_by": [
+        "ex_shape_c",
+        "exp_equal_not_turn",
+        "exp_fair_shares",
+        "q_db_1",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8"
+      ],
+      "generation_caption": "Flat outline rectangles and circles, thin dark lines, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_fold_paper",
+      "status": "not_available",
+      "kind": "animation",
+      "recommended_method": "code_rendered_svg_animation",
+      "diffusion_suitable": "no",
+      "why_this_method": "The fold must land exactly in the middle; parts must match exactly.",
+      "description": "A rectangle sheet is folded in half one way, then another way; a circle is folded in half. A line is drawn on the fold and 1 half is coloured.",
+      "must_show_exactly": [
+        "Rectangle with 4 square corners",
+        "Fold makes 2 equal parts",
+        "1 half coloured"
+      ],
+      "states_or_frames": [
+        "frame 1: flat paper",
+        "frame 2: folded in half (long way)",
+        "frame 3: opened, line on fold, 1 half coloured",
+        "frame 4: folded the other way",
+        "frame 5: circle folded in half, 1 half coloured",
+        "frame 6: 2 halves put together = 1 whole"
+      ],
+      "interaction": "Plays step by step on tap.",
+      "alt_text": "Paper folded into two halves.",
+      "used_by": [
+        "exp_halves_fold",
+        "exp_whole",
+        "q_pr_1",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5"
+      ],
+      "generation_caption": "Plain sheet of paper and a paper circle, flat style, one half coloured blue. [Build by code]"
+    },
+    {
+      "asset_id": "a_field_trip_story",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Dollar amounts must be exact.",
+      "description": "A goal bar for the field trip: 120 dollars needed, 96 dollars raised so far.",
+      "must_show_exactly": [
+        "Labels exactly: raised 96, goal 120",
+        "Second part: 86 more raised"
+      ],
+      "states_or_frames": [
+        "first question",
+        "second question"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "A bar showing money raised toward a goal.",
+      "used_by": [
+        "q_app_1",
+        "q_app_2"
+      ],
+      "generation_caption": "Simple horizontal goal bar with a coin icon, flat style; code adds the numbers. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Subtraction Patterns (timed race)",
+      "reason": "Timed paper race (Sprint A then B). Items are used as q_sp_* questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_fold_cut",
+      "name": "Folding, colouring and cutting real paper and a paper circle",
+      "reason": "Physical materials; replaced by a_fold_paper.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_compare",
+      "name": "Partners compare their folds and shapes",
+      "reason": "Needs a second child.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partition_draw",
+      "name": "Partition shapes to show halves (Problem Set 3, Homework 3)",
+      "reason": "Drawing task; checked only in the widget, not by text.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 1, 2(a-l); Exit Ticket; Homework 1-2",
+      "issue": "Items ask the child to circle or shade pictured shapes (Shape A-C, 2(a-l)); the pictures are not in the extracted text and no page images were attached. Not used. Debrief items about 2(g), 2(h), 3(b) also depend on those pictures."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "q_pr_6, q_pr_7, q_pr_8 and a_partition_widget",
+      "issue": "The source Shapes A, B and C come from Template 2 (picture not in the text). The shapes were described from the teacher-student talk only. Rebuild them from the template."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Sprint A and Sprint B",
+      "issue": "Sprint A items used: 2, 11, 13, 17, 25, 36, 43, 44 (minus ones, minus tens, minus a two-digit number, cross a ten). Sprint B has the same patterns; none used. Numbering assumes left column = 1-22, right = 23-44."
+    },
+    {
+      "id": "f8",
+      "severity": "low",
+      "item": "Concept Development: 'Is there more than one way?' (S: No.)",
+      "issue": "The source student answer 'No' is not correct (a circle can be halved many ways); the next teacher move corrects it. It was not used as an answer key."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "r_sp_a2, r_sp_a11, r_sp_a13, r_sp_a17, r_sp_a25, r_sp_a36, r_sp_a43, r_sp_a44, r_app_1, r_app_2, r_db_1",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l8_*)."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_partition_widget, a_fold_paper, a_field_trip_story). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

@@ -6,7 +6,7 @@ object. If the source JSON contains `cards[]`, select the concept by ID first.
 See [loading rules](assessment-card-collections.md).
 
 The full v0.2 schema and every retained assessment object are unchanged by
-cleanup. All 91 cards remain drafts. Script-agent integration is untested.
+cleanup. All 97 cards remain drafts. Script-agent integration is untested.
 
 ## Structure
 
@@ -77,10 +77,10 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-91 concept IDs have 91 standalone assessments; no assessment collections remain.
+97 concept IDs have 97 standalone assessments; no assessment collections remain.
 Each includes three main questions, two follow-ups, four local rubrics, 15 hints
-and five guidance records. Module 7 Lessons 1–26 are complete, including sixteen
-new full assessments. See the root README for totals and coverage.
+and five guidance records. Module 7 Lessons 1–26 and Module 8 Lessons 1–16 are
+complete, including sixteen and six new full assessments respectively. See the root README for totals and coverage.
 
 [Cleanup validation](assessment-cards-cleanup-validation.json) checks unchanged
 content, IDs, references, guidance, hashes, worked arithmetic, tutoring routes
@@ -91,3 +91,11 @@ standalone example; the caller grades against actual rubrics and retains correct
 hard parts. Numeric answers cannot verify actual drawings or spoken reasoning.
 
 Module 7 Lessons 17, 18 and 24 have open easy answers; follow the source semantic and partial criteria. Lesson 18 unit measurements are approximate and choice codes are explicitly labelled. [New assessment validation](assessment-cards-grade2-module7-lessons11-26-validation.json) and [module-pair validation](assessment-cards-grade2-module7-lesson-wise-validation.json) retain the answer and preservation evidence.
+
+Module 8 Lessons 11–16 ([new assessment validation](assessment-cards-grade2-module8-lessons11-16-validation.json),
+[module-pair validation](assessment-cards-grade2-module8-lesson-wise-validation.json)) reuse
+easy items with exact non-integer answers in Lessons 11 and 12 ("another fourth", "yes"),
+use clock-number labels in the Lesson 13 hard question and explicit 1 = a.m. / 2 = p.m.
+codes in the Lesson 15 medium follow-up. Numeric responses do not verify folds,
+partitions, drawings or clock-hand positions. Cards written in this batch record
+`generated_by: claude_manual_fixture`; earlier cards keep their original value.

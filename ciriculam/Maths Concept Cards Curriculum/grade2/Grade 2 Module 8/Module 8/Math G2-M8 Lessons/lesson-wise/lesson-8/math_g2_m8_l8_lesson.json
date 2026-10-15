@@ -1,0 +1,1095 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l8_pattern_block_fractions",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-b-lesson-8.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 8",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.1",
+    "2.NBT.7",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Use one pattern block to cover a half, a third, a fourth or a sixth of a shape.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Interpret equal shares in composite shapes as halves, thirds, and fourths."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_cover_part",
+      "title": "One block covers a part",
+      "text": "Find one block that covers part of a shape. If 2 of them cover it, each block is a half.",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: note on covering a half, third or fourth"
+      }
+    },
+    {
+      "id": "exp_fourths_square",
+      "title": "Fourths of a square",
+      "text": "4 small squares make 1 large square. Each small square is 1 fourth. 2 fourths is the same as 1 half.",
+      "asset_ids": [
+        "a_square_fourths"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 5"
+      }
+    },
+    {
+      "id": "exp_different_pieces_same_part",
+      "title": "Different pieces, same part",
+      "text": "You can cover half a hexagon with 1 trapezoid or with 3 triangles. It is still half covered.",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 questions"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_hexagon_sixths",
+      "title": "Sixths of a hexagon",
+      "text": "6 triangles cover the hexagon. Each triangle is 1 sixth of the hexagon.",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "158 is how many tens and 8 ones?",
+      "asset_ids": [],
+      "stimulus": {
+        "number": 158
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Smaller Unit (S: 158 = 15 tens 8 ones)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 123 minus 47?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 123,
+        "b": 47
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (S: 76)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Students put away all 72 triangles. There were still 48 squares on the carpet. How many triangles and squares were there at the start?",
+      "asset_ids": [],
+      "stimulus": {
+        "triangles": 72,
+        "squares": 48
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Which one pattern block covers half of the rhombus?",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {
+        "whole": "rhombus",
+        "fraction": "half"
+      },
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_try_blocks",
+        "h_angles_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (Problem 1 in Concept Development)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Which one pattern block covers half of the hexagon?",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {
+        "whole": "hexagon",
+        "fraction": "half"
+      },
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_try_blocks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Which one pattern block covers 1 third of the hexagon?",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {
+        "whole": "hexagon",
+        "fraction": "third"
+      },
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_try_blocks",
+        "h_count_cover"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Which one pattern block covers 1 third of the trapezoid?",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {
+        "whole": "trapezoid",
+        "fraction": "third"
+      },
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_try_blocks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4"
+      }
+    },
+    {
+      "id": "q_ps_5a",
+      "kind": "practice",
+      "text": "4 small squares make 1 large square. Each small square is 1 what?",
+      "asset_ids": [
+        "a_square_fourths"
+      ],
+      "stimulus": {
+        "parts": 4
+      },
+      "rubric_id": "r_ps_5a",
+      "hint_ids": [
+        "h_shade"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5: 'Each small square is 1 ___ (half / third / fourth)'"
+      }
+    },
+    {
+      "id": "q_ps_5b",
+      "kind": "practice",
+      "text": "2 fourths of the square is the same as 1 what?",
+      "asset_ids": [
+        "a_square_fourths"
+      ],
+      "stimulus": {
+        "shaded": 2,
+        "parts": 4
+      },
+      "rubric_id": "r_ps_5b",
+      "hint_ids": [
+        "h_shade"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5: '2 fourths ... is the same as 1 ___'"
+      }
+    },
+    {
+      "id": "q_ps_5c",
+      "kind": "practice",
+      "text": "How many fourths equal 1 whole square?",
+      "asset_ids": [
+        "a_square_fourths"
+      ],
+      "stimulus": {
+        "parts": 4
+      },
+      "rubric_id": "r_ps_5c",
+      "hint_ids": [
+        "h_shade",
+        "h_count_cover"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5: '___ fourths is equal to 1 whole'"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Which one pattern block covers 1 sixth of the hexagon?",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {
+        "whole": "hexagon",
+        "fraction": "sixth"
+      },
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_try_blocks",
+        "h_count_cover"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Cover the bottom half of the hexagon with 3 triangles. Is it still half covered?",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {
+        "whole": "hexagon",
+        "triangles": 3
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_count_cover"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 question"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "How many thirds do you need to fill the whole hexagon?",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {
+        "whole": "hexagon"
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_count_cover"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 question"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "How many small triangles make a whole hexagon?",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {
+        "whole": "hexagon",
+        "part": "triangle"
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_count_cover"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 4 question"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "1 triangle covers part of this hexagon. How many more triangles fill the hexagon?",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {
+        "whole": "hexagon",
+        "covered_triangles": 1
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_count_cover"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'How many more triangles do I need to fill the hexagon?'"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Can a triangle block be a half, a third or a fourth? Explain.",
+      "asset_ids": [
+        "a_pattern_blocks"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_try_blocks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'Can this triangle be a half, a third, or a fourth? Explain.'"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Smaller Unit (S: 158 = 15 tens 8 ones)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "76",
+          "seventy-six"
+        ]
+      },
+      "correct": "Says 76.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (S: 76)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "120",
+          "one hundred twenty"
+        ]
+      },
+      "correct": "Says 120.",
+      "partial": null,
+      "incorrect": "Says any other number (for example 24 from subtracting).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer): 72 + 48 = 120"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "triangle",
+          "a triangle",
+          "the triangle"
+        ]
+      },
+      "correct": "Says triangle.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1; answer from pattern block sizes (rhombus = 2 triangles)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "trapezoid",
+          "a trapezoid",
+          "the trapezoid"
+        ]
+      },
+      "correct": "Says trapezoid.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2; answer from pattern block sizes (hexagon = 2 trapezoids)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "rhombus",
+          "a rhombus",
+          "the rhombus"
+        ]
+      },
+      "correct": "Says rhombus.",
+      "partial": "Says 2 triangles (they cover a third, but the question asks for one block).",
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3; answer from pattern block sizes (hexagon = 3 rhombuses)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "triangle",
+          "a triangle",
+          "the triangle"
+        ]
+      },
+      "correct": "Says triangle.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4; answer from pattern block sizes (trapezoid = 3 triangles)"
+      }
+    },
+    {
+      "id": "r_ps_5a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "fourth",
+          "a fourth",
+          "quarter",
+          "1 fourth",
+          "one fourth"
+        ]
+      },
+      "correct": "Says fourth.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5: 'Each small square is 1 ___ (half / third / fourth)'"
+      }
+    },
+    {
+      "id": "r_ps_5b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "half",
+          "a half",
+          "1 half",
+          "one half"
+        ]
+      },
+      "correct": "Says half.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5; Concept Development Problem 5: 'show that 2 fourths is the same as a half'"
+      }
+    },
+    {
+      "id": "r_ps_5c",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5: '___ fourths is equal to 1 whole'"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "triangle",
+          "a triangle",
+          "the triangle"
+        ]
+      },
+      "correct": "Says triangle.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6; answer from pattern block sizes (hexagon = 6 triangles)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes (3 triangles cover the same space as 1 trapezoid).",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (no answer given): 3 triangles = 1 trapezoid = half"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 question"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 4 question"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": "Says 6 (all the triangles, not how many more).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; hexagon = 6 triangles, 6 - 1 = 5"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a correct case: half of a rhombus, a third of a trapezoid (or a fourth of a shape made of 4 triangles).",
+      "partial": "Says yes or no with no shape named.",
+      "incorrect": "Names a wrong case, like half of a hexagon.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answers from pattern block sizes"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_try_blocks",
+      "level": 1,
+      "text": "Try each block. Which one fits 2 or 3 times exactly?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: note on covering"
+      }
+    },
+    {
+      "id": "h_angles_sides",
+      "level": 2,
+      "text": "Look at the angles and sides. Which block matches part of the shape?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 question"
+      }
+    },
+    {
+      "id": "h_count_cover",
+      "level": 2,
+      "text": "Count how many blocks cover the whole shape.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 question"
+      }
+    },
+    {
+      "id": "h_shade",
+      "level": 1,
+      "text": "Shade one part at a time and count.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 5"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 2,
+      "text": "Draw a bar for the triangles and a bar for the squares.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note: tape diagram"
+      }
+    },
+    {
+      "id": "h_rename",
+      "level": 1,
+      "text": "Think of a hundred as bundles of ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Smaller Unit"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_pattern_blocks",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Blocks must have exact sizes so 2 trapezoids exactly cover a hexagon, 3 triangles a trapezoid, and so on.",
+      "description": "On-screen pattern blocks: hexagon, trapezoid, wide rhombus, triangle, square. The child drags blocks on top of a bigger shape to cover it.",
+      "must_show_exactly": [
+        "All block sides the same unit length (trapezoid long side = 2 units)",
+        "hexagon = 2 trapezoids = 3 rhombuses = 6 triangles",
+        "trapezoid = 3 triangles; rhombus = 2 triangles",
+        "q_ps_1: 2 triangles on 1 rhombus",
+        "q_ps_2: 2 trapezoids on 1 hexagon",
+        "q_ps_3: 3 rhombuses on 1 hexagon",
+        "q_ps_4: 3 triangles on 1 trapezoid",
+        "q_ps_6, q_pr_3: 6 triangles on 1 hexagon",
+        "q_db_1: 1 triangle on 1 hexagon"
+      ],
+      "states_or_frames": [
+        "rhombus halves",
+        "hexagon halves",
+        "hexagon thirds",
+        "trapezoid thirds",
+        "hexagon sixths",
+        "bottom half of hexagon covered by 3 triangles"
+      ],
+      "interaction": "Drag, flip, slide and turn blocks; blocks snap to the outline.",
+      "alt_text": "Pattern blocks covering a bigger shape.",
+      "used_by": [
+        "ex_hexagon_sixths",
+        "exp_cover_part",
+        "exp_different_pieces_same_part",
+        "q_db_1",
+        "q_db_2",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_ps_1",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_6"
+      ],
+      "generation_caption": "Flat pattern block shapes in plain colours (hexagon, trapezoid, rhombus, triangle, square), white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_square_fourths",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exactly 4 equal small squares; shading count must match the question.",
+      "description": "A large square made of 4 equal small squares. Small squares can be shaded one at a time.",
+      "must_show_exactly": [
+        "4 equal small squares in a 2 by 2 grid",
+        "Shaded count 0-4 matches the stimulus"
+      ],
+      "states_or_frames": [
+        "0 shaded",
+        "1 shaded",
+        "2 shaded",
+        "4 shaded"
+      ],
+      "interaction": "Tap to shade a small square.",
+      "alt_text": "A square split into 4 small squares.",
+      "used_by": [
+        "exp_fourths_square",
+        "q_ps_5a",
+        "q_ps_5b",
+        "q_ps_5c"
+      ],
+      "generation_caption": "Flat 2 by 2 grid of squares, white background, thin dark lines. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets (timed, Sprint-like)",
+      "reason": "Timed paper sheets from Lesson 3; the sheets are not in this file.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_draw_blocks",
+      "name": "Drawing the shape formed by the blocks (Problem Set and Homework)",
+      "reason": "Hand drawing; a text tutor cannot check it. The widget shows the covered shape.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_cut_ways",
+      "name": "Draw the different ways to cut a paper rhombus in half",
+      "reason": "Drawing task; cannot be checked by text.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 question"
+      }
+    },
+    {
+      "id": "na_visualize",
+      "name": "Close your eyes and describe flips, slides and turns to a partner",
+      "reason": "Partner talk and inner visualising.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Exit Ticket (rectangle covered by pattern blocks)",
+      "issue": "The Exit Ticket shows a rectangle picture that is not in the extracted text. Which block covers half depends on that picture. Not used."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "q_ps_1 to q_ps_6, q_pr_1 to q_pr_3, q_db_1, q_db_2",
+      "issue": "The source gives no answers for these; keys come from standard pattern block sizes (hexagon = 2 trapezoids = 3 rhombuses = 6 triangles). Lesson 7 states some of these. Check every key."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no specific misconception. Proposal not added: thinking a part is not a half when it is covered by several smaller blocks."
+    },
+    {
+      "id": "f8",
+      "severity": "low",
+      "item": "Student Debrief (hexagon covered by a triangle)",
+      "issue": "The Debrief says 'Look at Problem 3' but shows a triangle on a hexagon, which is a sixth. q_db_1 asks only how many more triangles. Check intent."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "r_app_1, r_ps_1, r_ps_2, r_ps_3, r_ps_4, r_ps_5a, r_ps_5b, r_ps_5c, r_ps_6, r_pr_1, r_pr_2, r_pr_3, r_db_1, r_db_2",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l7_*)."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_pattern_blocks, a_square_fourths). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

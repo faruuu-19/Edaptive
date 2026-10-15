@@ -1,0 +1,1301 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l14_time_five_minutes",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-d-lesson-14.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 14",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.NBT.7",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Count by fives around the clock. Tell time to the nearest five minutes.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Tell time to the nearest five minutes."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_number_is_five",
+      "title": "Each number is 5 minutes",
+      "text": "From one number to the next is 5 minutes. Count by fives all the way around: 60 minutes.",
+      "asset_ids": [
+        "a_count_fives"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_read_time",
+      "title": "Reading the time",
+      "text": "Look at the hour hand first. Then count by fives to the minute hand. 7:35 is seven thirty-five.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 7:35 example"
+      }
+    },
+    {
+      "id": "exp_half_then_fives",
+      "title": "Start from half past",
+      "text": "For 7:35, start at half past, 30. Then count 35. This is faster.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'start at half past, or 30, and counting by 5'"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_455",
+      "title": "Not five o'clock yet",
+      "text": "At 4:55 the hour hand is very close to the 5. But it is not five o'clock yet. 5 more minutes are needed.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 4:55 example"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 367 minus 185?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 367,
+        "b": 185
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_place_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (S: 182)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Count by fives: 0, 5, 10, 15, 20. What number comes next?",
+      "asset_ids": [],
+      "stimulus": {
+        "sequence": [
+          0,
+          5,
+          10,
+          15,
+          20
+        ]
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Fives (S: 0, 5, 10, 15, 20 ... 25)"
+      }
+    },
+    {
+      "id": "q_sp_a5",
+      "kind": "practice",
+      "text": "20 plus 5 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 20,
+        "op": "plus",
+        "b": 5
+      },
+      "rubric_id": "r_sp_a5",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 5"
+      }
+    },
+    {
+      "id": "q_sp_a13",
+      "kind": "practice",
+      "text": "40 minus 5 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 40,
+        "op": "minus",
+        "b": 5
+      },
+      "rubric_id": "r_sp_a13",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 13"
+      }
+    },
+    {
+      "id": "q_sp_a20",
+      "kind": "practice",
+      "text": "5 minus 5 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 5,
+        "op": "minus",
+        "b": 5
+      },
+      "rubric_id": "r_sp_a20",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 20"
+      }
+    },
+    {
+      "id": "q_sp_a32",
+      "kind": "practice",
+      "text": "50 plus 50 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 50,
+        "op": "plus",
+        "b": 50
+      },
+      "rubric_id": "r_sp_a32",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 32"
+      }
+    },
+    {
+      "id": "q_sp_a42",
+      "kind": "practice",
+      "text": "150 plus 50 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 150,
+        "op": "plus",
+        "b": 50
+      },
+      "rubric_id": "r_sp_a42",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 42"
+      }
+    },
+    {
+      "id": "q_sp_a43",
+      "kind": "practice",
+      "text": "200 minus 50 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 200,
+        "op": "minus",
+        "b": 50
+      },
+      "rubric_id": "r_sp_a43",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 43"
+      }
+    },
+    {
+      "id": "q_sp_b4",
+      "kind": "practice",
+      "text": "5 plus 15 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 5,
+        "op": "plus",
+        "b": 15
+      },
+      "rubric_id": "r_sp_b4",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint B (Adding and Subtracting by 5) item 4"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Brownies take 45 minutes to bake. Pizza takes half an hour less. How long does pizza take?",
+      "asset_ids": [
+        "a_baking_story"
+      ],
+      "stimulus": {
+        "brownies_min": 45,
+        "less": "half an hour"
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_half_hour"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Each number on the clock stands for how many minutes?",
+      "asset_ids": [
+        "a_count_fives"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 minutes!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "How many fives does it take to go all the way around the clock?",
+      "asset_ids": [
+        "a_count_fives"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_jumps"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 1 five, 2 fives, ..., 12 fives!)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "The clock shows 4:05. How many minutes since four o'clock?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "time": "4:05"
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 minutes.)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "The clock shows 4:55. Is it five o'clock yet?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "time": "4:55"
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_hour_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: No!)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "It is 4:55. How many more minutes until the next hour?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "time": "4:55"
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 minutes!)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "What time does this clock show?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "time": "7:35"
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_hour_first",
+        "h_half_past"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It's 7:35.)"
+      }
+    },
+    {
+      "id": "q_ps_1a",
+      "kind": "practice",
+      "text": "Count back by fives: 60, 55, 50, then what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "sequence": [
+          60,
+          55,
+          50
+        ]
+      },
+      "rubric_id": "r_ps_1a",
+      "hint_ids": [
+        "h_skip_back"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1: '60, 55, 50, ____, 40'"
+      }
+    },
+    {
+      "id": "q_ps_1b",
+      "kind": "practice",
+      "text": "Keep counting back by fives after 20. What are the next 4 numbers?",
+      "asset_ids": [],
+      "stimulus": {
+        "start": 20,
+        "step": -5,
+        "count": 4
+      },
+      "rubric_id": "r_ps_1b",
+      "hint_ids": [
+        "h_skip_back"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1: '20, ____, ____, ____, ____'"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Count by fives: 0, 5, 10. What are the next 4 numbers?",
+      "asset_ids": [],
+      "stimulus": {
+        "start": 10,
+        "step": 5,
+        "count": 4
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_fives"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1: '0, 5, 10, ___, ___, ___, ___, 35'"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "At 6:55 the hour hand is almost at the 7. At 6:25 it is not. Why?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "times": [
+          "6:25",
+          "6:55"
+        ]
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_hour_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'what difference do you notice between the hour hands for 6:25 and 6:55? Why?'"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "182",
+          "one hundred eighty-two"
+        ]
+      },
+      "correct": "Says 182.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming (S: 182)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Fives (S: 0, 5, 10, 15, 20 ... 25)"
+      }
+    },
+    {
+      "id": "r_sp_a5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 5"
+      }
+    },
+    {
+      "id": "r_sp_a13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five"
+        ]
+      },
+      "correct": "Says 35.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 13"
+      }
+    },
+    {
+      "id": "r_sp_a20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0",
+          "zero"
+        ]
+      },
+      "correct": "Says 0.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 20"
+      }
+    },
+    {
+      "id": "r_sp_a32",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 32"
+      }
+    },
+    {
+      "id": "r_sp_a42",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred"
+        ]
+      },
+      "correct": "Says 200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 42"
+      }
+    },
+    {
+      "id": "r_sp_a43",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "150",
+          "one hundred fifty"
+        ]
+      },
+      "correct": "Says 150.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding and Subtracting by 5) item 43"
+      }
+    },
+    {
+      "id": "r_sp_b4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint B (Adding and Subtracting by 5) item 4"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15 minutes",
+          "15",
+          "fifteen minutes",
+          "a quarter hour",
+          "quarter of an hour"
+        ]
+      },
+      "correct": "Says 15 minutes.",
+      "partial": "Says 75 minutes (added instead of took away).",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer): 45 - 30 = 15"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 minutes!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 1 five, 2 fives, ..., 12 fives!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 minutes.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_hour_hand_next"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: No!)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 minutes!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7:35",
+          "seven thirty-five"
+        ]
+      },
+      "correct": "Says 7:35.",
+      "partial": "Gets the minutes right but says 8 for the hour, or the hour right but the minutes wrong.",
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_hour_hand_next"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It's 7:35.)"
+      }
+    },
+    {
+      "id": "r_ps_1a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five"
+        ]
+      },
+      "correct": "Says 45.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1: '60, 55, 50, ____, 40'"
+      }
+    },
+    {
+      "id": "r_ps_1b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15, 10, 5, 0",
+          "15 10 5 0",
+          "fifteen, ten, five, zero"
+        ]
+      },
+      "correct": "Says 15, 10, 5, 0 in order.",
+      "partial": "Gets some of the 4 numbers right, or misses 0.",
+      "incorrect": "Gives numbers that do not go down by 5.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1: '20, ____, ____, ____, ____'"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15, 20, 25, 30",
+          "15 20 25 30",
+          "fifteen, twenty, twenty-five, thirty"
+        ]
+      },
+      "correct": "Says 15, 20, 25, 30 in order.",
+      "partial": "Gets some of the 4 numbers right.",
+      "incorrect": "Gives numbers that do not go up by 5.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1: '0, 5, 10, ___, ___, ___, ___, 35'"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the hour hand moves a little every minute, so near the end of the hour it is close to the next number.",
+      "partial": "Says 'it is later' without linking it to the hour hand moving.",
+      "incorrect": "Says the clock is broken.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_hour_hand_next"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from 'The hour hand ... moves a little bit every minute' in Concept Development"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_fives",
+      "level": 2,
+      "text": "Count by fives from the top to the minute hand.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_hour_first",
+      "level": 1,
+      "text": "Look at the short hand first. Which number has it passed?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: position of the hour hand"
+      }
+    },
+    {
+      "id": "h_jumps",
+      "level": 2,
+      "text": "Count each jump of 5 minutes until you are back at the top.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: count together around the clock"
+      }
+    },
+    {
+      "id": "h_half_past",
+      "level": 2,
+      "text": "Start at 30 on the 6. Keep counting by fives.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 7:35 strategy"
+      }
+    },
+    {
+      "id": "h_skip_back",
+      "level": 2,
+      "text": "Count back by fives. Take away 5 each time.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Fives"
+      }
+    },
+    {
+      "id": "h_half_hour",
+      "level": 2,
+      "text": "Half an hour is 30 minutes.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note: use content from Lesson 13"
+      }
+    },
+    {
+      "id": "h_place_value",
+      "level": 1,
+      "text": "Subtract the ones, then the tens, then the hundreds.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction with Renaming"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_hour_hand_next",
+      "label": "Reading the next hour too early",
+      "description": "When the hour hand is very close to the next number (like at 4:55), the child reads the next hour.",
+      "detection_signals": [
+        "Says 5:55 or five o'clock for a clock showing 4:55.",
+        "Says the hour that the hour hand is closest to, not the one it has passed."
+      ],
+      "response_text": "The hour hand is close to the 5, but it has not reached it. It is still 4. The time is 4:55.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'Notice how very close the hour hand is to the 5. But is it five o'clock yet?'"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_clock_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Hand positions must be exact, and the hour hand must move partway between numbers. Diffusion cannot do this.",
+      "description": "An analog clock with numbers 1-12, minute marks, an hour hand and a minute hand. Can also show a digital readout.",
+      "must_show_exactly": [
+        "Numbers 1-12 in correct positions, 60 minute marks",
+        "Minute hand points exactly at the stimulus minute",
+        "Hour hand sits between hours in proportion to the minutes (for example halfway between 3 and 4 at 3:30)",
+        "q_pr_6: exactly 7:35, hour hand a little past halfway from 7 to 8",
+        "q_pr_4, q_pr_5: exactly 4:55, hour hand very close to the 5"
+      ],
+      "states_or_frames": [
+        "any time hh:mm from the stimulus",
+        "digital readout on or off",
+        "4:05",
+        "4:55",
+        "5:00",
+        "7:35",
+        "minute numbers 5-60 shown outside the face"
+      ],
+      "interaction": "Display, or the child drags the hands. The tutor sets the time from the question stimulus.",
+      "alt_text": "A clock face with an hour hand and a minute hand.",
+      "used_by": [
+        "ex_455",
+        "exp_half_then_fives",
+        "exp_read_time",
+        "q_db_1",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6"
+      ],
+      "generation_caption": "Clean flat analog clock face, numbers 1 to 12, two hands, plain white background, no text. [Build by code]"
+    },
+    {
+      "asset_id": "a_count_fives",
+      "status": "not_available",
+      "kind": "animation",
+      "recommended_method": "code_rendered_svg_animation",
+      "diffusion_suitable": "no",
+      "why_this_method": "Each step must add exactly 5 minutes and land on the next number.",
+      "description": "The minute hand jumps from number to number while the minutes 5, 10, 15 ... 60 appear.",
+      "must_show_exactly": [
+        "12 jumps of 5 minutes each",
+        "Last jump reaches 60 at the 12"
+      ],
+      "states_or_frames": [
+        "frame 1: minute hand on 1, label 5",
+        "frame 2: minute hand on 2, label 10",
+        "frame 3: minute hand on 3, label 15",
+        "frame 4: minute hand on 4, label 20",
+        "frame 5: minute hand on 5, label 25",
+        "frame 6: minute hand on 6, label 30",
+        "frame 7: minute hand on 7, label 35",
+        "frame 8: minute hand on 8, label 40",
+        "frame 9: minute hand on 9, label 45",
+        "frame 10: minute hand on 10, label 50",
+        "frame 11: minute hand on 11, label 55",
+        "frame 12: minute hand on 12, label 60"
+      ],
+      "interaction": "Plays once; can replay.",
+      "alt_text": "The minute hand moving by fives around a clock.",
+      "used_by": [
+        "exp_number_is_five",
+        "q_pr_1",
+        "q_pr_2"
+      ],
+      "generation_caption": "Flat analog clock face with a highlighted minute hand, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_baking_story",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "scene_by_code_with_icon_art",
+      "diffusion_suitable": "icon_only_then_code_layout",
+      "why_this_method": "Times must be shown exactly as labels.",
+      "description": "Brownies in an oven with a 45-minute label, and a pizza with a '? minutes' label.",
+      "must_show_exactly": [
+        "Labels exactly: brownies 45 minutes; pizza = half an hour less"
+      ],
+      "states_or_frames": [
+        "scene"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "Brownies and a pizza with cooking times.",
+      "used_by": [
+        "q_app_1"
+      ],
+      "generation_caption": "ICON ONLY: one tray of brownies and one pizza, flat cartoon style, white background. (Code adds the labels.)"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Adding and Subtracting by 5 (timed race)",
+      "reason": "Timed paper race (Sprint A then B). Items are used as q_sp_* questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_happy_counting",
+      "name": "Happy Counting with hand signals",
+      "reason": "Teacher hand signals for direction; one item used as q_pk_2.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Fives"
+      }
+    },
+    {
+      "id": "na_set_clocks",
+      "name": "Set your paper clock to match the teacher's",
+      "reason": "Physical clock; the camera cannot check it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 2-4, Exit Ticket, Homework 2-6",
+      "issue": "Items ask the child to fill in clock-face minutes, draw hands, or read pictured clocks (including Problem 4, 12:55 or 1:55). Pictures are not in the extracted text and no page images were attached. Not used. The counting sequences in Problem Set 1 and Homework 1 were used."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Sprint A and Sprint B",
+      "issue": "Items used: A5, A13, A20, A32, A42, A43, B4 (add 5, subtract 5, subtract to zero, fifties, five plus a number from Sprint B). Item A21 (5 + 0) was skipped because the answer is in the question. Numbering assumes left column = 1-22, right = 23-44."
+    },
+    {
+      "id": "f7",
+      "severity": "low",
+      "item": "Sprint A items 2 and 22",
+      "issue": "Both read '5 + 5' in the extracted text. Check the printed Sprint."
+    },
+    {
+      "id": "f8",
+      "severity": "low",
+      "item": "Homework 1, second sequence",
+      "issue": "'____, ____, ____, 45, 40, ...' counts down by fives but its start is not printed in the text (likely 60). Not used."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "r_sp_a5, r_sp_a13, r_sp_a20, r_sp_a32, r_sp_a42, r_sp_a43, r_sp_b4, r_app_1, r_ps_1a, r_ps_1b, r_pr_7, r_db_1",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l13_*)."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_clock_widget, a_count_fives, a_baking_story). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

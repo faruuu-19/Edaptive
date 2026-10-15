@@ -1,0 +1,1374 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l2_naming_polygons",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-a-lesson-2.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 2",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.1",
+    "2.NBT.7"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Build shapes and name them by their sides: triangle, quadrilateral, pentagon, hexagon.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Build, identify, and analyze two-dimensional shapes with specified attributes."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_polygon",
+      "title": "What a polygon is",
+      "text": "A polygon is a closed shape with straight sides. It has 3 or more sides. It has as many angles as sides.",
+      "asset_ids": [
+        "a_name_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: polygon description"
+      }
+    },
+    {
+      "id": "exp_word_parts",
+      "title": "Word parts tell the number",
+      "text": "Tri- means 3, so a triangle has 3 angles. Quad- means 4, so a quadrilateral has 4 sides.",
+      "asset_ids": [
+        "a_name_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: sentence strips (tri-, quad-, lateral)"
+      }
+    },
+    {
+      "id": "exp_build_sticks",
+      "title": "Build it with sticks",
+      "text": "Join 2 sticks to make an angle. Add 1 more stick to close it. Now you have a triangle.",
+      "asset_ids": [
+        "a_stick_builder"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: spaghetti triangle"
+      }
+    },
+    {
+      "id": "exp_attributes_not_look",
+      "title": "Named by attributes",
+      "text": "These quadrilaterals look different. They are all quadrilaterals because they all have 4 straight sides.",
+      "asset_ids": [
+        "a_name_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Chart 2 quadrilaterals"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_open_to_polygon",
+      "title": "Making an open shape into a polygon",
+      "text": "This shape has 2 sides and is open. Add 1 more side to close it. Now it is a triangle, a polygon.",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: open shape on the board"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "120 ones equals some tens and 10 ones. How many tens?",
+      "asset_ids": [],
+      "stimulus": {
+        "ones": 120,
+        "ones_left": 10
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 120 ones = 11 tens 10 ones)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "100 ones equals some tens and 10 ones. How many tens?",
+      "asset_ids": [],
+      "stimulus": {
+        "ones": 100,
+        "ones_left": 10
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 100 ones is 9 tens 10 ones)"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "98 plus 3 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 98,
+        "op": "plus",
+        "b": 3
+      },
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_make_hundred"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 1"
+      }
+    },
+    {
+      "id": "q_sp_a8",
+      "kind": "practice",
+      "text": "99 plus 2 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 99,
+        "op": "plus",
+        "b": 2
+      },
+      "rubric_id": "r_sp_a8",
+      "hint_ids": [
+        "h_make_hundred"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 8"
+      }
+    },
+    {
+      "id": "q_sp_a17",
+      "kind": "practice",
+      "text": "98 plus 24 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 98,
+        "op": "plus",
+        "b": 24
+      },
+      "rubric_id": "r_sp_a17",
+      "hint_ids": [
+        "h_make_hundred"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 17"
+      }
+    },
+    {
+      "id": "q_sp_a24",
+      "kind": "practice",
+      "text": "99 plus 23 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 99,
+        "op": "plus",
+        "b": 23
+      },
+      "rubric_id": "r_sp_a24",
+      "hint_ids": [
+        "h_make_hundred"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 24"
+      }
+    },
+    {
+      "id": "q_sp_a30",
+      "kind": "practice",
+      "text": "35 plus 99 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 35,
+        "op": "plus",
+        "b": 99
+      },
+      "rubric_id": "r_sp_a30",
+      "hint_ids": [
+        "h_make_hundred"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 30"
+      }
+    },
+    {
+      "id": "q_sp_a31",
+      "kind": "practice",
+      "text": "45 plus 98 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 45,
+        "op": "plus",
+        "b": 98
+      },
+      "rubric_id": "r_sp_a31",
+      "hint_ids": [
+        "h_make_hundred"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 31"
+      }
+    },
+    {
+      "id": "q_sp_a42",
+      "kind": "practice",
+      "text": "98 plus 96 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 98,
+        "op": "plus",
+        "b": 96
+      },
+      "rubric_id": "r_sp_a42",
+      "hint_ids": [
+        "h_make_hundred"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 42"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Look at this picture. How many triangles can you find? Keep looking after 10!",
+      "asset_ids": [
+        "a_find_triangles"
+      ],
+      "stimulus": {
+        "triangles": 35
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_kinds"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Tri- means 3. So what shape has 3 angles?",
+      "asset_ids": [
+        "a_name_chart"
+      ],
+      "stimulus": {
+        "angles": 3
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_word_part"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'Tri- means three' (S: Three angles!; A triangle!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "What do we call a polygon with 4 sides?",
+      "asset_ids": [
+        "a_name_chart"
+      ],
+      "stimulus": {
+        "sides": 4
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_word_part",
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'called a quadrilateral'"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What do we call a polygon with 5 sides and 5 angles?",
+      "asset_ids": [
+        "a_name_chart"
+      ],
+      "stimulus": {
+        "sides": 5
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: polygon descriptions (Pentagon)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "What do we call a polygon with 6 sides and 6 angles?",
+      "asset_ids": [
+        "a_name_chart"
+      ],
+      "stimulus": {
+        "sides": 6
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: polygon descriptions (Hexagon)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "This shape has 2 sides that meet. Is it a polygon?",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "stimulus": {
+        "sides": 2,
+        "closed": false
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_closed"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: open shape (S: No! It's not closed!)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "How can you turn this open shape into a polygon?",
+      "asset_ids": [
+        "a_shape_viewer",
+        "a_stick_builder"
+      ],
+      "stimulus": {
+        "sides": 2
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_closed"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'How can we turn this into a polygon?' (S: Add another side)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Here is one angle of a quadrilateral, made of sticks. How many more sides do you add?",
+      "asset_ids": [
+        "a_stick_builder"
+      ],
+      "stimulus": {
+        "given_sides": 2,
+        "target": "quadrilateral"
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Complete That Shape (S: add two more pieces)"
+      }
+    },
+    {
+      "id": "q_ps_2b",
+      "kind": "practice",
+      "text": "A hexagon is a polygon. How many sides does it have in all?",
+      "asset_ids": [],
+      "stimulus": {
+        "shape": "hexagon"
+      },
+      "rubric_id": "r_ps_2b",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(b): 'A hexagon has ___ total sides'"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Can a polygon have only 2 angles? Why or why not?",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_closed"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'Could a polygon have only two angles?'"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What is the smallest number of angles a polygon can have?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_closed"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: smallest number of angles"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Picture a square. What is another name for a square?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'Could you describe a square with another name?'"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 120 ones = 11 tens 10 ones)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 100 ones is 9 tens 10 ones)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "101",
+          "one hundred one"
+        ]
+      },
+      "correct": "Says 101.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 1"
+      }
+    },
+    {
+      "id": "r_sp_a8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "101",
+          "one hundred one"
+        ]
+      },
+      "correct": "Says 101.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 8"
+      }
+    },
+    {
+      "id": "r_sp_a17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "122",
+          "one hundred twenty-two"
+        ]
+      },
+      "correct": "Says 122.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 17"
+      }
+    },
+    {
+      "id": "r_sp_a24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "122",
+          "one hundred twenty-two"
+        ]
+      },
+      "correct": "Says 122.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 24"
+      }
+    },
+    {
+      "id": "r_sp_a30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "134",
+          "one hundred thirty-four"
+        ]
+      },
+      "correct": "Says 134.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 30"
+      }
+    },
+    {
+      "id": "r_sp_a31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "143",
+          "one hundred forty-three"
+        ]
+      },
+      "correct": "Says 143.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 31"
+      }
+    },
+    {
+      "id": "r_sp_a42",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "194",
+          "one hundred ninety-four"
+        ]
+      },
+      "correct": "Says 194.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Make a Hundred to Add) item 42"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five"
+        ]
+      },
+      "correct": "Says 35.",
+      "partial": "Says a number between 10 and 34 (found some kinds but not all).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note: 'There are 35 triangles.'"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "triangle",
+          "a triangle"
+        ]
+      },
+      "correct": "Says triangle.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'Tri- means three' (S: Three angles!; A triangle!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "quadrilateral",
+          "a quadrilateral"
+        ]
+      },
+      "correct": "Says quadrilateral.",
+      "partial": "Names a special 4-sided shape, like square or rectangle, instead of quadrilateral.",
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'called a quadrilateral'"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "pentagon",
+          "a pentagon"
+        ]
+      },
+      "correct": "Says pentagon.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: polygon descriptions (Pentagon)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "hexagon",
+          "a hexagon"
+        ]
+      },
+      "correct": "Says hexagon.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: polygon descriptions (Hexagon)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no (may add: it is not closed).",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_open_polygon"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: open shape (S: No! It's not closed!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to add another side to close the shape.",
+      "partial": "Says 'close it' without saying how.",
+      "incorrect": "Says to take a side away or add a curve.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_open_polygon"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'How can we turn this into a polygon?' (S: Add another side)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Complete That Shape (S: add two more pieces)"
+      }
+    },
+    {
+      "id": "r_ps_2b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(b); answer from the hexagon description in Concept Development"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no, because 2 sides cannot close a shape (a polygon needs at least 3 sides and 3 angles).",
+      "partial": "Says no but gives no reason, or a reason that is not about closing the shape.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_open_polygon"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from 'a triangle is the smallest polygon' in Concept Development"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from 'a triangle is the smallest polygon' in Concept Development"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "quadrilateral",
+          "polygon",
+          "rectangle"
+        ]
+      },
+      "correct": "Says quadrilateral or polygon (rectangle is also correct).",
+      "partial": null,
+      "incorrect": "Says a name that does not fit, like triangle or pentagon.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answers from the quadrilateral and polygon descriptions in Concept Development"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_count_sides",
+      "level": 2,
+      "text": "Count the sides. Put your finger on the first side you count.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: count sides and angles"
+      }
+    },
+    {
+      "id": "h_word_part",
+      "level": 1,
+      "text": "Listen to the start of the word. Tri- means 3. Quad- means 4.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: sentence strips"
+      }
+    },
+    {
+      "id": "h_closed",
+      "level": 1,
+      "text": "Is the shape closed? Look for a gap.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'It's not closed!'"
+      }
+    },
+    {
+      "id": "h_make_hundred",
+      "level": 2,
+      "text": "Make a hundred first. Take a little from the other number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint note: compensation to make a hundred"
+      }
+    },
+    {
+      "id": "h_rename",
+      "level": 1,
+      "text": "Think of the ones as groups of ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit"
+      }
+    },
+    {
+      "id": "h_kinds",
+      "level": 3,
+      "text": "Look for small triangles first. Then look for bigger ones made of parts.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note: five of each variation"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_open_polygon",
+      "label": "Calling an open shape a polygon",
+      "description": "Child thinks a figure with a gap, or with only 2 sides, is a polygon.",
+      "detection_signals": [
+        "Says yes when asked if an open figure is a polygon.",
+        "Says a polygon can have 2 angles or 2 sides."
+      ],
+      "response_text": "A polygon must be closed. Every side meets 2 other sides. Add a side to close it.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'Is this a polygon? No! It's not closed!'"
+      }
+    },
+    {
+      "id": "mis_looks_not_attributes",
+      "label": "Naming by look instead of attributes",
+      "description": "Child will not call a shape a quadrilateral (or triangle) because it does not look like the usual picture.",
+      "detection_signals": [
+        "Says 'it is not a triangle' or 'I can't name it' for a shape with 3 or 4 sides.",
+        "Names a shape by size or tilt, not by side count."
+      ],
+      "response_text": "Count the straight sides. 4 sides means it is a quadrilateral, even if it looks unusual.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'because of their shared attributes not because of the way they look'"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_shape_viewer",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Side and angle counts must be exact. Diffusion often draws wrong numbers of sides.",
+      "description": "Draws one polygon (or open figure) from a list of corner points. Can mark each angle with a small arc and number the sides.",
+      "must_show_exactly": [
+        "Number of sides and corners exactly equals the question stimulus",
+        "Straight sides only, unless the stimulus asks for a curve",
+        "Open figures show a clear gap",
+        "Open figure for q_pr_6 has exactly 2 sides meeting at 1 corner"
+      ],
+      "states_or_frames": [
+        "closed polygon with N sides (N = 3-8)",
+        "angles marked with arcs",
+        "count-around mode: sides or angles highlight one at a time",
+        "2-sided open figure",
+        "triangle",
+        "quadrilateral",
+        "pentagon",
+        "hexagon"
+      ],
+      "interaction": "Display. Optional tap to mark each counted side or angle.",
+      "alt_text": "A flat shape with straight sides.",
+      "used_by": [
+        "ex_open_to_polygon",
+        "q_db_1",
+        "q_pr_5",
+        "q_pr_6"
+      ],
+      "generation_caption": "A single flat outline shape with N straight sides on a white background, thick dark lines, no labels. [Build by code]"
+    },
+    {
+      "asset_id": "a_stick_builder",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "The child adds straight sticks one at a time and closes a shape; needs exact behaviour.",
+      "description": "On-screen 'spaghetti' sticks of different lengths. The child joins sticks end to end to close a shape. Can start from a given partial shape (Complete That Shape).",
+      "must_show_exactly": [
+        "Sticks are straight and of different lengths",
+        "Joined ends snap together",
+        "Start state for q_pr_7: exactly 2 sticks meeting at one wide angle"
+      ],
+      "states_or_frames": [
+        "empty",
+        "2 sticks, open",
+        "closed triangle",
+        "closed 4, 5, 6-sided shapes",
+        "Complete That Shape start: 2 sticks"
+      ],
+      "interaction": "Drag sticks; the tool reports open or closed and counts sides.",
+      "alt_text": "Straight sticks joined into a shape.",
+      "used_by": [
+        "exp_build_sticks",
+        "q_pr_6",
+        "q_pr_7"
+      ],
+      "generation_caption": "Thin straight pale-yellow sticks of different lengths on a dark plain background, flat style. [Build by code]"
+    },
+    {
+      "asset_id": "a_find_triangles",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The count of triangles (35) depends on exact lines. Must be rebuilt from the source template by code.",
+      "description": "The 'Find the triangles' puzzle figure built around a pentagon, as in the source Application Template.",
+      "must_show_exactly": [
+        "Figure must contain exactly 35 triangles, as the source states",
+        "5 of each kind of triangle around the pentagon (source hint)"
+      ],
+      "states_or_frames": [
+        "puzzle figure",
+        "answer overlay: each triangle kind highlighted in turn"
+      ],
+      "interaction": "Display. Optional tap to mark triangles found.",
+      "alt_text": "A pentagon figure with many lines that form triangles.",
+      "used_by": [
+        "q_app_1"
+      ],
+      "generation_caption": "Line drawing of a pentagon with its inside lines, black lines on white, no text. [Build by code from the source template]",
+      "review_notes": "The template picture is not in the extracted text. Rebuild it from the PDF and recount 35 triangles before use."
+    },
+    {
+      "asset_id": "a_name_chart",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Shapes must have exact side counts under each name.",
+      "description": "Four charts labelled triangle, quadrilateral, pentagon, hexagon, each with 4 different-looking shapes.",
+      "must_show_exactly": [
+        "triangle chart: 4 shapes with 3 sides",
+        "quadrilateral chart: 4 shapes with 4 sides, some hard to name",
+        "pentagon chart: 4 shapes with 5 sides",
+        "hexagon chart: 4 shapes with 6 sides",
+        "Labels drawn by code"
+      ],
+      "states_or_frames": [
+        "triangle chart",
+        "quadrilateral chart",
+        "pentagon chart",
+        "hexagon chart"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "Charts of shapes with their names.",
+      "used_by": [
+        "exp_attributes_not_look",
+        "exp_polygon",
+        "exp_word_parts",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4"
+      ],
+      "generation_caption": "Four panels of different outline shapes grouped by side count, flat style, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Make a Hundred to Add (timed race)",
+      "reason": "Timed paper race (Sprint A then B). Items are used as q_sp_* questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_spaghetti",
+      "name": "Building shapes with uncooked spaghetti",
+      "reason": "Physical materials; replaced by a_stick_builder.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_turn_talk",
+      "name": "Turn and talk / compare with a partner",
+      "reason": "Needs a second child; covered by questions to the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_feel_shape",
+      "name": "Close your eyes and feel a shape",
+      "reason": "Touch activity; cannot run on a screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 1(a-l), 2 (lines added), 3; Exit Ticket 1-6; Homework 1-3",
+      "issue": "Picture-only items (shapes to name, partial shapes to complete, polygons A-D) are not in the extracted text and no page images were attached. Only the 'total sides' part of Problem Set 2 was used (q_ps_2b). Needs vision extraction from the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "q_app_1, a_find_triangles",
+      "issue": "The answer 35 is printed in the source, but the puzzle picture is not in the extracted text. The asset must be rebuilt from the PDF template and the 35 triangles recounted before this question is used."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Sprint A and Sprint B",
+      "issue": "Sprint A items used: 1, 8, 17, 24, 30, 31, 42 (98 or 99 plus a one-digit or two-digit number, the near-hundred number second, and both numbers near 100). Sprint B repeats these patterns in a new order; none used. Numbering assumes left column = 1-22, right = 23-44."
+    },
+    {
+      "id": "f8",
+      "severity": "low",
+      "item": "Sprint A items 38 and 40",
+      "issue": "Both read '99 + 95' in the extracted text. Check the printed Sprint."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "r_sp_a1, r_sp_a8, r_sp_a17, r_sp_a24, r_sp_a30, r_sp_a31, r_sp_a42, r_ps_2b, r_db_1, r_db_2, r_db_3",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l1_*)."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 4 assets are marked not_available (a_shape_viewer, a_stick_builder, a_find_triangles, a_name_chart). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

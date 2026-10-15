@@ -1,0 +1,820 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l12_equal_parts_different_shapes",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-c-lesson-12.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 12",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Equal parts of the same shape can look different. They still take up the same space.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Recognize that equal parts of an identical rectangle can have different shapes."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_many_ways",
+      "title": "Many ways to make equal parts",
+      "text": "You can cut a square into halves in different ways. The halves can be rectangles or triangles.",
+      "asset_ids": [
+        "a_geoboard_square"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_same_space",
+      "title": "Different shape, same space",
+      "text": "A triangle half and a rectangle half of the same square cover the same amount of space.",
+      "asset_ids": [
+        "a_halves_proof"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_rearrange",
+      "title": "Move the parts, keep the whole",
+      "text": "Move the halves to make a new shape. The parts are still halves. The whole did not change.",
+      "asset_ids": [
+        "a_geoboard_square"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_triangles_cover",
+      "title": "Proving two halves are equal",
+      "text": "Cut the triangle half into 4 small triangles. They cover the rectangle half with no gaps. So the halves are equal.",
+      "asset_ids": [
+        "a_halves_proof"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 234 plus 266?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 234,
+        "b": 266
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_unit_form"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (S: 500)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 123 plus 189?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 123,
+        "b": 189
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit_form"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (sequence 123 + 189)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Tugu made 2 pizzas for himself and his 5 friends. Everyone gets an equal share. How should he cut each pizza?",
+      "asset_ids": [
+        "a_pizza_two"
+      ],
+      "stimulus": {
+        "pizzas": 2,
+        "people": 6
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_people"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A square is cut corner to corner into 2 triangles of the same size. Is it cut into halves?",
+      "asset_ids": [
+        "a_geoboard_square"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_cover_check"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Yes ... there are still 2 equal halves)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "On the geoboard, are all the fourths always the same shape?",
+      "asset_ids": [
+        "a_geoboard_square"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_halves_again"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: rectangles ... squares ... triangles)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "One half is a rectangle. One half is a triangle. The squares were the same size. Are the halves equal?",
+      "asset_ids": [
+        "a_halves_proof"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_cover_check",
+        "h_same_whole"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Cut each equal half in half again. What fraction of the whole is one part now?",
+      "asset_ids": [
+        "a_geoboard_square"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_halves_again"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 1 fourth!)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "You move the parts into a new polygon. Did the whole get bigger or smaller?",
+      "asset_ids": [
+        "a_geoboard_square"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_same_whole"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: The whole stayed the same.)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Two same-size rectangles are cut into fourths: 4 triangles, and 4 rectangles. Which fourth is bigger?",
+      "asset_ids": [
+        "a_geoboard_square"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_cover_check",
+        "h_same_whole"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: Problem 1(c) question"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "If you split two rectangles in half, will the halves always be the same shape?",
+      "asset_ids": [
+        "a_geoboard_square"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_same_whole"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'will the halves always have the same shape?'"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500",
+          "five hundred"
+        ]
+      },
+      "correct": "Says 500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (S: 500)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "312",
+          "three hundred twelve"
+        ]
+      },
+      "correct": "Says 312.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (sequence 123 + 189)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "thirds",
+          "third",
+          "into thirds"
+        ]
+      },
+      "correct": "Says thirds (2 pizzas in thirds make 6 equal pieces for 6 people).",
+      "partial": "Says thirds but cannot explain, or counts only 5 people.",
+      "incorrect": "Says halves or fourths.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (note: reinforces 3 thirds equals a whole): 6 people, 2 pizzas x 3 thirds = 6 pieces"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_shape_not_size"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Yes ... there are still 2 equal halves)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no (they can be squares, rectangles or triangles).",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'Equal shares can have different shapes.'"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes (they cover the same amount of space).",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_shape_not_size"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: It's not the same shape, but it covers the same amount of space.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 fourth",
+          "one fourth",
+          "a fourth",
+          "a quarter",
+          "1 quarter"
+        ]
+      },
+      "correct": "Says 1 fourth.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 1 fourth!)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says neither: the whole stayed the same (no parts added or lost).",
+      "partial": "Says 'the same' but then names a change.",
+      "incorrect": "Says it got bigger or smaller.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: The whole stayed the same.)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says neither: they are the same size (both are 1 fourth of the same whole).",
+      "partial": "Says 'they are both fourths' but does not say they are the same size.",
+      "incorrect": "Says the triangle or the rectangle fourth is bigger.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_shape_not_size"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief; answer from 'Equal shares can have different shapes' in Concept Development Part 1"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no (halves can be rectangles or triangles).",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'will the halves always have the same shape?'"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_cover_check",
+      "level": 2,
+      "text": "Cut one part into pieces. Do they cover the other part exactly?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "h_same_whole",
+      "level": 1,
+      "text": "Check the wholes first. Are they the same size?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2: 'how can we tell if your square is the same size'"
+      }
+    },
+    {
+      "id": "h_halves_again",
+      "level": 2,
+      "text": "Cut each half in half. Count the parts.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "h_people",
+      "level": 2,
+      "text": "Count all the people. Then share 2 pizzas equally.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note"
+      }
+    },
+    {
+      "id": "h_unit_form",
+      "level": 1,
+      "text": "Add the ones, then the tens, then the hundreds.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_shape_not_size",
+      "label": "Different shape means not equal",
+      "description": "Child thinks two parts cannot be equal because they are different shapes.",
+      "detection_signals": [
+        "Says a triangle half and a rectangle half are not equal.",
+        "Says 'no' because 'one is a rectangle and one is a triangle'."
+      ],
+      "response_text": "Equal parts can have different shapes. Check if they cover the same amount of space.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: I don't think so because one is a rectangle, and one is a triangle.)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_geoboard_square",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Bands must cut the biggest square into exactly equal parts.",
+      "description": "A geoboard with the biggest square banded. The child adds bands to show halves or fourths in different ways.",
+      "must_show_exactly": [
+        "Biggest square on the board is the whole",
+        "Halves: rectangles or triangles",
+        "Fourths: small squares, rectangles or triangles"
+      ],
+      "states_or_frames": [
+        "square whole",
+        "halves as 2 rectangles",
+        "halves as 2 triangles",
+        "fourths as squares",
+        "fourths as rectangles",
+        "fourths as triangles"
+      ],
+      "interaction": "Drag bands between pegs.",
+      "alt_text": "A square on a geoboard split into equal parts.",
+      "used_by": [
+        "exp_many_ways",
+        "exp_rearrange",
+        "q_db_1",
+        "q_db_2",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_4",
+        "q_pr_5"
+      ],
+      "generation_caption": "Flat square geoboard with pegs and coloured bands, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_halves_proof",
+      "status": "not_available",
+      "kind": "animation",
+      "recommended_method": "code_rendered_svg_animation",
+      "diffusion_suitable": "no",
+      "why_this_method": "The 4 small triangles must exactly cover the rectangle half.",
+      "description": "Two same-size squares. One is cut into 2 rectangle halves, the other into 2 triangle halves. A triangle half is cut into 4 small triangles that cover a rectangle half exactly.",
+      "must_show_exactly": [
+        "Both squares exactly the same size",
+        "4 small triangles cover the rectangle half with no gaps or overlaps"
+      ],
+      "states_or_frames": [
+        "frame 1: two same squares",
+        "frame 2: rectangle halves and triangle halves",
+        "frame 3: triangle half cut into 4 small triangles",
+        "frame 4: small triangles cover the rectangle half"
+      ],
+      "interaction": "Plays step by step on tap.",
+      "alt_text": "Triangle pieces covering a rectangle half.",
+      "used_by": [
+        "ex_triangles_cover",
+        "exp_same_space",
+        "q_pr_3"
+      ],
+      "generation_caption": "Two flat squares in pink and black, white background, no text. [Build by code]"
+    },
+    {
+      "asset_id": "a_pizza_two",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "scene_by_code_with_icon_art",
+      "diffusion_suitable": "icon_only_then_code_layout",
+      "why_this_method": "Exactly 2 pizzas and 6 people.",
+      "description": "A boy and 5 friends at a table with 2 whole pizzas.",
+      "must_show_exactly": [
+        "Exactly 2 pizzas, uncut",
+        "Exactly 6 people (Tugu and 5 friends)"
+      ],
+      "states_or_frames": [
+        "table scene"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "Six children and two pizzas.",
+      "used_by": [
+        "q_app_1"
+      ],
+      "generation_caption": "ICON ONLY: one whole cartoon pizza, top view; one original cartoon child. (Code places 2 pizzas and 6 children.)",
+      "review_notes": "Use original characters."
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets (timed, Sprint-like)",
+      "reason": "Timed paper sheets from Lesson 3; not in this file.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_paper_squares",
+      "name": "Folding, cutting and laying paper squares on top of each other",
+      "reason": "Physical cutting; replaced by a_halves_proof.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "na_build_polygons",
+      "name": "Rearranging paper halves and fourths into new polygons (Problem Set 3-4)",
+      "reason": "Physical cutting and drawing; partly covered by a_geoboard_square.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "na_geoboard",
+      "name": "Geoboard and rubber bands",
+      "reason": "Physical materials; replaced by a_geoboard_square.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 1-4, Exit Ticket, Homework 1-2",
+      "issue": "Items ask the child to partition rectangles two ways, build and draw shapes from cut paper. The rectangles are pictures not in the extracted text and drawings cannot be checked by text. Not used as questions."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "Only one misconception is stated (different shape means not equal). Proposal not added: thinking the whole changes when parts are moved."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "r_pk_2, r_app_1, r_db_1, r_db_2",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l11_*)."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_geoboard_square, a_halves_proof, a_pizza_two). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f14",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f15",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

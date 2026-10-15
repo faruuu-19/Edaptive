@@ -8,6 +8,7 @@ import { getProfile, listProfiles, type Profile } from '@/lib/api';
 import { deliveryAction, getSchoolRoutine, getTimetables, saveSchoolStartTime, type SchoolRoutine, type SavedTimetable } from '@/lib/lesson-delivery-api';
 import { LessonPlayer } from './LessonPlayer';
 import styles from './timetable.module.css';
+import { ChildClass } from './ChildClass';
 import { DayPlan, chooseDay } from './DayPlan';
 import { needsMemoryHelp, preparationMessage } from './preparation-message';
 import { useRouter } from 'next/navigation';
@@ -24,6 +25,7 @@ export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
   const [startTime, setStartTime] = useState('');
   const [error, setError] = useState('');
   const [pollError, setPollError] = useState('');
+  const [loaded, setLoaded] = useState(false);
   const [busy, setBusy] = useState(false);
   const [armed, setArmed] = useState(false);
   const [playOnStart, setPlayOnStart] = useState(autoStart);
@@ -51,7 +53,7 @@ export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
     if (!student) return;
     let active = true; let timer: ReturnType<typeof setTimeout>;
     const poll = async () => {
-      try { const r = await getTimetables(student); if (active) { setSchedule(chooseDay(r.timetables)); setRoutine(r.routine); setPollError(''); } }
+      try { const r = await getTimetables(student); if (active) { setSchedule(chooseDay(r.timetables)); setRoutine(r.routine); setPollError(''); setLoaded(true); } }
       catch (e) { if (active) setPollError((e as Error).message); }
       if (active) timer = setTimeout(poll, 1000);
     };
@@ -98,10 +100,12 @@ export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
     {(error || pollError) && <p className="error" role="alert">{error || pollError}</p>}
   </div>;
 
+  if (!parent) return <ChildClass loaded={loaded} schedule={schedule} slot={slot} busy={busy} error={error || pollError} onJoin={() => void action('start')} onSnooze={() => void action('borrow')} />;
+
   const active = schedule?.status === 'active';
   const remaining = slot ? Math.max(0, Math.ceil((slot.start_ms - schedule!.server_now_ms) / 1000)) : 0;
   return <div className={`stack ${styles.demo}`}>
-    <header className="row spread"><Link className="wordmark" href={parent ? '/parent' : '/home'}>Edaptive</Link><span className="eyebrow">Your learning day</span></header>
+    <header className="row spread"><Link className="wordmark" href="/parent">Edaptive</Link><span className="eyebrow">Your learning day</span></header>
     <div><h1>A day of learning</h1><p>Maths lessons prepared for you, with time to think and take breaks.</p></div>
     {parent && <label className="field">Child profile<select className="input" value={student} onChange={e => { setStudent(e.target.value); setRoutine(null); setStartTime(''); setSchedule(null); }}>{profiles.map(p => <option key={p.id} value={p.id}>{p.display_name} · Grade {p.grade}</option>)}</select></label>}
     {!profiles.length && <p>Add a child profile in the <Link href="/parent">parent area</Link>.</p>}
@@ -112,7 +116,6 @@ export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
       <button className="btn btn-primary" disabled={busy || !startTime}>{busy ? 'Saving…' : 'Save start time'}</button>
     </form>}
     {routine && <p className="notice" role="status">School starts at {routine.start_time} each day. {routine.message}</p>}
-    {!parent && !routine && !active && <p>Your parent can set your daily school start time in the parent area.</p>}
     {active && slot && <section className="card stack" aria-label="Lesson preparation">
       <div className="row spread"><h2>{slot.preparation?.status === 'ready' ? 'Lesson ready' : 'Preparing lesson'}</h2><strong className={styles.percent}>{slot.preparation?.percent ?? 0}%</strong></div>
       <progress max="100" value={slot.preparation?.percent ?? 0} aria-label="Lesson preparation progress" />
@@ -120,10 +123,6 @@ export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
       <p>Class time: <strong>{timeText(slot.start_ms)}</strong> · {Math.floor(remaining / 60)}m {remaining % 60}s remaining</p>
       <p>Planned duration: {slot.timing?.minutes} minutes · three-minute buffer · {slot.timing?.basis === 'prepared_script' ? 'reviewed from the prepared script' : 'initial estimate from the cards'}</p>
       {!!slot.borrowed_minutes && <p>You snoozed for {slot.borrowed_minutes} minutes. Later lessons and breaks moved too.</p>}
-    </section>}
-    {!parent && slot?.class_phase === 'ringing' && <section className={`card stack ${styles.alarm}`} role="alert">
-      <h2>It’s time for Maths!</h2><p>{slot.preparation?.status === 'ready' ? 'Your lesson is ready.' : 'Your teacher is still preparing. You can borrow five minutes.'}</p>
-      <div className="row"><button className="btn btn-primary" disabled={busy || slot.preparation?.status !== 'ready'} onClick={() => void action('start')}>Join class</button><button className="btn" disabled={busy} onClick={() => void action('borrow')}>Snooze 5 minutes</button></div>
     </section>}
     {schedule && <DayPlan timetable={schedule} />}
     {schedule?.status === 'completed' && <p className="notice">You’ve finished your planned Maths lessons.</p>}

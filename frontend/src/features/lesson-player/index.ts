@@ -3,5 +3,5 @@ export { LessonPlayer } from "./LessonPlayer";
 export { Timetable } from "./Timetable";
 
 export { ScheduledAlarm } from "./ScheduledAlarm";
-export { StudentDay } from "./DayPlan";
+export { PrepProgress } from "./PrepProgress";
 export { LessonDemo } from "./LessonDemo";

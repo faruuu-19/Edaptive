@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
 import { getAuthStatus } from '@/lib/api';
 import { getTimetables } from '@/lib/lesson-delivery-api';
@@ -8,6 +9,7 @@ import { LocalAlarm } from '@/features/voice';
 
 /** Mounted across the app: class time is noticed on Home as well as Timetable. */
 export function ScheduledAlarm() {
+  const pathname = usePathname();
   const [student, setStudent] = useState(false);
   const [due, setDue] = useState(false);
   const [armed, setArmed] = useState(false);
@@ -34,7 +36,8 @@ export function ScheduledAlarm() {
   }, []);
   useEffect(() => { if (due && armed) alarm.current?.ring(); else alarm.current?.stop(); }, [due, armed]);
   useEffect(() => () => alarm.current?.close(), []);
-  if (!student || (armed && !due)) return null;
+  // On the Maths screen the class card already says it is time; a second notice there is noise.
+  if (!student || (armed && !due) || pathname.startsWith('/timetable')) return null;
   return <aside className="page" aria-label="Scheduled class notification">
     <div className="card row spread" role={due ? 'alert' : 'status'}>
       <p>{due ? 'It’s time for your Maths class.' : 'Enable the lesson alarm for this device.'}</p>

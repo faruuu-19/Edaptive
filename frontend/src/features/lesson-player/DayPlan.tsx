@@ -1,8 +1,5 @@
 "use client";
-import Link from 'next/link';
-import { useRouter } from 'next/navigation';
-import { useEffect, useState } from 'react';
-import { deliveryAction, getTimetables, type SavedTimetable, type LearningProgress } from '@/lib/lesson-delivery-api';
+import type { SavedTimetable } from '@/lib/lesson-delivery-api';
 import styles from './timetable.module.css';
 import { needsMemoryHelp, preparationMessage } from './preparation-message';
 
@@ -33,38 +30,4 @@ export function DayPlan({ timetable }: { timetable: SavedTimetable }) {
       </li>;
     })}</ol>
   </section>;
-}
-
-export function StudentDay({ studentId }: { studentId: string }) {
-  const router = useRouter();
-  const [day, setDay] = useState<SavedTimetable | null>(null);
-  const [progress, setProgress] = useState<LearningProgress | null>(null);
-  const [note, setNote] = useState('');
-  const [loaded, setLoaded] = useState(false);
-  const [error, setError] = useState('');
-  const [busy, setBusy] = useState(false);
-  useEffect(() => {
-    let active = true; let timer: ReturnType<typeof setTimeout>;
-    async function poll() {
-      try { const result = await getTimetables(studentId); if (active) { setDay(chooseDay(result.timetables)); setProgress(result.learning_progress); setNote(result.routine?.message ?? 'Your parent can set your daily school start time.'); setLoaded(true); setError(''); } }
-      catch { if (active) setError('Your timetable is temporarily unavailable. Trying again…'); }
-      if (active) timer = setTimeout(poll, 1000);
-    }
-    void poll(); return () => { active = false; clearTimeout(timer); };
-  }, [studentId]);
-  const current = day?.slots.find(s => s.id === day.current_slot_id);
-  async function action(kind: 'start' | 'borrow') {
-    if (!day || !current) return;
-    setBusy(true);
-    try { const result = await deliveryAction({ timetableId: day.id, slotId: current.id }, kind); setDay(result); if (kind === 'start') router.push('/timetable?listen=1'); }
-    catch (e) { setError((e as Error).message); }
-    finally { setBusy(false); }
-  }
-  return <div className="stack" style={{ gap: 24 }}>
-    {error && <p className="error" role="alert">{error}</p>}
-    {!loaded && !error && <p role="status">Loading your school day…</p>}
-    {loaded && !day && <section className="card stack"><h2>Your school day</h2><p>{note}</p></section>}
-    {day && <><DayPlan timetable={day} />{current?.class_phase === 'ringing' && <section className={`card stack ${styles.alarm}`} role="alert"><h2>It’s time for Maths!</h2><p>{current.preparation?.status === 'ready' ? 'Your lesson is ready. Come and join your class.' : 'Your lesson is still preparing. You can snooze for five minutes.'}</p><div className="row"><button className="btn btn-primary" disabled={busy || current.preparation?.status !== 'ready'} onClick={() => void action('start')}>Join class</button><button className="btn" disabled={busy} onClick={() => void action('borrow')}>Snooze 5 minutes</button></div></section>}{current?.class_phase === 'started' && <Link className="btn btn-primary" href="/timetable">Return to your class</Link>}<p className="muted">{note}</p></>}
-    {progress && <details className="card"><summary className={styles.journeyTitle}>Your Maths journey</summary><ul className={styles.journey}>{progress.modules.map(module => <li key={module.module}><strong>Module {module.module}</strong><span>{module.status === 'completed' ? 'Delivered' : module.status === 'in_progress' ? 'Learning' : 'Yet to learn'} · {module.delivered_lessons}{module.expected_lessons ? ` of ${module.expected_lessons}` : ''} lessons delivered</span></li>)}</ul><p className="muted">Lesson delivery is recorded. Assessment mastery will be checked separately.</p></details>}
-  </div>;
 }

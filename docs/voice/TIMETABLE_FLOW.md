@@ -24,9 +24,10 @@ The source of truth for matched content is the audited inventory in `docs/voice/
 3. **Validate.** Flagged sections get up to two repair rounds. A script that still has flags is not marked ready, and Start stays disabled.
 4. **Duration.** Estimated from the prepared script (narration, thinking pauses, assessment response time plus a buffer), clamped to 15–35 minutes, with the basis shown. If a lesson overruns, later slots move and the break length is kept.
 5. **Alarm.** At class time the open browser tab rings and offers **Join class** or **Snooze 5 minutes**. Start is refused by the server unless the time has come *and* preparation is ready.
-6. **Borrow.** Moves this class and every later slot five minutes; breaks keep their length; finished preparation is kept.
+6. **Borrow.** Moves this class and every later slot five minutes; breaks keep their length; finished preparation is kept. A class can be snoozed **once**; the server refuses a second snooze and the button is no longer shown.
 7. **Class.** Start creates a real session (`session.started`), reserves the voice, and narrates the main path through live Kokoro. The child can pause, resume and replay. Reflection and question sections wait for Continue; at this stage questions are spoken with thinking pauses only. There is no answer submission, grading, hint or follow-up.
 8. **Finish / cancel.** Finish is accepted only after the last part has been narrated. Both `finish` and `cancel` release the voice, which unloads Kokoro to free memory. An unattended class (no heartbeat for 90 s) releases it the same way; its saved position is kept in the timetable.
+9. **Child screens.** The child's home shows only the subjects, with a small preparation bar and percentage on the Maths tile. Tapping Maths shows "A day of learning" and a single card ("It's time for Maths!", or the start time before then). The full day plan, planned duration and snooze history are not shown to the child; the parent view keeps the detailed plan.
 
 ## Memory behaviour
 

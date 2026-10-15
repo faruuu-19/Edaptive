@@ -192,6 +192,27 @@ def test_borrow_and_cancellation_block_lesson_access(parent_client, student_clie
     )
 
 
+def test_a_class_can_be_snoozed_only_once(parent_client, student_client, child, db, monkeypatch):
+    result = create_plan(parent_client, child)
+    _, slot = prepared(db, result)
+    monkeypatch.setattr(runtime.time, "time", lambda: slot["start_ms"] / 1000 + 1)
+    first = action(student_client, result, slot, "borrow")
+    assert first.status_code == 200
+    delayed = first.json()["slots"][0]
+    assert delayed["borrowed_minutes"] == 5
+    # The class rings again at its new time; a second snooze is refused and changes nothing.
+    monkeypatch.setattr(runtime.time, "time", lambda: delayed["start_ms"] / 1000 + 1)
+    second = action(student_client, result, slot, "borrow")
+    assert second.status_code == 409
+    assert "once" in second.json()["detail"]
+    unchanged = parent_client.get("/api/lesson_delivery/student/" + child["id"]).json()["timetables"][0][
+        "slots"
+    ][0]
+    assert unchanged["start_ms"] == delayed["start_ms"] and unchanged["borrowed_minutes"] == 5
+    # The child can still join once the lesson is ready.
+    assert action(student_client, result, slot, "start").status_code == 200
+
+
 def test_time_save_is_idempotent_and_only_one_active_timetable_exists(parent_client, child):
     first = create_plan(parent_client, child)
     assert create_plan(parent_client, child)["id"] == first["id"]

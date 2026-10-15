@@ -155,8 +155,10 @@ def act(db, row, slot_id, action, position=None):
     if action == "borrow":
         if slot["status"] != "planned" or now < slot["start_ms"]:
             raise ValueError("Borrow five minutes when the class alarm rings.")
+        if slot.get("borrowed_minutes", 0) > 0:
+            raise ValueError("You can snooze a class only once.")
         shift(state, index, 300000)
-        slot["borrowed_minutes"] = slot.get("borrowed_minutes", 0) + 5
+        slot["borrowed_minutes"] = 5
     elif action == "start":
         if slot["status"] == "started":
             return snapshot(row)

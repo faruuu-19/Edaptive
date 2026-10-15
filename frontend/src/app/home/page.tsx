@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 import { useAuthStatus } from "@/features/auth";
-import { PrepProgress } from "@/features/lesson-player";
+import { PrepProgress, TodaysTimetable } from "@/features/lesson-player";
 import { ChildHome } from "@/features/home-profile";
 import { getProfile, type Profile } from "@/lib/api";
 
@@ -20,5 +20,5 @@ export default function Home() {
     else getProfile(studentId).then(setProfile, () => router.replace("/"));
   }, [status, router]);
 
-  return <main className="page">{profile && <ChildHome profile={profile} mathsHref="/timetable" mathsNote={<PrepProgress studentId={profile.id} />} />}</main>;
+  return <main className="page">{profile && <div className="stack" style={{ gap: 30 }}><ChildHome profile={profile} mathsHref="/timetable" mathsNote={<PrepProgress studentId={profile.id} />} /><TodaysTimetable studentId={profile.id} /></div>}</main>;
 }

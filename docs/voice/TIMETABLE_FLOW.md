@@ -27,7 +27,7 @@ The source of truth for matched content is the audited inventory in `docs/voice/
 6. **Borrow.** Moves this class and every later slot five minutes; breaks keep their length; finished preparation is kept. A class can be snoozed **once**; the server refuses a second snooze and the button is no longer shown.
 7. **Class.** Start creates a real session (`session.started`), reserves the voice, and narrates the main path through live Kokoro. The child can pause, resume and replay. Reflection and question sections wait for Continue; at this stage questions are spoken with thinking pauses only. There is no answer submission, grading, hint or follow-up.
 8. **Finish / cancel.** Finish is accepted only after the last part has been narrated. Both `finish` and `cancel` release the voice, which unloads Kokoro to free memory. An unattended class (no heartbeat for 90 s) releases it the same way; its saved position is kept in the timetable.
-9. **Child screens.** The child's home shows only the subjects, with a small preparation bar and percentage on the Maths tile. Tapping Maths shows "A day of learning" and a single card ("It's time for Maths!", or the start time before then). The full day plan, planned duration and snooze history are not shown to the child; the parent view keeps the detailed plan.
+9. **Child screens.** The child's home shows the subjects (the Maths tile has a small preparation bar and percentage) and, below them, today's timetable: what and when, with no preparation or planning detail. Tapping Maths shows "A day of learning" and a single card ("It's time for Maths!", or the start time before then) with no timetable. The parent view keeps the detailed plan.
 
 ## Memory behaviour
 

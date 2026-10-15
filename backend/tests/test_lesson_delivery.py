@@ -683,3 +683,26 @@ def test_a_lesson_left_early_is_judged_tomorrow_on_the_part_that_was_still_to_co
     assert runtime.attendance_of({**carried, "narrated_positions": list(range(9))}) == (80, True)
     # Walking in and straight out again is 0%, not "already at 50%".
     assert runtime.attendance_of(carried) == (0, False)
+
+
+# ---- A class that could not run is not the child's absence ----------------------------------------
+
+
+@pytest.mark.parametrize("preparation", ["waiting", "paused", "checking", "failed", "cancelled"])
+def test_a_lesson_that_was_never_ready_is_not_held_and_not_logged_as_absent(
+    parent_client, child, db, monkeypatch, preparation
+):
+    result = create_plan(parent_client, child)
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    state = copy.deepcopy(row.state)
+    state["slots"][0]["preparation"] = {"status": preparation, "percent": 3}
+    row.state = state
+    db.flush()
+    monkeypatch.setattr(routines, "clock_now", lambda: datetime(2026, 10, 15, 3, 0, tzinfo=UTC))
+    routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
+    routines.refresh_routine(db, routine, cards_loader=lambda: router.available())
+    assert attendance_events(db, child) == [], "no lesson was ready, so nobody was absent"
+    carried = db.get(Timetable, uuid.UUID(result["id"])).state["slots"][0]
+    assert carried["status"] == "planned" and "attendance" not in carried, "it is simply tried again tomorrow"
+    routines.refresh_routine(db, routine, cards_loader=lambda: router.available(), force=True)
+    assert attendance_events(db, child) == []

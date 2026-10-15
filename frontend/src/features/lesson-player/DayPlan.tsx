@@ -1,6 +1,7 @@
 "use client";
 import type { SavedTimetable } from '@/lib/lesson-delivery-api';
 import styles from './timetable.module.css';
+import { isWaitingToPrepare, prepareTimeText } from './prepare-time';
 import { needsMemoryHelp, preparationMessage } from './preparation-message';
 
 const time = (ms: number) => new Intl.DateTimeFormat('en-PK', { timeZone: 'Asia/Karachi', hour: '2-digit', minute: '2-digit' }).format(ms);
@@ -30,7 +31,8 @@ export function DayPlan({ timetable, simple = false }: { timetable: SavedTimetab
         {simple
           ? (childStatus && <small>{childStatus}</small>)
           : <small>{slot.kind === 'break' ? 'Time to rest' : coming ? 'Coming soon' : slot.class_phase === 'completed' ? 'Lesson delivered' : slot.class_phase === 'started' ? 'In class' : 'Ready for class'}{slot.kind !== 'break' && ` · ${Math.max(0, minutes - buffer)} min lesson + ${buffer} min buffer`}{slot.timing?.basis === 'prepared_script' ? ' · Reviewed from the prepared script' : slot.kind !== 'break' ? ' · Provisional time' : ''}</small>}
-        {!simple && slot.kind === 'lesson' && !ready && <div className={styles.inlinePreparation}><label>Preparing lesson · {slot.preparation?.percent ?? 0}%<progress max="100" value={slot.preparation?.percent ?? 0} /></label><p className={needsMemoryHelp(slot.preparation) ? "notice" : "muted"} role={needsMemoryHelp(slot.preparation) ? "alert" : "status"}>{preparationMessage(slot.preparation)}</p></div>}
+        {!simple && slot.kind === 'lesson' && !ready && isWaitingToPrepare(slot.preparation) && <div className={styles.inlinePreparation}><p className="muted" role="status">Will be prepared {prepareTimeText(slot.prepare_at_ms, timetable.server_now_ms)}</p></div>}
+        {!simple && slot.kind === 'lesson' && !ready && !isWaitingToPrepare(slot.preparation) && <div className={styles.inlinePreparation}><label>Preparing lesson · {slot.preparation?.percent ?? 0}%<progress max="100" value={slot.preparation?.percent ?? 0} /></label><p className={needsMemoryHelp(slot.preparation) ? "notice" : "muted"} role={needsMemoryHelp(slot.preparation) ? "alert" : "status"}>{preparationMessage(slot.preparation)}</p></div>}
       </li>;
     })}</ol>
   </section>;

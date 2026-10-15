@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { needsMemoryHelp } from '@/features/lesson-player';
+import { isWaitingToPrepare, needsMemoryHelp, prepareTimeText } from '@/features/lesson-player';
 import { getTimetables, type SavedTimetable } from '@/lib/lesson-delivery-api';
 import styles from './parent.module.css';
 
@@ -48,7 +48,11 @@ export function describeClass(name: string, day: SavedTimetable | undefined): Cl
         attention: true,
       };
     default:
-      return { headline: `Maths starts at ${clock(slot.start_ms)}`, detail: 'Nothing for you to do.', attention: false };
+      return {
+        headline: `Maths starts at ${clock(slot.start_ms)}`,
+        detail: isWaitingToPrepare(slot.preparation) ? `The lesson will be prepared ${prepareTimeText(slot.prepare_at_ms, day.server_now_ms)}. Nothing for you to do.` : 'Nothing for you to do.',
+        attention: false,
+      };
   }
 }
 

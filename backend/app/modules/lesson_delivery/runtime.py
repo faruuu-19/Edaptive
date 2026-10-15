@@ -288,6 +288,10 @@ def settle_attendance(db, row, slot, school_date, now_ms, *, day_over=False):
         percent, present = attendance_of(slot)
         reason = "left_after_threshold" if present else "left_early"
     elif status == "planned" and day_over:
+        if slot.get("preparation", {}).get("status") != "ready":
+            # No lesson was ready, so the class could not run: nobody was absent. Tried again tomorrow.
+            slot["attendance"] = {"status": "not_held"}
+            return False
         percent, present, reason = 0, False, "did_not_join"
     else:
         return False

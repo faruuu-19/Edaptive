@@ -5,7 +5,7 @@ export type DeliveryContext = { timetableId: string; slotId: string };
 export type PreparedSlot = {
   id: string; kind: 'lesson' | 'break' | 'unavailable'; subject: string; title: string;
   module?: number; lesson?: number; concept_id?: string; start_ms: number; end_ms: number; class_phase: string; position?: number;
-  borrowed_minutes?: number;
+  borrowed_minutes?: number; prepare_at_ms?: number;
   exit_count?: number; exit_reason?: 'child' | 'timeout'; exited_at_ms?: number; segment_count?: number;
   preparation?: { status: string; percent: number; message: string; completed?: number; total?: number };
   timing?: { minutes: number; basis: string; spoken_words?: number; buffer_seconds: number };

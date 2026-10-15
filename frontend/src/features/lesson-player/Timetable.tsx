@@ -10,6 +10,7 @@ import { LessonPlayer } from './LessonPlayer';
 import styles from './timetable.module.css';
 import { ChildClass } from './ChildClass';
 import { DayPlan, chooseDay } from './DayPlan';
+import { isWaitingToPrepare, prepareTimeText } from './prepare-time';
 import { needsMemoryHelp, preparationMessage } from './preparation-message';
 import { useRouter } from 'next/navigation';
 
@@ -108,9 +109,12 @@ export function Timetable({ autoStart = false, studentId }: { autoStart?: boolea
     </form>}
     {routine && <p className="notice" role="status">School starts at {routine.start_time} each day. {routine.message}</p>}
     {active && slot && <section className="card stack" aria-label="Lesson preparation">
-      <div className="row spread"><h2>{slot.preparation?.status === 'ready' ? 'Lesson ready' : 'Preparing lesson'}</h2><strong className={styles.percent}>{slot.preparation?.percent ?? 0}%</strong></div>
-      <progress max="100" value={slot.preparation?.percent ?? 0} aria-label="Lesson preparation progress" />
-      <p className={needsMemoryHelp(slot.preparation) ? "notice" : undefined} role={needsMemoryHelp(slot.preparation) ? "alert" : "status"}>{preparationMessage(slot.preparation)}{!needsMemoryHelp(slot.preparation) && slot.preparation?.total ? ` · ${slot.preparation.completed} of ${slot.preparation.total} script sections` : ''}</p>
+      {isWaitingToPrepare(slot.preparation)
+        ? <div className="row spread"><h2>Lesson will be prepared</h2></div>
+        : <><div className="row spread"><h2>{slot.preparation?.status === 'ready' ? 'Lesson ready' : 'Preparing lesson'}</h2><strong className={styles.percent}>{slot.preparation?.percent ?? 0}%</strong></div>
+          <progress max="100" value={slot.preparation?.percent ?? 0} aria-label="Lesson preparation progress" /></>}
+      {isWaitingToPrepare(slot.preparation) && <p role="status">Preparation starts {prepareTimeText(slot.prepare_at_ms, schedule!.server_now_ms)}, so the lesson is ready before class.</p>}
+      {!isWaitingToPrepare(slot.preparation) && <p className={needsMemoryHelp(slot.preparation) ? "notice" : undefined} role={needsMemoryHelp(slot.preparation) ? "alert" : "status"}>{preparationMessage(slot.preparation)}{!needsMemoryHelp(slot.preparation) && slot.preparation?.total ? ` · ${slot.preparation.completed} of ${slot.preparation.total} script sections` : ''}</p>}
       <p>Class time: <strong>{timeText(slot.start_ms)}</strong> · {Math.floor(remaining / 60)}m {remaining % 60}s remaining</p>
       <p>Planned duration: {slot.timing?.minutes} minutes · three-minute buffer · {slot.timing?.basis === 'prepared_script' ? 'reviewed from the prepared script' : 'initial estimate from the cards'}</p>
       {!!slot.borrowed_minutes && <p>You snoozed for {slot.borrowed_minutes} minutes. Later lessons and breaks moved too.</p>}

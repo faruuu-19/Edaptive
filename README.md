@@ -1,4 +1,4 @@
-# Edaptive (SchoolOS)
+# Edaptive 
 
 Final Year Project — a local-model homeschool "operating system" combining a
 Socratic AI tutor, interactive lesson widgets, live scheduled classes, mastery

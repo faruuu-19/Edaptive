@@ -1,0 +1,2027 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l25_line_plot_answer_questions",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-f-lesson-25.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 25",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Draw a line plot for a data set. Answer questions and draw conclusions from measurement data.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l24_line_plot_measurement_data",
+    "ext_g2_rdw_process"
+  ],
+  "explanations": [
+    {
+      "id": "exp_read_table",
+      "title": "Start with the table",
+      "text": "Find the smallest and the greatest measurement in the table. The number line goes from the smallest to the greatest. Label every number between, even with no data.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_draw",
+      "title": "Draw the line plot",
+      "text": "Draw a number line. Label it with the unit. Put one X above the number for each measurement. Make every X the same size. Add a title.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_ask",
+      "title": "Ask questions of a line plot",
+      "text": "The most common measurement has the tallest stack of X's. The difference is the greatest minus the smallest. The total is the number of X's. An X far from the rest is outside the main group.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Parts 1 and 2"
+      }
+    },
+    {
+      "id": "exp_table_plot",
+      "title": "Table or line plot",
+      "text": "A table organizes data. A line plot lets you compare the amounts at a glance.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "exp_fewer",
+      "title": "Fewer than",
+      "text": "To find a number that is fewer than a total, add the parts first. Then take away the amount fewer. A tape diagram helps.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_bean",
+      "title": "Bean plants",
+      "text": "Bean plant heights go from 9 to 15 cm. No plant is 10 cm, so 10 has no X. The most common height is 13 cm. The difference between tallest and shortest is 6 cm. There are 26 plants.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_sit",
+      "title": "Sit and reach",
+      "text": "Reach distances go from 22 to 34 cm. No student is 24, 32 or 33 cm, so those have no X. The most common reach is 28 cm. The difference is 12 cm.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Break apart 36 inches into two parts. Say the two numbers.",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_decomp"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What do we put above a number line for each measurement on a line plot?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_tallest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Shannon has 16 holiday stamps, 8 animal stamps, 9 birthday stamps and 21 famous singer stamps. Michael gives her some flag stamps. He gives 7 fewer than the birthday and animal stamps together. How many flag stamps does she have?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_fewer"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "holiday": 16,
+        "animal": 8,
+        "birthday": 9,
+        "singers": 21
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Each flag stamp is worth 12 cents. What is the total value of Shannon's flag stamps, in cents?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_cents"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "flag_stamps": 10,
+        "each": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (Extension)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Bean plant heights. 1 plant at 9 cm. 4 plants at 11 cm. 6 plants at 12 cm. 7 plants at 13 cm. 5 plants at 14 cm. 3 plants at 15 cm. Where does the number line start?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_start_end"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "9": 1,
+          "11": 4,
+          "12": 6,
+          "13": 7,
+          "14": 5,
+          "15": 3
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: starts at 9 cm and ends at 15 cm)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Bean plant heights. 1 plant at 9 cm. 4 plants at 11 cm. 6 plants at 12 cm. 7 plants at 13 cm. 5 plants at 14 cm. 3 plants at 15 cm. Where does the number line end?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_start_end"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "9": 1,
+          "11": 4,
+          "12": 6,
+          "13": 7,
+          "14": 5,
+          "15": 3
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: starts at 9 cm and ends at 15 cm)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Bean plant heights. 1 plant at 9 cm. 4 plants at 11 cm. 6 plants at 12 cm. 7 plants at 13 cm. 5 plants at 14 cm. 3 plants at 15 cm. No plant is between 9 and 11 cm. Which number goes between 9 and 11 on the line?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_label_all"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "9": 1,
+          "11": 4,
+          "12": 6,
+          "13": 7,
+          "14": 5,
+          "15": 3
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (label all numbers)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Bean plant heights. 1 plant at 9 cm. 4 plants at 11 cm. 6 plants at 12 cm. 7 plants at 13 cm. 5 plants at 14 cm. 3 plants at 15 cm. Which bean plant height happened most often?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_tallest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "9": 1,
+          "11": 4,
+          "12": 6,
+          "13": 7,
+          "14": 5,
+          "15": 3
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (Which bean plant height occurred most often?)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Bean plant heights. 1 plant at 9 cm. 4 plants at 11 cm. 6 plants at 12 cm. 7 plants at 13 cm. 5 plants at 14 cm. 3 plants at 15 cm. What is the difference between the tallest and the shortest plant, in cm?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_diff"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "9": 1,
+          "11": 4,
+          "12": 6,
+          "13": 7,
+          "14": 5,
+          "15": 3
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (difference between tallest and shortest)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Bean plant heights. 1 plant at 9 cm. 4 plants at 11 cm. 6 plants at 12 cm. 7 plants at 13 cm. 5 plants at 14 cm. 3 plants at 15 cm. How many students are in the science class?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "9": 1,
+          "11": 4,
+          "12": 6,
+          "13": 7,
+          "14": 5,
+          "15": 3
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (How many students are in this science class?)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Bean plant heights. 1 plant at 9 cm. 4 plants at 11 cm. 6 plants at 12 cm. 7 plants at 13 cm. 5 plants at 14 cm. 3 plants at 15 cm. Is any height outside the main group? Why might that happen?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "9": 1,
+          "11": 4,
+          "12": 6,
+          "13": 7,
+          "14": 5,
+          "15": 3
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (outside the main grouping)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Sit and reach. 1 student at 22 cm. 1 student at 23 cm. 1 student at 25 cm. 2 students at 26 cm. 3 students at 27 cm. 4 students at 28 cm. 3 students at 29 cm. 3 students at 30 cm. 1 student at 31 cm. 1 student at 34 cm. How many students reached the farthest?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_tallest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "22": 1,
+          "23": 1,
+          "25": 1,
+          "26": 2,
+          "27": 3,
+          "28": 4,
+          "29": 3,
+          "30": 3,
+          "31": 1,
+          "34": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (How many students were the most flexible?)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Sit and reach. 1 student at 22 cm. 1 student at 23 cm. 1 student at 25 cm. 2 students at 26 cm. 3 students at 27 cm. 4 students at 28 cm. 3 students at 29 cm. 3 students at 30 cm. 1 student at 31 cm. 1 student at 34 cm. What is the difference between the longest and the shortest reach, in cm?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_diff"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "22": 1,
+          "23": 1,
+          "25": 1,
+          "26": 2,
+          "27": 3,
+          "28": 4,
+          "29": 3,
+          "30": 3,
+          "31": 1,
+          "34": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (difference between longest and shortest)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Sit and reach. 1 student at 22 cm. 1 student at 23 cm. 1 student at 25 cm. 2 students at 26 cm. 3 students at 27 cm. 4 students at 28 cm. 3 students at 29 cm. 3 students at 30 cm. 1 student at 31 cm. 1 student at 34 cm. How many distances were reached by only one student?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "22": 1,
+          "23": 1,
+          "25": 1,
+          "26": 2,
+          "27": 3,
+          "28": 4,
+          "29": 3,
+          "30": 3,
+          "31": 1,
+          "34": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (How many distances were reached by only one student?)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Sit and reach. 1 student at 22 cm. 1 student at 23 cm. 1 student at 25 cm. 2 students at 26 cm. 3 students at 27 cm. 4 students at 28 cm. 3 students at 29 cm. 3 students at 30 cm. 1 student at 31 cm. 1 student at 34 cm. How many students reached farther than 28 cm?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "22": 1,
+          "23": 1,
+          "25": 1,
+          "26": 2,
+          "27": 3,
+          "28": 4,
+          "29": 3,
+          "30": 3,
+          "31": 1,
+          "34": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (How many students can reach farther than 28 cm?)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "No student reached 24 cm, 32 cm or 33 cm. Why are these not in the table?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_label_all"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (Why aren't 24 cm, 32 cm, and 33 cm listed?)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Second-grade heights. 1 student at 40 inches. 2 students at 41 inches. 2 students at 42 inches. 3 students at 43 inches. 4 students at 44 inches. 4 students at 45 inches. 3 students at 46 inches. 2 students at 47 inches. 1 student at 48 inches. What is the difference between the tallest and shortest student, in inches?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_diff"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "40": 1,
+          "41": 2,
+          "42": 2,
+          "43": 3,
+          "44": 4,
+          "45": 4,
+          "46": 3,
+          "47": 2,
+          "48": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Second-grade heights. 1 student at 40 inches. 2 students at 41 inches. 2 students at 42 inches. 3 students at 43 inches. 4 students at 44 inches. 4 students at 45 inches. 3 students at 46 inches. 2 students at 47 inches. 1 student at 48 inches. How many students are taller than 44 inches?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "40": 1,
+          "41": 2,
+          "42": 2,
+          "43": 3,
+          "44": 4,
+          "45": 4,
+          "46": 3,
+          "47": 2,
+          "48": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Second-grade heights. 1 student at 40 inches. 2 students at 41 inches. 2 students at 42 inches. 3 students at 43 inches. 4 students at 44 inches. 4 students at 45 inches. 3 students at 46 inches. 2 students at 47 inches. 1 student at 48 inches. How many students are shorter than 44 inches?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "40": 1,
+          "41": 2,
+          "42": 2,
+          "43": 3,
+          "44": 4,
+          "45": 4,
+          "46": 3,
+          "47": 2,
+          "48": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Art paper. 2 students at 3 feet of paper. 11 students at 4 feet of paper. 9 students at 5 feet of paper. 6 students at 6 feet of paper. How many art projects were made?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "3": 2,
+          "4": 11,
+          "5": 9,
+          "6": 6
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Art paper. 2 students at 3 feet of paper. 11 students at 4 feet of paper. 9 students at 5 feet of paper. 6 students at 6 feet of paper. Which paper length happened most often?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_tallest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "3": 2,
+          "4": 11,
+          "5": 9,
+          "6": 6
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Art paper. 2 students at 3 feet of paper. 11 students at 4 feet of paper. 9 students at 5 feet of paper. 6 students at 6 feet of paper. Then 8 more students use 5 feet and 6 more use 6 feet. How does the line plot change?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "3": 2,
+          "4": 11,
+          "5": 9,
+          "6": 6
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Necklaces. 3 necklaces at 16 inches. 0 necklaces at 17 inches. 4 necklaces at 18 inches. 0 necklaces at 19 inches. 8 necklaces at 20 inches. 0 necklaces at 21 inches. 9 necklaces at 22 inches. 0 necklaces at 23 inches. 16 necklaces at 24 inches. How many necklaces were made?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "16": 3,
+          "17": 0,
+          "18": 4,
+          "19": 0,
+          "20": 8,
+          "21": 0,
+          "22": 9,
+          "23": 0,
+          "24": 16
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "Necklaces. 3 necklaces at 16 inches. 0 necklaces at 17 inches. 4 necklaces at 18 inches. 0 necklaces at 19 inches. 8 necklaces at 20 inches. 0 necklaces at 21 inches. 9 necklaces at 22 inches. 0 necklaces at 23 inches. 16 necklaces at 24 inches. What conclusion can you draw about the lengths of the necklaces?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "16": 3,
+          "17": 0,
+          "18": 4,
+          "19": 0,
+          "20": 8,
+          "21": 0,
+          "22": 9,
+          "23": 0,
+          "24": 16
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Block towers. 9 towers at 15 inches. 6 towers at 16 inches. 2 towers at 17 inches. 1 tower at 18 inches. How many towers were measured?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "15": 9,
+          "16": 6,
+          "17": 2,
+          "18": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "Block towers. 9 towers at 15 inches. 6 towers at 16 inches. 2 towers at 17 inches. 1 tower at 18 inches. Which tower height happened most often?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_tallest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "15": 9,
+          "16": 6,
+          "17": 2,
+          "18": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Block towers. 9 towers at 15 inches. 6 towers at 16 inches. 2 towers at 17 inches. 1 tower at 18 inches. Then 4 more towers are 17 inches and 5 more are 18 inches. How does the line plot change?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "15": 9,
+          "16": 6,
+          "17": 2,
+          "18": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Why is it important to label the units on a line plot?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "The X's for student heights make a curve shape, low then high then low. Why might that happen?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Why are both tables and line plots important ways to look at data?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "total": 36,
+        "valid_pairs": [
+          [
+            0,
+            36
+          ],
+          [
+            1,
+            35
+          ],
+          [
+            2,
+            34
+          ],
+          [
+            3,
+            33
+          ],
+          [
+            4,
+            32
+          ],
+          [
+            5,
+            31
+          ],
+          [
+            6,
+            30
+          ],
+          [
+            7,
+            29
+          ],
+          [
+            8,
+            28
+          ],
+          [
+            9,
+            27
+          ],
+          [
+            10,
+            26
+          ],
+          [
+            11,
+            25
+          ],
+          [
+            12,
+            24
+          ],
+          [
+            13,
+            23
+          ],
+          [
+            14,
+            22
+          ],
+          [
+            15,
+            21
+          ],
+          [
+            16,
+            20
+          ],
+          [
+            17,
+            19
+          ],
+          [
+            18,
+            18
+          ],
+          [
+            19,
+            17
+          ],
+          [
+            20,
+            16
+          ],
+          [
+            21,
+            15
+          ],
+          [
+            22,
+            14
+          ],
+          [
+            23,
+            13
+          ],
+          [
+            24,
+            12
+          ],
+          [
+            25,
+            11
+          ],
+          [
+            26,
+            10
+          ],
+          [
+            27,
+            9
+          ],
+          [
+            28,
+            8
+          ],
+          [
+            29,
+            7
+          ],
+          [
+            30,
+            6
+          ],
+          [
+            31,
+            5
+          ],
+          [
+            32,
+            4
+          ],
+          [
+            33,
+            3
+          ],
+          [
+            34,
+            2
+          ],
+          [
+            35,
+            1
+          ],
+          [
+            36,
+            0
+          ]
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": "Says two numbers that do not make 36.",
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (make as many pairs of 36 as you can; any pair that adds to 36)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "x",
+          "an x",
+          "x's",
+          "an x for each",
+          "x for each"
+        ]
+      },
+      "correct": "Says x.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: X's above a number line)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 9 + 8 = 17, 17 - 7 = 10)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "120",
+          "one hundred twenty",
+          "120 cents",
+          "one hundred twenty cents",
+          "120¢",
+          "120 cent",
+          "120 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (Extension; no answer printed; 10 x 12 = 120)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine",
+          "9 cm",
+          "nine centimeters",
+          "9 centimeters"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: A number line that starts at 9 cm and ends at 15 cm)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 cm",
+          "fifteen centimeters",
+          "15 centimeters"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: A number line that starts at 9 cm and ends at 15 cm)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten",
+          "10 cm",
+          "ten centimeters",
+          "10 centimeters"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (label every number between smallest and greatest; computed 10)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen",
+          "13 cm",
+          "thirteen centimeters",
+          "13 centimeters"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (answer not printed; 13 cm has 7 plants)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 cm",
+          "six centimeters",
+          "6 centimeters"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (answer not printed; 15 - 9 = 6)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty-six"
+        ]
+      },
+      "correct": "Says 26.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (answer not printed; 1 + 4 + 6 + 7 + 5 + 3 = 26)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 9 cm is far from the rest. Gives a reason, such as a plant that grew slowly.",
+      "partial": "Says 9 cm but gives no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (no answer printed; 9 cm is far from the rest)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (answer not printed; 1 student at 34 cm)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve",
+          "12 cm",
+          "twelve centimeters",
+          "12 centimeters"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (answer not printed; 34 - 22 = 12)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (answer not printed; 22, 23, 25, 31 and 34 cm)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (answer not printed; 3 + 3 + 1 + 1 = 8)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no student reached those distances. They still get a spot on the line plot.",
+      "partial": "Says they are missing without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (no answer printed; no student had those reaches)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight",
+          "8 inches",
+          "eight inches"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (answer not printed; 48 - 40 = 8)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (answer not printed; 4 + 3 + 2 + 1 = 10)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (answer not printed; 1 + 2 + 2 + 3 = 8)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "28",
+          "twenty-eight"
+        ]
+      },
+      "correct": "Says 28.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (answer not printed; 2 + 11 + 9 + 6 = 28)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "4 ft",
+          "4 feet",
+          "four feet"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (answer not printed; 4 feet has 11 students)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says there are 8 more X's at 5 feet and 6 more X's at 6 feet.",
+      "partial": "Says one stack changes correctly.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (no answer printed; the 5 foot stack grows by 8 and the 6 foot stack grows by 6)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (answer not printed; 3 + 4 + 8 + 9 + 16 = 40)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Draws a fair conclusion, such as most necklaces are long or only even lengths were made.",
+      "partial": "Describes the data without a conclusion.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (no answer printed; most necklaces are long, none have odd lengths)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (answer not printed; 9 + 6 + 2 + 1 = 18)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 inches",
+          "fifteen inches"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (answer not printed; 15 inches has 9 towers)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 4 more X's at 17 inches and 5 more X's at 18 inches.",
+      "partial": "Says one stack changes correctly.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (no answer printed; 17 inch stack grows by 4 and 18 inch stack grows by 5)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the unit tells what the numbers measure, such as inches or centimeters.",
+      "partial": "Says it is important without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; the unit tells what was measured)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says most students are near the middle height and few are very short or very tall.",
+      "partial": "Describes the shape without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (answer given: the shape is a curve with few X's at each end)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says a table organizes data and a line plot lets us compare amounts by sight.",
+      "partial": "Gives only the table or only the line plot.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (answer given: a table organizes data; a line plot shows visual comparisons)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_fewer",
+      "level": 1,
+      "text": "First add the birthday and animal stamps. Then take away the amount fewer.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (add the groups, then subtract)"
+      }
+    },
+    {
+      "id": "h_cents",
+      "level": 1,
+      "text": "Skip-count by twelve, or add the stamp values one at a time.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_start_end",
+      "level": 1,
+      "text": "Look at the smallest and the greatest measurement in the table.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_label_all",
+      "level": 1,
+      "text": "Label every whole number from the smallest to the greatest.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_tallest",
+      "level": 1,
+      "text": "The tallest stack of X's is the most common measurement.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_diff",
+      "level": 1,
+      "text": "Subtract the smallest measurement from the greatest.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_total",
+      "level": 1,
+      "text": "Add the number of X's at every measurement.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_compare",
+      "level": 1,
+      "text": "Add the X's above the numbers that match the question.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "h_think",
+      "level": 1,
+      "text": "Look at where the X's are. Think about why they are there.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_decomp",
+      "level": 1,
+      "text": "Think of a number bond with 36 as the whole. Pick a part, then find the other.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_line_plot",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact X counts and number labels need exact behaviour. Diffusion cannot count X's or keep equal spacing.",
+      "description": "A horizontal number line with X's stacked above the numbers, a title and a unit label. Numbers with no data show an empty spot.",
+      "must_show_exactly": [
+        "Equal spacing between labels",
+        "Every number from smallest to greatest labeled",
+        "One X per measurement, same size",
+        "Unit and title shown"
+      ],
+      "states_or_frames": [
+        "Bean plants from 9 to 15 cm with empty 10",
+        "Sit and reach from 22 to 34 cm",
+        "Heights from 40 to 48 inches",
+        "Necklaces with empty odd lengths"
+      ],
+      "interaction": "Tutor sets the numbers and X counts from the stimulus. Child can place an X. Child answers by voice or typing.",
+      "alt_text": "A line plot with X's above a number line.",
+      "used_by": [
+        "ex_bean",
+        "ex_sit",
+        "exp_ask",
+        "exp_draw",
+        "exp_read_table",
+        "q_db_1",
+        "q_db_2",
+        "q_pk_2",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Line plot, X's above a number line, labeled units, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_decomp",
+      "name": "Decomposition Tree for 36 inches, with checking against another child's paper",
+      "reason": "Timed paper task with exchange. One pair-of-parts question is used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "na_core_fluency",
+      "name": "Grade 2 Core Fluency Differentiated Practice Sets",
+      "reason": "Paper practice sets from Lesson 1. Not tutorable here.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_draw_plots",
+      "name": "Draw line plots on grid paper from the tables",
+      "reason": "Drawing cannot be checked by a voice or text tutor. The questions about the same data are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    },
+    {
+      "id": "na_ask_question",
+      "name": "Ask your own question about a line plot",
+      "reason": "Needs another child to answer.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_line_plot). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Baseball game line plot (Problem Set)",
+      "issue": "The Problem Set item 'Number of Students in Each Grade at the School Baseball Game' needs a line plot picture that is missing from the .md. Omitted. Add the data from the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Stamp table in the Application Problem",
+      "issue": "No flag stamp count is in the table. The answer uses the printed counts for birthday and animal stamps only."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Problem Set and Exit Ticket mapping",
+      "issue": "The .md prints the data tables apart from the problems. Tables were matched to problems by order and topic: heights to Mr. Yin, paper length to art projects, necklaces and towers to the last two. Check against the PDF. Problems on Mr. Yin's second-grade plot and others that ask the child to draw were turned into questions on the same data."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Answers for bean, sit and reach and Problem Set items",
+      "issue": "Most answers are not printed. Each was computed by code from the table counts. Check a sample against the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_pr_3",
+      "issue": "The answer 10 is the missing number between 9 and 11. Computed. Not printed."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_app_2",
+      "issue": "Extension answer 120 cents computed from 10 flag stamps times 12 cents. Not printed."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Open items",
+      "issue": "q_pr_7, q_ps_6, q_ps_8, q_ps_11 and the debrief items have no printed answer. Rubrics were written from the data. Need review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "q_pk_1",
+      "issue": "The decomposition tree question accepts any pair of whole numbers that make 36, in either order. The pair_of_parts key lists 0 and 36 as well. Check if zero should count."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "h_cents, h_think, h_decomp",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "Fluency",
+      "issue": "Core Fluency Practice Sets are in activities_not_tutorable only. The exit ticket and sprint sheets are not in this lesson."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l24_line_plot_measurement_data is an earlier card. ext_g2_rdw_process is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

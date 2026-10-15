@@ -1,0 +1,2298 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l24_line_plot_measurement_data",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-f-lesson-24.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 24",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Draw a line plot to show measurement data. Relate the measurement scale to the number line.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g2_m7_l23_tally_table_data",
+    "ext_g2_number_line_basics"
+  ],
+  "explanations": [
+    {
+      "id": "exp_line_plot",
+      "title": "What a line plot is",
+      "text": "A line plot shows data on a number line. Put an X above the number for each measurement. Write the unit. Give the plot a title, like a bar graph.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_tally_x",
+      "title": "From tally marks to X's",
+      "text": "Each tally mark in the table becomes one X. Every X is the same size. Stack the X's above the number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1; Part 3"
+      }
+    },
+    {
+      "id": "exp_slashes",
+      "title": "Data may not start at zero",
+      "text": "Sometimes the data start at a number like 3. Two slashes show that some numbers are skipped. The first label is the shortest measurement. The last label is the longest.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_label_all",
+      "title": "Label every number",
+      "text": "Label every number from the shortest to the longest. Do this even when no item has that measure. The steps on a number line must be equal. An empty spot shows a gap in the data.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3; Student Debrief"
+      }
+    },
+    {
+      "id": "exp_ruler",
+      "title": "A ruler is a number line",
+      "text": "One box on centimeter grid paper is 1 centimeter. The centimeters on a ruler are like the numbers on a number line. Your line plot can match the ruler.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_shoes",
+      "title": "Shoe lengths",
+      "text": "The shortest shoe is 19 centimeters. The longest is 26 centimeters. No shoe is 23 or 24 centimeters. Still label 19 to 26 on the number line.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "ex_handspan",
+      "title": "Handspans",
+      "text": "The handspan number line goes from 3 to 8 inches. It has two slashes after zero. Each tally mark becomes an X above its number of inches.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "In a tally table, how many measurements does one tally mark show?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_x_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (tally marks from Lesson 23)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What kind of line did we use in addition and subtraction to slide up and down?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_grid"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: A number line!)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 24 minus 16?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "24 - 16"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is 34 minus 6?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "34 - 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "What is 44 minus 16?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "44 - 16"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "What is 20 minus 5?",
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "20 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "What is 21 minus 5?",
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "21 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is 21 minus 15?",
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "21 - 15"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "What is 31 minus 25?",
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "31 - 25"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "What is 22 minus 8?",
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "22 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "prior_knowledge",
+      "text": "What is 32 minus 18?",
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "32 - 18"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "prior_knowledge",
+      "text": "What is 42 minus 19?",
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_fd"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "42 - 19"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Mike, Dennis and April have 24 pennies, 15 nickels, 7 dimes and 2 quarters. The pennies are in one cup. The other coins are in a second cup. How many coins are in the second cup?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "pennies": 24,
+        "nickels": 15,
+        "dimes": 7,
+        "quarters": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "The pennies cup has 24 coins. Which cup has more coins, and how many more?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "On a line plot, where do we put an X for each measurement?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_x_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "A handspan number line has two slashes between zero and 3. What do the two slashes show?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_slashes"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Every line plot needs a name at the top. What do we call that name?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_x_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (we always give a line plot a title)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "How wide is one box on centimeter grid paper?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_grid"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 1 centimeter!)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "How is a ruler like a number line?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_grid"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "How do you know the first and last numbers to label on a line plot?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_start_end"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Shoes are from 19 centimeters to 26 centimeters long. How many numbers do you label, counting both 19 and 26?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_label_all"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "first": 19,
+        "last": 26,
+        "no_data": [
+          23,
+          24
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "No shoe was 23 centimeters or 24 centimeters long. Do we label those numbers on the line plot?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_label_all"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "A table has 4 tally marks at 6 inches and 2 tally marks at 7 inches. How many X's are on the line plot in all?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_x_each"
+      ],
+      "origin": "generated",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "counts": {
+          "6": 4,
+          "7": 2
+        }
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "What other graphs do line plots remind you of?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_why"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Our handspan number line did not start at 0 or 1. Why?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_slashes"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Could we label only 19, 20, 21, 22 and 26 on the shoe number line? Why or why not?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_label_all"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "Why do we put marks at 23, 24 and 25 centimeters when no shoe has those lengths?",
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_label_all"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_5",
+      "kind": "debrief",
+      "text": "Tell one good thing and one hard thing about a tally chart and a line plot.",
+      "rubric_id": "r_db_5",
+      "hint_ids": [
+        "h_why"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 3 minus 1?",
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "3 - 1"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_a3",
+      "kind": "practice",
+      "text": "What is 23 minus 1?",
+      "rubric_id": "r_sp_a3",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "23 - 1"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 3)"
+      }
+    },
+    {
+      "id": "q_sp_a4",
+      "kind": "practice",
+      "text": "What is 53 minus 1?",
+      "rubric_id": "r_sp_a4",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "53 - 1"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 4)"
+      }
+    },
+    {
+      "id": "q_sp_a5",
+      "kind": "practice",
+      "text": "What is 4 minus 2?",
+      "rubric_id": "r_sp_a5",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "4 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 5)"
+      }
+    },
+    {
+      "id": "q_sp_a7",
+      "kind": "practice",
+      "text": "What is 24 minus 2?",
+      "rubric_id": "r_sp_a7",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "24 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 7)"
+      }
+    },
+    {
+      "id": "q_sp_a8",
+      "kind": "practice",
+      "text": "What is 64 minus 2?",
+      "rubric_id": "r_sp_a8",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "64 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 8)"
+      }
+    },
+    {
+      "id": "q_sp_a9",
+      "kind": "practice",
+      "text": "What is 4 minus 3?",
+      "rubric_id": "r_sp_a9",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "4 - 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 9)"
+      }
+    },
+    {
+      "id": "q_sp_a11",
+      "kind": "practice",
+      "text": "What is 24 minus 3?",
+      "rubric_id": "r_sp_a11",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "24 - 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 11)"
+      }
+    },
+    {
+      "id": "q_sp_a12",
+      "kind": "practice",
+      "text": "What is 74 minus 3?",
+      "rubric_id": "r_sp_a12",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "74 - 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 12)"
+      }
+    },
+    {
+      "id": "q_sp_a13",
+      "kind": "practice",
+      "text": "What is 6 minus 4?",
+      "rubric_id": "r_sp_a13",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "6 - 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 13)"
+      }
+    },
+    {
+      "id": "q_sp_a16",
+      "kind": "practice",
+      "text": "What is 96 minus 4?",
+      "rubric_id": "r_sp_a16",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "96 - 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 16)"
+      }
+    },
+    {
+      "id": "q_sp_a21",
+      "kind": "practice",
+      "text": "What is 43 minus 3?",
+      "rubric_id": "r_sp_a21",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "43 - 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 21)"
+      }
+    },
+    {
+      "id": "q_sp_a22",
+      "kind": "practice",
+      "text": "What is 87 minus 7?",
+      "rubric_id": "r_sp_a22",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "87 - 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 22)"
+      }
+    },
+    {
+      "id": "q_sp_a25",
+      "kind": "practice",
+      "text": "What is 58 minus 7?",
+      "rubric_id": "r_sp_a25",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "58 - 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 25)"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "practice",
+      "text": "What is 62 minus 2?",
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "62 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 26)"
+      }
+    },
+    {
+      "id": "q_sp_a30",
+      "kind": "practice",
+      "text": "What is 69 minus 8?",
+      "rubric_id": "r_sp_a30",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "69 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 30)"
+      }
+    },
+    {
+      "id": "q_sp_a34",
+      "kind": "practice",
+      "text": "What is 59 minus 9?",
+      "rubric_id": "r_sp_a34",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "59 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 34)"
+      }
+    },
+    {
+      "id": "q_sp_a38",
+      "kind": "practice",
+      "text": "What is 99 minus 5?",
+      "rubric_id": "r_sp_a38",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "99 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 38)"
+      }
+    },
+    {
+      "id": "q_sp_a41",
+      "kind": "practice",
+      "text": "What is 39 minus 7?",
+      "rubric_id": "r_sp_a41",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "39 - 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 41)"
+      }
+    },
+    {
+      "id": "q_sp_a44",
+      "kind": "practice",
+      "text": "What is 67 minus 4?",
+      "rubric_id": "r_sp_a44",
+      "hint_ids": [
+        "h_sp"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "67 - 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 44)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one",
+          "1 measurement",
+          "one measurement"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (each tally mark becomes one X)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "number line",
+          "a number line",
+          "the number line"
+        ]
+      },
+      "correct": "Says number line.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (T: We used the number line ... sliding up and down)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 24 - 16; answer not printed; computed 8)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "28",
+          "twenty-eight"
+        ]
+      },
+      "correct": "Says 28.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 34 - 6; answer not printed; computed 28)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "28",
+          "twenty-eight"
+        ]
+      },
+      "correct": "Says 28.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 44 - 16; answer not printed; computed 28)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 20 - 5; answer not printed; computed 15)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 21 - 5; answer not printed; computed 16)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 21 - 15; answer not printed; computed 6)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 31 - 25; answer not printed; computed 6)"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 22 - 8; answer not printed; computed 14)"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 32 - 18; answer not printed; computed 14)"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "23",
+          "twenty-three"
+        ]
+      },
+      "correct": "Says 23.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference (sequence item 42 - 19; answer not printed; computed 23)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty-four"
+        ]
+      },
+      "correct": "Says 24.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 15 + 7 + 2 = 24)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "neither",
+          "neither cup",
+          "same",
+          "the same",
+          "they are the same",
+          "equal",
+          "0",
+          "zero",
+          "none",
+          "no more",
+          "neither, 0 more",
+          "neither, zero more",
+          "they have the same",
+          "they have the same number"
+        ]
+      },
+      "correct": "Says neither cup has more. Both have 24 coins.",
+      "partial": "Compares the cups but does not say how many more.",
+      "incorrect": "Names one cup as having more.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 24 pennies and 24 other coins, so neither cup has more)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says above the number that matches the measurement.",
+      "partial": "Says to use an X but not where.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S/T: an X above the number of inches)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says some numbers are skipped, because the data do not start at zero.",
+      "partial": "Says the slashes mean something but not skipped numbers.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (T: two slashes show that we are skipping some numbers)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "title",
+          "a title",
+          "the title"
+        ]
+      },
+      "correct": "Says title.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (T: we always give a line plot a title)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one",
+          "1 centimeter",
+          "one centimeter",
+          "1 cm"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 1 centimeter!)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the centimeters on a ruler are like the numbers on a number line.",
+      "partial": "Says they are alike but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: A ruler is just like a number line!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says start at the shortest measurement and end at the longest.",
+      "partial": "Says only the start or only the end.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: from shortest to longest)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (19 to 26; answer not printed; computed 8)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes. All numbers from the shortest to the longest are labeled, even with no X.",
+      "partial": "Says yes but gives no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (T: Yes. We need to show all the numbers between the shortest and the longest)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated"
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names another graph, such as a bar graph or a tally chart.",
+      "partial": "Says they look like a graph but does not name one.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; bar graph, tally chart)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the data start at a larger number, so slashes show the skipped numbers.",
+      "partial": "Says it is shorter without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; the data start at 3, so two slashes show skipped numbers)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. All steps on a number line must be equal, so we label 23, 24 and 25 too.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (answer given: all intervals on a number line must be equal)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the steps must be equal and the gap shows there are no shoes of those sizes.",
+      "partial": "Gives only one of the two reasons.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (answer given: equal intervals; it shows a gap in the data)"
+      }
+    },
+    {
+      "id": "r_db_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives one advantage and one disadvantage for the tally chart or the line plot.",
+      "partial": "Gives only one advantage or one disadvantage.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; open comparison)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1 (no answer printed; 3 - 1)"
+      }
+    },
+    {
+      "id": "r_sp_a3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22",
+          "twenty-two"
+        ]
+      },
+      "correct": "Says 22.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 3 (no answer printed; 23 - 1)"
+      }
+    },
+    {
+      "id": "r_sp_a4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "52",
+          "fifty-two"
+        ]
+      },
+      "correct": "Says 52.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 4 (no answer printed; 53 - 1)"
+      }
+    },
+    {
+      "id": "r_sp_a5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 5 (no answer printed; 4 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22",
+          "twenty-two"
+        ]
+      },
+      "correct": "Says 22.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 7 (no answer printed; 24 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "62",
+          "sixty-two"
+        ]
+      },
+      "correct": "Says 62.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 8 (no answer printed; 64 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 9 (no answer printed; 4 - 3)"
+      }
+    },
+    {
+      "id": "r_sp_a11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21",
+          "twenty-one"
+        ]
+      },
+      "correct": "Says 21.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 11 (no answer printed; 24 - 3)"
+      }
+    },
+    {
+      "id": "r_sp_a12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "71",
+          "seventy-one"
+        ]
+      },
+      "correct": "Says 71.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 12 (no answer printed; 74 - 3)"
+      }
+    },
+    {
+      "id": "r_sp_a13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 13 (no answer printed; 6 - 4)"
+      }
+    },
+    {
+      "id": "r_sp_a16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "92",
+          "ninety-two"
+        ]
+      },
+      "correct": "Says 92.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 16 (no answer printed; 96 - 4)"
+      }
+    },
+    {
+      "id": "r_sp_a21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 21 (no answer printed; 43 - 3)"
+      }
+    },
+    {
+      "id": "r_sp_a22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "80",
+          "eighty"
+        ]
+      },
+      "correct": "Says 80.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 22 (no answer printed; 87 - 7)"
+      }
+    },
+    {
+      "id": "r_sp_a25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "51",
+          "fifty-one"
+        ]
+      },
+      "correct": "Says 51.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 25 (no answer printed; 58 - 7)"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty"
+        ]
+      },
+      "correct": "Says 60.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 26 (no answer printed; 62 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "61",
+          "sixty-one"
+        ]
+      },
+      "correct": "Says 61.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 30 (no answer printed; 69 - 8)"
+      }
+    },
+    {
+      "id": "r_sp_a34",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 34 (no answer printed; 59 - 9)"
+      }
+    },
+    {
+      "id": "r_sp_a38",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "94",
+          "ninety-four"
+        ]
+      },
+      "correct": "Says 94.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 38 (no answer printed; 99 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a41",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32",
+          "thirty-two"
+        ]
+      },
+      "correct": "Says 32.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 41 (no answer printed; 39 - 7)"
+      }
+    },
+    {
+      "id": "r_sp_a44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "63",
+          "sixty-three"
+        ]
+      },
+      "correct": "Says 63.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 44 (no answer printed; 67 - 4)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_x_each",
+      "level": 1,
+      "text": "Each tally mark gets one X above its number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_label_all",
+      "level": 1,
+      "text": "Count every whole number from the shortest to the longest. Do not skip any.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "h_start_end",
+      "level": 1,
+      "text": "The first label is the shortest measurement. The last label is the longest.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_slashes",
+      "level": 1,
+      "text": "Think about what happens to the numbers before the first label.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_compare",
+      "level": 1,
+      "text": "Add up the coins in each cup. Then compare the two totals.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (data comparison; RDW tape diagram)"
+      }
+    },
+    {
+      "id": "h_grid",
+      "level": 1,
+      "text": "Look at one box on grid paper next to a ruler.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "h_fd",
+      "level": 1,
+      "text": "Use a mental math strategy. You can subtract in parts, or count up.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_sp",
+      "level": 1,
+      "text": "Use the small fact. Then think about the tens that stay the same.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_why",
+      "level": 1,
+      "text": "Think about how a line plot is read.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_line_plot",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact X counts and number labels need exact behaviour. Diffusion cannot count X's or keep equal spacing.",
+      "description": "A horizontal number line with X's stacked above the numbers. It can show slashes after zero, a title, and a unit label.",
+      "must_show_exactly": [
+        "Equal spacing between labels",
+        "Every number from shortest to longest labeled",
+        "One X per measurement, same size",
+        "Unit and title shown"
+      ],
+      "states_or_frames": [
+        "Handspan plot from 3 to 8 inches",
+        "Shoe plot from 19 to 26 centimeters with empty 23 and 24",
+        "Number line with two slashes after zero"
+      ],
+      "interaction": "Tutor sets the numbers and X counts from the stimulus. Child can place an X. Child answers by voice or typing.",
+      "alt_text": "A line plot with X's above a number line.",
+      "used_by": [
+        "ex_handspan",
+        "ex_shoes",
+        "exp_label_all",
+        "exp_line_plot",
+        "exp_ruler",
+        "exp_slashes",
+        "exp_tally_x",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Line plot, X's above a number line, labeled units, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_find_diff",
+      "name": "Find the Difference on a personal white board",
+      "reason": "Needs a white board and a teacher. The sequence is used as questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Difference"
+      }
+    },
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Subtraction Patterns (timed Sprint A and B)",
+      "reason": "Timed paper race with 44 items per sheet. Items from Sprint A are used as questions. Sprint B was not used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_measure_shoes",
+      "name": "Measure shoes with a ruler and collect 10 tally marks from friends",
+      "reason": "Needs a ruler, real shoes and classmates.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "na_draw_plots",
+      "name": "Draw a line plot on a Recording Sheet or grid paper",
+      "reason": "Drawing cannot be checked by a voice or text tutor. The class data from Lesson 23 are not in this file.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Parts 1 and 3"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_line_plot). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set 1 to 5 omitted",
+      "issue": "All five Problem Set items (pencil lengths, ribbon scraps, crayon lengths, handspans, right foot lengths) show tables with empty data cells in the .md, and the line plot pictures are missing. No question was made. Add the data from the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "Part 1 and Part 3 class data",
+      "issue": "The handspan and shoe data are class data and not printed. Only the printed range (3 to 8 inches, 19 to 26 centimeters, no 23 or 24) is used."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_app_1, q_app_2",
+      "issue": "The .md prints no answer. Computed by code: 15 plus 7 plus 2 is 24 coins. Both cups have 24, so neither has more. Check against the PDF answer key."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "q_pk_3 to q_pk_12",
+      "issue": "Find the Difference items use the printed sequence. Answers are not printed and were computed by code."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_pr_7",
+      "issue": "The count of 8 labeled numbers (19 to 26) was computed by code. Not printed."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_pr_9, r_pr_9",
+      "issue": "Generated item. No such problem is in the source. Written to check one X per tally mark. Needs review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Sprint A item numbers",
+      "issue": "The .md table has no printed item numbers. Items 1 to 22 are the left column and 23 to 44 the right column. The first 22 table rows are taken as Sprint A. Check against the PDF."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Sprint items used and left out",
+      "issue": "Used Sprint A items 1, 3, 4, 5, 7, 8, 9, 11, 12, 13, 16, 21, 22, 25, 26, 30, 34, 38, 41, 44. Sprint B was not used. Answers computed by code."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g2_m7_l23_tally_table_data and ext_g2_number_line_basics are not cards yet. Lesson 23 is built by another agent. Replace with its concept_id."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "h_fd, h_sp, h_why",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "Fluency question kind",
+      "issue": "Find the Difference items are tagged prior_knowledge. Change the tag if the pipeline wants practice."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

@@ -1,0 +1,1093 @@
+{
+  "schema_version": "0.2-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g1_m6_l1_compare_difference_unknown_v2",
+  "card_version": 2,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g1_m6_l1_compare_difference_unknown",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 1,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "chatgpt_manual_fixture",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+    "incorrect": "hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_without_using_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "reveal_worked_answer_then_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_ps_1"
+      },
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_ps_1"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_3"
+        }
+      ],
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ],
+      "prompt": "Eva has 14 toy boats. Ben has 6 toy boats. Match Ben's boats with the same number of Eva's boats. How many more boats does Eva have?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ],
+      "prompt": "Mai has 5 beach balls. Omar has 17 beach balls. Match Mai's balls with the same number of Omar's balls. The extra balls show the difference.",
+      "response_type": "multi_part",
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "Take the matched 5 away from Omar's 17. How many extra beach balls does Omar have?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p2",
+          "prompt": "Use the difference you found. How many fewer beach balls does Mai have than Omar?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p3",
+          "prompt": "Check the difference by counting on instead. Start at 5 and count on to 17. How many counts do you make?",
+          "response_type": "numeric_short"
+        }
+      ],
+      "final_part_id": "p2",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ],
+      "prompt": "Let's try an easier one: Nia has 6 kites. Leo has 4 kites. How many more kites does Nia have?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ],
+      "prompt": "Let's try an easier one: Mai has 5 beach balls. Omar has 17 beach balls. Take the matched 5 away from Omar's 17. How many extra beach balls does Omar have?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 8.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "parts": [
+          {
+            "part_id": "p1",
+            "accept": [
+              "12",
+              "twelve"
+            ]
+          },
+          {
+            "part_id": "p2",
+            "accept": [
+              "12",
+              "twelve"
+            ]
+          },
+          {
+            "part_id": "p3",
+            "accept": [
+              "12",
+              "twelve"
+            ]
+          }
+        ],
+        "final_part_id": "p2"
+      },
+      "partial_credit_eligible": true,
+      "correct": "Says 12 for p1, 12 for p2, and 12 for p3.",
+      "partial": "Gives some of the parts correctly but not all of them.",
+      "incorrect": "Gives clear numbers but none of the parts are correct.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 2.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 12.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_aq_easy_01_1",
+      "question_id": "aq_easy_01",
+      "level": 1,
+      "text": "Think about the extra goats in the bigger group.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_2",
+      "question_id": "aq_easy_01",
+      "level": 2,
+      "text": "Match 3 of Julio's goats with Peter's 3 goats. Count Julio's goats left over.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_3",
+      "question_id": "aq_easy_01",
+      "level": 3,
+      "text": "Take 3 away from 9. Or count the steps from 3 up to 9.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_1",
+      "question_id": "aq_med_01",
+      "level": 1,
+      "text": "Find the extra toy boats, not the two groups together.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_2",
+      "question_id": "aq_med_01",
+      "level": 2,
+      "text": "Match the smaller group of 6 with 6 from the group of 14.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_3",
+      "question_id": "aq_med_01",
+      "level": 3,
+      "text": "Take 6 away from 14 and count what is left.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_1",
+      "question_id": "aq_hard_01",
+      "level": 1,
+      "text": "The extra part and the fewer part describe the same difference.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_2",
+      "question_id": "aq_hard_01",
+      "level": 2,
+      "text": "For part 1, take 5 away from 17. Use that difference for how many fewer in part 2.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_3",
+      "question_id": "aq_hard_01",
+      "level": 3,
+      "text": "For part 3, count from 5 up to 17. Count the steps rather than saying just the ending number.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_1",
+      "question_id": "fu_aq_med_01",
+      "level": 1,
+      "text": "Look for the extra kites in the bigger group.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_2",
+      "question_id": "fu_aq_med_01",
+      "level": 2,
+      "text": "Match 4 kites from each group.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_3",
+      "question_id": "fu_aq_med_01",
+      "level": 3,
+      "text": "Take 4 away from 6. How many kites are left over?",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_1",
+      "question_id": "fu_aq_hard_01",
+      "level": 1,
+      "text": "Look at the difference between 17 and 5.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_2",
+      "question_id": "fu_aq_hard_01",
+      "level": 2,
+      "text": "Match 5 of Omar's beach balls with Mai's 5.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_3",
+      "question_id": "fu_aq_hard_01",
+      "level": 3,
+      "text": "Take 5 away from 17 and count the extra beach balls.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_subtract_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_more_fewer"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_change_unknown"
+        }
+      ]
+    }
+  ],
+  "tutor_guidance": {
+    "delivery_order": [
+      "aq_easy_01",
+      "aq_med_01",
+      "aq_hard_01"
+    ],
+    "input_contract": {
+      "concept_card_required": true,
+      "concept_id": "math_g1_m6_l1_compare_difference_unknown",
+      "concept_version": 1,
+      "authoritative_rules": "Use v0.2 route definitions and per-question guidance. Resolve concept_card references against the linked concept; do not invent missing questions, assets, answers, or hints."
+    },
+    "attempt_policy": {
+      "main_question_max_attempts": 2,
+      "followup_max_attempts": 1,
+      "count_attempt_when": [
+        "correct",
+        "partial",
+        "incorrect",
+        "incomplete"
+      ],
+      "help_uses_attempt": false,
+      "first_unclear_uses_attempt": false,
+      "unclear_reprompt_limit_per_question": 1,
+      "repeated_unclear": "Count one incorrect attempt and take that question's incorrect route.",
+      "followup_uses_parent_attempt": false,
+      "followup_limit_per_parent": 1,
+      "parent_attempts_persist_after_followup": true,
+      "correct_checked_before_exhaustion": true,
+      "at_parent_limit": "If correct, advance. Otherwise reveal all required answers with worked steps and advance; do not launch another follow-up or retry.",
+      "at_followup_limit": "If incorrect or repeatedly unclear, reveal the follow-up answer; then return to the parent if it has an attempt left, otherwise reveal the parent and advance."
+    },
+    "outcome_classification": {
+      "single_answer": "Compare with the linked rubric. Use partial only when that rubric explicitly permits it. If no answer can be understood, use unclear.",
+      "multi_part_priority": [
+        "unclear",
+        "incomplete",
+        "correct",
+        "partial",
+        "incorrect"
+      ],
+      "multi_part_rules": {
+        "unclear": "No part can be understood, or a supplied part remains ambiguous. Reprompt only the ambiguous part when another part is understood.",
+        "incomplete": "At least one part is understood, no supplied part is ambiguous, and one or more required parts are missing.",
+        "correct": "All required parts are present and match their answer keys.",
+        "partial": "All required parts are understood and present, and some but not all match. Keep correct parts and retry only incorrect parts.",
+        "incorrect": "All required parts are understood and present, and none match."
+      },
+      "final_part_alone_is_not_full_credit": true,
+      "accumulate_correct_parts_across_attempts": true,
+      "open_response": "Accept equivalent wording that meets the linked rubric's correct description. Use its partial description only when explicitly present; do not require an exact wording for an open answer.",
+      "normalization": "Trim surrounding whitespace and punctuation and ignore letter case. Use the declared rubric accept variants. A clear unambiguous number with the question's unit can be compared as a number; ambiguous or conflicting numbers require a reprompt."
+    },
+    "hint_policy": {
+      "sequence_source": "Use each question's hint_sequence in order; source_hint_refs are provenance, not an additional delivery sequence.",
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "delivery": "Give one hint at a time. Never reveal a later hint automatically.",
+      "on_help": "Give the next unused hint without consuming an attempt, then repeat the pending question or retry parts.",
+      "after_last_hint": "Repeat the last hint and reprompt the pending question without consuming an attempt for help. Reveal only after the attempt limit or an explicit request for the answer.",
+      "on_answer_requested": "Reveal worked steps, then advance for a main question or return to its parent for a follow-up.",
+      "partial_or_incomplete": "Keep correct parts. Read only unresolved part prompts; do not ask the learner to redo correct parts."
+    },
+    "silence_policy": {
+      "seconds": 20,
+      "action": "unclear",
+      "reprompt_limit_per_question": 1,
+      "after_reprompt": "A second silence counts as an incorrect attempt. Follow the question's incorrect route."
+    },
+    "route_definitions": {
+      "advance_to_next_question_or_close": "Advance through delivery_order; close after the final main question.",
+      "retry_eligible_parts_with_hint_until_max_attempts": "Give next hint and retry only unresolved parts if attempts remain; otherwise reveal and advance.",
+      "hint_then_retry_until_max_attempts": "Give next hint and retry if attempts remain; otherwise reveal and advance.",
+      "reprompt_once_then_treat_as_incorrect": "One clarification without an attempt; repeated unclear counts as incorrect and follows the current question's incorrect route.",
+      "followup_once_then_retry_parent_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry parent if attempts remain; otherwise reveal parent and advance. If already used, hint and retry without another follow-up.",
+      "followup_once_then_retry_missing_parts_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry only missing or incorrect parts if attempts remain; otherwise reveal and advance. If already used, retry missing or incorrect parts without another follow-up.",
+      "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance": "Return to triggered_by.question_id while preserving attempts and correct parts. Retry unresolved parts if an attempt remains; otherwise reveal parent and advance.",
+      "reveal_followup_then_return_to_parent_if_attempt_remains": "Reveal the follow-up with worked steps, then return to triggered_by.question_id if attempts remain; otherwise reveal parent and advance."
+    },
+    "closing": {
+      "say": "You have finished these questions. Thank you for trying.",
+      "record": [
+        "question_id",
+        "outcome",
+        "attempts_used",
+        "hints_delivered",
+        "followup_used",
+        "correct_part_ids",
+        "answer_revealed"
+      ],
+      "mastery_claim": "Record observed results; do not claim mastery from this three-question draft assessment alone."
+    },
+    "questions": [
+      {
+        "question_id": "aq_easy_01",
+        "delivery_prompt": "Peter has 3 goats on his farm. Julio has 9 goats on his farm. How many more goats does Julio have than Peter?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_3"
+          }
+        ],
+        "source_hint_refs": [
+          {
+            "scope": "concept_card",
+            "id": "h_compare_tapes"
+          },
+          {
+            "scope": "concept_card",
+            "id": "h_cover_up"
+          }
+        ],
+        "feedback": {
+          "correct": "Yes. Julio has 6 more goats than Peter.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "concept_card",
+            "id": "r_ps_1"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "6",
+              "six",
+              "6 goats",
+              "six goats"
+            ]
+          },
+          "say": "Let us work it out together. 9 - 3 = 6. Julio has 6 more goats than Peter.",
+          "worked_steps": [
+            "9 - 3 = 6.",
+            "Julio has 6 more goats than Peter."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_med_01",
+        "delivery_prompt": "Eva has 14 toy boats. Ben has 6 toy boats. Match Ben's boats with the same number of Eva's boats. How many more boats does Eva have?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The bigger group has 8 more toy boats.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "8",
+              "eight"
+            ]
+          },
+          "say": "Let us work it out together. 14 - 6 = 8. The bigger group has 8 more toy boats.",
+          "worked_steps": [
+            "14 - 6 = 8.",
+            "The bigger group has 8 more toy boats."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_hard_01",
+        "delivery_prompt": "Mai has 5 beach balls. Omar has 17 beach balls. Match Mai's balls with the same number of Omar's balls. The extra balls show the difference.",
+        "part_delivery_prompts": [
+          {
+            "id": "p1",
+            "prompt": "Take the matched 5 away from Omar's 17. How many extra beach balls does Omar have?",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p2",
+            "prompt": "Use the difference you found. How many fewer beach balls does Mai have than Omar?",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p3",
+            "prompt": "Check the difference by counting on instead. Start at 5 and count on to 17. How many counts do you make?",
+            "response_type": "numeric_short"
+          }
+        ],
+        "partial_credit_eligible": true,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The difference is 12 in both directions.",
+          "partial": "You have some parts right. Keep those answers, and let us check the other parts.",
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Tell me an answer for each question, one at a time.",
+          "incomplete": "You have answered part of the question. Let us finish the questions you have not answered yet."
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect",
+          "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+        },
+        "reprompt": "Tell me an answer for each question, one at a time.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "pair_of_parts",
+            "parts": [
+              {
+                "part_id": "p1",
+                "accept": [
+                  "12",
+                  "twelve"
+                ]
+              },
+              {
+                "part_id": "p2",
+                "accept": [
+                  "12",
+                  "twelve"
+                ]
+              },
+              {
+                "part_id": "p3",
+                "accept": [
+                  "12",
+                  "twelve"
+                ]
+              }
+            ],
+            "final_part_id": "p2"
+          },
+          "say": "Let us work it out together. Part 1: 17 - 5 = 12 extra beach balls. Part 2: the smaller group has 12 fewer beach balls. Part 3: counting up from 5 to 17 takes 12 steps. The difference is 12 in both directions.",
+          "worked_steps": [
+            "Part 1: 17 - 5 = 12 extra beach balls.",
+            "Part 2: the smaller group has 12 fewer beach balls.",
+            "Part 3: counting up from 5 to 17 takes 12 steps.",
+            "The difference is 12 in both directions."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_med_01",
+        "delivery_prompt": "Let's try an easier one: Nia has 6 kites. Leo has 4 kites. How many more kites does Nia have?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The bigger group has 2 more kites.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "2",
+              "two"
+            ]
+          },
+          "say": "Let us work it out together. 6 - 4 = 2. The bigger group has 2 more kites.",
+          "worked_steps": [
+            "6 - 4 = 2.",
+            "The bigger group has 2 more kites."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_hard_01",
+        "delivery_prompt": "Let's try an easier one: Mai has 5 beach balls. Omar has 17 beach balls. Take the matched 5 away from Omar's 17. How many extra beach balls does Omar have?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. Omar has 12 extra beach balls.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "12",
+              "twelve"
+            ]
+          },
+          "say": "Let us work it out together. 17 - 5 = 12. Omar has 12 extra beach balls.",
+          "worked_steps": [
+            "17 - 5 = 12.",
+            "Omar has 12 extra beach balls."
+          ]
+        }
+      }
+    ]
+  }
+}

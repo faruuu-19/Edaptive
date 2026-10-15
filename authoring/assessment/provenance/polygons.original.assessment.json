@@ -1,0 +1,271 @@
+{
+  "schema_version": "0.1-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g3_m7_l5_compare_classify_other_polygons_v1",
+  "card_version": 1,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g3_m7_l5_compare_classify_other_polygons",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 3,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "assessment_card_generator",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use",
+      "aq_med_01 is grounding only: its answer is not verified by code (the lesson has nothing code can check) and needs review before use",
+      "aq_hard_01 is grounding only: its answer is not verified by code (the lesson has nothing code can check) and needs review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "use_only_if_partial_credit_eligible_else_same_as_incorrect",
+    "incorrect": "give_next_hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_level_without_using_an_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "after_max_attempts_reveal_answer_reference_and_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_3"
+      },
+      "response_type": "short_text",
+      "answer_verification": "concept_card_unverified",
+      "stimulus": {
+        "kind": "visual_asset",
+        "asset_ref": {
+          "scope": "concept_card",
+          "id": "a_regular_polygons"
+        },
+        "state": "Polygons with marks for equal sides and equal angles: a regular hexagon, a regular pentagon, an irregular pentagon with 5 equal sides, and an odd hexagon"
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_3"
+      },
+      "hint_refs": [
+        {
+          "scope": "concept_card",
+          "id": "h_equal_sides_angles"
+        }
+      ],
+      "routes": "default"
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_regular"
+        }
+      ],
+      "prompt": "A shape has five sides that are all the same length, but its angles are not all equal. Is this shape a regular polygon?",
+      "response_type": "short_text",
+      "answer_verification": "grounding_only",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "give_followup_fu_aq_med_01_then_bottom_out",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_same_name"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regular"
+        }
+      ],
+      "prompt": "A shape has six equal sides and all its angles are equal. Which polygon name does it have, and is it regular?",
+      "response_type": "short_text",
+      "answer_verification": "grounding_only",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "give_followup_fu_aq_hard_01_then_bottom_out",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_regular"
+        }
+      ],
+      "prompt": "Let's try an easier one: What do we call a shape that has all equal sides and all equal angles?",
+      "response_type": "short_text",
+      "answer_verification": "grounding_only",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_med_01_then_bottom_out"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_regular"
+        }
+      ],
+      "prompt": "Let's try an easier one: Which polygon has all equal sides and all equal angles: a square or a rectangle?",
+      "response_type": "short_text",
+      "answer_verification": "grounding_only",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_hard_01_then_bottom_out"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "No",
+          "Not regular",
+          "It is not regular",
+          "Not a regular polygon",
+          "No, not regular"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "A correct answer must state that the shape is not a regular polygon.",
+      "partial": null,
+      "incorrect": "Gives a clear answer that is not correct.",
+      "unclear": "No answer can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "regular polygon",
+          "regular shape"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "A correct answer must name the term \"regular polygon\".",
+      "partial": null,
+      "incorrect": "Gives a clear answer that is not correct.",
+      "unclear": "No answer can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "hexagon, regular",
+          "regular hexagon",
+          "hexagon regular",
+          "regular hexagon shape"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "The answer must name the polygon (hexagon) and state that it is regular.",
+      "partial": null,
+      "incorrect": "Gives a clear answer that is not correct.",
+      "unclear": "No answer can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "square",
+          "a square"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "The answer must name the square as the regular polygon.",
+      "partial": null,
+      "incorrect": "Gives a clear answer that is not correct.",
+      "unclear": "No answer can be understood from the response.",
+      "origin": "generated"
+    }
+  ]
+}

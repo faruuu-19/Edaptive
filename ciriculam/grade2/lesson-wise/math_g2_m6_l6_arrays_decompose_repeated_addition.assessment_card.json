@@ -1,0 +1,1112 @@
+{
+  "schema_version": "0.2-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g2_m6_l6_arrays_decompose_repeated_addition_v2",
+  "card_version": 2,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g2_m6_l6_arrays_decompose_repeated_addition",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 2,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "chatgpt_manual_fixture",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+    "incorrect": "hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_without_using_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "reveal_worked_answer_then_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_1"
+      },
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "visual_asset",
+        "asset_ref": {
+          "scope": "concept_card",
+          "id": "a_array_board"
+        },
+        "state": "4 rows of 5",
+        "description": "A board of identical objects in an array. Rows or columns can be pulled apart. A number can be shown beside each row or under each column. One row or column can be added or removed.",
+        "must_show_exactly": [
+          "Exactly the object count in the stimulus",
+          "Every row has the same number of objects",
+          "Every column has the same number of objects",
+          "Numbers beside rows or under columns match the objects",
+          "Add or remove changes the count by exactly one row or column"
+        ],
+        "states_or_frames": [
+          "4 rows of 5",
+          "4 rows of 5 with rows pulled apart and 5 written beside each",
+          "5 columns of 4",
+          "6 columns of 4 (added a column)",
+          "3 rows of 6",
+          "6 columns of 3",
+          "7 columns of 3 (added a column)",
+          "8 red cards in 2 columns and 8 blue cards in 2 columns (4 columns of 4)"
+        ],
+        "alt_text": "Objects arranged in an array with numbers beside the rows."
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_1"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_3"
+        }
+      ],
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ],
+      "prompt": "Paper stars are arranged in 2 rows of 7. Add one more complete row of 7 stars. Add the row groups. How many stars are in the new array?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ],
+      "prompt": "A tile array has 3 rows of 5 tiles. Remove the whole rightmost column. Keep all the other tiles in place. Each row left will have 4 tiles.",
+      "response_type": "multi_part",
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "The removed column has one tile from each row. How many tiles are removed?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p2",
+          "prompt": "Use your removed-column count. First add the original three groups of 5, then take away the removed tiles. How many tiles remain?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p3",
+          "prompt": "Check without subtracting. Each row now has 4 tiles. Add 4 for each of the three remaining rows. How many tiles remain?",
+          "response_type": "numeric_short"
+        }
+      ],
+      "final_part_id": "p2",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ],
+      "prompt": "Let's try an easier one: Two rows each have 3 paper stars. Add the two row groups. How many stars are there?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ],
+      "prompt": "Let's try an easier one: An array has 3 rows of 5 tiles. Remove the whole rightmost column. The removed column has one tile from each row. How many tiles are removed?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21",
+          "twenty one"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 21.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 21.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "parts": [
+          {
+            "part_id": "p1",
+            "accept": [
+              "3",
+              "three"
+            ]
+          },
+          {
+            "part_id": "p2",
+            "accept": [
+              "12",
+              "twelve"
+            ]
+          },
+          {
+            "part_id": "p3",
+            "accept": [
+              "12",
+              "twelve"
+            ]
+          }
+        ],
+        "final_part_id": "p2"
+      },
+      "partial_credit_eligible": true,
+      "correct": "Says 3 for p1, 12 for p2, and 12 for p3.",
+      "partial": "Gives some of the parts correctly but not all of them.",
+      "incorrect": "Gives clear numbers but none of the parts are correct.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 6.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 3.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_aq_easy_01_1",
+      "question_id": "aq_easy_01",
+      "level": 1,
+      "text": "Each row is one group.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_2",
+      "question_id": "aq_easy_01",
+      "level": 2,
+      "text": "Count the rows instead of the beans within a row.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_3",
+      "question_id": "aq_easy_01",
+      "level": 3,
+      "text": "The array has four separate rows. Count one group for each row.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_1",
+      "question_id": "aq_med_01",
+      "level": 1,
+      "text": "A whole new row adds one more group of 7.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_2",
+      "question_id": "aq_med_01",
+      "level": 2,
+      "text": "The two original rows give 7 plus 7. Add another 7 for the new row.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_3",
+      "question_id": "aq_med_01",
+      "level": 3,
+      "text": "First find the two-row total, 14. Then add the new row of 7.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_1",
+      "question_id": "aq_hard_01",
+      "level": 1,
+      "text": "A column removes one tile from every row.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_2",
+      "question_id": "aq_hard_01",
+      "level": 2,
+      "text": "For part 1, count one removed tile for each of the three rows. For part 2, subtract that count from the original whole.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_3",
+      "question_id": "aq_hard_01",
+      "level": 3,
+      "text": "For part 3, count the new row groups directly. There are still three rows, each now with 4 tiles.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_1",
+      "question_id": "fu_aq_med_01",
+      "level": 1,
+      "text": "Each row contributes 3 stars.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_2",
+      "question_id": "fu_aq_med_01",
+      "level": 2,
+      "text": "There are two row groups.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_3",
+      "question_id": "fu_aq_med_01",
+      "level": 3,
+      "text": "Add 3 plus 3.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_1",
+      "question_id": "fu_aq_hard_01",
+      "level": 1,
+      "text": "Look at the up-and-down column being removed.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_2",
+      "question_id": "fu_aq_hard_01",
+      "level": 2,
+      "text": "It has one tile from each row.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_3",
+      "question_id": "fu_aq_hard_01",
+      "level": 3,
+      "text": "Count the three rows, taking one tile from each.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_row_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_column_is_group"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_add_remove_unit"
+        }
+      ]
+    }
+  ],
+  "tutor_guidance": {
+    "delivery_order": [
+      "aq_easy_01",
+      "aq_med_01",
+      "aq_hard_01"
+    ],
+    "input_contract": {
+      "concept_card_required": true,
+      "concept_id": "math_g2_m6_l6_arrays_decompose_repeated_addition",
+      "concept_version": 1,
+      "authoritative_rules": "Use v0.2 route definitions and per-question guidance. Resolve concept_card references against the linked concept; do not invent missing questions, assets, answers, or hints."
+    },
+    "attempt_policy": {
+      "main_question_max_attempts": 2,
+      "followup_max_attempts": 1,
+      "count_attempt_when": [
+        "correct",
+        "partial",
+        "incorrect",
+        "incomplete"
+      ],
+      "help_uses_attempt": false,
+      "first_unclear_uses_attempt": false,
+      "unclear_reprompt_limit_per_question": 1,
+      "repeated_unclear": "Count one incorrect attempt and take that question's incorrect route.",
+      "followup_uses_parent_attempt": false,
+      "followup_limit_per_parent": 1,
+      "parent_attempts_persist_after_followup": true,
+      "correct_checked_before_exhaustion": true,
+      "at_parent_limit": "If correct, advance. Otherwise reveal all required answers with worked steps and advance; do not launch another follow-up or retry.",
+      "at_followup_limit": "If incorrect or repeatedly unclear, reveal the follow-up answer; then return to the parent if it has an attempt left, otherwise reveal the parent and advance."
+    },
+    "outcome_classification": {
+      "single_answer": "Compare with the linked rubric. Use partial only when that rubric explicitly permits it. If no answer can be understood, use unclear.",
+      "multi_part_priority": [
+        "unclear",
+        "incomplete",
+        "correct",
+        "partial",
+        "incorrect"
+      ],
+      "multi_part_rules": {
+        "unclear": "No part can be understood, or a supplied part remains ambiguous. Reprompt only the ambiguous part when another part is understood.",
+        "incomplete": "At least one part is understood, no supplied part is ambiguous, and one or more required parts are missing.",
+        "correct": "All required parts are present and match their answer keys.",
+        "partial": "All required parts are understood and present, and some but not all match. Keep correct parts and retry only incorrect parts.",
+        "incorrect": "All required parts are understood and present, and none match."
+      },
+      "final_part_alone_is_not_full_credit": true,
+      "accumulate_correct_parts_across_attempts": true,
+      "open_response": "Accept equivalent wording that meets the linked rubric's correct description. Use its partial description only when explicitly present; do not require an exact wording for an open answer.",
+      "normalization": "Trim surrounding whitespace and punctuation and ignore letter case. Use the declared rubric accept variants. A clear unambiguous number with the question's unit can be compared as a number; ambiguous or conflicting numbers require a reprompt."
+    },
+    "hint_policy": {
+      "sequence_source": "Use each question's hint_sequence in order; source_hint_refs are provenance, not an additional delivery sequence.",
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "delivery": "Give one hint at a time. Never reveal a later hint automatically.",
+      "on_help": "Give the next unused hint without consuming an attempt, then repeat the pending question or retry parts.",
+      "after_last_hint": "Repeat the last hint and reprompt the pending question without consuming an attempt for help. Reveal only after the attempt limit or an explicit request for the answer.",
+      "on_answer_requested": "Reveal worked steps, then advance for a main question or return to its parent for a follow-up.",
+      "partial_or_incomplete": "Keep correct parts. Read only unresolved part prompts; do not ask the learner to redo correct parts."
+    },
+    "silence_policy": {
+      "seconds": 20,
+      "action": "unclear",
+      "reprompt_limit_per_question": 1,
+      "after_reprompt": "A second silence counts as an incorrect attempt. Follow the question's incorrect route."
+    },
+    "route_definitions": {
+      "advance_to_next_question_or_close": "Advance through delivery_order; close after the final main question.",
+      "retry_eligible_parts_with_hint_until_max_attempts": "Give next hint and retry only unresolved parts if attempts remain; otherwise reveal and advance.",
+      "hint_then_retry_until_max_attempts": "Give next hint and retry if attempts remain; otherwise reveal and advance.",
+      "reprompt_once_then_treat_as_incorrect": "One clarification without an attempt; repeated unclear counts as incorrect and follows the current question's incorrect route.",
+      "followup_once_then_retry_parent_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry parent if attempts remain; otherwise reveal parent and advance. If already used, hint and retry without another follow-up.",
+      "followup_once_then_retry_missing_parts_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry only missing or incorrect parts if attempts remain; otherwise reveal and advance. If already used, retry missing or incorrect parts without another follow-up.",
+      "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance": "Return to triggered_by.question_id while preserving attempts and correct parts. Retry unresolved parts if an attempt remains; otherwise reveal parent and advance.",
+      "reveal_followup_then_return_to_parent_if_attempt_remains": "Reveal the follow-up with worked steps, then return to triggered_by.question_id if attempts remain; otherwise reveal parent and advance."
+    },
+    "closing": {
+      "say": "You have finished these questions. Thank you for trying.",
+      "record": [
+        "question_id",
+        "outcome",
+        "attempts_used",
+        "hints_delivered",
+        "followup_used",
+        "correct_part_ids",
+        "answer_revealed"
+      ],
+      "mastery_claim": "Record observed results; do not claim mastery from this three-question draft assessment alone."
+    },
+    "questions": [
+      {
+        "question_id": "aq_easy_01",
+        "delivery_prompt": "An array has 4 rows of 5 beans. Each row is one group. How many equal groups are there?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_3"
+          }
+        ],
+        "source_hint_refs": [
+          {
+            "scope": "concept_card",
+            "id": "h_count_lines"
+          }
+        ],
+        "feedback": {
+          "correct": "Yes. There are 4 groups.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "concept_card",
+            "id": "r_pr_1"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "4",
+              "four"
+            ]
+          },
+          "say": "Let us work it out together. The four rows are four equal groups. There are 4 groups.",
+          "worked_steps": [
+            "The four rows are four equal groups.",
+            "There are 4 groups."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_med_01",
+        "delivery_prompt": "Paper stars are arranged in 2 rows of 7. Add one more complete row of 7 stars. Add the row groups. How many stars are in the new array?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The new array has 21 stars.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "21",
+              "twenty one"
+            ]
+          },
+          "say": "Let us work it out together. 7 + 7 = 14. 14 + 7 = 21. The new array has 21 stars.",
+          "worked_steps": [
+            "7 + 7 = 14.",
+            "14 + 7 = 21.",
+            "The new array has 21 stars."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_hard_01",
+        "delivery_prompt": "A tile array has 3 rows of 5 tiles. Remove the whole rightmost column. Keep all the other tiles in place. Each row left will have 4 tiles.",
+        "part_delivery_prompts": [
+          {
+            "id": "p1",
+            "prompt": "The removed column has one tile from each row. How many tiles are removed?",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p2",
+            "prompt": "Use your removed-column count. First add the original three groups of 5, then take away the removed tiles. How many tiles remain?",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p3",
+            "prompt": "Check without subtracting. Each row now has 4 tiles. Add 4 for each of the three remaining rows. How many tiles remain?",
+            "response_type": "numeric_short"
+          }
+        ],
+        "partial_credit_eligible": true,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. Both methods leave 12 tiles.",
+          "partial": "You have some parts right. Keep those answers, and let us check the other parts.",
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Tell me an answer for each question, one at a time.",
+          "incomplete": "You have answered part of the question. Let us finish the questions you have not answered yet."
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect",
+          "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+        },
+        "reprompt": "Tell me an answer for each question, one at a time.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "pair_of_parts",
+            "parts": [
+              {
+                "part_id": "p1",
+                "accept": [
+                  "3",
+                  "three"
+                ]
+              },
+              {
+                "part_id": "p2",
+                "accept": [
+                  "12",
+                  "twelve"
+                ]
+              },
+              {
+                "part_id": "p3",
+                "accept": [
+                  "12",
+                  "twelve"
+                ]
+              }
+            ],
+            "final_part_id": "p2"
+          },
+          "say": "Let us work it out together. Part 1: removing one tile from each of three rows removes 3 tiles. Part 2: 5 + 5 + 5 = 15, then 15 - 3 = 12 tiles. Part 3: 4 + 4 + 4 = 12 tiles. Both methods leave 12 tiles.",
+          "worked_steps": [
+            "Part 1: removing one tile from each of three rows removes 3 tiles.",
+            "Part 2: 5 + 5 + 5 = 15, then 15 - 3 = 12 tiles.",
+            "Part 3: 4 + 4 + 4 = 12 tiles.",
+            "Both methods leave 12 tiles."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_med_01",
+        "delivery_prompt": "Let's try an easier one: Two rows each have 3 paper stars. Add the two row groups. How many stars are there?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. There are 6 stars.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "6",
+              "six"
+            ]
+          },
+          "say": "Let us work it out together. 3 + 3 = 6. There are 6 stars.",
+          "worked_steps": [
+            "3 + 3 = 6.",
+            "There are 6 stars."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_hard_01",
+        "delivery_prompt": "Let's try an easier one: An array has 3 rows of 5 tiles. Remove the whole rightmost column. The removed column has one tile from each row. How many tiles are removed?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The removed column contains 3 tiles.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "3",
+              "three"
+            ]
+          },
+          "say": "Let us work it out together. One tile is removed from each of the three rows. The removed column contains 3 tiles.",
+          "worked_steps": [
+            "One tile is removed from each of the three rows.",
+            "The removed column contains 3 tiles."
+          ]
+        }
+      }
+    ]
+  }
+}

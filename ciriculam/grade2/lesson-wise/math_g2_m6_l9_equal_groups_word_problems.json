@@ -1,0 +1,1808 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l9_equal_groups_word_problems",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-b-lesson-9.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 9",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve word problems involving addition of equal groups in rows and columns.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l2_equal_groups_repeated_addition",
+    "math_g2_m6_l4_equal_groups_tape_diagrams",
+    "math_g2_m6_l7_arrays_math_drawings"
+  ],
+  "explanations": [
+    {
+      "id": "exp_rows_cols_units",
+      "title": "Rows and columns as groups",
+      "text": "In an array, each row is a group. Each column is also a group. Count the equal groups, then add them.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Problems 1 and 2)"
+      }
+    },
+    {
+      "id": "exp_tape_parts",
+      "title": "Parts of a tape diagram",
+      "text": "A tape diagram has one part for each group. Each part shows how many are in the group. The number of parts matches the number of addends.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Problem 2: 5 parts because 5 columns)"
+      }
+    },
+    {
+      "id": "exp_write_statement",
+      "title": "Answer in a sentence",
+      "text": "After you find the total, write a statement. Say what the total counts. For example, there are 20 desks in the room.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Problem 2 statement)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_eggs",
+      "title": "Anu's eggs",
+      "text": "A carton has 2 rows. Each row has 4 eggs. 4 plus 4 equals 8. There are 8 eggs.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Problem 1)"
+      }
+    },
+    {
+      "id": "ex_desks",
+      "title": "Miss Tam's desks",
+      "text": "There are 4 rows of 5 desks. That is 5 columns of 4. 4 plus 4 plus 4 plus 4 plus 4 equals 20. There are 20 desks.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Problem 2)"
+      }
+    },
+    {
+      "id": "ex_cherries",
+      "title": "Yehuda's cherries",
+      "text": "Yehuda ate 4 cherries three times. Draw 3 parts of 4. 4 plus 4 plus 4 equals 12. He ate 12 cherries.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Problem 3)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Take the ten out of 12 minus 8. What is 10 minus 8?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_get_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (S: 10 - 8 = 2)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "10 minus 8 is 2. Now add the 2 that is left. What is 2 plus 2?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_get_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (S: 2 + 2 = 4)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 12 minus 8?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_get_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (S: 12 - 8 = 4)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "True or false: 2 plus 2 equals 12 minus 8.",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_get_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (true or false)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "What is thirteen minus seven?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_get_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (13 - 7)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "What is eleven minus eight?",
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_get_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (11 - 8)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "What is thirteen minus nine?",
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_get_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (13 - 9)"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is fifteen minus seven?",
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_get_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (15 - 7)"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "What is fourteen minus eight?",
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_get_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (14 - 8)"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "Count by tens. Start at 160. What number comes after 190?",
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_count_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "An egg carton has 4 eggs in each of 2 rows. Say the addition to find the total.",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_count_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "How many eggs are in the carton?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_count_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4,
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Miss Tam has 4 rows of 5 desks. If you use the columns, how many columns are there?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_count_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Each column has 4 desks. Say the addition for 5 columns.",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "columns": 5,
+        "per_column": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (4 + 4 + 4 + 4 + 4)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "How many desks are in Miss Tam's room?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "columns": 5,
+        "per_column": 4,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "A tape diagram for the desks has 5 parts. Why 5 parts?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "columns": 5,
+        "per_column": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 5 parts because 5 columns)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Yehuda ate 4 cherries in the morning, 4 in the afternoon and 4 in the evening. How many parts does the tape diagram have?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "parts": 3,
+        "per_part": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "How many cherries did Yehuda eat in all?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "parts": 3,
+        "per_part": 4,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Jason puts rocks in 5 rows. Each row has 3 rocks. How many rocks are there?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 3,
+        "total": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Jason's rocks)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Abby puts chairs in 3 rows. Each row has 4 chairs. How many chairs are there?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 3,
+        "per_group": 4,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Abby's chairs)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "3 wires have 5 birds on each wire. How many birds are there?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 3,
+        "per_group": 5,
+        "total": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Wires and birds)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "A house has 2 floors. Each floor has 4 windows. How many windows are there?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 2,
+        "per_group": 4,
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Henry's windows)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Joshua sees 3 cars each hour for 4 hours. How many cars does he see?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 4,
+        "per_group": 3,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Joshua's cars)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Olivia puts 5 stickers on each of 5 pages. How many stickers does she use?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 5,
+        "total": 25
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Olivia's stickers)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Melody has 3 columns of blocks. Each column has 4 blocks. How many blocks are there?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 3,
+        "per_group": 4,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Melody's blocks)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "Marty puts desks in 5 rows. Each row has 5 desks. How many desks are there?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 5,
+        "total": 25
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Marty's desks)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "A baker has 5 trays. Each tray has 4 muffins. How many muffins are there?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 4,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Baker's muffins)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "A library has 4 stacks of books. Each stack has 4 books. How many books are there?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 4,
+        "per_group": 4,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Library books)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Mary puts stickers in 5 columns. Each column has 4 stickers. How many stickers are there?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 4,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Mary's stickers)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "Jayden has 5 columns of cards. Each column has 3 cards. How many cards are there?",
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 3,
+        "total": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Jayden's cards)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "William's game has 3 bags. Each bag has 3 marbles. How many marbles are there?",
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 3,
+        "per_group": 3,
+        "total": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (William's marbles)"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "Maria has 4 friends. Each friend gets 5 markers. Maria keeps 5 markers too. How many markers are there in all?",
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 5,
+        "per_group": 5,
+        "total": 25
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Maria's markers)"
+      }
+    },
+    {
+      "id": "q_ps_15",
+      "kind": "practice",
+      "text": "3 players each get 4 cards. One more player joins and gets 4 cards. How many cards are there now?",
+      "rubric_id": "r_ps_15",
+      "hint_ids": [
+        "h_count_groups",
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "groups": 4,
+        "per_group": 4,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (card game)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How does a tape diagram help you solve a word problem about equal groups?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_tape"
+      ],
+      "stimulus": {
+        "parts": 5,
+        "per_part": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Why do we write a statement after we find the total?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_tape_parts"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (S: 2)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (S: 4)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (S: 4)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "true",
+          "yes",
+          "true."
+        ]
+      },
+      "correct": "Says true.",
+      "partial": null,
+      "incorrect": "Says false.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (S: True)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (13 - 7; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (11 - 8; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (13 - 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (15 - 7; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get the Ten Out and Subtract (14 - 8; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred"
+        ]
+      },
+      "correct": "Says 200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens (160 to 240; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 + 4",
+          "4 plus 4",
+          "four plus four"
+        ]
+      },
+      "correct": "Says 4 plus 4.",
+      "partial": "Says an addition with 4 but not two 4s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (4 + 4 = 8)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": "Says 4 (one row).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (8 eggs)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": "Says 4 (the rows).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (5 columns of 4)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 + 4 + 4 + 4 + 4",
+          "4 plus 4 plus 4 plus 4 plus 4",
+          "four plus four plus four plus four plus four"
+        ]
+      },
+      "correct": "Says 4 plus 4 plus 4 plus 4 plus 4.",
+      "partial": "Says an addition with 4 but not five 4s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (4 + 4 + 4 + 4 + 4 = 20)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": "Says 16 or 4 (stops early).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (20 desks)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says there are 5 columns, or 5 addends.",
+      "partial": "Says it matches the picture but not why.",
+      "incorrect": "Gives a reason that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (5 parts because 5 columns, or 5 addends)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": "Says 4.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (3 parts of 4)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": "Says 8 (stops early).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (4 + 4 + 4 = 12)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": "Says 3 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Jason's rocks; answer not printed; 5 groups of 3)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": "Says 4 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Abby's chairs; answer not printed; 3 groups of 4)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": "Says 5 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Wires and birds; answer not printed; 3 groups of 5)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": "Says 4 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Henry's windows; answer not printed; 2 groups of 4)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": "Says 3 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Joshua's cars; answer not printed; 4 groups of 3)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": "Says 5 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Olivia's stickers; answer not printed; 5 groups of 5)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": "Says 4 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Melody's blocks; answer not printed; 3 groups of 4)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": "Says 5 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Marty's desks; answer not printed; 5 groups of 5)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": "Says 4 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Baker's muffins; answer not printed; 5 groups of 4)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": "Says 4 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Library books; answer not printed; 4 groups of 4)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": "Says 4 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Mary's stickers; answer not printed; 5 groups of 4)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": "Says 3 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Jayden's cards; answer not printed; 5 groups of 3)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": "Says 3 or stops early.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (William's marbles; answer not printed; 3 groups of 3)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": "Says 20 (leaves out Maria's own markers).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Maria's markers; answer not printed; 4 fives plus 5)"
+      }
+    },
+    {
+      "id": "r_ps_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": "Says 12 (leaves out the new player).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (card game; answer not printed; 3 fours plus 4)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says each part shows one group, and you add the parts.",
+      "partial": "Says it helps but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development Problem 2)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it tells what the number counts.",
+      "partial": "Says it is part of the rule but not why.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development Problem 2 statement)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_count_groups",
+      "level": 1,
+      "text": "Count the groups first. Then see how many are in each group.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Problems 1 to 3)"
+      }
+    },
+    {
+      "id": "h_tape_parts",
+      "level": 2,
+      "text": "Draw one part for each group. Write the group size in each part. Then add the parts.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Problem 2: tape diagram)"
+      }
+    },
+    {
+      "id": "h_get_ten",
+      "level": 1,
+      "text": "Take the ten out first. Then subtract the rest from ten.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_count_tens",
+      "level": 1,
+      "text": "Say the tens. Keep the ones the same.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_array_tape",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact counts of eggs, desks and tape parts need exact behaviour. Diffusion cannot count.",
+      "description": "A picture of an array and a tape diagram. Each tape part shows one group.",
+      "must_show_exactly": [
+        "Exact number of groups and exact size of each group",
+        "Tape diagram has one part per group",
+        "Every part shows the same number",
+        "Total shown only when the stimulus has a total"
+      ],
+      "states_or_frames": [
+        "2 rows of 4 eggs",
+        "4 rows of 5 desks and 5 columns of 4",
+        "3 parts of 4 cherries",
+        "5 parts of 4 desks",
+        "3 groups of 5",
+        "5 groups of 5"
+      ],
+      "interaction": "Tutor sets groups and group size from the stimulus. Child answers by voice or typing.",
+      "alt_text": "An array next to a tape diagram with equal parts.",
+      "used_by": [
+        "ex_cherries",
+        "ex_desks",
+        "ex_eggs",
+        "exp_rows_cols_units",
+        "exp_tape_parts",
+        "exp_write_statement",
+        "q_db_1",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_15",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Simple array of dots and a tape diagram with equal boxes, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets",
+      "reason": "Printed sets with no items given in the text. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_partner_work",
+      "name": "Partner work and drawing the arrays on paper",
+      "reason": "Needs a partner and paper drawing. The widget replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_counting",
+      "name": "Happy Counting by Tens (whole-class counting)",
+      "reason": "Class chant. Only one counting question is used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md text has unlabelled sheets. Word problems were taken by printed text. Check against the PDF."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Fluency: Get the Ten Out and Subtract",
+      "issue": "Only the first problem (12 minus 8) has printed answers. The other five problems are derived."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Problem Set drawing parts",
+      "issue": "Parts that ask the child to draw or label are not used. Only the question about the total is used."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l2_equal_groups_repeated_addition, math_g2_m6_l4_equal_groups_tape_diagrams and math_g2_m6_l7_arrays_math_drawings are earlier cards of this module."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "h_get_ten, h_count_tens",
+      "issue": "Generated hints. The source gives no hint for these fluency tasks. Need review."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "No misconception is stated in the source. None added. Proposal for review: a child may forget the extra group in two-step problems (Maria's markers, card game)."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_array_tape). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

@@ -329,14 +329,15 @@ def main():
     parser.add_argument(
         "--content-root",
         type=Path,
-        default=Path.home() / "Downloads/edaptive-assessment-card-generator",
+        default=Path(__file__).resolve().parents[1],
     )
+    parser.add_argument("--job-store", type=Path, help="Local job storage; never committed.")
     args = parser.parse_args()
     lesson = load_lesson(args.script) if args.script else None
     narrator = Narrator(args.model)
     from .jobs import PreparationJobs
 
-    jobs = PreparationJobs(args.content_root, narrator, load_lesson)
+    jobs = PreparationJobs(args.content_root, narrator, load_lesson, store=args.job_store)
     server = ThreadingHTTPServer(
         ("127.0.0.1", args.port), handler_for(lesson, narrator, jobs=jobs)
     )

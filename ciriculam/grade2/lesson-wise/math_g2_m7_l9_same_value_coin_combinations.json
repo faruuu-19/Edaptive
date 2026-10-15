@@ -1,0 +1,2185 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l9_same_value_coin_combinations",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-b-lesson-9.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 9",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve word problems involving different combinations of coins with the same total value.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l6_coin_values_count_up",
+    "math_g2_m7_l7_coin_total_word_problems",
+    "math_g2_m7_l8_bill_total_word_problems",
+    "ext_g2_skip_count_by_5_and_10"
+  ],
+  "explanations": [
+    {
+      "id": "exp_same_value",
+      "title": "Different coins, same value",
+      "text": "Different coins can make the same value. A dime and 5 pennies is 15 cents. 3 nickels is also 15 cents.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_two_ways",
+      "title": "Show an amount two ways",
+      "text": "To show an amount two ways, use different coins. 28 cents is a quarter and 3 pennies. It is also 2 dimes and 8 pennies.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_trade",
+      "title": "Trade coins",
+      "text": "You can trade coins for other coins of the same value. Trade a quarter for 2 dimes and a nickel. The total stays the same.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: I traded each of my quarters for 2 dimes and a nickel)"
+      }
+    },
+    {
+      "id": "exp_tape",
+      "title": "Tape diagram of coins",
+      "text": "A tape diagram can show the value of each kind of coin as a part. The parts add up to the total value.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: A tape diagram with one part 40 cents, one part 25 cents, and one part 10 cents)"
+      }
+    },
+    {
+      "id": "exp_write_combo",
+      "title": "Write the coins and the value",
+      "text": "Write the coins you used and the total value. For example, 8 dimes and 3 pennies is 83 cents.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (Problem 1)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_15",
+      "title": "15 cents two ways",
+      "text": "A dime and 5 pennies is 15 cents. 3 nickels is 15 cents. The values are equal.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_tony",
+      "title": "Tony's 83 cents",
+      "text": "8 dimes and 3 pennies is 83 cents. 3 quarters, 1 nickel and 3 pennies is also 83 cents.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 1"
+      }
+    },
+    {
+      "id": "ex_peyton",
+      "title": "Carla and Peyton",
+      "text": "Carla has 4 dimes, 1 quarter and 2 nickels. That is 75 cents. Peyton has 3 coins with the same value. 25 plus 25 plus 25 is 75. Peyton has 3 quarters.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Break 75 cents into two parts. One part is 50 cents. What is the other part?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_decomp"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "whole": 75,
+        "part": 50
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Break 75 cents into two parts. One part is 40 cents. What is the other part?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_decomp"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "whole": 75,
+        "part": 40
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Break 75 cents into two parts. Name one pair of parts.",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_decomp"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Clark has 3 ten-dollar bills and 6 five-dollar bills. He has 2 more ten-dollar bills and 2 more five-dollar bills than Shannon. How many dollars does Shannon have?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_bills"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "clark": "3 tens, 6 fives",
+        "extra": "2 tens, 2 fives"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A dime and 5 pennies are on one mat. How many cents is that?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_each_coin"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 dime, 5 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 15 cents!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "3 nickels are on another mat. How many cents is that?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_count_coin"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "3 nickels"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 15 cents!)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "The two mats have different coins. Are the values equal?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_equal"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "mat1": 15,
+        "mat2": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Yes!)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Show 28 cents two different ways. Name the coins for each way.",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_largest",
+        "h_trade"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 28
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Show 56 cents two different ways. Name the coins for each way.",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_largest",
+        "h_trade"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 56
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (repeat with 56 cents)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Show 1 dollar two different ways. Name the coins for each way.",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_largest",
+        "h_trade"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 100
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (repeat with 1 dollar)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Tony gets 83 cents in change. What coins might Tony have received?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_largest",
+        "h_each_coin"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 83
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "The cashier runs out of quarters. Show Tony's 83 cents in another way, with no quarters.",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_trade"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 83,
+        "no_quarters": true
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Carla has 4 dimes, 1 quarter and 2 nickels. How many cents does she have?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_each_coin",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "coins": "4 dimes, 1 quarter, 2 nickels",
+        "total": 75
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 2 (S: 75 cents)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Peyton has 3 coins. He has the same amount as Carla, 75 cents. What coins must he have?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_three_coins"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "total": 75,
+        "coins": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 2 (S: 3 quarters)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "2 dimes, 1 nickel and 1 penny is 26 cents. Show another way to make 26 cents.",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 26,
+        "shown": "2 dimes, 1 nickel and 1 penny"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "3 dimes and 1 nickel is 35 cents. Show another way to make 35 cents.",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 35,
+        "shown": "3 dimes and 1 nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "2 quarters and 1 nickel is 55 cents. Show another way to make 55 cents.",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 55,
+        "shown": "2 quarters and 1 nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "3 quarters is 75 cents. Show another way to make 75 cents.",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 75,
+        "shown": "3 quarters"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "1 dime and 3 nickels is 25 cents. Show another way to make 25 cents.",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 25,
+        "shown": "1 dime and 3 nickels"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "4 dimes is 40 cents. Show another way to make 40 cents.",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 40,
+        "shown": "4 dimes"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "2 quarters and 1 dime is 60 cents. Show another way to make 60 cents.",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 60,
+        "shown": "2 quarters and 1 dime"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "3 quarters and 1 nickel is 80 cents. Show another way to make 80 cents.",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 80,
+        "shown": "3 quarters and 1 nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Gretchen has 45 cents to buy a yo-yo. Name two coin groups she could pay with.",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_largest",
+        "h_trade"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 45
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "The cashier gives Joshua 1 quarter, 3 dimes and 1 nickel. How many cents is that?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_each_coin",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 3 dimes, 1 nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Joshua's change is 1 quarter, 3 dimes and 1 nickel. Name two other coin groups with the same value.",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 60,
+        "shown": "1 quarter, 3 dimes, 1 nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Alex has 4 quarters. How many cents does Alex have?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_count_coin"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "4 quarters"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 7"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Alex has 4 quarters. Nicole and Caleb have the same amount of money. Name two other coin groups they could have.",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 100,
+        "shown": "4 quarters"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 7"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Smith has 88 pennies. How many cents is that?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_count_coin"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "88 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "Smith has 88 pennies in his piggy bank. Name two other coin groups with the same value.",
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 88,
+        "shown": "88 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "Samantha has 67 cents in her pocket. Name two coin groups she could have.",
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_largest",
+        "h_trade"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 67
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "The clerk gives Jeremy 2 quarters, 3 nickels and 4 pennies. How many cents is that?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_each_coin",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "2 quarters, 3 nickels, 4 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "Jeremy's change is 2 quarters, 3 nickels and 4 pennies. Name two other coin groups with the same value.",
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 69,
+        "shown": "2 quarters, 3 nickels, 4 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Chelsea has 10 dimes. How many cents is that?",
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_count_coin"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "10 dimes"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 7"
+      }
+    },
+    {
+      "id": "q_ps_15",
+      "kind": "practice",
+      "text": "Chelsea has 10 dimes. Name two other coin groups with the same value.",
+      "rubric_id": "r_ps_15",
+      "hint_ids": [
+        "h_trade",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 100,
+        "shown": "10 dimes"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 7"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Think about 26 cents. Did you and a friend use the same coins? Are there more ways?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_trade"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What is the least number of coins you can use to make 35 cents?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 35
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2, 35 cents)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "What is the most coins you can use to make 35 cents?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_count_coin"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 35
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2, 35 cents)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "Where have we used different ways to show the same value in other math skills?",
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_equal"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_5",
+      "kind": "debrief",
+      "text": "Find different coin groups for 15 cents. Name as many as you can.",
+      "rubric_id": "r_db_5",
+      "hint_ids": [
+        "h_trade",
+        "h_count_coin"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five",
+          "25 cents",
+          "twenty-five cents",
+          "25¢",
+          "25 cent",
+          "25 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (75 cents; answer not printed; 75 - 50 = 25)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five",
+          "35 cents",
+          "thirty-five cents",
+          "35¢",
+          "35 cent",
+          "35 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (75 cents; answer not printed; 75 - 40 = 35)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two parts that add up to 75 cents, such as 50 and 25, or 70 and 5.",
+      "partial": "Names parts that do not add up to 75.",
+      "incorrect": "Gives a number that is not two parts of 75.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (break apart 75 cents in as many ways as you can; answer not printed)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty",
+          "$30",
+          "30 dollars",
+          "thirty dollars",
+          "$30.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; Clark 30 + 30 = 60; Shannon 60 - 30 = 30)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 cents",
+          "fifteen cents",
+          "15¢",
+          "15 cent",
+          "15 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 15 cents!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 cents",
+          "fifteen cents",
+          "15¢",
+          "15 cent",
+          "15 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 15 cents!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yeah",
+          "they are equal",
+          "equal"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Yes!)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two different coin groups that each total 28 cents, such as a quarter and 3 pennies, or 2 dimes and 8 pennies.",
+      "partial": "Names one group that totals 28 cents, or two groups where one does not total 28.",
+      "incorrect": "Names groups that do not total 28 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: a quarter and 3 pennies; 2 dimes and 8 pennies; 2 dimes, 1 nickel and 3 pennies)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two different coin groups that each total 56 cents, such as 2 quarters, 1 nickel and 1 penny, or 5 dimes, 1 nickel and 1 penny.",
+      "partial": "Names one group that totals 56 cents.",
+      "incorrect": "Names groups that do not total 56 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (repeat the sequence with 56 cents; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two different coin groups that each total 100 cents, such as 4 quarters, or 10 dimes.",
+      "partial": "Names one group that totals 100 cents.",
+      "incorrect": "Names groups that do not total 100 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (repeat the sequence with 1 dollar; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins that total 83 cents, such as 8 dimes and 3 pennies.",
+      "partial": "Names coins that are close but do not total 83 cents.",
+      "incorrect": "Names coins that do not total 83 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 1 (S: 8 dimes and 3 pennies; 3 quarters, 1 nickel and 3 pennies)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins with no quarters that total 83 cents, such as 8 dimes and 3 pennies.",
+      "partial": "Names coins with no quarters that do not total 83 cents.",
+      "incorrect": "Uses a quarter.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 1 (S: 7 dimes, 2 nickels and 3 pennies; 8 dimes and 3 pennies)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "75",
+          "seventy-five",
+          "75 cents",
+          "seventy-five cents",
+          "75¢",
+          "75 cent",
+          "75 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 2 (S: 75 cents)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 quarters",
+          "three quarters",
+          "quarters",
+          "3 quarters."
+        ]
+      },
+      "correct": "Says 3 quarters.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 2 (S: 3 quarters)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins that total 26 cents and differ from the coins shown.",
+      "partial": "Names coins that total 26 cents but are the same as the coins shown.",
+      "incorrect": "Names coins that do not total 26 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (another way to make 26 cents; answer not printed; any coins totalling 26 cents that differ from the shown coins)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins that total 35 cents and differ from the coins shown.",
+      "partial": "Names coins that total 35 cents but are the same as the coins shown.",
+      "incorrect": "Names coins that do not total 35 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (another way to make 35 cents; answer not printed; any coins totalling 35 cents that differ from the shown coins)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins that total 55 cents and differ from the coins shown.",
+      "partial": "Names coins that total 55 cents but are the same as the coins shown.",
+      "incorrect": "Names coins that do not total 55 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (another way to make 55 cents; answer not printed; any coins totalling 55 cents that differ from the shown coins)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins that total 75 cents and differ from the coins shown.",
+      "partial": "Names coins that total 75 cents but are the same as the coins shown.",
+      "incorrect": "Names coins that do not total 75 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4 (another way to make 75 cents; answer not printed; any coins totalling 75 cents that differ from the shown coins)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins that total 25 cents and differ from the coins shown.",
+      "partial": "Names coins that total 25 cents but are the same as the coins shown.",
+      "incorrect": "Names coins that do not total 25 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (another way to make 25 cents; answer not printed; any coins totalling 25 cents that differ from the shown coins)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins that total 40 cents and differ from the coins shown.",
+      "partial": "Names coins that total 40 cents but are the same as the coins shown.",
+      "incorrect": "Names coins that do not total 40 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2 (another way to make 40 cents; answer not printed; any coins totalling 40 cents that differ from the shown coins)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins that total 60 cents and differ from the coins shown.",
+      "partial": "Names coins that total 60 cents but are the same as the coins shown.",
+      "incorrect": "Names coins that do not total 60 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3 (another way to make 60 cents; answer not printed; any coins totalling 60 cents that differ from the shown coins)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names coins that total 80 cents and differ from the coins shown.",
+      "partial": "Names coins that total 80 cents but are the same as the coins shown.",
+      "incorrect": "Names coins that do not total 80 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4 (another way to make 80 cents; answer not printed; any coins totalling 80 cents that differ from the shown coins)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two different coin groups that each total 45 cents, such as 4 dimes and 1 nickel, or 1 quarter and 2 dimes.",
+      "partial": "Names one group that totals 45 cents.",
+      "incorrect": "Names groups that do not total 45 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5 (answer not printed; any two coin groups that total 45 cents)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty",
+          "60 cents",
+          "sixty cents",
+          "60¢",
+          "60 cent",
+          "60 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6 (answer not printed; 25 + 30 + 5 = 60)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two other coin groups that each total 60 cents, such as 2 quarters and 1 dime, or 6 dimes.",
+      "partial": "Names one other group that totals 60 cents.",
+      "incorrect": "Names groups that do not total 60 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6 (answer not printed; any two other groups that total 60 cents)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 cents",
+          "one hundred cents",
+          "100¢",
+          "100 cent",
+          "100 c",
+          "$1",
+          "1 dollar",
+          "one dollar",
+          "$1.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 7 (answer not printed; 4 x 25 = 100)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two other coin groups that each total 100 cents, such as 10 dimes, or 2 quarters and 5 dimes.",
+      "partial": "Names one other group that totals 100 cents.",
+      "incorrect": "Names groups that do not total 100 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 7 (answer not printed; any two other groups that total 100 cents)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "88",
+          "eighty-eight",
+          "88 cents",
+          "eighty-eight cents",
+          "88¢",
+          "88 cent",
+          "88 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1 (answer not printed; 88 pennies is 88 cents)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two other coin groups that each total 88 cents, such as 3 quarters, 1 dime and 3 pennies, or 8 dimes and 8 pennies.",
+      "partial": "Names one other group that totals 88 cents.",
+      "incorrect": "Names groups that do not total 88 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1 (answer not printed; any two other groups that total 88 cents)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two different coin groups that each total 67 cents, such as 2 quarters, 1 dime, 1 nickel and 2 pennies.",
+      "partial": "Names one group that totals 67 cents.",
+      "incorrect": "Names groups that do not total 67 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5 (answer not printed; any two coin groups that total 67 cents)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "69",
+          "sixty-nine",
+          "69 cents",
+          "sixty-nine cents",
+          "69¢",
+          "69 cent",
+          "69 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6 (answer not printed; 50 + 15 + 4 = 69)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two other coin groups that each total 69 cents.",
+      "partial": "Names one other group that totals 69 cents.",
+      "incorrect": "Names groups that do not total 69 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6 (answer not printed; any two other groups that total 69 cents)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 cents",
+          "one hundred cents",
+          "100¢",
+          "100 cent",
+          "100 c",
+          "$1",
+          "1 dollar",
+          "one dollar",
+          "$1.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 7 (answer not printed; 10 dimes is 100 cents)"
+      }
+    },
+    {
+      "id": "r_ps_15",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two other coin groups that each total 100 cents, such as 4 quarters.",
+      "partial": "Names one other group that totals 100 cents.",
+      "incorrect": "Names groups that do not total 100 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 7 (answer not printed; any two other groups that total 100 cents)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says there are many ways, and a friend may use different coins.",
+      "partial": "Says yes or no but names no other way.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; many combinations)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 1 quarter and 1 dime is 2 coins)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five"
+        ]
+      },
+      "correct": "Says 35.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 35 pennies is 35 coins)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives an example, such as a number in different ways, number bonds, or place value.",
+      "partial": "Says yes but gives no example.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; open)"
+      }
+    },
+    {
+      "id": "r_db_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two or more groups that total 15 cents, such as 3 nickels, or a dime and 5 pennies.",
+      "partial": "Names one group that totals 15 cents.",
+      "incorrect": "Names groups that do not total 15 cents.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; each group must total 15 cents)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_each_coin",
+      "level": 1,
+      "text": "Find the value of each kind of coin first. Then add.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (find the value of each group, then add)"
+      }
+    },
+    {
+      "id": "h_largest",
+      "level": 1,
+      "text": "Start with the coin worth the most. Count on from there.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Lesson 6 strategy"
+      }
+    },
+    {
+      "id": "h_trade",
+      "level": 2,
+      "text": "Trade one coin for other coins with the same value.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: I traded each of my quarters)"
+      }
+    },
+    {
+      "id": "h_equal",
+      "level": 1,
+      "text": "Find the value of each group of coins. Check that the totals match.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (the values are equal)"
+      }
+    },
+    {
+      "id": "h_decomp",
+      "level": 2,
+      "text": "The two parts must add up to the whole.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (break apart in as many ways as you can)"
+      }
+    },
+    {
+      "id": "h_bills",
+      "level": 1,
+      "text": "Find Clark's total first. Then take away the extra bills.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (RDW)"
+      }
+    },
+    {
+      "id": "h_three_coins",
+      "level": 2,
+      "text": "Try the coin worth the most. Count by that coin to reach the total.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 Problem 2 (S: We added the same coin to make the total)"
+      }
+    },
+    {
+      "id": "h_count_coin",
+      "level": 1,
+      "text": "Skip-count by the value of the coin. Fives for nickels. Tens for dimes.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 5 plus 5 plus 5)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_coins",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact coin counts and coin images need exact behaviour. Diffusion cannot count or draw the same coin every time.",
+      "description": "Coins in groups on mats. Each coin is a penny, nickel, dime or quarter. The child can trade coins for coins of the same value.",
+      "must_show_exactly": [
+        "Exactly the coins in the stimulus",
+        "Each coin looks like its real coin",
+        "Coins can be moved between mats",
+        "Value labels only when the stimulus asks",
+        "Trades keep the total value the same"
+      ],
+      "states_or_frames": [
+        "a dime and 5 pennies next to 3 nickels",
+        "28 cents shown two ways",
+        "Tony's 83 cents",
+        "Carla's 4 dimes, 1 quarter and 2 nickels",
+        "Peyton's 3 quarters",
+        "Joshua's 1 quarter, 3 dimes and 1 nickel",
+        "Smith's 88 pennies",
+        "Chelsea's 10 dimes"
+      ],
+      "interaction": "Tutor sets the coins from the stimulus. Child can move or trade coins. Child answers by voice or typing.",
+      "alt_text": "Real-looking coins on two mats.",
+      "used_by": [
+        "ex_15",
+        "ex_peyton",
+        "ex_tony",
+        "exp_same_value",
+        "exp_tape",
+        "exp_trade",
+        "exp_two_ways",
+        "exp_write_combo",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_db_5",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_15",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Plain flat coin icons (penny, nickel, dime, quarter), white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_part_whole",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact part and whole numbers need exact behaviour.",
+      "description": "A tape diagram or number bond with a whole and parts.",
+      "must_show_exactly": [
+        "Parts add to the whole",
+        "Unknown shown with a question mark",
+        "Numbers match the stimulus"
+      ],
+      "states_or_frames": [
+        "Carla's tape diagram: 40, 25 and 10 make 75",
+        "Clark and Shannon compare"
+      ],
+      "interaction": "Tutor sets the parts and whole from the stimulus. Child answers by voice or typing.",
+      "alt_text": "A tape diagram with parts.",
+      "used_by": [
+        "ex_peyton",
+        "exp_tape",
+        "q_app_1",
+        "q_pr_10",
+        "q_pr_9"
+      ],
+      "generation_caption": "Tape diagram with parts and numbers, plain white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_bills",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact bill counts need exact behaviour.",
+      "description": "Groups of play-money bills: ten-dollar and five-dollar bills.",
+      "must_show_exactly": [
+        "Exactly the bills in the stimulus",
+        "Each bill shows its value"
+      ],
+      "states_or_frames": [
+        "Clark's 3 ten-dollar and 6 five-dollar bills",
+        "Shannon's bills"
+      ],
+      "interaction": "Tutor sets the bills from the stimulus. Child answers by voice or typing.",
+      "alt_text": "Dollar bills in groups.",
+      "used_by": [
+        "q_app_1"
+      ],
+      "generation_caption": "Plain flat dollar-bill icons for 5 and 10 dollars, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Grade 2 Core Fluency Differentiated Practice Sets",
+      "reason": "Printed timed practice sets from Lesson 1. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_decomp_paper",
+      "name": "Decomposition tree on paper in 90 seconds, then swap and check",
+      "reason": "Needs paper and a second student. A few questions about parts of 75 cents are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "na_real_coins",
+      "name": "Make coin combinations on mats with real coins",
+      "reason": "Needs real coins and a class. The widget a_coins replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw coins and write the coin combination and value",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_coins, a_part_whole, a_bills). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md has unlabelled sheets. Counted in printed order: Problem Set 1-7 (26, 35, 55, 75 cents, Gretchen, Joshua, Alex), Exit Ticket 1 (Smith), Homework 1-7 (25, 40, 60, 80 cents, Samantha, Jeremy, Chelsea). Question ids are numbered by the item order. Check against the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Open answers for coin groups",
+      "issue": "Many questions ask for any coin group with a given value. Their rubrics are open. The tutor must check that the coins add up to the total. The source prints no answers. Consider a code check that adds up the coins named."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Answer key for amounts",
+      "issue": "Values such as Joshua 60 cents and Jeremy 69 cents were computed by code from the coin counts. Not printed in the source."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "q_pk_1, q_pk_2, q_pk_3",
+      "issue": "Derived from the 75 cent Decomposition Tree. The source prints no answers. 75 minus 50 is 25 and 75 minus 40 is 35."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_app_1",
+      "issue": "The Application Problem has no printed answer. Computed: Clark has 60 dollars and Shannon has 30 dollars."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_pr_4, q_pr_5, q_pr_6, q_pr_7, q_pr_8",
+      "issue": "Part 1 and Part 2 sample answers are from student answers in the source. Sets for 56 cents and 1 dollar are not printed; open rubrics were written from the pattern."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_db_2, q_db_3",
+      "issue": "The least and most coins for 35 cents are not printed. Derived: 1 quarter and 1 dime is 2 coins. 35 pennies is 35 coins. Check that no other combination uses fewer than 2 coins."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l6_coin_values_count_up, math_g2_m7_l7_coin_total_word_problems and math_g2_m7_l8_bill_total_word_problems are earlier cards. ext_g2_skip_count_by_5_and_10 is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "Hint coverage is thin. Hints are adapted from teacher moves and student answers in the source."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "q_pr_10",
+      "issue": "Accept list covers only the phrase 3 quarters. A child who says 25 plus 25 plus 25 is not matched. Review the answer key."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

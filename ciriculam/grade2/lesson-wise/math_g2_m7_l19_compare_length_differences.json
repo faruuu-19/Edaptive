@@ -1,0 +1,2382 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l19_compare_length_differences",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-d-lesson-19.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 19",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Measure two lengths and find how much longer or shorter one is. Use inches, feet and yards.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l16_measure_inch_ruler_yardstick",
+    "math_g2_m7_l18_compare_cm_and_inches",
+    "ext_g2_subtract_within_100"
+  ],
+  "explanations": [
+    {
+      "id": "exp_difference",
+      "title": "Find the difference",
+      "text": "To compare two lengths, measure both. Then subtract the smaller length from the bigger length. The answer is how much longer one is.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_count_on",
+      "title": "Add on to find the difference",
+      "text": "You can add on from the shorter length to the longer length. 17 plus 3 is 20. 20 plus 12 is 32. 3 plus 12 is 15.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (string and wall)"
+      }
+    },
+    {
+      "id": "exp_pick_tool_unit",
+      "title": "Pick a tool and a unit",
+      "text": "A yardstick can measure in inches, feet or yards. Use inches for short things. Use feet for longer things. Use yards for very long things.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Student Debrief"
+      }
+    },
+    {
+      "id": "exp_halfway",
+      "title": "Between two marks",
+      "text": "If a length is between two marks, look at which mark is closer. More than halfway, say the next number. Less than halfway, say the smaller number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (4 and 5 feet)"
+      }
+    },
+    {
+      "id": "exp_unit_changes",
+      "title": "Unit size changes the difference",
+      "text": "The string and wall do not change. Feet are smaller than yards. We need more feet than yards to cover the same length.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (string and wall)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_paper_desk",
+      "title": "Paper and desk",
+      "text": "The desktop is 24 inches. The paper is 30 inches. The paper is longer. 30 minus 24 is 6. The paper is 6 inches longer.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_string_wall",
+      "title": "String and wall",
+      "text": "The string is 17 feet. The wall is 32 feet. 32 minus 17 is 15. You need 15 more feet of string. In yards, the difference is 5 yards.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 21 minus 9?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "21 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 31 minus 9?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "31 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 22 minus 8?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "22 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is 13 minus 9?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "13 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Katia has a strand of lights 46 feet long. The wall is 84 feet long. How many more feet of lights does she need?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_subtract_diff",
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "lights": 46,
+        "wall": 84
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "You measure a desk and a piece of paper. Which tool is better: a 12-inch ruler or a yardstick?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_tool"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "The desktop is 24 inches long. The paper is 30 inches long. Which is longer?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_subtract_diff"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "desk": 24,
+        "paper": 30
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "How many inches longer is the paper than the desktop?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_subtract_diff",
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "desk": 24,
+        "paper": 30
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "A length is between 4 feet and 5 feet. It is more than halfway. About how many feet is it?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_halfway"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "between": [
+          4,
+          5
+        ],
+        "halfway": "more"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "A length is between 4 feet and 5 feet. It is less than halfway. About how many feet is it?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_halfway"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "between": [
+          4,
+          5
+        ],
+        "halfway": "less"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "A string is 17 feet long. A wall is 32 feet long. Count on from 17. 17 plus 3 is 20. How many more make 32?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "string": 17,
+        "wall": 32
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "The string is 17 feet. The wall is 32 feet. How many more feet of string do you need?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_subtract_diff",
+        "h_count_on"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "string": 17,
+        "wall": 32
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "You measure the same string and wall in yards. The string is 6 yards. The wall is 11 yards. What is the difference?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_subtract_diff"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "string": 6,
+        "wall": 11,
+        "unit": "yards"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "The difference in feet was 15 feet. The difference in yards was 5 yards. Did the string or wall change?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_unit_big_small"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Why is the difference in feet bigger than the difference in yards?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_unit_big_small"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Tammy's fence is 54 yards long. Martha's fence is 29 yards longer. How long is Martha's fence, in yards?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_related"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "tammy": 54,
+        "more": 29
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (Tammy and Martha)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Tammy's fence is 54 yards long. Martha's fence is 83 yards long. What is the total length of both fences, in yards?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_related"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "stimulus": {
+        "tammy": 54,
+        "martha": 83
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (Tammy and Martha)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "32 feet plus what number of feet equals 87 feet?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_count_on",
+        "h_related"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 32,
+        "total": 87
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (Solve the following problems)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "What is 68 feet minus 29 feet?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_subtract_diff",
+        "h_related"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "whole": 68,
+        "part": 29
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (Solve the following problems)"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "What number of feet minus 43 feet equals 18 feet?",
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_related"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "minus": 43,
+        "result": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (Solve the following problems)"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "8 inches minus 5 inches equals how many inches?",
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_related"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "whole": 8,
+        "part": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (Solve; check with a related sentence)"
+      }
+    },
+    {
+      "id": "q_pr_17",
+      "kind": "practice",
+      "text": "8 centimeters plus what number of centimeters equals 19 centimeters?",
+      "rubric_id": "r_pr_17",
+      "hint_ids": [
+        "h_count_on",
+        "h_related"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 8,
+        "total": 19
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (Solve; check with a related sentence)"
+      }
+    },
+    {
+      "id": "q_pr_18",
+      "kind": "practice",
+      "text": "17 centimeters minus 8 centimeters equals how many centimeters?",
+      "rubric_id": "r_pr_18",
+      "hint_ids": [
+        "h_related"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "whole": 17,
+        "part": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (Solve; check with a related sentence)"
+      }
+    },
+    {
+      "id": "q_pr_19",
+      "kind": "practice",
+      "text": "What number of centimeters plus 6 centimeters equals 18 centimeters?",
+      "rubric_id": "r_pr_19",
+      "hint_ids": [
+        "h_related"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "add": 6,
+        "total": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (Solve; check with a related sentence)"
+      }
+    },
+    {
+      "id": "q_pr_20",
+      "kind": "practice",
+      "text": "2 inches plus what number of inches equals 7 inches?",
+      "rubric_id": "r_pr_20",
+      "hint_ids": [
+        "h_related"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 2,
+        "total": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (Solve; check with a related sentence)"
+      }
+    },
+    {
+      "id": "q_pr_21",
+      "kind": "practice",
+      "text": "12 inches minus what number of inches equals 8 inches?",
+      "rubric_id": "r_pr_21",
+      "hint_ids": [
+        "h_related"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "whole": 12,
+        "result": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (Solve; check with a related sentence)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Martha's fence is longer than Tammy's fence. Tammy's is 54 yards. Could Martha's fence be 40 yards? Why or why not?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_longer_than"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Which unit would you use to measure a football field: inches, feet or yards?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_fit_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Which unit would you use to measure the length of a book: inches, feet or yards?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_fit_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "Which unit would you use to measure a bean: inches, feet or centimeters?",
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_fit_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_5",
+      "kind": "debrief",
+      "text": "How do you decide whether to use a 12-inch ruler or a yardstick?",
+      "rubric_id": "r_db_5",
+      "hint_ids": [
+        "h_tool"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_lengths"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 10 minus 1?",
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sp_fact"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 - 1"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_a6",
+      "kind": "practice",
+      "text": "What is 11 minus 2?",
+      "rubric_id": "r_sp_a6",
+      "hint_ids": [
+        "h_sp_fact"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 6)"
+      }
+    },
+    {
+      "id": "q_sp_a22",
+      "kind": "practice",
+      "text": "What is 11 minus 6?",
+      "rubric_id": "r_sp_a22",
+      "hint_ids": [
+        "h_sp_fact"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 22)"
+      }
+    },
+    {
+      "id": "q_sp_a4",
+      "kind": "practice",
+      "text": "What is 40 minus 2?",
+      "rubric_id": "r_sp_a4",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "40 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 4)"
+      }
+    },
+    {
+      "id": "q_sp_a7",
+      "kind": "practice",
+      "text": "What is 21 minus 2?",
+      "rubric_id": "r_sp_a7",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "21 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 7)"
+      }
+    },
+    {
+      "id": "q_sp_a12",
+      "kind": "practice",
+      "text": "What is 61 minus 3?",
+      "rubric_id": "r_sp_a12",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "61 - 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 12)"
+      }
+    },
+    {
+      "id": "q_sp_a15",
+      "kind": "practice",
+      "text": "What is 21 minus 4?",
+      "rubric_id": "r_sp_a15",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "21 - 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 15)"
+      }
+    },
+    {
+      "id": "q_sp_a20",
+      "kind": "practice",
+      "text": "What is 81 minus 5?",
+      "rubric_id": "r_sp_a20",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "81 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 20)"
+      }
+    },
+    {
+      "id": "q_sp_a24",
+      "kind": "practice",
+      "text": "What is 91 minus 6?",
+      "rubric_id": "r_sp_a24",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "91 - 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 24)"
+      }
+    },
+    {
+      "id": "q_sp_a30",
+      "kind": "practice",
+      "text": "What is 41 minus 8?",
+      "rubric_id": "r_sp_a30",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "41 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 30)"
+      }
+    },
+    {
+      "id": "q_sp_a33",
+      "kind": "practice",
+      "text": "What is 51 minus 9?",
+      "rubric_id": "r_sp_a33",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "51 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 33)"
+      }
+    },
+    {
+      "id": "q_sp_a35",
+      "kind": "practice",
+      "text": "What is 82 minus 3?",
+      "rubric_id": "r_sp_a35",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "82 - 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 35)"
+      }
+    },
+    {
+      "id": "q_sp_a37",
+      "kind": "practice",
+      "text": "What is 73 minus 5?",
+      "rubric_id": "r_sp_a37",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "73 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 37)"
+      }
+    },
+    {
+      "id": "q_sp_a41",
+      "kind": "practice",
+      "text": "What is 95 minus 8?",
+      "rubric_id": "r_sp_a41",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "95 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 41)"
+      }
+    },
+    {
+      "id": "q_sp_a44",
+      "kind": "practice",
+      "text": "What is 68 minus 9?",
+      "rubric_id": "r_sp_a44",
+      "hint_ids": [
+        "h_sp_tens"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "68 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction Patterns (Sprint A item 44)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens (answer not printed; 21 - 9 = 12 computed)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22",
+          "twenty-two"
+        ]
+      },
+      "correct": "Says 22.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens (answer not printed; 31 - 9 = 22 computed)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens (answer not printed; 22 - 8 = 14 computed)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens (answer not printed; 13 - 9 = 4 computed)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "38",
+          "thirty-eight",
+          "38 feet",
+          "thirty-eight feet"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 84 - 46 = 38)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yardstick",
+          "a yardstick",
+          "the yardstick",
+          "yard stick"
+        ]
+      },
+      "correct": "Says yardstick.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: A yardstick because I can see that the paper and the desk are both longer than a 12-inch ruler)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "paper",
+          "the paper",
+          "30 inches",
+          "the paper is longer"
+        ]
+      },
+      "correct": "Says paper.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The paper!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 inches",
+          "six inches"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The paper is 6 inches longer because 30 - 24 is 6)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 feet",
+          "five feet"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: If it is more than halfway, we say it is about 5 feet)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "4 feet",
+          "four feet"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: If it is less than halfway, we say it is about 4 feet)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Seventeen plus 3 is 20, plus 12 more is 32)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 feet",
+          "fifteen feet"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: We need 15 more feet)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 yards",
+          "five yards"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: the difference in yards is 5 yards; the yard counts 6 and 11 are derived, since 17 feet and 32 feet are about 6 and 11 yards)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no it did not",
+          "they did not change",
+          "did not change",
+          "neither"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: No! Feet and yards are different)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says feet are smaller than yards, so we need more of them.",
+      "partial": "Says the units are different but not why one number is bigger.",
+      "incorrect": "Says the length changed.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Feet are smaller than yards, so we need more of them)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "83",
+          "eighty-three",
+          "83 yards",
+          "eighty-three yards"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (no answer printed; 54 + 29 = 83)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "137",
+          "one hundred thirty-seven",
+          "137 yards",
+          "one hundred thirty-seven yards"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (no answer printed; 54 + 83 = 137)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55",
+          "fifty-five",
+          "55 feet",
+          "fifty-five feet"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (no answer printed; 87 - 32 = 55)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "39",
+          "thirty-nine",
+          "39 feet",
+          "thirty-nine feet"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (no answer printed; 68 - 29 = 39)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "61",
+          "sixty-one",
+          "61 feet",
+          "sixty-one feet"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (no answer printed; 43 + 18 = 61)"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three",
+          "3 inches",
+          "three inches"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (no answer printed; 8 - 5 = 3)"
+      }
+    },
+    {
+      "id": "r_pr_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven",
+          "11 centimeters",
+          "eleven centimeters"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (no answer printed; 19 - 8 = 11)"
+      }
+    },
+    {
+      "id": "r_pr_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine",
+          "9 centimeters",
+          "nine centimeters"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (no answer printed; 17 - 8 = 9)"
+      }
+    },
+    {
+      "id": "r_pr_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve",
+          "12 centimeters",
+          "twelve centimeters"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (no answer printed; 18 - 6 = 12)"
+      }
+    },
+    {
+      "id": "r_pr_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 inches",
+          "five inches"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (no answer printed; 7 - 2 = 5)"
+      }
+    },
+    {
+      "id": "r_pr_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "4 inches",
+          "four inches"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (no answer printed; 12 - 8 = 4)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no, because Martha's fence is longer than 54 yards and 40 is less than 54.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4; no answer printed; 40 is less than 54, so it cannot be longer)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yards",
+          "yard",
+          "a yard"
+        ]
+      },
+      "correct": "Says yards.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (I would use yards for a football field)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "inches",
+          "inch",
+          "an inch"
+        ]
+      },
+      "correct": "Says inches.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (inches for a book)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "centimeters",
+          "centimeter",
+          "cm"
+        ]
+      },
+      "correct": "Says centimeters.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (centimeters for a bean)"
+      }
+    },
+    {
+      "id": "r_db_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says use a 12-inch ruler for short things and a yardstick for long things, so there are fewer moves.",
+      "partial": "Says to pick a tool but not why.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; use a ruler for short objects and a yardstick for longer objects, so you move the tool fewer times)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1 (no answer printed; 10 - 1)"
+      }
+    },
+    {
+      "id": "r_sp_a6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 6 (no answer printed; 11 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 22 (no answer printed; 11 - 6)"
+      }
+    },
+    {
+      "id": "r_sp_a4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "38",
+          "thirty-eight"
+        ]
+      },
+      "correct": "Says 38.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 4 (no answer printed; 40 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19",
+          "nineteen"
+        ]
+      },
+      "correct": "Says 19.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 7 (no answer printed; 21 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "58",
+          "fifty-eight"
+        ]
+      },
+      "correct": "Says 58.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 12 (no answer printed; 61 - 3)"
+      }
+    },
+    {
+      "id": "r_sp_a15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17",
+          "seventeen"
+        ]
+      },
+      "correct": "Says 17.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 15 (no answer printed; 21 - 4)"
+      }
+    },
+    {
+      "id": "r_sp_a20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "76",
+          "seventy-six"
+        ]
+      },
+      "correct": "Says 76.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 20 (no answer printed; 81 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "85",
+          "eighty-five"
+        ]
+      },
+      "correct": "Says 85.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 24 (no answer printed; 91 - 6)"
+      }
+    },
+    {
+      "id": "r_sp_a30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33",
+          "thirty-three"
+        ]
+      },
+      "correct": "Says 33.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 30 (no answer printed; 41 - 8)"
+      }
+    },
+    {
+      "id": "r_sp_a33",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "42",
+          "forty-two"
+        ]
+      },
+      "correct": "Says 42.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 33 (no answer printed; 51 - 9)"
+      }
+    },
+    {
+      "id": "r_sp_a35",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "79",
+          "seventy-nine"
+        ]
+      },
+      "correct": "Says 79.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 35 (no answer printed; 82 - 3)"
+      }
+    },
+    {
+      "id": "r_sp_a37",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "68",
+          "sixty-eight"
+        ]
+      },
+      "correct": "Says 68.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 37 (no answer printed; 73 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a41",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "87",
+          "eighty-seven"
+        ]
+      },
+      "correct": "Says 87.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 41 (no answer printed; 95 - 8)"
+      }
+    },
+    {
+      "id": "r_sp_a44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "59",
+          "fifty-nine"
+        ]
+      },
+      "correct": "Says 59.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 44 (no answer printed; 68 - 9)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_subtract_diff",
+      "level": 1,
+      "text": "Subtract the smaller length from the bigger length.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (subtract to find the difference)"
+      }
+    },
+    {
+      "id": "h_count_on",
+      "level": 2,
+      "text": "Start at the smaller number. Add on until you get to the bigger number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (count on from 17 to 32)"
+      }
+    },
+    {
+      "id": "h_tool",
+      "level": 1,
+      "text": "Is the object longer than a 12-inch ruler? Pick the tool with fewer moves.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (which measurement tool)"
+      }
+    },
+    {
+      "id": "h_halfway",
+      "level": 1,
+      "text": "Look at the halfway point between the two marks. Is the length past it?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (more than halfway)"
+      }
+    },
+    {
+      "id": "h_related",
+      "level": 1,
+      "text": "Use a related addition or subtraction fact to check.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (check with a related addition or subtraction sentence)"
+      }
+    },
+    {
+      "id": "h_unit_big_small",
+      "level": 1,
+      "text": "Which unit is bigger, a foot or a yard? Think how many of each you need.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (feet are smaller than yards)"
+      }
+    },
+    {
+      "id": "h_fit_unit",
+      "level": 1,
+      "text": "Think about how long the object is. Which unit fits it?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (yards, feet, inches, centimeters)"
+      }
+    },
+    {
+      "id": "h_sp_tens",
+      "level": 1,
+      "text": "Solve the basic fact first. Then think about what changes when the number has more tens.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens; Sprint Subtraction Patterns"
+      }
+    },
+    {
+      "id": "h_sp_fact",
+      "level": 1,
+      "text": "Think of a ten. Take away the small number from the ten.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_longer_than",
+      "level": 1,
+      "text": "Martha's fence is longer than Tammy's. Compare it to Tammy's length.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (smaller than 54 yards)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_compare_lengths",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact lengths and a correct tape diagram need exact behaviour.",
+      "description": "Two bars (tape diagram) showing two lengths with their numbers and unit. The difference is shown as a missing part. Objects: paper and desk, string and wall, lights and wall, two fences.",
+      "must_show_exactly": [
+        "Bar lengths drawn in proportion to the numbers",
+        "Unit label shown with each number",
+        "Difference shown as an unknown part with a question mark",
+        "Numbers match the stimulus"
+      ],
+      "states_or_frames": [
+        "paper 30 inches and desk 24 inches",
+        "string 17 feet and wall 32 feet",
+        "lights 46 feet and wall 84 feet",
+        "Tammy 54 yards and Martha longer"
+      ],
+      "interaction": "Tutor sets the two lengths and the unit. Child answers by voice or typing.",
+      "alt_text": "Two bars of different length with numbers and a unit.",
+      "used_by": [
+        "ex_paper_desk",
+        "ex_string_wall",
+        "exp_count_on",
+        "exp_difference",
+        "exp_halfway",
+        "exp_pick_tool_unit",
+        "exp_unit_changes",
+        "q_app_1",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_db_5",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Plain flat tape diagram with two bars, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Subtraction Patterns (timed Sprint A and B)",
+      "reason": "Timed paper race with 44 items per sheet. The items are used as questions. The race cannot run on a screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_tens",
+      "name": "Subtraction from Tens (whole-class, personal white board)",
+      "reason": "Teacher-led call and response with a white board. Four items are used as questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction from Tens"
+      }
+    },
+    {
+      "id": "na_measure",
+      "name": "Measure the paper, desk, string and wall with a yardstick",
+      "reason": "Needs real objects and a yardstick. Measuring and tallying cannot be checked by a voice or text tutor. The measurements are used as story numbers.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_lines",
+      "name": "Measure lines in inches and write comparison sentences",
+      "reason": "Needs the printed lines and a ruler. Marked as left out because the lines are pictures.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set; Homework"
+      }
+    },
+    {
+      "id": "na_recording",
+      "name": "Write number sentences and statements on paper",
+      "reason": "Handwriting cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_compare_lengths). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set and Homework line measuring items",
+      "issue": "Items that ask to measure Line A, B, C and D in inches and compare (longer or shorter) depend on printed lines. They were left out. Add them from the PDF if the line lengths are known."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Problem Set numbering",
+      "issue": "The Problem Set and Homework are unnumbered in the .md. The Debrief calls Martha's fence Problem 4. Items were counted from printed prompts. The table-to-problem mapping was inferred. Check against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_app_1, q_pr_11, q_pr_12, q_pr_13, q_pr_14, q_pr_15, q_pr_16, q_pr_17, q_pr_18, q_pr_19, q_pr_20, q_pr_21",
+      "issue": "No answers are printed. Each was computed by code from the printed numbers. Check a sample against the PDF."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "q_pk_1, q_pk_2, q_pk_3, q_pk_4",
+      "issue": "The Subtraction from Tens fluency gives the start facts 11 minus 9, 12 minus 8, 11 minus 8 and 13 minus 9 and no answers. The four items are computed (21 minus 9, 31 minus 9, 22 minus 8, 13 minus 9). Origin derived."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_pr_8",
+      "issue": "The source gives the difference in yards (5) but not the yard measures. The values 6 and 11 yards are made up to give 5 and are rounded versions of 17 and 32 feet. Check or replace."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_db_1",
+      "issue": "The Debrief asks how you know without calculating that a measure smaller than 54 is wrong. The reason (longer than Tammy's) is inferred. The Debrief item about how many more yards Katia needs was not used because Katia's problem is in feet. This looks like a source oddity."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_db_2, q_db_3, q_db_4",
+      "issue": "Units for a football field, book and bean are printed in the Debrief. The question wording is new."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Sprint A item numbers",
+      "issue": "The .md table has no printed item numbers. Items 1 to 22 are the left column and 23 to 44 the right column. Check against the PDF."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Sprint items used and left out",
+      "issue": "Used Sprint A items 1, 4, 6, 7, 12, 15, 20, 22, 24, 30, 33, 35, 37, 41, 44. The patterns are 10 minus n, 11 minus n, 21 minus n and larger tens. Sprint B was not used. It repeats the same patterns."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "h_sp_fact",
+      "issue": "Generated hint. The source has no hint for the basic facts in the Sprint. Hint coverage is thin. Need review."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l16_measure_inch_ruler_yardstick and math_g2_m7_l18_compare_cm_and_inches are earlier cards. ext_g2_subtract_within_100 is a prerequisite card that does not exist yet. Map to the real id."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

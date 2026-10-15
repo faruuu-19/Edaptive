@@ -1,0 +1,355 @@
+{
+  "schema_version": "0.1-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g3_m7_l5_compare_classify_other_polygons_v2",
+  "card_version": 2,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g3_m7_l5_compare_classify_other_polygons",
+    "concept_version": 2
+  },
+  "subject": "math",
+  "grade": 3,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "assessment_card_generator",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing",
+    "manual_revision": {
+      "date": "2026-10-12",
+      "requested_by": "Amna",
+      "changes": "Revised medium/hard reasoning questions, rubrics, follow-ups, hints and answer reveals against corrected concept v2.",
+      "original_card": "authoring/assessment/provenance/polygons.original.assessment.json",
+      "original_audit_applies_to": "v1 only"
+    }
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use",
+      "aq_med_01 is grounding only: its answer is not verified by code (the lesson has nothing code can check) and needs review before use",
+      "aq_hard_01 is grounding only: its answer is not verified by code (the lesson has nothing code can check) and needs review before use",
+      "Manual v2 question and rubric revision needs human review; prior v1 audit does not certify these edits."
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "use_only_if_partial_credit_eligible_else_same_as_incorrect",
+    "incorrect": "give_next_hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_level_without_using_an_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "after_max_attempts_reveal_answer_reference_and_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_3"
+      },
+      "response_type": "short_text",
+      "answer_verification": "concept_card_unverified",
+      "stimulus": {
+        "kind": "visual_asset",
+        "asset_ref": {
+          "scope": "concept_card",
+          "id": "a_regular_polygons"
+        }
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_3"
+      },
+      "hint_refs": [
+        {
+          "scope": "concept_card",
+          "id": "h_equal_sides_angles"
+        }
+      ],
+      "routes": "default"
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_quad_family"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_rect_rhombus"
+        }
+      ],
+      "prompt": "A quadrilateral has two pairs of parallel sides and four right angles. Its sides are not all equal. Which most specific group does it belong to? Explain which clues you used.",
+      "response_type": "short_text",
+      "answer_verification": "grounding_only",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "give_followup_fu_aq_med_01_then_bottom_out",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incomplete": "retry_eligible_parts_with_hint_until_max_attempts"
+      },
+      "revision_note": "Original generated item revised manually against concept v2; not independently code-verified."
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_rect_rhombus"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regular"
+        }
+      ],
+      "prompt": "Someone says a square cannot be both a rectangle and a rhombus. Do you agree? Explain using its sides and angles. Would a rhombus with no right angles be regular? Explain.",
+      "response_type": "short_text",
+      "answer_verification": "grounding_only",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "give_followup_fu_aq_hard_01_then_bottom_out",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incomplete": "retry_eligible_parts_with_hint_until_max_attempts"
+      },
+      "revision_note": "Original generated item revised manually against concept v2; not independently code-verified."
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_rect_rhombus"
+        }
+      ],
+      "prompt": "Which group requires four right angles: rectangle or rhombus?",
+      "response_type": "short_text",
+      "answer_verification": "grounding_only",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_med_01_then_bottom_out"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_rect_rhombus"
+        }
+      ],
+      "prompt": "A square has equal sides and right angles. Which group uses equal sides, and which group uses right angles?",
+      "response_type": "short_text",
+      "answer_verification": "grounding_only",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [],
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_hard_01_then_bottom_out"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "open",
+        "expected": "It is a rectangle. It has four right angles. Its sides are not all equal, so it is not a square.",
+        "required_points": [
+          "Names rectangle as the most specific group",
+          "Uses right angles to explain the rectangle classification",
+          "Recognises that unequal sides exclude square"
+        ]
+      },
+      "partial_credit_eligible": true,
+      "correct": "Includes all required points in equivalent words.",
+      "partial": "Includes some correct points but leaves reasoning unfinished.",
+      "incorrect": "Gives a clear claim that contradicts the taught properties.",
+      "unclear": "No answer can be understood from the response.",
+      "origin": "generated",
+      "incomplete": "Leaves a requested part unanswered."
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "rectangle",
+          "a rectangle",
+          "rectangle group"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Names the rectangle group, which requires four right angles.",
+      "partial": null,
+      "incorrect": "Gives a clear answer that is not correct.",
+      "unclear": "No answer can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "open",
+        "expected": "A square belongs to both groups. Its equal sides make it a rhombus. Its right angles make it a rectangle. A rhombus with no right angles is not regular. Its angles are not all equal.",
+        "required_points": [
+          "Rejects the claim and places a square in both groups",
+          "Uses equal sides for rhombus and right angles for rectangle",
+          "Explains that the non-right-angled rhombus is not regular because its angles are not all equal"
+        ]
+      },
+      "partial_credit_eligible": true,
+      "correct": "Includes all required points in equivalent words.",
+      "partial": "Includes some correct points but leaves reasoning unfinished.",
+      "incorrect": "Gives a clear claim that contradicts the taught properties.",
+      "unclear": "No answer can be understood from the response.",
+      "origin": "generated",
+      "incomplete": "Leaves a requested part unanswered."
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "open",
+        "expected": "The rhombus group uses equal sides. The rectangle group uses right angles.",
+        "required_points": [
+          "Rhombus: equal sides",
+          "Rectangle: right angles"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Connects equal sides to rhombus and right angles to rectangle.",
+      "partial": null,
+      "incorrect": "Gives a clear answer that is not correct.",
+      "unclear": "No answer can be understood from the response.",
+      "origin": "generated"
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_classify_angles",
+      "level": 1,
+      "text": "Check the right angles. Then check whether the sides are all equal.",
+      "origin": "adapted"
+    },
+    {
+      "id": "h_overlap_rules",
+      "level": 1,
+      "text": "Check the rectangle rule and the rhombus rule separately.",
+      "origin": "adapted"
+    },
+    {
+      "id": "h_regular_rules",
+      "level": 2,
+      "text": "A regular polygon needs equal sides and equal angles. Check both rules.",
+      "origin": "adapted"
+    }
+  ],
+  "tutor_guidance": {
+    "questions": [
+      {
+        "question_id": "aq_med_01",
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_classify_angles"
+          }
+        ],
+        "answer_reveal": {
+          "say": "It is a rectangle. It has four right angles. Its sides are not all equal, so it is not a square."
+        }
+      },
+      {
+        "question_id": "aq_hard_01",
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_overlap_rules"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_regular_rules"
+          }
+        ],
+        "answer_reveal": {
+          "say": "A square belongs to both groups. Its equal sides make it a rhombus. Its right angles make it a rectangle. A rhombus with no right angles is not regular. Its angles are not all equal."
+        }
+      },
+      {
+        "question_id": "fu_aq_med_01",
+        "answer_reveal": {
+          "say": "The rectangle group requires four right angles."
+        }
+      },
+      {
+        "question_id": "fu_aq_hard_01",
+        "answer_reveal": {
+          "say": "The rhombus group uses equal sides. The rectangle group uses right angles."
+        }
+      }
+    ]
+  }
+}

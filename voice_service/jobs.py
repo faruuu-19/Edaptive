@@ -9,54 +9,20 @@ import time
 import uuid
 from pathlib import Path
 
+from .catalog import load_catalog
+
 
 class PreparationJobs:
-    def __init__(self, root, narrator, loader, store=None, start_worker=True):
+    def __init__(self, root, narrator, loader, store=None, start_worker=True, catalog=None):
         self.root = Path(root)
         self.narrator = narrator
         self.loader = loader
         self.folder = Path(store or Path.home() / "edaptive-voice/jobs")
         self.folder.mkdir(parents=True, exist_ok=True)
         self.database = self.folder / "jobs.sqlite3"
-        self.catalog = {
-            p["concept_id"]: p
-            for p in json.loads(
-                (self.root / "docs/voice-module/PAIR_INVENTORY.json").read_text()
-            )["pairs"]
-            if p["plan_passed"]
-        }
-        supplementary = self.root / "docs/voice-module/LOCAL_SUPPLEMENTARY_PAIRS.json"
-        if supplementary.is_file():
-            sys.path.insert(0, str(self.root))
-            from script_agent import plan_lesson
-            from script_agent.sample_inputs import load_card
-
-            for cid, item in json.loads(supplementary.read_text()).items():
-                if "error" in item:
-                    continue
-                source = self.root / item["source"]
-                assessment = (
-                    self.root
-                    / "artifacts/live-builds"
-                    / item["name"]
-                    / "assessment_card.json"
-                )
-                a = json.loads(assessment.read_text())
-                c = load_card(source, cid)
-                plan = plan_lesson(c, a, "detectives", rewrite=True)
-                self.catalog[cid] = {
-                    "concept_id": cid,
-                    "concept": str(source),
-                    "assessment": str(assessment),
-                    "assessment_id": a["assessment_card_id"],
-                    "concept_version": c["card_version"],
-                    "grade": c["grade"],
-                    "module": int(cid.split("_")[2][1:]),
-                    "ready_for_delivery": False,
-                    "plan_passed": True,
-                    "plan_segments": len(plan["segments"]),
-                    "main_segments": len(plan["delivery_policy"]["main_path"]),
-                }
+        self.runtime_root = Path(__file__).resolve().parents[1]
+        self.catalog = {p["concept_id"]: p for p in
+                        (load_catalog(self.root) if catalog is None else catalog)}
         self.lock = threading.RLock()
         self.process = None
         self.running = None
@@ -335,7 +301,7 @@ class PreparationJobs:
                 "-m",
                 "voice_service.preparation_worker",
                 "--root",
-                str(self.root),
+                str(self.runtime_root),
                 "--concept",
                 pair["concept"],
                 "--assessment",

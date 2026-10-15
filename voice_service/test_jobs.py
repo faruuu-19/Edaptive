@@ -56,8 +56,9 @@ class JobTests(unittest.TestCase):
             )
         )
         self.root = root
+        self.catalog = [{"concept_id": "math_g2_m1_l1_pairs_to_ten", "plan_passed": True}]
         self.jobs = PreparationJobs(
-            root, StubNarrator(), None, root / "store", start_worker=False
+            root, StubNarrator(), None, root / "store", start_worker=False, catalog=self.catalog
         )
         self.request = {
             "job_id": str(uuid.uuid4()),
@@ -73,7 +74,7 @@ class JobTests(unittest.TestCase):
         self.assertEqual(self.jobs.submit(self.request), first)
         self.jobs.update(first["id"], status="preparing", completed=3, percent=10)
         again = PreparationJobs(
-            self.root, StubNarrator(), None, self.root / "store", start_worker=False
+            self.root, StubNarrator(), None, self.root / "store", start_worker=False, catalog=self.catalog
         )
         self.assertEqual(again.get(first["id"])["status"], "queued")
         self.assertEqual(again.get(first["id"])["completed"], 3)
@@ -117,7 +118,7 @@ class JobTests(unittest.TestCase):
         self.assertEqual(self.jobs.get(future)["completed"], 4)
         self.jobs.process = None
         again = PreparationJobs(
-            self.root, StubNarrator(), None, self.root / "store", start_worker=False
+            self.root, StubNarrator(), None, self.root / "store", start_worker=False, catalog=self.catalog
         )
         self.assertEqual(again.reservation, key)
         self.assertGreater(again.reservation_until, 0)
@@ -178,7 +179,7 @@ class JobTests(unittest.TestCase):
         future = self.jobs.submit(self.request)["id"]
         self.jobs.update(future, status="paused_for_delivery", completed=4)
         again = PreparationJobs(
-            self.root, StubNarrator(), lambda path: {"segments": []}, self.root / "store", start_worker=False
+            self.root, StubNarrator(), lambda path: {"segments": []}, self.root / "store", start_worker=False, catalog=self.catalog
         )
         again.catalog[self.request["concept_id"]].update(
             concept="c.json", assessment="a.json", assessment_id="assess"
@@ -195,7 +196,7 @@ class JobTests(unittest.TestCase):
 
     def test_unattended_release_unloads_the_voice_model_once(self):
         narrator = StubNarrator()
-        jobs = PreparationJobs(self.root, narrator, None, self.root / "store2", start_worker=False)
+        jobs = PreparationJobs(self.root, narrator, None, self.root / "store2", start_worker=False, catalog=self.catalog)
         key = jobs.submit(self.request)["id"]
         jobs.update(key, status="ready")
         jobs.reserve(key)
@@ -209,7 +210,7 @@ class JobTests(unittest.TestCase):
 
     def test_release_by_a_lesson_that_is_not_reserved_does_not_unload_the_model(self):
         narrator = StubNarrator()
-        jobs = PreparationJobs(self.root, narrator, None, self.root / "store3", start_worker=False)
+        jobs = PreparationJobs(self.root, narrator, None, self.root / "store3", start_worker=False, catalog=self.catalog)
         key = jobs.submit(self.request)["id"]
         other = jobs.submit({**self.request, "job_id": str(uuid.uuid4())})["id"]
         jobs.update(key, status="ready")
@@ -221,7 +222,7 @@ class JobTests(unittest.TestCase):
 
     def test_release_keeps_the_voice_while_a_sentence_is_still_playing(self):
         narrator = StubNarrator()
-        jobs = PreparationJobs(self.root, narrator, None, self.root / "store4", start_worker=False)
+        jobs = PreparationJobs(self.root, narrator, None, self.root / "store4", start_worker=False, catalog=self.catalog)
         key = jobs.submit(self.request)["id"]
         jobs.update(key, status="ready")
         jobs.reserve(key)

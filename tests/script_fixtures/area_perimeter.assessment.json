@@ -1,0 +1,164 @@
+{
+  "schema_version": "0.1-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+  "card_version": 1,
+  "linked_concept": {
+    "concept_id": "math_g4_m3_l1_area_perimeter_formulas",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 4,
+  "review_status": "draft",
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "hand_authored_script_benchmark_fixture",
+    "note": "No paired Grade 4 assessment was present. All questions, answer keys and hints reference existing concept-card items. Difficulty is a manual benchmark choice."
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "Benchmark-only fixture; needs owner review."
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "use_only_if_partial_credit_eligible_else_same_as_incorrect",
+    "incorrect": "give_next_hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_level_without_using_an_attempt",
+    "on_repeated_failure": "after_max_attempts_reveal_answer_reference_and_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_2"
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_2"
+      },
+      "hint_refs": [
+        {
+          "scope": "concept_card",
+          "id": "h_trace"
+        },
+        {
+          "scope": "concept_card",
+          "id": "h_formula"
+        }
+      ],
+      "response_type": "short_text",
+      "routes": "default",
+      "stimulus": {
+        "kind": "none"
+      }
+    },
+    {
+      "id": "aq_medium",
+      "difficulty": "medium",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_16"
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_16"
+      },
+      "hint_refs": [
+        {
+          "scope": "concept_card",
+          "id": "h_unknown_a"
+        }
+      ],
+      "response_type": "short_text",
+      "routes": "default",
+      "stimulus": {
+        "kind": "none"
+      }
+    },
+    {
+      "id": "aq_hard",
+      "difficulty": "hard",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_ps_1"
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_ps_1"
+      },
+      "hint_refs": [
+        {
+          "scope": "concept_card",
+          "id": "h_pairs"
+        },
+        {
+          "scope": "concept_card",
+          "id": "h_unknown_p"
+        }
+      ],
+      "response_type": "short_text",
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "use_only_if_partial_credit_eligible_else_same_as_incorrect",
+        "incorrect": "give_followup_fu_hard_then_bottom_out",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      },
+      "stimulus": {
+        "kind": "none"
+      },
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_hard"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_hard",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_17"
+      },
+      "triggered_by": {
+        "question_id": "aq_hard",
+        "outcome": "incorrect"
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_17"
+      },
+      "hint_refs": [
+        {
+          "scope": "concept_card",
+          "id": "h_unknown_a"
+        }
+      ],
+      "response_type": "short_text",
+      "max_attempts": 1,
+      "on_resolved": "return_to_aq_hard_then_bottom_out",
+      "stimulus": {
+        "kind": "none"
+      }
+    }
+  ],
+  "rubrics": [],
+  "hints": []
+}

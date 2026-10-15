@@ -1,0 +1,1751 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l1_sort_record_data_tables",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-a-lesson-1.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 1",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Sort and record data into a table using up to four categories. Use category counts to solve word problems.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g2_count_by_tens_fives",
+    "ext_g2_compare_tape_diagrams"
+  ],
+  "explanations": [
+    {
+      "id": "exp_category",
+      "title": "Categories",
+      "text": "A category is a group. We sort things into categories by their characteristics. A fish has scales and fins. A bird has feathers and wings.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (sort animals by characteristics)"
+      }
+    },
+    {
+      "id": "exp_table",
+      "title": "A table organizes data",
+      "text": "Data is information. A table puts data in rows. It is easier to count how many are in each category.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (organize our information, or data)"
+      }
+    },
+    {
+      "id": "exp_tally",
+      "title": "Tally marks",
+      "text": "Make one tally mark for each thing. Count the marks to get the total. Then write the total as a number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (record category counts using tally marks)"
+      }
+    },
+    {
+      "id": "exp_tally_or_number",
+      "title": "Tallies or numbers",
+      "text": "Numbers give the total at once. Tally marks show the length of each group, so most and least are easy to see.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (which recording is easier to read)"
+      }
+    },
+    {
+      "id": "exp_orientation",
+      "title": "Table direction",
+      "text": "A table can go across or up and down. The data inside does not change.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (the orientation of the table)"
+      }
+    },
+    {
+      "id": "exp_more_than",
+      "title": "How many more or fewer",
+      "text": "To find how many more, compare two groups. Take away the same amount from both, or count the extra. A tape diagram can show it.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem; Concept Development"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_animal_table",
+      "title": "Sort animals",
+      "text": "Sort animals as bird, mammal, reptile or fish. Make tally marks in each row. Then write each total as a number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_habitats",
+      "title": "Sort by habitat",
+      "text": "Sort the same animals by where they live: arctic, woodland or ocean. Record each count as a number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Chart 4)"
+      }
+    },
+    {
+      "id": "ex_penguins_whales",
+      "title": "Penguins and whales",
+      "text": "24 penguins and 18 whales. Compare the two. 24 minus 18 equals 6. There are 6 more penguins.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Count by fives from 50 to 100. How many nickels make 100 cents?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_count_coins"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "nickels": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 with Dimes and Nickels"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "How many ones are in 100 cents?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_count_coins"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "cents": 100
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 with Dimes and Nickels"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "How many dimes make 150 cents?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_count_coins"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "dimes": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 with Dimes and Nickels"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "How many fives are in 150 cents?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_count_coins"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "cents": 150
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 with Dimes and Nickels"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "How many dimes make 200 cents?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_count_coins"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "dimes": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 with Dimes and Nickels"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "24 penguins slide on the ice. 18 whales splash in the ocean. How many more penguins than whales are there?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "stimulus": {
+        "a": 24,
+        "b": 18,
+        "difference": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "I have two legs, wings and feathers, and I can fly. What am I?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_characteristics"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "category": "bird"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: A bird!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "A fish has scales and gills and can swim. Name one more thing a fish has or does.",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_characteristics"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "category": "fish"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It has fins and gills)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What do we call the groups that we sort things into?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_characteristics"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (categories, or groups)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Name one way to record how many are in each category.",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: tally marks; count and write the number)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "A table shows 4 categories. How many categories does the table have?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "categories": [
+          "bird",
+          "mammal",
+          "reptile",
+          "fish"
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (How many categories does this table have?)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Is it easier to find the total from tally marks or from numbers? Why?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (which recording is easier to read)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Does it change the data if you draw the table up and down instead of across?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Student Debrief (does the orientation change the data?)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "A dog has 4 legs. How many tally marks do you make for 1 dog in an animal table?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (one tally per animal, not per leg)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Name another way to sort animals, other than by what kind they are.",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_characteristics"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: what they eat; where they live; predators or prey)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Can the same group of things be recorded in different ways? Will the tallies or numbers be different?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "'How many more' does not always mean there is a difference. Two groups have 7 and 7. How many more are in the first group?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "stimulus": {
+        "a": 7,
+        "b": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (some students believe how many more means there must be a difference)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "A table has 12 birds. You count 4 more birds. How does the table change?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 12,
+        "added": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (How would the table change if we counted four more birds?)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "A zoo table shows birds 6, fish 5, mammals 11 and reptiles 3. How many are birds, fish or reptiles?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 6,
+        "fish": 5,
+        "mammal": 11,
+        "reptile": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Use the same table. How many more birds and mammals are there than fish and reptiles?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 6,
+        "fish": 5,
+        "mammal": 11,
+        "reptile": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "How many animals were classified in all in that table?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 6,
+        "fish": 5,
+        "mammal": 11,
+        "reptile": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "How many more animals would need to be added to have 35 animals classified?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "total": 25,
+        "goal": 35
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "In that table, 5 more birds and 2 more reptiles are added. How many fewer reptiles than birds are there now?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 11,
+        "reptile": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "A different zoo table shows birds 9, fish 4, mammals 17 and reptiles 8. How many are birds, fish or reptiles?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 9,
+        "fish": 4,
+        "mammal": 17,
+        "reptile": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Use the same table. How many more mammals are there than fish?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "fish": 4,
+        "mammal": 17
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "How many animals were classified in that table?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 9,
+        "fish": 4,
+        "mammal": 17,
+        "reptile": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "How many more animals would need to be added to have 45 animals classified?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "total": 38,
+        "goal": 45
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "A class pet table shows birds 7, fish 15, mammals 18 and reptiles 9. How many are birds, fish or reptiles?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 7,
+        "fish": 15,
+        "mammal": 18,
+        "reptile": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Use the same table. How many more birds and mammals are there than fish and reptiles?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 7,
+        "fish": 15,
+        "mammal": 18,
+        "reptile": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "How many animals were classified in the class pet table?",
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_one_tally"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 7,
+        "fish": 15,
+        "mammal": 18,
+        "reptile": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "In that table, 3 more birds and 4 more reptiles are added. How many fewer birds than reptiles are there now?",
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_data_table"
+      ],
+      "stimulus": {
+        "bird": 10,
+        "reptile": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Exit Ticket / Homework (Animal Classification tables)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 (answer not printed; 100 divided by 5 is 20)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 (answer not printed; 100 ones)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 (answer not printed; 150 divided by 10 is 15)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 (answer not printed; 150 divided by 5 is 30)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by 10 or 5 (answer not printed; 200 divided by 10 is 20)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": "Says 42 (adds) or 18.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 24 - 18 = 6)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "bird",
+          "a bird"
+        ]
+      },
+      "correct": "Says bird.",
+      "partial": null,
+      "incorrect": "Says another animal.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: A bird!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says something true like fins, or lays eggs.",
+      "partial": "Says something that is not specific to a fish.",
+      "incorrect": "Says something that is not true for a fish.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It has scales. It has fins and gills. It swims. It can lay eggs.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "categories",
+          "category",
+          "groups"
+        ]
+      },
+      "correct": "Says categories.",
+      "partial": null,
+      "incorrect": "Says another word.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (categories, or groups)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says tally marks, numbers, or a table.",
+      "partial": "Says to count them but not how to record.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: tape the pictures; count and write the number; use tally marks)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (How many categories does this table have?; table is bird, mammal, reptile, fish)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says numbers give the total at once, or tally marks show the length so most and least are easy to see.",
+      "partial": "Gives a choice but no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (numbers give the total; tally length helps with most and least)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no it does not",
+          "no it stays the same"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (ask whether orientation affects the data; answer not printed; Student Debrief)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": "Says 4 (a tally for each leg).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_tally_per_leg"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (A possible misstep is making a tally mark for each leg)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says by habitat, by what they eat, or by predator or prey.",
+      "partial": "Says a way that is too general.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: We could sort them by what they eat... where they live... predators or prey)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes, it can be tally marks or numbers, and the amounts stay the same.",
+      "partial": "Says yes but not that the amounts stay the same.",
+      "incorrect": "Says the amounts change.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; same group, same amounts)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0",
+          "zero",
+          "none",
+          "no more"
+        ]
+      },
+      "correct": "Says 0, none or no more.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (note on how many more; 7 - 7 = 0)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the bird count goes up by 4, to 16.",
+      "partial": "Says the bird count goes up but not by 4.",
+      "incorrect": "Says another change.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (answer not printed; example numbers chosen for the question)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (6 + 5 + 3 = 14; table 1; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (17 - 8 = 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (6 + 5 + 11 + 3 = 25; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (35 - 25 = 10; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (birds 11, reptiles 5; 11 - 5 = 6; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21",
+          "twenty-one"
+        ]
+      },
+      "correct": "Says 21.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (9 + 4 + 8 = 21; table 2; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (17 - 4 = 13; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "38",
+          "thirty-eight"
+        ]
+      },
+      "correct": "Says 38.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (9 + 4 + 17 + 8 = 38; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (45 - 38 = 7; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "31",
+          "thirty-one"
+        ]
+      },
+      "correct": "Says 31.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (7 + 15 + 9 = 31; table 3; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (25 - 24 = 1; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "49",
+          "forty-nine"
+        ]
+      },
+      "correct": "Says 49.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (7 + 15 + 18 + 9 = 49; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (birds 10, reptiles 13; 13 - 10 = 3; answer not printed)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_characteristics",
+      "level": 1,
+      "text": "Think about what the animal has. Does it have feathers, scales or fur?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (characteristics)"
+      }
+    },
+    {
+      "id": "h_one_tally",
+      "level": 1,
+      "text": "Make one tally mark for each animal, not for each leg.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (A possible misstep is a tally for each leg)"
+      }
+    },
+    {
+      "id": "h_compare",
+      "level": 2,
+      "text": "Find the difference. Subtract the smaller number from the larger number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (comparative problem; tape diagram)"
+      }
+    },
+    {
+      "id": "h_count_coins",
+      "level": 1,
+      "text": "Count by fives for nickels. Count by tens for dimes.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_tally_per_leg",
+      "label": "Tally for each leg",
+      "description": "A child makes a tally mark for each leg of an animal and not for each animal.",
+      "detection_signals": [
+        "Counts 4 tallies for one dog",
+        "Total is too big"
+      ],
+      "response_text": "Ask how many animals there are. Make 1 tally per animal.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (A possible misstep)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_data_table",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact tally marks, counts and category rows need exact behaviour. Diffusion cannot count.",
+      "description": "A table with category rows. Each row shows tally marks or a number. The table can be drawn across or up and down.",
+      "must_show_exactly": [
+        "Exactly the counts in the stimulus",
+        "Tally marks in groups of five with a slash",
+        "Same data in tally and number versions",
+        "Categories match the stimulus"
+      ],
+      "states_or_frames": [
+        "Animal Classification table (bird, mammal, reptile, fish)",
+        "Animal Habitats table (arctic, woodland, ocean)",
+        "table drawn across",
+        "table drawn up and down"
+      ],
+      "interaction": "Tutor sets the categories and counts from the stimulus. Child answers by voice or typing.",
+      "alt_text": "A simple table with tally marks.",
+      "used_by": [
+        "ex_animal_table",
+        "ex_habitats",
+        "exp_category",
+        "exp_orientation",
+        "exp_table",
+        "exp_tally",
+        "exp_tally_or_number",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_12",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Simple table with category rows and tally marks, plain white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_compare",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact bar lengths for a comparison need exact behaviour. Diffusion cannot count.",
+      "description": "Two tape diagram bars. One is longer. The difference is a bracket.",
+      "must_show_exactly": [
+        "Bar lengths match the numbers",
+        "Difference shown as a bracket",
+        "Total shown only when the stimulus has a total"
+      ],
+      "states_or_frames": [
+        "24 and 18 with a difference bracket",
+        "7 and 7"
+      ],
+      "interaction": "Tutor sets the two numbers from the stimulus. Child answers by voice or typing.",
+      "alt_text": "Two bars of different length with a bracket for the difference.",
+      "used_by": [
+        "ex_penguins_whales",
+        "exp_more_than",
+        "q_app_1",
+        "q_pr_11"
+      ],
+      "generation_caption": "Two tape diagram bars with a bracket, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Differentiated Practice Sets",
+      "reason": "Printed timed sets. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_coins",
+      "name": "Count by 10 or 5 with real dimes and nickels",
+      "reason": "Needs a teacher and real coins. A few counting questions are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency"
+      }
+    },
+    {
+      "id": "na_cards",
+      "name": "Sort animal picture cards in pairs; chart paper; air tally marks",
+      "reason": "Needs picture cards, charts and a partner. The widget a_data_table replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_problem_set",
+      "name": "Problem Set tables and word problems",
+      "reason": "The tables and pictures are not in the .md. See the flag.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_data_table, a_tape_compare). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set tables",
+      "issue": "Only the Animal Classification counts are in the .md. The animal-leg and Animal Habitats tables have no counts (they are in pictures). Questions that need those were not made. Which table belongs to which problem was inferred from the totals (35 and 45). Check against the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Fluency: Count by 10 or 5",
+      "issue": "The source gives the counting steps but prints no answers. All five questions are derived."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Concept Development questions",
+      "issue": "The teacher questions about the class table (for example, how many animals altogether) depend on the class data. Only the idea questions were made."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g2_count_by_tens_fives and ext_g2_compare_tape_diagrams are prerequisite cards that do not exist yet."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "One misconception was taken from the Student Debrief (a tally for each leg). No others are stated in the source."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "h_count_coins",
+      "issue": "Generated hint. No hint is in the source for this task. Need review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_pr_12, q_pr_5",
+      "issue": "The example numbers (12 birds, 4 more) were chosen for the question. They are not from the source."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

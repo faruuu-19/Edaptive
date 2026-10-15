@@ -1,0 +1,1372 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l1_shape_attributes",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-a-lesson-1.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 1",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.1",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Describe flat shapes by their sides and angles.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Describe two-dimensional shapes based on attributes."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_describe_no_name",
+      "title": "Describe a shape without its name",
+      "text": "You can describe a shape without saying its name. Count its sides. Count its corners. Are the sides straight?",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Chart 1 triangle"
+      }
+    },
+    {
+      "id": "exp_angle",
+      "title": "What an angle is",
+      "text": "Two sides meet at a corner. The shape they make there is called an angle. A shape with 3 corners has 3 angles.",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: marking the angles"
+      }
+    },
+    {
+      "id": "exp_build_geoboard",
+      "title": "Build it on a geoboard",
+      "text": "Make a shape on the geoboard with 4 sides. It can look different from mine. It still has 4 sides and 4 angles.",
+      "asset_ids": [
+        "a_geoboard"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: geoboard shapes for Chart 2"
+      }
+    },
+    {
+      "id": "exp_same_attributes",
+      "title": "Different looks, same attributes",
+      "text": "These shapes look different. But they all have 3 straight sides and 3 angles. They are all closed shapes.",
+      "asset_ids": [
+        "a_attribute_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Chart 1 common attributes"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_count_angles",
+      "title": "Counting the angles of a 4-sided shape",
+      "text": "Put your finger by the first angle. Count as you go around: 1 angle, 2 angles, 3 angles, 4 angles.",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: counting angles on Chart 2 shape"
+      }
+    },
+    {
+      "id": "ex_closed_open",
+      "title": "Closed and open",
+      "text": "A closed shape has no gaps between its sides. This shape has a gap, so it is open.",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: closed shape definition"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "I have 41 ones. Make as many tens as you can. How many tens and ones?",
+      "asset_ids": [],
+      "stimulus": {
+        "ones": 41
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 4 tens 1 one)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "I have 54 ones. How many tens and ones is that?",
+      "asset_ids": [],
+      "stimulus": {
+        "ones": 54
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (continue with 54 ones)"
+      }
+    },
+    {
+      "id": "q_sp_a2",
+      "kind": "practice",
+      "text": "18 plus 1 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 18,
+        "op": "plus",
+        "b": 1
+      },
+      "rubric_id": "r_sp_a2",
+      "hint_ids": [
+        "h_small_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 2"
+      }
+    },
+    {
+      "id": "q_sp_a15",
+      "kind": "practice",
+      "text": "39 plus 2 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 39,
+        "op": "plus",
+        "b": 2
+      },
+      "rubric_id": "r_sp_a15",
+      "hint_ids": [
+        "h_small_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 15"
+      }
+    },
+    {
+      "id": "q_sp_a16",
+      "kind": "practice",
+      "text": "50 plus 8 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 50,
+        "op": "plus",
+        "b": 8
+      },
+      "rubric_id": "r_sp_a16",
+      "hint_ids": [
+        "h_small_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 16"
+      }
+    },
+    {
+      "id": "q_sp_a19",
+      "kind": "practice",
+      "text": "50 plus 20 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 50,
+        "op": "plus",
+        "b": 20
+      },
+      "rubric_id": "r_sp_a19",
+      "hint_ids": [
+        "h_small_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 19"
+      }
+    },
+    {
+      "id": "q_sp_a20",
+      "kind": "practice",
+      "text": "54 plus 20 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 54,
+        "op": "plus",
+        "b": 20
+      },
+      "rubric_id": "r_sp_a20",
+      "hint_ids": [
+        "h_small_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 20"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "practice",
+      "text": "90 plus 30 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 90,
+        "op": "plus",
+        "b": 30
+      },
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_small_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 26"
+      }
+    },
+    {
+      "id": "q_sp_a27",
+      "kind": "practice",
+      "text": "97 plus 30 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 97,
+        "op": "plus",
+        "b": 30
+      },
+      "rubric_id": "r_sp_a27",
+      "hint_ids": [
+        "h_small_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 27"
+      }
+    },
+    {
+      "id": "q_sp_a44",
+      "kind": "practice",
+      "text": "97 plus 60 equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 97,
+        "op": "plus",
+        "b": 60
+      },
+      "rubric_id": "r_sp_a44",
+      "hint_ids": [
+        "h_small_fact"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 44"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Look at this shape. How many sides does it have?",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "stimulus": {
+        "sides": 3,
+        "shape": "scalene triangle"
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_finger",
+        "h_corner"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Chart 1 triangle (S: It has three sides)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Now look at its corners. How many angles does the shape have?",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "stimulus": {
+        "corners": 3
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_corner"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'If a figure has three corners, then it also has three angles'"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What is an angle? Tell me in your own words.",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_corner"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: angle definition"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Look at this figure. Is it a closed shape?",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "stimulus": {
+        "figure": "open, gap between two sides"
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_gap"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'This shape is open.'"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "This shape has a corner that points in. Count all the angles. How many?",
+      "asset_ids": [
+        "a_shape_viewer"
+      ],
+      "stimulus": {
+        "sides": 4,
+        "concave": true
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_finger",
+        "h_corner"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: concave quadrilateral on Chart 2 (S: 1 angle ... 4 angles)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Here is a shape made on the geoboard. Count its angles. How many?",
+      "asset_ids": [
+        "a_geoboard"
+      ],
+      "stimulus": {
+        "sides": 7
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_finger",
+        "h_corner"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: seven sides and seven angles (S: 1 angle ... 7 angles)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "These triangles look different. What is the same about all of them?",
+      "asset_ids": [
+        "a_attribute_chart"
+      ],
+      "stimulus": {
+        "chart": 1
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_common"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Chart 1 common attributes"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Terrence makes shapes with 12 toothpicks. He uses all 12. Name 3 different shapes he could make.",
+      "asset_ids": [
+        "a_toothpick_story"
+      ],
+      "stimulus": {
+        "toothpicks": 12,
+        "shapes": 3
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_toothpicks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Think about every shape today. What do you notice about its sides and angles?",
+      "asset_ids": [
+        "a_attribute_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_common"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: number of angles and sides"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Why should you count sides and angles, not just look, when you group shapes?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_common"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: more than how a shape looks"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 tens 1 one",
+          "4 tens and 1 one",
+          "four tens one one",
+          "four tens and one one"
+        ]
+      },
+      "correct": "Says 4 tens 1 one.",
+      "partial": "Says 4 tens but leaves out the 1 one, or says 41 without tens and ones.",
+      "incorrect": "Gives a different number of tens or ones.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (S: 4 tens 1 one)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 tens 4 ones",
+          "5 tens and 4 ones",
+          "five tens four ones",
+          "five tens and four ones"
+        ]
+      },
+      "correct": "Says 5 tens 4 ones.",
+      "partial": "Gets the tens or the ones right, but not both.",
+      "incorrect": "Gives a different number of tens and ones.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit (continue with 54 ones)"
+      }
+    },
+    {
+      "id": "r_sp_a2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19",
+          "nineteen"
+        ]
+      },
+      "correct": "Says 19.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 2"
+      }
+    },
+    {
+      "id": "r_sp_a15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "41",
+          "forty-one"
+        ]
+      },
+      "correct": "Says 41.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 15"
+      }
+    },
+    {
+      "id": "r_sp_a16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "58",
+          "fifty-eight"
+        ]
+      },
+      "correct": "Says 58.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 16"
+      }
+    },
+    {
+      "id": "r_sp_a19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "70",
+          "seventy"
+        ]
+      },
+      "correct": "Says 70.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 19"
+      }
+    },
+    {
+      "id": "r_sp_a20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "74",
+          "seventy-four"
+        ]
+      },
+      "correct": "Says 74.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 20"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "120",
+          "one hundred twenty"
+        ]
+      },
+      "correct": "Says 120.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 26"
+      }
+    },
+    {
+      "id": "r_sp_a27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "127",
+          "one hundred twenty-seven"
+        ]
+      },
+      "correct": "Says 127.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 27"
+      }
+    },
+    {
+      "id": "r_sp_a44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "157",
+          "one hundred fifty-seven"
+        ]
+      },
+      "correct": "Says 157.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A (Adding Across a Ten) item 44"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_double_count"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Chart 1 triangle (S: It has three sides)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'If a figure has three corners, then it also has three angles'"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says an angle is where two sides meet (or makes a corner).",
+      "partial": "Says 'a corner' or points to the idea without saying two sides meet.",
+      "incorrect": "Describes a side, a line or a whole shape instead of where sides meet.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: angle definition"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no (may add: it is open, there is a gap).",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'This shape is open.'"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_double_count"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: concave quadrilateral on Chart 2 (S: 1 angle ... 4 angles)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: seven sides and seven angles (S: 1 angle ... 7 angles)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says they all have 3 sides and 3 angles (may add: closed, straight sides).",
+      "partial": "Names only one shared attribute, like 3 sides, or says 'they are all triangles'.",
+      "incorrect": "Names something that is not shared, like size or the same side lengths.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_looks_not_attributes"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Chart 1 common attributes"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names 3 different shapes whose toothpicks add up to 12 (for example 3 sides, 4 sides and 5 sides).",
+      "partial": "Names 3 shapes but the toothpicks do not add to 12, or names fewer than 3 shapes.",
+      "incorrect": "Names shapes that cannot be made with straight toothpicks, like a circle.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer; open on purpose)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says each shape has the same number of sides and angles.",
+      "partial": "Says shapes have sides and angles but does not say the numbers match.",
+      "incorrect": "Says the numbers are different.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set note: each shape has the same number of sides and angles"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says shapes can look different but still have the same number of sides and angles.",
+      "partial": "Says 'to be sure' without mentioning sides or angles.",
+      "incorrect": "Says looking is enough.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_looks_not_attributes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: more than how a shape looks"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_finger",
+      "level": 2,
+      "text": "Put your finger by the first one you count. Go around the shape.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: counting angles"
+      }
+    },
+    {
+      "id": "h_corner",
+      "level": 1,
+      "text": "Look at each corner. Each corner makes one angle.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: three corners, three angles"
+      }
+    },
+    {
+      "id": "h_gap",
+      "level": 1,
+      "text": "Look for a gap between the sides.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: closed shape definition"
+      }
+    },
+    {
+      "id": "h_common",
+      "level": 1,
+      "text": "Count the sides and angles of each shape. What matches?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: Chart 1 common attributes"
+      }
+    },
+    {
+      "id": "h_small_fact",
+      "level": 2,
+      "text": "Use a small fact you know. It helps with the bigger numbers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint note: adding within 20 applied to larger numbers"
+      }
+    },
+    {
+      "id": "h_tens",
+      "level": 1,
+      "text": "Think of the number as tens and ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename for the Larger Unit"
+      }
+    },
+    {
+      "id": "h_toothpicks",
+      "level": 2,
+      "text": "Each side needs at least 1 toothpick. Count toothpicks for each shape.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_double_count",
+      "label": "Counting the same side or angle twice",
+      "description": "Child counts one side or angle more than once while going around a shape, so the count is too big.",
+      "detection_signals": [
+        "Gives a count larger than the number of sides shown (for example 10 for a 6-sided shape).",
+        "Says a different number for sides and for angles of the same polygon."
+      ],
+      "response_text": "Let's count again. Put your finger on the first one. Stop when you get back to it.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 'you won't count the same angle twice'; Student Debrief: Ethan counted 10 sides"
+      }
+    },
+    {
+      "id": "mis_looks_not_attributes",
+      "label": "Grouping by look instead of attributes",
+      "description": "Child decides two shapes are different kinds because they look different, not by counting sides and angles.",
+      "detection_signals": [
+        "Says shapes are not the same kind because one is bigger, longer or turned.",
+        "Does not mention the number of sides or angles when comparing."
+      ],
+      "response_text": "Shapes can look different. Count the sides and angles. That tells us the kind of shape.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: pay attention to more than how a shape looks"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_shape_viewer",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Side and angle counts must be exact. Diffusion often draws wrong numbers of sides.",
+      "description": "Draws one polygon (or open figure) from a list of corner points. Can mark each angle with a small arc and number the sides.",
+      "must_show_exactly": [
+        "Number of sides and corners exactly equals the question stimulus",
+        "Straight sides only, unless the stimulus asks for a curve",
+        "Open figures show a clear gap",
+        "Concave quadrilateral for q_pr_5 has exactly 4 sides and 4 angles, one angle opening outward"
+      ],
+      "states_or_frames": [
+        "closed polygon with N sides (N = 3-8)",
+        "angles marked with arcs",
+        "count-around mode: sides or angles highlight one at a time",
+        "triangle (3 sides)",
+        "concave quadrilateral (4 sides)",
+        "open figure with a gap"
+      ],
+      "interaction": "Display. Optional tap to mark each counted side or angle.",
+      "alt_text": "A flat shape with straight sides.",
+      "used_by": [
+        "ex_closed_open",
+        "ex_count_angles",
+        "exp_angle",
+        "exp_describe_no_name",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5"
+      ],
+      "generation_caption": "A single flat outline shape with N straight sides on a white background, thick dark lines, no labels. [Build by code]"
+    },
+    {
+      "asset_id": "a_geoboard",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Child must stretch a band between exact pegs. This is behaviour, not a picture.",
+      "description": "A square board of pegs. The child drags a band from peg to peg to make a shape.",
+      "must_show_exactly": [
+        "5 by 5 grid of pegs",
+        "Band corners snap to pegs",
+        "Tool reports the number of sides and corners made",
+        "q_pr_6: a band shape with exactly 7 sides and 7 angles"
+      ],
+      "states_or_frames": [
+        "empty board",
+        "band shape with 3-8 sides",
+        "count mode: sides highlight one by one"
+      ],
+      "interaction": "Drag to place band corners. Tap a band to count its sides.",
+      "alt_text": "A board of pegs with a band shaped into a polygon.",
+      "used_by": [
+        "exp_build_geoboard",
+        "q_pr_6"
+      ],
+      "generation_caption": "Flat square board with a 5 by 5 grid of round pegs, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_attribute_chart",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Each shape on the chart must have the exact number of sides named at the top.",
+      "description": "Four charts like the class charts: shapes with 3, 4, 5 and 6 sides. Each chart shows 4 different-looking shapes with the same count.",
+      "must_show_exactly": [
+        "Chart 1: 4 different triangles, all 3 sides and 3 angles",
+        "Chart 2: 4 different 4-sided shapes, one concave",
+        "Chart 3: 4 different 5-sided shapes",
+        "Chart 4: 4 different 6-sided shapes",
+        "Header text '3 sides and 3 angles' etc. drawn by code"
+      ],
+      "states_or_frames": [
+        "chart 1",
+        "chart 2",
+        "chart 3",
+        "chart 4"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "Charts of shapes grouped by number of sides.",
+      "used_by": [
+        "exp_same_attributes",
+        "q_db_1",
+        "q_pr_7"
+      ],
+      "generation_caption": "Four simple panels, each with four different outline shapes, flat style, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_toothpick_story",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "scene_by_code_with_icon_art",
+      "diffusion_suitable": "icon_only_then_code_layout",
+      "why_this_method": "The story needs exactly 12 toothpicks. Diffusion draws one toothpick icon; code places 12.",
+      "description": "A boy named Terrence with 12 toothpicks laid in a row on a table.",
+      "must_show_exactly": [
+        "Exactly 12 toothpicks",
+        "Toothpicks the same length"
+      ],
+      "states_or_frames": [
+        "12 toothpicks in a row"
+      ],
+      "interaction": "Display. Child answers by typing or speaking.",
+      "alt_text": "Twelve toothpicks in a row on a table.",
+      "used_by": [
+        "q_app_1"
+      ],
+      "generation_caption": "ICON ONLY: one plain wooden toothpick, flat style, white background. And separately: one original cartoon boy, no text. (Code places 12 toothpicks.)",
+      "review_notes": "Use an original character. The source name Terrence may be kept in text only."
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Adding Across a Ten (timed race)",
+      "reason": "Timed paper race (Sprint A then Sprint B, count correct). Items are used as q_sp_* questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_geoboard",
+      "name": "Geoboard and rubber band building",
+      "reason": "Physical materials; replaced by a_geoboard.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_stump",
+      "name": "Stump your partner (trade geoboards)",
+      "reason": "Needs a second child.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_pencil_angles",
+      "name": "Show angles with two pencils (big, tiny, huge)",
+      "reason": "Physical pencil shapes; the camera cannot check them.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_toothpicks",
+      "name": "Build with 12 real toothpicks",
+      "reason": "Physical materials; the child names shapes in q_app_1 instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 1(a-i), 2(a-e), 3; Exit Ticket 1-4; Homework 1(a-i), 2(a-e), 3",
+      "issue": "Picture-only items: shapes and letters A-F are pictures not in the extracted text, and no page images were attached. Not used as questions. Needs vision extraction from the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Sprint A and Sprint B",
+      "issue": "Sprint A items used: 2, 15, 16, 19, 20, 26, 27, 44 (one per pattern: plus ones, cross a ten, tens plus ones, tens plus tens, two-digit plus tens, cross a hundred). Sprint B has the same patterns, so no B items were used. The text shows no item numbers; numbering assumes left column = items 1-22, right column = items 23-44. Check against the PDF."
+    },
+    {
+      "id": "f7",
+      "severity": "low",
+      "item": "Sprint A items 17 and 28",
+      "issue": "Both read '8 + 4' in the extracted text. May be intentional; check the printed Sprint."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "q_app_1",
+      "issue": "The source sentence can mean 12 toothpicks shared by 3 shapes, or 12 toothpicks per shape. The rubric uses the first reading. Decide with the team."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "Proposals not added (not stated as misconceptions in the source): thinking the inward (concave) corner is not an angle; thinking all triangles must have equal sides."
+    },
+    {
+      "id": "f10",
+      "severity": "low",
+      "item": "Problem Set 2(e) / Exit Ticket (d) / Homework 2(e)",
+      "issue": "Source note says these can be answered two ways (all shapes, or only B and C). Keep both if the items are added later."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "r_pk_2, r_sp_a2, r_sp_a15, r_sp_a16, r_sp_a19, r_sp_a20, r_sp_a26, r_sp_a27, r_sp_a44, r_app_1",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example Grade 1 shape cards)."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 4 assets are marked not_available (a_shape_viewer, a_geoboard, a_attribute_chart, a_toothpick_story). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f19",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

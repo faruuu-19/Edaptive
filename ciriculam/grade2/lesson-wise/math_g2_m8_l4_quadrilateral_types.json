@@ -1,0 +1,962 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m8_l4_quadrilateral_types",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m8",
+      "file": "math-g2-m8-topic-a-lesson-4.md",
+      "source_version": "unknown (page footer not in the extracted text)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 8, Lesson 4",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the extracted text; page is 'n/a' and section names are given"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.7"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Find square corners and parallel sides. Use them to name kinds of quadrilaterals.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: Use attributes to identify and draw different quadrilaterals including rectangles, rhombuses, parallelograms, and trapezoids."
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_square_corner",
+      "title": "Square corners",
+      "text": "The corners of an index card are square corners. Put the card in a corner. If it fits, it is a square corner.",
+      "asset_ids": [
+        "a_corner_checker"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: index card"
+      }
+    },
+    {
+      "id": "exp_parallel",
+      "title": "Parallel lines",
+      "text": "Parallel lines stay the same distance apart. They never cross or touch, even if they go on and on.",
+      "asset_ids": [
+        "a_ruler_parallel"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: drawing parallel lines"
+      }
+    },
+    {
+      "id": "exp_quad_family",
+      "title": "Names from attributes",
+      "text": "A trapezoid has at least 1 pair of parallel sides. A parallelogram has 2 pairs. A rectangle has 4 square corners.",
+      "asset_ids": [
+        "a_quad_viewer"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: shape descriptions"
+      }
+    },
+    {
+      "id": "exp_square_rhombus",
+      "title": "Square and rhombus",
+      "text": "A square is a rectangle with 4 equal sides. A rhombus also has 4 equal sides. It does not need square corners.",
+      "asset_ids": [
+        "a_quad_viewer"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_trapezoid",
+      "title": "Drawing a trapezoid",
+      "text": "Draw a line 8 centimeters long. Draw a second line on the other ruler edge. Join the ends. It has 1 pair of parallel sides.",
+      "asset_ids": [
+        "a_ruler_parallel",
+        "a_quad_viewer"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 167 plus 47?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 167,
+        "b": 47
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_unit_form"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (S: 214)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 285 plus 38?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 285,
+        "b": 38
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit_form"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (sequence 285 + 38)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Look at an index card. How many angles does it have?",
+      "asset_ids": [
+        "a_corner_checker"
+      ],
+      "stimulus": {
+        "angles": 4
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_card"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Four!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "What do we call corners shaped like the corners of an index card?",
+      "asset_ids": [
+        "a_corner_checker"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_card"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'We call the angles ... square corners.'"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Two lines are parallel. If they go on and on, will they ever touch?",
+      "asset_ids": [
+        "a_ruler_parallel"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_parallel_look"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'they would never cross or touch'"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "A quadrilateral has at least 1 pair of parallel sides. What is it called?",
+      "asset_ids": [
+        "a_quad_viewer"
+      ],
+      "stimulus": {
+        "parallel_pairs": 1
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Trapezoid!)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "A quadrilateral has 2 pairs of parallel sides. What is it called?",
+      "asset_ids": [
+        "a_quad_viewer"
+      ],
+      "stimulus": {
+        "parallel_pairs": 2
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: A parallelogram!)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "A quadrilateral has 4 square corners. What is it called?",
+      "asset_ids": [
+        "a_quad_viewer"
+      ],
+      "stimulus": {
+        "square_corners": 4
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_card",
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: A rectangle!)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "A rectangle has all of its sides the same length. What special name does it have?",
+      "asset_ids": [
+        "a_quad_viewer"
+      ],
+      "stimulus": {
+        "square_corners": 4,
+        "equal_sides": 4
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_sides_equal"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: A square!)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "A quadrilateral has 4 equal sides but no square corners. What is it called?",
+      "asset_ids": [
+        "a_quad_viewer"
+      ],
+      "stimulus": {
+        "equal_sides": 4,
+        "square_corners": 0
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_sides_equal",
+        "h_card"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4: 'We call a quadrilateral with four equal sides a rhombus.'"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "This rectangle has 2 pairs of parallel sides. Is it also a trapezoid?",
+      "asset_ids": [
+        "a_quad_viewer"
+      ],
+      "stimulus": {
+        "shape": "rectangle"
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2: pointing to a parallelogram or rectangle (S: Yes!)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "What did all the shapes we talked about today have in common?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (They all were quadrilaterals ... four sides and four corners)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What makes a square a special rectangle?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_sides_equal"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: 'What makes a square a special rectangle?'"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "214",
+          "two hundred fourteen"
+        ]
+      },
+      "correct": "Says 214.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (S: 214)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "323",
+          "three hundred twenty-three"
+        ]
+      },
+      "correct": "Says 323.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming (sequence 285 + 38)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Four!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "square corners",
+          "square corner",
+          "square"
+        ]
+      },
+      "correct": "Says square corners.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'We call the angles ... square corners.'"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'they would never cross or touch'"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "trapezoid",
+          "a trapezoid"
+        ]
+      },
+      "correct": "Says trapezoid.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Trapezoid!)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "parallelogram",
+          "a parallelogram"
+        ]
+      },
+      "correct": "Says parallelogram.",
+      "partial": null,
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: A parallelogram!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "rectangle",
+          "a rectangle"
+        ]
+      },
+      "correct": "Says rectangle.",
+      "partial": "Says square (a special rectangle) instead of rectangle.",
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: A rectangle!)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "square",
+          "a square"
+        ]
+      },
+      "correct": "Says square.",
+      "partial": "Says rectangle (true, but not the most exact name).",
+      "incorrect": "Gives any other answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: A square!)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "rhombus",
+          "a rhombus"
+        ]
+      },
+      "correct": "Says rhombus.",
+      "partial": null,
+      "incorrect": "Says square or another name.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_rhombus_square_corners"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4: 'We call a quadrilateral with four equal sides a rhombus.'"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes"
+        ]
+      },
+      "correct": "Says yes (it has at least 1 pair of parallel sides).",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2: pointing to a parallelogram or rectangle (S: Yes!)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says they are all quadrilaterals, or all have 4 sides and 4 angles (corners).",
+      "partial": "Says they are all polygons, or names only sides or only corners.",
+      "incorrect": "Names something not shared.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (They all were quadrilaterals ... four sides and four corners)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says all 4 sides are the same length (and it has 4 square corners).",
+      "partial": "Says it has square corners but does not mention equal sides.",
+      "incorrect": "Gives an unrelated reason.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4: 'four square corners and four sides that are the same length'"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_card",
+      "level": 2,
+      "text": "Put the index card in the corner. Does it fit exactly?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: checking with the card"
+      }
+    },
+    {
+      "id": "h_parallel_look",
+      "level": 1,
+      "text": "Look for sides that go the same way and never meet.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1: 'they would never cross or touch'"
+      }
+    },
+    {
+      "id": "h_pairs",
+      "level": 2,
+      "text": "Count the pairs of parallel sides. Then check the corners.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: shape descriptions"
+      }
+    },
+    {
+      "id": "h_sides_equal",
+      "level": 1,
+      "text": "Are all 4 sides the same length?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4: measuring the square"
+      }
+    },
+    {
+      "id": "h_unit_form",
+      "level": 1,
+      "text": "Add the ones, then the tens, then the hundreds.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Addition with Renaming"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_rhombus_square_corners",
+      "label": "Thinking a rhombus must have square corners",
+      "description": "Child thinks a shape with 4 equal sides must be a square, or that a rhombus needs square corners.",
+      "detection_signals": [
+        "Says a rhombus has square corners.",
+        "Calls every shape with 4 equal sides a square."
+      ],
+      "response_text": "A rhombus has 4 equal sides. Its corners do not have to be square corners.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4: 'it doesn't have to have square corners'"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_quad_viewer",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Parallel sides, square corners and equal sides must be geometrically exact.",
+      "description": "Draws quadrilaterals: trapezoid, parallelogram, rectangle, square, rhombus, and an irregular one. Can mark parallel sides in colour and box square corners.",
+      "must_show_exactly": [
+        "Trapezoid: exactly 1 pair of parallel sides",
+        "Parallelogram: 2 pairs of parallel sides, no square corners",
+        "Rectangle: 4 square corners",
+        "Square: 4 square corners, 4 equal sides",
+        "Rhombus: 4 equal sides, no square corners"
+      ],
+      "states_or_frames": [
+        "each quadrilateral alone",
+        "parallel sides highlighted",
+        "square corners boxed"
+      ],
+      "interaction": "Display. Optional tap to highlight parallel sides.",
+      "alt_text": "A four-sided shape with its parallel sides marked.",
+      "used_by": [
+        "ex_trapezoid",
+        "exp_quad_family",
+        "exp_square_rhombus",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Simple outline quadrilaterals in bright flat colours, white background, no text. [Build by code]"
+    },
+    {
+      "asset_id": "a_corner_checker",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Checking a square corner needs an exact right-angle overlay.",
+      "description": "An on-screen index card the child drags onto a corner. It shows if the corner is a square corner.",
+      "must_show_exactly": [
+        "Card corner is exactly a right angle",
+        "Lines up with both sides when the corner is square"
+      ],
+      "states_or_frames": [
+        "card away",
+        "card on a square corner (fits)",
+        "card on a corner that is not square (gap shows)"
+      ],
+      "interaction": "Drag the card onto a corner.",
+      "alt_text": "An index card placed in the corner of a shape.",
+      "used_by": [
+        "exp_square_corner",
+        "q_pr_1",
+        "q_pr_2"
+      ],
+      "generation_caption": "Plain white rectangular card with a thin outline, flat style. [Build by code]"
+    },
+    {
+      "asset_id": "a_ruler_parallel",
+      "status": "not_available",
+      "kind": "animation",
+      "recommended_method": "code_rendered_svg_animation",
+      "diffusion_suitable": "no",
+      "why_this_method": "Lines must stay exactly the same distance apart.",
+      "description": "A ruler draws one line, then a second line along its other edge. The lines are then extended to show they never meet.",
+      "must_show_exactly": [
+        "2 straight lines, equal distance apart",
+        "Lines extend without touching"
+      ],
+      "states_or_frames": [
+        "frame 1: ruler and first line",
+        "frame 2: second line on the other edge",
+        "frame 3: both lines extend far, still apart"
+      ],
+      "interaction": "Plays once; can replay.",
+      "alt_text": "Two parallel lines drawn with a ruler.",
+      "used_by": [
+        "ex_trapezoid",
+        "exp_parallel",
+        "q_pr_3"
+      ],
+      "generation_caption": "Flat ruler and two straight lines on a white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_paper_ruler",
+      "name": "Drawing lines and quadrilaterals with a ruler on folded paper",
+      "reason": "Handwritten drawing with real tools; replaced by a_ruler_parallel and a_quad_viewer.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Parts 1-4"
+      }
+    },
+    {
+      "id": "na_fingers_corner",
+      "name": "Show a square corner with your fingers",
+      "reason": "Finger shapes; the camera cannot check them.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "na_classroom_parallel",
+      "name": "Find parallel lines in the classroom",
+      "reason": "Needs the real room.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, license CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all source_ref.page values",
+      "issue": "The source file is extracted text with no printed page numbers, so every page is \"n/a\" and the section is named instead. A person must add the printed page numbers from the PDF before use."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers or shapes, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "Problem Set 1-7, Exit Ticket 1-4, Homework 1-6",
+      "issue": "These items ask the child to draw lines or quadrilaterals, trace with crayons, or box corners on pictures not in the extracted text. No page images were attached. Not used. Homework 3-4 name prompts are covered by q_pr_5 and q_pr_6."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Application Problem",
+      "issue": "The source omits the Application Problem in this lesson ('omitted due to the time-intensive nature'). The card has no application question."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "examples",
+      "issue": "Only one worked example (trapezoid) is fully stepped in the source. Parallelogram and rectangle steps are similar and were left in explanations."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "Only one misconception is stated (rhombus corners). Proposals not added: thinking a rectangle or parallelogram cannot also be a trapezoid; thinking parallel lines must be the same length."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "r_pk_2",
+      "issue": "These answer keys are not printed in the source; they were computed from the problem numbers or the lesson's definitions. Recheck each one."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer questions have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hint-like teacher moves. Hints are adapted from teacher prompts and notes. Hint coverage is thin; check level and wording."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS block was given, so prerequisite_ids is empty. Decide which earlier cards are prerequisites (for example math_g2_m8_l3_*)."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with physical materials. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_quad_viewer, a_corner_checker, a_ruler_parallel). Each has a visual spec. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework labels",
+      "issue": "The extracted text does not print sheet titles or most item numbers. Sheets were identified by their order (Problem Set, then Exit Ticket, then Homework) and item numbers were inferred. Check against the PDF."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only the fluency standards printed in this lesson file were used. The lesson's main geometry or time standard is listed in the Module Overview, not in this file, so it was not added."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The page footer ('This file derived from ...') is not in the extracted text, so source_version is unknown. Fill it in from the PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

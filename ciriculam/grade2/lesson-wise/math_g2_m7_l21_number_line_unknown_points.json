@@ -1,0 +1,1416 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l21_number_line_unknown_points",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-e-lesson-21.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 21",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Find unknown numbers on a number line. Use the distance between numbers and points you know.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l20_length_word_problems_tape_diagrams",
+    "ext_g2_number_line_skip_count",
+    "ext_g2_meter_strip_centimeters"
+  ],
+  "explanations": [
+    {
+      "id": "exp_endpoints",
+      "title": "Endpoints and zooming in",
+      "text": "A number line has a left endpoint and a right endpoint. The left endpoint is often 0. You can zoom in on one piece, like 30 to 50. The other numbers are still there, just not written.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "exp_units",
+      "title": "Hash marks and units",
+      "text": "Hash marks are the small lines. A unit is the space between two hash marks. Count the spaces to count units. 5 hash marks make 4 units.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1; Student Debrief"
+      }
+    },
+    {
+      "id": "exp_unit_value",
+      "title": "Find points with the unit value",
+      "text": "Every unit on a number line has the same length. If you know one unit, you know them all. Count by that unit from a point you know to find the missing point.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 and 2; Student Debrief"
+      }
+    },
+    {
+      "id": "exp_middle",
+      "title": "Cut a length in half",
+      "text": "A hash mark in the middle is the same distance from both ends. Between 30 and 50 the middle is 40. Cut each half again to make 4 equal units of 5.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "exp_difference",
+      "title": "Difference between endpoints",
+      "text": "Add the unit lengths to find the total distance. You can also subtract the small endpoint from the big endpoint. Both ways give the same difference.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 and 2"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_30_50",
+      "title": "Number line from 30 to 50",
+      "text": "The endpoints are 30 and 50. There are 4 units. Each unit is 5. Count by fives: 30, 35, 40, 45, 50. Point A is 35 and Point B is 45. The difference is 20.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "ex_100_140",
+      "title": "Count up from 100",
+      "text": "A number line starts at 100. It has 4 units of 10. Count by tens: 100, 110, 120, 130, 140. Point E is 140. The difference is 40.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "ex_55_95",
+      "title": "Count back from 95",
+      "text": "A number line ends at 95. It has 4 units of 10. Count back by tens from 95. Point A is 55. The difference is 40.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Start at 9. Add 5 again and again. 9 plus 5 is 14. 14 plus 5 is 19. What is 19 plus 5?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_rule"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "base": 9,
+        "rule": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Roll and Follow the Rule"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Start at 38. Add 5. What number do you get?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_rule"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Roll and Follow the Rule (base number 38)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Start at 40. Take away 5 two times. What number do you get?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_rule"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Roll and Follow the Rule (base number 40 for subtraction)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "A meter strip goes from 0 to 1 meter. How many centimeters is 1 meter?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_count_by_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 100 centimeters)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Caroline is 57 inches tall. She is 18 inches taller than Addison. How tall is Addison, in inches?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_two_steps"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "caroline": 57,
+        "difference": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Riders must be at least 44 inches tall. Addison is 39 inches tall. How many more inches must Addison grow to ride?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_two_steps"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "minimum": 44,
+        "addison": 39
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A number line has endpoints 30 and 50. What number is in the middle?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_middle"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "left": 30,
+        "right": 50
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 40)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "The number line from 30 to 50 has a hash mark at 40. We add a mark between 30 and 40 and one between 40 and 50. How many hash marks are there now?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_count_spaces"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "hash_marks": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: Five!)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "The number line from 30 to 50 has 5 hash marks. How many units does it have?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_count_spaces"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "hash_marks": 5,
+        "units": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: There are 4 units!)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "The number line goes from 30 to 50 in 4 equal units. What is the length of each unit?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_by_unit",
+        "h_middle"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "left": 30,
+        "right": 50,
+        "units": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 5)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "On the number line from 30 to 50, each unit is 5. What is the value of Point A, the first mark after 30?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_count_by_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "left": 30,
+        "unit": 5,
+        "point": "A"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (Point A is 35)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Each unit is 5. Point B is the mark between 40 and 50. What is its value?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_count_by_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "left": 30,
+        "unit": 5,
+        "point": "B"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (30, 35, 40, 45, 50)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "The number line from 30 to 50 has 4 units of 5. What is the difference between the endpoints?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_count_by_unit",
+        "h_subtract_ends"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "left": 30,
+        "right": 50
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 20)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "A number line has 4 units. Each unit is 10. The left endpoint is 100. What is the right endpoint?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_count_by_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "left": 100,
+        "unit": 10,
+        "units": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 140)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "The number line goes from 100 to 140. What is the difference between the endpoints?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_subtract_ends"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "left": 100,
+        "right": 140
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 40)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "A number line has 4 units. Each unit is 10. The right endpoint is 95. What is the left endpoint?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_count_back"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "right": 95,
+        "unit": 10,
+        "units": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (S: 55)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "The number line goes from 55 to 95. What is the difference between the endpoints?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_subtract_ends"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "left": 55,
+        "right": 95
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (S: 40)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "A number line has 7 hash marks. How many units does it have?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_count_spaces"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "hash_marks": 7,
+        "units": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Count the hash marks. (7.) Count the units. (6.))"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "What do we count when we count units on a number line?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_count_spaces"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (We count the spaces between the hash marks)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What do the hash marks do on a number line?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_count_spaces"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "You know the value of one unit on a number line. Do you know the value of all the units?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_count_by_unit"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "How can you find the difference between the endpoints of a number line?",
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_subtract_ends"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4 on the Problem Set)"
+      }
+    },
+    {
+      "id": "q_db_5",
+      "kind": "debrief",
+      "text": "On a yardstick, can you find two different sections with the same difference between endpoints?",
+      "rubric_id": "r_db_5",
+      "hint_ids": [
+        "h_reason"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty-four"
+        ]
+      },
+      "correct": "Says 24.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Roll and Follow the Rule (9 + 5 = 14, 14 + 5 = 19, 19 + 5 = 24)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "43",
+          "forty-three"
+        ]
+      },
+      "correct": "Says 43.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Roll and Follow the Rule (base number 38; the rule 5 is the lesson example; answer not printed; 38 + 5 = 43)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Roll and Follow the Rule (base number 40; the rule 5 is the lesson example; answer not printed; 40 - 5 - 5 = 30)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 centimeters",
+          "one hundred centimeters"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 100 centimeters!)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "39",
+          "thirty-nine",
+          "39 inches",
+          "thirty-nine inches"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (answer not printed; 57 - 18 = 39)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 inches",
+          "five inches",
+          "5 more inches",
+          "five more inches"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (answer not printed; 44 - 39 = 5)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 40.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: Five!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: There are 4 units!)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 5.)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five"
+        ]
+      },
+      "correct": "Says 35.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: Point A has to be 35)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five"
+        ]
+      },
+      "correct": "Says 45.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: counted by fives: 30, 35, 40, 45, 50)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 5 + 5 + 5 + 5 = 20)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "140",
+          "one hundred forty"
+        ]
+      },
+      "correct": "Says 140.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 140.)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: The difference is 40.)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55",
+          "fifty-five"
+        ]
+      },
+      "correct": "Says 55.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (S: 55.)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (S: 40.)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (7 hash marks, 6 units)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "the spaces between the hash marks",
+          "spaces between the hash marks",
+          "the spaces",
+          "spaces",
+          "the spaces between the marks"
+        ]
+      },
+      "correct": "Says the spaces between the hash marks.",
+      "partial": "Says hash marks.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (We count the spaces between the hash marks)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says they separate the units and show where to write numbers.",
+      "partial": "Says only one of the two jobs.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (They separate the units and tell us where to write the reference points)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes you do",
+          "yes all units are the same"
+        ]
+      },
+      "correct": "Says yes, because all units are the same length.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; the units on a number line are equal)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to subtract the endpoints or to count up the units.",
+      "partial": "Says to use the number line but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; count up by the units or subtract the small endpoint from the big one)"
+      }
+    },
+    {
+      "id": "r_db_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes you can"
+        ]
+      },
+      "correct": "Says yes and may give two sections of the same length.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; yes, as in 30 to 50 and 100 to 120)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_count_spaces",
+      "level": 1,
+      "text": "Count the spaces between the hash marks. Do not count the marks.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (We count the spaces between the hash marks)"
+      }
+    },
+    {
+      "id": "h_count_by_unit",
+      "level": 2,
+      "text": "Count by the unit value. Start at a number you know.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 and 2 (count by fives, count by tens)"
+      }
+    },
+    {
+      "id": "h_count_back",
+      "level": 2,
+      "text": "To find the left endpoint, count backward by the unit value from the right endpoint.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (count backward from 95 by tens)"
+      }
+    },
+    {
+      "id": "h_subtract_ends",
+      "level": 2,
+      "text": "Subtract the small endpoint from the big endpoint. Or count up by the units.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (I subtracted the shorter endpoint from the longer endpoint)"
+      }
+    },
+    {
+      "id": "h_middle",
+      "level": 1,
+      "text": "The middle is the same distance from both ends.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "h_rule",
+      "level": 1,
+      "text": "Add the same number each time. Use the number you just got.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Roll and Follow the Rule (add 5 repeatedly)"
+      }
+    },
+    {
+      "id": "h_two_steps",
+      "level": 2,
+      "text": "Find the first missing height. Then use it to answer the second question.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (two-step problem; use RDW)"
+      }
+    },
+    {
+      "id": "h_reason",
+      "level": 1,
+      "text": "Think about the spaces and the hash marks on a number line.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Hash marks, equal units and exact labels need exact behaviour. Diffusion cannot space marks evenly or write correct numbers.",
+      "description": "A number line with two endpoints, equally spaced hash marks and units. Some points are labelled and some show a letter or question mark.",
+      "must_show_exactly": [
+        "Equal spacing between hash marks",
+        "Number of hash marks and units match the stimulus",
+        "Endpoints and given points labelled with the stimulus numbers",
+        "Unknown points shown with a letter",
+        "Difference between endpoints can be shown on the side"
+      ],
+      "states_or_frames": [
+        "30 to 50 with 3 marks (30, 40, 50)",
+        "30 to 50 with 5 marks (30, A, 40, B, 50)",
+        "100 to E with 5 marks",
+        "A to 95 with 5 marks",
+        "number line with 7 hash marks and 6 units"
+      ],
+      "interaction": "Tutor sets the endpoints, unit and points from the stimulus. Child answers by voice or typing.",
+      "alt_text": "A number line with equally spaced hash marks and labelled endpoints.",
+      "used_by": [
+        "ex_100_140",
+        "ex_30_50",
+        "ex_55_95",
+        "exp_difference",
+        "exp_endpoints",
+        "exp_middle",
+        "exp_unit_value",
+        "exp_units",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat number line, hash marks and labels, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_roll",
+      "name": "Roll and Follow the Rule (die and notebook, timed 30 seconds)",
+      "reason": "Needs a die, a notebook and a timer. Three questions are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Roll and Follow the Rule"
+      }
+    },
+    {
+      "id": "na_core_fluency",
+      "name": "Grade 2 Core Fluency Differentiated Practice Sets",
+      "reason": "Printed practice sets from Lesson 1. They are not in this lesson, so no items are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_meter_strip",
+      "name": "Draw a number line from a meter strip with a ruler",
+      "reason": "Needs the meter strip template, a ruler and a white board. A number line widget replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "na_talk",
+      "name": "Turn and talk about number lines",
+      "reason": "Talk with a classmate cannot be run by the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Student Debrief"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_number_line). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set and Exit Ticket",
+      "issue": "Every Problem Set and Exit Ticket item asks for a letter on a number line or a meter strip that is drawn in the PDF. The pictures are not in the .md. No items were made from them. Add items from the PDF once the number lines are seen."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "Homework",
+      "issue": "Homework items also depend on number lines drawn in the PDF. No items were made. Add them from the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md has three unlabelled sheets. Nothing was taken from them. Problem 4 in the Debrief (find the difference between endpoints) is used in q_db_4 without the printed number line."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "q_pk_2, q_pk_3",
+      "issue": "The base numbers 38 and 40 are printed. The rule (add 5, subtract 5) is taken from the lesson example because the child rolls the rule. Answers computed by code: 43 and 30."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_app_1, q_app_2",
+      "issue": "The Application Problem asks two questions. The source gives no answers. Both were computed by code from the numbers: 57 minus 18 is 39 and 44 minus 39 is 5."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_pr_12",
+      "issue": "The Debrief says the first Problem Set number line has 7 hash marks and 6 units. The picture is not available. The question uses only the printed counts."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_db_5",
+      "issue": "The answer is not printed. Answer yes is derived. The example sections 30 to 50 and 100 to 120 are an example for the rubric only."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "h_reason",
+      "issue": "Generated hint. No hint is in the source for this task. Needs review. Hint coverage is thin."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Core Fluency Practice Sets",
+      "issue": "The Core Fluency Practice Sets are listed only in activities_not_tutorable (na_core_fluency). No questions were made from them."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l20_length_word_problems_tape_diagrams is an earlier card. ext_g2_number_line_skip_count and ext_g2_meter_strip_centimeters are prerequisite cards that do not exist yet."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added. Proposal: a child may count hash marks instead of units. The Debrief hints at this (7 hash marks, 6 units)."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

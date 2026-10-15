@@ -56,7 +56,7 @@ def main():
         + args.assessment.read_bytes()
         + (args.root / "script_agent/gold_examples.json").read_bytes()
         + (args.root / "script_agent/gold_rewrites.json").read_bytes()
-        + b"qwen3.5:9b-q4_K_M"
+        + json.dumps(installed, sort_keys=True).encode()
     ).hexdigest()
     checkpoint = Checkpoint(args.output / "preparation.checkpoint.json", fingerprint)
     tolerance = PressureTolerance()

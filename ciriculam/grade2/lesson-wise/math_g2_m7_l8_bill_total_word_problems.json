@@ -1,0 +1,2763 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l8_bill_total_word_problems",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-b-lesson-8.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 8",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve word problems involving the total value of a group of bills.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l7_coin_total_word_problems",
+    "ext_g2_skip_count_by_5_and_10",
+    "ext_g2_add_within_20"
+  ],
+  "explanations": [
+    {
+      "id": "exp_order_bills",
+      "title": "Order the bills",
+      "text": "Put the bills in order from greatest to least. Count the tens by tens. Count on by fives. Then add the ones.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: greatest to least, skip-counted by tens, then fives, then ones)"
+      }
+    },
+    {
+      "id": "exp_put_together",
+      "title": "Put together",
+      "text": "To find the total of many bills, find the value of each kind of bill. Then add the parts. A tape diagram or number bond shows the parts and the whole.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_take_from",
+      "title": "Take from",
+      "text": "When money is spent, add up the bills spent. Then subtract from the money you started with. The whole is what you started with.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_compare",
+      "title": "More and less",
+      "text": "Words like more and less can be tricky. Find one total first. Then check that the drawing shows who has more and who has less.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "exp_drawing",
+      "title": "A drawing that makes sense",
+      "text": "A drawing with a question mark for the unknown shows what you need to find. Some drawings are quicker than others, but a drawing must make sense.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (the important thing is that a drawing makes sense)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_alyssa",
+      "title": "Alyssa's wallet",
+      "text": "Alyssa has 3 ten-dollar bills, 5 five-dollar bills and 12 one-dollar bills. 30 plus 25 plus 12 is 67. Alyssa has 67 dollars.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_silas",
+      "title": "Silas's gift",
+      "text": "Silas spent 2 twenty-dollar bills, 3 five-dollar bills and 4 one-dollar bills. That is 59 dollars. He started with 80 dollars. 80 minus 59 is 21. Silas saves 21 dollars.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "ex_deste",
+      "title": "Deste and Kirsten",
+      "text": "Deste has 4 ten-dollar bills and 6 five-dollar bills. That is 70 dollars. Kirsten has 25 dollars less. 70 minus 25 is 45. Kirsten has 45 dollars.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is the value of 1 dime more than 1 quarter, in cents?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_count_on_coins"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "start": 25,
+        "add": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is the value of 1 quarter more than 35 cents, in cents?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_count_on_coins"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "start": 35,
+        "add": 25
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is the value of 1 quarter more than 60 cents, in cents?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_count_on_coins"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "start": 60,
+        "add": 25
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is the value of a dime and a nickel more than 85 cents, in cents?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_count_on_coins"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "start": 85,
+        "add": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Kiko's brother trades her 2 quarters, 4 dimes and 2 nickels for a one-dollar bill. How many cents are the coins worth?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_coins_order"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "2 quarters, 4 dimes, 2 nickels"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "A one-dollar bill is worth 100 cents. Is the trade fair? How do you know?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_coins_order"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "What do we do first when we see a word problem?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_draw"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Read the whole thing.)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Alyssa has 3 ten-dollar bills. How many dollars are the ten-dollar bills worth?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_skip_bills"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills"
+      ],
+      "stimulus": {
+        "bills": "3 ten-dollar bills"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Alyssa also has 5 five-dollar bills. How many dollars are the five-dollar bills worth?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_skip_bills"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills"
+      ],
+      "stimulus": {
+        "bills": "5 five-dollar bills"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Alyssa has 3 ten-dollar bills, 5 five-dollar bills and 12 one-dollar bills. How many dollars does she have in all?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_order",
+        "h_skip_bills"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "bills": "3 ten-dollar bills, 5 five-dollar bills, 12 one-dollar bills",
+        "total": 67
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Alyssa has 67 dollars)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Silas spends 2 twenty-dollar bills, 3 five-dollar bills and 4 one-dollar bills. How many dollars does he spend?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_order",
+        "h_skip_bills"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "bills": "2 twenty-dollar bills, 3 five-dollar bills, 4 one-dollar bills",
+        "total": 59
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 59 dollars)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Silas started with 80 dollars. He spent 59 dollars. How many dollars will he save?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_take_from"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "whole": 80,
+        "part": 59
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Silas saved 21 dollars)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Deste has 4 ten-dollar bills and 6 five-dollar bills. How many dollars does she have?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_skip_bills"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "bills": "4 ten-dollar bills, 6 five-dollar bills",
+        "total": 70
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 70 dollars)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Deste has 70 dollars. She has 25 dollars more than Kirsten. Who has less money?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "deste": 70,
+        "more": 25
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: Deste has more)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Deste has 70 dollars. That is 25 dollars more than Kirsten. How many dollars does Kirsten have?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_compare",
+        "h_draw"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "whole": 70,
+        "difference": 25
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: Kirsten has 45 dollars)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Patrick has 1 ten-dollar bill, 2 five-dollar bills and 4 one-dollar bills. How many dollars does he have?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "1 ten, 2 fives, 4 ones",
+        "answer": 24
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Susan has 2 five-dollar bills and 3 ten-dollar bills in her purse. She has 11 one-dollar bills in her pocket. How many dollars does she have in all?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "2 fives, 3 tens, 11 ones",
+        "answer": 51
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Raja has 60 dollars. He gives his cousin 1 twenty-dollar bill and 3 five-dollar bills. How many dollars does Raja have left?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "60 minus 1 twenty, 3 fives",
+        "answer": 25
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Michael has 4 ten-dollar bills and 7 five-dollar bills. He has 3 more ten-dollar bills and 2 more five-dollar bills than Tamara. How many dollars does Tamara have?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Michael 4 tens 7 fives minus 3 tens 2 fives",
+        "answer": 35
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Antonio has 4 ten-dollar bills, 5 five-dollar bills and 16 one-dollar bills. He puts 70 dollars in his bank account. How many dollars are not put in the bank?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Antonio total minus 70",
+        "answer": 11
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Mrs. Clark has 8 five-dollar bills and 2 ten-dollar bills in her wallet. She has 1 twenty-dollar bill and 12 one-dollar bills in her purse. How many more dollars are in her wallet than in her purse?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "wallet minus purse",
+        "answer": 28
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Josh has 3 five-dollar bills, 2 ten-dollar bills and 7 one-dollar bills. He gives Suzy 1 five-dollar bill and 2 one-dollar bills. How many dollars does Josh have left?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Josh",
+        "answer": 35
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "Jeremy has 3 one-dollar bills and 1 five-dollar bill. Jessica has 2 ten-dollar bills and 2 five-dollar bills. Sam has 2 ten-dollar bills and 4 five-dollar bills. How many dollars do they have together?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Jeremy, Jessica and Sam",
+        "answer": 78
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Mr. Chang has 4 ten-dollar bills, 3 five-dollar bills and 6 one-dollar bills. How many dollars does he have in all?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Mr. Chang",
+        "answer": 61
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "Danielle gets 1 twenty-dollar bill and 5 one-dollar bills last week at her yard sale. This week she gets 3 ten-dollar bills and 3 five-dollar bills. How many dollars does she get for both weeks?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Danielle",
+        "answer": 70
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Patrick has 2 fewer ten-dollar bills than Brenna. Patrick has 64 dollars. How many dollars does Brenna have?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Patrick 64 plus 2 tens",
+        "answer": 84
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "On Saturday, Mary Jo gets 5 ten-dollar bills, 4 five-dollar bills and 17 one-dollar bills. On Sunday, she gets 4 ten-dollar bills, 5 five-dollar bills and 15 one-dollar bills. How many more dollars does she get on Saturday than on Sunday?",
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Mary Jo Saturday minus Sunday",
+        "answer": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "Alexis has 95 dollars. She has 2 more five-dollar bills, 5 more one-dollar bills and 2 more ten-dollar bills than Kasai. How many dollars does Kasai have?",
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Alexis 95 minus extra bills",
+        "answer": 60
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "Kate has 2 ten-dollar bills, 6 five-dollar bills and 21 one-dollar bills. She spends 45 dollars on a new outfit. How many dollars are not spent?",
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_draw",
+        "h_each_kind",
+        "h_take_from",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Kate total minus 45",
+        "answer": 26
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How did you think about the one-dollar bills when you found Susan's money? Did place value help?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_each_kind"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What strategy did you use to compare Michael's and Tamara's money?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "A problem asks how much more money is in the wallet than in the purse. Do you add or subtract?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 6)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "How did your drawing help you know what you were trying to find?",
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_draw"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 5)"
+      }
+    },
+    {
+      "id": "q_db_5",
+      "kind": "debrief",
+      "text": "What is a good way to count many different bills? How can you organize them?",
+      "rubric_id": "r_db_5",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bills"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 9 plus 2?",
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_a3",
+      "kind": "practice",
+      "text": "What is 9 plus 4?",
+      "rubric_id": "r_sp_a3",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 3)"
+      }
+    },
+    {
+      "id": "q_sp_a4",
+      "kind": "practice",
+      "text": "What is 9 plus 7?",
+      "rubric_id": "r_sp_a4",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 4)"
+      }
+    },
+    {
+      "id": "q_sp_a6",
+      "kind": "practice",
+      "text": "What is 10 plus 1?",
+      "rubric_id": "r_sp_a6",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 + 1"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 6)"
+      }
+    },
+    {
+      "id": "q_sp_a9",
+      "kind": "practice",
+      "text": "What is 10 plus 8?",
+      "rubric_id": "r_sp_a9",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 9)"
+      }
+    },
+    {
+      "id": "q_sp_a11",
+      "kind": "practice",
+      "text": "What is 8 plus 3?",
+      "rubric_id": "r_sp_a11",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 11)"
+      }
+    },
+    {
+      "id": "q_sp_a13",
+      "kind": "practice",
+      "text": "What is 8 plus 5?",
+      "rubric_id": "r_sp_a13",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 13)"
+      }
+    },
+    {
+      "id": "q_sp_a14",
+      "kind": "practice",
+      "text": "What is 8 plus 9?",
+      "rubric_id": "r_sp_a14",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 14)"
+      }
+    },
+    {
+      "id": "q_sp_a19",
+      "kind": "practice",
+      "text": "What is 7 plus 5?",
+      "rubric_id": "r_sp_a19",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "7 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 19)"
+      }
+    },
+    {
+      "id": "q_sp_a24",
+      "kind": "practice",
+      "text": "What is 4 plus 8?",
+      "rubric_id": "r_sp_a24",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "4 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 24)"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "practice",
+      "text": "What is 5 plus 7?",
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "5 + 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 26)"
+      }
+    },
+    {
+      "id": "q_sp_a31",
+      "kind": "practice",
+      "text": "What is 5 plus 8?",
+      "rubric_id": "r_sp_a31",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "5 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 31)"
+      }
+    },
+    {
+      "id": "q_sp_a33",
+      "kind": "practice",
+      "text": "What is 6 plus 9?",
+      "rubric_id": "r_sp_a33",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "6 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 33)"
+      }
+    },
+    {
+      "id": "q_sp_a38",
+      "kind": "practice",
+      "text": "What is 8 plus 7?",
+      "rubric_id": "r_sp_a38",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 38)"
+      }
+    },
+    {
+      "id": "q_sp_a43",
+      "kind": "practice",
+      "text": "What is 9 plus 9?",
+      "rubric_id": "r_sp_a43",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 43)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five",
+          "35 cents",
+          "thirty-five cents",
+          "35¢",
+          "35 cent",
+          "35 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 35 cents)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty",
+          "60 cents",
+          "sixty cents",
+          "60¢",
+          "60 cent",
+          "60 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 60 cents)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "85",
+          "eighty-five",
+          "85 cents",
+          "eighty-five cents",
+          "85¢",
+          "85 cent",
+          "85 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 85 cents)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 cents",
+          "one hundred cents",
+          "100¢",
+          "100 cent",
+          "100 c",
+          "$1",
+          "1 dollar",
+          "one dollar",
+          "$1.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 100 cents. 1 dollar!)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 cents",
+          "one hundred cents",
+          "100¢",
+          "100 cent",
+          "100 c",
+          "$1",
+          "1 dollar",
+          "one dollar",
+          "$1.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 50 + 40 + 10 = 100)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes, it is fair, because the coins are worth 100 cents, the same as 1 dollar.",
+      "partial": "Says yes or no but gives no reason.",
+      "incorrect": "Says it is not fair.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; fair, because the coins are worth 100 cents, the same as 1 dollar)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "read it",
+          "read",
+          "read the problem",
+          "read the whole thing"
+        ]
+      },
+      "correct": "Says read it.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Read the whole thing.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty",
+          "$30",
+          "30 dollars",
+          "thirty dollars",
+          "$30.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: skip-counted by tens: 10, 20, 30)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five",
+          "$25",
+          "25 dollars",
+          "twenty-five dollars",
+          "$25.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 35, 40, 45, 50, 55 after 30; 5 fives is 25)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "67",
+          "sixty-seven",
+          "$67",
+          "67 dollars",
+          "sixty-seven dollars",
+          "$67.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 30 + 25 + 12 = 67)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "59",
+          "fifty-nine",
+          "$59",
+          "59 dollars",
+          "fifty-nine dollars",
+          "$59.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 40 + 15 + 4 = 59)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21",
+          "twenty-one",
+          "$21",
+          "21 dollars",
+          "twenty-one dollars",
+          "$21.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 80 - 59 = 21)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "70",
+          "seventy",
+          "$70",
+          "70 dollars",
+          "seventy dollars",
+          "$70.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 10, 20, 30, 40, 45, 50, ... 70)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "kirsten"
+        ]
+      },
+      "correct": "Says kirsten.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: Who has more money? Deste!)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five",
+          "$45",
+          "45 dollars",
+          "forty-five dollars",
+          "$45.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 70 - 25 = 45)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty-four",
+          "$24",
+          "24 dollars",
+          "twenty-four dollars",
+          "$24.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (answer not printed; 24 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "51",
+          "fifty-one",
+          "$51",
+          "51 dollars",
+          "fifty-one dollars",
+          "$51.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (answer not printed; 51 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five",
+          "$25",
+          "25 dollars",
+          "twenty-five dollars",
+          "$25.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (answer not printed; 25 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five",
+          "$35",
+          "35 dollars",
+          "thirty-five dollars",
+          "$35.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4 (answer not printed; 35 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven",
+          "$11",
+          "11 dollars",
+          "eleven dollars",
+          "$11.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5 (answer not printed; 11 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "28",
+          "twenty-eight",
+          "$28",
+          "28 dollars",
+          "twenty-eight dollars",
+          "$28.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6 (answer not printed; 28 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five",
+          "$35",
+          "35 dollars",
+          "thirty-five dollars",
+          "$35.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1 (answer not printed; 35 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "78",
+          "seventy-eight",
+          "$78",
+          "78 dollars",
+          "seventy-eight dollars",
+          "$78.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2 (answer not printed; 78 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "61",
+          "sixty-one",
+          "$61",
+          "61 dollars",
+          "sixty-one dollars",
+          "$61.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (answer not printed; 61 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "70",
+          "seventy",
+          "$70",
+          "70 dollars",
+          "seventy dollars",
+          "$70.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2 (answer not printed; 70 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "84",
+          "eighty-four",
+          "$84",
+          "84 dollars",
+          "eighty-four dollars",
+          "$84.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3 (answer not printed; 84 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven",
+          "$7",
+          "7 dollars",
+          "seven dollars",
+          "$7.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4 (answer not printed; 7 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty",
+          "$60",
+          "60 dollars",
+          "sixty dollars",
+          "$60.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5 (answer not printed; 60 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty-six",
+          "$26",
+          "26 dollars",
+          "twenty-six dollars",
+          "$26.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6 (answer not printed; 26 dollars computed from the bills in the text)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the ones can be added to the tens and fives, and place value helps by thinking of tens and ones.",
+      "partial": "Says how they added the ones but not about place value.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; tens and ones)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names a strategy such as a number bond, a tape diagram, a picture or an equation.",
+      "partial": "Says they found the total but names no strategy.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; number bond, tape diagram, pictures or equations)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "subtract",
+          "subtraction",
+          "minus"
+        ]
+      },
+      "correct": "Says subtract.",
+      "partial": "Says add but then checks and changes the answer.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (discuss comparison problems and how not to be tricked by the word more; answer inferred: subtract to compare)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the question mark in the drawing showed the unknown part, such as the money not put in the bank.",
+      "partial": "Says the drawing helped but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; a question mark for the unknown)"
+      }
+    },
+    {
+      "id": "r_db_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says put the bills in order from greatest to least, or group them by kind, then count each group.",
+      "partial": "Says count them but gives no way to organize.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; group the bills by kind, order greatest to least)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1 (no answer printed; 9 + 2)"
+      }
+    },
+    {
+      "id": "r_sp_a3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 3 (no answer printed; 9 + 4)"
+      }
+    },
+    {
+      "id": "r_sp_a4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 4 (no answer printed; 9 + 7)"
+      }
+    },
+    {
+      "id": "r_sp_a6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 6 (no answer printed; 10 + 1)"
+      }
+    },
+    {
+      "id": "r_sp_a9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 9 (no answer printed; 10 + 8)"
+      }
+    },
+    {
+      "id": "r_sp_a11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 11 (no answer printed; 8 + 3)"
+      }
+    },
+    {
+      "id": "r_sp_a13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 13 (no answer printed; 8 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17",
+          "seventeen"
+        ]
+      },
+      "correct": "Says 17.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 14 (no answer printed; 8 + 9)"
+      }
+    },
+    {
+      "id": "r_sp_a19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 19 (no answer printed; 7 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 24 (no answer printed; 4 + 8)"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 26 (no answer printed; 5 + 7)"
+      }
+    },
+    {
+      "id": "r_sp_a31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 31 (no answer printed; 5 + 8)"
+      }
+    },
+    {
+      "id": "r_sp_a33",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 33 (no answer printed; 6 + 9)"
+      }
+    },
+    {
+      "id": "r_sp_a38",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 38 (no answer printed; 8 + 7)"
+      }
+    },
+    {
+      "id": "r_sp_a43",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 43 (no answer printed; 9 + 9)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_order",
+      "level": 1,
+      "text": "Put the bills in order. Start with the bills worth the most.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_skip_bills",
+      "level": 1,
+      "text": "Count the tens by tens. Count the fives by fives. Then add the ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: skip-counted by tens, then fives, then ones)"
+      }
+    },
+    {
+      "id": "h_each_kind",
+      "level": 1,
+      "text": "Find the value of each kind of bill first. Then add the values.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (find the total value of the tens, then fives, then ones)"
+      }
+    },
+    {
+      "id": "h_take_from",
+      "level": 2,
+      "text": "Find the money that was spent. Then subtract it from the money you started with.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (first add, then subtract from the start)"
+      }
+    },
+    {
+      "id": "h_compare",
+      "level": 2,
+      "text": "Find one total first. Then ask: does this person have more or less?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (look back at the problem; who has more)"
+      }
+    },
+    {
+      "id": "h_draw",
+      "level": 1,
+      "text": "Draw the bills. Put a question mark for the part you need to find.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Student Debrief (drawing labeled with a question mark for the unknown)"
+      }
+    },
+    {
+      "id": "h_coins_order",
+      "level": 1,
+      "text": "Start with the coin worth the most. Count on from there.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note (order coins from greatest to least)"
+      }
+    },
+    {
+      "id": "h_sp_ten",
+      "level": 1,
+      "text": "Make a ten first. Then add the rest.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_count_on_coins",
+      "level": 1,
+      "text": "Add the coin value to the amount you have. Count on from there.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_bills",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact bill counts and bill values need exact behaviour. Diffusion cannot count or draw the same bill every time.",
+      "description": "Groups of play-money bills. Each bill is a one, five, ten or twenty-dollar bill. Bills can be put in order from greatest to least.",
+      "must_show_exactly": [
+        "Exactly the bills in the stimulus",
+        "Each bill shows its value",
+        "Bills of one kind sit together",
+        "Bills can be ordered greatest to least"
+      ],
+      "states_or_frames": [
+        "Alyssa's wallet",
+        "Silas's gift",
+        "Deste's bills",
+        "Patrick's bills",
+        "Susan's bills",
+        "Mrs. Clark's wallet and purse"
+      ],
+      "interaction": "Tutor sets the bills from the stimulus. Child can move bills into groups. Child answers by voice or typing.",
+      "alt_text": "Dollar bills in groups.",
+      "used_by": [
+        "ex_alyssa",
+        "ex_deste",
+        "ex_silas",
+        "exp_compare",
+        "exp_order_bills",
+        "exp_put_together",
+        "exp_take_from",
+        "q_db_1",
+        "q_db_5",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Plain flat dollar-bill icons for 1, 5, 10 and 20 dollars, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_part_whole",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact part and whole numbers need exact behaviour.",
+      "description": "A tape diagram or number bond with a whole and parts. One value can be a question mark.",
+      "must_show_exactly": [
+        "Parts add to the whole",
+        "Unknown shown with a question mark",
+        "Numbers match the stimulus"
+      ],
+      "states_or_frames": [
+        "Three parts make an unknown whole",
+        "80 whole, 59 part, unknown part",
+        "70 whole and 25 difference, unknown 45"
+      ],
+      "interaction": "Tutor sets the whole and parts from the stimulus. Child answers by voice or typing.",
+      "alt_text": "A tape diagram with parts.",
+      "used_by": [
+        "ex_alyssa",
+        "ex_deste",
+        "ex_silas",
+        "exp_compare",
+        "exp_drawing",
+        "exp_put_together",
+        "exp_take_from",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Tape diagram or number bond with a question mark, plain white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_coins",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact coin counts and coin images need exact behaviour. Diffusion cannot count or draw the same coin every time.",
+      "description": "Coins in a row or group. Each coin is a penny, nickel, dime or quarter.",
+      "must_show_exactly": [
+        "Exactly the coins in the stimulus",
+        "Each coin looks like its real coin",
+        "Value labels only when the stimulus asks"
+      ],
+      "states_or_frames": [
+        "Kiko's 2 quarters, 4 dimes and 2 nickels",
+        "a quarter and a dime",
+        "a dime and a nickel"
+      ],
+      "interaction": "Tutor sets the coins from the stimulus. Child can move coins. Child answers by voice or typing.",
+      "alt_text": "Real-looking coins in a row.",
+      "used_by": [
+        "q_app_1",
+        "q_app_2",
+        "q_pk_1",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pk_4"
+      ],
+      "generation_caption": "Plain flat coin icons, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Adding Across a Ten (timed Sprint A and B)",
+      "reason": "Timed paper race with 44 items per sheet. The items are used as questions. The race cannot run on a screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw and label, write number sentences and statements on a white board",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    },
+    {
+      "id": "na_play_money",
+      "name": "Hold and sort real play-money bills",
+      "reason": "Needs a teacher and real bills. The widget a_bills replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_bills, a_part_whole, a_coins). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md has unlabelled sheets. Items were counted in printed order: Problem Set 1-6, Exit Ticket 1-2, Homework 1-6. The Student Debrief names Problems 2, 4, 5 and 6, which match this order. Check against the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Answer key for bill problems",
+      "issue": "Most answers are not printed. Each was computed by code from the bill counts in the text. Check a sample against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_ps_4, q_ps_11, q_ps_13",
+      "issue": "Compare problems with a smaller unknown. Answers were computed by code: Michael total minus the extra bills, Patrick plus 2 tens, Alexis minus the extra bills."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Sprint A item numbers",
+      "issue": "The .md table has no printed item numbers. Items 1 to 22 are the left column and 23 to 44 the right column. Check against the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Sprint items used and left out",
+      "issue": "Used Sprint A items 1, 3, 4, 6, 9, 11, 13, 14, 19, 24, 26, 31, 33, 38, 43. Answers computed by code. Sprint B was not used."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_pk_1 to q_pk_4",
+      "issue": "From Fluency: More and Less. The printed answers are 35, 60, 85 and 100 cents. The source says to restart at zero as time permits. Only the first four steps were used."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_app_1, q_app_2",
+      "issue": "The Application Problem has no printed answer. The total was computed by code. The fair-trade reason is inferred from 100 cents being 1 dollar."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "q_pr_3",
+      "issue": "Derived: the source skip-counts fives only in a combined story. 5 fives is 25 dollars, computed from the story."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "q_pr_8",
+      "issue": "Accepted answer is kirsten. Check that the tutor accepts names with different spellings."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "q_db_3",
+      "issue": "The answer subtract is inferred from the Part 3 remark and the note. The source does not print it as an answer."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l7_coin_total_word_problems is an earlier card. ext_g2_skip_count_by_5_and_10 and ext_g2_add_within_20 are prerequisite cards that do not exist yet."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. The tricky word more is noted in exp_compare. None added."
+    },
+    {
+      "id": "f20",
+      "severity": "medium",
+      "item": "h_sp_ten, h_count_on_coins",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review."
+    },
+    {
+      "id": "f21",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "Hint coverage is thin. Most hints are adapted from teacher moves in the Concept Development."
+    },
+    {
+      "id": "f22",
+      "severity": "medium",
+      "item": "Money units",
+      "issue": "Source uses the dollar sign in some places. Child text uses the word dollars."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

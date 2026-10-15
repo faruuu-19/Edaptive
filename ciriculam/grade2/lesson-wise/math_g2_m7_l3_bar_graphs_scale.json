@@ -1,0 +1,2029 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l3_bar_graphs_scale",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-a-lesson-3.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 3",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Draw and label a bar graph to represent data. Relate the count scale to the number line.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l1_sort_record_data_tables",
+    "math_g2_m7_l2_picture_graphs",
+    "ext_g2_number_line"
+  ],
+  "explanations": [
+    {
+      "id": "exp_graph_tape",
+      "title": "A graph looks like a tape diagram",
+      "text": "Turn a picture graph on its side. It looks like a tape diagram. The bars show the same amounts as the circles.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It looks just like a tape diagram!)"
+      }
+    },
+    {
+      "id": "exp_tallest",
+      "title": "Longest and shortest bar",
+      "text": "The category with the most has the tallest bar. The category with the least has the shortest bar.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The category with the most is the tallest)"
+      }
+    },
+    {
+      "id": "exp_turn_graph",
+      "title": "Turn the graph",
+      "text": "A graph can be vertical or horizontal. The data stay the same when you turn it.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (We can change the position of the graph... the data stay the same)"
+      }
+    },
+    {
+      "id": "exp_bar_graph",
+      "title": "Bar graph",
+      "text": "A bar graph shows each category as a bar. It has a title, labels and a scale. The scale tells how much each box equals.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_scale_number_line",
+      "title": "Scale is a number line",
+      "text": "The scale is like a number line or a ruler. If we count by ones, each box equals one.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It's a number line!)"
+      }
+    },
+    {
+      "id": "exp_same_data",
+      "title": "Same data, three ways",
+      "text": "The same data can go in a table, a picture graph or a bar graph. The title stays the same.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_bird_bar",
+      "title": "Bird bar",
+      "text": "The scale counts by ones. Each box equals one. Color four boxes for four birds.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_jose_laura",
+      "title": "Jose and Laura",
+      "text": "Jose read 8 books. Laura read 5 books. The bars show 8 is longer than 5. The difference is 3.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem; Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "I am holding up a coin worth 5 cents. What is the name of the coin?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_coin"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "coin": "nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "How much is a nickel worth?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_coin"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "coin": "nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Jose read 8 books and Laura read 5 books. How many more books did Jose read than Laura?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "stimulus": {
+        "a": 8,
+        "b": 5,
+        "difference": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (b)"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Jose, Laura and Linda read 21 books in all. Jose read 8 and Laura read 5. How many books did Linda read?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "stimulus": {
+        "total": 21,
+        "a": 8,
+        "b": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (c)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "You turn a picture graph on its side. What does it look like?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "How can you tell by looking at a graph which category has more and which has less?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Do the data change if you turn a graph sideways?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: No!)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Name the three ways we have shown the Animal Classification data.",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "The title of the picture graph was Animal Classification. What is the title of the bar graph of the same data?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "title": "Animal Classification"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Animal Classification!)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "How many categories of animals were classified?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "categories": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Four!)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "How did we record the number of animals on the table? On the picture graph?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "On the bar graph scale, what are we counting by?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Ones!)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "What does the scale on a bar graph remind you of?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It's a number line!)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "The scale says each box equals one. How many boxes do you color for 4 birds?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "category": "bird",
+        "count": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Four boxes!)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "How would the graph change if you added four more birds?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Why are bar graphs good for making comparisons?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "How does the scale help you make more exact comparisons?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "How do bar graphs and picture graphs help you draw tape diagrams?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph",
+        "a_tape_compare"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Name the types of graphs you know. How are they alike and different?",
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 0 plus 5?",
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "0 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_a3",
+      "kind": "practice",
+      "text": "What is 10 plus 5?",
+      "rubric_id": "r_sp_a3",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 3)"
+      }
+    },
+    {
+      "id": "q_sp_a9",
+      "kind": "practice",
+      "text": "What is 40 plus 5?",
+      "rubric_id": "r_sp_a9",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "40 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 9)"
+      }
+    },
+    {
+      "id": "q_sp_a11",
+      "kind": "practice",
+      "text": "What is 50 minus 5?",
+      "rubric_id": "r_sp_a11",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "50 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 11)"
+      }
+    },
+    {
+      "id": "q_sp_a14",
+      "kind": "practice",
+      "text": "What is 35 minus 5?",
+      "rubric_id": "r_sp_a14",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "35 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 14)"
+      }
+    },
+    {
+      "id": "q_sp_a18",
+      "kind": "practice",
+      "text": "What is 15 minus 5?",
+      "rubric_id": "r_sp_a18",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "15 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 18)"
+      }
+    },
+    {
+      "id": "q_sp_a20",
+      "kind": "practice",
+      "text": "What is 5 minus 5?",
+      "rubric_id": "r_sp_a20",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "5 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 20)"
+      }
+    },
+    {
+      "id": "q_sp_a31",
+      "kind": "practice",
+      "text": "What is 0 plus 50?",
+      "rubric_id": "r_sp_a31",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "0 + 50"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 31)"
+      }
+    },
+    {
+      "id": "q_sp_a32",
+      "kind": "practice",
+      "text": "What is 50 plus 50?",
+      "rubric_id": "r_sp_a32",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "50 + 50"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 32)"
+      }
+    },
+    {
+      "id": "q_sp_a33",
+      "kind": "practice",
+      "text": "What is 50 plus 5?",
+      "rubric_id": "r_sp_a33",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "50 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 33)"
+      }
+    },
+    {
+      "id": "q_sp_a35",
+      "kind": "practice",
+      "text": "What is 60 minus 5?",
+      "rubric_id": "r_sp_a35",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "60 - 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 35)"
+      }
+    },
+    {
+      "id": "q_sp_a38",
+      "kind": "practice",
+      "text": "What is 65 plus 5?",
+      "rubric_id": "r_sp_a38",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "65 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 38)"
+      }
+    },
+    {
+      "id": "q_sp_a41",
+      "kind": "practice",
+      "text": "What is 100 plus 50?",
+      "rubric_id": "r_sp_a41",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "100 + 50"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 41)"
+      }
+    },
+    {
+      "id": "q_sp_a43",
+      "kind": "practice",
+      "text": "What is 200 minus 50?",
+      "rubric_id": "r_sp_a43",
+      "hint_ids": [
+        "h_sp_five"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "200 - 50"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Addition and Subtraction by 5 (Sprint A item 43)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "An animal table shows birds 6, fish 5, mammals 11 and reptiles 3. How many more birds than reptiles are there?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "bird": 6,
+        "reptile": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Use the same table. How many more birds and mammals are there than fish and reptiles?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "bird": 6,
+        "fish": 5,
+        "mammal": 11,
+        "reptile": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "How many fewer reptiles and fish than mammals are there?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "mammal": 11,
+        "reptile": 3,
+        "fish": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "A second animal table shows birds 7, fish 12, mammals 8 and reptiles 6. How many more fish than reptiles are there?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "fish": 12,
+        "reptile": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Use the same table. How many more fish and mammals are there than birds and reptiles?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "bird": 7,
+        "fish": 12,
+        "mammal": 8,
+        "reptile": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "A pet shop table shows fur 12, feathers 9, shells 8 and scales 11. How many more animals have fur than shells?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "fur": 12,
+        "feathers": 9,
+        "shells": 8,
+        "scales": 11
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Which pair has more, fur and feathers or shells and scales? How many more?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_compare_bars"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "fur": 12,
+        "feathers": 9,
+        "shells": 8,
+        "scales": 11
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "nickel",
+          "a nickel",
+          "nickels"
+        ]
+      },
+      "correct": "Says nickel.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (S: A nickel)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 cents",
+          "five cents",
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5 cents.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (S: 5 cents)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (b) (no answer printed; the numbers 8 and 5 come from the Concept Development; 8 - 5 = 3)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (c) (no answer printed; 21 - 8 - 5 = 8)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "tape diagram",
+          "a tape diagram",
+          "a bar graph"
+        ]
+      },
+      "correct": "Says tape diagram.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It looks just like a tape diagram!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the longest bar has the most and the shortest bar has the least.",
+      "partial": "Says to compare but not the bar length.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: The category with the most is the tallest, and the category with the least is the shortest)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no they do not",
+          "no they stay the same"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: No!)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "table, picture graph and bar graph",
+          "table, picture graph, bar graph",
+          "a table, a picture graph and a bar graph"
+        ]
+      },
+      "correct": "Says table, picture graph and bar graph.",
+      "partial": "Names only two of the three.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (table, picture graph; bar graph; answer assembled from the script)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "animal classification",
+          "Animal Classification"
+        ]
+      },
+      "correct": "Says animal classification.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Animal Classification!; the title stays the same)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Four!)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "tally marks and pictures",
+          "tally marks, pictures",
+          "tally marks and circles",
+          "tallies and pictures"
+        ]
+      },
+      "correct": "Says tally marks and pictures.",
+      "partial": "Says only one of the two.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: We used tally marks. We drew a picture)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "ones",
+          "by ones",
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says ones.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Ones!)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "number line",
+          "a number line",
+          "ruler",
+          "a ruler",
+          "meter strip",
+          "a meter strip"
+        ]
+      },
+      "correct": "Says number line.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It's like a meter strip... a ruler... a number line!)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Four boxes!)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the bird bar gets 4 more boxes, so it is longer by 4.",
+      "partial": "Says it gets longer but not by 4.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (answer not printed; the bird bar gets 4 more boxes)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says you can see which bar is longer. The scale shows how much more.",
+      "partial": "Says they help but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; bar length shows more and less; the scale gives exact amounts)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the scale numbers tell how many boxes each bar has, so you can find the exact difference.",
+      "partial": "Says it helps but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the bars or circles look like the tape, and show the difference between groups.",
+      "partial": "Says they help but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; the bars match the tape diagram and show the difference)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names picture graph and bar graph. Says both show data and use titles and labels. A picture graph uses pictures and a bar graph uses a scale.",
+      "partial": "Names one graph or one way they are alike or different.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; picture graph and bar graph)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1 (no answer printed; 0 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 3 (no answer printed; 10 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five"
+        ]
+      },
+      "correct": "Says 45.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 9 (no answer printed; 40 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five"
+        ]
+      },
+      "correct": "Says 45.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 11 (no answer printed; 50 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 14 (no answer printed; 35 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 18 (no answer printed; 15 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0",
+          "zero"
+        ]
+      },
+      "correct": "Says 0.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 20 (no answer printed; 5 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 31 (no answer printed; 0 + 50)"
+      }
+    },
+    {
+      "id": "r_sp_a32",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 32 (no answer printed; 50 + 50)"
+      }
+    },
+    {
+      "id": "r_sp_a33",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55",
+          "fifty-five"
+        ]
+      },
+      "correct": "Says 55.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 33 (no answer printed; 50 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a35",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55",
+          "fifty-five"
+        ]
+      },
+      "correct": "Says 55.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 35 (no answer printed; 60 - 5)"
+      }
+    },
+    {
+      "id": "r_sp_a38",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "70",
+          "seventy"
+        ]
+      },
+      "correct": "Says 70.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 38 (no answer printed; 65 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a41",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "150",
+          "one hundred fifty"
+        ]
+      },
+      "correct": "Says 150.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 41 (no answer printed; 100 + 50)"
+      }
+    },
+    {
+      "id": "r_sp_a43",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "150",
+          "one hundred fifty"
+        ]
+      },
+      "correct": "Says 150.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 43 (no answer printed; 200 - 50)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (6 - 3 = 3; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (17 - 8 = 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (11 - 8 = 3; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (12 - 6 = 6; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (20 - 13 = 7; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (12 - 8 = 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "fur and feathers, 2",
+          "fur and feathers 2",
+          "fur and feathers by 2",
+          "fur and feathers, 2 more",
+          "fur and feathers 2 more",
+          "fur and feathers, two"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (21 - 19 = 2; answer not printed)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_scale",
+      "level": 1,
+      "text": "Look at the scale. Each box equals one. Count the boxes in the bar.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (the scale tells us that each box equals one)"
+      }
+    },
+    {
+      "id": "h_compare_bars",
+      "level": 2,
+      "text": "Compare the two bars. Count the extra boxes in the longer bar.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Show your partner which part of your graph shows how many more)"
+      }
+    },
+    {
+      "id": "h_sp_five",
+      "level": 1,
+      "text": "Count by fives. Add or take away one five at a time.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_coin",
+      "level": 1,
+      "text": "A nickel is a silver coin. It is bigger than a penny.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_bar_graph",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact bar lengths and scale numbers need exact behaviour. Diffusion cannot count.",
+      "description": "A bar graph with a title, labels and a number scale. Bars can be horizontal or vertical. A graph can be turned.",
+      "must_show_exactly": [
+        "Bar length matches the count on the scale",
+        "Scale counts by ones from 0",
+        "Labels in the same order as the table",
+        "Turning the graph keeps the data"
+      ],
+      "states_or_frames": [
+        "Animal Classification bar graph (horizontal)",
+        "Animal Habitats bar graph (vertical)",
+        "bird bar of 4",
+        "graph turned on its side"
+      ],
+      "interaction": "Tutor sets the title, categories and counts from the stimulus. Child can color boxes. Child answers by voice or typing.",
+      "alt_text": "A bar graph with a number scale.",
+      "used_by": [
+        "ex_bird_bar",
+        "exp_bar_graph",
+        "exp_graph_tape",
+        "exp_same_data",
+        "exp_scale_number_line",
+        "exp_tallest",
+        "exp_turn_graph",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7"
+      ],
+      "generation_caption": "Simple bar graph with a number scale and colored bars, plain white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_compare",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact bar lengths for a comparison need exact behaviour. Diffusion cannot count.",
+      "description": "Two tape diagram bars. One is longer. The difference is a bracket.",
+      "must_show_exactly": [
+        "Bar lengths match the numbers",
+        "Difference shown as a bracket"
+      ],
+      "states_or_frames": [
+        "8 and 5 with a bracket",
+        "21 total with 8, 5 and a missing part"
+      ],
+      "interaction": "Tutor sets the numbers from the stimulus. Child answers by voice or typing.",
+      "alt_text": "Two bars of different length with a bracket.",
+      "used_by": [
+        "ex_jose_laura",
+        "q_app_1",
+        "q_app_2",
+        "q_pr_14"
+      ],
+      "generation_caption": "Two tape diagram bars with a bracket, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Addition and Subtraction by 5 (timed Sprint A and B)",
+      "reason": "Timed paper race with 44 items per sheet. The items are used as questions. The race cannot run on a screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_coin_drop",
+      "name": "Coin Drop with real coins",
+      "reason": "Needs a teacher, real coins and a can. Only the coin name and value questions are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Color bar graphs on the template; turn the Application Problem sideways",
+      "reason": "Needs paper and colors. The widget a_bar_graph replaces it. Coloring cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_bar_graph, a_tape_compare). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set tables",
+      "issue": "The Animal Habitats and City Shelter Animal Diets tables have no counts in the .md. Questions that need those were not made. Which table belongs to which problem was inferred from the order. Check against the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "Application Problem",
+      "issue": "The first part (a) and the tally chart are not in the .md. Jose 8 books and Laura 5 books are read from the Concept Development ('8 is longer than 5'). Check against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Sprint A item numbers",
+      "issue": "The .md table has no printed item numbers. Items 1 to 22 are the left column and 23 to 44 the right column. Check against the PDF."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Sprint items used and left out",
+      "issue": "Used Sprint A items 1, 3, 9, 11, 14, 18, 20, 31, 32, 33, 35, 38, 41, 43. Patterns: add and subtract 5, then 50. Sprint A repeats several items (as printed, not corrected). Sprint B was not used."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g2_number_line is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "h_sp_five, h_coin",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

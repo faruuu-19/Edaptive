@@ -1,0 +1,1992 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l23_handspan_data_tally_table",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-f-lesson-23.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 23",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.7",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Measure and record data in a table. Answer questions about the data and tell what it shows.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l1_sort_record_data_tables",
+    "ext_g2_measure_inches_ruler"
+  ],
+  "explanations": [
+    {
+      "id": "exp_handspan",
+      "title": "Measure your handspan",
+      "text": "Your handspan is the length from your pinky tip to your thumb tip. Stretch your fingers out. Start measuring at zero on the ruler. Say about how many inches it is.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_handspan_ruler"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_tally",
+      "title": "Record data with tally marks",
+      "text": "Each person gets one tally mark in the row for their handspan. Count the tally marks in a row to know how many people have that handspan.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_most_least",
+      "title": "Most common and least common",
+      "text": "The most common handspan has the most tally marks. The least common handspan has the fewest tally marks.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 and 2"
+      }
+    },
+    {
+      "id": "exp_compare",
+      "title": "Ask a comparison question",
+      "text": "A comparison question asks how many more. To answer it, subtract the smaller count from the bigger count. Use the numbers in the table.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2; Student Debrief"
+      }
+    },
+    {
+      "id": "exp_hundreds",
+      "title": "100 more than",
+      "text": "300 minus 200 is 100. So 100 more than 200 is 300. Say the subtraction as a how many more sentence.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_compare",
+      "title": "Comparing handspans",
+      "text": "Suppose 7 people have a handspan of 5 inches and 2 people have 8 inches. 7 minus 2 equals 5. 5 more people have a handspan of 5 inches than 8 inches.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (the example comparison question)"
+      }
+    },
+    {
+      "id": "ex_hundreds",
+      "title": "100 more than 200",
+      "text": "300 minus 200 is 100. 100 more than 200 is 300.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 300 minus 200?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Say it in a sentence. 300 minus 200 is 100, so 100 more than what number is 300?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds (S: 100 more than 200 is 300)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 405 minus 305?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is 650 minus 350?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "What is 999 minus 299?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "What is a handspan?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_start_zero"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_handspan_ruler"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (the length from the tip of the pinky to the tip of the thumb)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Where on the ruler do you start to measure your handspan?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_start_zero"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_handspan_ruler"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Start measuring at zero)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "A handspan ends between 6 and 7 inches. It is closer to 7. How many inches do you say it is about?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_start_zero"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_handspan_ruler"
+      ],
+      "stimulus": {
+        "between": [
+          6,
+          7
+        ],
+        "closer_to": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (about ___ inches because it was closer to the next whole inch)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "How many tally marks do you make for each person?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_tallies"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (Use a tally mark to record each person's measurement)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "How can you tell which handspan is the most common in a table?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_count_tallies"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 and 2 (Which handspan was the most common?)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "How can you tell which handspan is the least common in a table?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_count_tallies"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (And the least common?)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "To find how many more, do you add or subtract?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_compare_sub"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (When you used the handspan data to make your comparison problem, did you use addition or subtraction?)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "A table shows handspans. 4 inches: 3 people. 5 inches: 7 people. 6 inches: 5 people. 7 inches: 2 people. Which handspan is the most common?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_count_tallies"
+      ],
+      "origin": "generated",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "stimulus": {
+        "table": {
+          "4": 3,
+          "5": 7,
+          "6": 5,
+          "7": 2
+        }
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "A table shows handspans. 4 inches: 3 people. 5 inches: 7 people. 6 inches: 5 people. 7 inches: 2 people. Which handspan is the least common?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_count_tallies"
+      ],
+      "origin": "generated",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "stimulus": {
+        "table": {
+          "4": 3,
+          "5": 7,
+          "6": 5,
+          "7": 2
+        }
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "A table shows handspans. 4 inches: 3 people. 5 inches: 7 people. 6 inches: 5 people. 7 inches: 2 people. How many more people have 5 inches than 7 inches?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_compare_sub",
+        "h_count_tallies"
+      ],
+      "origin": "generated",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "stimulus": {
+        "table": {
+          "4": 3,
+          "5": 7,
+          "6": 5,
+          "7": 2
+        }
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "A table shows handspans. 4 inches: 3 people. 5 inches: 7 people. 6 inches: 5 people. 7 inches: 2 people. How many people were measured in all?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_count_tallies"
+      ],
+      "origin": "generated",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "stimulus": {
+        "table": {
+          "4": 3,
+          "5": 7,
+          "6": 5,
+          "7": 2
+        }
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Why does the whole class data not match your own data sheet?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_reason"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Is having more data points better or fewer? Why?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_reason"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Do you think having more or fewer data points is better in science? Why?)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Would the most common handspan be the same in a fifth-grade class? Why or why not?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_reason"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tally_table"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (fifth-grade classroom)"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 9 plus 2?",
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_a3",
+      "kind": "practice",
+      "text": "What is 9 plus 4?",
+      "rubric_id": "r_sp_a3",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 3)"
+      }
+    },
+    {
+      "id": "q_sp_a5",
+      "kind": "practice",
+      "text": "What is 7 plus 9?",
+      "rubric_id": "r_sp_a5",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "7 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 5)"
+      }
+    },
+    {
+      "id": "q_sp_a6",
+      "kind": "practice",
+      "text": "What is 10 plus 1?",
+      "rubric_id": "r_sp_a6",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 + 1"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 6)"
+      }
+    },
+    {
+      "id": "q_sp_a9",
+      "kind": "practice",
+      "text": "What is 10 plus 8?",
+      "rubric_id": "r_sp_a9",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 9)"
+      }
+    },
+    {
+      "id": "q_sp_a10",
+      "kind": "practice",
+      "text": "What is 8 plus 10?",
+      "rubric_id": "r_sp_a10",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 10"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 10)"
+      }
+    },
+    {
+      "id": "q_sp_a11",
+      "kind": "practice",
+      "text": "What is 8 plus 3?",
+      "rubric_id": "r_sp_a11",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 11)"
+      }
+    },
+    {
+      "id": "q_sp_a14",
+      "kind": "practice",
+      "text": "What is 8 plus 9?",
+      "rubric_id": "r_sp_a14",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 14)"
+      }
+    },
+    {
+      "id": "q_sp_a16",
+      "kind": "practice",
+      "text": "What is 7 plus 4?",
+      "rubric_id": "r_sp_a16",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "7 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 16)"
+      }
+    },
+    {
+      "id": "q_sp_a17",
+      "kind": "practice",
+      "text": "What is 10 plus 5?",
+      "rubric_id": "r_sp_a17",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 17)"
+      }
+    },
+    {
+      "id": "q_sp_a20",
+      "kind": "practice",
+      "text": "What is 9 plus 5?",
+      "rubric_id": "r_sp_a20",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 20)"
+      }
+    },
+    {
+      "id": "q_sp_a21",
+      "kind": "practice",
+      "text": "What is 5 plus 9?",
+      "rubric_id": "r_sp_a21",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "5 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 21)"
+      }
+    },
+    {
+      "id": "q_sp_a22",
+      "kind": "practice",
+      "text": "What is 10 plus 6?",
+      "rubric_id": "r_sp_a22",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 + 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 22)"
+      }
+    },
+    {
+      "id": "q_sp_a24",
+      "kind": "practice",
+      "text": "What is 4 plus 8?",
+      "rubric_id": "r_sp_a24",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "4 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 24)"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "practice",
+      "text": "What is 5 plus 7?",
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "5 + 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 26)"
+      }
+    },
+    {
+      "id": "q_sp_a28",
+      "kind": "practice",
+      "text": "What is 3 plus 9?",
+      "rubric_id": "r_sp_a28",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "3 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 28)"
+      }
+    },
+    {
+      "id": "q_sp_a31",
+      "kind": "practice",
+      "text": "What is 5 plus 8?",
+      "rubric_id": "r_sp_a31",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "5 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 31)"
+      }
+    },
+    {
+      "id": "q_sp_a35",
+      "kind": "practice",
+      "text": "What is 6 plus 7?",
+      "rubric_id": "r_sp_a35",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "6 + 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 35)"
+      }
+    },
+    {
+      "id": "q_sp_a38",
+      "kind": "practice",
+      "text": "What is 8 plus 7?",
+      "rubric_id": "r_sp_a38",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 38)"
+      }
+    },
+    {
+      "id": "q_sp_a40",
+      "kind": "practice",
+      "text": "What is 6 plus 6?",
+      "rubric_id": "r_sp_a40",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "6 + 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 40)"
+      }
+    },
+    {
+      "id": "q_sp_a44",
+      "kind": "practice",
+      "text": "What is 4 plus 9?",
+      "rubric_id": "r_sp_a44",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "4 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Adding Across a Ten (Sprint A item 44)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds (S: 100)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred"
+        ]
+      },
+      "correct": "Says 200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds (S: 100 more than 200 is 300)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds (sequence item; answer not printed; 405 - 305 = 100)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "300",
+          "three hundred"
+        ]
+      },
+      "correct": "Says 300.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds (sequence item; answer not printed; 650 - 350 = 300)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "700",
+          "seven hundred"
+        ]
+      },
+      "correct": "Says 700.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds (sequence item; answer not printed; 999 - 299 = 700)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it is the length from the pinky tip to the thumb tip with the hand stretched out.",
+      "partial": "Says it is a hand length but not where it starts and ends.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (This measurement from the tip of our pinky to the tip of our thumb is called our handspan)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "zero",
+          "0",
+          "at zero",
+          "at 0",
+          "the zero"
+        ]
+      },
+      "correct": "Says zero.",
+      "partial": null,
+      "incorrect": "Says another number, or says to start at the edge.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Start measuring at zero on the ruler)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (about ___ inches, closer to the whole inch; answer not printed; closer to 7, so about 7)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1, one tally mark for each person.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (a tally mark for each person's measurement; answer 1 derived)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it is the row with the most tally marks.",
+      "partial": "Says to count the tallies but not which row.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (no answer printed; the row with the most tally marks)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it is the row with the fewest tally marks.",
+      "partial": "Says to count the tallies but not which row.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (no answer printed; the row with the fewest tally marks)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "subtract",
+          "subtraction",
+          "you subtract"
+        ]
+      },
+      "correct": "Says subtract.",
+      "partial": null,
+      "incorrect": "Says add.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; how many more is found by subtracting)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 inches",
+          "five inches"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated"
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven",
+          "7 inches",
+          "seven inches"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated"
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated"
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17",
+          "seventeen"
+        ]
+      },
+      "correct": "Says 17.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated"
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the class has more people than your own sheet.",
+      "partial": "Says they are different but not why.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; the class has more people than your group)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says more is better, with a reason such as it shows more of what is true.",
+      "partial": "Says more is better but gives no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; more data gives a better picture of everyone)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it may change because older children have bigger hands.",
+      "partial": "Says yes or no with no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; older children have bigger hands, so it may change)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1 (no answer printed; 9 + 2)"
+      }
+    },
+    {
+      "id": "r_sp_a3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 3 (no answer printed; 9 + 4)"
+      }
+    },
+    {
+      "id": "r_sp_a5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 5 (no answer printed; 7 + 9)"
+      }
+    },
+    {
+      "id": "r_sp_a6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 6 (no answer printed; 10 + 1)"
+      }
+    },
+    {
+      "id": "r_sp_a9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 9 (no answer printed; 10 + 8)"
+      }
+    },
+    {
+      "id": "r_sp_a10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 10 (no answer printed; 8 + 10)"
+      }
+    },
+    {
+      "id": "r_sp_a11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 11 (no answer printed; 8 + 3)"
+      }
+    },
+    {
+      "id": "r_sp_a14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17",
+          "seventeen"
+        ]
+      },
+      "correct": "Says 17.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 14 (no answer printed; 8 + 9)"
+      }
+    },
+    {
+      "id": "r_sp_a16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 16 (no answer printed; 7 + 4)"
+      }
+    },
+    {
+      "id": "r_sp_a17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 17 (no answer printed; 10 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 20 (no answer printed; 9 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 21 (no answer printed; 5 + 9)"
+      }
+    },
+    {
+      "id": "r_sp_a22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 22 (no answer printed; 10 + 6)"
+      }
+    },
+    {
+      "id": "r_sp_a24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 24 (no answer printed; 4 + 8)"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 26 (no answer printed; 5 + 7)"
+      }
+    },
+    {
+      "id": "r_sp_a28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 28 (no answer printed; 3 + 9)"
+      }
+    },
+    {
+      "id": "r_sp_a31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 31 (no answer printed; 5 + 8)"
+      }
+    },
+    {
+      "id": "r_sp_a35",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 35 (no answer printed; 6 + 7)"
+      }
+    },
+    {
+      "id": "r_sp_a38",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 38 (no answer printed; 8 + 7)"
+      }
+    },
+    {
+      "id": "r_sp_a40",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 40 (no answer printed; 6 + 6)"
+      }
+    },
+    {
+      "id": "r_sp_a44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 44 (no answer printed; 4 + 9)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_start_zero",
+      "level": 1,
+      "text": "Put the zero of the ruler at the start of the hand.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (Start measuring at zero on the ruler)"
+      }
+    },
+    {
+      "id": "h_count_tallies",
+      "level": 1,
+      "text": "Count the tally marks in each row.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (Count the tally marks to answer the questions)"
+      }
+    },
+    {
+      "id": "h_compare_sub",
+      "level": 2,
+      "text": "Find the two counts. Subtract the smaller from the bigger.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (comparison question)"
+      }
+    },
+    {
+      "id": "h_hundreds",
+      "level": 1,
+      "text": "Subtract the hundreds. Then say how many more.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: How Many More Hundreds"
+      }
+    },
+    {
+      "id": "h_ten",
+      "level": 1,
+      "text": "Make a ten first. Then add the rest.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_reason",
+      "level": 1,
+      "text": "Think about how many people we measured.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_handspan_ruler",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "A ruler with an exact start and end needs exact behaviour. Diffusion cannot draw a ruler with correct marks.",
+      "description": "A ruler in inches with a hand handspan laid along it from zero. The end can be between two whole inches.",
+      "must_show_exactly": [
+        "Ruler marks are equally spaced",
+        "Handspan starts at zero",
+        "End point matches the stimulus"
+      ],
+      "states_or_frames": [
+        "handspan from 0 to about 6",
+        "handspan between 6 and 7"
+      ],
+      "interaction": "Tutor sets where the handspan ends from the stimulus. Child answers by voice or typing.",
+      "alt_text": "A ruler with a hand stretched along it.",
+      "used_by": [
+        "exp_handspan",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3"
+      ],
+      "generation_caption": "Flat ruler in inches with a simple hand icon, plain white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tally_table",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact tally counts need exact behaviour. Diffusion cannot draw the right number of tally marks.",
+      "description": "A table with a Handspan column and a Tally column. Each row has the right number of tally marks in groups of five.",
+      "must_show_exactly": [
+        "Row names match the stimulus",
+        "Exact number of tally marks in each row",
+        "Tallies grouped in fives"
+      ],
+      "states_or_frames": [
+        "rows 4 to 7 inches with 3, 7, 5, 2 tally marks"
+      ],
+      "interaction": "Tutor sets the rows and counts from the stimulus. Child answers by voice or typing.",
+      "alt_text": "A table with tally marks in each row.",
+      "used_by": [
+        "ex_compare",
+        "exp_compare",
+        "exp_most_least",
+        "exp_tally",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat table with tally marks, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Adding Across a Ten (timed Sprint A and B)",
+      "reason": "Timed paper race with 44 items per sheet. The items are used as questions. The race cannot run on a screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_measure",
+      "name": "Measure your own handspan and your group's handspans with a ruler",
+      "reason": "Needs a real ruler and real hands. The tutor cannot see the measurement. The widget shows a sample.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "na_class_data",
+      "name": "Collect and record class data with tally marks on the Recording Sheet",
+      "reason": "Needs a whole class and a paper sheet. Class tallies cannot be collected by a screen tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "na_write_question",
+      "name": "Write a comparison question and answer a classmate's question",
+      "reason": "Writing and sharing questions with a classmate cannot be run by the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2; Problem Set"
+      }
+    },
+    {
+      "id": "na_talk",
+      "name": "Turn and talk, predictions and discussion",
+      "reason": "Talk with a classmate cannot be run by the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Student Debrief"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_handspan_ruler, a_tally_table). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set, Exit Ticket and Homework",
+      "issue": "The Problem Set, Exit Ticket and Homework items ask to measure lines drawn in the PDF with a ruler, or to tally a drawn table. The lines are not in the .md. No items were made from them. Add items from the PDF once the lines are seen."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "q_pr_8, q_pr_9, q_pr_10, q_pr_11 and rubrics r_pr_8, r_pr_9, r_pr_10, r_pr_11",
+      "issue": "Generated questions and rubrics. The lesson collects live class data, so no fixed data is printed. The sample table in the questions is made up (4 inches: 3, 5 inches: 7, 6 inches: 5, 7 inches: 2). Answers: 5 inches, 7 inches, 5 more people, 17 people. Need review."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "ex_compare",
+      "issue": "Adapted from the printed example question (5 inches compared with 8 inches). The numbers 7 and 2 are made up. Check the numbers."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md has unlabelled sheets and no printed answers. No items were taken from them. Some Problem Set and Homework prompts are repeated; check against the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Sprint A item numbers",
+      "issue": "The .md table has no printed item numbers. Items 1 to 22 are the left column and 23 to 44 the right column. Check against the PDF."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Sprint items used and left out",
+      "issue": "Used Sprint A items 1, 3, 5, 6, 9, 10, 11, 14, 16, 17, 20, 21, 22, 24, 26, 28, 31, 35, 38, 40, 44. The .md has Sprint A and Sprint B joined; the first 22 rows were taken as A. Sprint B was not used. Check against the PDF."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Answers computed by code",
+      "issue": "Most answers are not printed. Computed by code and checked by hand: q_pk_3 to q_pk_5, q_pr_3, all q_sp_a items."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "q_pr_3",
+      "issue": "The source says to say 'about' a whole inch 'closer to the next whole inch'. The wording is not clear. The question says the end is between 6 and 7 and closer to 7. Check against the PDF."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Tally marks in fives",
+      "issue": "The source does not say how to group tally marks. Groups of five in the asset a_tally_table are an assumption. Check against the PDF."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "Debrief answers",
+      "issue": "q_db_1, q_db_2 and q_db_3 have no printed answers. The open rubrics were written from what the lesson says. A person should check them."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "h_ten, h_reason",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review. Hint coverage is thin."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "Application Problem",
+      "issue": "The source omits the Application Problem for this lesson. None added."
+    },
+    {
+      "id": "f20",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l1_sort_record_data_tables is an earlier card. ext_g2_measure_inches_ruler is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f21",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

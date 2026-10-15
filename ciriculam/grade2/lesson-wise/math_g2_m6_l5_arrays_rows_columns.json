@@ -1,0 +1,1436 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l5_arrays_rows_columns",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-b-lesson-5.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 5",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Arrange objects into an array with rows and columns. Count to find the total.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l1_equal_groups_manipulatives",
+    "math_g2_m6_l2_equal_groups_repeated_addition",
+    "ext_g2_skip_count_by_10"
+  ],
+  "explanations": [
+    {
+      "id": "exp_rows_array",
+      "title": "Rows make an array",
+      "text": "A row goes straight across, left to right. Put equal groups into rows. The same number is in each row. This makes a rectangle called an array.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (rows)"
+      }
+    },
+    {
+      "id": "exp_columns_array",
+      "title": "Columns make an array",
+      "text": "A column goes up and down. You can also put equal groups into columns. 2 columns of 3 looks like 2 rows of 3 turned sideways.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (columns)"
+      }
+    },
+    {
+      "id": "exp_total_same",
+      "title": "The total stays the same",
+      "text": "When you move objects into rows or columns, the total does not change. 6 bears stay 6 bears.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (Did the total change? No)"
+      }
+    },
+    {
+      "id": "exp_count_in_arrays",
+      "title": "Count an array in different ways",
+      "text": "Count one by one. Count row by row. Count column by column. Or skip-count. For 3 rows of 2, count 2, 4, 6.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (count by rows and columns)"
+      }
+    },
+    {
+      "id": "exp_many_arrays",
+      "title": "One total, more than one array",
+      "text": "6 objects can be 1 group of 6, or 6 groups of 1. They can be 3 groups of 2, or 2 groups of 3. 12 beans can make 2 rows of 6.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1 and 2"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_6_two_rows",
+      "title": "2 rows of 3",
+      "text": "2 groups of 3 bears go into 2 straight rows. Each row has 3 bears. There are 6 bears.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "ex_6_two_columns",
+      "title": "2 columns of 3",
+      "text": "The same 6 bears make 2 columns. Each column has 3 bears. There are still 6 bears.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "ex_6_three_rows",
+      "title": "3 rows of 2",
+      "text": "6 bears make 3 rows of 2. Count the rows: 2, 4, 6. Or add: 2 plus 2 plus 2 equals 6.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "ex_12_two_rows",
+      "title": "2 rows of 6",
+      "text": "12 beans in groups of 2 make 6 groups. You can make 2 rows of 6. That is 2 equal groups of 6.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "To add 9 plus 4, make a ten. 9 plus 4 is the same as 10 plus what?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "9 + 4",
+        "make_ten": "10 + 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 9 plus 4?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "9 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 49 plus 4?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "49 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "Count by tens. Start at 60 and stop at 100.",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_count_by_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 60,
+        "step": 10,
+        "stop": 100
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens: Crossing 100"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "Count by tens. What number comes after 100?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_count_by_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "after": 100,
+        "step": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens: Crossing 100"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "2 groups of 3 bears. How many bears are there in all?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_count_row_by_row",
+        "h_skip_count"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "groups": 2,
+        "per_group": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 6 bears)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "How can you arrange 2 groups of 3 bears into rows of 3?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_straight_lines",
+        "h_same_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: line them up)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "The bears are in 2 equal rows. How many bears are in each row?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_same_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 3 bears)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Did the total number of bears change when you made the array?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_same_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: No)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Which way do columns go? Across or up and down?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_up_down"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "columns": 2,
+        "per_column": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (columns are arranged vertically, or up and down)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "The 6 bears are in 2 columns. How many bears are in each column?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_up_down",
+        "h_same_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "columns": 2,
+        "per_column": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 3 bears)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "You can group 6 bears as 2 groups of 3. What is another way to group them?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_same_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "total": 6,
+        "valid_groupings": [
+          [
+            1,
+            6
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            3,
+            2
+          ]
+        ],
+        "given": [
+          2,
+          3
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 1 group of 6, 6 groups of 1, 3 groups of 2)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "6 bears are in 3 rows of 2. Count the total by twos.",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_count_row_by_row",
+        "h_skip_count"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 2,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: I counted 2, 4, 6)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "You have 12 beans. Put them in groups of 2. How many groups of 2 are there?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_same_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "total": 12,
+        "group_size": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 6 groups)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Arrange the 6 groups of 2 beans into an array. Tell one way to do it.",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_straight_lines",
+        "h_up_down",
+        "h_same_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "total": 12,
+        "valid_arrays": [
+          [
+            6,
+            2
+          ],
+          [
+            2,
+            6
+          ]
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 6 rows of two; 6 columns of two; 2 rows of six)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "12 beans are in 2 rows of 6. There are 2 equal groups of what number?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_same_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 6,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 6)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Make an array with 15 triangles. How many rows and how many in each row?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_same_each",
+        "h_straight_lines"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "total": 15,
+        "valid_arrays": [
+          [
+            3,
+            5
+          ],
+          [
+            5,
+            3
+          ]
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 7 and 8 (Draw an array with 15 triangles)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Make an array with 20 triangles. How many rows and how many in each row?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_same_each",
+        "h_straight_lines"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "total": 20,
+        "valid_arrays": [
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            10,
+            2
+          ]
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (Draw an array with 20 triangles)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Mrs. White is at the bank. There are 4 windows. 3 people stand in line at each window. How many people are there in all?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_same_each",
+        "h_count_row_by_row"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "story": "bank_lines",
+        "groups": 4,
+        "per_group": 3,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "In an array, what does each row or column show? What does the number in each row or column show?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_same_each"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3: what do the number of rows and the number in each row represent?)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "How does making an array help you find the total more easily?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_count_row_by_row",
+        "h_skip_count"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_board"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3: how does the array help you find the total?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Making the Next Ten to Add (S: 10 + 3)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Making the Next Ten to Add (S: 13)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53",
+          "fifty-three"
+        ]
+      },
+      "correct": "Says 53.",
+      "partial": "Says 13 or 50.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Making the Next Ten to Add (sequence item 49 + 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60, 70, 80, 90, 100",
+          "60 70 80 90 100",
+          "sixty, seventy, eighty, ninety, one hundred",
+          "sixty seventy eighty ninety one hundred"
+        ]
+      },
+      "correct": "Says 60, 70, 80, 90, 100 in order.",
+      "partial": "Starts correctly but stops early or skips a number.",
+      "incorrect": "Says a different counting pattern.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Happy Counting by Tens (S: 60, 70, 80, 90, 100)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "110",
+          "one hundred ten"
+        ]
+      },
+      "correct": "Says 110.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Happy Counting by Tens (S: ... 100, 110, 120)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 6 bears)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says put them in straight lines going across, 2 rows with 3 in each row.",
+      "partial": "Says line them up but not that there are 2 rows of 3.",
+      "incorrect": "Says something that does not make rows of 3.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: Make them go straight across; line them up)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 3 bears)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "it did not change",
+          "did not change",
+          "the same"
+        ]
+      },
+      "correct": "Says no, the total stays 6.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: No)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "up and down",
+          "up and down.",
+          "vertical",
+          "vertically"
+        ]
+      },
+      "correct": "Says up and down.",
+      "partial": null,
+      "incorrect": "Says across or sideways.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (T: Columns are groups arranged vertically, or up and down)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: 3 bears)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names another way: 1 group of 6, 6 groups of 1, or 3 groups of 2.",
+      "partial": "Names a group size but not how many groups.",
+      "incorrect": "Names a grouping that does not make 6.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: They can stay in 1 group of 6; 6 groups of 1; 3 groups of 2)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2, 4, 6",
+          "2 4 6",
+          "two, four, six",
+          "two four six",
+          "6"
+        ]
+      },
+      "correct": "Says 2, 4, 6 or says 6.",
+      "partial": "Starts correctly but stops early.",
+      "incorrect": "Says a different count.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1 (S: I counted 2, 4, 6)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 groups of 2"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 6 groups)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names 6 rows of 2, 6 columns of 2, or 2 rows of 6.",
+      "partial": "Names rows or columns but not how many in each.",
+      "incorrect": "Names an array that does not use all 12 beans.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: You can make 6 rows of two... 2 rows of six)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2 (S: 6)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names an array of 15: 3 rows of 5 or 5 rows of 3 (or the same with columns).",
+      "partial": "Names rows or a row size but not both, or the array does not make 15.",
+      "incorrect": "Names an array that does not make 15.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (answer not printed; 3 by 5 and 5 by 3 make 15)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names an array of 20: 2 rows of 10, 10 rows of 2, 4 rows of 5 or 5 rows of 4 (or the same with columns).",
+      "partial": "Names rows or a row size but not both, or the array does not make 20.",
+      "incorrect": "Names an array that does not make 20.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (answer not printed; 4 by 5, 5 by 4, 2 by 10 and 10 by 2 make 20)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12 (4 groups of 3).",
+      "partial": "Says 7 (adds 4 and 3) or 9.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 4 lines of 3 people is 12)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says each row or column is one group, and the number is how many are in that group.",
+      "partial": "Says only one of the two correctly.",
+      "incorrect": "Mixes them up, or says something else.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development calls 2 rows of 3 two equal groups of 3)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says you can count by rows or columns, skip-count, or add the same number again and again.",
+      "partial": "Says it is easier but gives no reason.",
+      "incorrect": "Gives a reason that does not match arrays.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development counts by rows, columns and twos)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_straight_lines",
+      "level": 1,
+      "text": "Put the objects in straight lines going across.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (place them in straight horizontal lines)"
+      }
+    },
+    {
+      "id": "h_up_down",
+      "level": 1,
+      "text": "Columns go up and down. Line the objects up like that.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (columns are arranged vertically, up and down)"
+      }
+    },
+    {
+      "id": "h_same_each",
+      "level": 2,
+      "text": "Check each row. Does every row have the same number?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (the same number is in each row)"
+      }
+    },
+    {
+      "id": "h_count_row_by_row",
+      "level": 2,
+      "text": "Count the top row. Then count the next row. Count each row.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (count them row by row)"
+      }
+    },
+    {
+      "id": "h_skip_count",
+      "level": 3,
+      "text": "Skip-count by the number in each row.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: I counted 2, 4, 6)"
+      }
+    },
+    {
+      "id": "h_count_by_tens",
+      "level": 1,
+      "text": "Count up from 60. Each number is 10 more than the last.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens"
+      }
+    },
+    {
+      "id": "h_next_ten",
+      "level": 1,
+      "text": "Take 1 from the 4 to make the 9 a ten. Count what is left.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_array_board",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact object counts in rows and columns and switching between groups, rows and columns need exact behaviour. Diffusion cannot count.",
+      "description": "A board of identical objects (bears, beans or triangles). Objects can be shown as scattered groups, as rows, or as columns.",
+      "must_show_exactly": [
+        "Exactly the object count in the stimulus",
+        "Every row has the same number of objects",
+        "Every column has the same number of objects",
+        "Rows go across, columns go up and down",
+        "Total never changes between layouts"
+      ],
+      "states_or_frames": [
+        "2 groups of 3 scattered",
+        "2 rows of 3",
+        "2 columns of 3",
+        "3 rows of 2",
+        "6 bears as 1 group of 6, 6 groups of 1",
+        "12 objects as groups of 2",
+        "6 rows of 2",
+        "2 rows of 6",
+        "3 rows of 5 and 5 rows of 3 (15)",
+        "4 rows of 5, 5 rows of 4, 2 rows of 10, 10 rows of 2 (20)",
+        "4 lines of 3 people (bank)"
+      ],
+      "interaction": "Tutor sets the layout from the stimulus. Child can switch between groups, rows and columns. Child answers by voice or typing.",
+      "alt_text": "Objects arranged in neat rows and columns.",
+      "used_by": [
+        "ex_12_two_rows",
+        "ex_6_three_rows",
+        "ex_6_two_columns",
+        "ex_6_two_rows",
+        "exp_columns_array",
+        "exp_count_in_arrays",
+        "exp_many_arrays",
+        "exp_rows_array",
+        "exp_total_same",
+        "q_app_1",
+        "q_db_1",
+        "q_db_2",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat cartoon counting bears (or beans) arranged in an exact grid of rows and columns, plain background. [Build by code]",
+      "review_notes": "Use one original bear icon. Do not copy the source pictures."
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Grade 2 Core Fluency Practice Sets",
+      "reason": "Timed paper sets from Lesson 1. Review only. No items are printed in this lesson file.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_counting_signals",
+      "name": "Happy Counting hand signals and counting with a partner",
+      "reason": "Needs hand signals and a second child. Covered by q_pk_4 and q_pk_5.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens"
+      }
+    },
+    {
+      "id": "na_physical",
+      "name": "Counting bears, beans and arranging them by hand",
+      "reason": "Physical objects. Replaced by the on-screen widget a_array_board.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk with a partner",
+      "reason": "Needs a second child. Covered by questions where the child explains to the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Circle groups, redraw arrays and circle rows and columns on paper",
+      "reason": "Drawing and circling cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set; Exit Ticket; Homework"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set 1 to 6, Exit Ticket and Homework 1 to 6",
+      "issue": "Picture items (circle groups, redraw as rows and columns, count arrays, complete arrays). The shapes and counts are not in the text and no image was attached. Only the items with printed numbers (arrays of 15 and 20 triangles) were used. Needs a person or image extraction from the PDF."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Concept Development Problem 2 extension",
+      "issue": "The source says to repeat with 8, 9 and 20 objects but gives no steps. Not added as questions."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Core Fluency Practice Sets",
+      "issue": "The sets are in Lesson 1. This lesson only refers to them. No questions made."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l1_equal_groups_manipulatives and math_g2_m6_l2_equal_groups_repeated_addition are earlier cards of this module. ext_g2_skip_count_by_10 is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added. Proposal for review: a child may mix up rows and columns."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has no hint notes in this text. Hints are adapted from teacher moves and student answers. Hint coverage is thin. Level 3 wording needs review."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_pk_3, q_pk_5, q_pr_12, q_pr_13, q_app_1, q_db_1, q_db_2 and their rubrics",
+      "issue": "Answers are derived. The source prints no answer. Check them."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_pr_12 and r_pr_12, q_pr_13 and r_pr_13",
+      "issue": "The source never says whether 1 by 15 or 1 by 20 count as arrays. Left out of valid arrays. Decide with the team."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_pr_5",
+      "issue": "The accept list uses words, not numbers. Confirm how the Tutor matches it."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the schema must allow null."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "Student Debrief",
+      "issue": "Debrief questions that name Problem Set pictures (Problems 1, 2, 5 and 6) were not made."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only 2.NBT.2, 2.NBT.5 and 2.OA.2 appear in this lesson file (Fluency headings). The lesson's own module standard is not printed here and was not added."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_array_board). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

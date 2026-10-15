@@ -43,3 +43,9 @@ Frontend implementation follows the installed Next.js route-handler and client-c
 Open `http://127.0.0.1:3001/timetable` after starting the services (`tools/run_local_application.py`). A parent saves only the daily school start time. The system builds the timetable and prepares the next required Maths lesson from its concept and assessment cards; at class time the child joins or snoozes five minutes. There is no shortcut that skips preparation or rechecks an older saved script. Full flow, memory behaviour and verification status: `docs/voice/TIMETABLE_FLOW.md`. The manual `/lesson-preview` remains available for reviewing one saved script. The service uses `--content-root` (default: the sibling assessment-card-generator workspace) for the audited catalog and the existing script agent.
 
 The isolated `/lesson-demo` uses an existing ready job selected by the launcher or `--demo-job-id`. It has no main-screen button, never submits generation, and does not record student progress. See `docs/voice/DAILY_TIMETABLE.md` for the four-class plan and persisted curriculum state.
+
+
+Current packaging: follow `docs/RUN_CURRENT_SYSTEM.md`. Content defaults to this
+repository, `docs/content/lesson-pairs.json` is hash-checked, and the script agent
+is bundled. The external Downloads workspace is no longer required. The original
+setup examples above describe the earlier operator environment.

@@ -29,3 +29,21 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Local runtime state, credentials, generated jobs and audio
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.wav
+*.mp3
+*.pcm
+*.onnx
+/runtime-data/
+/artifacts/
+/.assessment_batch/
+/output/
+.venv*/
+pgdata/
+postgres-data/
+/tests/__pycache__/
+!/.env.example

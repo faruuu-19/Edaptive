@@ -1,0 +1,1611 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m7_l5_compare_classify_other_polygons",
+  "card_version": 2,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m7",
+      "file": "math-g3-m7-topic-b-lesson-5.md",
+      "source_version": "not stated in file (no page footer in the .md)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 7, Lesson 5",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in file; page is n/a and section names are used"
+    },
+    {
+      "src": "src_review",
+      "source_id": "quadrilateral_manual_review_2026_10_12",
+      "title": "Manual clarification of quadrilateral relationships",
+      "reviewed_against": [
+        "https://tasks.illustrativemathematics.org/content-standards/G/4/A/2/tasks/1274",
+        "https://tasks.illustrativemathematics.org/content-standards/G/4/A/2/tasks/1504"
+      ]
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.G.1",
+    "3.OA.7"
+  ],
+  "review_status": "draft",
+  "objective": {
+    "id": "obj_1",
+    "text": "Compare and sort polygons by sides, angles and parallel lines. Learn what a regular polygon is.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    },
+    "recap_text": "A polygon's side count gives its general group. Other clues help you choose more specific groups. Parallel sides, equal sides and right angles help classify quadrilaterals. Rectangle and rhombus groups overlap at squares. A regular polygon has equal sides and equal angles. Finer ruler marks help record smaller differences in length."
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_quad_family",
+      "title": "Parallel sides and quadrilateral groups",
+      "text": "A quadrilateral has four straight sides. Parallel lines stay the same distance apart and do not meet. A trapezoid has at least one pair of opposite sides parallel. We use this meaning of trapezoid throughout this lesson. A parallelogram has two pairs of opposite sides parallel.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "source_ref": {
+        "src": "src_review",
+        "page": "n/a",
+        "section": "Manual source clarification requested by Amna, 12 October 2026"
+      },
+      "reflection_prompt": "How do parallel sides help you tell quadrilateral groups apart?",
+      "protected_statements": [
+        "A trapezoid has at least one pair of opposite sides parallel.",
+        "A parallelogram has two pairs of opposite sides parallel."
+      ]
+    },
+    {
+      "id": "exp_rect_rhombus",
+      "title": "Rectangle and rhombus groups overlap",
+      "text": "A rectangle has four right angles. A right angle makes a square corner. A rhombus has four equal sides. A square has four equal sides and four right angles. It belongs to both the rectangle and rhombus groups. These groups overlap; their shared group is squares. A square is also a parallelogram, a trapezoid and a quadrilateral. Not every rectangle is a rhombus. Not every rhombus is a rectangle.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "source_ref": {
+        "src": "src_review",
+        "page": "n/a",
+        "section": "Manual source clarification requested by Amna, 12 October 2026"
+      },
+      "reflection_prompt": "Why can a square belong to both the rectangle and rhombus groups?",
+      "protected_statements": [
+        "A rectangle has four right angles.",
+        "A rhombus has four equal sides.",
+        "Not every rectangle is a rhombus.",
+        "Not every rhombus is a rectangle."
+      ]
+    },
+    {
+      "id": "exp_regular",
+      "title": "Regular polygons",
+      "text": "A regular polygon has all equal sides and all equal angles. A square is a regular quadrilateral.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1"
+      },
+      "reflection_prompt": "What must you check besides equal sides before calling a polygon regular?",
+      "protected_statements": [
+        "A regular polygon has all equal sides and all equal angles."
+      ]
+    },
+    {
+      "id": "exp_same_name",
+      "title": "Side count gives a general group name",
+      "text": "Side count gives a polygon its general group name. A six-sided polygon is a hexagon, even if its shape looks unusual. Four-sided polygons are quadrilaterals. Their other features can give them more specific names, such as rectangle or rhombus.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "source_ref": {
+        "src": "src_review",
+        "page": "n/a",
+        "section": "Manual source clarification requested by Amna, 12 October 2026"
+      },
+      "reflection_prompt": "An unusual-looking polygon has six sides. What should decide its general group name?"
+    },
+    {
+      "id": "exp_precise_unit",
+      "title": "Pick the most precise unit",
+      "text": "On an inch ruler, quarter-inch marks are closer together than half-inch marks. These finer divisions let you record smaller differences in side length. For this comparison, use the quarter-inch marks. Do not assume the smallest unit is best for every measuring task.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_inch_ruler"
+      ],
+      "source_ref": {
+        "src": "src_review",
+        "page": "n/a",
+        "section": "Manual source clarification requested by Amna, 12 October 2026"
+      },
+      "reflection_prompt": "Why can quarter-inch marks show smaller differences than half-inch marks?",
+      "protected_statements": [
+        "For this comparison, use the quarter-inch marks.",
+        "Do not assume the smallest unit is best for every measuring task."
+      ]
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_not_regular_pentagon",
+      "title": "A pentagon that is not regular",
+      "text": "This pentagon has 5 equal sides. Its angles are not all equal, so it is not a regular pentagon.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1"
+      },
+      "idea_id": "exp_regular"
+    },
+    {
+      "id": "ex_parallel_groups",
+      "idea_id": "exp_quad_family",
+      "title": "Using parallel-side clues",
+      "text": "A quadrilateral with two pairs of opposite sides parallel is a parallelogram. It also fits our trapezoid group because two pairs include at least one pair.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "source_ref": {
+        "src": "src_review",
+        "page": "n/a",
+        "section": "Manual source clarification requested by Amna, 12 October 2026"
+      }
+    },
+    {
+      "id": "ex_square_groups",
+      "idea_id": "exp_rect_rhombus",
+      "title": "A square belongs to overlapping groups",
+      "text": "A square has four equal sides and four right angles. The equal sides place it in the rhombus group. The right angles place it in the rectangle group. A rectangle whose sides are not all equal is not a rhombus.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "source_ref": {
+        "src": "src_review",
+        "page": "n/a",
+        "section": "Manual source clarification requested by Amna, 12 October 2026"
+      }
+    },
+    {
+      "id": "ex_same_sides",
+      "idea_id": "exp_same_name",
+      "title": "An unusual hexagon",
+      "text": "A regular hexagon and an unusual-looking hexagon both have six sides. Both belong to the hexagon group. Their shapes can look different.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "source_ref": {
+        "src": "src_review",
+        "page": "n/a",
+        "section": "Manual source clarification requested by Amna, 12 October 2026"
+      }
+    },
+    {
+      "id": "ex_ruler_marks",
+      "idea_id": "exp_precise_unit",
+      "title": "Comparing ruler divisions",
+      "text": "Look between inch marks on the ruler. Half-inch marks divide that space into larger steps than quarter-inch marks. The quarter-inch marks let you describe a smaller difference in side length.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_inch_ruler"
+      ],
+      "source_ref": {
+        "src": "src_review",
+        "page": "n/a",
+        "section": "Manual source clarification requested by Amna, 12 October 2026"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 5 times 5?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 5,
+        "b": 5
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_count_fives"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by 5 (5 × 5 = 25)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 3 times 5?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 3,
+        "b": 5
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_count_fives"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by 5 (3 × 5 = 15)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 4 times 5?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 4,
+        "b": 5
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_count_fives"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by 5 (4 × 5 = 20)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "Count by sixes. 2 sixes is what number?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_count_sixes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Count by sixes (2 sixes = 12)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "Count by sixes. 6 sixes is what number?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_count_sixes"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Count by sixes (6 sixes = 36)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "Count by sixes. 4 sixes is what number?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_count_sixes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Count by sixes (4 sixes = 24)"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "A parallelogram has no right angles. Is it a quadrilateral?",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: Yes)"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "A parallelogram has two sets of parallel sides. Is it also a trapezoid? Why?",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_parallel_sets"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: Yes. It has at least one set of parallel lines)"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "prior_knowledge",
+      "text": "How many right angles does a rectangle that is not a square have?",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_right_angles"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: Write 4)"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "prior_knowledge",
+      "text": "Is a rectangle also a parallelogram? Why?",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_parallel_sets"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: It has two sets of parallel sides)"
+      }
+    },
+    {
+      "id": "q_pk_13",
+      "kind": "prior_knowledge",
+      "text": "A parallelogram has two sets of parallel sides and no right angles. Is it a rectangle?",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_13",
+      "hint_ids": [
+        "h_right_angles"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: No ... no right angles)"
+      }
+    },
+    {
+      "id": "q_pk_14",
+      "kind": "prior_knowledge",
+      "text": "What do we call a parallelogram with 4 equal sides?",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_14",
+      "hint_ids": [
+        "h_nested_rules"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: A rhombus)"
+      }
+    },
+    {
+      "id": "q_pk_15",
+      "kind": "prior_knowledge",
+      "text": "What is a rhombus with 4 right angles called?",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_15",
+      "hint_ids": [
+        "h_nested_rules"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: A square!)"
+      }
+    },
+    {
+      "id": "q_pk_16",
+      "kind": "prior_knowledge",
+      "text": "Name one other way to classify a square.",
+      "asset_ids": [
+        "a_quad_family"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_16",
+      "hint_ids": [
+        "h_nested_rules"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: Trapezoid, Quadrilateral, Rectangle, Parallelogram, Polygon)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "For measuring these side lengths, which marked ruler division gives finer readings: inch, half-inch or quarter-inch?",
+      "asset_ids": [
+        "a_inch_ruler"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_smallest_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (S: We should use the quarter inch ... the smallest unit)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "If a rule says at least one right angle, can a polygon have more than one?",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_right_angles"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (S: Yes. It just means that you need to have one for sure)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What do we call a polygon with all equal sides and all equal angles?",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_equal_sides_angles"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (A polygon with all equal sides and all equal angles is called a regular polygon)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "A pentagon has 5 equal sides, but its angles are not all equal. Is it a regular pentagon?",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_equal_sides_angles"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (This isn't a regular pentagon)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "How many sides does a pentagon have?",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (S: Five sides!)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "A six-sided polygon looks unusual. Is it still a hexagon?",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 2 (S: They are both still hexagons)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Why are two six-sided polygons both hexagons, even if one looks odd?",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 2 (they all had the same number of sides)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "A polygon has six equal sides and six equal angles. It has no right angles. What is its name?",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 4(a) (Polygon U; six-sided)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Tell two attributes of a regular polygon.",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_equal_sides_angles"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Tell your partner two attributes of a regular polygon)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Which quadrilateral is a regular polygon?",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_equal_sides_angles"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Which quadrilateral is a regular polygon?; derived: a square)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Which is easier to group: quadrilaterals or polygons with different numbers of sides? Why?",
+      "asset_ids": [
+        "a_regular_polygons"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_count_sides"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Was it easier to group quadrilaterals or group polygons...)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by 5 (5 × 5 = 25)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by 5 (3 × 5 = 15)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by 5 (4 × 5 = 20)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Count by sixes (2 sixes = 12)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "36",
+          "thirty six"
+        ]
+      },
+      "correct": "Says 36.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Count by sixes (6 sixes = 36)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty four"
+        ]
+      },
+      "correct": "Says 24.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Count by sixes (4 sixes = 24)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: Yes)"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it has at least one set of parallel sides",
+          "yes because it has at least one set of parallel lines"
+        ]
+      },
+      "correct": "Says yes, it has at least one set of parallel sides.",
+      "partial": "Says yes but gives no reason.",
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: Yes. It has at least one set of parallel lines)"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: Write 4)"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it has two sets of parallel sides",
+          "yes because it has two sets of parallel sides"
+        ]
+      },
+      "correct": "Says yes, it has two sets of parallel sides.",
+      "partial": "Says yes but gives no reason.",
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: It has two sets of parallel sides)"
+      }
+    },
+    {
+      "id": "r_pk_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no it is not"
+        ]
+      },
+      "correct": "Says no, because it has no right angles.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: No ... no right angles)"
+      }
+    },
+    {
+      "id": "r_pk_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "rhombus",
+          "a rhombus"
+        ]
+      },
+      "correct": "Says rhombus.",
+      "partial": null,
+      "incorrect": "Says another name.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: A rhombus)"
+      }
+    },
+    {
+      "id": "r_pk_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "square",
+          "a square"
+        ]
+      },
+      "correct": "Says square.",
+      "partial": null,
+      "incorrect": "Says another name.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: A square!)"
+      }
+    },
+    {
+      "id": "r_pk_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "trapezoid",
+          "quadrilateral",
+          "rectangle",
+          "parallelogram",
+          "polygon",
+          "rhombus"
+        ]
+      },
+      "correct": "Names trapezoid, quadrilateral, rectangle, parallelogram, rhombus or polygon.",
+      "partial": null,
+      "incorrect": "Names a shape a square is not.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: classification review (S: Trapezoid, Quadrilateral, Rectangle, Parallelogram, Polygon)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "quarter inch",
+          "a quarter inch",
+          "quarter inches"
+        ]
+      },
+      "correct": "Says quarter inch.",
+      "partial": null,
+      "incorrect": "Says another unit.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (S: We should use the quarter inch ... the smallest unit)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it can"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (S: Yes. It just means that you need to have one for sure)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "regular polygon",
+          "a regular polygon",
+          "regular"
+        ]
+      },
+      "correct": "Says regular polygon.",
+      "partial": null,
+      "incorrect": "Says another name.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (A polygon with all equal sides and all equal angles is called a regular polygon)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no it is not"
+        ]
+      },
+      "correct": "Says no, because the angles are not all equal.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (This isn't a regular pentagon)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1 (S: Five sides!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_look_unusual"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 2 (S: They are both still hexagons)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both have six sides.",
+      "partial": "Gives part of the answer but not all of it.",
+      "incorrect": "Gives a reason that does not use the sides.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_look_unusual"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 2 (they all had the same number of sides)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "regular hexagon",
+          "hexagon",
+          "a regular hexagon"
+        ]
+      },
+      "correct": "Says regular hexagon.",
+      "partial": "Says hexagon without regular.",
+      "incorrect": "Says another name.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 4(a) (Polygon U; six-sided)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "equal sides and equal angles",
+          "all equal sides and all equal angles",
+          "equal sides, equal angles"
+        ]
+      },
+      "correct": "Says all sides are equal and all angles are equal.",
+      "partial": "Names only sides or only angles.",
+      "incorrect": "Names other attributes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Tell your partner two attributes of a regular polygon)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "square",
+          "a square"
+        ]
+      },
+      "correct": "Says square.",
+      "partial": null,
+      "incorrect": "Says another shape.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Which quadrilateral is a regular polygon?; derived: a square)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives an answer with a reason.",
+      "partial": "Gives part of the answer but not all of it.",
+      "incorrect": "Gives no reason.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Was it easier to group quadrilaterals or group polygons...)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_nested_rules",
+      "level": 2,
+      "text": "Check each rule in turn. Does the shape have it?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_parallel_sets",
+      "level": 1,
+      "text": "Count the sets of parallel sides.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_right_angles",
+      "level": 1,
+      "text": "Count the square corners.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_equal_sides_angles",
+      "level": 2,
+      "text": "Check the sides. Then check the angles.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1"
+      }
+    },
+    {
+      "id": "h_count_sides",
+      "level": 1,
+      "text": "Count the sides.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 2"
+      }
+    },
+    {
+      "id": "h_smallest_unit",
+      "level": 1,
+      "text": "Which unit is the smallest?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1"
+      }
+    },
+    {
+      "id": "h_count_fives",
+      "level": 2,
+      "text": "Count by fives. Count how many fives you said.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_count_sixes",
+      "level": 2,
+      "text": "Count by sixes. Count how many sixes you said.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_look_unusual",
+      "label": "Unusual shapes do not count",
+      "description": "The child thinks an unusual-looking shape is not the named polygon.",
+      "detection_signals": [
+        "says an odd six-sided shape is not a hexagon"
+      ],
+      "response_text": "Side count gives a polygon its general group name. Other features can give it more specific names. Count the sides before deciding that an unusual shape does not belong.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 2 (Polygon T and Polygon U are both hexagons)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_quad_family",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Group nesting must be correct.",
+      "description": "Quadrilateral groups: trapezoids contain parallelograms under the at-least-one-pair definition. Inside parallelograms, rectangle and rhombus regions overlap at squares.",
+      "must_show_exactly": [
+        "Quadrilaterals contain trapezoids, which contain parallelograms",
+        "Rectangle and rhombus regions overlap; neither is wholly inside the other",
+        "Squares occupy the overlap",
+        "A rectangle that is not a square",
+        "A rhombus that is not a square",
+        "A parallelogram with no right angles"
+      ],
+      "states_or_frames": [
+        "Overlapping groups",
+        "Parallel-side pairs highlighted",
+        "Square highlighted in the overlap"
+      ],
+      "interaction": "Child taps a shape and sees which groups it is in.",
+      "alt_text": "Overlapping rectangle and rhombus groups meet at squares inside parallelograms.",
+      "generation_caption": "Use nested outer quadrilateral, trapezoid and parallelogram regions with overlapping rectangle and rhombus regions inside. Place squares in their intersection. Mark equal sides and right angles. [Build by code]",
+      "used_by": [
+        "exp_quad_family",
+        "q_pk_10",
+        "q_pk_11",
+        "q_pk_12",
+        "q_pk_13",
+        "q_pk_14",
+        "q_pk_15",
+        "q_pk_16",
+        "q_pk_9"
+      ]
+    },
+    {
+      "asset_id": "a_regular_polygons",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Side counts and angles must be exact.",
+      "description": "Polygons with marks for equal sides and equal angles: a regular hexagon, a regular pentagon, an irregular pentagon with 5 equal sides, and an odd hexagon.",
+      "must_show_exactly": [
+        "Regular hexagon with 6 equal sides and 6 equal angles",
+        "Pentagon with 5 equal sides but unequal angles",
+        "Odd six-sided shape",
+        "Side and angle marks",
+        "Regular pentagon with five equal sides and five equal angles"
+      ],
+      "states_or_frames": [
+        "Regular hexagon",
+        "Irregular pentagon",
+        "Odd hexagon"
+      ],
+      "interaction": "Child taps to show side and angle marks.",
+      "alt_text": "Regular and irregular polygons.",
+      "generation_caption": "Plain flat polygons with small marks for equal sides and angles, plain background, no text. [Build by code]",
+      "review_notes": "Source uses polygons M to X from a Template picture. This is a new set.",
+      "used_by": [
+        "ex_not_regular_pentagon",
+        "exp_precise_unit",
+        "exp_regular",
+        "exp_same_name",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_ps_4"
+      ]
+    },
+    {
+      "asset_id": "a_inch_ruler",
+      "status": "not_available",
+      "kind": "diagram",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Ruler divisions must be exact.",
+      "description": "An inch ruler with inch, half-inch and quarter-inch marks. Highlight the closer quarter-inch marks when comparing divisions.",
+      "must_show_exactly": [
+        "Equal quarter-inch intervals",
+        "Half-inch marks aligned with quarter-inch marks",
+        "Inch marks aligned with both subdivisions"
+      ],
+      "states_or_frames": [
+        "Compare half-inch and quarter-inch divisions"
+      ],
+      "alt_text": "Quarter-inch ruler divisions are finer than half-inch divisions.",
+      "used_by": [
+        "exp_precise_unit",
+        "ex_ruler_marks",
+        "q_pr_1"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: timed paper race",
+      "reason": "Pattern Sheet: Multiply by 5 (1–5), timed. The timed race, scoring and Sprint A versus Sprint B cannot run on a screen. Its facts are used as practice questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint"
+      }
+    },
+    {
+      "id": "na_group_count",
+      "name": "Group Counting (whole-class chanting)",
+      "reason": "Whole-class chanting forward and backward. The tutor reads typed text or a transcript, so it cannot check a rhythm or chant.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Group Counting"
+      }
+    },
+    {
+      "id": "na_hands_on",
+      "name": "Hands-on work with real materials (scissors, polygon cards M to X, ruler, right angle tool)",
+      "reason": "The child works on a screen. Real materials, cutting and tiling cannot be checked. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 1"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Drawing and writing on a personal white board",
+      "reason": "The tutor sees only typed text or a transcript, not paper or drawings. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_draw_on_sheet",
+      "name": "Draw on the worksheet (draw a rectangle, draw lines, circle shapes)",
+      "reason": "The tutor cannot see drawings. These items are skipped or asked as typed questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "na_hold_up",
+      "name": "Hold up a polygon that fits an attribute",
+      "reason": "Needs real cards and a teacher.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem 2"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this license before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "Polygons M to X",
+      "issue": "Polygons M to X, Jonah's polygon, Lucia's polygons and the clouds are pictures. Questions about which letters fit which groups were skipped. Check the PDF."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "Problem Set, Exit Ticket and Homework",
+      "issue": "Charts, sketches and matching need paper. Only vocabulary and reasoning from the text were used. Problem Set 3 (Jenny) and Homework were skipped."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "q_ps_4",
+      "issue": "Exit Ticket 4(a) answer is derived from the clues and the Polygon U description in Problem 2."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "q_pk_16",
+      "issue": "Open accept list of several shape names. A person should check it."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Sheet labels",
+      "issue": "The .md does not label the Problem Set, Exit Ticket and Homework. Sheet order (first, second, third Name/Date page) was used. Chart and Jenny are on the first sheet; Jonah on the second; clouds on the third. Check the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards come from the codes printed in the lesson text only (3.G.1, 3.OA.7)."
+    },
+    {
+      "id": "f9",
+      "severity": "low",
+      "item": "source_version",
+      "issue": "The .md file has no page footer, so source_version could not be copied."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f11",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot count. Build every visual with exact counts by code, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are not_available yet: a_quad_family, a_regular_polygons. Items that use them cannot be launched until the assets exist."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class. All child-facing text was rewritten for a screen and needs a wording review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "The lesson input block was not given, so prerequisite_ids is empty. A person must add the real prerequisite cards (for example earlier lessons of this module)."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "review_notes": [
+    "User-requested manual revision: corrected overlapping groups, explicit inclusive trapezoid definition, ruler context, concrete reflections and examples. Source remains draft."
+  ]
+}

@@ -1,0 +1,1854 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l13_two_step_word_problems_dollars_cents",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-b-lesson-13.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 13",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve two-step word problems about dollars or cents, with totals within 100 dollars or 1 dollar.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l6_coin_values_count_up",
+    "math_g2_m7_l7_coin_total_word_problems",
+    "ext_g2_m7_bill_total_word_problems",
+    "ext_g2_m7_make_change_from_dollar"
+  ],
+  "explanations": [
+    {
+      "id": "exp_models",
+      "title": "Draw a model first",
+      "text": "Before you solve, think about the model. A tape diagram or a number bond shows the parts and the whole. Think about the operation and a strategy too.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "exp_coin_unknown",
+      "title": "Find the missing coin",
+      "text": "Find the value of the coins you know. Count up or subtract to reach the new total. The difference is the value of the missing coin.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_two_step",
+      "title": "Two steps",
+      "text": "Some problems have two parts. Find one amount first. Then use it to find the answer. Use two tape diagrams of the same size, and make one longer for the extra.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_start_unknown",
+      "title": "Find the start",
+      "text": "When money was spent and some is left, the cost and the money left are two parts. Add them to find what you had at the start.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "exp_skip_count",
+      "title": "Skip-count the money",
+      "text": "Skip-count by tens, then fives, then ones. For bills, skip-count by fives and ones. This helps you find one part quickly.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Parts 1 and 3; Student Debrief"
+      }
+    },
+    {
+      "id": "exp_dollar_nickels",
+      "title": "100 cents in nickels",
+      "text": "100 cents is the same as 20 nickels. You can also find the value of the coins and take it from 100.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_gary",
+      "title": "Gary's missing coin",
+      "text": "Gary has 2 dimes, 5 nickels and 13 pennies. That is 58 cents. A coin from his brother makes 68 cents. 68 minus 58 equals 10. The coin is a dime.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_hailey",
+      "title": "Hailey's snack",
+      "text": "The pretzel stick costs a dime and a nickel, or 15 cents. The juice box costs 18 cents more, so it costs 33 cents. 15 plus 33 equals 48. Hailey spent 48 cents.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "ex_wendell",
+      "title": "Wendell's game",
+      "text": "Wendell has 2 five-dollar bills and 4 one-dollar bills left. That is 14 dollars. The game cost 16 dollars. 16 plus 14 equals 30. He had 30 dollars at the start.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "In a decomposition tree, 100 is the whole. One part is 60. What is the other part?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_tree_parts"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "whole": 100,
+        "part": 60
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "In a decomposition tree, 100 is the whole. One part is 35. What is the other part?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_tree_parts"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "whole": 100,
+        "part": 35
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "In a decomposition tree, 100 is the whole. One part is 82. What is the other part?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_tree_parts"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "whole": 100,
+        "part": 82
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Dante had some money in a jar. He puts 8 nickels into the jar. Now he has 100 cents. How much money was in the jar at first, in cents?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_value_not_count"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "nickels": 8,
+        "total": 100
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Gary has 2 dimes, 5 nickels and 13 pennies. How many cents is that?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_known_first"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "2 dimes, 5 nickels, 13 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 58 cents)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Gary's brother gives him one more coin. Now Gary has 68 cents. What coin did his brother give him?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_missing_part"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "before": 58,
+        "after": 68
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: a dime)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Hailey bought a pretzel stick for a dime and a nickel. How many cents did it cost?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_known_first"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 dime, 1 nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Hailey's juice box cost 18 cents more than the pretzel stick. How much did the juice box cost, in cents?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_more_than"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "pretzel": 15,
+        "more": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 33 cents)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "How much did Hailey spend on the pretzel stick and the juice box, in cents?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_more_than"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "parts": [
+          15,
+          33
+        ],
+        "total": 48
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 48 cents)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Wendell has 2 five-dollar bills and 4 one-dollar bills left after buying a game. How many dollars is that?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_bills_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "bills": "2 fives, 4 ones"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: $14)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Wendell bought a game for 16 dollars. He has 14 dollars left. How many dollars did he have before he bought the game?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_start_unknown"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "parts": [
+          16,
+          14
+        ],
+        "total": 30
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 30 dollars)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Josephine has 3 nickels, 4 dimes and 12 pennies. Her mother gives her 1 coin. Now Josephine has 92 cents. What coin did her mother give her?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_known_first",
+        "h_missing_part"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Josephine",
+        "answer": 25
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Christopher has 3 ten-dollar bills, 3 five-dollar bills and 12 one-dollar bills. Jenny has 19 dollars more than Christopher. How many dollars does Jenny have?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_bills_skip",
+        "h_more_than"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Christopher and Jenny",
+        "answer": 76
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Isaiah started with 2 twenty-dollar bills, 4 ten-dollar bills, 1 five-dollar bill and 7 one-dollar bills. He spent 73 dollars on clothes. How many dollars does he have left?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_bills_skip",
+        "h_known_first"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Isaiah",
+        "answer": 19
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Jackie bought a sweater for 42 dollars. She had 3 five-dollar bills and 6 one-dollar bills left over. How many dollars did she have before she bought the sweater?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_bills_skip",
+        "h_start_unknown"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Jackie",
+        "answer": 63
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Mary found 98 cents in her piggy bank. She counted 1 quarter, 8 pennies, 3 dimes and some nickels. How many nickels did she count?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_known_first",
+        "h_missing_part"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Mary",
+        "answer": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6"
+      }
+    },
+    {
+      "id": "q_ps_5a",
+      "kind": "practice",
+      "text": "Akio found 18 cents in one pocket. He found 6 more coins in his other pocket. Altogether he has 73 cents. How many cents are the 6 coins worth?",
+      "rubric_id": "r_ps_5a",
+      "hint_ids": [
+        "h_missing_part"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "before": 18,
+        "after": 73
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5"
+      }
+    },
+    {
+      "id": "q_ps_5b",
+      "kind": "practice",
+      "text": "Akio's 6 coins in his other pocket are worth 55 cents. What could the 6 coins be?",
+      "rubric_id": "r_ps_5b",
+      "hint_ids": [
+        "h_coin_combo"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": 6,
+        "total": 55
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Gary went to the store with 4 ten-dollar bills, 3 five-dollar bills and 7 one-dollar bills. He bought a sweater for 26 dollars. How many dollars does he have left?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_bills_skip",
+        "h_known_first"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Gary",
+        "answer": 36
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "Gary has 36 dollars left after he bought a sweater. What bills could he have left the store with?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_bills_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "total": 36
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Kelly bought a pencil sharpener for 47 cents and a pencil for 35 cents. What was her change from 1 dollar, in cents?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_known_first"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Kelly",
+        "answer": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "Hae Jung bought a pretzel for 3 dimes and a nickel. She also bought a juice box. She spent 92 cents. How much was the juice box, in cents?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_known_first",
+        "h_missing_part"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Hae Jung",
+        "answer": 57
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "Monique saved 2 ten-dollar bills, 4 five-dollar bills and 15 one-dollar bills. Harry saved 16 dollars more than Monique. How many dollars did Harry save?",
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_bills_skip",
+        "h_more_than"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Monique and Harry",
+        "answer": 71
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "Ryan went shopping with 3 twenty-dollar bills, 3 ten-dollar bills, 1 five-dollar bill and 9 one-dollar bills. He spent 59 dollars on a video game. How many dollars does he have left?",
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_bills_skip",
+        "h_known_first"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Ryan",
+        "answer": 45
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "Heather had 3 ten-dollar bills and 4 five-dollar bills left after buying sneakers for 29 dollars. How many dollars did she have before she bought the sneakers?",
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_bills_skip",
+        "h_start_unknown"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Heather",
+        "answer": 79
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Nolan has 1 quarter, 1 nickel and 21 pennies. His brother gave him 2 coins. Now he has 86 cents. What 2 coins did his brother give him?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_known_first",
+        "h_coin_combo"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins",
+        "a_part_whole"
+      ],
+      "stimulus": {
+        "problem": "Nolan",
+        "answer": "quarter, dime"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Before you solve a word problem, what should you think about?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_known_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "How can skip-counting help you solve one part of a money problem quickly?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_bills_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "How did a tape diagram or number bond help you solve a problem today?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_known_first"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_part_whole"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (students break apart $1; no answers printed; 100 minus the given part)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "65",
+          "sixty-five"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (students break apart $1; no answers printed; 100 minus the given part)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (students break apart $1; no answers printed; 100 minus the given part)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty",
+          "60 cents",
+          "sixty cents",
+          "60¢",
+          "60 cent",
+          "60 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_subtract_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 8 nickels is 40 cents; 100 - 40 = 60)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "58",
+          "fifty-eight",
+          "58 cents",
+          "fifty-eight cents",
+          "58¢",
+          "58 cent",
+          "58 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 20 + 25 + 13 = 58)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "dime",
+          "a dime",
+          "10",
+          "10 cents",
+          "ten cents",
+          "one dime",
+          "1 dime"
+        ]
+      },
+      "correct": "Says dime.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Gary's brother gave him a dime.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 cents",
+          "fifteen cents",
+          "15¢",
+          "15 cent",
+          "15 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 15¢ + 18¢ = 33¢; pretzel 15 cents)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33",
+          "thirty-three",
+          "33 cents",
+          "thirty-three cents",
+          "33¢",
+          "33 cent",
+          "33 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 33 cents!)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "48",
+          "forty-eight",
+          "48 cents",
+          "forty-eight cents",
+          "48¢",
+          "48 cent",
+          "48 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Hailey spent 48¢ on the pretzel and juice.)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen",
+          "$14",
+          "14 dollars",
+          "fourteen dollars",
+          "$14.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: $14 in change)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty",
+          "$30",
+          "30 dollars",
+          "thirty dollars",
+          "$30.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: Wendell had $30 before buying the game.)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "quarter",
+          "a quarter",
+          "25",
+          "25 cents",
+          "twenty-five cents",
+          "1 quarter",
+          "one quarter"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (answer not printed; 25 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "76",
+          "seventy-six",
+          "$76",
+          "76 dollars",
+          "seventy-six dollars",
+          "$76.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (answer not printed; 76 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19",
+          "nineteen",
+          "$19",
+          "19 dollars",
+          "nineteen dollars",
+          "$19.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (answer not printed; 19 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "63",
+          "sixty-three",
+          "$63",
+          "63 dollars",
+          "sixty-three dollars",
+          "$63.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4 (answer not printed; 63 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 6 (answer not printed; 7 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_5a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55",
+          "fifty-five",
+          "55 cents",
+          "fifty-five cents",
+          "55¢",
+          "55 cent",
+          "55 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5 (no answer printed; 73 - 18 = 55)"
+      }
+    },
+    {
+      "id": "r_ps_5b",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names 6 coins worth 55 cents, such as 5 dimes and 1 nickel, or 1 quarter, 1 dime and 4 nickels.",
+      "partial": "Names coins worth 55 cents but not 6 coins.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5 (no answer printed; 5 dimes and 1 nickel, or 1 quarter, 1 dime and 4 nickels)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "36",
+          "thirty-six",
+          "$36",
+          "36 dollars",
+          "thirty-six dollars",
+          "$36.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1 (answer not printed; 62 - 26 = 36)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names bills worth 36 dollars, such as 3 ten-dollar bills, 1 five-dollar bill and 1 one-dollar bill.",
+      "partial": "Names bills that are close but do not total 36 dollars.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 1 (no answer printed; bills worth 36 dollars, such as 3 tens, 1 five and 1 one)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen",
+          "18 cents",
+          "eighteen cents",
+          "18¢",
+          "18 cent",
+          "18 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (answer not printed; 18 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "57",
+          "fifty-seven",
+          "57 cents",
+          "fifty-seven cents",
+          "57¢",
+          "57 cent",
+          "57 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2 (answer not printed; 57 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "71",
+          "seventy-one",
+          "$71",
+          "71 dollars",
+          "seventy-one dollars",
+          "$71.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4 (answer not printed; 71 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five",
+          "$45",
+          "45 dollars",
+          "forty-five dollars",
+          "$45.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5 (answer not printed; 45 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "79",
+          "seventy-nine",
+          "$79",
+          "79 dollars",
+          "seventy-nine dollars",
+          "$79.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 6 (answer not printed; 79 computed from the numbers in the problem)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "quarter and dime",
+          "a quarter and a dime",
+          "1 quarter and 1 dime",
+          "one quarter and one dime",
+          "dime and quarter",
+          "a dime and a quarter",
+          "1 dime and 1 quarter",
+          "one dime and one quarter"
+        ]
+      },
+      "correct": "Says quarter and dime.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3 (answer not printed; 51 cents now, 86 - 51 = 35, so a quarter and a dime)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the model to draw, if there is more than one part, the operation, or a strategy.",
+      "partial": "Names only one thing, such as read the problem.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (S: what model to use, whether there is more than one part, what operations to use, what strategies can help)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says skip-count by tens, fives and ones to find the value of coins or bills.",
+      "partial": "Says it helps but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; count tens, fives, ones to find a total)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it shows the parts and the whole, so we know what to add or subtract.",
+      "partial": "Says it helped but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; shows parts and whole)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_known_first",
+      "level": 1,
+      "text": "Find the value of the coins you know first.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_missing_part",
+      "level": 2,
+      "text": "Compare the new total to the amount before. The difference is the missing part.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (58 + __ = 68)"
+      }
+    },
+    {
+      "id": "h_more_than",
+      "level": 1,
+      "text": "More than means add on. Find the first cost, then add the extra.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "h_start_unknown",
+      "level": 1,
+      "text": "The cost and the money left are the parts. Add them to find the start.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "h_value_not_count",
+      "level": 1,
+      "text": "Find the value of the nickels. The number of coins is not the same as their value.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note (value of 8 nickels)"
+      }
+    },
+    {
+      "id": "h_bills_skip",
+      "level": 1,
+      "text": "Count the bills by tens, then fives, then ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (skip-count by fives and ones)"
+      }
+    },
+    {
+      "id": "h_tree_parts",
+      "level": 1,
+      "text": "Two parts make a whole of 100. Count up from the part you know.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_coin_combo",
+      "level": 1,
+      "text": "Try a coin that fits in the total. Add coins until you reach it.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_subtract_count",
+      "label": "Subtracts the number of coins",
+      "description": "The child subtracts the number of coins from 100 instead of finding the value of the coins.",
+      "detection_signals": [
+        "Answers 92 for the Dante problem",
+        "Subtracts 8 from 100"
+      ],
+      "response_text": "8 is how many coins. It is not their value. Find the value of 8 nickels first. Then use 100.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_coins",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact coin and bill counts need exact behaviour. Diffusion cannot count or draw the same coin every time.",
+      "description": "Coins and bills in groups. Each coin is a penny, nickel, dime or quarter. Each bill is a one, five, ten or twenty.",
+      "must_show_exactly": [
+        "Exactly the coins and bills in the stimulus",
+        "Each coin and bill looks real",
+        "Groups are shown separately",
+        "Value labels only when the stimulus asks"
+      ],
+      "states_or_frames": [
+        "Gary's coins",
+        "Dante's jar and nickels",
+        "Wendell's bills",
+        "Isaiah's bills",
+        "Mary's piggy bank",
+        "Akio's pocket"
+      ],
+      "interaction": "Tutor sets the coins and bills from the stimulus. Child can move them between groups. Child answers by voice or typing.",
+      "alt_text": "Real-looking coins and bills in groups.",
+      "used_by": [
+        "ex_gary",
+        "ex_wendell",
+        "exp_coin_unknown",
+        "exp_dollar_nickels",
+        "exp_skip_count",
+        "q_app_1",
+        "q_db_2",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_6",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5a",
+        "q_ps_5b",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Plain flat coin and bill icons, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_part_whole",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact part and whole numbers need exact behaviour.",
+      "description": "A tape diagram or number bond with a whole and two parts. One value can be unknown. A second tape can be longer by an extra amount.",
+      "must_show_exactly": [
+        "Parts add to the whole",
+        "Unknown shown with a question mark",
+        "Numbers match the stimulus"
+      ],
+      "states_or_frames": [
+        "58 and a missing coin make 68",
+        "15 and 33 make 48",
+        "16 and 14 make 30"
+      ],
+      "interaction": "Tutor sets the whole and parts from the stimulus. Child answers by voice or typing.",
+      "alt_text": "A tape diagram with two parts.",
+      "used_by": [
+        "ex_gary",
+        "ex_hailey",
+        "ex_wendell",
+        "exp_coin_unknown",
+        "exp_models",
+        "exp_start_unknown",
+        "exp_two_step",
+        "q_db_3",
+        "q_pr_2",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_7",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5a",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_9"
+      ],
+      "generation_caption": "Tape diagram with two parts and numbers, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Differentiated Practice Sets",
+      "reason": "Printed timed sets for sums and differences through 20. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_decomp_paper",
+      "name": "Decomposition tree on paper in 90 seconds, then swap and check",
+      "reason": "Needs paper, a timer and a classmate. A few questions about parts of 100 are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw tape diagrams, write number sentences and statements on a white board",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_coins, a_part_whole). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md has three unlabelled sheets. Items were counted from the printed prompts: Problem Set 1 to 6 (Josephine to Mary), Exit Ticket 1 (Gary), Homework 1 to 6 (Kelly to Heather). Check against the PDF. In ids, q_ps_1 to q_ps_6 are Problem Set, q_ps_7 and q_ps_8 are Gary, q_ps_9 to q_ps_14 are Homework 1 to 6 (order of ids follows the sheets)."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Answer key for money problems",
+      "issue": "Most answers are not printed. Each was computed by code from the numbers in the text: q_app_1, q_pk_1 to q_pk_3, q_ps_1 to q_ps_14 and q_pr_3. Check a sample against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_ps_5a, q_ps_5b, q_ps_7, q_ps_8",
+      "issue": "Akio and Gary were each split into two questions: an amount and an open question. Akio has two answers: 5 dimes and 1 nickel, or 1 quarter, 1 dime and 4 nickels. Gary left with bills worth 36 dollars in more than one way. Check the open rubrics."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "q_ps_11",
+      "issue": "Nolan has one answer found by code: a quarter and a dime. Accepted spellings were written by hand. Check them."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_pk_1, q_pk_2, q_pk_3",
+      "issue": "The source gives no numbers for the decomposition tree. Three items were generated from the idea of breaking apart 1 dollar. Parts 60, 35 and 82 are made up."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Application Problem misconception",
+      "issue": "mis_subtract_count comes from the teacher note for the Dante problem. Its response text was rewritten for a child."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l6_coin_values_count_up and math_g2_m7_l7_coin_total_word_problems are earlier cards. ext_g2_m7_bill_total_word_problems and ext_g2_m7_make_change_from_dollar are prerequisite cards that do not exist yet. Lessons 8 to 12 may fill them. Lesson 12 is being built with the id math_g2_m7_l12_make_change_from_dollar_word_problems. Check the files before linking."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "h_tree_parts, h_coin_combo",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Dollar words",
+      "issue": "Child text uses the words dollars and cents. Symbols for dollars and cents are not used."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

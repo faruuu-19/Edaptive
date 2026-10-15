@@ -1,0 +1,1992 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l5_word_problems_bar_graph_money",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-a-lesson-5.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 5",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve word problems using data presented in a bar graph.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l3_bar_graphs_scale",
+    "math_g2_m7_l4_draw_bar_graph_from_data",
+    "ext_g2_compare_tape_diagrams"
+  ],
+  "explanations": [
+    {
+      "id": "exp_money_data",
+      "title": "Money in a graph",
+      "text": "A bar graph can show money, like the number of dimes or nickels each child has. Read the bar to find each number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_scale_zero",
+      "title": "Start the scale at 0",
+      "text": "The scale starts at 0, not 1. A ruler helps you remember.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (the beginning of the scale is 0 and not 1)"
+      }
+    },
+    {
+      "id": "exp_total",
+      "title": "Find the total",
+      "text": "To find the total, add all the numbers in the graph.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (find the total amount of coins recorded)"
+      }
+    },
+    {
+      "id": "exp_double",
+      "title": "Doubling",
+      "text": "If a number doubles, add it to itself. To show a bigger number, add more boxes or let each box stand for 2.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Emily's dimes doubled)"
+      }
+    },
+    {
+      "id": "exp_compare_smaller",
+      "title": "Compare with a smaller unknown",
+      "text": "'More' can make you add, but sometimes you subtract. Draw a tape diagram to see which. Rita has 27 pennies, 19 more than Carlos. Carlos has fewer, so subtract.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_rita_carlos",
+      "title": "Rita and Carlos",
+      "text": "Rita has 27 pennies. That is 19 more than Carlos. 27 minus 19 equals 8. Carlos has 8 pennies.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "ex_callista",
+      "title": "Callista's pennies",
+      "text": "Saturday 15, Sunday 10, Monday 4 and Tuesday 7. In all, 15 plus 10 plus 4 plus 7 equals 36 pennies.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "I am holding up a coin worth 25 cents. What is the name of the coin?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_coin"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "coin": "quarter"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "How much is a quarter worth?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_coin"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "coin": "quarter"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "A quarter and a nickel are in the can. How many cents are in the can?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_coin"
+      ],
+      "origin": "generated",
+      "stimulus": {
+        "quarter": 1,
+        "nickel": 1
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "A quarter and a dime are in the can. How many cents are in the can?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_coin"
+      ],
+      "origin": "generated",
+      "stimulus": {
+        "quarter": 1,
+        "dime": 1
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Rita has 19 more pennies than Carlos. Rita has 27 pennies. How many pennies does Carlos have?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "stimulus": {
+        "larger": 27,
+        "difference": 19,
+        "smaller": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "What number does the count scale start at? Use a ruler to help you.",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Emily has 8 dimes. If you doubled her dimes, how many dimes would she have?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "emily": 8,
+        "doubled": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "How could you show 16 dimes on a graph that has fewer boxes?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "How did you find the total amount of coins in the graph? Share your strategy.",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Think of a question to ask your class that you could turn into a bar graph. What is the title and what are the categories?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_scale"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Callista saved pennies: Saturday 15, Sunday 10, Monday 4 and Tuesday 7. How many pennies did she save in all?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "saturday": 15,
+        "sunday": 10,
+        "monday": 4,
+        "tuesday": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Her sister saved 18 fewer pennies. How many pennies did her sister save?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "total": 36,
+        "fewer": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "How much more money did Callista save on Saturday than on Monday and Tuesday?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "saturday": 15,
+        "sunday": 10,
+        "monday": 4,
+        "tuesday": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Callista doubles the amount she saved on Sunday. How many pennies is that for Sunday?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "sunday": 10,
+        "doubled": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Friends counted nickels: Annie 5, Scarlett 11, Remy 8 and LaShay 14. How many nickels do the children have in all?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "annie": 5,
+        "scarlett": 11,
+        "remy": 8,
+        "lashay": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "What is the total value of Annie's and Remy's coins, in cents?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "annie": 5,
+        "remy": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "How many fewer nickels does Remy have than LaShay?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "remy": 8,
+        "lashay": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "Who has less money, Annie and Scarlett, or Remy and LaShay?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "annie": 5,
+        "scarlett": 11,
+        "remy": 8,
+        "lashay": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Dimes: Emily 8, Andrew 12, Thomas 6 and Ava 13. How many more dimes does Andrew have than Emily?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "emily": 8,
+        "andrew": 12,
+        "thomas": 6,
+        "ava": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "How many fewer dimes does Thomas have than Ava and Emily?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "emily": 8,
+        "thomas": 6,
+        "ava": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Which pair has more dimes, Emily and Ava, or Andrew and Thomas? How many more?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "emily": 8,
+        "andrew": 12,
+        "thomas": 6,
+        "ava": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "What is the total number of dimes if all four children put their dimes together?",
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "emily": 8,
+        "andrew": 12,
+        "thomas": 6,
+        "ava": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "Dimes donated: Madison 12, Robin 10, Benjamin 15 and Miguel 13. How many more dimes did Miguel donate than Robin?",
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "madison": 12,
+        "robin": 10,
+        "benjamin": 15,
+        "miguel": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "How many fewer dimes did Madison donate than Robin and Benjamin?",
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "madison": 12,
+        "robin": 10,
+        "benjamin": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_15",
+      "kind": "practice",
+      "text": "How many more dimes does Miguel need to donate the same as Benjamin and Madison?",
+      "rubric_id": "r_ps_15",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "madison": 12,
+        "benjamin": 15,
+        "miguel": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_16",
+      "kind": "practice",
+      "text": "How many dimes were donated in all?",
+      "rubric_id": "r_ps_16",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "madison": 12,
+        "robin": 10,
+        "benjamin": 15,
+        "miguel": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_17",
+      "kind": "practice",
+      "text": "Dimes: Lacy 6, Sam 11, Stefanie 9 and Amber 14. How many more dimes does Amber have than Stefanie?",
+      "rubric_id": "r_ps_17",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "lacy": 6,
+        "sam": 11,
+        "stefanie": 9,
+        "amber": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_18",
+      "kind": "practice",
+      "text": "How many more dimes do Sam and Lacy need to save to equal Stefanie and Amber?",
+      "rubric_id": "r_ps_18",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "lacy": 6,
+        "sam": 11,
+        "stefanie": 9,
+        "amber": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_19",
+      "kind": "practice",
+      "text": "Nickels: Justin 13, Melissa 9, Meghan 12 and Douglas 7. How many more nickels does Meghan have than Melissa?",
+      "rubric_id": "r_ps_19",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "justin": 13,
+        "melissa": 9,
+        "meghan": 12,
+        "douglas": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_20",
+      "kind": "practice",
+      "text": "How many fewer nickels does Douglas have than Justin?",
+      "rubric_id": "r_ps_20",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "justin": 13,
+        "douglas": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_21",
+      "kind": "practice",
+      "text": "Which pair has more nickels, Justin and Melissa, or Douglas and Meghan? How many more?",
+      "rubric_id": "r_ps_21",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "justin": 13,
+        "melissa": 9,
+        "meghan": 12,
+        "douglas": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_22",
+      "kind": "practice",
+      "text": "What is the total number of nickels if all four children put theirs together?",
+      "rubric_id": "r_ps_22",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "justin": 13,
+        "melissa": 9,
+        "meghan": 12,
+        "douglas": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_23",
+      "kind": "practice",
+      "text": "Dimes donated: Kylie 12, Tom 10, John 15 and Shannon 13. How many dimes did Shannon donate?",
+      "rubric_id": "r_ps_23",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "kylie": 12,
+        "tom": 10,
+        "john": 15,
+        "shannon": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_24",
+      "kind": "practice",
+      "text": "How many fewer dimes did Kylie donate than John and Shannon?",
+      "rubric_id": "r_ps_24",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "kylie": 12,
+        "john": 15,
+        "shannon": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_25",
+      "kind": "practice",
+      "text": "How many more dimes does Tom need to donate the same as Shannon and Kylie?",
+      "rubric_id": "r_ps_25",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "kylie": 12,
+        "tom": 10,
+        "shannon": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_26",
+      "kind": "practice",
+      "text": "How many dimes were donated in all?",
+      "rubric_id": "r_ps_26",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_bar_graph"
+      ],
+      "stimulus": {
+        "kylie": 12,
+        "tom": 10,
+        "john": 15,
+        "shannon": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (bar graph tables)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "quarter",
+          "a quarter",
+          "quarters"
+        ]
+      },
+      "correct": "Says quarter.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (S: A quarter)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25 cents",
+          "twenty-five cents",
+          "25",
+          "twenty-five"
+        ]
+      },
+      "correct": "Says 25 cents.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (S: 25 cents)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (a quarter and some nickels; example chosen; 25 + 5 = 30)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five"
+        ]
+      },
+      "correct": "Says 35.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (a quarter and dimes; example chosen; 25 + 10 = 35)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_more_means_add"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 27 - 19 = 8)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0",
+          "zero"
+        ]
+      },
+      "correct": "Says 0.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (the beginning of the scale is 0 and not 1)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (S: 16)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says make more boxes, or let each box stand for 2.",
+      "partial": "Says to change the graph but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (We would have to make more boxes. Or each unit box's value could be 2)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says add the numbers for all the categories, in your head or on paper.",
+      "partial": "Says to find the total but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; add all the numbers)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a question, a title and categories that match.",
+      "partial": "Gives a question but no title or categories.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; open answer)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "36",
+          "thirty-six"
+        ]
+      },
+      "correct": "Says 36.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (15 + 10 + 4 + 7 = 36; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (36 - 18 = 18; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (15 - 11 = 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (10 + 10 = 20; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "38",
+          "thirty-eight"
+        ]
+      },
+      "correct": "Says 38.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (5 + 11 + 8 + 14 = 38; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "65 cents",
+          "sixty-five cents",
+          "65",
+          "sixty-five"
+        ]
+      },
+      "correct": "Says 65 cents.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (5 + 8 = 13 nickels; 13 fives is 65 cents; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (14 - 8 = 6; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "annie and scarlett",
+          "Annie and Scarlett"
+        ]
+      },
+      "correct": "Says annie and scarlett.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (16 nickels and 22 nickels; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (12 - 8 = 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (21 - 6 = 15; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "emily and ava, 3",
+          "emily and ava 3",
+          "emily and ava by 3",
+          "emily and ava, 3 more",
+          "emily and ava 3 more",
+          "emily and ava, three"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (21 and 18; 3 more; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "39",
+          "thirty-nine"
+        ]
+      },
+      "correct": "Says 39.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (8 + 12 + 6 + 13 = 39; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2 (13 - 10 = 3; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2 (25 - 12 = 13; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2 (27 - 13 = 14; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2 (12 + 10 + 15 + 13 = 50; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3 (14 - 9 = 5; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3 (23 - 17 = 6; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4 (12 - 9 = 3; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4 (13 - 7 = 6; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "justin and melissa, 3",
+          "justin and melissa 3",
+          "justin and melissa by 3",
+          "justin and melissa, 3 more",
+          "justin and melissa 3 more",
+          "justin and melissa, three"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4 (22 and 19; 3 more; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "41",
+          "forty-one"
+        ]
+      },
+      "correct": "Says 41.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 4 (13 + 9 + 12 + 7 = 41; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5 (answer is in the table)"
+      }
+    },
+    {
+      "id": "r_ps_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5 (28 - 12 = 16; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5 (25 - 10 = 15; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 5 (12 + 10 + 15 + 13 = 50; answer not printed)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_tape",
+      "level": 2,
+      "text": "Draw a tape diagram. Is the unknown the bigger or the smaller part?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (guide students to draw a tape diagram)"
+      }
+    },
+    {
+      "id": "h_scale",
+      "level": 1,
+      "text": "Read the scale. Each box equals one.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (labeling graphs and the count scale)"
+      }
+    },
+    {
+      "id": "h_subtract",
+      "level": 2,
+      "text": "To compare two groups, subtract the smaller number from the larger number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "h_pairs",
+      "level": 2,
+      "text": "Add each pair first. Then compare the two totals.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (pairs of categories)"
+      }
+    },
+    {
+      "id": "h_coin",
+      "level": 1,
+      "text": "A quarter is a big silver coin. It is worth more than a dime.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_more_means_add",
+      "label": "'More' means add",
+      "description": "A child sees the word more and adds 19 and 27.",
+      "detection_signals": [
+        "Says 46"
+      ],
+      "response_text": "Draw a tape diagram. Carlos has fewer than Rita, so subtract.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (more suggests the wrong operation)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_bar_graph",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact bar lengths, scale numbers and labels need exact behaviour. Diffusion cannot count.",
+      "description": "A bar graph with a title, labels and a number scale starting at 0. It can be horizontal or vertical.",
+      "must_show_exactly": [
+        "Bar length matches the count on the scale",
+        "Scale starts at 0",
+        "Labels in the same order as the table",
+        "Bar can use more boxes or a scale of 2"
+      ],
+      "states_or_frames": [
+        "Callista's pennies",
+        "friends' nickels",
+        "dimes (Emily, Andrew, Thomas, Ava)",
+        "dimes donated (Madison, Robin, Benjamin, Miguel)",
+        "dimes (Lacy, Sam, Stefanie, Amber)",
+        "nickels (Justin, Melissa, Meghan, Douglas)",
+        "dimes donated (Kylie, Tom, John, Shannon)"
+      ],
+      "interaction": "Tutor sets the title, categories and counts from the stimulus. Child can color boxes. Child answers by voice or typing.",
+      "alt_text": "A bar graph with a number scale.",
+      "used_by": [
+        "ex_callista",
+        "exp_double",
+        "exp_money_data",
+        "exp_scale_zero",
+        "exp_total",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_15",
+        "q_ps_16",
+        "q_ps_17",
+        "q_ps_18",
+        "q_ps_19",
+        "q_ps_2",
+        "q_ps_20",
+        "q_ps_21",
+        "q_ps_22",
+        "q_ps_23",
+        "q_ps_24",
+        "q_ps_25",
+        "q_ps_26",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Simple bar graph with a number scale and colored bars, plain white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_compare",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact bar lengths for a comparison need exact behaviour. Diffusion cannot count.",
+      "description": "Two tape diagram bars. One is longer. The difference is a bracket.",
+      "must_show_exactly": [
+        "Bar lengths match the numbers",
+        "Difference shown as a bracket"
+      ],
+      "states_or_frames": [
+        "27 and 19 with the smaller part unknown"
+      ],
+      "interaction": "Tutor sets the numbers from the stimulus. Child answers by voice or typing.",
+      "alt_text": "Two bars of different length with a bracket.",
+      "used_by": [
+        "ex_rita_carlos",
+        "exp_compare_smaller",
+        "q_app_1"
+      ],
+      "generation_caption": "Two tape diagram bars with a bracket, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Differentiated Practice Sets",
+      "reason": "Printed timed sets. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency"
+      }
+    },
+    {
+      "id": "na_coin_drop",
+      "name": "Coin Drop with real coins",
+      "reason": "Needs a teacher, real coins and a can. Only the coin name and value questions are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "na_activity",
+      "name": "Activity Sheets 1 and 2 (complete graphs), Activity Sheet 3 (design a survey)",
+      "reason": "Drawing and surveys cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set (survey)"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_bar_graph, a_tape_compare). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Problem Set and Homework",
+      "issue": "The tables are in the .md. The graphs to draw are not. Which table belongs to which problem was inferred from the order. Check against the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Application Problem",
+      "issue": "No answer printed. 27 minus 19 equals 8."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_pk_3, q_pk_4",
+      "issue": "Generated questions. The source says to drop in a quarter and some nickels or dimes but gives no numbers. The coins are chosen."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Score of coins",
+      "issue": "Question q_ps_6 gives the value in cents. 13 nickels equal 65 cents. This is derived."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g2_compare_tape_diagrams is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "One misconception was taken from the Application Problem note (more suggests the wrong operation). No others are stated."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "h_coin",
+      "issue": "Generated hint. No hint is in the source for this task. Need review."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

@@ -1,0 +1,2738 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l26_line_plots_scales_and_tables",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-f-lesson-26.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 26",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.NBT.7",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Draw a line plot for a data set. Answer questions and draw conclusions from measurement data.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l25_line_plot_answer_questions",
+    "ext_g2_rdw_process",
+    "ext_g2_make_next_hundred"
+  ],
+  "explanations": [
+    {
+      "id": "exp_zero_slashes",
+      "title": "Start at zero with slashes",
+      "text": "Write 0 at the start of the scale. Add two slashes after it. The slashes show that the numbers before the first label are not shown. Then label up to the greatest measurement.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_unit_label",
+      "title": "Label the unit",
+      "text": "Label the scale with the unit of the measuring tool. Look at the table to find the unit. Then put an X above the number for each measurement.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_thermometer",
+      "title": "Thermometer",
+      "text": "A thermometer is a tool that measures temperature. We measure temperature in degrees. The numbers on a thermometer go up and down.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_vertical",
+      "title": "Vertical line plot",
+      "text": "A line plot can have a vertical scale. Then the number line goes up and down. The X's go next to the numbers, in a row. The data stay the same.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2; Student Debrief"
+      }
+    },
+    {
+      "id": "exp_table_or_plot",
+      "title": "When a table is easier",
+      "text": "A line plot is easy to read when the numbers are close together. When the numbers are far apart, a table can be easier.",
+      "origin": "generated"
+    },
+    {
+      "id": "exp_next_hundred",
+      "title": "Make the next hundred",
+      "text": "To add, make the next hundred first. Move some from the second number to the first. Then add what is left.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_pencil_box",
+      "title": "Pencil box items",
+      "text": "The smallest length is 6 cm. The greatest is 17 cm. The scale has 0, two slashes, then 6 to 17. The most common length is 10 cm.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_may_temps",
+      "title": "Temperatures in May",
+      "text": "The scale is vertical. The lowest temperature is 59 degrees. The highest is 72 degrees. The most common is 65 degrees.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "170 plus what number makes 200?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 170,
+        "next_hundred": 200
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "190 plus what number makes 200?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 190,
+        "next_hundred": 200
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "260 plus what number makes 300?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 260,
+        "next_hundred": 300
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "370 plus what number makes 400?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 370,
+        "next_hundred": 400
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "580 plus what number makes 600?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 580,
+        "next_hundred": 600
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "620 plus what number makes 700?",
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 620,
+        "next_hundred": 700
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "740 plus what number makes 800?",
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 740,
+        "next_hundred": 800
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "194 plus what number makes 200?",
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 194,
+        "next_hundred": 200
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "216 plus what number makes 300?",
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 216,
+        "next_hundred": 300
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "224 plus what number makes 300?",
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_next"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "start": 224,
+        "next_hundred": 300
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "prior_knowledge",
+      "text": "What is 9 tens plus 4 tens? Say the number.",
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          9,
+          4
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "prior_knowledge",
+      "text": "What is 19 tens plus 4 tens? Say the number.",
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          19,
+          4
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_pk_13",
+      "kind": "prior_knowledge",
+      "text": "What is 29 tens plus 4 tens? Say the number.",
+      "rubric_id": "r_pk_13",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          29,
+          4
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_pk_14",
+      "kind": "prior_knowledge",
+      "text": "What is 29 tens plus 14 tens? Say the number.",
+      "rubric_id": "r_pk_14",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          29,
+          14
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_pk_15",
+      "kind": "prior_knowledge",
+      "text": "What is 9 tens plus 6 tens? Say the number.",
+      "rubric_id": "r_pk_15",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          9,
+          6
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_pk_16",
+      "kind": "prior_knowledge",
+      "text": "What is 19 tens plus 6 tens? Say the number.",
+      "rubric_id": "r_pk_16",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          19,
+          6
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_pk_17",
+      "kind": "prior_knowledge",
+      "text": "What is 19 tens plus 16 tens? Say the number.",
+      "rubric_id": "r_pk_17",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          19,
+          16
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_pk_18",
+      "kind": "prior_knowledge",
+      "text": "What is 8 tens plus 3 tens? Say the number.",
+      "rubric_id": "r_pk_18",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          8,
+          3
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_pk_19",
+      "kind": "prior_knowledge",
+      "text": "What is 18 tens plus 3 tens? Say the number.",
+      "rubric_id": "r_pk_19",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          18,
+          3
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_pk_20",
+      "kind": "prior_knowledge",
+      "text": "What is 18 tens plus 13 tens? Say the number.",
+      "rubric_id": "r_pk_20",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "tens": [
+          18,
+          13
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Judy buys an MP3 player and earphones. The earphones cost 9 dollars. That is 48 dollars less than the MP3 player. How much is the MP3 player?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "earphones": 9,
+        "less_than": 48
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Judy buys the MP3 player and the earphones. She gives the cashier a 100 dollar bill. How much change should she get back?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "mp3": 57,
+        "earphones": 9,
+        "paid": 100
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Pencil box items. 1 item at 6 cm. 2 items at 7 cm. 4 items at 8 cm. 3 items at 9 cm. 6 items at 10 cm. 4 items at 11 cm. 1 item at 13 cm. 3 items at 16 cm. 2 items at 17 cm. What is the smallest length?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_start_end"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "6": 1,
+          "7": 2,
+          "8": 4,
+          "9": 3,
+          "10": 6,
+          "11": 4,
+          "13": 1,
+          "16": 3,
+          "17": 2
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 6 centimeters.)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Pencil box items. 1 item at 6 cm. 2 items at 7 cm. 4 items at 8 cm. 3 items at 9 cm. 6 items at 10 cm. 4 items at 11 cm. 1 item at 13 cm. 3 items at 16 cm. 2 items at 17 cm. What is the greatest length?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_start_end"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "6": 1,
+          "7": 2,
+          "8": 4,
+          "9": 3,
+          "10": 6,
+          "11": 4,
+          "13": 1,
+          "16": 3,
+          "17": 2
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 17 centimeters.)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "A line plot starts with 0, then two diagonal marks, then 6. What do the two marks show?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_slashes"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Pencil box items. 1 item at 6 cm. 2 items at 7 cm. 4 items at 8 cm. 3 items at 9 cm. 6 items at 10 cm. 4 items at 11 cm. 1 item at 13 cm. 3 items at 16 cm. 2 items at 17 cm. What unit do we write to label the scale?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_start_end"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "6": 1,
+          "7": 2,
+          "8": 4,
+          "9": 3,
+          "10": 6,
+          "11": 4,
+          "13": 1,
+          "16": 3,
+          "17": 2
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Centimeters!)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Pencil box items. 1 item at 6 cm. 2 items at 7 cm. 4 items at 8 cm. 3 items at 9 cm. 6 items at 10 cm. 4 items at 11 cm. 1 item at 13 cm. 3 items at 16 cm. 2 items at 17 cm. Which length happened most often?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_tallest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "6": 1,
+          "7": 2,
+          "8": 4,
+          "9": 3,
+          "10": 6,
+          "11": 4,
+          "13": 1,
+          "16": 3,
+          "17": 2
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (What measurement occurred most often?)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Pencil box items. 1 item at 6 cm. 2 items at 7 cm. 4 items at 8 cm. 3 items at 9 cm. 6 items at 10 cm. 4 items at 11 cm. 1 item at 13 cm. 3 items at 16 cm. 2 items at 17 cm. What is the difference between the smallest and the greatest length, in cm?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_diff"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "6": 1,
+          "7": 2,
+          "8": 4,
+          "9": 3,
+          "10": 6,
+          "11": 4,
+          "13": 1,
+          "16": 3,
+          "17": 2
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (difference between smallest and greatest)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Pencil box items. 1 item at 6 cm. 2 items at 7 cm. 4 items at 8 cm. 3 items at 9 cm. 6 items at 10 cm. 4 items at 11 cm. 1 item at 13 cm. 3 items at 16 cm. 2 items at 17 cm. How many items were measured?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "6": 1,
+          "7": 2,
+          "8": 4,
+          "9": 3,
+          "10": 6,
+          "11": 4,
+          "13": 1,
+          "16": 3,
+          "17": 2
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "What does a thermometer measure?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_thermo"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (T: A thermometer is a tool that measures temperature.)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "What unit do we use to measure temperature?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_thermo"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (We measure temperature in degrees)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "On a thermometer, do the numbers go side to side or up and down?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_thermo"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The numbers are vertical, not horizontal!)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "The line plot scale is vertical, up and down. Where do the X's go?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_slashes"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: put the X's next to the numbers)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Temperatures in May. 1 day at 59 degrees. 3 days at 60 degrees. 3 days at 63 degrees. 4 days at 64 degrees. 7 days at 65 degrees. 5 days at 67 degrees. 4 days at 68 degrees. 3 days at 69 degrees. 1 day at 72 degrees. Which temperature happened most often?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_tallest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "59": 1,
+          "60": 3,
+          "63": 3,
+          "64": 4,
+          "65": 7,
+          "67": 5,
+          "68": 4,
+          "69": 3,
+          "72": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (Which temperature occurred most often?)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Temperatures in May. 1 day at 59 degrees. 3 days at 60 degrees. 3 days at 63 degrees. 4 days at 64 degrees. 7 days at 65 degrees. 5 days at 67 degrees. 4 days at 68 degrees. 3 days at 69 degrees. 1 day at 72 degrees. Which temperatures happened least often?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_tallest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "59": 1,
+          "60": 3,
+          "63": 3,
+          "64": 4,
+          "65": 7,
+          "67": 5,
+          "68": 4,
+          "69": 3,
+          "72": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (Which temperatures occurred least often?)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Temperatures in May. 1 day at 59 degrees. 3 days at 60 degrees. 3 days at 63 degrees. 4 days at 64 degrees. 7 days at 65 degrees. 5 days at 67 degrees. 4 days at 68 degrees. 3 days at 69 degrees. 1 day at 72 degrees. What is the difference between the highest and the lowest temperature, in degrees?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_diff"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "59": 1,
+          "60": 3,
+          "63": 3,
+          "64": 4,
+          "65": 7,
+          "67": 5,
+          "68": 4,
+          "69": 3,
+          "72": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (difference between highest and lowest)"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Temperatures in May. 1 day at 59 degrees. 3 days at 60 degrees. 3 days at 63 degrees. 4 days at 64 degrees. 7 days at 65 degrees. 5 days at 67 degrees. 4 days at 68 degrees. 3 days at 69 degrees. 1 day at 72 degrees. How many days were measured?",
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "stimulus": {
+        "data": {
+          "59": 1,
+          "60": 3,
+          "63": 3,
+          "64": 4,
+          "65": 7,
+          "67": 5,
+          "68": 4,
+          "69": 3,
+          "72": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "People at a basketball game. 3 people at 25 inches. 4 people at 50 inches. 1 person at 60 inches. 12 people at 68 inches. 18 people at 74 inches. How many people are 60 inches or taller?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "25": 3,
+          "50": 4,
+          "60": 1,
+          "68": 12,
+          "74": 18
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "People at a basketball game. 3 people at 25 inches. 4 people at 50 inches. 1 person at 60 inches. 12 people at 68 inches. 18 people at 74 inches. What do you notice about the people at the game?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "25": 3,
+          "50": 4,
+          "60": 1,
+          "68": 12,
+          "74": 18
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "People at a basketball game. 3 people at 25 inches. 4 people at 50 inches. 1 person at 60 inches. 12 people at 68 inches. 18 people at 74 inches. Why would a line plot of these data be hard to make?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "25": 3,
+          "50": 4,
+          "60": 1,
+          "68": 12,
+          "74": 18
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Pencils in a classroom. 1 pencil at 12 cm. 4 pencils at 13 cm. 9 pencils at 14 cm. 10 pencils at 15 cm. 10 pencils at 16 cm. How many pencils were measured?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "12": 1,
+          "13": 4,
+          "14": 9,
+          "15": 10,
+          "16": 10
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Most pencils are 15 or 16 cm long. Why might that be?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "12": 1,
+          "13": 4,
+          "14": 9,
+          "15": 10,
+          "16": 10
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2; Student Debrief"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Shoelaces. 6 shoelaces at 27 inches. 10 shoelaces at 36 inches. 9 shoelaces at 38 inches. 3 shoelaces at 40 inches. 2 shoelaces at 45 inches. How many shoelaces were measured?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "27": 6,
+          "36": 10,
+          "38": 9,
+          "40": 3,
+          "45": 2
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Shoelaces. 6 shoelaces at 27 inches. 10 shoelaces at 36 inches. 9 shoelaces at 38 inches. 3 shoelaces at 40 inches. 2 shoelaces at 45 inches. How many more shoelaces are 27 or 36 inches than 40 or 45 inches?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "27": 6,
+          "36": 10,
+          "38": 9,
+          "40": 3,
+          "45": 2
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "No student had a 54 inch shoelace. Why might that be?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "27": 6,
+          "36": 10,
+          "38": 9,
+          "40": 3,
+          "45": 2
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Crayons in a box. 4 crayons at 4 cm. 7 crayons at 5 cm. 9 crayons at 6 cm. 3 crayons at 7 cm. 1 crayon at 8 cm. How many crayons are in the box?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "4": 4,
+          "5": 7,
+          "6": 9,
+          "7": 3,
+          "8": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "Most crayons are 5 or 6 cm long. Why might that be?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "4": 4,
+          "5": 7,
+          "6": 9,
+          "7": 3,
+          "8": 1
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "For the basketball game heights, is a line plot or a table easier to read? Why?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "25": 3,
+          "50": 4,
+          "60": 1,
+          "68": 12,
+          "74": 18
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "At a basketball game, how would you split the heights into groups? Why?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "data": {
+          "25": 3,
+          "50": 4,
+          "60": 1,
+          "68": 12,
+          "74": 18
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Why did all of our pencil box line plots look the same?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Can we make a line plot both across and up and down? Does that change the data?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_line_plot"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "When would you want to put information in a table or a line plot in your life? How would it help?",
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_think"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (170 + 30 = 200; S: 30)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (190 + 10 = 200; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (260 + 40 = 300; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (370 + 30 = 400; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (580 + 20 = 600; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "80",
+          "eighty"
+        ]
+      },
+      "correct": "Says 80.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (620 + 80 = 700; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty"
+        ]
+      },
+      "correct": "Says 60.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (740 + 60 = 800; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (194 + 6 = 200; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "84",
+          "eighty-four"
+        ]
+      },
+      "correct": "Says 84.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (216 + 84 = 300; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "76",
+          "seventy-six"
+        ]
+      },
+      "correct": "Says 76.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred (224 + 76 = 300; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "130",
+          "one hundred thirty"
+        ]
+      },
+      "correct": "Says 130.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (9 tens + 4 tens = 130; S: 130)"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "230",
+          "two hundred thirty"
+        ]
+      },
+      "correct": "Says 230.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (19 tens + 4 tens = 230; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "330",
+          "three hundred thirty"
+        ]
+      },
+      "correct": "Says 330.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (29 tens + 4 tens = 330; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "430",
+          "four hundred thirty"
+        ]
+      },
+      "correct": "Says 430.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (29 tens + 14 tens = 430; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "150",
+          "one hundred fifty"
+        ]
+      },
+      "correct": "Says 150.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (9 tens + 6 tens = 150; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "250",
+          "two hundred fifty"
+        ]
+      },
+      "correct": "Says 250.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (19 tens + 6 tens = 250; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "350",
+          "three hundred fifty"
+        ]
+      },
+      "correct": "Says 350.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (19 tens + 16 tens = 350; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "110",
+          "one hundred ten"
+        ]
+      },
+      "correct": "Says 110.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (8 tens + 3 tens = 110; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "210",
+          "two hundred ten"
+        ]
+      },
+      "correct": "Says 210.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (18 tens + 3 tens = 210; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_pk_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "310",
+          "three hundred ten"
+        ]
+      },
+      "correct": "Says 310.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred to Add (18 tens + 13 tens = 310; answer not printed; computed)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "57",
+          "fifty-seven",
+          "$57",
+          "57 dollars",
+          "fifty-seven dollars",
+          "$57.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 9 + 48 = 57)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "34",
+          "thirty-four",
+          "$34",
+          "34 dollars",
+          "thirty-four dollars",
+          "$34.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 57 + 9 = 66, 100 - 66 = 34)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 cm",
+          "six centimeters",
+          "6 centimeters"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 6 centimeters.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17",
+          "seventeen",
+          "17 cm",
+          "seventeen centimeters",
+          "17 centimeters"
+        ]
+      },
+      "correct": "Says 17.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 17 centimeters.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the numbers between 0 and 6 are not shown on the scale.",
+      "partial": "Says the marks mean something but not skipped numbers.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (T: the double hash mark means the numbers between 0 and 6 are not shown)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "centimeters",
+          "centimeter",
+          "cm",
+          "length (centimeters)",
+          "length of objects (centimeters)"
+        ]
+      },
+      "correct": "Says centimeters.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Centimeters!)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten",
+          "10 cm",
+          "ten centimeters",
+          "10 centimeters"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (answer not printed; 10 cm has 6 items)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven",
+          "11 cm",
+          "eleven centimeters",
+          "11 centimeters"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (answer not printed; 17 - 6 = 11)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty-six"
+        ]
+      },
+      "correct": "Says 26.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (answer not printed; 1 + 2 + 4 + 3 + 6 + 4 + 1 + 3 + 2 = 26)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "temperature",
+          "the temperature",
+          "how hot or cold it is",
+          "hot and cold"
+        ]
+      },
+      "correct": "Says temperature.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (T: A thermometer is a tool that measures temperature.)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "degrees",
+          "degree",
+          "degrees fahrenheit"
+        ]
+      },
+      "correct": "Says degrees.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (T: We measure temperature in degrees)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "up and down",
+          "vertical",
+          "vertically",
+          "up",
+          "up and down."
+        ]
+      },
+      "correct": "Says up and down.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: The numbers are vertical, not horizontal!)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says next to the numbers, in a row going sideways.",
+      "partial": "Says near the numbers but not in a row.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: X's next to the numbers; the X's are horizontal)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "65",
+          "sixty-five",
+          "65 degrees",
+          "sixty-five degrees"
+        ]
+      },
+      "correct": "Says 65.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (answer not printed; 65 degrees has 7 days)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "59 and 72",
+          "72 and 59",
+          "59, 72",
+          "72, 59",
+          "59 degrees and 72 degrees",
+          "72 degrees and 59 degrees",
+          "fifty-nine and seventy-two",
+          "seventy-two and fifty-nine"
+        ]
+      },
+      "correct": "Says 59 and 72.",
+      "partial": "Names only one of the two temperatures.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (answer not printed; 59 and 72 degrees have 1 day each)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen",
+          "13 degrees",
+          "thirteen degrees"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (answer not printed; 72 - 59 = 13)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "31",
+          "thirty-one"
+        ]
+      },
+      "correct": "Says 31.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (answer not printed; 1 + 3 + 3 + 4 + 7 + 5 + 4 + 3 + 1 = 31)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "31",
+          "thirty-one"
+        ]
+      },
+      "correct": "Says 31.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (answer not printed; 1 + 12 + 18 = 31)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Notices two groups, such as short children and tall players.",
+      "partial": "Notices one group.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (no answer printed; two groups, short children and tall adults or players)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the numbers are far apart, so there would be many empty spots.",
+      "partial": "Says it is hard without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (no answer printed; the heights are far apart, 25 to 74, so many numbers have no X)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "34",
+          "thirty-four"
+        ]
+      },
+      "correct": "Says 34.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (answer not printed; 1 + 4 + 9 + 10 + 10 = 34)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a fair reason, such as pencils start at one size and are used and sharpened.",
+      "partial": "Says it is common without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (no answer printed; a common pencil size)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4 (answer not printed; 6 + 10 + 9 + 3 + 2 = 30)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4 (answer not printed; 6 + 10 = 16, 3 + 2 = 5, 16 - 5 = 11)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a fair reason, such as a 54 inch lace is too long for a child's shoe.",
+      "partial": "Says there were none without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4 (no answer printed; too long for a child's shoe)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty-four"
+        ]
+      },
+      "correct": "Says 24.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5 (answer not printed; 4 + 7 + 9 + 3 + 1 = 24)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a fair reason, such as crayons get shorter when they are used.",
+      "partial": "Says it is common without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 5 (no answer printed; crayons wear down with use)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says a table is easier because the heights are far apart.",
+      "partial": "Picks a table without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket (no answer printed; a table, because the numbers are far apart)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Makes groups from the data, such as short heights for children and tall heights for players.",
+      "partial": "Makes groups without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; players and audience groups from the data)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the whole class used the same data.",
+      "partial": "Says they look alike without a reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (answer given: the whole class recorded the same data)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes, both ways work, and the data do not change.",
+      "partial": "Says yes but not that the data stay the same.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; both work; the data stay the same)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a real example and says how it helps.",
+      "partial": "Gives an example without how it helps.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; any real example)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_next",
+      "level": 1,
+      "text": "Think about how many more make the next hundred.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "h_tens",
+      "level": 1,
+      "text": "Make 10 tens first. Then add the tens that are left.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_start_end",
+      "level": 1,
+      "text": "Look at the smallest and the greatest numbers in the table.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_tallest",
+      "level": 1,
+      "text": "The longest row or tallest stack of X's is the most common.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_diff",
+      "level": 1,
+      "text": "Subtract the smallest measurement from the greatest.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_total",
+      "level": 1,
+      "text": "Add the number of X's at every measurement.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_slashes",
+      "level": 1,
+      "text": "Think about the numbers before the first label.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 1,
+      "text": "Draw a tape diagram. Find the cost of the first item, then add.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (RDW process; tape diagram)"
+      }
+    },
+    {
+      "id": "h_think",
+      "level": 1,
+      "text": "Look at where the numbers are. Think about why they are there.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_thermo",
+      "level": 1,
+      "text": "Think about when you are sick, or about the weather outside.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_line_plot",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact X counts and number labels need exact behaviour. Diffusion cannot count X's, keep equal spacing or draw a vertical scale reliably.",
+      "description": "A number line with X's above or next to the numbers, a title and a unit label. It can be horizontal with a zero and two slashes, or vertical like a thermometer.",
+      "must_show_exactly": [
+        "Equal spacing between labels",
+        "Zero, two slashes, then the first label when asked",
+        "One X per measurement, same size",
+        "Unit and title shown",
+        "Vertical version has X's in rows"
+      ],
+      "states_or_frames": [
+        "Pencil box plot from 6 to 17 cm",
+        "Vertical temperature plot from 59 to 72 degrees",
+        "Number line with two slashes after zero"
+      ],
+      "interaction": "Tutor sets the numbers and X counts from the stimulus. Child can place an X. Child answers by voice or typing.",
+      "alt_text": "A line plot with X's above or beside a number line.",
+      "used_by": [
+        "ex_may_temps",
+        "ex_pencil_box",
+        "exp_thermometer",
+        "exp_unit_label",
+        "exp_vertical",
+        "exp_zero_slashes",
+        "q_db_3",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Line plot, X's on a number line, labeled units, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_next_hundred",
+      "name": "Making the Next Hundred and Making the Next Hundred to Add (call and response)",
+      "reason": "Needs a teacher and class response. Ten items from each are used as questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Hundred"
+      }
+    },
+    {
+      "id": "na_core_fluency",
+      "name": "Grade 2 Core Fluency Differentiated Practice Sets",
+      "reason": "Paper practice sets from Lesson 1. Not tutorable here.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_draw_plots",
+      "name": "Draw line plots on grid paper from the length and temperature tables",
+      "reason": "Drawing cannot be checked by a voice or text tutor. The questions about the same data are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    },
+    {
+      "id": "na_thermometer",
+      "name": "Use a thermometer template and talk about today's temperature",
+      "reason": "Needs a template and the real temperature.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_line_plot). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set 3 (soccer team heights) omitted",
+      "issue": "The Problem Set item 'Use the data in the table to create a line plot' for second-grade soccer heights has no question. Only a drawing task. Omitted."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Problem Set mapping",
+      "issue": "The .md prints the data tables apart from the problems. Tables were matched to problems by topic: basketball heights, pencil lengths, soccer heights, shoelaces, crayons. The problem numbers (Problem Set 1, 2, 4, 5 and Exit Ticket) are inferred. Check against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Temperature table",
+      "issue": "The .md prints the temperature table with a repeated column. The counts 1, 3, 3, 4, 7, 5, 4, 3, 1 were read from the last column. They add to 31 days, which fits May. Check against the PDF."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Answers for fluency, plots and Problem Set items",
+      "issue": "Most answers are not printed. Each was computed by code or by hand from the table counts. Check a sample against the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_app_1, q_app_2",
+      "issue": "The .md prints no answer. Computed: MP3 player costs 9 plus 48, which is 57. Both cost 66. Change from 100 is 34. This reads the problem as buying both items. Check against the PDF."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_pk_1 to q_pk_20",
+      "issue": "Used 10 of the printed Making the Next Hundred items and 10 of the Making the Next Hundred to Add items. Only 170 and 9 tens plus 4 tens have printed answers."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "q_ps_1, q_ps_4, q_ps_5",
+      "issue": "q_ps_1 answer 31 is computed. q_ps_5 and the other open items have no printed answer. Rubrics were written from the data. Need review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "exp_table_or_plot",
+      "issue": "Generated explanation. It sums up the Problem Set questions about tables and line plots. Not stated in the source in this form. Needs review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "h_tens, h_think",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "Sprint",
+      "issue": "This lesson has no Sprint. Fluency uses two oral activities and the Core Fluency Practice Sets. No sprint items were made."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m7_l25_line_plot_answer_questions is an earlier card. ext_g2_rdw_process and ext_g2_make_next_hundred are prerequisite cards that do not exist yet."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

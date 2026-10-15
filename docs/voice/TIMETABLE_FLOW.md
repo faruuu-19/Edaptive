@@ -2,7 +2,7 @@
 
 How a scheduled class works end to end. All of it is local and offline: no cloud model, no paid API, no stored student audio.
 Every card is still a **draft**. Draft lessons require the operator-only local evaluation setting `EDAPTIVE_ALLOW_DRAFT_LESSONS=1`; the parent form has no draft switch. The player identifies draft content. This setting does not approve content for children.
-The source of truth for matched content is the audited inventory in `docs/voice/PAIR_INVENTORY.md` (77 three-level draft pairs: 75 published, 2 local Grade 3). No pair is approved for child delivery.
+The source of truth for matched content is the audited inventory in `docs/voice/PAIR_INVENTORY.md` (93 three-level draft pairs: 91 published, 2 supplementary Grade 3 review pairs). No pair is approved for child delivery.
 
 ## Where things live
 
@@ -57,3 +57,9 @@ Open `http://127.0.0.1:3001/` for Ibrahim's original profile picker and child ho
 2026-10-14 policy update: 122 backend tests pass against the isolated QA database, including start-time persistence, forbidden parent overrides, daily rollover, missed-day recovery, role restrictions and preserving prepared work. These tests do not substitute for human content review or listening to narration.
 
 The direct-only prepared review lecture is now `/lesson-demo`, using the same lesson window without a main-screen button. Its existing ready job is isolated from student session/progress writes. Current scheduling details: [DAILY_TIMETABLE.md](DAILY_TIMETABLE.md).
+
+
+Runtime packaging update: use `docs/RUN_CURRENT_SYSTEM.md`. The code and inputs
+now ship together. `docs/content/lesson-pairs.json` is the current 93-pair runtime
+catalog (91 published plus two supplementary review drafts), replacing the older
+77-pair/Downloads-path setup described in historical verification notes.

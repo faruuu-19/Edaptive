@@ -1,0 +1,1851 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l8_arrays_square_tiles_gaps",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-b-lesson-8.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 8",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Make arrays with square tiles. Some tiles may be left over. Describe the array with rows and columns.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l5_arrays_rows_columns",
+    "math_g2_m6_l7_arrays_math_drawings",
+    "ext_g2_subtract_within_20"
+  ],
+  "explanations": [
+    {
+      "id": "exp_extra_tiles",
+      "title": "Groups and tiles left over",
+      "text": "Make equal groups of 5 with 17 tiles. You make 3 groups. 2 tiles are left. That is not enough for another group of 5. Put the extra tiles to the side.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (17 tiles in groups of 5)"
+      }
+    },
+    {
+      "id": "exp_groups_to_rows",
+      "title": "Groups become rows",
+      "text": "Move the equal groups into rows to make an array. 3 groups of 5 make 3 rows of 5. 5 plus 5 plus 5 equals 15.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (3 rows of 5)"
+      }
+    },
+    {
+      "id": "exp_groups_to_columns",
+      "title": "The same groups become columns",
+      "text": "Use the same groups to make columns. Now you see 3 columns of 5. There are still 3 fives. The total is still 15.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (3 columns of 5)"
+      }
+    },
+    {
+      "id": "exp_build_row_by_row",
+      "title": "Build one row at a time",
+      "text": "Put 3 tiles in one row. Keep adding rows of 3 until you have 12 tiles. You made 4 rows of 3. 3 plus 3 plus 3 plus 3 equals 12.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (4 rows of 3)"
+      }
+    },
+    {
+      "id": "exp_push_and_split",
+      "title": "Push rows together, then split into columns",
+      "text": "Push the rows together to make one rectangle. Then split it into columns. 4 rows of 3 become 3 columns of 4. The total does not change.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (use rulers to push and separate)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_17_fives",
+      "title": "17 tiles in groups of 5",
+      "text": "17 tiles make 3 groups of 5 and 2 tiles are left over. The array uses 15 tiles.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_3_rows_5",
+      "title": "3 rows of 5 and 3 columns of 5",
+      "text": "3 rows of 5 is 5 plus 5 plus 5 equals 15. 3 columns of 5 is also 5 plus 5 plus 5 equals 15.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_4_rows_3",
+      "title": "4 rows of 3",
+      "text": "3 plus 3 plus 3 plus 3 equals 12. Push the rows together and split into columns. You get 3 columns of 4.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_3_columns_4",
+      "title": "3 columns of 4",
+      "text": "4 plus 4 plus 4 equals 12. 4 rows of 3 and 3 columns of 4 have the same total.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Use the ten to solve 16 minus 9. What is 10 minus 9?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_nearest_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "16 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Now solve 26 minus 9. What is 26 minus 9?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_nearest_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "26 - 9",
+        "bond": [
+          16,
+          10
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 36 minus 9?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_nearest_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "36 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "You have 17 tiles. Make groups of 5. How many groups of 5 can you make?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_make_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "total": 17,
+        "group_size": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 groups!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Are there tiles left over? Why can you not make another group?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_leftover",
+        "h_make_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "total": 17,
+        "group_size": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: That's not enough to make another group of 5)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "17 tiles make 3 groups of 5. How many tiles are left over?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_leftover"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "total": 17,
+        "groups": 3,
+        "group_size": 5,
+        "left_over": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (17 tiles, 3 groups of 5)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Arrange the 3 groups of 5 into 3 equal rows. Say the repeated addition.",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_each_group",
+        "h_rows_columns"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 + 5 = 15)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Describe the array with the number of rows and the number in each row.",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_rows_columns"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Three rows of 5 tiles)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Now use the same groups to make columns. How many columns are there?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_rows_columns"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "columns": 3,
+        "per_column": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 columns!)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Describe the array with the number of columns and the number in each column.",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_rows_columns"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "columns": 3,
+        "per_column": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Three columns of 5 tiles)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "What is the same about the rows array and the columns array?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "a": [
+          3,
+          5
+        ],
+        "b": [
+          3,
+          5
+        ],
+        "total": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: They have the same total)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Make rows of 3 one at a time until you have 12 tiles. How many rows of 3 did you make?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_rows_columns",
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 3,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 rows!)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Say the repeated addition for 4 rows of 3 tiles.",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 3,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 + 3 + 3 + 3 = 12)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Push the rows together. Then split the array into columns. How many columns are there, and how many tiles are in each column?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_rows_columns"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 3,
+        "columns": 3,
+        "per_column": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 columns; 4 tiles)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Say the repeated addition for 3 columns of 4 tiles.",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "columns": 3,
+        "per_column": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 + 4 + 4 = 12)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Does an array of 4 rows of 3 have the same total as an array of 3 columns of 4?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "a": [
+          4,
+          3
+        ],
+        "b": [
+          3,
+          4
+        ],
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Yes!)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "An array has 8 squares with 2 squares in each column. Say the repeated addition.",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_each_group",
+        "h_rows_columns"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "total": 8,
+        "per_column": 2,
+        "columns": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (8 squares, 2 in each column)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "An array has 20 squares with 4 squares in each column. Say the repeated addition.",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_each_group",
+        "h_rows_columns"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "total": 20,
+        "per_column": 4,
+        "columns": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4 (20 squares, 4 in each column)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "An array has 10 squares with 5 squares in each column. Say the repeated addition.",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_each_group",
+        "h_rows_columns"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "total": 10,
+        "per_column": 5,
+        "columns": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (10 squares, 5 in each column)"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "An array has 15 squares with 3 squares in each column. Say the repeated addition.",
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_each_group",
+        "h_rows_columns"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "total": 15,
+        "per_column": 3,
+        "columns": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (15 squares, 3 in each column)"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 11 minus 10?",
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 10"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_a6",
+      "kind": "practice",
+      "text": "What is 12 minus 2?",
+      "rubric_id": "r_sp_a6",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "12 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 6)"
+      }
+    },
+    {
+      "id": "q_sp_a9",
+      "kind": "practice",
+      "text": "What is 11 minus 2?",
+      "rubric_id": "r_sp_a9",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 9)"
+      }
+    },
+    {
+      "id": "q_sp_a12",
+      "kind": "practice",
+      "text": "What is 11 minus 8?",
+      "rubric_id": "r_sp_a12",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 12)"
+      }
+    },
+    {
+      "id": "q_sp_a17",
+      "kind": "practice",
+      "text": "What is 13 minus 8?",
+      "rubric_id": "r_sp_a17",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "13 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 17)"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "practice",
+      "text": "What is 15 minus 9?",
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "15 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 26)"
+      }
+    },
+    {
+      "id": "q_sp_a36",
+      "kind": "practice",
+      "text": "What is 16 minus 7?",
+      "rubric_id": "r_sp_a36",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "16 - 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 36)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Charlie has 16 blocks. He builds equal towers with 5 blocks each. How many towers can he make?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_make_groups",
+        "h_leftover"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_block_towers"
+      ],
+      "stimulus": {
+        "story": "charlie_towers",
+        "total": 16,
+        "group_size": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "How many more blocks does Charlie need to make another equal tower of 5?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_leftover"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_block_towers"
+      ],
+      "stimulus": {
+        "story": "charlie_towers",
+        "total": 16,
+        "group_size": 5,
+        "left_over": 1
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Soo Min wrote 4 plus 4 equals 8. Tasha wrote 2 plus 2 plus 2 plus 2 equals 8. Are they both correct? How do you know?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_each_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          4
+        ],
+        "b": [
+          4,
+          2
+        ],
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 5(b): Soo Min and Tasha)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Redraw 12 squares as equal groups of 2. Say the repeated addition.",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_each_group",
+        "h_make_groups"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_array"
+      ],
+      "stimulus": {
+        "total": 12,
+        "group_size": 2,
+        "groups": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4: Could you redraw the squares as equal groups of 2?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Using the Nearest Ten to Subtract (S: 1)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17",
+          "seventeen"
+        ]
+      },
+      "correct": "Says 17.",
+      "partial": "Says 1 (10 minus 9) or 16.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Using the Nearest Ten to Subtract (S: 17)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "27",
+          "twenty-seven"
+        ]
+      },
+      "correct": "Says 27.",
+      "partial": "Says 26 or 17.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Using the Nearest Ten to Subtract (sequence item 36 - 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three",
+          "3 groups of 5"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 groups!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes, and there are not enough tiles left to make another group of 5.",
+      "partial": "Says yes but gives no reason.",
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Yes! That's not enough to make another group of 5; they are extra)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (answer not printed; 17 minus 15)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 + 5 + 5",
+          "5 plus 5 plus 5",
+          "five plus five plus five"
+        ]
+      },
+      "correct": "Says 5 plus 5 plus 5.",
+      "partial": "Says an addition with 5 but not three 5s.",
+      "incorrect": "Says an addition that is not three 5s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 + 5 = 15)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 rows of 5",
+          "three rows of 5",
+          "3 rows of 5 tiles",
+          "three rows of five tiles",
+          "three rows of five"
+        ]
+      },
+      "correct": "Says 3 rows of 5 (tiles).",
+      "partial": "Says 3 rows or 5 tiles but not both.",
+      "incorrect": "Says something else, for example 5 rows of 3.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Three rows of 5 tiles)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 columns!)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 columns of 5",
+          "three columns of 5",
+          "3 columns of 5 tiles",
+          "three columns of five tiles",
+          "three columns of five"
+        ]
+      },
+      "correct": "Says 3 columns of 5 (tiles).",
+      "partial": "Says 3 columns or 5 tiles but not both.",
+      "incorrect": "Says something else, for example 5 columns of 3.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Three columns of 5 tiles)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the total is the same, or both are 3 groups of 5.",
+      "partial": "Says they look alike but not why.",
+      "incorrect": "Says the totals are different.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: They have the same total; they both had 3 groups of 5)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "4 rows of 3"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 rows!)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3 + 3 + 3",
+          "3 plus 3 plus 3 plus 3",
+          "three plus three plus three plus three"
+        ]
+      },
+      "correct": "Says 3 plus 3 plus 3 plus 3.",
+      "partial": "Says an addition with 3 but not four 3s.",
+      "incorrect": "Says an addition that is not four 3s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 + 3 + 3 + 3 = 12)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 3 columns of 4 tiles.",
+      "partial": "Says 3 columns or 4 tiles in each, but not both.",
+      "incorrect": "Says something else, for example 4 columns of 3.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 columns! 4 tiles!)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 + 4 + 4",
+          "4 plus 4 plus 4",
+          "four plus four plus four"
+        ]
+      },
+      "correct": "Says 4 plus 4 plus 4.",
+      "partial": "Says an addition with 4 but not three 4s.",
+      "incorrect": "Says an addition that is not three 4s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 + 4 + 4 = 12)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "the same",
+          "yes the same"
+        ]
+      },
+      "correct": "Says yes, both are 12.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Yes!)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 + 2 + 2 + 2",
+          "2 plus 2 plus 2 plus 2",
+          "two plus two plus two plus two"
+        ]
+      },
+      "correct": "Says 2 plus 2 plus 2 plus 2.",
+      "partial": "Says an addition with 2 but not four 2s.",
+      "incorrect": "Says an addition that is not four 2s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (answer not printed; 8 in columns of 2 makes 4 columns)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 + 4 + 4 + 4 + 4",
+          "4 plus 4 plus 4 plus 4 plus 4",
+          "four plus four plus four plus four plus four"
+        ]
+      },
+      "correct": "Says 4 plus 4 plus 4 plus 4 plus 4.",
+      "partial": "Says an addition with 4 but not five 4s.",
+      "incorrect": "Says an addition that is not five 4s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4 (answer not printed; 20 in columns of 4 makes 5 columns)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 + 5",
+          "5 plus 5",
+          "five plus five"
+        ]
+      },
+      "correct": "Says 5 plus 5.",
+      "partial": "Says an addition with 5 but not two 5s.",
+      "incorrect": "Says an addition that is not two 5s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (answer not printed; 10 in columns of 5 makes 2 columns)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3 + 3 + 3 + 3",
+          "3 plus 3 plus 3 plus 3 plus 3",
+          "three plus three plus three plus three plus three"
+        ]
+      },
+      "correct": "Says 3 plus 3 plus 3 plus 3 plus 3.",
+      "partial": "Says an addition with 3 but not five 3s.",
+      "incorrect": "Says an addition that is not five 3s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework (answer not printed; 15 in columns of 3 makes 5 columns)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1 (no answer printed; 11 - 10)"
+      }
+    },
+    {
+      "id": "r_sp_a6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 6 (no answer printed; 12 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 9 (no answer printed; 11 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 12 (no answer printed; 11 - 8)"
+      }
+    },
+    {
+      "id": "r_sp_a17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 17 (no answer printed; 13 - 8)"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 26 (no answer printed; 15 - 9)"
+      }
+    },
+    {
+      "id": "r_sp_a36",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 36 (no answer printed; 16 - 7)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": "Says 4 (counts the tower that is not full).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 16 in groups of 5 is 3 groups and 1 left)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": "Says 1 (the blocks he has left).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 1 block left, 5 minus 1 is 4)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes, both make 8: 2 groups of 4 and 4 groups of 2.",
+      "partial": "Says yes but gives no reason.",
+      "incorrect": "Says only one is correct.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 4 plus 4 and 2 plus 2 plus 2 plus 2 both equal 8)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 + 2 + 2 + 2 + 2 + 2",
+          "2 plus 2 plus 2 plus 2 plus 2 plus 2",
+          "two plus two plus two plus two plus two plus two"
+        ]
+      },
+      "correct": "Says 2 plus 2 plus 2 plus 2 plus 2 plus 2.",
+      "partial": "Says an addition with 2 but not six 2s.",
+      "incorrect": "Says an addition that is not six 2s.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 12 in groups of 2 makes 6 groups)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_make_groups",
+      "level": 1,
+      "text": "Put the tiles into groups of the size you need. Count the groups.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (separate them into groups of 5)"
+      }
+    },
+    {
+      "id": "h_leftover",
+      "level": 2,
+      "text": "Count the tiles that are not in a group. Are there enough for another group?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (not enough to make another group of 5)"
+      }
+    },
+    {
+      "id": "h_rows_columns",
+      "level": 1,
+      "text": "Rows go across. Columns go up and down. Count them.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (how many rows, or groups, do you see?)"
+      }
+    },
+    {
+      "id": "h_each_group",
+      "level": 2,
+      "text": "Look at one group. How many tiles are in it? Add that number again for each group.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (3 groups of 5; 5 + 5 + 5)"
+      }
+    },
+    {
+      "id": "h_nearest_ten",
+      "level": 1,
+      "text": "Break the number into a ten and some ones. Subtract from the ten first.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "h_sp_ten",
+      "level": 1,
+      "text": "Think about the ten. Subtract from the ten first. Then add back the rest.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_tile_array",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact tile counts, equal groups, leftover tiles and moving between rows and columns need exact behaviour. Diffusion cannot count.",
+      "description": "A board of square tiles. Tiles can be in separate groups with gaps, in rows, or in columns. Extra tiles sit to the side.",
+      "must_show_exactly": [
+        "Exactly the tile count in the stimulus",
+        "Every group, row or column has the same number of tiles",
+        "Leftover tiles shown apart from the array",
+        "Rows go across; columns go up and down",
+        "Total never changes when tiles are moved"
+      ],
+      "states_or_frames": [
+        "17 tiles in 3 groups of 5 with 2 to the side",
+        "3 rows of 5",
+        "3 columns of 5",
+        "4 rows of 3 (12 tiles)",
+        "4 rows pushed together",
+        "3 columns of 4",
+        "4 columns of 2 (8)",
+        "5 columns of 4 (20)",
+        "2 columns of 5 (10)",
+        "5 columns of 3 (15)",
+        "12 tiles in 6 groups of 2"
+      ],
+      "interaction": "Tutor sets the layout from the stimulus. Child can move tiles into groups, rows and columns. Child answers by voice or typing.",
+      "alt_text": "Square tiles in neat rows and columns with a few tiles to the side.",
+      "used_by": [
+        "ex_17_fives",
+        "ex_3_columns_4",
+        "ex_3_rows_5",
+        "ex_4_rows_3",
+        "exp_build_row_by_row",
+        "exp_extra_tiles",
+        "exp_groups_to_columns",
+        "exp_groups_to_rows",
+        "exp_push_and_split",
+        "q_db_1",
+        "q_db_2",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_3",
+        "q_ps_4"
+      ],
+      "generation_caption": "Flat coloured square tiles on a plain light background, in an exact grid with small gaps. [Build by code]"
+    },
+    {
+      "asset_id": "a_block_towers",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "icon_art_then_code_layout",
+      "diffusion_suitable": "icon_only_then_code_layout",
+      "why_this_method": "Diffusion may draw ONE toy block. Code must stack exactly the blocks needed.",
+      "description": "16 blocks: 3 towers of 5 blocks and 1 block left over.",
+      "must_show_exactly": [
+        "Exactly 16 blocks",
+        "3 towers with exactly 5 blocks each",
+        "1 block left over beside the towers"
+      ],
+      "states_or_frames": [
+        "3 towers of 5 and 1 extra block"
+      ],
+      "interaction": "Display only. Child answers by voice or typing.",
+      "alt_text": "Three towers of five blocks and one block left over.",
+      "used_by": [
+        "q_app_1",
+        "q_app_2"
+      ],
+      "generation_caption": "ICON ONLY: one cartoon toy block, flat colourful style, white background. (Code stacks 3 towers of 5 and 1 extra.)"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Subtraction from Teens (timed Sprint A and B)",
+      "reason": "Timed paper race with 44 items per sheet. The items are used as questions. The race and scoring cannot run on a screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens"
+      }
+    },
+    {
+      "id": "na_physical",
+      "name": "Square tiles and a ruler",
+      "reason": "Physical materials. Replaced by the on-screen widget a_tile_array.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk with a partner",
+      "reason": "Needs a second child. Covered by questions where the child explains to the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw arrays, tape diagrams and the towers on paper",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set 1, 2, 5, 6, Exit Ticket and Homework items with squares",
+      "issue": "Items ask the child to create an array from squares shown in a picture. The squares are not in the text and no image was attached. Only items with printed numbers were used. Needs a person or image extraction from the PDF."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Concept Development extension",
+      "issue": "The source says to repeat with 15 tiles (2 by 7), 17 tiles (4 by 4) and 23 tiles (4 by 5), and with 2 by 4, 3 by 2 and 4 by 4. No steps given. Not added as questions."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Sprint A item numbers",
+      "issue": "The .md table has no printed item numbers. Items 1 to 22 are the left column and 23 to 44 the right column, by table position. Check against the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Sprint B",
+      "issue": "Sprint B is the parallel sheet. It has no new pattern, so no Sprint B question was made."
+    },
+    {
+      "id": "f10",
+      "severity": "low",
+      "item": "Sprint A items 13 and 35; Sprint B items 28 and 36",
+      "issue": "Printed oddity: Sprint A repeats 18 - 8 and Sprint B repeats 20 - 10. Not corrected."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Sprint items used and left out",
+      "issue": "Used Sprint A items 1, 6, 9, 12, 17, 26, 36. Patterns covered: teen minus 10, teen minus ones to make ten, teen minus a single digit crossing ten. Other items repeat these patterns."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l5_arrays_rows_columns and math_g2_m6_l7_arrays_math_drawings are earlier cards of this module. ext_g2_subtract_within_20 is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "h_sp_ten",
+      "issue": "Generated hint. This lesson gives no strategy for the Sprint. Needs review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added. Proposal for review: a child may count leftover tiles as part of the array."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has no hint notes in this text. Hints are adapted from teacher moves and student answers. Hint coverage is thin. Level 3 wording needs review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Derived answers",
+      "issue": "q_pk_3, q_pr_3, q_ps_3, q_ps_4, q_pr_14, q_pr_15, q_app_1, q_app_2, q_db_1, q_db_2 and the Sprint questions have derived answers. The source prints none. Check them."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "q_app_2",
+      "issue": "The question asks how many more blocks are needed 'to make equal towers of 5'. Read here as one more full tower (4 more blocks). A person should confirm this reading."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the schema must allow null."
+    },
+    {
+      "id": "f19",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only 2.NBT.5 and 2.OA.2 appear in this lesson file (Fluency headings). The lesson's own module standard is not printed here and was not added."
+    },
+    {
+      "id": "f20",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_tile_array, a_block_towers). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

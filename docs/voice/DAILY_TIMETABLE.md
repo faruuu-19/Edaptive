@@ -19,3 +19,9 @@ Required lessons come from the repository's concept collections, explicit `lesso
 The local launcher automatically finds an existing ready Pairs-to-ten job, or accepts `--demo-job-id <ready-job-uuid>`. It sets `EDAPTIVE_VOICE_PREVIEW=1` and `EDAPTIVE_DEMO_JOB_ID` for the local review route. Without a ready configured job, the demo route is disabled; it never generates a replacement on its own. Scheduled lessons continue using their own preparation jobs.
 
 Verification: 122 backend/Postgres tests, module boundaries, frontend lint and production build pass. New checks cover all four slots, no inactive alarms/jobs, changing 20→31 minutes with breaks preserved, persistent progression, missing Lesson 2 preventing a jump to Lesson 3, and activating a newly available pair in place. The existing demo's 19 main-path sections loaded successfully, and its first part produced three valid 24 kHz Kokoro audio frames (9.9 seconds) through the actual local HTTP proxy. No additional script was generated for this demo check. These checks do not replace human review of draft teaching content.
+
+
+Runtime packaging update: use `docs/RUN_CURRENT_SYSTEM.md`. The code and inputs
+now ship together. `docs/content/lesson-pairs.json` is the current 93-pair runtime
+catalog (91 published plus two supplementary review drafts), replacing the older
+77-pair/Downloads-path setup described in historical verification notes.

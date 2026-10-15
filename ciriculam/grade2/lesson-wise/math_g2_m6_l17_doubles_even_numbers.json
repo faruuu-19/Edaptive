@@ -1,0 +1,1974 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l17_doubles_even_numbers",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-d-lesson-17.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 17",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Relate doubles to even numbers, and write number sentences to express the sums.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l5_arrays_rows_columns",
+    "math_g2_m6_l7_arrays_math_drawings",
+    "math_g2_m6_l10_tiles_rectangles_arrays",
+    "ext_g2_add_within_20_doubles"
+  ],
+  "explanations": [
+    {
+      "id": "exp_doubles",
+      "title": "Doubles",
+      "text": "A doubles fact has two addends that are the same. 3 plus 3 equals 6 is a doubles fact.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Doubles!)"
+      }
+    },
+    {
+      "id": "exp_doubles_pattern",
+      "title": "Pattern in doubles",
+      "text": "1 plus 1, 2 plus 2, 3 plus 3 and so on. Each addend goes up by 1. The total goes up by 2. It is like counting by twos.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Each addend goes up by 1, so the answer goes up by 2)"
+      }
+    },
+    {
+      "id": "exp_even",
+      "title": "Even numbers",
+      "text": "Even numbers are the totals of doubles. Two people share fairly and each has the same. Skip-counting by twos gives even numbers.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Even numbers mean it's the same number)"
+      }
+    },
+    {
+      "id": "exp_doubled",
+      "title": "Say it as doubled",
+      "text": "5 doubled is 10. 3 doubled is 6. Doubling a number gives an even number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (5 doubled is 10)"
+      }
+    },
+    {
+      "id": "exp_subtraction_pattern",
+      "title": "Subtraction pattern",
+      "text": "Add 10 to the whole and subtract the same number. 11 minus 9 is 2. 21 minus 9 is 12. 31 minus 9 is 22.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_fingers",
+      "title": "Fingers doubles",
+      "text": "Thumbs up: 1 plus 1 equals 2. Index fingers up too: 2 plus 2 equals 4. Keep going to 5 plus 5 equals 10.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_6_7_8",
+      "title": "Counter doubles",
+      "text": "6 plus 6 equals 12. 7 plus 7 equals 14. 8 plus 8 equals 16. All the totals are even.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is eleven minus nine?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_add_ten_pattern"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "11 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (11 - 9)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is twenty-one minus nine?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_add_ten_pattern"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "21 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (21 - 9)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is thirty-one minus nine?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_add_ten_pattern"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "31 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (31 - 9)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is forty-one minus nine?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_add_ten_pattern"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "41 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (41 - 9)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "What is fifty-one minus nine?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_add_ten_pattern"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "51 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (51 - 9)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "What is twelve minus eight?",
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_add_ten_pattern"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "12 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (12 - 8)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "What is eleven minus eight?",
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_add_ten_pattern"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "11 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (11 - 8)"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is thirteen minus nine?",
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_add_ten_pattern"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "13 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (13 - 9)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "What is one plus one?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 1,
+        "total": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 1 + 1 = 2)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "What is two plus two?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 2,
+        "total": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 2 + 2 = 4)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What is three plus three?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 + 3 = 6)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "What is four plus four?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4,
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 + 4 = 8)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "What is five plus five?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 5,
+        "total": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 = 10)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "What do we call it when both addends are the same?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Doubles!)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Look at the totals 2, 4, 6, 8, 10. What pattern do you see?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_skip_two"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "totals": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It's like skip-counting, 2, 4, 6, 8)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Are the totals of doubles even or not even?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_skip_two"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "totals": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T: All these numbers are even)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Make 2 rows of 6 counters. Say the addition for the array.",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 6,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 6 + 6 = 12)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "How many counters should you add to a row of 7 to double it?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 7)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "What is 7 plus 7? Is the total even?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 7,
+        "total": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 7 + 7 = 14; Yes!)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "6 plus 6 is 12. 7 plus 7 is 14. What doubles fact comes next?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_skip_two"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 8,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 8 + 8 = 16)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Say it with the word doubled. What is 5 doubled?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 5,
+        "total": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 doubled is 10)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "What is 3 doubled? Say the whole sentence.",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 doubled is 6)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Seven students sit on one side of a lunch table. Seven more sit on the other side. Say the addition.",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "How many students are at the table?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 7,
+        "total": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_3",
+      "kind": "application",
+      "text": "Three more students sit down on each side. Say the new addition.",
+      "rubric_id": "r_app_3",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_4",
+      "kind": "application",
+      "text": "How many students are at the table now?",
+      "rubric_id": "r_app_4",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 10,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "What is 2 rows of 6? Say the number.",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 6,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "What is 2 rows of 7? Say the number.",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 7,
+        "total": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(b)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "What is 2 rows of 8? Say the number.",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 8,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(c)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "What is 2 rows of 9? Say the number.",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 9,
+        "total": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(d)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "What is 2 rows of 10? Say the number.",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 10,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(e)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "5 doubled is 10. Is 10 even or not even?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_skip_two"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 5,
+        "total": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket / Homework 1"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "3 doubled is 6. Is 6 even or not even?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_skip_two"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket / Homework 2"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "List the totals of 2 rows of 6, 7, 8, 9 and 10. Are they even?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_skip_two"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": [
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Does doubling a number always give an even number? Does it matter how many are in each group?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "4 plus 4 is even. Is 5 plus 4 even? Why not?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_same_twice"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {
+        "a": [
+          4,
+          4
+        ],
+        "b": [
+          5,
+          4
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "How would you define an even number?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_skip_two"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_counters_double"
+      ],
+      "stimulus": {},
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How would you define an even number?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (11 - 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (21 - 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22",
+          "twenty-two"
+        ]
+      },
+      "correct": "Says 22.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (31 - 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32",
+          "thirty-two"
+        ]
+      },
+      "correct": "Says 32.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (41 - 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "42",
+          "forty-two"
+        ]
+      },
+      "correct": "Says 42.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (51 - 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (12 - 8; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (11 - 8; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtraction Patterns (13 - 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 1 + 1 = 2)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 2 + 2 = 4)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 + 3 = 6)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 + 4 = 8)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 = 10)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "doubles",
+          "a double",
+          "double"
+        ]
+      },
+      "correct": "Says doubles.",
+      "partial": null,
+      "incorrect": "Says another word.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Doubles!)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it is like skip-counting by twos, or each total goes up by 2.",
+      "partial": "Says there is a pattern but not what it is.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It's like skip-counting; each addend goes up by 1, so the answer goes up by 2)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "even",
+          "they are even"
+        ]
+      },
+      "correct": "Says even.",
+      "partial": null,
+      "incorrect": "Says not even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T: All these numbers are even)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6 + 6 = 12",
+          "6 plus 6 equals 12",
+          "six plus six equals twelve",
+          "6 plus 6",
+          "six plus six"
+        ]
+      },
+      "correct": "Says 6 plus 6.",
+      "partial": "Says an addition with 6 but not two 6s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 6 + 6 = 12)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 7)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14 and yes",
+          "14, yes",
+          "14 yes",
+          "fourteen and yes",
+          "yes, 14",
+          "14"
+        ]
+      },
+      "correct": "Says 14 and yes, it is even.",
+      "partial": "Says 14 but not that it is even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 7 + 7 = 14; Is 14 even? Yes!)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8 + 8 = 16",
+          "8 plus 8 equals 16",
+          "eight plus eight equals sixteen",
+          "8 plus 8",
+          "eight plus eight"
+        ]
+      },
+      "correct": "Says 8 plus 8.",
+      "partial": "Says 16 only.",
+      "incorrect": "Says another fact.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 8 + 8 = 16)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten",
+          "5 doubled is 10",
+          "five doubled is ten"
+        ]
+      },
+      "correct": "Says 5 doubled is 10.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T/S: 5 doubled is 10)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "3 doubled is 6",
+          "three doubled is six"
+        ]
+      },
+      "correct": "Says 3 doubled is 6.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 3 doubled is 6)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7 + 7 = 14",
+          "7 plus 7 equals 14",
+          "seven plus seven equals fourteen",
+          "7 plus 7",
+          "seven plus seven"
+        ]
+      },
+      "correct": "Says 7 plus 7.",
+      "partial": "Says an addition with 7 but not two 7s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 7 + 7)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": "Says 7.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 7 + 7 = 14)"
+      }
+    },
+    {
+      "id": "r_app_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10 + 10 = 20",
+          "10 plus 10 equals 20",
+          "ten plus ten equals twenty",
+          "10 plus 10",
+          "ten plus ten"
+        ]
+      },
+      "correct": "Says 10 plus 10.",
+      "partial": "Says 10 or 20 only.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 7 + 3 = 10 on each side; 10 + 10)"
+      }
+    },
+    {
+      "id": "r_app_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": "Says 17 or 10.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 10 + 10 = 20)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": "Says 6.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (answer not printed; 6 + 6)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": "Says 7.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(b) (answer not printed; 7 + 7)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": "Says 8.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(c) (answer not printed; 8 + 8)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": "Says 9.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(d) (answer not printed; 9 + 9)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": "Says 10.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(e) (answer not printed; 10 + 10)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "even",
+          "it is even"
+        ]
+      },
+      "correct": "Says even.",
+      "partial": null,
+      "incorrect": "Says not even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket / Homework 1 (answer not printed; a double is even)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "even",
+          "it is even"
+        ]
+      },
+      "correct": "Says even.",
+      "partial": null,
+      "incorrect": "Says not even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket / Homework 2 (answer not printed; a double is even)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 12, 14, 16, 18, 20, and that they are all even.",
+      "partial": "Lists the totals but does not say they are even, or lists some wrong.",
+      "incorrect": "Gives wrong totals.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (answer not printed; totals of 2 rows of 6 to 10)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes, doubling always gives an even number, no matter how many are in each group.",
+      "partial": "Says yes but not that group size does not matter.",
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development says doubles are even)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. 5 plus 4 is not a double. The two addends are not the same, and 9 is not even.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 5 + 4 = 9 is not a double)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says an even number is the total of a doubles fact, or it can be made of two equal groups, or counted by twos.",
+      "partial": "Gives a partly right answer.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Even numbers mean it's the same number... When you add the same number two times, the answer is even)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_same_twice",
+      "level": 1,
+      "text": "Add the same number two times.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Doubles: both addends are the same)"
+      }
+    },
+    {
+      "id": "h_skip_two",
+      "level": 2,
+      "text": "Count by twos. Each double goes up by two.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It's like skip-counting)"
+      }
+    },
+    {
+      "id": "h_add_ten_pattern",
+      "level": 1,
+      "text": "The answer goes up by ten when the whole goes up by ten.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_counters_double",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact counters, doubled rows and exact counts need exact behaviour. Diffusion cannot count.",
+      "description": "Counters in one row that can be doubled by adding a second equal row. The count and the equation show beside the array.",
+      "must_show_exactly": [
+        "Exactly the counters in the stimulus",
+        "Both rows have the same count",
+        "Second row doubles the first",
+        "Total shown only when the stimulus has a total"
+      ],
+      "states_or_frames": [
+        "2 rows of 1 to 5",
+        "2 rows of 6",
+        "2 rows of 7",
+        "2 rows of 8",
+        "2 rows of 9",
+        "2 rows of 10",
+        "2 rows of 3",
+        "lunch table: 2 rows of 7",
+        "lunch table: 2 rows of 10"
+      ],
+      "interaction": "Tutor sets the row count from the stimulus. Child can double a row. Child answers by voice or typing.",
+      "alt_text": "Two equal rows of counters.",
+      "used_by": [
+        "ex_6_7_8",
+        "exp_doubled",
+        "exp_doubles",
+        "exp_doubles_pattern",
+        "exp_even",
+        "q_app_1",
+        "q_app_2",
+        "q_app_3",
+        "q_app_4",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8"
+      ],
+      "generation_caption": "Two equal rows of round counters, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets",
+      "reason": "Printed timed sets. They are in Lesson 12. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_fingers",
+      "name": "Fingers and thumbs doubles with a partner",
+      "reason": "Needs a teacher and a partner. The doubles questions replace it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw arrays and double groups on the Problem Set",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_counters_double). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md text has several unlabelled sheets. Items were counted from printed prompts. Check against the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l5_arrays_rows_columns, math_g2_m6_l7_arrays_math_drawings and math_g2_m6_l10_tiles_rectangles_arrays are earlier cards of this module. ext_g2_add_within_20_doubles is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f10",
+      "severity": "high",
+      "item": "Picture items",
+      "issue": "Problem Set 1 (double the group you see, with clouds) and Homework 1 are pictures not in the .md. They were left out."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Standards",
+      "issue": "Only 2.NBT.5 and 2.OA.2 are printed in this file (fluency lines). The even-numbers standard is not printed here, so it is not listed. Check against the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Subtraction Patterns",
+      "issue": "No answers are printed. The script lists 31, 41 and 51 minus 9 as steps. All answers are derived."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Debrief 'Fill in 5 + 4 + ___ is an even number'",
+      "issue": "Many valid answers. Not made as a question."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "h_add_ten_pattern",
+      "issue": "Generated hint. No hint is in the source for this task. Need review."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

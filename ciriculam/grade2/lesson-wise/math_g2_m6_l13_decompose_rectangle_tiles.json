@@ -1,0 +1,1927 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l13_decompose_rectangle_tiles",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-c-lesson-13.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 13",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Use square tiles to decompose a rectangle.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l10_tiles_rectangles_arrays",
+    "math_g2_m6_l11_tiles_one_row_to_arrays",
+    "math_g2_m6_l12_math_drawings_square_tiles",
+    "ext_g2_number_bonds"
+  ],
+  "explanations": [
+    {
+      "id": "exp_decompose",
+      "title": "Decompose a rectangle",
+      "text": "To decompose a rectangle, split it into two smaller rectangles. Use a ruler to split it with a line. The two parts are rectangles too.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (4 rows of 5)"
+      }
+    },
+    {
+      "id": "exp_number_bond",
+      "title": "Number bond for a rectangle",
+      "text": "Write the whole rectangle at the top, like 4 rows of 5. Write the two parts below it, like 2 rows of 5 and 2 rows of 5.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (number bond)"
+      }
+    },
+    {
+      "id": "exp_parts_sentences",
+      "title": "Number sentence for each part",
+      "text": "The whole has a repeated addition sentence. Each part has its own. 5 plus 5 plus 5 plus 5 is the whole. 5 plus 5 equals 10 is one part.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (5 + 5 = 10)"
+      }
+    },
+    {
+      "id": "exp_remove_row_col",
+      "title": "Remove a row or a column",
+      "text": "Take away a row and the total goes down by the size of a row. Take away a column and the total goes down by the size of a column.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (16 tiles)"
+      }
+    },
+    {
+      "id": "exp_next_ten",
+      "title": "Make the next ten to add",
+      "text": "9 plus 4 is the same as 10 plus 3. Take 1 from the 4 and give it to the 9.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_4x5_split",
+      "title": "4 rows of 5 split in half",
+      "text": "20 tiles. Split across the middle. 2 rows of 5 and 2 rows of 5. 5 plus 5 equals 10 for each part.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_16_remove",
+      "title": "16 tiles, remove a row and a column",
+      "text": "4 rows of 4 is 16. Take away a row: 3 rows of 4 is 12. Take away a column: 3 rows of 3 is 9.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is nine plus four?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "9 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (9 + 4)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is nineteen plus four?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "19 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (19 + 4)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is twenty-nine plus fourteen?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "29 + 14"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (29 + 14)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is fifty-nine plus fourteen?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "59 + 14"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (59 + 14)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "What is forty-nine plus sixteen?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "49 + 16"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (49 + 16)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "What is eighteen plus thirteen?",
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "18 + 13"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (18 + 13)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "What is thirty-eight plus fifteen?",
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "38 + 15"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (38 + 15)"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is thirty-seven plus sixteen?",
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "37 + 16"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (37 + 16)"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "What is sixty-seven plus four?",
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "67 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (67 + 4)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A rectangle has 4 rows of 5 tiles. How many tiles are there? How do you know?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_each_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (4 rows of 5)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Split 4 rows of 5 into two equal parts. How many rows are in each part?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_split_line"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5,
+        "split": [
+          2,
+          2
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Two rows!)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "How many tiles are in each row of each part?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_split_line"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5,
+        "split": [
+          2,
+          2
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 tiles!)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Say the number sentence for one part, 2 rows of 5.",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_each_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 5,
+        "total": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 = 10)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Tell the two parts and the whole. Use 2 rows of 5.",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_split_line"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "whole": [
+          4,
+          5
+        ],
+        "parts": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            5
+          ]
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Two rows of 5 and 2 rows of 5 make 4 rows of 5)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "A rectangle has 6 columns of 2. Split it by columns into two equal parts. What are the parts?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_split_line"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "columns": 6,
+        "per_column": 2,
+        "split": [
+          3,
+          3
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (repeat with 6 columns of 2)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "16 tiles make 4 rows of 4. Say the repeated addition.",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_each_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 4,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 + 4 + 4 + 4 = 16)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Take away a row from 4 rows of 4. What is the new total?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 4,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It is 12)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Now take away a column from 3 rows of 4. What is the new total?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 3,
+        "total": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: We have 9)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "A rectangle has 5 rows of 5 tiles (25 tiles). Take away a row. What is the new total?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 5,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (repeat with 25 tiles)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Now take away a column from 4 rows of 5. What is the new total?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 4,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (repeat with 25 tiles)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Ellie cuts a square pan into 9 equal pieces, 3 rows of 3. Say the repeated addition for all the bars.",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_each_row"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 3,
+        "total": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Her brothers eat 1 row of 3 bars. How many bars are left?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_3",
+      "kind": "application",
+      "text": "Her mom then eats 1 column from the 6 bars left. How many bars are left now?",
+      "rubric_id": "r_app_3",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 2,
+        "total": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "A rectangle has 4 columns of 3. You separate 2 columns of 3. Say the number sentence for one part.",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_split_line",
+        "h_each_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "columns": 4,
+        "per_column": 3,
+        "split": [
+          2,
+          2
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "A rectangle has 5 rows of 2. You separate 2 rows of 2. How many tiles are in the other part?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_split_line",
+        "h_each_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 5,
+        "per_row": 2,
+        "split": [
+          2,
+          3
+        ],
+        "total": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "A rectangle has 5 columns of 3. You separate 3 columns of 3. How many tiles are in each part?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_split_line",
+        "h_each_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "columns": 5,
+        "per_column": 3,
+        "split": [
+          3,
+          2
+        ],
+        "total": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "12 tiles make a rectangle with 3 rows. What is the rows of what?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_each_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 4,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4(a)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Remove 1 row from 3 rows of 4. How many squares are left?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4,
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4(b)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Remove 1 column from 2 rows of 4. How many squares are left?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4(c)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "A rectangle has 3 columns of 4. You separate 2 columns of 4. How many tiles are in each part?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_split_line",
+        "h_each_row"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "columns": 3,
+        "per_column": 4,
+        "split": [
+          2,
+          1
+        ],
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "Use 9 tiles to make a rectangle with 3 rows. Remove 1 row. How many squares are left?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Now remove 1 column from 2 rows of 3. How many squares are left?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 2,
+        "total": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Removing a row from 2 rows of 10 leaves how many? Removing a row from 5 rows of 4 leaves how many? Which leaves more?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_take_group"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          10
+        ],
+        "b": [
+          5,
+          4
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 5)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "How do you know a rectangle can be split into smaller rectangles?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_split_line"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "columns": 5,
+        "per_column": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "What is the same in the whole and in the parts of your number bond when you split by rows?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_split_line"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tile_split"
+      ],
+      "stimulus": {
+        "rows": 5,
+        "per_row": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2: a unit of two)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (9 + 4; S: 13)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "23",
+          "twenty-three"
+        ]
+      },
+      "correct": "Says 23.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (19 + 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "43",
+          "forty-three"
+        ]
+      },
+      "correct": "Says 43.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (29 + 14; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "73",
+          "seventy-three"
+        ]
+      },
+      "correct": "Says 73.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (59 + 14; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "65",
+          "sixty-five"
+        ]
+      },
+      "correct": "Says 65.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (49 + 16; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "31",
+          "thirty-one"
+        ]
+      },
+      "correct": "Says 31.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (18 + 13; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53",
+          "fifty-three"
+        ]
+      },
+      "correct": "Says 53.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (38 + 15; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53",
+          "fifty-three"
+        ]
+      },
+      "correct": "Says 53.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (37 + 16; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "71",
+          "seventy-one"
+        ]
+      },
+      "correct": "Says 71.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (67 + 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 20, because 5 plus 5 plus 5 plus 5 equals 20 (or 4 plus 4 plus 4 plus 4 plus 4).",
+      "partial": "Says 20 but gives no reason.",
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: There are 20 tiles because 5 + 5 + 5 + 5 = 20)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": "Says 4.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Two rows!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": "Says 10.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 tiles!)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 + 5",
+          "5 plus 5",
+          "five plus five"
+        ]
+      },
+      "correct": "Says 5 plus 5.",
+      "partial": "Says an addition with 5 but not two 5s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 + 5 = 10)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 rows of 5 and 2 rows of 5 make 4 rows of 5",
+          "two rows of five and two rows of five make four rows of five"
+        ]
+      },
+      "correct": "Says 2 rows of 5 and 2 rows of 5 make 4 rows of 5.",
+      "partial": "Says the parts or the whole but not both.",
+      "incorrect": "Says another sentence.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Two rows of 5 and 2 rows of 5 make 4 rows of 5)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 columns of 2 and 3 columns of 2",
+          "three columns of two and three columns of two"
+        ]
+      },
+      "correct": "Says 3 columns of 2 and 3 columns of 2.",
+      "partial": "Says only 3 columns of 2.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (repeat with 6 columns of 2; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 + 4 + 4 + 4",
+          "4 plus 4 plus 4 plus 4",
+          "four plus four plus four plus four"
+        ]
+      },
+      "correct": "Says 4 plus 4 plus 4 plus 4.",
+      "partial": "Says an addition with 4 but not four 4s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 4 + 4 + 4 + 4 = 16)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve",
+          "4 plus 4 plus 4 equals 12"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": "Says 4 or 16.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It is 12 because 4 + 4 + 4 = 12; 16 - 4 = 12)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine",
+          "3 plus 3 plus 3 equals 9"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": "Says 12 or 3.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: We have 9 because 3 + 3 + 3 = 9; 12 - 3 = 9)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": "Says 5 or 25.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (repeat with 25 tiles; answer not printed; 25 - 5 = 20)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": "Says 20 or 4.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (repeat with 25 tiles; answer not printed; 20 - 4 = 16)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3 + 3",
+          "3 plus 3 plus 3",
+          "three plus three plus three"
+        ]
+      },
+      "correct": "Says 3 plus 3 plus 3.",
+      "partial": "Says an addition with 3 but not three 3s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 3 + 3 + 3 = 9)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": "Says 3 or 9.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 9 - 3 = 6)"
+      }
+    },
+    {
+      "id": "r_app_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": "Says 6 or 2.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; the 6 bars are 2 rows of 3; a column has 2; 6 - 2 = 4)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3",
+          "3 plus 3",
+          "three plus three"
+        ]
+      },
+      "correct": "Says 3 plus 3.",
+      "partial": "Says an addition with 3 but not two 3s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (answer not printed; 3 + 3 = 6)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": "Says 4 (the part you separated).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2 (answer not printed; 3 rows of 2 = 6)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9 and 6",
+          "nine and six",
+          "6 and 9",
+          "six and nine"
+        ]
+      },
+      "correct": "Says 9 and 6.",
+      "partial": "Says only one part correctly.",
+      "incorrect": "Says other numbers.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (answer not printed; 3 columns of 3 = 9; 2 columns of 3 = 6)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 rows of 4",
+          "three rows of four"
+        ]
+      },
+      "correct": "Says 3 rows of 4.",
+      "partial": "Says only 4.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4(a) (answer not printed; 12 in 3 rows is 3 rows of 4)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": "Says 4 or 12.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4(b) (answer not printed; 12 - 4 = 8)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": "Says 8 or 2.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 4(c) (answer not printed; 8 - 2 = 6)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8 and 4",
+          "eight and four",
+          "4 and 8",
+          "four and eight"
+        ]
+      },
+      "correct": "Says 8 and 4.",
+      "partial": "Says only one part correctly.",
+      "incorrect": "Says other numbers.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket (answer not printed; 2 columns of 4 = 8; 1 column of 4 = 4)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": "Says 3 or 9.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3 (answer not printed; 3 rows of 3; 9 - 3 = 6)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": "Says 6 or 2.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 3 (answer not printed; 6 - 2 = 4)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 10 and 16. The 5 rows of 4 leaves more.",
+      "partial": "Says one number correctly.",
+      "incorrect": "Says other numbers.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 20 - 10 = 10; 20 - 4 = 16)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says you can split it by rows or columns, and each part is made of equal rows or columns.",
+      "partial": "Says you can split it but not why the parts are rectangles.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development decomposes by rows and columns)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the number in each row stays the same (the unit).",
+      "partial": "Says something is the same but not what.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2: A unit of two)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_split_line",
+      "level": 1,
+      "text": "Split the rectangle with a line. Each part is a smaller rectangle.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (use your ruler to split)"
+      }
+    },
+    {
+      "id": "h_each_row",
+      "level": 1,
+      "text": "Look at one row. Add that number for each row.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_next_ten",
+      "level": 1,
+      "text": "Give some of the second number to the first number to make a ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten (9 + 4 = 10 + 3)"
+      }
+    },
+    {
+      "id": "h_take_group",
+      "level": 2,
+      "text": "Start with the old total. Take away one row or one column.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (16 - 4 = 12)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_tile_split",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact tile counts, split lines and removing a row or column need exact behaviour. Diffusion cannot count.",
+      "description": "A rectangle of square tiles with a split line. A row or column can be removed. A number bond can be shown.",
+      "must_show_exactly": [
+        "Exactly the tile count in the stimulus",
+        "Split line falls between rows or columns",
+        "Parts add up to the whole",
+        "Removing a row or column changes the count by exactly that row or column"
+      ],
+      "states_or_frames": [
+        "4 rows of 5 split into 2 and 2",
+        "6 columns of 2 split",
+        "4 rows of 4",
+        "3 rows of 4",
+        "3 rows of 3",
+        "5 rows of 5",
+        "4 rows of 5",
+        "3 rows of 3 pan",
+        "4 columns of 3 split",
+        "5 rows of 2 split",
+        "5 columns of 3 split",
+        "3 columns of 4 split"
+      ],
+      "interaction": "Tutor sets rows, columns and split from the stimulus. Child can remove a row or column. Child answers by voice or typing.",
+      "alt_text": "A rectangle of tiles with a split line.",
+      "used_by": [
+        "ex_16_remove",
+        "ex_4x5_split",
+        "exp_decompose",
+        "exp_number_bond",
+        "exp_parts_sentences",
+        "exp_remove_row_col",
+        "q_app_1",
+        "q_app_2",
+        "q_app_3",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Plain rectangle of equal square tiles split by one line, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets",
+      "reason": "Printed timed sets. They are in Lesson 12. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_tiles",
+      "name": "Build and split rectangles with real tiles and a ruler; cut out tiles",
+      "reason": "Needs real tiles, a ruler and a partner. The widget a_tile_split replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw Ellie's lemon bars; write number bonds on paper",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_tile_split). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md text has several unlabelled sheets. Items were counted from printed prompts. Check against the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l10_tiles_rectangles_arrays, math_g2_m6_l11_tiles_one_row_to_arrays and math_g2_m6_l12_math_drawings_square_tiles are earlier cards of this module. ext_g2_number_bonds is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f10",
+      "severity": "high",
+      "item": "Number bonds and pictures",
+      "issue": "Number bonds and pictures are not in the .md. The tutor can only check spoken or typed answers. Number bond drawing was left out."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Problem Set 5 and 6 (20 and 16 tiles), Homework 4 (14 tiles)",
+      "issue": "These ask the child to choose any rectangle. The answer depends on the choice. Not made as questions. Debrief q_db_1 covers part of Problem 5."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Making the Next Ten to Add",
+      "issue": "Only 9 plus 4 has a printed answer. The other items are derived from the sequences listed. Not all items used."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Application Problem",
+      "issue": "No answer printed. 3 rows of 3 is 9. Take 1 row (3): 6 left. Take 1 column from the 2 rows left (2): 4 left. The 'column' is read as a column of the new shape. Check this reading."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "h_next_ten, h_take_group",
+      "issue": "h_take_group is adapted from the source's subtraction idea. h_next_ten is adapted from 9 plus 4 equals 10 plus 3."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

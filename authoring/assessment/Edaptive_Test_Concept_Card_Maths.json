@@ -1,0 +1,489 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_equal_groups_find_totals_test",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "edaptive_synthetic_equal_groups_fixture_v1",
+      "file": "Edaptive_Test_Concept_Card_Maths.json",
+      "source_version": "synthetic-fixture-v1",
+      "title": "Edaptive synthetic test fixture: equal groups and multiplication",
+      "license": "Not specified; original synthetic test material, not an extracted curriculum source",
+      "page_numbering": "none; section references identify fields and item IDs inside this JSON fixture"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [],
+  "review_status": "draft",
+  "objective": {
+    "id": "obj_1",
+    "text": "Find totals for equal groups using repeated addition and multiplication. Explain what the number of groups and the number in each group mean, and combine two sets of equal groups.",
+    "origin": "derived",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "objective"
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_equal_groups",
+      "title": "Equal groups",
+      "text": "Equal groups have the same number of objects in every group. Three bags with 4 apples in each bag are 3 equal groups of 4.",
+      "origin": "derived",
+      "asset_ids": [],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_equal_groups"
+      }
+    },
+    {
+      "id": "exp_repeated_addition",
+      "title": "Add equal groups",
+      "text": "To find the total, add the number in each group once for every group. Three bags with 4 apples each give 4 + 4 + 4 = 12 apples.",
+      "origin": "derived",
+      "asset_ids": [],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_repeated_addition"
+      }
+    },
+    {
+      "id": "exp_multiplication",
+      "title": "Multiply equal groups",
+      "text": "In this lesson, number of groups times number in each group gives the total. Three bags with 4 apples each are written as 3 times 4 equals 12. The 3 counts the bags, the 4 counts the apples in each bag, and the 12 counts all the apples.",
+      "origin": "derived",
+      "asset_ids": [],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_multiplication"
+      }
+    },
+    {
+      "id": "exp_combine_groups",
+      "title": "Combine two sets of groups",
+      "text": "Find the total for each set, then add those totals. Two bags with 4 apples each give 8 apples. Three more bags with 4 apples each give 12 apples. Altogether, 8 + 12 = 20 apples. You can also combine the 5 bags and calculate 5 times 4 equals 20.",
+      "origin": "derived",
+      "asset_ids": [],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_combine_groups"
+      }
+    },
+    {
+      "id": "exp_empty_groups",
+      "title": "Empty groups",
+      "text": "An empty box contains 0 objects. Four empty boxes contain 0 + 0 + 0 + 0 = 0 objects. Four times 0 equals 0.",
+      "origin": "derived",
+      "asset_ids": [],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_empty_groups"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_three_bags_four",
+      "title": "Three bags of four apples",
+      "text": "There are 3 bags with 4 apples in each bag. Repeated addition: 4 + 4 + 4 = 12. Multiplication: 3 times 4 equals 12. There are 12 apples in total.",
+      "origin": "derived",
+      "asset_ids": [],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "examples.ex_three_bags_four"
+      }
+    },
+    {
+      "id": "ex_two_sets_of_bags",
+      "title": "Two sets of bags",
+      "text": "There are 2 bags with 4 apples each and 3 more bags with 4 apples each. First set: 2 times 4 equals 8. Second set: 3 times 4 equals 12. Combined total: 8 + 12 = 20 apples.",
+      "origin": "derived",
+      "asset_ids": [],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "examples.ex_two_sets_of_bags"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 4 + 4 + 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "addends": [
+          4,
+          4,
+          4
+        ]
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_add_equal_groups"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_repeated_addition"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "There are 3 boxes with 2 crayons in each box. How many crayons are there altogether?",
+      "asset_ids": [],
+      "stimulus": {
+        "groups": 3,
+        "items_per_group": 2,
+        "object": "crayon",
+        "container": "box"
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_add_equal_groups"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_equal_groups"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "There are 5 bowls with 4 apples in each bowl. How many apples are there altogether?",
+      "asset_ids": [],
+      "stimulus": {
+        "groups": 5,
+        "items_per_group": 4,
+        "object": "apple",
+        "container": "bowl"
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_add_equal_groups",
+        "h_multiply_groups"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_multiplication"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "The first set has 4 packets with 3 stickers in each packet. The second set has 2 packets with 3 stickers in each packet. How many stickers are in the first set, in the second set, and altogether? Give all three answers.",
+      "asset_ids": [],
+      "stimulus": {
+        "first_set": {
+          "groups": 4,
+          "items_per_group": 3
+        },
+        "second_set": {
+          "groups": 2,
+          "items_per_group": 3
+        },
+        "object": "sticker",
+        "container": "packet"
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_find_both_totals",
+        "h_add_subtotals"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_combine_groups"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "There are 3 bags with 4 apples in each bag. We write 3 times 4 equals 12. What does the 3 mean, what does the 4 mean, and what does the 12 mean?",
+      "asset_ids": [],
+      "stimulus": {
+        "groups": 3,
+        "items_per_group": 4,
+        "total": 12,
+        "object": "apple",
+        "container": "bag"
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_meaning_of_factors"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_multiplication"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "There are 4 empty boxes. Each box contains 0 crayons. How many crayons are there altogether?",
+      "asset_ids": [],
+      "stimulus": {
+        "groups": 4,
+        "items_per_group": 0,
+        "object": "crayon",
+        "container": "box"
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_empty_box"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_empty_groups"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Gives 12.",
+      "partial": null,
+      "incorrect": "Gives a clear numerical answer other than 12.",
+      "unclear": "The response cannot be understood well enough to judge the requested answer.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_repeated_addition"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Gives 6 crayons.",
+      "partial": null,
+      "incorrect": "Gives a clear numerical answer other than 6.",
+      "unclear": "The response cannot be understood well enough to judge the requested answer.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_equal_groups"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Gives 20 apples.",
+      "partial": null,
+      "incorrect": "Gives a clear numerical answer other than 20.",
+      "unclear": "The response cannot be understood well enough to judge the requested answer.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_multiplication"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Identifies 12 stickers in the first set, 6 stickers in the second set, and 18 stickers altogether. All three requested values must be correct and associated with the right set or total.",
+      "partial": "At least one of the three requested values is correctly identified, but not all three. A response giving only the correct combined total of 18 is partial. Any wrong or missing requested values prevent a correct outcome.",
+      "incorrect": "A clear, assessable response gives none of the three requested values correctly.",
+      "unclear": "The response cannot be understood well enough to judge the requested answer.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_combine_groups"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Explains all three meanings: 3 is the number of bags, 4 is the number of apples in each bag, and 12 is the total number of apples. Accept equivalent wording.",
+      "partial": "Explains one or two of the three meanings correctly, but omits or misstates the remaining meaning or meanings.",
+      "incorrect": "A clear, assessable response explains none of the three meanings correctly.",
+      "unclear": "The response cannot be understood well enough to judge the requested answer.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_multiplication"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0",
+          "zero"
+        ]
+      },
+      "correct": "Gives 0 crayons.",
+      "partial": null,
+      "incorrect": "Gives a clear numerical answer other than 0.",
+      "unclear": "The response cannot be understood well enough to judge the requested answer.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_empty_groups"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_add_equal_groups",
+      "level": 1,
+      "text": "Add the number in one group once for each group.",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_repeated_addition"
+      }
+    },
+    {
+      "id": "h_multiply_groups",
+      "level": 2,
+      "text": "Multiply the number of groups by the number in each group.",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_multiplication"
+      }
+    },
+    {
+      "id": "h_find_both_totals",
+      "level": 1,
+      "text": "Find the total in the first set. Then find the total in the second set.",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_combine_groups"
+      }
+    },
+    {
+      "id": "h_add_subtotals",
+      "level": 2,
+      "text": "Add the two totals to find how many objects there are altogether.",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_combine_groups"
+      }
+    },
+    {
+      "id": "h_meaning_of_factors",
+      "level": 1,
+      "text": "Which number tells you how many bags there are? Which tells you how many apples are in each bag?",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_multiplication"
+      }
+    },
+    {
+      "id": "h_empty_box",
+      "level": 1,
+      "text": "Each box is empty. How many objects are in an empty box?",
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "explanations.exp_empty_groups"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [],
+  "activities_not_tutorable": [],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "This is an AI-authored synthetic fixture for testing an assessment-card generator, not extracted or approved curriculum content. Keep generated assessment content draft pending review."
+    },
+    {
+      "id": "f2",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No linked prerequisite cards were supplied. This fixture assumes the child can count objects and add small whole numbers; supply real prerequisite IDs before curriculum integration."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

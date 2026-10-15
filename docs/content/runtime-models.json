@@ -1,0 +1,19 @@
+{
+  "language_model": {
+    "runtime": "Ollama",
+    "tag": "qwen3.5:9b-q4_K_M",
+    "recorded_digest": "56671c2ab9385f9cfcb404638e32cd62d88e3501d44822208363c010179a3c90",
+    "quantization": "Q4_K_M"
+  },
+  "voice_model": {
+    "runtime": "mlx-audio",
+    "repository": "mlx-community/Kokoro-82M-bf16",
+    "revision": "a71e4d38b236d968966a2002c4c895dbd12b1c3c",
+    "weights": "kokoro-v1_0.safetensors",
+    "voices": [
+      "af_heart",
+      "am_michael"
+    ]
+  },
+  "policy": "Provision assets separately. No model files or automatic startup downloads are included."
+}

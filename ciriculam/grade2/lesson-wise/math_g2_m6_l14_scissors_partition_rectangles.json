@@ -1,0 +1,1554 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l14_scissors_partition_rectangles",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-c-lesson-14.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 14",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Use scissors to partition a rectangle into same-size squares, and compose arrays with the squares.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l10_tiles_rectangles_arrays",
+    "math_g2_m6_l11_tiles_one_row_to_arrays",
+    "math_g2_m6_l13_decompose_rectangle_tiles"
+  ],
+  "explanations": [
+    {
+      "id": "exp_cut_rows",
+      "title": "Cut a rectangle into rows",
+      "text": "Cut a rectangle into rows. Each row has the same number of squares. Count the rows, then the squares in each row.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Rectangle A)"
+      }
+    },
+    {
+      "id": "exp_cut_cols",
+      "title": "Cut a rectangle into columns",
+      "text": "Cut a rectangle into columns. Each column has the same number of squares. Count the columns, then the squares in each column.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Rectangle B)"
+      }
+    },
+    {
+      "id": "exp_same_rect_ways",
+      "title": "One rectangle, many ways to see it",
+      "text": "The same rectangle can be rows, columns or single squares. 2 rows of 4, 4 columns of 2 and 8 squares are all the same amount.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: I can see the same rectangle different ways)"
+      }
+    },
+    {
+      "id": "exp_recompose",
+      "title": "Make a new rectangle from the squares",
+      "text": "Cut out all the squares. Put them together in a new rectangle. The number of squares stays the same. Look at the rows and the columns.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Problems 3 and 4)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_rect_a",
+      "title": "Rectangle A",
+      "text": "2 rows. 4 squares in each row. 4 plus 4 equals 8.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Student Debrief"
+      }
+    },
+    {
+      "id": "ex_rect_b",
+      "title": "Rectangle B",
+      "text": "4 columns. 2 squares in each column. 2 plus 2 plus 2 plus 2 equals 8.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Student Debrief"
+      }
+    },
+    {
+      "id": "ex_8_cols_2",
+      "title": "8 columns of 2",
+      "text": "Cut each row of 4 into twos. Put them together as 8 columns of 2. It is also 2 rows of 8.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "I am holding up a coin worth 1 cent. What is the name of the coin?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_coin_name"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "coin": "penny"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "How much is a penny worth?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_coin_name"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "coin": "penny"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Count by tens. 10, 20, 30, 40, 50, 60. How many dimes are shown?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_count_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "dimes": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 6 dimes)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is the value of 6 dimes in cents?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_count_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "dimes": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 60 cents)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "You have 60 cents. 5 cents more is how many cents?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_count_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "dimes": 6,
+        "pennies": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 65 cents)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "You have 65 cents. 10 cents less is how many cents?",
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_count_tens"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "dimes": 5,
+        "pennies": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 55 cents)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Rectangle A is cut into rows. How many rows does it have?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Rectangle A)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Each row of Rectangle A has how many squares?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "How many squares are in Rectangle A?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4,
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Rectangle B is cut into columns. It has 4 columns. How many squares are in each column?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "columns": 4,
+        "per_column": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (Rectangle B)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Say the repeated addition for 4 columns of 2.",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "columns": 4,
+        "per_column": 2,
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2: repeated addition sentence)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Put Rectangle A and Rectangle B side by side. What do you notice?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_same_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          4
+        ],
+        "b": [
+          4,
+          2
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: They both show the same amount)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Cut both rows of 4 into twos. You put the twos together. How many columns of 2 do you have?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_same_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "columns": 8,
+        "per_column": 2,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 8 columns of 2)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "The long rectangle has 8 columns of 2. Imagine 2 rows on top. What would they be?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "columns": 8,
+        "per_column": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 2 rows of 8)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "You cut out all the squares from Rectangles A and B. How many squares do you have?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_same_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 16)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Make a new rectangle with all 16 squares. Say one way, with rows and columns.",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_same_total",
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Cut out the squares from Rectangles A, B and C. You have 24 squares in all. Make a rectangle. Say the rows of how many.",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_same_total",
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "total": 24
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "A rectangle has 2 rows of 6. How many columns of how many does it also have?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 6,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (see the same rectangle as rows and columns)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "A rectangle of 12 squares has 3 rows of 4. Say the same rectangle as columns.",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_count_rows_cols"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 4,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (12 squares)"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 11 minus 10?",
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 10"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_a6",
+      "kind": "practice",
+      "text": "What is 12 minus 2?",
+      "rubric_id": "r_sp_a6",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "12 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 6)"
+      }
+    },
+    {
+      "id": "q_sp_a9",
+      "kind": "practice",
+      "text": "What is 11 minus 2?",
+      "rubric_id": "r_sp_a9",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 9)"
+      }
+    },
+    {
+      "id": "q_sp_a12",
+      "kind": "practice",
+      "text": "What is 11 minus 8?",
+      "rubric_id": "r_sp_a12",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "11 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 12)"
+      }
+    },
+    {
+      "id": "q_sp_a17",
+      "kind": "practice",
+      "text": "What is 13 minus 8?",
+      "rubric_id": "r_sp_a17",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "13 - 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 17)"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "practice",
+      "text": "What is 15 minus 9?",
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "15 - 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 26)"
+      }
+    },
+    {
+      "id": "q_sp_a36",
+      "kind": "practice",
+      "text": "What is 16 minus 7?",
+      "rubric_id": "r_sp_a36",
+      "hint_ids": [
+        "h_sp_ten"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "16 - 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens (Sprint A item 36)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "What did we learn by first cutting rectangles into rows and columns before cutting out each square?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_same_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          4
+        ],
+        "b": [
+          4,
+          2
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "How did the rows and columns change when you made a new rectangle from the same squares?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_same_total"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_rect_cut"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          8
+        ],
+        "b": [
+          4,
+          4
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "penny",
+          "a penny",
+          "pennies"
+        ]
+      },
+      "correct": "Says penny.",
+      "partial": null,
+      "incorrect": "Says another coin name.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (S: A penny)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 cent",
+          "one cent",
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1 cent.",
+      "partial": null,
+      "incorrect": "Says another amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (S: 1 cent)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 6 dimes)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60 cents",
+          "sixty cents",
+          "60",
+          "sixty"
+        ]
+      },
+      "correct": "Says 60 cents.",
+      "partial": null,
+      "incorrect": "Says another amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 60 cents)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "65 cents",
+          "sixty-five cents",
+          "65",
+          "sixty-five"
+        ]
+      },
+      "correct": "Says 65 cents.",
+      "partial": null,
+      "incorrect": "Says another amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 65 cents)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55 cents",
+          "fifty-five cents",
+          "55",
+          "fifty-five"
+        ]
+      },
+      "correct": "Says 55 cents.",
+      "partial": null,
+      "incorrect": "Says another amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: More and Less (S: 55 cents)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": "Says 4 or 8.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (S: 2 rows of 4)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": "Says 2 or 8.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (S: 2 rows of 4)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": "Says 4 (one row).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (S: ...or 8 squares)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": "Says 4 or 8.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (S: 4 columns of 2)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 + 2 + 2 + 2",
+          "2 plus 2 plus 2 plus 2",
+          "two plus two plus two plus two"
+        ]
+      },
+      "correct": "Says 2 plus 2 plus 2 plus 2.",
+      "partial": "Says an addition with 2 but not four 2s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 4 columns of 2)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says they show the same amount, or they are the same size and shape.",
+      "partial": "Says something true but not that they match.",
+      "incorrect": "Says they are different.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: They both show the same amount, and they're both the same size and shape)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": "Says 4.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (put together your twos to form one long rectangle that has 8 columns of 2)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 2 rows of 8, or 2 of the long skinny rectangles.",
+      "partial": "Says 8 but not 2 rows of 8.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: I see it would be 2 rows of 8)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": "Says 8.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 16)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says a rectangle that makes 16, such as 2 rows of 8 and 8 columns of 2, or 4 rows of 4.",
+      "partial": "Says a number of squares that is not 16.",
+      "incorrect": "Says something that is not a rectangle of 16.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (answer not printed; many valid rectangles)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says a rectangle that makes 24, such as 2 rows of 12, 3 rows of 8, 4 rows of 6, or 6 rows of 4.",
+      "partial": "Says a number of squares that is not 24.",
+      "incorrect": "Says something that is not a rectangle of 24.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (answer not printed; many valid rectangles)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6 columns of 2",
+          "six columns of two"
+        ]
+      },
+      "correct": "Says 6 columns of 2.",
+      "partial": "Says 6 or 2 only.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (answer not printed; same rectangle as rows and as columns)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4 columns of 3",
+          "four columns of three"
+        ]
+      },
+      "correct": "Says 4 columns of 3.",
+      "partial": "Says 3 or 4 only.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (answer not printed; 3 rows of 4 is 4 columns of 3)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1 (no answer printed; 11 - 10)"
+      }
+    },
+    {
+      "id": "r_sp_a6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 6 (no answer printed; 12 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 9 (no answer printed; 11 - 2)"
+      }
+    },
+    {
+      "id": "r_sp_a12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 12 (no answer printed; 11 - 8)"
+      }
+    },
+    {
+      "id": "r_sp_a17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 17 (no answer printed; 13 - 8)"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 26 (no answer printed; 15 - 9)"
+      }
+    },
+    {
+      "id": "r_sp_a36",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 36 (no answer printed; 16 - 7)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says we can see the same rectangle as rows, as columns or as single squares.",
+      "partial": "Says it helped but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development: we can decompose the same rectangle into rows, columns, or individual square units)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the number of rows and columns changed but the total stayed the same.",
+      "partial": "Says they changed but not that the total stayed the same.",
+      "incorrect": "Says the total changed.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 2 rows of 8 and 4 rows of 4 both have 16)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_count_rows_cols",
+      "level": 1,
+      "text": "Count the rows. Then count the squares in one row.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (How many rows do you see?)"
+      }
+    },
+    {
+      "id": "h_same_total",
+      "level": 2,
+      "text": "Count all the squares. The total stays the same after you cut.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (16 squares)"
+      }
+    },
+    {
+      "id": "h_sp_ten",
+      "level": 1,
+      "text": "Think about the ten. Subtract from the ten first. Then add back the rest.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_coin_name",
+      "level": 1,
+      "text": "Think about the smallest coin. It is copper coloured.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_count_tens",
+      "level": 1,
+      "text": "Count by tens first. Then add the ones.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_rect_cut",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact square counts, cut lines and putting squares back together need exact behaviour. Diffusion cannot count.",
+      "description": "A rectangle of squares that can be cut into rows, columns or single squares and rebuilt as a new rectangle.",
+      "must_show_exactly": [
+        "Exactly the square count in the stimulus",
+        "Cuts fall between rows or columns",
+        "The total stays the same after a cut or rebuild",
+        "No gaps or overlaps"
+      ],
+      "states_or_frames": [
+        "2 rows of 4 (Rectangle A)",
+        "4 columns of 2 (Rectangle B)",
+        "8 columns of 2",
+        "2 rows of 8",
+        "4 rows of 4",
+        "16 squares",
+        "24 squares",
+        "2 rows of 6",
+        "3 rows of 4",
+        "4 columns of 3"
+      ],
+      "interaction": "Tutor sets rows, columns and cuts from the stimulus. Child can cut and rebuild. Child answers by voice or typing.",
+      "alt_text": "A rectangle of squares with cut lines.",
+      "used_by": [
+        "ex_8_cols_2",
+        "ex_rect_a",
+        "ex_rect_b",
+        "exp_cut_cols",
+        "exp_cut_rows",
+        "exp_recompose",
+        "exp_same_rect_ways",
+        "q_db_1",
+        "q_db_2",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Plain rectangle of equal squares with a cut line, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Subtraction from Teens (timed Sprint A and B)",
+      "reason": "Timed paper race with 44 items per sheet. The items are used as questions. The race cannot run on a screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Subtraction from Teens"
+      }
+    },
+    {
+      "id": "na_coin_drop",
+      "name": "Coin Drop and More and Less with real coins",
+      "reason": "Needs a teacher, real coins and a can. Only the coin and value questions are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop; More and Less"
+      }
+    },
+    {
+      "id": "na_scissors",
+      "name": "Cut Rectangles A, B and C with scissors",
+      "reason": "Needs paper, templates and scissors. The widget a_rect_cut replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw what you see after cutting into rows or columns",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 2"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_rect_cut). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The Problem Set is used as the lesson. The .md text has three unlabelled sheets. Problems were counted from printed prompts. Check against the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l10_tiles_rectangles_arrays, math_g2_m6_l11_tiles_one_row_to_arrays and math_g2_m6_l13_decompose_rectangle_tiles are earlier cards of this module."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f10",
+      "severity": "high",
+      "item": "Rectangle A, B and C",
+      "issue": "The three Rectangle templates are pictures and are not in the .md. Rectangle A as 2 rows of 4 and Rectangle B as 4 columns of 2 were read from the Student Debrief wording. Rectangle C was not described, so only the 24 total is used. Check against the PDF."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Problems 3 and 4 and Homework 1 and 2",
+      "issue": "Many valid rectangles. Open rubrics. A person or the tutor must check that the rows and columns multiply to the total. Homework 2 is picture-based and was not used."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Sprint A item numbers",
+      "issue": "The .md table has no printed item numbers. Items 1 to 22 are the left column and 23 to 44 the right column. Check against the PDF."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Sprint items used and left out",
+      "issue": "Same Sprint as Lesson 8. Used items 1, 6, 9, 12, 17, 26, 36. Sprint B was not used. Other items repeat these patterns."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "h_sp_ten, h_coin_name, h_count_tens",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

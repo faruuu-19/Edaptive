@@ -27,6 +27,6 @@ class ConsentDecision(Base):
     policy_version: Mapped[str] = mapped_column(Text, default="no-input-v1")
 
     __table_args__ = (
-        CheckConstraint("kind IN ('camera', 'microphone')", name="consent_kind"),
+        CheckConstraint("kind IN ('camera', 'microphone', 'lesson_alarm')", name="consent_kind"),
         Index("consent_student_kind_latest", "student_id", "kind", "id"),
     )

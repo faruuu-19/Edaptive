@@ -6,6 +6,7 @@ export type PreparedSlot = {
   id: string; kind: 'lesson' | 'break' | 'unavailable'; subject: string; title: string;
   module?: number; lesson?: number; concept_id?: string; start_ms: number; end_ms: number; class_phase: string; position?: number;
   borrowed_minutes?: number;
+  exit_count?: number; exit_reason?: 'child' | 'timeout'; exited_at_ms?: number; segment_count?: number;
   preparation?: { status: string; percent: number; message: string; completed?: number; total?: number };
   timing?: { minutes: number; basis: string; spoken_words?: number; buffer_seconds: number };
 };
@@ -19,3 +20,4 @@ export const getSchoolRoutine = (studentId: string) => request<{ routine: School
 export const saveSchoolStartTime = (studentId: string, start_time: string) => request<{ routine: SchoolRoutine; timetable: SavedTimetable | null }>(`/api/lesson_delivery/routine/${studentId}`, { method: 'PUT', body: JSON.stringify({ start_time }) });
 export const deliveryAction = (context: DeliveryContext, action: string, position?: number) => request<SavedTimetable>(`/api/lesson_delivery/${context.timetableId}/action`, { method: 'POST', body: JSON.stringify({ slot_id: context.slotId, action, ...(position === undefined ? {} : { position }) }) });
 export const getDeliveryLesson = (context: DeliveryContext, signal: AbortSignal) => request<PreviewLesson & { position: number; voice: string }>(`/api/lesson_delivery/${context.timetableId}/lesson/${context.slotId}`, { signal });
+export const getLessonAlarmSetting = (studentId: string) => request<{ granted: boolean }>(`/api/consent/${studentId}/lesson-alarm`);

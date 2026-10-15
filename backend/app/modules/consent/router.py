@@ -7,12 +7,12 @@ from sqlalchemy import select
 
 from app.core.db import DbSession
 from app.core.household import StudentProfile, get_active_profile
-from app.core.identity import ParentActor
+from app.core.identity import CurrentActor, ParentActor, ensure_student_access
 
 from .models import ConsentDecision
 
 router = APIRouter()
-KINDS = ("camera", "microphone")
+KINDS = ("camera", "microphone", "lesson_alarm")
 
 
 class ConsentInput(BaseModel):
@@ -72,10 +72,19 @@ def get_permissions(student_id: uuid.UUID, actor: ParentActor, db: DbSession):
     return snapshot(db, actor, student_id)
 
 
+@router.get("/{student_id}/lesson-alarm")
+def lesson_alarm(student_id: uuid.UUID, actor: CurrentActor, db: DbSession):
+    """The only consent value a child's device may read: may the class alarm make a sound?"""
+    ensure_student_access(actor, student_id)
+    require_child(db, actor, student_id)
+    decision = latest(db, actor, student_id, "lesson_alarm")
+    return {"granted": bool(decision and decision.granted)}
+
+
 @router.put("/{student_id}/{kind}")
 def decide(
     student_id: uuid.UUID,
-    kind: Literal["camera", "microphone"],
+    kind: Literal["camera", "microphone", "lesson_alarm"],
     body: ConsentInput,
     actor: ParentActor,
     db: DbSession,

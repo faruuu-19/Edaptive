@@ -39,7 +39,7 @@ def verify(root=ROOT):
     speech = load_lesson(path)
     return {"pairs": len(catalog), "saved_example_sections": len(script["segments"]),
             "main_path_sections": len(speech["segments"]), "model_calls": 0,
-            "content_status": "draft; operator evaluation only"}
+            "content_status": "reviewed and ready" if all(row["ready_for_delivery"] for row in catalog) else "some lessons are not ready for delivery"}
 
 
 if __name__ == "__main__":

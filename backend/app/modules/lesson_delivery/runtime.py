@@ -9,6 +9,7 @@ import uuid
 from datetime import UTC, datetime
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
+from zoneinfo import ZoneInfo
 
 from sqlalchemy import select
 from sqlalchemy.orm import Session
@@ -21,6 +22,47 @@ from .models import Timetable
 VOICE = "http://127.0.0.1:8766"
 # The teacher voice is unloaded between classes; reserving it may have to load the model again.
 RELOAD_TIMEOUT = 60
+
+
+# A child may leave a live class and come back, but the clock never moves because of it.
+MAX_EXITS = 2
+# A class that is over for good. "unfinished" means it was held but not finished (left early, or
+# never joined): the lesson does not come back, its rest is for the recorded lessons library.
+CLOSED = {"completed", "unfinished", "cancelled"}
+DISCONNECT_MS = 120_000
+
+
+# Present means staying for at least this share of the lesson (the parts the child has listened to).
+ATTENDANCE_PERCENT = 70
+
+
+def attendance_of(slot):
+    """(percent, present) for this attempt. A lesson carried over from yesterday only expects the rest."""
+    base = slot.get("attempt_base", 0)
+    expected = max(0, slot.get("segment_count", 0) - base)
+    heard = max(0, len(set(slot.get("narrated_positions", []))) - base)
+    if expected == 0:
+        return 100, True
+    return min(100, round(heard * 100 / expected)), heard * 100 >= ATTENDANCE_PERCENT * expected
+
+
+def close_day_if_over(row, state):
+    """Once every lesson of the day is closed the timetable is complete; the next day is planned from it."""
+    if row.status == "active" and not any(
+        s["kind"] == "lesson" and s["status"] not in CLOSED for s in state["slots"]
+    ):
+        row.status = "completed"
+
+
+def can_rejoin(slot, now_ms):
+    """Back in until the class's scheduled end, and at most MAX_EXITS times."""
+    return slot["status"] == "exited" and now_ms < slot["end_ms"] and slot.get("exit_count", 0) < MAX_EXITS
+
+
+def leave(slot, now_ms, reason):
+    slot.update(
+        status="exited", exited_at_ms=now_ms, exit_reason=reason, exit_count=slot.get("exit_count", 0) + 1
+    )
 
 
 def voice_request(path, payload=None, timeout=5):
@@ -52,7 +94,7 @@ def event(db, row, kind, slot, payload=None):
         "session_id": session,
         "student_id": str(row.student_id),
     }
-    if kind == "start":
+    if kind in {"start", "rejoin"}:
         append(
             db,
             {
@@ -65,15 +107,15 @@ def event(db, row, kind, slot, payload=None):
                 },
             },
         )
-    elif kind in {"finish", "cancel"} and session:
-        append(
-            db,
-            {
-                **common,
-                "event_type": "session.ended",
-                "payload": {"reason": "completed" if kind == "finish" else "exited"},
-            },
+    elif kind in {"finish", "cancel", "exit"} and session:
+        reason = (
+            "completed"
+            if kind == "finish"
+            else "timeout"
+            if slot.get("exit_reason") == "timeout"
+            else "exited"
         )
+        append(db, {**common, "event_type": "session.ended", "payload": {"reason": reason}})
     append(
         db,
         {
@@ -101,6 +143,66 @@ def shift(state, offset, delta):
             s["prepare_at_ms"] += delta
 
 
+SCHOOL_ZONE = ZoneInfo("Asia/Karachi")
+STEP_MS = 300000  # delays are whole five-minute steps, like the snooze
+MAX_DELAY_MS = 240 * 60000  # after this the class is simply not held today and the day-end rules apply
+NOT_WAITED_FOR = {"ready", "failed", "cancelled"}
+
+
+def wall_clock(ms):
+    return datetime.fromtimestamp(ms / 1000, SCHOOL_ZONE).strftime("%I:%M %p").lstrip("0").lower()
+
+
+def delay_for(slot, now_ms):
+    """How long to wait for a lesson that is still being prepared, from how fast it has gone so far."""
+    percent = slot["preparation"].get("percent") or 0
+    elapsed = max(now_ms - slot["prepare_at_ms"], 0)
+    remaining = elapsed * (100 - percent) / percent if percent >= 1 else 2 * STEP_MS
+    steps = max(1, -(-int(remaining) // STEP_MS))
+    return min(steps, 12) * STEP_MS
+
+
+def delay_unready_classes(state, now_ms):
+    """A class whose time has come before its lesson is ready is moved later, not skipped. The delay is
+    worked out from the preparation so far; the child and parent are told the new time. This and every later
+    slot move together, so breaks are kept. True when something moved."""
+    moved = False
+    for index, slot in enumerate(state["slots"]):
+        if (
+            slot["kind"] != "lesson"
+            or slot["status"] != "planned"
+            or now_ms < slot["start_ms"]
+            or slot["preparation"]["status"] in NOT_WAITED_FOR
+        ):
+            continue
+        total = slot.get("delay_minutes", 0) * 60000
+        if total >= MAX_DELAY_MS:
+            continue
+        delta = min(delay_for(slot, now_ms), MAX_DELAY_MS - total)
+        first_due = slot.get("delayed_from_ms", slot["start_ms"])
+        shift(state, index, delta)
+        slot.update(
+            delayed_from_ms=first_due,
+            delay_minutes=(total + delta) // 60000,
+            delay_notice=(
+                f"Your Maths class will start at {wall_clock(slot['start_ms'])} instead of "
+                f"{wall_clock(first_due)}. Your lesson is still being prepared."
+            ),
+        )
+        moved = True
+        break  # later classes were moved along with this one
+    return moved
+
+
+def refresh_delays(db, row, now_ms=None):
+    state = copy.deepcopy(row.state)
+    if row.status == "active" and delay_unready_classes(state, now_ms or time.time() * 1000):
+        row.state = state
+        db.flush()
+        return True
+    return False
+
+
 def snapshot(row, now=None):
     state = copy.deepcopy(row.state)
     now = now or time.time() * 1000
@@ -112,13 +214,11 @@ def snapshot(row, now=None):
             )
         if phase == "planned":
             phase = "ringing" if slot["kind"] == "lesson" and now >= slot["start_ms"] else "waiting"
+        elif phase == "exited":
+            phase = "exited" if can_rejoin(slot, now) else "unfinished"
         slot["class_phase"] = phase
     current = next(
-        (
-            s
-            for s in state["slots"]
-            if s["kind"] == "lesson" and s["status"] not in {"completed", "cancelled"}
-        ),
+        (s for s in state["slots"] if s["kind"] == "lesson" and s["status"] not in CLOSED),
         None,
     )
     return {
@@ -142,11 +242,7 @@ def act(db, row, slot_id, action, position=None):
         raise ValueError("Unknown lesson slot.")
     slot = state["slots"][index]
     current = next(
-        (
-            s
-            for s in state["slots"]
-            if s["kind"] == "lesson" and s["status"] not in {"completed", "cancelled"}
-        ),
+        (s for s in state["slots"] if s["kind"] == "lesson" and s["status"] not in CLOSED),
         None,
     )
     if current is not slot:
@@ -155,8 +251,10 @@ def act(db, row, slot_id, action, position=None):
     if action == "borrow":
         if slot["status"] != "planned" or now < slot["start_ms"]:
             raise ValueError("Borrow five minutes when the class alarm rings.")
+        if slot.get("borrowed_minutes", 0) > 0:
+            raise ValueError("You can snooze a class only once.")
         shift(state, index, 300000)
-        slot["borrowed_minutes"] = slot.get("borrowed_minutes", 0) + 5
+        slot["borrowed_minutes"] = 5
     elif action == "start":
         if slot["status"] == "started":
             return snapshot(row)
@@ -167,6 +265,17 @@ def act(db, row, slot_id, action, position=None):
             shift(state, index, now - slot["start_ms"])
         voice_request("/jobs/" + slot["job_id"] + "/reserve", {}, RELOAD_TIMEOUT)
         slot.update(status="started", session_id=str(uuid.uuid4()), started_at_ms=now, last_seen_ms=now)
+    elif action == "exit":
+        if slot["status"] != "started":
+            raise ValueError("You are not in a class right now.")
+        leave(slot, now, "child")
+    elif action == "rejoin":
+        if not can_rejoin(slot, now):
+            raise ValueError(
+                "This class has finished. Maths will continue on the next school day from where you stopped."
+            )
+        voice_request("/jobs/" + slot["job_id"] + "/reserve", {}, RELOAD_TIMEOUT)
+        slot.update(status="started", session_id=str(uuid.uuid4()), last_seen_ms=now)
     elif action == "heartbeat":
         if slot["status"] != "started":
             raise ValueError("The lesson is not active.")
@@ -198,8 +307,6 @@ def act(db, row, slot_id, action, position=None):
             delta = now - slot["end_ms"]
             slot["end_ms"] = now
             shift(state, index + 1, delta)
-        if not any(s["kind"] == "lesson" and s["status"] == "planned" for s in state["slots"]):
-            row.status = "completed"
     elif action == "cancel":
         for s in state["slots"]:
             if s["status"] not in {"completed", "cancelled"}:
@@ -207,13 +314,16 @@ def act(db, row, slot_id, action, position=None):
         row.status = "cancelled"
     else:
         raise ValueError("Unknown lesson action.")
-    if action in {"finish", "cancel"}:
+    if action in {"finish", "cancel", "exit"}:
         try:
             voice_request("/jobs/" + slot["job_id"] + "/release", {})
         except OSError:
             pass
     if action != "heartbeat":
         event(db, row, action, slot)
+    if action in {"finish", "exit"}:
+        settle_attendance(db, row, slot, state.get("school_date"), now)
+    close_day_if_over(row, state)
     row.state = state
     db.flush()
     if action == "start":
@@ -229,6 +339,94 @@ def act(db, row, slot_id, action, position=None):
     return snapshot(row)
 
 
+def settle_attendance(db, row, slot, school_date, now_ms, *, day_over=False):
+    """Log this attempt's attendance once it is final. Returns True when a record was written."""
+    if slot.get("attendance"):
+        return False
+    status = slot["status"]
+    if status == "completed":
+        percent, present = attendance_of(slot)
+        reason = "completed"
+    elif status == "exited" and (day_over or not can_rejoin(slot, now_ms)):
+        percent, present = attendance_of(slot)
+        reason = "left_after_threshold" if present else "left_early"
+    elif status == "planned" and day_over:
+        if slot.get("preparation", {}).get("status") != "ready":
+            # No lesson was ready, so the class could not run: nobody was absent. Tried again tomorrow.
+            slot["attendance"] = {"status": "not_held"}
+            return False
+        percent, present, reason = 0, False, "did_not_join"
+    else:
+        return False
+    result = "present" if present else "absent"
+    slot["attendance"] = {"status": result, "reason": reason, "attended_percent": percent}
+    if status != "completed":
+        slot.update(status="unfinished", unfinished_at_ms=now_ms)
+    append(
+        db,
+        {
+            "event_id": str(uuid.uuid4()),
+            "event_version": 1,
+            "occurred_at": datetime.now(UTC).isoformat(),
+            "source": "lesson_delivery",
+            "session_id": slot.get("session_id"),
+            "student_id": str(row.student_id),
+            "event_type": "lesson.attendance_recorded",
+            "payload": {
+                "timetable_id": str(row.id),
+                "slot_id": slot["id"],
+                "concept_id": slot["concept_id"],
+                "card_version": slot["card_version"],
+                "school_date": school_date,
+                "status": result,
+                "reason": reason,
+                "attended_percent": percent,
+                "lesson_title": slot.get("title", "")[:120],
+            },
+        },
+    )
+    return True
+
+
+def settle_due(db, row, now_ms):
+    """Record attendance for classes the child left and can no longer rejoin."""
+    state = copy.deepcopy(row.state)
+    changed = False
+    for slot in state["slots"]:
+        if slot["kind"] == "lesson" and slot["status"] == "exited":
+            changed = settle_attendance(db, row, slot, state.get("school_date"), now_ms) or changed
+    if changed:
+        close_day_if_over(row, state)
+        row.state = state
+        db.flush()
+    return changed
+
+
+def expire_disconnected(db, row, now_ms):
+    """A started class with no heartbeat for DISCONNECT_MS is treated as left (connection lost)."""
+    state = copy.deepcopy(row.state)
+    lost = [
+        s
+        for s in state["slots"]
+        if s["kind"] == "lesson"
+        and s["status"] == "started"
+        and now_ms - s.get("last_seen_ms", s.get("started_at_ms", now_ms)) > DISCONNECT_MS
+    ]
+    for slot in lost:
+        leave(slot, now_ms, "timeout")
+        event(db, row, "exit", slot)
+        settle_attendance(db, row, slot, state.get("school_date"), now_ms)
+        try:
+            voice_request("/jobs/" + slot["job_id"] + "/release", {})
+        except (OSError, ValueError):
+            pass
+    if lost:
+        close_day_if_over(row, state)
+        row.state = state
+        db.flush()
+    return bool(lost)
+
+
 def apply_prepared(state, index, lesson, status):
     slot = state["slots"][index]
     timing = estimate(lesson)
@@ -236,6 +434,43 @@ def apply_prepared(state, index, lesson, status):
     slot["end_ms"] += delta
     slot.update(timing=timing, segment_count=len(lesson["segments"]), preparation=status)
     shift(state, index + 1, delta)
+
+
+def hold_early_jobs(state, now_ms):
+    """Preparation follows the timetable. A job that started before its slot's preparation time (for
+    example the class was moved later after it began) is cancelled and made again when its time comes.
+    Returns the cancelled job ids so the caller can stop them."""
+    cancelled = []
+    for slot in state["slots"]:
+        if (
+            slot["kind"] == "lesson"
+            and slot["status"] == "planned"
+            and slot.get("preparation", {}).get("status") in {"queued", "preparing", "paused"}
+            and now_ms < slot["prepare_at_ms"]
+        ):
+            cancelled.append(slot["job_id"])
+            slot.update(
+                job_id=str(uuid.uuid4()),
+                preparation={
+                    "status": "waiting",
+                    "percent": 0,
+                    "message": "Coming soon · waiting for preparation time",
+                },
+            )
+    return cancelled
+
+
+def refresh_preparation(state, index):
+    """Move one planned lesson's preparation forward; True while the voice service is still working."""
+    slot = state["slots"][index]
+    status = voice_request("/jobs", {"job_id": slot["job_id"], "concept_id": slot["concept_id"]})
+    slot["preparation"] = status
+    if status["status"] == "ready":
+        # Fetch the finished lesson before offering Join class. A failure leaves "checking" and is retried.
+        slot["preparation"] = {**status, "status": "checking", "percent": 98}
+        lesson = voice_request("/jobs/" + slot["job_id"] + "/lesson")
+        apply_prepared(state, index, lesson, {**status, "status": "ready", "percent": 100})
+    return status["status"] in {"queued", "preparing"}
 
 
 def poll_preparation():
@@ -254,7 +489,17 @@ def poll_preparation():
                     )
                 )
                 for row in rows:
+                    settle_due(db, row, time.time() * 1000)
+                    if expire_disconnected(db, row, time.time() * 1000):
+                        continue
+                    refresh_delays(db, row)
                     state = copy.deepcopy(row.state)
+                    for stale in hold_early_jobs(state, time.time() * 1000):
+                        try:
+                            voice_request("/jobs/" + stale + "/cancel", {})
+                        except (OSError, ValueError):
+                            pass
+                    row.state = state
                     # Prioritise current delivery over loading another large model.
                     active = next((s for s in state["slots"] if s["status"] == "started"), None)
                     if active:
@@ -279,17 +524,7 @@ def poll_preparation():
                         if slot["preparation"]["status"] in {"ready", "failed"}:
                             continue
                         try:
-                            status = voice_request(
-                                "/jobs", {"job_id": slot["job_id"], "concept_id": slot["concept_id"]}
-                            )
-                            slot["preparation"] = status
-                            if status["status"] == "ready":
-                                slot["preparation"]["status"] = "checking"
-                                slot["preparation"]["percent"] = 98
-                                lesson = voice_request("/jobs/" + slot["job_id"] + "/lesson")
-                                apply_prepared(state, index, lesson, status)
-                            # One scheduled preparation at a time across the voice process.
-                            if status["status"] in {"queued", "preparing"}:
+                            if refresh_preparation(state, index):
                                 break
                         except (OSError, ValueError) as error:
                             slot["preparation"]["message"] = (

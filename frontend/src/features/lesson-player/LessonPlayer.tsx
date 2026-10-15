@@ -3,8 +3,10 @@
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { LiveNarrator } from "@/features/voice";
+import { childMessage } from "@/lib/friendly-error";
 import { getPreviewLesson, type PreviewLesson } from "@/lib/voice-preview-api";
 import { deliveryAction, getDeliveryLesson, type DeliveryContext } from "@/lib/lesson-delivery-api";
+import { LeaveClassDialog } from "./LeaveClassDialog";
 import styles from "./lesson-player.module.css";
 
 type Phase = "ready" | "preparing" | "playing" | "paused" | "complete";
@@ -19,7 +21,9 @@ function PlayIcon({ paused }: { paused: boolean }) {
   </svg>;
 }
 
-export function LessonPlayer({ onFinished, autoStart = false, delivery }: { delivery?: DeliveryContext; onFinished?: () => void; autoStart?: boolean } = {}) {
+const shown = (delivery: boolean, e: unknown) => (delivery ? childMessage(e) : (e as Error).message);
+
+export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery }: { delivery?: DeliveryContext; onFinished?: () => void; onLeave?: () => Promise<void>; autoStart?: boolean } = {}) {
   const timetableId = delivery?.timetableId;
   const slotId = delivery?.slotId;
   const stableDelivery = useMemo(() => timetableId && slotId ? { timetableId, slotId } : undefined, [timetableId, slotId]);
@@ -33,6 +37,9 @@ export function LessonPlayer({ onFinished, autoStart = false, delivery }: { deli
   const generation = useRef(0);
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [reload, setReload] = useState(0);
+  const [leaving, setLeaving] = useState(false);
+  const [leaveBusy, setLeaveBusy] = useState(false);
+  const wasPlaying = useRef(false);
   const autoStarted = useRef(false);
   const startButton = useRef<HTMLButtonElement | null>(null);
 
@@ -46,7 +53,7 @@ export function LessonPlayer({ onFinished, autoStart = false, delivery }: { deli
   useEffect(() => {
     const controller = new AbortController();
     (stableDelivery ? getDeliveryLesson(stableDelivery, controller.signal) : getPreviewLesson(controller.signal)).then(data => { setLesson(data); if ("position" in data) setIndex(data.position as number); }).catch(e => {
-      if (!controller.signal.aborted) setError(e.message);
+      if (!controller.signal.aborted) setError(shown(!!stableDelivery, e));
     });
     return () => controller.abort();
   }, [reload, stableDelivery]);
@@ -68,7 +75,7 @@ export function LessonPlayer({ onFinished, autoStart = false, delivery }: { deli
     try {
       if (delivery) await deliveryAction(delivery, "position", partIndex);
       start(partIndex, data, selectedVoice);
-    } catch (e) { setError((e as Error).message); setPhase("ready"); }
+    } catch (e) { setError(shown(!!delivery, e)); setPhase("ready"); }
   }
 
   function start(partIndex: number, data = lesson, selectedVoice = voice) {
@@ -90,7 +97,7 @@ export function LessonPlayer({ onFinished, autoStart = false, delivery }: { deli
         }
       },
     }, delivery).catch(e => {
-      if (generation.current === token) { setError(e.message); setPhase("ready"); }
+      if (generation.current === token) { setError(shown(!!delivery, e)); setPhase("ready"); }
     });
   }
 
@@ -102,13 +109,35 @@ export function LessonPlayer({ onFinished, autoStart = false, delivery }: { deli
     else start(index);
   }
 
+  async function askToLeave() {
+    wasPlaying.current = phase === "playing";
+    if (wasPlaying.current) { await narrator.current?.pause(); setPhase("paused"); }
+    setLeaving(true);
+  }
+  async function stay() {
+    setLeaving(false);
+    if (wasPlaying.current) { await narrator.current?.resume(); setPhase("playing"); }
+  }
+  async function confirmLeave() {
+    if (!onLeave) return;
+    setLeaveBusy(true); stop();
+    try { await onLeave(); }
+    catch (e) { setError(shown(true, e)); setPhase("ready"); setLeaveBusy(false); setLeaving(false); }
+  }
+
+  const brand = onLeave ? <span className="wordmark">Edaptive</span> : <Link className="wordmark" href="/">Edaptive</Link>;
+  const leaveControls = onLeave && <>
+    <button className="btn" onClick={() => void askToLeave()}>Leave class</button>
+    <LeaveClassDialog open={leaving} busy={leaveBusy} onConfirm={() => void confirmLeave()} onStay={() => void stay()} />
+  </>;
+
   async function navigate(next: number) {
     stop();
-    if (delivery) { try { await deliveryAction(delivery, "position", next); } catch (e) { setError((e as Error).message); return; } } setIndex(next); setCaption(-1); setPhase("ready"); setError("");
+    if (delivery) { try { await deliveryAction(delivery, "position", next); } catch (e) { setError(shown(true, e)); return; } } setIndex(next); setCaption(-1); setPhase("ready"); setError("");
   }
 
   if (!lesson) return <div className="stack">
-    <Link className="wordmark" href="/">Edaptive</Link>
+    <header className="row spread">{brand}{leaveControls}</header>
     <h1>Your lesson</h1>
     {error ? <><p className="error" role="alert">{error}</p><button className="btn" onClick={() => { setError(""); setReload(x => x + 1); }}>Try again</button></> : <p>Getting the lesson ready…</p>}
   </div>;
@@ -120,8 +149,8 @@ export function LessonPlayer({ onFinished, autoStart = false, delivery }: { deli
 
   return <div className={`stack ${styles.player}`}>
     <header className="row spread">
-      <Link className="wordmark" href="/">Edaptive</Link>
-      <span className={styles.preview}>{delivery ? "Scheduled lesson" : "Draft lesson preview"}</span>
+      {brand}
+      {leaveControls ?? <span className={styles.preview}>{delivery ? "Scheduled lesson" : "Draft lesson preview"}</span>}
     </header>
     <div className={styles.heading}>
       <div className="eyebrow">{lesson.subject === "math" ? "Maths" : lesson.subject} · Grade {lesson.grade}</div>
@@ -159,6 +188,6 @@ export function LessonPlayer({ onFinished, autoStart = false, delivery }: { deli
     </div>
     <p className={styles.status} role="status">{phase === "preparing" ? "The teacher is getting ready to speak." : phase === "paused" ? "Paused. Keep listening when you’re ready." : phase === "playing" ? "Listen and follow the highlighted sentence." : "You can listen, replay or move through the lesson."}</p>
     {error && <p className="error" role="alert">{error}</p>}
-    <p className={styles.draftNote}>{delivery ? "Your lesson position is saved. Draft cards are enabled for evaluation." : "Review preview: the lesson content is still a draft. Answers and progress are not recorded here."}</p>
+    <p className={styles.draftNote}>{delivery ? (lesson.preview_only ? "Your place is saved. This lesson is still a draft." : "Your place is saved.") : "Review preview: the lesson content is still a draft. Answers and progress are not recorded here."}</p>
   </div>;
 }

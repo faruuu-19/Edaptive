@@ -47,6 +47,23 @@ def install_actor_resolver(api: FastAPI, resolver: ActorResolver) -> None:
     api.state.actor_resolver = resolver
 
 
+# Re-asking for the parent PIN before a destructive action. The auth module installs the checker,
+# so no other module needs to know how PINs are stored.
+PinConfirmer = Callable[[Session, uuid.UUID, str], None]
+
+
+def install_pin_confirmer(api: FastAPI, confirmer: PinConfirmer) -> None:
+    api.state.pin_confirmer = confirmer
+
+
+def confirm_parent_pin(request: Request, db: Session, household_id: uuid.UUID, pin: str) -> None:
+    """Raises 401 for a wrong PIN and 429 while locked out. Same attempt limits as unlocking."""
+    confirmer: PinConfirmer | None = getattr(request.app.state, "pin_confirmer", None)
+    if confirmer is None:
+        raise HTTPException(status.HTTP_503_SERVICE_UNAVAILABLE, "PIN confirmation is unavailable")
+    confirmer(db, household_id, pin)
+
+
 def get_actor(request: Request, db: DbSession) -> Actor:
     resolver: ActorResolver | None = getattr(request.app.state, "actor_resolver", None)
     actor = resolver(request, db) if resolver else None

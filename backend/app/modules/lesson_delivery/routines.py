@@ -12,7 +12,7 @@ from app.core.household import get_active_profile
 
 from .curriculum import synchronize
 from .models import LearningProgress, SchoolRoutine, Timetable
-from .runtime import shift, voice_request
+from .runtime import close_day_if_over, settle_attendance, shift, voice_request
 
 SCHOOL_ZONE = ZoneInfo("Asia/Karachi")
 BREAK_MINUTES = 5
@@ -175,18 +175,45 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
         append_coming_soon(state)
         started = any(s["status"] == "started" for s in state["slots"])
         missed = state.get("school_date", "9999") < now.astimezone(SCHOOL_ZONE).date().isoformat()
+        now_ms = now.timestamp() * 1000
         if (changed or missed) and not started:
+            if missed:
+                # The school day is over. A class that was held but not finished is closed for good (its rest
+                # is for the recorded lessons library); one that never had a lesson ready is tried again.
+                for lesson in state["slots"]:
+                    if lesson["kind"] == "lesson":
+                        settle_attendance(db, active, lesson, state.get("school_date"), now_ms, day_over=True)
+                close_day_if_over(active, state)
             index = next(
-                i
-                for i, s in enumerate(state["slots"])
-                if s["subject"] == "math" and s["status"] not in {"completed", "cancelled"}
+                (
+                    i
+                    for i, s in enumerate(state["slots"])
+                    if s["subject"] == "math" and s["kind"] == "lesson" and s["status"] == "planned"
+                ),
+                None,
             )
-            at = next_start(routine.start_time, now)
-            shift(state, index, at.timestamp() * 1000 - state["slots"][index]["start_ms"])
-            state["school_date"] = at.date().isoformat()
-            routine.last_school_date = at.date()
+            if index is not None:
+                at = next_start(routine.start_time, now)
+                lesson = state["slots"][index]
+                shift(state, index, at.timestamp() * 1000 - lesson["start_ms"])
+                lesson.update(borrowed_minutes=0)
+                lesson.pop("attendance", None)
+                if lesson.get("preparation", {}).get("status") in {"cancelled", "failed"}:
+                    # A cancelled or failed job is never reused: prepare again when the new time comes.
+                    lesson.update(
+                        job_id=str(uuid.uuid4()),
+                        preparation={
+                            "status": "waiting",
+                            "percent": 0,
+                            "message": "Coming soon · waiting for preparation time",
+                        },
+                    )
+                state["school_date"] = at.date().isoformat()
+                routine.last_school_date = at.date()
         active.state = state
-        if any(s["kind"] == "lesson" and s["status"] in {"planned", "started"} for s in state["slots"]):
+        if active.status != "active":
+            active = None  # the day is complete: the next school day is planned below
+        elif any(s["kind"] == "lesson" and s["status"] in {"planned", "started"} for s in state["slots"]):
             if force or db.get(LearningProgress, routine.student_id) is None:
                 try:
                     synchronize(

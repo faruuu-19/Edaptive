@@ -64,7 +64,8 @@ export const getProfile = (id: string) => request<Profile>(`/api/profiles/${id}`
 export const createProfile = (input: ProfileInput) => post<Profile>("/api/profiles", input);
 export const updateProfile = (id: string, input: Partial<ProfileInput>) =>
   request<Profile>(`/api/profiles/${id}`, { method: "PATCH", body: JSON.stringify(input) });
-export const archiveProfile = (id: string) => request<void>(`/api/profiles/${id}`, { method: "DELETE" });
+// Permanently deletes the child and their stored data. The parent PIN is asked again.
+export const unenrollProfile = (id: string, pin: string) => post<void>(`/api/profiles/${id}/unenroll`, { pin });
 
 // --- session log --------------------------------------------------------------------
 

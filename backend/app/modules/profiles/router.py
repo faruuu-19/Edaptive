@@ -1,14 +1,13 @@
 import uuid
-from datetime import UTC, datetime
 from typing import Annotated
 
-from fastapi import APIRouter, HTTPException, status
-from pydantic import BaseModel, Field, StringConstraints
+from fastapi import APIRouter, HTTPException, Request, status
+from pydantic import BaseModel, ConfigDict, Field, StringConstraints
 from sqlalchemy import select
 
 from app.core.db import DbSession
 from app.core.household import StudentProfile, get_active_profile, get_household
-from app.core.identity import CurrentActor, ParentActor, ensure_student_access
+from app.core.identity import CurrentActor, ParentActor, confirm_parent_pin, ensure_student_access
 
 router = APIRouter()
 
@@ -35,9 +34,16 @@ class ProfileCreate(BaseModel):
 
 
 class ProfileUpdate(BaseModel):
+    """A child's grade is fixed once created: progress and lessons belong to it."""
+
+    model_config = ConfigDict(extra="forbid")
     display_name: DisplayName | None = None
-    grade: Grade | None = None
     avatar_key: AvatarKey | None = None
+
+
+class UnenrollInput(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+    pin: str = Field(pattern=r"^[0-9]{4,6}$", description="The parent PIN, asked again before deleting")
 
 
 def _out(profile: StudentProfile) -> ProfileOut:
@@ -97,7 +103,14 @@ def update_profile(
     return _out(profile)
 
 
-@router.delete("/{student_id}", status_code=status.HTTP_204_NO_CONTENT)
-def archive_profile(student_id: uuid.UUID, actor: ParentActor, db: DbSession) -> None:
-    """Archive rather than delete: the session log keeps referring to this child's history."""
-    _active_or_404(db, actor.household_id, student_id).archived_at = datetime.now(UTC)
+@router.post("/{student_id}/unenroll", status_code=status.HTTP_204_NO_CONTENT)
+def unenroll_profile(
+    student_id: uuid.UUID, body: UnenrollInput, request: Request, actor: ParentActor, db: DbSession
+) -> None:
+    """Permanently delete a child's profile and everything stored for them (timetable, routine,
+    progress, permissions, sign-ins). Asks for the parent PIN again. The append-only session log
+    refuses deletes by design, so it keeps only anonymous records that carry this child's id."""
+    profile = _active_or_404(db, actor.household_id, student_id)
+    confirm_parent_pin(request, db, actor.household_id, body.pin)
+    db.delete(profile)
+    db.flush()

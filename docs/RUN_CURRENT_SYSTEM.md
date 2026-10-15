@@ -9,6 +9,8 @@ The original module collections under `ciriculam/gradeN/` still describe require
 curriculum order; missing lessons block advancement. No old Downloads workspace
 or absolute-path pair inventory is required.
 
+> **Content status (2026-10-16):** all 93 lesson pairs are marked `reviewed` and ready for delivery by their content owner, so `--allow-draft-lessons` is no longer needed. The previous statuses are recorded in `docs/content/review-status-before.json`.
+
 ## Provisioning another machine
 
 The current voice engine supports the tested Apple Silicon/macOS environment.

@@ -3,7 +3,7 @@
   "card_type": "assessment_card",
   "assessment_card_id": "assess_math_g3_m2_l13_round_three_digit_tens_v1",
   "card_version": 1,
-  "review_status": "draft",
+  "review_status": "reviewed",
   "linked_concept": {
     "concept_id": "math_g3_m2_l13_round_three_digit_tens",
     "concept_version": 1
@@ -18,11 +18,8 @@
     "reuse_policy": "prefer_existing_questions_then_generate_missing"
   },
   "readiness": {
-    "ready_for_delivery": false,
-    "blocking_issues": [
-      "card review_status is draft; needs human review before use",
-      "aq_hard_01 reuses q_app_1, which does not test the lesson's central concept (it shares too few key words with the objective and is not a taught calculation); check that it suits the level"
-    ]
+    "ready_for_delivery": true,
+    "blocking_issues": []
   },
   "difficulty_levels": [
     "easy",

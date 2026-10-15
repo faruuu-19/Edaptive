@@ -1,3 +1,6 @@
+from .conftest import PARENT_PIN
+
+
 def test_parent_manages_profiles(parent_client):
     created = parent_client.post(
         "/api/profiles", json={"display_name": "  Ali ", "grade": 2, "avatar_key": "lion"}
@@ -6,10 +9,11 @@ def test_parent_manages_profiles(parent_client):
     ali = created.json()
     assert ali["display_name"] == "Ali" and ali["grade"] == 2
 
-    updated = parent_client.patch(f"/api/profiles/{ali['id']}", json={"grade": 3}).json()
-    assert updated["grade"] == 3 and updated["display_name"] == "Ali"
+    updated = parent_client.patch(f"/api/profiles/{ali['id']}", json={"avatar_key": "fox"}).json()
+    assert updated["avatar_key"] == "fox" and updated["display_name"] == "Ali" and updated["grade"] == 2
 
-    assert parent_client.delete(f"/api/profiles/{ali['id']}").status_code == 204
+    unenroll = parent_client.post(f"/api/profiles/{ali['id']}/unenroll", json={"pin": PARENT_PIN})
+    assert unenroll.status_code == 204
     assert parent_client.get("/api/profiles").json() == []
 
 
@@ -31,8 +35,9 @@ def test_validation(parent_client):
 
 def test_children_cannot_manage_profiles(student_client, child):
     assert student_client.post("/api/profiles", json={"display_name": "X", "grade": 1}).status_code == 403
-    assert student_client.patch(f"/api/profiles/{child['id']}", json={"grade": 5}).status_code == 403
-    assert student_client.delete(f"/api/profiles/{child['id']}").status_code == 403
+    assert student_client.patch(f"/api/profiles/{child['id']}", json={"avatar_key": "fox"}).status_code == 403
+    unenroll = student_client.post(f"/api/profiles/{child['id']}/unenroll", json={"pin": PARENT_PIN})
+    assert unenroll.status_code == 403
 
 
 def test_signed_out_cannot_manage_profiles(db_client, parent_client):
@@ -45,6 +50,6 @@ def test_child_sees_only_own_profile(parent_client, student_client, child):
     assert student_client.get(f"/api/profiles/{sibling['id']}").status_code == 403
 
 
-def test_archiving_signs_child_out(parent_client, student_client, child):
-    parent_client.delete(f"/api/profiles/{child['id']}")
+def test_unenrolling_signs_child_out(parent_client, student_client, child):
+    parent_client.post(f"/api/profiles/{child['id']}/unenroll", json={"pin": PARENT_PIN})
     assert student_client.get("/api/auth/status").json()["actor"] is None

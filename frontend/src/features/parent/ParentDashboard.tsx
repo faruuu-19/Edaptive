@@ -4,36 +4,20 @@ import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import { useEffect, useState, type FormEvent } from 'react';
 import { Avatar } from '@/features/home-profile';
+import { lessonAlarm } from '@/features/voice';
 import { getProfile, signOut, type Profile } from '@/lib/api';
 import { getSchoolRoutine, saveSchoolStartTime, type SchoolRoutine } from '@/lib/lesson-delivery-api';
 import { getPermissions, setPermission, type PermissionKind, type Permissions } from '@/lib/parent-api';
+import { AttendanceLog } from './AttendanceLog';
+import { ClassStatus } from './ClassStatus';
+import { ProgressCard } from './ProgressCard';
 import styles from './parent.module.css';
 
-// Presentation fixtures only. Never saved as a child's measured progress,
-// assessment result, mastery update or session event.
-const SAMPLE_PROGRESS = [30, 42, 38, 56, 65, 74];
-const SAMPLE_EVALUATIONS = [
-  { title: 'Understanding the concept', result: 'Developing well', detail: 'Recognises the main idea and explains a simple example.' },
-  { title: 'Independent practice', result: 'Needs a little support', detail: 'A short review could help with a more challenging question.' },
-  { title: 'Learning habits', result: 'Steady effort', detail: 'Takes time to think and stays with the lesson.' },
-];
-
-function SampleProgress() {
-  const points = SAMPLE_PROGRESS.map((v, i) => `${50 + i * 74},${158 - v * 1.2}`).join(' ');
-  return <div className={styles.chart}>
-    <svg viewBox="0 0 450 205" role="img" aria-label="Sample Maths progress over six lessons: 30, 42, 38, 56, 65 and 74 percent. These are illustrative figures.">
-      {[0, 50, 100].map(v => <g key={v}>
-        <line x1="44" x2="432" y1={158 - v * 1.2} y2={158 - v * 1.2} className={styles.gridLine} />
-        <text x="34" y={163 - v * 1.2} textAnchor="end">{v}%</text>
-      </g>)}
-      <polyline points={points} className={styles.progressLine} />
-      {SAMPLE_PROGRESS.map((v, i) => <g key={i}>
-        <circle cx={50 + i * 74} cy={158 - v * 1.2} r="5" className={styles.progressDot} />
-        <text x={50 + i * 74} y="188" textAnchor="middle">L{i + 1}</text>
-      </g>)}
-    </svg>
-  </div>;
-}
+const permissionText = (name: string): Record<PermissionKind, { title: string; about: string; allow: string }> => ({
+  camera: { title: 'Camera', about: 'Permission for future camera features.', allow: 'Allow camera' },
+  microphone: { title: 'Voice input', about: 'Permission for future microphone features.', allow: 'Allow voice input' },
+  lesson_alarm: { title: 'Lesson alarm sound', about: `Plays a short chime on ${name}’s device when class time starts. ${name} can’t turn this on or off.`, allow: 'Allow lesson alarm' },
+});
 
 export function ParentDashboard({ studentId }: { studentId: string }) {
   const router = useRouter();
@@ -62,6 +46,8 @@ export function ParentDashboard({ studentId }: { studentId: string }) {
     finally { setSaving(false); }
   }
   async function decide(kind: PermissionKind, granted: boolean) {
+    // Clicking Allow is the browser gesture that lets this device play the chime later.
+    if (kind === 'lesson_alarm' && granted) void lessonAlarm().unlock();
     setSavingPermission(kind); setActionError('');
     try { setPermissions(await setPermission(studentId, kind, granted)); }
     catch (error) { setActionError((error as Error).message); }
@@ -85,14 +71,10 @@ export function ParentDashboard({ studentId }: { studentId: string }) {
       <div><span className="eyebrow">Daily school time</span><p className={styles.schoolTime}>{routine?.start_time ?? 'Not set yet'}</p><small className="muted">Pakistan time</small></div>
     </div>
     {actionError && <p className="error" role="alert">{actionError}</p>}
+    <ClassStatus studentId={studentId} name={profile.display_name} />
+    <AttendanceLog studentId={studentId} name={profile.display_name} />
     <div className={styles.grid}>
-      <section className="card stack" aria-labelledby="progress-title">
-        <div className="row spread"><h2 id="progress-title">Learning progress</h2><span className={styles.sampleBadge}>Sample data</span></div>
-        <p className="muted">An example of how Maths progress will appear.</p>
-        <SampleProgress />
-        <div className={styles.progressSummary}><div><strong>6</strong><span>Sample lessons</span></div><div><strong>74%</strong><span>Illustrative progress</span></div></div>
-        <p className={styles.sampleNote}>These figures are examples, not {profile.display_name}’s recorded results.</p>
-      </section>
+      <ProgressCard studentId={studentId} name={profile.display_name} />
       <section className="card stack" aria-labelledby="school-time-title">
         <h2 id="school-time-title">School start time</h2>
         <p>Choose the daily time that suits {profile.display_name}. The system organises lessons, class length, breaks and preparation.</p>
@@ -102,23 +84,20 @@ export function ParentDashboard({ studentId }: { studentId: string }) {
           {timeSaved && <p className="notice" role="status">Daily start time saved.</p>}
           {routine && <p className="muted">{routine.message}</p>}
         </form>
+        <Link className="btn" href={`/timetable?student=${studentId}`}>See {profile.display_name}’s day</Link>
       </section>
       <section className="card stack" aria-labelledby="evaluations-title">
-        <div className="row spread"><h2 id="evaluations-title">Evaluations</h2><span className={styles.sampleBadge}>Sample data</span></div>
-        <p className="muted">Example feedback from future learning evaluations.</p>
-        <ul className={styles.evaluations}>{SAMPLE_EVALUATIONS.map(item => <li key={item.title}>
-          <h3>{item.title}</h3><span className={styles.evaluationResult}>{item.result}</span><p>{item.detail}</p>
-        </li>)}</ul>
-        <p className={styles.sampleNote}>No evaluation has been run from these examples.</p>
+        <h2 id="evaluations-title">Evaluations</h2>
+        <p role="status"><strong>No evaluations yet.</strong> Results will appear here once {profile.display_name} has been assessed.</p>
       </section>
       <section className="card stack" aria-labelledby="permissions-title">
-        <h2 id="permissions-title">Camera &amp; voice permissions</h2>
-        <p>Your choices are saved for this child. Camera and voice input are not active in this stage.</p>
-        {permissions.permissions.map(permission => <div className={styles.permission} key={permission.kind}>
-          <div className="row spread"><h3>{permission.kind === 'camera' ? 'Camera' : 'Voice input'}</h3><span className={styles.permissionStatus}>{permission.granted ? 'Allowed' : 'Not allowed'}</span></div>
-          <p>{permission.kind === 'camera' ? 'Permission for future camera features.' : 'Permission for future microphone features.'}</p>
-          <button className="btn" disabled={savingPermission !== null} onClick={() => void decide(permission.kind, !permission.granted)}>{savingPermission === permission.kind ? 'Saving…' : permission.granted ? 'Revoke permission' : `Allow ${permission.kind === 'camera' ? 'camera' : 'voice input'}`}</button>
-        </div>)}
+        <h2 id="permissions-title">Permissions</h2>
+        <p>Your choices are saved for this child. Camera and voice input are not active in this stage; the lesson alarm sound is.</p>
+        {permissions.permissions.map(permission => { const text = permissionText(profile.display_name)[permission.kind]; return <div className={styles.permission} key={permission.kind}>
+          <div className="row spread"><h3>{text.title}</h3><span className={styles.permissionStatus}>{permission.granted ? 'Allowed' : 'Not allowed'}</span></div>
+          <p>{text.about}</p>
+          <button className="btn" disabled={savingPermission !== null} onClick={() => void decide(permission.kind, !permission.granted)}>{savingPermission === permission.kind ? 'Saving…' : permission.granted ? 'Revoke permission' : text.allow}</button>
+        </div>; })}
         <p className="notice">Saving permission does not turn on the camera or microphone. No audio or video is collected.</p>
         <p className="muted">The lesson teacher’s spoken voice works independently of microphone permission.</p>
       </section>

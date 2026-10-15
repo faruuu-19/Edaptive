@@ -77,6 +77,14 @@ def synchronize(db, household_id, student_id, grade, paired):
         for s in row.state["slots"]
         if s["kind"] == "lesson" and s["status"] == "completed"
     }
+    # A lesson that was held but not finished is closed for good: it never comes back in the plan
+    # (its rest is for the recorded lessons library), so the plan moves on to the next lesson.
+    unfinished = {
+        s["concept_id"]
+        for row in histories
+        for s in row.state["slots"]
+        if s["kind"] == "lesson" and s["status"] == "unfinished"
+    } - delivered
     bank = {c["id"]: c for c in paired}
     modules = []
     next_required = None
@@ -86,13 +94,19 @@ def synchronize(db, household_id, student_id, grade, paired):
         lessons = []
         for number in range(1, last + 1):
             cid = module["lessons"].get(number)
-            complete = bool(cid and cid in delivered)
+            complete = bool(cid and (cid in delivered or cid in unfinished))
             lessons.append(
                 {
                     "lesson": number,
                     "concept_id": cid,
                     "matched": bool(cid and cid in bank),
-                    "status": "delivered" if complete else "in_progress" if cid in started else "pending",
+                    "status": "delivered"
+                    if cid in delivered
+                    else "unfinished"
+                    if cid in unfinished
+                    else "in_progress"
+                    if cid in started
+                    else "pending",
                 }
             )
             if next_required is None and not complete:
@@ -103,7 +117,8 @@ def synchronize(db, household_id, student_id, grade, paired):
                     "matched": bool(cid and cid in bank),
                 }
         done = sum(item["status"] == "delivered" for item in lessons)
-        complete = expected is not None and done == expected
+        closed = sum(item["status"] in {"delivered", "unfinished"} for item in lessons)
+        complete = expected is not None and closed == expected
         if next_required is None and not complete:
             next_required = {
                 "module": module["module"],
@@ -116,6 +131,7 @@ def synchronize(db, household_id, student_id, grade, paired):
                 "module": module["module"],
                 "expected_lessons": expected,
                 "delivered_lessons": done,
+                "unfinished_lessons": closed - done,
                 "status": "completed"
                 if complete
                 else "in_progress"
@@ -129,6 +145,7 @@ def synchronize(db, household_id, student_id, grade, paired):
         "grade": grade,
         "modules": modules,
         "delivered_concept_ids": sorted(delivered),
+        "unfinished_concept_ids": sorted(unfinished),
         "next_required": next_required,
         "mastery_assessed": False,
     }

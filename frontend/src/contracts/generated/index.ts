@@ -57,13 +57,42 @@ export interface EventEnvelope {
   };
 }
 /**
+ * One attendance record per class attempt: present when the child stayed for at least 70% of the lesson.
+ *
+ * This interface was referenced by `Contracts`'s JSON-Schema
+ * via the `definition` "LessonAttendanceRecordedV1".
+ */
+export interface LessonAttendanceRecordedV1 {
+  timetable_id: string;
+  slot_id: string;
+  /**
+   * One lesson's concept card: <subject>_g<grade>_m<module>_l<lesson>_<short_name>, e.g. math_g1_m1_l1_embedded_numbers
+   */
+  concept_id: string;
+  /**
+   * Version of a concept or assessment card. Events record the exact version a child saw.
+   */
+  card_version: number;
+  /**
+   * The school day (Pakistan time) the attendance is for.
+   */
+  school_date: string;
+  status: "present" | "absent";
+  /**
+   * completed: finished the lesson. left_after_threshold: left after staying for 70% or more. left_early: left before 70%. did_not_join: never joined that day.
+   */
+  reason: "completed" | "left_after_threshold" | "left_early" | "did_not_join";
+  attended_percent: number;
+  lesson_title?: string;
+}
+/**
  * This interface was referenced by `Contracts`'s JSON-Schema
  * via the `definition` "LessonDeliveryChangedV1".
  */
 export interface LessonDeliveryChangedV1 {
   timetable_id: string;
   slot_id: string;
-  action: "start" | "borrow" | "position" | "finish" | "cancel";
+  action: "start" | "borrow" | "position" | "finish" | "cancel" | "exit" | "rejoin";
   /**
    * One lesson's concept card: <subject>_g<grade>_m<module>_l<lesson>_<short_name>, e.g. math_g1_m1_l1_embedded_numbers
    */

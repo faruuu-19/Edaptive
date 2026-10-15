@@ -7,7 +7,7 @@ export const getPermissions = (studentId: string) => request<Permissions>(`/api/
 export const setPermission = (studentId: string, kind: PermissionKind, granted: boolean) => request<Permissions>(`/api/consent/${studentId}/${kind}`, { method: 'PUT', body: JSON.stringify({ granted }) });
 
 export type AttendanceRecord = {
-  school_date: string; lesson_title: string; concept_id: string; status: 'present' | 'absent';
+  school_date: string; lesson_title: string; concept_id: string; subject: 'math' | 'english' | 'science' | 'other'; status: 'present' | 'absent';
   reason: 'completed' | 'left_after_threshold' | 'left_early' | 'did_not_join'; attended_percent: number; recorded_at: string;
 };
 export type Attendance = { student_id: string; threshold_percent: number; summary: { present: number; absent: number }; records: AttendanceRecord[] };

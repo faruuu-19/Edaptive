@@ -14,7 +14,7 @@ import { useRouter } from 'next/navigation';
 
 const timeText = (ms: number) => new Intl.DateTimeFormat('en-PK', { timeZone: 'Asia/Karachi', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' }).format(ms);
 
-export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
+export function Timetable({ autoStart = false, studentId }: { autoStart?: boolean; studentId?: string } = {}) {
   const router = useRouter();
   const { status, error: authError, refresh } = useAuthStatus();
   const [profiles, setProfiles] = useState<Profile[]>([]);
@@ -34,10 +34,10 @@ export function Timetable({ autoStart = false }: { autoStart?: boolean } = {}) {
     const actor = status?.actor;
     if (!actor) return;
     (actor.role === 'parent' ? listProfiles() : getProfile(actor.student_id!).then(p => [p])).then(p => {
-      if (active) { setProfiles(p); setStudent(p[0]?.id ?? ''); }
+      if (active) { setProfiles(p); setStudent(p.find(x => x.id === studentId)?.id ?? p[0]?.id ?? ''); }
     }, e => { if (active) setError(e.message); });
     return () => { active = false; };
-  }, [status]);
+  }, [status, studentId]);
 
   useEffect(() => {
     let active = true;

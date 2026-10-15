@@ -5,7 +5,15 @@ from app.session_log.store import append
 
 
 def record(
-    db, child, *, status="present", reason="completed", percent=100, day="2026-10-14", title="Pairs to ten"
+    db,
+    child,
+    *,
+    status="present",
+    reason="completed",
+    percent=100,
+    day="2026-10-14",
+    title="Pairs to ten",
+    concept="math_g2_m1_l1_pairs_to_ten",
 ):
     append(
         db,
@@ -20,7 +28,7 @@ def record(
             "payload": {
                 "timetable_id": str(uuid.uuid4()),
                 "slot_id": str(uuid.uuid4()),
-                "concept_id": "math_g2_m1_l1_pairs_to_ten",
+                "concept_id": concept,
                 "card_version": 2,
                 "school_date": day,
                 "status": status,
@@ -53,6 +61,7 @@ def test_parent_sees_a_dated_log_newest_first_with_totals(parent_client, child, 
         40,
         "Add to ten",
     )
+    assert first["subject"] == "math"
 
 
 def test_an_empty_log_is_an_empty_list(parent_client, child):
@@ -75,3 +84,8 @@ def test_only_the_parent_can_read_attendance(client, student_client, child):
 
 def test_unknown_children_are_not_found(parent_client):
     assert parent_client.get("/api/attendance/" + str(uuid.uuid4())).status_code == 404
+
+
+def test_the_subject_comes_from_the_lesson(parent_client, child, db):
+    record(db, child, concept="science_g2_m1_l1_plants", title="Plants")
+    assert parent_client.get(path(child)).json()["records"][0]["subject"] == "science"

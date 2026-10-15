@@ -8,21 +8,6 @@
 .grid > * { min-width: 0; }
 .childSummary { background: var(--paper-2); }
 .schoolTime { font-family: var(--display); font-size: 1.9rem; font-weight: 800; }
-.sampleBadge { padding: 5px 10px; border: 1px solid var(--ink); border-radius: 8px; background: var(--mustard-soft); color: var(--ink); font-size: .8rem; font-weight: 700; white-space: nowrap; }
-.chart { width: 100%; }
-.chart svg { display: block; width: 100%; height: auto; overflow: visible; }
-.chart text { font-family: var(--body); font-size: 12px; fill: var(--muted); }
-.gridLine { stroke: var(--rule); stroke-width: 1.5; stroke-dasharray: 4 4; }
-.progressLine { fill: none; stroke: var(--tomato); stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
-.progressDot { fill: var(--surface); stroke: var(--tomato); stroke-width: 3; }
-.progressSummary { display: flex; gap: 32px; flex-wrap: wrap; }
-.progressSummary div { display: flex; flex-direction: column; gap: 4px; }
-.progressSummary strong { font-family: var(--display); font-size: 1.8rem; }
-.progressSummary span, .sampleNote { font-size: .9rem; color: var(--muted); }
-.evaluations { list-style: none; padding: 0; margin: 0; }
-.evaluations li { padding: 16px 0; border-top: 2px dashed var(--rule); }
-.evaluations h3, .permission h3 { font-size: 1.1rem; font-weight: 600; }
-.evaluationResult { display: inline-block; font-weight: 700; margin: 8px 0 4px; }
 .permission { display: flex; flex-direction: column; gap: 10px; border-top: 2px dashed var(--rule); padding-top: 16px; }
 .permissionStatus { font-size: .9rem; font-weight: 700; }
 .permission button { align-self: start; }
@@ -39,3 +24,5 @@
 .present { background: var(--teal-soft); }
 .absent { background: var(--tomato-soft); }
 @media (max-width: 500px) { .attendanceDetail { align-items: flex-start; text-align: left; } }
+.moduleList { list-style: none; padding: 0; margin: 0; }
+.moduleList li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 6px 16px; padding: 10px 0; border-top: 2px dashed var(--rule); }

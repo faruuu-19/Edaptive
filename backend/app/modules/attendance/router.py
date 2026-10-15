@@ -14,6 +14,13 @@ EVENT = "lesson.attendance_recorded"
 # Mirrors ATTENDANCE_PERCENT in lesson delivery; carried in each record's reason, shown here for the UI.
 THRESHOLD_PERCENT = 70
 MAX_RECORDS = 60
+SUBJECTS = {"math", "english", "science"}
+
+
+def subject_of(concept_id: str) -> str:
+    """Concept ids start with the subject, e.g. math_g2_m1_l1_pairs_to_ten."""
+    head = concept_id.split("_", 1)[0]
+    return head if head in SUBJECTS else "other"
 
 
 def all_records(db, student_id):
@@ -44,6 +51,7 @@ def get_attendance(student_id: uuid.UUID, actor: ParentActor, db: DbSession):
                 "school_date": e.payload["school_date"],
                 "lesson_title": e.payload.get("lesson_title", ""),
                 "concept_id": e.payload["concept_id"],
+                "subject": subject_of(e.payload["concept_id"]),
                 "status": e.payload["status"],
                 "reason": e.payload["reason"],
                 "attended_percent": e.payload["attended_percent"],

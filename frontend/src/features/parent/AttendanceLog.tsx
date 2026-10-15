@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import { getAttendance, type Attendance, type AttendanceRecord } from '@/lib/parent-api';
 import styles from './parent.module.css';
 
+const SUBJECTS: Record<string, string> = { math: 'Maths', english: 'English', science: 'Science' };
 const day = (isoDate: string) =>
   new Intl.DateTimeFormat('en-PK', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' }).format(new Date(`${isoDate}T00:00:00Z`));
 
@@ -38,7 +39,7 @@ export function AttendanceLog({ studentId, name }: { studentId: string; name: st
     {log.records.length === 0
       ? <p role="status">No classes have been recorded yet.</p>
       : <ul className={styles.attendanceList}>{log.records.map(record => <li key={`${record.school_date}-${record.concept_id}-${record.recorded_at}`}>
-        <div><strong>{day(record.school_date)}</strong><span>{record.lesson_title || 'Maths lesson'}</span></div>
+        <div><strong>{day(record.school_date)}</strong><span>{SUBJECTS[record.subject] ?? 'Lesson'} · {record.lesson_title || 'Lesson'}</span></div>
         <div className={styles.attendanceDetail}>
           <span className={record.status === 'present' ? styles.present : styles.absent}>{record.status === 'present' ? 'Present' : 'Absent'}</span>
           <small>{describeAttendance(record)}</small>

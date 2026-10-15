@@ -1,0 +1,3217 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g4_m1_l15_subtract_regroup_many_times_zeros",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g4_m1",
+      "file": "math-g4-m1-topic-e-lesson-15.md",
+      "source_version": "not stated in file (no page footer in the .md)",
+      "title": "Eureka Math / EngageNY, Grade 4, Module 1, Lesson 15",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in file; page is n/a and section names are used"
+    }
+  ],
+  "grade": 4,
+  "subject": "math",
+  "standards": [
+    "4.MD.1",
+    "4.NBT.2",
+    "4.NBT.4"
+  ],
+  "review_status": "draft",
+  "objective": {
+    "id": "obj_1",
+    "text": "Subtract with the standard algorithm, regrouping many times, even through zeros. Solve word problems.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_many_times",
+      "title": "Regroup many times",
+      "text": "Check every column from right to left. Each column that lacks units needs 1 unit unbundled from its left. You may regroup in many columns.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_zeros",
+      "title": "Regroup through zeros",
+      "text": "If a number has zeros, unbundle the first non-zero unit on the left. Pass units down through each zero.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_one_million",
+      "title": "Subtract from 1,000,000",
+      "text": "Rename 1,000,000 as 9s in every place and 10 ones. Then every column is ready to subtract.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_check_parts",
+      "title": "Check by adding the parts",
+      "text": "Add the difference to the part you subtracted. The sum should be the whole.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_tape_operation",
+      "title": "Tape diagram shows the operation",
+      "text": "The tape shows the whole and the parts. If you know the whole and one part, subtract to find the other part.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_253421",
+      "title": "253,421 minus 75,832",
+      "text": "Regroup in the ones, tens, hundreds and thousands columns. The answer is 177,589.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_1000",
+      "title": "1,000 minus 528",
+      "text": "There are no tens or hundreds to unbundle. Unbundle 1 thousand. Now there are 9 hundreds 9 tens 10 ones. The answer is 472.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "ex_million",
+      "title": "1,000,000 minus 345,528",
+      "text": "Rename 1,000,000 as 9s in every place and 10 ones. The answer is 654,472.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "ex_parade",
+      "title": "Parade attendance",
+      "text": "620,073 minus 456,795 is 163,278. There were 163,278 more people last year.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "In 4,598, what digit is in the tens place?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 9)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 9 in 4,598?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 90)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 4 in 4,598?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 4,000)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 5 in 4,598?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 500)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 9 in 69,708?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 69,708; derived 9,000)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 6 in 69,708?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 69,708; derived 60,000)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 9 in 398,504?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 398,504; derived 90,000)"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 3 in 398,504?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 398,504; derived 300,000)"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 8 in 853,967?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 853,967; derived 800,000)"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 6 in 853,967?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_digit_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 853,967; derived 60)"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "prior_knowledge",
+      "text": "What is 846 minus 304?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_unit_sub"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (S: 846 - 304 = 542)"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "prior_knowledge",
+      "text": "What is 8,056 minus 5,004?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_unit_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (sequence: 8,056 - 5,004; derived 3,052)"
+      }
+    },
+    {
+      "id": "q_pk_13",
+      "kind": "prior_knowledge",
+      "text": "What is 935 minus 17?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_13",
+      "hint_ids": [
+        "h_unit_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (sequence: 935 - 17; derived 918)"
+      }
+    },
+    {
+      "id": "q_pk_14",
+      "kind": "prior_knowledge",
+      "text": "What is 4,625 minus 815?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_14",
+      "hint_ids": [
+        "h_unit_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (sequence: 4,625 - 815; derived 3,810)"
+      }
+    },
+    {
+      "id": "q_pk_15",
+      "kind": "prior_knowledge",
+      "text": "What is 45,836 minus 2,906?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_15",
+      "hint_ids": [
+        "h_unit_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (sequence: 45,836 - 2,906; derived 42,930)"
+      }
+    },
+    {
+      "id": "q_pk_16",
+      "kind": "prior_knowledge",
+      "text": "You count by 20 centimeters: 20, 40, 60, 80. What comes next?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_16",
+      "hint_ids": [
+        "h_count_cm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (S: 20 cm, 40 cm, 60 cm, 80 cm, 1 m)"
+      }
+    },
+    {
+      "id": "q_pk_17",
+      "kind": "prior_knowledge",
+      "text": "You count by 20 centimeters. You say 1 m 20 cm, 1 m 40 cm, 1 m 60 cm. What comes next?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_17",
+      "hint_ids": [
+        "h_count_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (S: repeat, pulling out the meter; derived 1 m 80 cm)"
+      }
+    },
+    {
+      "id": "q_pk_18",
+      "kind": "prior_knowledge",
+      "text": "130 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_18",
+      "hint_ids": [
+        "h_cm_to_m"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (S: 130 cm = 1 m 30 cm)"
+      }
+    },
+    {
+      "id": "q_pk_19",
+      "kind": "prior_knowledge",
+      "text": "103 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_19",
+      "hint_ids": [
+        "h_cm_to_m"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (sequence: 103 cm; derived 1 m 3 cm)"
+      }
+    },
+    {
+      "id": "q_pk_20",
+      "kind": "prior_knowledge",
+      "text": "175 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_20",
+      "hint_ids": [
+        "h_cm_to_m"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (sequence: 175 cm; derived 1 m 75 cm)"
+      }
+    },
+    {
+      "id": "q_pk_21",
+      "kind": "prior_knowledge",
+      "text": "345 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_21",
+      "hint_ids": [
+        "h_cm_to_m"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (sequence: 345 cm; derived 3 m 45 cm)"
+      }
+    },
+    {
+      "id": "q_pk_22",
+      "kind": "prior_knowledge",
+      "text": "708 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_22",
+      "hint_ids": [
+        "h_cm_to_m"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (sequence: 708 cm; derived 7 m 8 cm)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "The counter at an amusement park gate read 928,614 when it opened. At the end of the day it read 931,682. How many people went through the gate that day?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 3,068)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "In 253,421 minus 75,832, are there enough ones to subtract? Look at 1 and 2.",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_ready"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: No, 1 one is less than 2 ones)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "You change 1 ten for 10 ones. You had 1 one. How many tens and ones do you have now?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: you have 1 ten and 11 ones)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "The tens column has 1 ten, which is less than 3 tens. You change 1 hundred for 10 tens. How many hundreds and tens do you have now?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: you have 3 hundreds and 11 tens)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "What is 253,421 minus 75,832?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 177,589)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "What is 177,589 plus 75,832? Use it to check the subtraction.",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_check"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: the sum of the parts is 253,421)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "In 1,000 minus 528, there are no tens or hundreds to unbundle. Which unit do you unbundle?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: we need to regroup 1 thousand)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "After you unbundle 1 thousand, 1,000 is how many hundreds, tens and ones?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 9 hundreds 9 tens 10 ones)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "What is 1,000 minus 528?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 472)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "How many times do you have to regroup to subtract 345,528 from 1,000,000?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: We will have to regroup 6 times)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "What is 1,000,000 minus 345,528?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 654,472)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "620,073 people came to the parade last year. 456,795 people came this year. How many more people came last year?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 163,278)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "What is 101,660 minus 91,680?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: 9,980)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "What is 101,660 minus 9,980?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(b) (derived: 91,680)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "What is 242,561 minus 44,702?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(c) (derived: 197,859)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "What is 242,561 minus 74,987?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(d) (derived: 167,574)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "What is 1,000,000 minus 592,000?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(e) (derived: 408,000)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "What is 1,000,000 minus 592,500?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(f) (derived: 407,500)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "What is 600,658 minus 592,569?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(g) (derived: 8,089)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "What is 600,000 minus 592,569?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(h) (derived: 7,431)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "David flies 11,472 miles in all. 7,793 miles are left to travel. How far has he already traveled?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 (derived: 3,679)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "Tank A holds 678,500 gallons. Tank B holds 905,867 gallons. How much less water does Tank A hold?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 227,367)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Mark had 25,081 dollars on Thursday. After his paycheck he had 26,010 dollars. What was his paycheck?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 929)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "What is 956,204 minus 780,169?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 176,035)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "100,000 stones were delivered. On Monday 15,631 were used. How many stones remain?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 2 (derived: 84,369)"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "What is 9,656 minus 838?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(a) (derived: 8,818)"
+      }
+    },
+    {
+      "id": "q_ps_15",
+      "kind": "practice",
+      "text": "What is 59,656 minus 5,880?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_15",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(b) (derived: 53,776)"
+      }
+    },
+    {
+      "id": "q_ps_16",
+      "kind": "practice",
+      "text": "What is 759,656 minus 579,989?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_16",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(c) (derived: 179,667)"
+      }
+    },
+    {
+      "id": "q_ps_17",
+      "kind": "practice",
+      "text": "What is 294,150 minus 166,370?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_17",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(d) (derived: 127,780)"
+      }
+    },
+    {
+      "id": "q_ps_18",
+      "kind": "practice",
+      "text": "What is 294,150 minus 239,089?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_18",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(e) (derived: 55,061)"
+      }
+    },
+    {
+      "id": "q_ps_19",
+      "kind": "practice",
+      "text": "What is 294,150 minus 96,400?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_19",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(f) (derived: 197,750)"
+      }
+    },
+    {
+      "id": "q_ps_20",
+      "kind": "practice",
+      "text": "What is 800,500 minus 79,989?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_20",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(g) (derived: 720,511)"
+      }
+    },
+    {
+      "id": "q_ps_21",
+      "kind": "practice",
+      "text": "What is 800,500 minus 45,500?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_21",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(h) (derived: 755,000)"
+      }
+    },
+    {
+      "id": "q_ps_22",
+      "kind": "practice",
+      "text": "What is 800,500 minus 276,664?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_22",
+      "hint_ids": [
+        "h_sub"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(i) (derived: 523,836)"
+      }
+    },
+    {
+      "id": "q_ps_23",
+      "kind": "practice",
+      "text": "A fishing boat traveled 8,578 miles in 6 months. In the first month it traveled 659 miles. How many miles did it travel in the other 5 months?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_23",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 (derived: 7,919)"
+      }
+    },
+    {
+      "id": "q_ps_24",
+      "kind": "practice",
+      "text": "A monument had 759,656 visitors in September. 160,747 came in the first week. How many came after the first week?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_24",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 598,909)"
+      }
+    },
+    {
+      "id": "q_ps_25",
+      "kind": "practice",
+      "text": "A software company earned 800,000 dollars in 2012. It paid 125,300 dollars in expenses. How much profit did it make?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_25",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 4 (derived: 674,700)"
+      }
+    },
+    {
+      "id": "q_ps_26",
+      "kind": "practice",
+      "text": "Bubba the Seal ate 25,634 grams of fish in a week. On the first day he ate 6,987 grams. How many grams did he eat in the rest of the week?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_26",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 5 (derived: 18,647)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How do you know when you are ready to subtract across the problem?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_ready"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How do you know when you are ready to subtract across the problem?)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "How can you check your answer when you subtract?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_check"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How can you check your answer when subtracting?)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Can you subtract 100,000 from 1,000,000 without regrouping all the way to the ones? Why?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Is there a number that you can subtract from 1,000,000 without decomposing across to the ones? 100,000?; derived)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "How can regrouping many times be challenging?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_unbundle"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How can decomposing multiple times be challenging?)"
+      }
+    },
+    {
+      "id": "q_db_5",
+      "kind": "debrief",
+      "text": "How does the tape diagram help you choose which operation to use?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_5",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How does the tape diagram help you determine which operation to use to find the answer?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 9)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "90",
+          "ninety"
+        ]
+      },
+      "correct": "Says 90.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 90)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4,000",
+          "4000"
+        ]
+      },
+      "correct": "Says 4,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 4,000)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500",
+          "five hundred"
+        ]
+      },
+      "correct": "Says 500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 500)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9,000",
+          "9000"
+        ]
+      },
+      "correct": "Says 9,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 69,708; derived 9,000)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60,000",
+          "60000"
+        ]
+      },
+      "correct": "Says 60,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 69,708; derived 60,000)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "90,000",
+          "90000"
+        ]
+      },
+      "correct": "Says 90,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 398,504; derived 90,000)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "300,000",
+          "300000"
+        ]
+      },
+      "correct": "Says 300,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 398,504; derived 300,000)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "800,000",
+          "800000"
+        ]
+      },
+      "correct": "Says 800,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 853,967; derived 800,000)"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "60"
+        ]
+      },
+      "correct": "Says 60.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 853,967; derived 60)"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "542",
+          "five hundred forty two"
+        ]
+      },
+      "correct": "Says 542.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (S: 846 - 304 = 542)"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3,052",
+          "3052"
+        ]
+      },
+      "correct": "Says 3,052.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (sequence: 8,056 - 5,004; derived 3,052)"
+      }
+    },
+    {
+      "id": "r_pk_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "918",
+          "918"
+        ]
+      },
+      "correct": "Says 918.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (sequence: 935 - 17; derived 918)"
+      }
+    },
+    {
+      "id": "r_pk_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3,810",
+          "3810"
+        ]
+      },
+      "correct": "Says 3,810.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (sequence: 4,625 - 815; derived 3,810)"
+      }
+    },
+    {
+      "id": "r_pk_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "42,930",
+          "42930"
+        ]
+      },
+      "correct": "Says 42,930.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Subtract (sequence: 45,836 - 2,906; derived 42,930)"
+      }
+    },
+    {
+      "id": "r_pk_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 m",
+          "1 meter",
+          "one meter",
+          "100 cm",
+          "100 centimeters",
+          "a meter"
+        ]
+      },
+      "correct": "Says 1 meter.",
+      "partial": null,
+      "incorrect": "Says another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (S: 20 cm, 40 cm, 60 cm, 80 cm, 1 m)"
+      }
+    },
+    {
+      "id": "r_pk_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 m 80 cm",
+          "1 meters 80 centimeters",
+          "1 meters and 80 centimeters",
+          "1 meter 80 centimeters",
+          "1 meter and 80 centimeters",
+          "1 meters, 80 centimeters",
+          "1m 80cm"
+        ]
+      },
+      "correct": "Says 1 m 80 cm.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (S: repeat, pulling out the meter; derived 1 m 80 cm)"
+      }
+    },
+    {
+      "id": "r_pk_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 m 30 cm",
+          "1 meters 30 centimeters",
+          "1 meters and 30 centimeters",
+          "1 meter 30 centimeters",
+          "1 meter and 30 centimeters",
+          "1 meters, 30 centimeters",
+          "1m 30cm"
+        ]
+      },
+      "correct": "Says 1 meter 30 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (S: 130 cm = 1 m 30 cm)"
+      }
+    },
+    {
+      "id": "r_pk_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 m 3 cm",
+          "1 meters 3 centimeters",
+          "1 meters and 3 centimeters",
+          "1 meter 3 centimeters",
+          "1 meter and 3 centimeters",
+          "1 meters, 3 centimeters",
+          "1m 3cm"
+        ]
+      },
+      "correct": "Says 1 meters 3 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (sequence: 103 cm; derived 1 m 3 cm)"
+      }
+    },
+    {
+      "id": "r_pk_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 m 75 cm",
+          "1 meters 75 centimeters",
+          "1 meters and 75 centimeters",
+          "1 meter 75 centimeters",
+          "1 meter and 75 centimeters",
+          "1 meters, 75 centimeters",
+          "1m 75cm"
+        ]
+      },
+      "correct": "Says 1 meters 75 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (sequence: 175 cm; derived 1 m 75 cm)"
+      }
+    },
+    {
+      "id": "r_pk_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 m 45 cm",
+          "3 meters 45 centimeters",
+          "3 meters and 45 centimeters",
+          "3 meter 45 centimeters",
+          "3 meter and 45 centimeters",
+          "3 meters, 45 centimeters",
+          "3m 45cm"
+        ]
+      },
+      "correct": "Says 3 meters 45 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (sequence: 345 cm; derived 3 m 45 cm)"
+      }
+    },
+    {
+      "id": "r_pk_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7 m 8 cm",
+          "7 meters 8 centimeters",
+          "7 meters and 8 centimeters",
+          "7 meter 8 centimeters",
+          "7 meter and 8 centimeters",
+          "7 meters, 8 centimeters",
+          "7m 8cm"
+        ]
+      },
+      "correct": "Says 7 meters 8 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Centimeters (sequence: 708 cm; derived 7 m 8 cm)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3068",
+          "3,068",
+          "three thousand sixty eight",
+          "3,068 people",
+          "3068 people"
+        ]
+      },
+      "correct": "Says 3,068 people.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 3,068)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no there are not",
+          "not enough",
+          "there are not enough",
+          "no not enough"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: No, 1 one is less than 2 ones)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 ten and 11 ones",
+          "1 ten 11 ones",
+          "one ten and eleven ones",
+          "1 ten, 11 ones"
+        ]
+      },
+      "correct": "Says 1 ten and 11 ones.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: you have 1 ten and 11 ones)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 hundreds and 11 tens",
+          "3 hundreds 11 tens",
+          "three hundreds and eleven tens",
+          "3 hundreds, 11 tens"
+        ]
+      },
+      "correct": "Says 3 hundreds and 11 tens.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: you have 3 hundreds and 11 tens)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "177,589",
+          "177589"
+        ]
+      },
+      "correct": "Says 177,589.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 177,589)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "253,421",
+          "253421"
+        ]
+      },
+      "correct": "Says 253,421.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: the sum of the parts is 253,421)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "thousand",
+          "1 thousand",
+          "the thousand",
+          "one thousand",
+          "a thousand",
+          "thousands"
+        ]
+      },
+      "correct": "Says 1 thousand.",
+      "partial": null,
+      "incorrect": "Names another unit.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: we need to regroup 1 thousand)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9 hundreds 9 tens 10 ones",
+          "9 hundreds, 9 tens, 10 ones",
+          "9 hundreds 9 tens and 10 ones",
+          "nine hundreds nine tens ten ones"
+        ]
+      },
+      "correct": "Says 9 hundreds 9 tens 10 ones.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 9 hundreds 9 tens 10 ones)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "472",
+          "472"
+        ]
+      },
+      "correct": "Says 472.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 472)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 times",
+          "six times"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: We will have to regroup 6 times)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "654,472",
+          "654472"
+        ]
+      },
+      "correct": "Says 654,472.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 654,472)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "163278",
+          "163,278",
+          "one hundred sixty three thousand two hundred seventy eight",
+          "163,278 people",
+          "163278 people"
+        ]
+      },
+      "correct": "Says 163,278 people.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 163,278)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9,980",
+          "9980"
+        ]
+      },
+      "correct": "Says 9,980.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: 9,980)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "91,680",
+          "91680"
+        ]
+      },
+      "correct": "Says 91,680.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(b) (derived: 91,680)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "197,859",
+          "197859"
+        ]
+      },
+      "correct": "Says 197,859.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(c) (derived: 197,859)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "167,574",
+          "167574"
+        ]
+      },
+      "correct": "Says 167,574.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(d) (derived: 167,574)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "408,000",
+          "408000"
+        ]
+      },
+      "correct": "Says 408,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(e) (derived: 408,000)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "407,500",
+          "407500"
+        ]
+      },
+      "correct": "Says 407,500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(f) (derived: 407,500)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8,089",
+          "8089"
+        ]
+      },
+      "correct": "Says 8,089.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(g) (derived: 8,089)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7,431",
+          "7431"
+        ]
+      },
+      "correct": "Says 7,431.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(h) (derived: 7,431)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3679",
+          "3,679",
+          "three thousand six hundred seventy nine",
+          "3,679 miles",
+          "3679 miles"
+        ]
+      },
+      "correct": "Says 3,679 miles.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 (derived: 3,679)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "227367",
+          "227,367",
+          "two hundred twenty seven thousand three hundred sixty seven",
+          "227,367 gallons",
+          "227367 gallons"
+        ]
+      },
+      "correct": "Says 227,367 gallons.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 227,367)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "929",
+          "nine hundred twenty nine",
+          "929 dollars"
+        ]
+      },
+      "correct": "Says 929 dollars.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 929)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "176,035",
+          "176035"
+        ]
+      },
+      "correct": "Says 176,035.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 176,035)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "84369",
+          "84,369",
+          "eighty four thousand three hundred sixty nine",
+          "84,369 stones",
+          "84369 stones"
+        ]
+      },
+      "correct": "Says 84,369 stones.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 2 (derived: 84,369)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8,818",
+          "8818"
+        ]
+      },
+      "correct": "Says 8,818.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(a) (derived: 8,818)"
+      }
+    },
+    {
+      "id": "r_ps_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53,776",
+          "53776"
+        ]
+      },
+      "correct": "Says 53,776.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(b) (derived: 53,776)"
+      }
+    },
+    {
+      "id": "r_ps_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "179,667",
+          "179667"
+        ]
+      },
+      "correct": "Says 179,667.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(c) (derived: 179,667)"
+      }
+    },
+    {
+      "id": "r_ps_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "127,780",
+          "127780"
+        ]
+      },
+      "correct": "Says 127,780.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(d) (derived: 127,780)"
+      }
+    },
+    {
+      "id": "r_ps_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55,061",
+          "55061"
+        ]
+      },
+      "correct": "Says 55,061.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(e) (derived: 55,061)"
+      }
+    },
+    {
+      "id": "r_ps_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "197,750",
+          "197750"
+        ]
+      },
+      "correct": "Says 197,750.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(f) (derived: 197,750)"
+      }
+    },
+    {
+      "id": "r_ps_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "720,511",
+          "720511"
+        ]
+      },
+      "correct": "Says 720,511.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(g) (derived: 720,511)"
+      }
+    },
+    {
+      "id": "r_ps_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "755,000",
+          "755000"
+        ]
+      },
+      "correct": "Says 755,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(h) (derived: 755,000)"
+      }
+    },
+    {
+      "id": "r_ps_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "523,836",
+          "523836"
+        ]
+      },
+      "correct": "Says 523,836.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(i) (derived: 523,836)"
+      }
+    },
+    {
+      "id": "r_ps_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7919",
+          "7,919",
+          "seven thousand nine hundred nineteen",
+          "7,919 miles",
+          "7919 miles"
+        ]
+      },
+      "correct": "Says 7,919 miles.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 (derived: 7,919)"
+      }
+    },
+    {
+      "id": "r_ps_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "598909",
+          "598,909",
+          "five hundred ninety eight thousand nine hundred nine",
+          "598,909 visitors",
+          "598909 visitors"
+        ]
+      },
+      "correct": "Says 598,909 visitors.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 598,909)"
+      }
+    },
+    {
+      "id": "r_ps_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "674700",
+          "674,700",
+          "six hundred seventy four thousand seven hundred",
+          "674,700 dollars",
+          "674700 dollars"
+        ]
+      },
+      "correct": "Says 674,700 dollars.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 4 (derived: 674,700)"
+      }
+    },
+    {
+      "id": "r_ps_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18647",
+          "18,647",
+          "eighteen thousand six hundred forty seven",
+          "18,647 grams",
+          "18647 grams"
+        ]
+      },
+      "correct": "Says 18,647 grams.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 5 (derived: 18,647)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says every column has enough units: the top digit is at least the bottom digit.",
+      "partial": "Says to check the columns but not what to look for.",
+      "incorrect": "Says you are always ready.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How do you know when you are ready to subtract across the problem?)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to add the difference to the part you subtracted and see if you get the whole.",
+      "partial": "Says to add but not which numbers.",
+      "incorrect": "Says to subtract again the same way.",
+      "unclear": "Child does not give a way.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How can you check your answer when subtracting?)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes. You only regroup the million into hundred thousands because the other digits are zeros in the bottom number.",
+      "partial": "Says yes but gives no reason.",
+      "incorrect": "Says you must regroup to the ones.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Is there a number that you can subtract from 1,000,000 without decomposing across to the ones? 100,000?; derived)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it is easy to lose track of the renamed digits, or zeros make you regroup through many columns.",
+      "partial": "Says it is hard but not why.",
+      "incorrect": "Says it is not challenging.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How can decomposing multiple times be challenging?)"
+      }
+    },
+    {
+      "id": "r_db_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the tape shows the whole and one part. You subtract to find the other part.",
+      "partial": "Says it helps but not how.",
+      "incorrect": "Says the tape does not help.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How does the tape diagram help you determine which operation to use to find the answer?)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_digit_value",
+      "level": 1,
+      "text": "Say the digit and its place. Then say its value.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_unit_sub",
+      "level": 2,
+      "text": "Subtract the matching units. Then write the answer.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_count_cm",
+      "level": 1,
+      "text": "Count by 20. Switch to meters at 100 and 200.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_cm_to_m",
+      "level": 2,
+      "text": "Find how many 100s of centimeters there are. Then the centimeters left over.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_story",
+      "level": 2,
+      "text": "Find the whole and the part you know. Subtract to find the other part.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "h_ready",
+      "level": 1,
+      "text": "Compare the top digit with the bottom digit in this column.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unbundle",
+      "level": 2,
+      "text": "Unbundle 1 unit from the column on the left. It becomes 10 of this unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_sub",
+      "level": 2,
+      "text": "Line up the places. Check each column. Unbundle when a column lacks units.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "h_check",
+      "level": 2,
+      "text": "Add the difference to the part you subtracted. Do you get the whole?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_sub_algorithm",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The lesson uses place value disks and tape diagrams on paper. The child cannot draw them.",
+      "description": "A vertical subtraction with place value columns up to millions. The child checks each column, unbundles through zero columns, subtracts, and checks by adding.",
+      "must_show_exactly": [
+        "Columns in order: millions, hundred thousands, ten thousands, thousands, hundreds, tens, ones",
+        "A top number and a bottom number lined up",
+        "A ready check for each column",
+        "Unbundling that passes through zero columns, such as 1,000,000 renamed as 9s and 10 ones",
+        "A tape diagram with the whole, the known part and a variable",
+        "A check row that adds the difference and the known part"
+      ],
+      "states_or_frames": [
+        "Problem placed",
+        "A column checked and ready",
+        "A column not ready",
+        "Unbundling through zeros",
+        "Difference and check shown"
+      ],
+      "interaction": "Child checks each column, unbundles when a column is not ready, then subtracts and checks by adding.",
+      "alt_text": "A vertical subtraction with unbundling through zeros and a tape diagram.",
+      "generation_caption": "A clean vertical subtraction with seven labeled columns, small crossed-out renames above, and a tape diagram beside it. [Build by code]",
+      "review_notes": "Source charts are blank pictures. Build from the printed numbers.",
+      "used_by": [
+        "ex_1000",
+        "ex_253421",
+        "ex_million",
+        "ex_parade",
+        "exp_check_parts",
+        "exp_many_times",
+        "exp_one_million",
+        "exp_tape_operation",
+        "exp_zeros",
+        "q_app_1",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_db_5",
+        "q_pk_1",
+        "q_pk_10",
+        "q_pk_11",
+        "q_pk_12",
+        "q_pk_13",
+        "q_pk_14",
+        "q_pk_15",
+        "q_pk_16",
+        "q_pk_17",
+        "q_pk_18",
+        "q_pk_19",
+        "q_pk_2",
+        "q_pk_20",
+        "q_pk_21",
+        "q_pk_22",
+        "q_pk_3",
+        "q_pk_4",
+        "q_pk_5",
+        "q_pk_6",
+        "q_pk_7",
+        "q_pk_8",
+        "q_pk_9",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_15",
+        "q_ps_16",
+        "q_ps_17",
+        "q_ps_18",
+        "q_ps_19",
+        "q_ps_2",
+        "q_ps_20",
+        "q_ps_21",
+        "q_ps_22",
+        "q_ps_23",
+        "q_ps_24",
+        "q_ps_25",
+        "q_ps_26",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_hands_on",
+      "name": "Hands-on work with real materials (drawing tape diagrams and place value disks)",
+      "reason": "The child works on a screen. Real materials, cutting and tiling cannot be checked. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Covered by the debrief questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Drawing and writing on a personal white board",
+      "reason": "The tutor sees only typed text or a transcript, not paper or drawings. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice and Concept Development"
+      }
+    },
+    {
+      "id": "na_draw_on_sheet",
+      "name": "Draw on the worksheet (draw a rectangle, draw lines, circle shapes)",
+      "reason": "The tutor cannot see drawings. These items are skipped or asked as typed questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "na_count_cm",
+      "name": "Count by 20 centimeters",
+      "reason": "Whole-class counting aloud. Its facts are used as questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this license before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "Pictures and charts",
+      "issue": "Tape diagrams the child draws were skipped. The Problem Set and Homework subtraction problems are in grids in the .md. The Problem Set grid has letters out of order (h before g). Letters were read from the labels."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "Derived answers",
+      "issue": "Only the lesson examples are printed. All Problem Set, Exit Ticket, Homework and Application Problem answers were computed."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Algorithm steps",
+      "issue": "The tutor checks only the final difference. It cannot check the regrouping the child writes."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Meters and centimeters",
+      "issue": "Answers like '1 m 30 cm' accept several spoken forms. A person should check how voice answers are matched."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Open answers",
+      "issue": "q_db_1 to q_db_5 accept any clear answer that fits. A person should check how they are marked."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Debrief items left out",
+      "issue": "Debrief items about the pattern in Problems 1(e) and (f) and how the tape diagrams differed in Problems 2 to 4 depend on the child's own work and were left out."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconception",
+      "issue": "The source states no misconception for this lesson. A possible one is forgetting to pass units down through a zero. Do not use it until a person confirms."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Sheet labels",
+      "issue": "The .md does not label the Problem Set, Exit Ticket and Homework. Sheet order (first, second, third Name/Date page) was used. Problem Set on the first sheet; Exit Ticket on the second; Homework on the third. Check the PDF."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards come from the codes printed in the lesson text only (4.MD.1, 4.NBT.2, 4.NBT.4)."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "source_version",
+      "issue": "The .md file has no page footer, so source_version could not be copied."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot count. Build every visual with exact counts by code, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are not_available yet: a_sub_algorithm. Items that use them cannot be launched until the assets exist."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class. All child-facing text was rewritten for a screen and needs a wording review."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "The lesson input block was not given, so prerequisite_ids is empty. A person must add the real prerequisite cards (for example earlier lessons of this module)."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson, so none were added."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

@@ -1,41 +1,42 @@
 {
   "status": "passed",
   "format": "one_assessment_object_per_concept_id",
-  "assessment_json_files": 118,
-  "lesson_assessment_entries": 118,
-  "unique_assessed_concept_ids": 118,
-  "source_json_files_matched": 118,
+  "assessment_json_files": 137,
+  "lesson_assessment_entries": 137,
+  "unique_assessed_concept_ids": 137,
+  "source_json_files_matched": 137,
   "assessment_collection_files": 0,
-  "existing_lesson_assessments_preserved": 75,
-  "new_lesson_assessments": 43,
+  "existing_lesson_assessments_preserved": 118,
+  "new_lesson_assessments": 19,
+  "cleanup_baseline_entries_preserved": 75,
   "deleted_old_assessment_json_files": 222,
   "deleted_obsolete_zip_files": 7,
-  "complete_source_files": 118,
+  "complete_source_files": 137,
   "partial_source_files": 0,
   "missing_concept_entries_in_partial_files": 0,
-  "unassessed_source_files": 11,
+  "unassessed_source_files": 10,
   "totals": {
-    "main_questions": 354,
-    "follow_ups": 236,
-    "local_rubrics": 472,
-    "generated_hints": 1770,
-    "guidance_records": 590,
-    "worked_solution_equations_checked": 1039,
-    "routing_scenarios": 2858,
+    "main_questions": 411,
+    "follow_ups": 274,
+    "local_rubrics": 548,
+    "generated_hints": 2055,
+    "guidance_records": 685,
+    "worked_solution_equations_checked": 1190,
+    "routing_scenarios": 3314,
     "multipart_classification_scenarios": 7
   },
   "current_rechecks": {
-    "worked_equations": 1022,
-    "routing_scenarios": 2868,
-    "module_indexes": 7,
-    "module_zips": 7,
+    "worked_equations": 1190,
+    "routing_scenarios": 3324,
+    "module_indexes": 8,
+    "module_zips": 8,
     "global_zips": 2
   },
-  "scope": "All 75 earlier canonical assessment objects are unchanged. 43 new assessments match their independent answer-validation report hashes. All references, hints, guidance, routes, worked equations, source/index hashes and ZIP contents rechecked. Rechecks are not added again to historical totals.",
+  "scope": "All 118 previous-batch canonical assessments are unchanged. 19 newly indexed assessments match their independent validation report hashes. The original 75 cleanup-baseline objects and every intermediate preservation manifest are also checked. All references, hints, guidance, routes, worked equations, source/index hashes and ZIP contents rechecked. Rechecks are not added again to historical totals.",
   "limitations": [
     "All cards are drafts; human educational review and actual script-agent integration remain outstanding.",
     "Module 7 Lessons 1–26 and Module 8 Lessons 1–16 are complete. Module 3 Lessons 2–21 lack supplied concepts; Grade 2 Modules 2 and 4 have no supplied source.",
-    "Twelve Grade 3/4 concept source files remain unassessed in this manual dataset. No assessment file contains a cards[] bundle.",
+    "10 Grade 3/4 concept source files remain unassessed in this manual dataset. No assessment file contains a cards[] bundle.",
     "Source review flags and numeric/drawing limitations are preserved."
   ],
   "pairs": [
@@ -982,6 +983,158 @@
       "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade3/Grade 3 Module 2/Module 2/Math G3-M2 Lessons/lesson-wise/lesson-21/math_g3_m2_l21_estimate_mixed_measurement_problems.assessment_card.json",
       "assessment_sha256": "48c6ac4f64dde9d1c37c978cf8ed723602cbf0aec9cf433ae809b02d96d6af8f",
       "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l1_multiplication_as_comparison_10_times",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-1/math_g4_m1_l1_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-1/math_g4_m1_l1_multiplication_as_comparison_10_times.assessment_card.json",
+      "assessment_sha256": "8694bd2c183209cdf1d804f55febb8e934dc4fe9ba7a6a0ba4950ee258fca7e7",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l2_digit_ten_times_place_right",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-2/math_g4_m1_l2_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-2/math_g4_m1_l2_digit_ten_times_place_right.assessment_card.json",
+      "assessment_sha256": "d7c29449994616bf84d526914281c2783272bf4262db26dd9efcb0e47c48b763",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l3_name_numbers_commas_place_value",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-3/math_g4_m1_l3_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-3/math_g4_m1_l3_name_numbers_commas_place_value.assessment_card.json",
+      "assessment_sha256": "25a4b9fa015dd73b89744a38f37157ce157a2f22af1b49e1e247fbe77ae4c41a",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l4_read_write_numbers_expanded_form",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-4/math_g4_m1_l4_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-4/math_g4_m1_l4_read_write_numbers_expanded_form.assessment_card.json",
+      "assessment_sha256": "62315ca93ace2d9c6d50a832e1c62ac21c87275040c4cb1e15022b685ef660d2",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l5_compare_numbers_with_symbols",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-5/math_g4_m1_l5_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-5/math_g4_m1_l5_compare_numbers_with_symbols.assessment_card.json",
+      "assessment_sha256": "534fc89a4ab019942f96cff9e83c9dedca0f34d2754352518df2b09fb5db779c",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l6_one_ten_hundred_thousand_more",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-6/math_g4_m1_l6_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-6/math_g4_m1_l6_one_ten_hundred_thousand_more.assessment_card.json",
+      "assessment_sha256": "82eb6d48f2513368afa767969f9c2f90634483742142a7e3239ea7dc5b5801b1",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l7_round_thousand_vertical_number_line",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-7/math_g4_m1_l7_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-7/math_g4_m1_l7_round_thousand_vertical_number_line.assessment_card.json",
+      "assessment_sha256": "1489ad5aab8ffe2ed671a69bd4c2fc07a55fccbca54978a5402c444fdd0a40f4",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l8_round_to_any_place",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-8/math_g4_m1_l8_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-8/math_g4_m1_l8_round_to_any_place.assessment_card.json",
+      "assessment_sha256": "0b5fe06340488bd35309c7bd35be8f466b4458b9d0211b1dccfc6ff7c55c1a1f",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l9_round_any_place_without_number_line",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-9/math_g4_m1_l9_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-9/math_g4_m1_l9_round_any_place_without_number_line.assessment_card.json",
+      "assessment_sha256": "534b7680ea82c2a986b8b43d50a979efaadb01285179aa82309b8538b6a80ad7",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l10_round_real_world_estimates",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-10/math_g4_m1_l10_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-10/math_g4_m1_l10_round_real_world_estimates.assessment_card.json",
+      "assessment_sha256": "189c2c814f6cd6c4f89075006ad7531d51bf24b16b7feee4d5fd8b810d987801",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l11_add_whole_numbers_standard_algorithm",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-11/math_g4_m1_l11_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-11/math_g4_m1_l11_add_whole_numbers_standard_algorithm.assessment_card.json",
+      "assessment_sha256": "63b1dfc4895eb27e86fdfcd9ce56672d6dff8d1446af377b6554564a0e4581bf",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l12_multi_step_word_problems_tape_diagrams",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-12/math_g4_m1_l12_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-12/math_g4_m1_l12_multi_step_word_problems_tape_diagrams.assessment_card.json",
+      "assessment_sha256": "703b7628fda2509192aff2af5c579a058d2770b069ac255bb12926c253c48d92",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l13_subtract_regroup_once_algorithm",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-13/math_g4_m1_l13_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-13/math_g4_m1_l13_subtract_regroup_once_algorithm.assessment_card.json",
+      "assessment_sha256": "ec5170856cf8e38f3988e4311be2079ee12daa9355071d5dcd81fb510a8fcc65",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l14_subtract_regroup_several_times",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-14/math_g4_m1_l14_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-14/math_g4_m1_l14_subtract_regroup_several_times.assessment_card.json",
+      "assessment_sha256": "fa3fd66209a8f07d999ecef570b8ba60711e6f79086d26ea0e7cdb90994b264b",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l15_subtract_regroup_many_times_zeros",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-15/math_g4_m1_l15_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-15/math_g4_m1_l15_subtract_regroup_many_times_zeros.assessment_card.json",
+      "assessment_sha256": "0d906cd53ed3da5e411f84359e5788de0f83e5c96f2b779853df625d036a9cb1",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l16_two_step_subtraction_word_problems",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-16/math_g4_m1_l16_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-16/math_g4_m1_l16_two_step_subtraction_word_problems.assessment_card.json",
+      "assessment_sha256": "1f7c9becab42cc0303762b3c70f9e6e4a2b8cb736dd3a1c305c481586487e156",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l17_additive_compare_word_problems",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-17/math_g4_m1_l17_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-17/math_g4_m1_l17_additive_compare_word_problems.assessment_card.json",
+      "assessment_sha256": "c40fb37372ce15fdd058cf2da69cc18f229db92ac5aa6800258cee220d1496c9",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l18_multi_step_word_problems_reasonable",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-18/math_g4_m1_l18_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-18/math_g4_m1_l18_multi_step_word_problems_reasonable.assessment_card.json",
+      "assessment_sha256": "8842384c4acee20cb4f2aafb2a7e5723af71fdd4c1eca432d048cf92acbbac42",
+      "content_unchanged": false
+    },
+    {
+      "concept_id": "math_g4_m1_l19_create_word_problems_tape_equations",
+      "status": "passed",
+      "source_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-19/math_g4_m1_l19_lesson.json",
+      "assessment_file": "ciriculam/Maths Concept Cards Curriculum/grade4/Grade 4 Module 1/Module 1/Math G4-M1 Lessons/lesson-wise/lesson-19/math_g4_m1_l19_create_word_problems_tape_equations.assessment_card.json",
+      "assessment_sha256": "4382d688c8994b764022290394219ad12b4c3fbf655a7023c96cd4ccf60595a2",
+      "content_unchanged": false
     }
   ],
   "validation_reports": [
@@ -993,7 +1146,8 @@
     "assessment-cards-grade2-module1-lesson-wise-validation.json",
     "assessment-cards-grade2-module7-lessons11-26-validation.json",
     "assessment-cards-grade2-module8-lessons11-16-validation.json",
-    "assessment-cards-grade3-module2-lessons1-21-validation.json"
+    "assessment-cards-grade3-module2-lessons1-21-validation.json",
+    "assessment-cards-grade4-module1-lessons1-19-validation.json"
   ],
-  "new_batch_validation": "assessment-cards-grade3-module2-lessons1-21-validation.json"
+  "new_batch_validation": "assessment-cards-grade4-module1-lessons1-19-validation.json"
 }

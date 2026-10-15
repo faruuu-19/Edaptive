@@ -1,0 +1,1112 @@
+{
+  "schema_version": "0.2-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g4_m1_l17_additive_compare_word_problems_v2",
+  "card_version": 2,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g4_m1_l17_additive_compare_word_problems",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 4,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "claude_manual_fixture",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+    "incorrect": "hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_without_using_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "reveal_worked_answer_then_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_2"
+      },
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "visual_asset",
+        "asset_ref": {
+          "scope": "concept_card",
+          "id": "a_compare_tape"
+        },
+        "state": "Two tapes with labeled amounts",
+        "description": "A double tape diagram. Two tapes sit one above the other. The child sets the two amounts, sees the difference as a bracket, and chooses how much more or fewer.",
+        "must_show_exactly": [
+          "Two tapes of different lengths one above the other",
+          "A bracket that marks the difference",
+          "Labels for the two amounts and a variable for the unknown",
+          "A choice of words: more, fewer, less, longer",
+          "A single tape with a bracket for a total to start two-step problems"
+        ],
+        "states_or_frames": [
+          "Two tapes with labeled amounts",
+          "The difference marked with a bracket",
+          "A total tape split into two parts",
+          "A double tape showing double"
+        ],
+        "alt_text": "A double tape diagram with a bracket for the difference."
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_2"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_3"
+        }
+      ],
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ],
+      "prompt": "A bakery used 23,400 kilograms of flour in May. It used 9,750 kilograms less flour in June than in May. How many kilograms of flour did it use in the two months?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ],
+      "prompt": "A truck weighs 12,400 kilograms. A bus weighs 4,750 kilograms less than the truck. A car weighs 6,100 kilograms less than the bus. Find how many more kilograms the truck weighs than the car.",
+      "response_type": "multi_part",
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "Find the weight of the bus.",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p2",
+          "prompt": "Use your answer. Take away 6,100 to find the car's weight. Then find how many more kilograms the truck weighs than the car.",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p3",
+          "prompt": "Check by adding the two differences. What is 4,750 plus 6,100?",
+          "response_type": "numeric_short"
+        }
+      ],
+      "final_part_id": "p2",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ],
+      "prompt": "Let's try an easier one: A tank holds 9,500 liters. A pool holds 3,250 liters less than the tank. How many liters does the pool hold?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ],
+      "prompt": "Let's try an easier one: A truck weighs 12,400 kilograms. A bus weighs 4,750 kilograms less than the truck. Find the weight of the bus.",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "37050",
+          "thirty seven thousand fifty"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 37050.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 37050.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "parts": [
+          {
+            "part_id": "p1",
+            "accept": [
+              "7650",
+              "seven thousand six hundred fifty"
+            ]
+          },
+          {
+            "part_id": "p2",
+            "accept": [
+              "10850",
+              "ten thousand eight hundred fifty"
+            ]
+          },
+          {
+            "part_id": "p3",
+            "accept": [
+              "10850",
+              "ten thousand eight hundred fifty"
+            ]
+          }
+        ],
+        "final_part_id": "p2"
+      },
+      "partial_credit_eligible": true,
+      "correct": "Says 7650 for p1, 10850 for p2, and 10850 for p3.",
+      "partial": "Gives some of the parts correctly but not all of them.",
+      "incorrect": "Gives clear numbers but none of the parts are correct.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6250",
+          "six thousand two hundred fifty"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 6250.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 6250.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7650",
+          "seven thousand six hundred fifty"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 7650.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 7650.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_aq_easy_01_1",
+      "question_id": "aq_easy_01",
+      "level": 1,
+      "text": "Sean's school raised more. To find how much more, subtract.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_2",
+      "question_id": "aq_easy_01",
+      "level": 2,
+      "text": "Take 18,749 away from 32,587.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_3",
+      "question_id": "aq_easy_01",
+      "level": 3,
+      "text": "Check each column. Unbundle where you need to.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_1",
+      "question_id": "aq_med_01",
+      "level": 1,
+      "text": "June is less than May. Find June first. Then add both months.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_2",
+      "question_id": "aq_med_01",
+      "level": 2,
+      "text": "Take 9,750 away from 23,400.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_3",
+      "question_id": "aq_med_01",
+      "level": 3,
+      "text": "23,400 - 9,750 is the flour for June. Then add May.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_1",
+      "question_id": "aq_hard_01",
+      "level": 1,
+      "text": "Find the bus, then the car, then how much more the truck weighs. Check by adding the two differences.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_2",
+      "question_id": "aq_hard_01",
+      "level": 2,
+      "text": "Part 1: take 4,750 away from the truck. Part 2: take 6,100 away from the bus, then compare with the truck.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_3",
+      "question_id": "aq_hard_01",
+      "level": 3,
+      "text": "For part 3, the truck is more than the car by both differences together.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_1",
+      "question_id": "fu_aq_med_01",
+      "level": 1,
+      "text": "The pool holds less than the tank. Subtract.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_2",
+      "question_id": "fu_aq_med_01",
+      "level": 2,
+      "text": "Take 3,250 away from 9,500.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_3",
+      "question_id": "fu_aq_med_01",
+      "level": 3,
+      "text": "9,500 - 3,000 is 6,500. Then take away 250.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_1",
+      "question_id": "fu_aq_hard_01",
+      "level": 1,
+      "text": "The bus weighs less than the truck. Subtract.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_2",
+      "question_id": "fu_aq_hard_01",
+      "level": 2,
+      "text": "Take 4,750 away from 12,400.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_3",
+      "question_id": "fu_aq_hard_01",
+      "level": 3,
+      "text": "12,400 - 4,000 is 8,400. Then take away 750.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_how_much_more"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_two_step_compare"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_sean"
+        }
+      ]
+    }
+  ],
+  "tutor_guidance": {
+    "delivery_order": [
+      "aq_easy_01",
+      "aq_med_01",
+      "aq_hard_01"
+    ],
+    "input_contract": {
+      "concept_card_required": true,
+      "concept_id": "math_g4_m1_l17_additive_compare_word_problems",
+      "concept_version": 1,
+      "authoritative_rules": "Use v0.2 route definitions and per-question guidance. Resolve concept_card references against the linked concept; do not invent missing questions, assets, answers, or hints."
+    },
+    "attempt_policy": {
+      "main_question_max_attempts": 2,
+      "followup_max_attempts": 1,
+      "count_attempt_when": [
+        "correct",
+        "partial",
+        "incorrect",
+        "incomplete"
+      ],
+      "help_uses_attempt": false,
+      "first_unclear_uses_attempt": false,
+      "unclear_reprompt_limit_per_question": 1,
+      "repeated_unclear": "Count one incorrect attempt and take that question's incorrect route.",
+      "followup_uses_parent_attempt": false,
+      "followup_limit_per_parent": 1,
+      "parent_attempts_persist_after_followup": true,
+      "correct_checked_before_exhaustion": true,
+      "at_parent_limit": "If correct, advance. Otherwise reveal all required answers with worked steps and advance; do not launch another follow-up or retry.",
+      "at_followup_limit": "If incorrect or repeatedly unclear, reveal the follow-up answer; then return to the parent if it has an attempt left, otherwise reveal the parent and advance."
+    },
+    "outcome_classification": {
+      "single_answer": "Compare with the linked rubric. Use partial only when that rubric explicitly permits it. If no answer can be understood, use unclear.",
+      "multi_part_priority": [
+        "unclear",
+        "incomplete",
+        "correct",
+        "partial",
+        "incorrect"
+      ],
+      "multi_part_rules": {
+        "unclear": "No part can be understood, or a supplied part remains ambiguous. Reprompt only the ambiguous part when another part is understood.",
+        "incomplete": "At least one part is understood, no supplied part is ambiguous, and one or more required parts are missing.",
+        "correct": "All required parts are present and match their answer keys.",
+        "partial": "All required parts are understood and present, and some but not all match. Keep correct parts and retry only incorrect parts.",
+        "incorrect": "All required parts are understood and present, and none match."
+      },
+      "final_part_alone_is_not_full_credit": true,
+      "accumulate_correct_parts_across_attempts": true,
+      "open_response": "Accept equivalent wording that meets the linked rubric's correct description. Use its partial description only when explicitly present; do not require an exact wording for an open answer.",
+      "normalization": "Trim surrounding whitespace and punctuation and ignore letter case. Use the declared rubric accept variants. A clear unambiguous number with the question's unit can be compared as a number; ambiguous or conflicting numbers require a reprompt."
+    },
+    "hint_policy": {
+      "sequence_source": "Use each question's hint_sequence in order; source_hint_refs are provenance, not an additional delivery sequence.",
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "delivery": "Give one hint at a time. Never reveal a later hint automatically.",
+      "on_help": "Give the next unused hint without consuming an attempt, then repeat the pending question or retry parts.",
+      "after_last_hint": "Repeat the last hint and reprompt the pending question without consuming an attempt for help. Reveal only after the attempt limit or an explicit request for the answer.",
+      "on_answer_requested": "Reveal worked steps, then advance for a main question or return to its parent for a follow-up.",
+      "partial_or_incomplete": "Keep correct parts. Read only unresolved part prompts; do not ask the learner to redo correct parts."
+    },
+    "silence_policy": {
+      "seconds": 20,
+      "action": "unclear",
+      "reprompt_limit_per_question": 1,
+      "after_reprompt": "A second silence counts as an incorrect attempt. Follow the question's incorrect route."
+    },
+    "route_definitions": {
+      "advance_to_next_question_or_close": "Advance through delivery_order; close after the final main question.",
+      "retry_eligible_parts_with_hint_until_max_attempts": "Give next hint and retry only unresolved parts if attempts remain; otherwise reveal and advance.",
+      "hint_then_retry_until_max_attempts": "Give next hint and retry if attempts remain; otherwise reveal and advance.",
+      "reprompt_once_then_treat_as_incorrect": "One clarification without an attempt; repeated unclear counts as incorrect and follows the current question's incorrect route.",
+      "followup_once_then_retry_parent_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry parent if attempts remain; otherwise reveal parent and advance. If already used, hint and retry without another follow-up.",
+      "followup_once_then_retry_missing_parts_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry only missing or incorrect parts if attempts remain; otherwise reveal and advance. If already used, retry missing or incorrect parts without another follow-up.",
+      "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance": "Return to triggered_by.question_id while preserving attempts and correct parts. Retry unresolved parts if an attempt remains; otherwise reveal parent and advance.",
+      "reveal_followup_then_return_to_parent_if_attempt_remains": "Reveal the follow-up with worked steps, then return to triggered_by.question_id if attempts remain; otherwise reveal parent and advance."
+    },
+    "closing": {
+      "say": "You have finished these questions. Thank you for trying.",
+      "record": [
+        "question_id",
+        "outcome",
+        "attempts_used",
+        "hints_delivered",
+        "followup_used",
+        "correct_part_ids",
+        "answer_revealed"
+      ],
+      "mastery_claim": "Record observed results; do not claim mastery from this three-question draft assessment alone."
+    },
+    "questions": [
+      {
+        "question_id": "aq_easy_01",
+        "delivery_prompt": "Sean's school raised 32,587 dollars. Leslie's school raised 18,749 dollars. How much more money did Sean's school raise?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_3"
+          }
+        ],
+        "source_hint_refs": [
+          {
+            "scope": "concept_card",
+            "id": "h_compare"
+          }
+        ],
+        "feedback": {
+          "correct": "Yes. Sean's school raised 13,838 dollars more.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "concept_card",
+            "id": "r_pr_2"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "13838",
+              "13,838",
+              "thirteen thousand eight hundred thirty eight",
+              "13,838 dollars",
+              "13838 dollars"
+            ]
+          },
+          "say": "Let us work it out together. 32,587 - 18,749: ones 17 - 9 = 8, tens 7 - 4 = 3, hundreds 15 - 7 = 8, thousands 11 - 8 = 3, ten thousands 2 - 1 = 1. 32,587 - 18,749 = 13,838. Sean's school raised 13,838 dollars more.",
+          "worked_steps": [
+            "32,587 - 18,749: ones 17 - 9 = 8, tens 7 - 4 = 3, hundreds 15 - 7 = 8, thousands 11 - 8 = 3, ten thousands 2 - 1 = 1.",
+            "32,587 - 18,749 = 13,838.",
+            "Sean's school raised 13,838 dollars more."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_med_01",
+        "delivery_prompt": "A bakery used 23,400 kilograms of flour in May. It used 9,750 kilograms less flour in June than in May. How many kilograms of flour did it use in the two months?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The bakery used 37,050 kilograms in the two months.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "37050",
+              "thirty seven thousand fifty"
+            ]
+          },
+          "say": "Let us work it out together. 23,400 - 9,750 = 13,650 kilograms in June. 23,400 + 13,650 = 37,050. The bakery used 37,050 kilograms in the two months.",
+          "worked_steps": [
+            "23,400 - 9,750 = 13,650 kilograms in June.",
+            "23,400 + 13,650 = 37,050.",
+            "The bakery used 37,050 kilograms in the two months."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_hard_01",
+        "delivery_prompt": "A truck weighs 12,400 kilograms. A bus weighs 4,750 kilograms less than the truck. A car weighs 6,100 kilograms less than the bus. Find how many more kilograms the truck weighs than the car.",
+        "part_delivery_prompts": [
+          {
+            "id": "p1",
+            "prompt": "Find the weight of the bus.",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p2",
+            "prompt": "Use your answer. Take away 6,100 to find the car's weight. Then find how many more kilograms the truck weighs than the car.",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p3",
+            "prompt": "Check by adding the two differences. What is 4,750 plus 6,100?",
+            "response_type": "numeric_short"
+          }
+        ],
+        "partial_credit_eligible": true,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. Both ways show the truck weighs 10,850 kilograms more than the car.",
+          "partial": "You have some parts right. Keep those answers, and let us check the other parts.",
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Tell me an answer for each question, one at a time.",
+          "incomplete": "You have answered part of the question. Let us finish the questions you have not answered yet."
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect",
+          "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+        },
+        "reprompt": "Tell me an answer for each question, one at a time.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "pair_of_parts",
+            "parts": [
+              {
+                "part_id": "p1",
+                "accept": [
+                  "7650",
+                  "seven thousand six hundred fifty"
+                ]
+              },
+              {
+                "part_id": "p2",
+                "accept": [
+                  "10850",
+                  "ten thousand eight hundred fifty"
+                ]
+              },
+              {
+                "part_id": "p3",
+                "accept": [
+                  "10850",
+                  "ten thousand eight hundred fifty"
+                ]
+              }
+            ],
+            "final_part_id": "p2"
+          },
+          "say": "Let us work it out together. Part 1: 12,400 - 4,750 = 7,650 kilograms for the bus. Part 2: 7,650 - 6,100 = 1,550 kilograms for the car, and 12,400 - 1,550 = 10,850. Part 3: 4,750 + 6,100 = 10,850. Both ways show the truck weighs 10,850 kilograms more than the car.",
+          "worked_steps": [
+            "Part 1: 12,400 - 4,750 = 7,650 kilograms for the bus.",
+            "Part 2: 7,650 - 6,100 = 1,550 kilograms for the car, and 12,400 - 1,550 = 10,850.",
+            "Part 3: 4,750 + 6,100 = 10,850.",
+            "Both ways show the truck weighs 10,850 kilograms more than the car."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_med_01",
+        "delivery_prompt": "Let's try an easier one: A tank holds 9,500 liters. A pool holds 3,250 liters less than the tank. How many liters does the pool hold?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The pool holds 6,250 liters.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "6250",
+              "six thousand two hundred fifty"
+            ]
+          },
+          "say": "Let us work it out together. 9,500 - 3,250 = 6,250. The pool holds 6,250 liters.",
+          "worked_steps": [
+            "9,500 - 3,250 = 6,250.",
+            "The pool holds 6,250 liters."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_hard_01",
+        "delivery_prompt": "Let's try an easier one: A truck weighs 12,400 kilograms. A bus weighs 4,750 kilograms less than the truck. Find the weight of the bus.",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The bus weighs 7,650 kilograms.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "7650",
+              "seven thousand six hundred fifty"
+            ]
+          },
+          "say": "Let us work it out together. 12,400 - 4,750 = 7,650. The bus weighs 7,650 kilograms.",
+          "worked_steps": [
+            "12,400 - 4,750 = 7,650.",
+            "The bus weighs 7,650 kilograms."
+          ]
+        }
+      }
+    ]
+  }
+}

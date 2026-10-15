@@ -1,0 +1,3269 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g4_m1_l16_two_step_subtraction_word_problems",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g4_m1",
+      "file": "math-g4-m1-topic-e-lesson-16.md",
+      "source_version": "not stated in file (no page footer in the .md)",
+      "title": "Eureka Math / EngageNY, Grade 4, Module 1, Lesson 16",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in file; page is n/a and section names are used"
+    }
+  ],
+  "grade": 4,
+  "subject": "math",
+  "standards": [
+    "4.MD.1",
+    "4.NBT.2"
+  ],
+  "review_status": "draft",
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve two-step subtraction word problems with tape diagrams. Check answers by rounding.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_two_step",
+      "title": "Two-step problems",
+      "text": "Find what is missing first, or find the total of the parts you know. Then use that to find the answer.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_estimate_then_solve",
+      "title": "Estimate, then solve",
+      "text": "Round the numbers first to get a general sense of the answer. Then find the exact answer and compare.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_reasonable",
+      "title": "Reasonable answers",
+      "text": "An answer is reasonable if it is near the estimate. Rounding the exact answer to the same place should match the estimate.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_compare_smaller",
+      "title": "Compare with a smaller unknown",
+      "text": "If one amount is fewer than another, subtract to find it. Then use both amounts to find the total.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "exp_meters",
+      "title": "Meters to centimeters",
+      "text": "1 meter is 100 centimeters. 1 m 20 cm is 100 plus 20, which is 120 centimeters.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_employees",
+      "title": "Employees at 3 locations",
+      "text": "70,010 employees in all. 34,857 plus 17,595 are at two locations. 70,010 minus 34,857 minus 17,595 is 17,558 at the third location.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_owen",
+      "title": "Owen's website goal",
+      "text": "228,211 plus 301,856 plus 299,542 is 829,609. 1,000,000 minus 829,609 is 170,391 visitors needed in Month 4.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "ex_concert",
+      "title": "Concert on two nights",
+      "text": "Sunday had 12,345 minus 1,795, which is 10,550 people. Both nights had 22,895 people.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_sp_a1",
+      "kind": "prior_knowledge",
+      "text": "2 meters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 1 (derived: 200 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a5",
+      "kind": "prior_knowledge",
+      "text": "1 meter is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a5",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 5 (derived: 100 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a10",
+      "kind": "prior_knowledge",
+      "text": "1 meter 20 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a10",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 10 (derived: 120 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a13",
+      "kind": "prior_knowledge",
+      "text": "1 meter 90 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a13",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 13 (derived: 190 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a18",
+      "kind": "prior_knowledge",
+      "text": "1 meter 62 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a18",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 18 (derived: 162 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a20",
+      "kind": "prior_knowledge",
+      "text": "7 meters 62 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a20",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 20 (derived: 762 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a22",
+      "kind": "prior_knowledge",
+      "text": "3 meters 87 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a22",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 22 (derived: 387 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a23",
+      "kind": "prior_knowledge",
+      "text": "1 meter 2 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a23",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 23 (derived: 102 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "prior_knowledge",
+      "text": "1 meter 7 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 26 (derived: 107 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a27",
+      "kind": "prior_knowledge",
+      "text": "2 meters 7 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a27",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 27 (derived: 207 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a31",
+      "kind": "prior_knowledge",
+      "text": "4 meters 9 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a31",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 31 (derived: 409 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a34",
+      "kind": "prior_knowledge",
+      "text": "2 meters 60 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a34",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 34 (derived: 260 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a36",
+      "kind": "prior_knowledge",
+      "text": "6 meters 33 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a36",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 36 (derived: 633 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a42",
+      "kind": "prior_knowledge",
+      "text": "10 meters 4 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a42",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 42 (derived: 1004 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a43",
+      "kind": "prior_knowledge",
+      "text": "10 meters 40 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a43",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 43 (derived: 1040 cm)"
+      }
+    },
+    {
+      "id": "q_sp_a44",
+      "kind": "prior_knowledge",
+      "text": "11 meter 84 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a44",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 44 (derived: 1184 cm)"
+      }
+    },
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Is 342,006 greater than, less than or equal to 94,983?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Compare (S: 342,006 > 94,893)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "The first number is 7 thousands 5 hundreds 8 tens. The second is 6 ten thousands 5 hundreds 8 ones. Is the first greater than, less than or equal to the second?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Compare (sequence: 7 thousands 5 hundreds 8 tens vs 6 ten thousands 5 hundreds 8 ones; derived 7,580 < 60,508)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "The first number is 9 hundred thousands 8 thousands 9 hundreds 3 tens. The second is 807,820. Is the first greater than, less than or equal to the second?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Compare (sequence: 9 hundred thousands 8 thousands 9 hundreds 3 tens vs 807,820; derived 908,930 > 807,820)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "61,941 tickets were sold for the weekend playoffs. 29,855 were sold for Saturday's games. The rest were for Sunday's games. How many tickets were sold for Sunday?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 32,086)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A company has 70,010 employees at 3 locations. Round 34,857 and 17,595 to the nearest ten thousand and add. What is the sum?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 30,000 + 20,000 = 50,000)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "The total is about 70,000 and two locations have about 50,000. About how many employees are at the third location?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: about 20,000 employees at the third location)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "A company has 70,010 employees at 3 locations. The first has 34,857 and the second has 17,595. How many are at the third?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 17,558 at the third location)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "The estimate was 20,000 and the exact answer is 17,558. Is the answer reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Yes, because 17,558 rounded to the nearest ten thousand is 20,000)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Owen's website had 228,211, 301,856 and 299,542 visitors in the first 3 months. What is the total?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 829,609)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Owen's goal is 1 million visitors. He had 829,609 in the first 3 months. How many visitors does he need in Month 4?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 170,391)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Round the three months to the nearest hundred thousand. Estimate the visitors needed in Month 4.",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: about 200,000 visitors)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Round the three months to the nearest ten thousand. Estimate the visitors needed in Month 4.",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: a closer estimate of 170,000)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "12,345 people came to a concert on Saturday night. On Sunday night 1,795 fewer people came. How many people came on Sunday?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (derived: 10,550)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Round 12,345 and the 1,795 fewer to the nearest thousand. Estimate the people on Sunday.",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: the estimate for Sunday is 10,000)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "On Saturday 12,345 people came to the concert. On Sunday 10,550 came. How many people came on both nights?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 22,895)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "The estimate was 22,000 and the exact answer is 22,895. Is the answer reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: Yes, because 22,895 is near our estimate of 22,000)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "A farmer sold 25,196 pounds of potatoes on Monday and 18,023 on Tuesday. Round each to the nearest thousand and add. What is the estimate?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: 25,000 + 18,000 = 43,000)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "He sold 62,409 pounds in all. Round it to the nearest thousand and subtract 43,000. About how many pounds did he sell on Wednesday?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: 62,000 - 43,000 = 19,000)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "He sold 62,409 pounds in all, 25,196 on Monday and 18,023 on Tuesday. How many pounds did he sell on Wednesday?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(b) (derived: 19,190)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "The estimate is 19,000 and the exact answer is 19,190. Is the answer reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(c) (derived: 19,190 is near 19,000)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Pump A dispensed 241,752 gallons. Pump B dispensed 113,916 more gallons than Pump A. How many gallons did Pump B dispense?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 (derived: 355,668)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Round 241,752 and 355,668 to the nearest hundred thousand and add. What is the estimate of the gallons both pumps dispensed?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(a) (derived: 200,000 + 400,000 = 600,000)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Pump A dispensed 241,752 gallons and Pump B dispensed 355,668 gallons. How many gallons did both dispense?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(b) (derived: 597,420)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "The estimate is 600,000 and the exact answer is 597,420. Is the answer reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(c) (derived: 597,420 is near 600,000)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Martin's car had 86,456 miles. His wife drove 24,901 and his son drove 7,997. Round each to the nearest thousand. About how many miles did Martin drive?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(a) (derived: 86,000 - 25,000 - 8,000 = 53,000)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "Martin's car had 86,456 miles. His wife drove 24,901 and his son drove 7,997. How many miles did Martin drive?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(b) (derived: 53,558)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "The estimate is 53,000 and the exact answer is 53,558. Is the answer reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(c) (derived: 53,558 is near 53,000)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "A class read 3,452 pages in week 1. In week 2 they read 4,090 more pages than in week 1. How many pages did they read in week 2?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 7,542)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "The class read 3,452 pages in week 1 and 7,542 in week 2. How many pages did they read in all?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 10,994)"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "Round 3,452 and 7,542 to the nearest thousand and add. What is the estimate of the pages read?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 3,000 + 8,000 = 11,000)"
+      }
+    },
+    {
+      "id": "q_ps_15",
+      "kind": "practice",
+      "text": "A cargo plane weighed 500,000 pounds. After the first load came off it weighed 437,981 pounds. How many pounds were in the first load?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_15",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 62,019)"
+      }
+    },
+    {
+      "id": "q_ps_16",
+      "kind": "practice",
+      "text": "The first load was 62,019 pounds. Then 16,478 more pounds were taken off. How many pounds of cargo were removed in all?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_16",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 78,497)"
+      }
+    },
+    {
+      "id": "q_ps_17",
+      "kind": "practice",
+      "text": "Brett Favre passed for 71,838 yards. His best year was 4,413 yards and his second best year was 4,212. Round each to the nearest thousand. About how many yards were left?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_17",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1(a) (derived: 72,000 - 4,000 - 4,000 = 64,000)"
+      }
+    },
+    {
+      "id": "q_ps_18",
+      "kind": "practice",
+      "text": "Brett Favre passed for 71,838 yards. His best year was 4,413 yards and his second best year was 4,212. How many yards did he throw in the other years?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_18",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1(b) (derived: 63,213)"
+      }
+    },
+    {
+      "id": "q_ps_19",
+      "kind": "practice",
+      "text": "The estimate is 64,000 and the exact answer is 63,213. Is the answer reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_19",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1(c) (derived: 63,213 is near 64,000)"
+      }
+    },
+    {
+      "id": "q_ps_20",
+      "kind": "practice",
+      "text": "Zachary's project had 95,234 words. He wrote 35,295 in month 1 and 19,240 in month 2. Round each to the nearest ten thousand. About how many words are left to write?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_20",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(a) (derived: 100,000 - 40,000 - 20,000 = 40,000)"
+      }
+    },
+    {
+      "id": "q_ps_21",
+      "kind": "practice",
+      "text": "Zachary's project had 95,234 words. He wrote 35,295 in month 1 and 19,240 in month 2. How many words did he write in the rest of the semester?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_21",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(b) (derived: 40,699)"
+      }
+    },
+    {
+      "id": "q_ps_22",
+      "kind": "practice",
+      "text": "The estimate is 40,000 and the exact answer is 40,699. Is the answer reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_22",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(c) (derived: 40,699 is near 40,000)"
+      }
+    },
+    {
+      "id": "q_ps_23",
+      "kind": "practice",
+      "text": "351,875 people downloaded an app in the first quarter. In the second quarter 101,949 fewer people downloaded it. How many downloaded it in the second quarter?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_23",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 (derived: 249,926)"
+      }
+    },
+    {
+      "id": "q_ps_24",
+      "kind": "practice",
+      "text": "Round 351,875 and 249,926 to the nearest hundred thousand and add. What is the estimate of the downloads in two quarters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_24",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(a) (derived: 400,000 + 200,000 = 600,000)"
+      }
+    },
+    {
+      "id": "q_ps_25",
+      "kind": "practice",
+      "text": "351,875 people downloaded the app in the first quarter and 249,926 in the second. How many downloads were there in the two quarters?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_25",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(b) (derived: 601,801)"
+      }
+    },
+    {
+      "id": "q_ps_26",
+      "kind": "practice",
+      "text": "The estimate is 600,000 and the exact answer is 601,801. Is the answer reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_26",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(c) (derived: 601,801 is near 600,000)"
+      }
+    },
+    {
+      "id": "q_ps_27",
+      "kind": "practice",
+      "text": "A store began a sale with 36,390 notebooks. It sold 7,424 in week 1 and 8,967 in week 2. How many notebooks were left?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_27",
+      "hint_ids": [
+        "h_two_step"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 19,999)"
+      }
+    },
+    {
+      "id": "q_ps_28",
+      "kind": "practice",
+      "text": "Round 36,390, 7,424 and 8,967 to the nearest thousand to estimate the notebooks left. What is the estimate?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_28",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 36,000 - 7,000 - 9,000 = 20,000)"
+      }
+    },
+    {
+      "id": "q_ps_29",
+      "kind": "practice",
+      "text": "The estimate is 20,000 and the exact answer is 19,999. Is the answer reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_29",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 19,999 is near 20,000)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How did your estimate help you decide your exact answer was reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How did your estimate help you determine that your exact answer was reasonable in Problem 1?)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "How do you decide which place to round to when you estimate?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How do you determine what place value to round to when finding an estimate?)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "What is the benefit of checking that your answer is reasonable?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (What is the benefit of checking the reasonableness of your answer?)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "What is the difference between rounding and estimating?",
+      "asset_ids": [
+        "a_sub_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Describe the difference between rounding and estimating.)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "200",
+          "200 cm",
+          "200 centimeters",
+          "200 cm",
+          "200 centimeters",
+          "two hundred"
+        ]
+      },
+      "correct": "Says 200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 1 (derived: 200 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "100",
+          "100 cm",
+          "100 centimeters",
+          "100 cm",
+          "100 centimeters",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 5 (derived: 100 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "120",
+          "120",
+          "120 cm",
+          "120 centimeters",
+          "120 cm",
+          "120 centimeters",
+          "one hundred twenty"
+        ]
+      },
+      "correct": "Says 120.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 10 (derived: 120 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "190",
+          "190",
+          "190 cm",
+          "190 centimeters",
+          "190 cm",
+          "190 centimeters",
+          "one hundred ninety"
+        ]
+      },
+      "correct": "Says 190.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 13 (derived: 190 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "162",
+          "162",
+          "162 cm",
+          "162 centimeters",
+          "162 cm",
+          "162 centimeters",
+          "one hundred sixty two"
+        ]
+      },
+      "correct": "Says 162.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 18 (derived: 162 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "762",
+          "762",
+          "762 cm",
+          "762 centimeters",
+          "762 cm",
+          "762 centimeters",
+          "seven hundred sixty two"
+        ]
+      },
+      "correct": "Says 762.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 20 (derived: 762 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "387",
+          "387",
+          "387 cm",
+          "387 centimeters",
+          "387 cm",
+          "387 centimeters",
+          "three hundred eighty seven"
+        ]
+      },
+      "correct": "Says 387.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 22 (derived: 387 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "102",
+          "102",
+          "102 cm",
+          "102 centimeters",
+          "102 cm",
+          "102 centimeters",
+          "one hundred two"
+        ]
+      },
+      "correct": "Says 102.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 23 (derived: 102 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "107",
+          "107",
+          "107 cm",
+          "107 centimeters",
+          "107 cm",
+          "107 centimeters",
+          "one hundred seven"
+        ]
+      },
+      "correct": "Says 107.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 26 (derived: 107 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "207",
+          "207",
+          "207 cm",
+          "207 centimeters",
+          "207 cm",
+          "207 centimeters",
+          "two hundred seven"
+        ]
+      },
+      "correct": "Says 207.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 27 (derived: 207 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "409",
+          "409",
+          "409 cm",
+          "409 centimeters",
+          "409 cm",
+          "409 centimeters",
+          "four hundred nine"
+        ]
+      },
+      "correct": "Says 409.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 31 (derived: 409 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a34",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "260",
+          "260",
+          "260 cm",
+          "260 centimeters",
+          "260 cm",
+          "260 centimeters",
+          "two hundred sixty"
+        ]
+      },
+      "correct": "Says 260.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 34 (derived: 260 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a36",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "633",
+          "633",
+          "633 cm",
+          "633 centimeters",
+          "633 cm",
+          "633 centimeters",
+          "six hundred thirty three"
+        ]
+      },
+      "correct": "Says 633.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 36 (derived: 633 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a42",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1004",
+          "1,004",
+          "1004 cm",
+          "1004 centimeters",
+          "1,004 cm",
+          "1,004 centimeters",
+          "one thousand four"
+        ]
+      },
+      "correct": "Says 1004.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 42 (derived: 1004 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a43",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1040",
+          "1,040",
+          "1040 cm",
+          "1040 centimeters",
+          "1,040 cm",
+          "1,040 centimeters",
+          "one thousand forty"
+        ]
+      },
+      "correct": "Says 1040.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 43 (derived: 1040 cm)"
+      }
+    },
+    {
+      "id": "r_sp_a44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1184",
+          "1,184",
+          "1184 cm",
+          "1184 centimeters",
+          "1,184 cm",
+          "1,184 centimeters",
+          "one thousand one hundred eighty four"
+        ]
+      },
+      "correct": "Says 1184.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Convert Meters and Centimeters to Centimeters Sprint A, item 44 (derived: 1184 cm)"
+      }
+    },
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Compare (S: 342,006 > 94,893)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "is less than",
+          "less than sign",
+          "<"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Compare (sequence: 7 thousands 5 hundreds 8 tens vs 6 ten thousands 5 hundreds 8 ones; derived 7,580 < 60,508)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Compare (sequence: 9 hundred thousands 8 thousands 9 hundreds 3 tens vs 807,820; derived 908,930 > 807,820)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32086",
+          "32,086",
+          "thirty two thousand eighty six",
+          "32,086 tickets",
+          "32086 tickets"
+        ]
+      },
+      "correct": "Says 32,086 tickets.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 32,086)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50,000",
+          "50000"
+        ]
+      },
+      "correct": "Says 50,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 30,000 + 20,000 = 50,000)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20,000",
+          "20000"
+        ]
+      },
+      "correct": "Says 20,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: about 20,000 employees at the third location)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17558",
+          "17,558",
+          "seventeen thousand five hundred fifty eight",
+          "17,558 employees",
+          "17558 employees"
+        ]
+      },
+      "correct": "Says 17,558 employees.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 17,558 at the third location)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Yes, because 17,558 rounded to the nearest ten thousand is 20,000)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "829,609",
+          "829609"
+        ]
+      },
+      "correct": "Says 829,609.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 829,609)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "170391",
+          "170,391",
+          "one hundred seventy thousand three hundred ninety one",
+          "170,391 visitors",
+          "170391 visitors"
+        ]
+      },
+      "correct": "Says 170,391 visitors.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 170,391)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200,000",
+          "200000"
+        ]
+      },
+      "correct": "Says 200,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: about 200,000 visitors)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "170,000",
+          "170000"
+        ]
+      },
+      "correct": "Says 170,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: a closer estimate of 170,000)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10550",
+          "10,550",
+          "ten thousand five hundred fifty",
+          "10,550 people",
+          "10550 people"
+        ]
+      },
+      "correct": "Says 10,550 people.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (derived: 10,550)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10,000",
+          "10000"
+        ]
+      },
+      "correct": "Says 10,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: the estimate for Sunday is 10,000)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22895",
+          "22,895",
+          "twenty two thousand eight hundred ninety five",
+          "22,895 people",
+          "22895 people"
+        ]
+      },
+      "correct": "Says 22,895 people.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 22,895)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: Yes, because 22,895 is near our estimate of 22,000)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "43,000",
+          "43000"
+        ]
+      },
+      "correct": "Says 43,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: 25,000 + 18,000 = 43,000)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19,000",
+          "19000"
+        ]
+      },
+      "correct": "Says 19,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: 62,000 - 43,000 = 19,000)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19190",
+          "19,190",
+          "nineteen thousand one hundred ninety",
+          "19,190 pounds",
+          "19190 pounds"
+        ]
+      },
+      "correct": "Says 19,190 pounds.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(b) (derived: 19,190)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(c) (derived: 19,190 is near 19,000)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "355668",
+          "355,668",
+          "three hundred fifty five thousand six hundred sixty eight",
+          "355,668 gallons",
+          "355668 gallons"
+        ]
+      },
+      "correct": "Says 355,668 gallons.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 (derived: 355,668)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "600,000",
+          "600000"
+        ]
+      },
+      "correct": "Says 600,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(a) (derived: 200,000 + 400,000 = 600,000)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "597420",
+          "597,420",
+          "five hundred ninety seven thousand four hundred twenty",
+          "597,420 gallons",
+          "597420 gallons"
+        ]
+      },
+      "correct": "Says 597,420 gallons.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(b) (derived: 597,420)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(c) (derived: 597,420 is near 600,000)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53,000",
+          "53000"
+        ]
+      },
+      "correct": "Says 53,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(a) (derived: 86,000 - 25,000 - 8,000 = 53,000)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53558",
+          "53,558",
+          "fifty three thousand five hundred fifty eight",
+          "53,558 miles",
+          "53558 miles"
+        ]
+      },
+      "correct": "Says 53,558 miles.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(b) (derived: 53,558)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(c) (derived: 53,558 is near 53,000)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7542",
+          "7,542",
+          "seven thousand five hundred forty two",
+          "7,542 pages",
+          "7542 pages"
+        ]
+      },
+      "correct": "Says 7,542 pages.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 7,542)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10994",
+          "10,994",
+          "ten thousand nine hundred ninety four",
+          "10,994 pages",
+          "10994 pages"
+        ]
+      },
+      "correct": "Says 10,994 pages.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 10,994)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11,000",
+          "11000"
+        ]
+      },
+      "correct": "Says 11,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 3,000 + 8,000 = 11,000)"
+      }
+    },
+    {
+      "id": "r_ps_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "62019",
+          "62,019",
+          "sixty two thousand nineteen",
+          "62,019 pounds",
+          "62019 pounds"
+        ]
+      },
+      "correct": "Says 62,019 pounds.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 62,019)"
+      }
+    },
+    {
+      "id": "r_ps_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "78497",
+          "78,497",
+          "seventy eight thousand four hundred ninety seven",
+          "78,497 pounds",
+          "78497 pounds"
+        ]
+      },
+      "correct": "Says 78,497 pounds.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 78,497)"
+      }
+    },
+    {
+      "id": "r_ps_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "64,000",
+          "64000"
+        ]
+      },
+      "correct": "Says 64,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1(a) (derived: 72,000 - 4,000 - 4,000 = 64,000)"
+      }
+    },
+    {
+      "id": "r_ps_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "63213",
+          "63,213",
+          "sixty three thousand two hundred thirteen",
+          "63,213 yards",
+          "63213 yards"
+        ]
+      },
+      "correct": "Says 63,213 yards.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1(b) (derived: 63,213)"
+      }
+    },
+    {
+      "id": "r_ps_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1(c) (derived: 63,213 is near 64,000)"
+      }
+    },
+    {
+      "id": "r_ps_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40,000",
+          "40000"
+        ]
+      },
+      "correct": "Says 40,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(a) (derived: 100,000 - 40,000 - 20,000 = 40,000)"
+      }
+    },
+    {
+      "id": "r_ps_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40699",
+          "40,699",
+          "forty thousand six hundred ninety nine",
+          "40,699 words",
+          "40699 words"
+        ]
+      },
+      "correct": "Says 40,699 words.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(b) (derived: 40,699)"
+      }
+    },
+    {
+      "id": "r_ps_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(c) (derived: 40,699 is near 40,000)"
+      }
+    },
+    {
+      "id": "r_ps_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "249926",
+          "249,926",
+          "two hundred forty nine thousand nine hundred twenty six",
+          "249,926 downloads",
+          "249926 downloads"
+        ]
+      },
+      "correct": "Says 249,926 downloads.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 (derived: 249,926)"
+      }
+    },
+    {
+      "id": "r_ps_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "600,000",
+          "600000"
+        ]
+      },
+      "correct": "Says 600,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(a) (derived: 400,000 + 200,000 = 600,000)"
+      }
+    },
+    {
+      "id": "r_ps_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "601801",
+          "601,801",
+          "six hundred one thousand eight hundred one",
+          "601,801 downloads",
+          "601801 downloads"
+        ]
+      },
+      "correct": "Says 601,801 downloads.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(b) (derived: 601,801)"
+      }
+    },
+    {
+      "id": "r_ps_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(c) (derived: 601,801 is near 600,000)"
+      }
+    },
+    {
+      "id": "r_ps_27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19999",
+          "19,999",
+          "nineteen thousand nine hundred ninety nine",
+          "19,999 notebooks",
+          "19999 notebooks"
+        ]
+      },
+      "correct": "Says 19,999 notebooks.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 19,999)"
+      }
+    },
+    {
+      "id": "r_ps_28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20,000",
+          "20000"
+        ]
+      },
+      "correct": "Says 20,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 36,000 - 7,000 - 9,000 = 20,000)"
+      }
+    },
+    {
+      "id": "r_ps_29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 19,999 is near 20,000)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the exact answer was near the estimate, so it makes sense.",
+      "partial": "Says it helped but not how.",
+      "incorrect": "Says the estimate did not help.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How did your estimate help you determine that your exact answer was reasonable in Problem 1?)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to pick a place that keeps the numbers easy and the estimate close, based on the sizes of the numbers.",
+      "partial": "Names a place but not why.",
+      "incorrect": "Says to always round to the same place.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How do you determine what place value to round to when finding an estimate?)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it helps you catch mistakes before you give your answer.",
+      "partial": "Says it is good to check without saying why.",
+      "incorrect": "Says there is no benefit.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (What is the benefit of checking the reasonableness of your answer?)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says rounding changes one number to a nearby unit. Estimating uses rounded numbers to find an approximate answer.",
+      "partial": "Describes only rounding or only estimating.",
+      "incorrect": "Says they are exactly the same.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Describe the difference between rounding and estimating.)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_sprint",
+      "level": 2,
+      "text": "Think how many centimeters make 1 meter. Then add the extra centimeters.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_compare",
+      "level": 2,
+      "text": "Compare the largest unit first. Then compare the next place.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_story",
+      "level": 2,
+      "text": "Find the whole and the part you know. Subtract to find the other part.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "h_estimate",
+      "level": 2,
+      "text": "Round each number to the named place. Then add or subtract.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_two_step",
+      "level": 2,
+      "text": "Do one step at a time. Use the first answer for the second step.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "h_reasonable",
+      "level": 2,
+      "text": "Round the exact answer to the same place as the estimate. Do they match?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_sub_algorithm",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The lesson uses tape diagrams drawn on paper. The child cannot draw them.",
+      "description": "A tape diagram and vertical subtraction with an estimate box. The child rounds, estimates, finds the exact answer and compares.",
+      "must_show_exactly": [
+        "A tape diagram with the whole, known parts and a variable",
+        "A vertical subtraction or addition with places lined up",
+        "An estimate box with a choice of place to round to",
+        "A compare row that shows the estimate next to the exact answer",
+        "A reasonable or not reasonable choice"
+      ],
+      "states_or_frames": [
+        "Tape diagram with parts",
+        "Estimate entered",
+        "Exact answer worked",
+        "Estimate and exact answer compared"
+      ],
+      "interaction": "Child enters an estimate, works the exact answer, and the widget shows whether the two are close.",
+      "alt_text": "A tape diagram with an estimate and exact answer side by side.",
+      "generation_caption": "A clean tape diagram with a bracket and variable, a vertical computation beside it and an estimate box. [Build by code]",
+      "review_notes": "Source tape diagrams are drawn by the child. Build from the printed numbers.",
+      "used_by": [
+        "ex_concert",
+        "ex_employees",
+        "ex_owen",
+        "exp_compare_smaller",
+        "exp_estimate_then_solve",
+        "exp_meters",
+        "exp_reasonable",
+        "exp_two_step",
+        "q_app_1",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pk_1",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_15",
+        "q_ps_16",
+        "q_ps_17",
+        "q_ps_18",
+        "q_ps_19",
+        "q_ps_2",
+        "q_ps_20",
+        "q_ps_21",
+        "q_ps_22",
+        "q_ps_23",
+        "q_ps_24",
+        "q_ps_25",
+        "q_ps_26",
+        "q_ps_27",
+        "q_ps_28",
+        "q_ps_29",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9",
+        "q_sp_a1",
+        "q_sp_a10",
+        "q_sp_a13",
+        "q_sp_a18",
+        "q_sp_a20",
+        "q_sp_a22",
+        "q_sp_a23",
+        "q_sp_a26",
+        "q_sp_a27",
+        "q_sp_a31",
+        "q_sp_a34",
+        "q_sp_a36",
+        "q_sp_a42",
+        "q_sp_a43",
+        "q_sp_a44",
+        "q_sp_a5"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: timed paper race",
+      "reason": "Convert Meters and Centimeters to Centimeters Sprint (A and B) of 44 short items. The timed race, scoring and Sprint A versus Sprint B cannot run on a screen. Its facts are used as practice questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint"
+      }
+    },
+    {
+      "id": "na_hands_on",
+      "name": "Hands-on work with real materials (drawing tape diagrams on a personal board)",
+      "reason": "The child works on a screen. Real materials, cutting and tiling cannot be checked. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Covered by the debrief questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Drawing and writing on a personal white board",
+      "reason": "The tutor sees only typed text or a transcript, not paper or drawings. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice and Concept Development"
+      }
+    },
+    {
+      "id": "na_draw_on_sheet",
+      "name": "Draw on the worksheet (draw a rectangle, draw lines, circle shapes)",
+      "reason": "The tutor cannot see drawings. These items are skipped or asked as typed questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this license before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "Pictures and charts",
+      "issue": "Tape diagrams the child draws were skipped. The Owen's website table has a blank Month 4 cell. Its three visitor numbers were used in the text."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "Sprint",
+      "issue": "Sprint A items 1, 5, 10, 13, 18, 20, 22, 23, 26, 27, 31, 34, 36, 42, 43 and 44 were used. The source does not print answers, so they were computed. Sprint B follows the same pattern and was not used."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Derived answers",
+      "issue": "Only the lesson examples are printed. All Problem Set, Exit Ticket, Homework and Application Problem answers were computed."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Estimate places",
+      "issue": "The source does not name the place for some estimates (Problem Set 3, Homework 3 and the Application). Questions name the nearest thousand. A person should confirm."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Reasonable answers",
+      "issue": "Reasonable questions give both numbers and ask for yes or no. The source asks for a written sentence."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Open answers",
+      "issue": "q_db_1 to q_db_4 accept any clear answer that fits. A person should check how they are marked."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Debrief items left out",
+      "issue": "Debrief items about Problem 2 closeness, Problem 3 rounding place and the Problem 5 tape diagram depend on the child's own work and were left out. The item about Problem 2's estimate being smaller was left out because the source's estimate is larger."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "misconception",
+      "issue": "The source states no misconception for this lesson. A possible one is accepting an answer without checking it against an estimate. Do not use it until a person confirms."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Sheet labels",
+      "issue": "The .md does not label the Problem Set, Exit Ticket and Homework. Sheet order (first, second, third Name/Date page) was used. Problem Set on the first sheet; Exit Ticket on the second; Homework on the third. Check the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards come from the codes printed in the lesson text only (4.MD.1, 4.NBT.2)."
+    },
+    {
+      "id": "f13",
+      "severity": "low",
+      "item": "source_version",
+      "issue": "The .md file has no page footer, so source_version could not be copied."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f15",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot count. Build every visual with exact counts by code, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are not_available yet: a_sub_algorithm. Items that use them cannot be launched until the assets exist."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class. All child-facing text was rewritten for a screen and needs a wording review."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "The lesson input block was not given, so prerequisite_ids is empty. A person must add the real prerequisite cards (for example earlier lessons of this module)."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson, so none were added."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

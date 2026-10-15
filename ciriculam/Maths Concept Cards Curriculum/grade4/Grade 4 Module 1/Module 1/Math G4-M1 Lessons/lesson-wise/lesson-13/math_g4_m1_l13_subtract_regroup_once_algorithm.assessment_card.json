@@ -1,0 +1,1114 @@
+{
+  "schema_version": "0.2-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g4_m1_l13_subtract_regroup_once_algorithm_v2",
+  "card_version": 2,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g4_m1_l13_subtract_regroup_once_algorithm",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 4,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "claude_manual_fixture",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+    "incorrect": "hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_without_using_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "reveal_worked_answer_then_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_7"
+      },
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "visual_asset",
+        "asset_ref": {
+          "scope": "concept_card",
+          "id": "a_sub_algorithm"
+        },
+        "state": "Problem placed",
+        "description": "A vertical subtraction with place value columns up to hundred thousands. The child checks each column, unbundles when needed, subtracts, and checks by adding.",
+        "must_show_exactly": [
+          "Columns in order: hundred thousands, ten thousands, thousands, hundreds, tens, ones",
+          "A top number and a bottom number lined up",
+          "A ready check for each column",
+          "Unbundling: 1 unit moves from the column on the left and becomes 10 in this column",
+          "A tape diagram with the whole, the known part and a variable for the unknown part",
+          "A check row that adds the difference and the known part"
+        ],
+        "states_or_frames": [
+          "Problem placed",
+          "A column checked and ready",
+          "A column not ready",
+          "Unbundling shown",
+          "Difference and check shown"
+        ],
+        "alt_text": "A vertical subtraction problem with unbundling and a tape diagram."
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_7"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_3"
+        }
+      ],
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ],
+      "prompt": "A school had 6,425 books. It gave away 3,171 books and then bought 500 new books. How many books does the school have now?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ],
+      "prompt": "A warehouse had 52,847 boxes. 6,175 boxes were shipped. 6,175 is 6,000 + 100 + 70 + 5. Find how many boxes are left.",
+      "response_type": "multi_part",
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "You unbundle 1 hundred into 10 tens. You had 4 tens. How many tens do you have now?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p2",
+          "prompt": "Use your answer. Subtract each place. How many boxes are left?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p3",
+          "prompt": "Check by taking away in parts. From 52,847 take away 6,000, then 100, then 70, then 5. How many boxes are left?",
+          "response_type": "numeric_short"
+        }
+      ],
+      "final_part_id": "p2",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ],
+      "prompt": "Let's try an easier one: What is 7,358 minus 2,174?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ],
+      "prompt": "Let's try an easier one: A warehouse had 52,847 boxes. 6,175 boxes were shipped. You unbundle 1 hundred into 10 tens. You had 4 tens. How many tens do you have now?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3754",
+          "three thousand seven hundred fifty four"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 3754.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 3754.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "parts": [
+          {
+            "part_id": "p1",
+            "accept": [
+              "14",
+              "fourteen"
+            ]
+          },
+          {
+            "part_id": "p2",
+            "accept": [
+              "46672",
+              "forty six thousand six hundred seventy two"
+            ]
+          },
+          {
+            "part_id": "p3",
+            "accept": [
+              "46672",
+              "forty six thousand six hundred seventy two"
+            ]
+          }
+        ],
+        "final_part_id": "p2"
+      },
+      "partial_credit_eligible": true,
+      "correct": "Says 14 for p1, 46672 for p2, and 46672 for p3.",
+      "partial": "Gives some of the parts correctly but not all of them.",
+      "incorrect": "Gives clear numbers but none of the parts are correct.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5184",
+          "five thousand one hundred eighty four"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 5184.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 5184.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 14.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_aq_easy_01_1",
+      "question_id": "aq_easy_01",
+      "level": 1,
+      "text": "Check each column. Is there enough to subtract?",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_2",
+      "question_id": "aq_easy_01",
+      "level": 2,
+      "text": "The tens column has 5 tens, which is not enough for 7 tens. Unbundle 1 hundred.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_3",
+      "question_id": "aq_easy_01",
+      "level": 3,
+      "text": "15 tens minus 7 tens is 8 tens. Then subtract the other places.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_1",
+      "question_id": "aq_med_01",
+      "level": 1,
+      "text": "Subtract the books given away first. Then add the new books.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_2",
+      "question_id": "aq_med_01",
+      "level": 2,
+      "text": "6,425 minus 3,171 needs 1 hundred unbundled. Then add 500.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_3",
+      "question_id": "aq_med_01",
+      "level": 3,
+      "text": "6,425 - 3,171 makes 3,254. Now add 500.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_1",
+      "question_id": "aq_hard_01",
+      "level": 1,
+      "text": "Unbundle a hundred, subtract each place, then check by taking away in parts.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_2",
+      "question_id": "aq_hard_01",
+      "level": 2,
+      "text": "Part 1: 4 tens and 10 more tens. Part 2: subtract the ones, tens, hundreds, thousands and ten thousands.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_3",
+      "question_id": "aq_hard_01",
+      "level": 3,
+      "text": "For part 3, take away 6,000, then 100, then 70, then 5.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_1",
+      "question_id": "fu_aq_med_01",
+      "level": 1,
+      "text": "Check each column. Is there enough to subtract?",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_2",
+      "question_id": "fu_aq_med_01",
+      "level": 2,
+      "text": "5 tens is not enough for 7 tens. Unbundle 1 hundred.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_3",
+      "question_id": "fu_aq_med_01",
+      "level": 3,
+      "text": "Now subtract each place from right to left.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_1",
+      "question_id": "fu_aq_hard_01",
+      "level": 1,
+      "text": "You need more tens to subtract.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_2",
+      "question_id": "fu_aq_hard_01",
+      "level": 2,
+      "text": "1 hundred is 10 tens.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_3",
+      "question_id": "fu_aq_hard_01",
+      "level": 3,
+      "text": "Add 10 to the 4 tens you have.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_ready"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_unbundle"
+        },
+        {
+          "scope": "concept_card",
+          "id": "ex_4259"
+        }
+      ]
+    }
+  ],
+  "tutor_guidance": {
+    "delivery_order": [
+      "aq_easy_01",
+      "aq_med_01",
+      "aq_hard_01"
+    ],
+    "input_contract": {
+      "concept_card_required": true,
+      "concept_id": "math_g4_m1_l13_subtract_regroup_once_algorithm",
+      "concept_version": 1,
+      "authoritative_rules": "Use v0.2 route definitions and per-question guidance. Resolve concept_card references against the linked concept; do not invent missing questions, assets, answers, or hints."
+    },
+    "attempt_policy": {
+      "main_question_max_attempts": 2,
+      "followup_max_attempts": 1,
+      "count_attempt_when": [
+        "correct",
+        "partial",
+        "incorrect",
+        "incomplete"
+      ],
+      "help_uses_attempt": false,
+      "first_unclear_uses_attempt": false,
+      "unclear_reprompt_limit_per_question": 1,
+      "repeated_unclear": "Count one incorrect attempt and take that question's incorrect route.",
+      "followup_uses_parent_attempt": false,
+      "followup_limit_per_parent": 1,
+      "parent_attempts_persist_after_followup": true,
+      "correct_checked_before_exhaustion": true,
+      "at_parent_limit": "If correct, advance. Otherwise reveal all required answers with worked steps and advance; do not launch another follow-up or retry.",
+      "at_followup_limit": "If incorrect or repeatedly unclear, reveal the follow-up answer; then return to the parent if it has an attempt left, otherwise reveal the parent and advance."
+    },
+    "outcome_classification": {
+      "single_answer": "Compare with the linked rubric. Use partial only when that rubric explicitly permits it. If no answer can be understood, use unclear.",
+      "multi_part_priority": [
+        "unclear",
+        "incomplete",
+        "correct",
+        "partial",
+        "incorrect"
+      ],
+      "multi_part_rules": {
+        "unclear": "No part can be understood, or a supplied part remains ambiguous. Reprompt only the ambiguous part when another part is understood.",
+        "incomplete": "At least one part is understood, no supplied part is ambiguous, and one or more required parts are missing.",
+        "correct": "All required parts are present and match their answer keys.",
+        "partial": "All required parts are understood and present, and some but not all match. Keep correct parts and retry only incorrect parts.",
+        "incorrect": "All required parts are understood and present, and none match."
+      },
+      "final_part_alone_is_not_full_credit": true,
+      "accumulate_correct_parts_across_attempts": true,
+      "open_response": "Accept equivalent wording that meets the linked rubric's correct description. Use its partial description only when explicitly present; do not require an exact wording for an open answer.",
+      "normalization": "Trim surrounding whitespace and punctuation and ignore letter case. Use the declared rubric accept variants. A clear unambiguous number with the question's unit can be compared as a number; ambiguous or conflicting numbers require a reprompt."
+    },
+    "hint_policy": {
+      "sequence_source": "Use each question's hint_sequence in order; source_hint_refs are provenance, not an additional delivery sequence.",
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "delivery": "Give one hint at a time. Never reveal a later hint automatically.",
+      "on_help": "Give the next unused hint without consuming an attempt, then repeat the pending question or retry parts.",
+      "after_last_hint": "Repeat the last hint and reprompt the pending question without consuming an attempt for help. Reveal only after the attempt limit or an explicit request for the answer.",
+      "on_answer_requested": "Reveal worked steps, then advance for a main question or return to its parent for a follow-up.",
+      "partial_or_incomplete": "Keep correct parts. Read only unresolved part prompts; do not ask the learner to redo correct parts."
+    },
+    "silence_policy": {
+      "seconds": 20,
+      "action": "unclear",
+      "reprompt_limit_per_question": 1,
+      "after_reprompt": "A second silence counts as an incorrect attempt. Follow the question's incorrect route."
+    },
+    "route_definitions": {
+      "advance_to_next_question_or_close": "Advance through delivery_order; close after the final main question.",
+      "retry_eligible_parts_with_hint_until_max_attempts": "Give next hint and retry only unresolved parts if attempts remain; otherwise reveal and advance.",
+      "hint_then_retry_until_max_attempts": "Give next hint and retry if attempts remain; otherwise reveal and advance.",
+      "reprompt_once_then_treat_as_incorrect": "One clarification without an attempt; repeated unclear counts as incorrect and follows the current question's incorrect route.",
+      "followup_once_then_retry_parent_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry parent if attempts remain; otherwise reveal parent and advance. If already used, hint and retry without another follow-up.",
+      "followup_once_then_retry_missing_parts_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry only missing or incorrect parts if attempts remain; otherwise reveal and advance. If already used, retry missing or incorrect parts without another follow-up.",
+      "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance": "Return to triggered_by.question_id while preserving attempts and correct parts. Retry unresolved parts if an attempt remains; otherwise reveal parent and advance.",
+      "reveal_followup_then_return_to_parent_if_attempt_remains": "Reveal the follow-up with worked steps, then return to triggered_by.question_id if attempts remain; otherwise reveal parent and advance."
+    },
+    "closing": {
+      "say": "You have finished these questions. Thank you for trying.",
+      "record": [
+        "question_id",
+        "outcome",
+        "attempts_used",
+        "hints_delivered",
+        "followup_used",
+        "correct_part_ids",
+        "answer_revealed"
+      ],
+      "mastery_claim": "Record observed results; do not claim mastery from this three-question draft assessment alone."
+    },
+    "questions": [
+      {
+        "question_id": "aq_easy_01",
+        "delivery_prompt": "What is 4,259 minus 2,171?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_3"
+          }
+        ],
+        "source_hint_refs": [
+          {
+            "scope": "concept_card",
+            "id": "h_sub"
+          }
+        ],
+        "feedback": {
+          "correct": "Yes. 4,259 minus 2,171 is 2,088.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "concept_card",
+            "id": "r_pr_7"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "2,088",
+              "2088"
+            ]
+          },
+          "say": "Let us work it out together. The tens column needs 1 hundred unbundled into 10 tens. Ones: 9 - 1 = 8. Tens: 15 - 7 = 8. Hundreds: 1 - 1 = 0. Thousands: 4 - 2 = 2. 4,259 minus 2,171 is 2,088.",
+          "worked_steps": [
+            "The tens column needs 1 hundred unbundled into 10 tens.",
+            "Ones: 9 - 1 = 8. Tens: 15 - 7 = 8.",
+            "Hundreds: 1 - 1 = 0. Thousands: 4 - 2 = 2.",
+            "4,259 minus 2,171 is 2,088."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_med_01",
+        "delivery_prompt": "A school had 6,425 books. It gave away 3,171 books and then bought 500 new books. How many books does the school have now?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The school has 3,754 books now.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "3754",
+              "three thousand seven hundred fifty four"
+            ]
+          },
+          "say": "Let us work it out together. 6,425 - 3,171 = 3,254. 3,254 + 500 = 3,754. The school has 3,754 books now.",
+          "worked_steps": [
+            "6,425 - 3,171 = 3,254.",
+            "3,254 + 500 = 3,754.",
+            "The school has 3,754 books now."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_hard_01",
+        "delivery_prompt": "A warehouse had 52,847 boxes. 6,175 boxes were shipped. 6,175 is 6,000 + 100 + 70 + 5. Find how many boxes are left.",
+        "part_delivery_prompts": [
+          {
+            "id": "p1",
+            "prompt": "You unbundle 1 hundred into 10 tens. You had 4 tens. How many tens do you have now?",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p2",
+            "prompt": "Use your answer. Subtract each place. How many boxes are left?",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p3",
+            "prompt": "Check by taking away in parts. From 52,847 take away 6,000, then 100, then 70, then 5. How many boxes are left?",
+            "response_type": "numeric_short"
+          }
+        ],
+        "partial_credit_eligible": true,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. Both ways show 46,672 boxes are left.",
+          "partial": "You have some parts right. Keep those answers, and let us check the other parts.",
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Tell me an answer for each question, one at a time.",
+          "incomplete": "You have answered part of the question. Let us finish the questions you have not answered yet."
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect",
+          "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+        },
+        "reprompt": "Tell me an answer for each question, one at a time.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "pair_of_parts",
+            "parts": [
+              {
+                "part_id": "p1",
+                "accept": [
+                  "14",
+                  "fourteen"
+                ]
+              },
+              {
+                "part_id": "p2",
+                "accept": [
+                  "46672",
+                  "forty six thousand six hundred seventy two"
+                ]
+              },
+              {
+                "part_id": "p3",
+                "accept": [
+                  "46672",
+                  "forty six thousand six hundred seventy two"
+                ]
+              }
+            ],
+            "final_part_id": "p2"
+          },
+          "say": "Let us work it out together. Part 1: 4 tens + 10 tens = 14 tens. Part 2: 52,847 - 6,175 = 46,672. Part 3: 52,847 - 6,000 = 46,847, 46,847 - 100 = 46,747, 46,747 - 70 = 46,677 and 46,677 - 5 = 46,672. Both ways show 46,672 boxes are left.",
+          "worked_steps": [
+            "Part 1: 4 tens + 10 tens = 14 tens.",
+            "Part 2: 52,847 - 6,175 = 46,672.",
+            "Part 3: 52,847 - 6,000 = 46,847, 46,847 - 100 = 46,747, 46,747 - 70 = 46,677 and 46,677 - 5 = 46,672.",
+            "Both ways show 46,672 boxes are left."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_med_01",
+        "delivery_prompt": "Let's try an easier one: What is 7,358 minus 2,174?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. 7,358 minus 2,174 is 5,184.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "5184",
+              "five thousand one hundred eighty four"
+            ]
+          },
+          "say": "Let us work it out together. The tens column has 5 tens, which is not enough for 7 tens. Unbundle 1 hundred: 15 tens - 7 tens = 8 tens. 7,358 minus 2,174 is 5,184.",
+          "worked_steps": [
+            "The tens column has 5 tens, which is not enough for 7 tens.",
+            "Unbundle 1 hundred: 15 tens - 7 tens = 8 tens.",
+            "7,358 minus 2,174 is 5,184."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_hard_01",
+        "delivery_prompt": "Let's try an easier one: A warehouse had 52,847 boxes. 6,175 boxes were shipped. You unbundle 1 hundred into 10 tens. You had 4 tens. How many tens do you have now?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. You have 14 tens.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "14",
+              "fourteen"
+            ]
+          },
+          "say": "Let us work it out together. 1 hundred unbundled is 10 tens. 4 + 10 = 14. You have 14 tens.",
+          "worked_steps": [
+            "1 hundred unbundled is 10 tens.",
+            "4 + 10 = 14.",
+            "You have 14 tens."
+          ]
+        }
+      }
+    ]
+  }
+}

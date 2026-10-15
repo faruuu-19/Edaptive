@@ -6,7 +6,7 @@ object. If the source JSON contains `cards[]`, select the concept by ID first.
 See [loading rules](assessment-card-collections.md).
 
 The full v0.2 schema and every retained assessment object are unchanged by
-cleanup. All 118 cards remain drafts. Script-agent integration is untested.
+cleanup. All 137 cards remain drafts. Script-agent integration is untested.
 
 ## Structure
 
@@ -77,11 +77,11 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-118 concept IDs have 118 standalone assessments; no assessment collections remain.
+137 concept IDs have 137 standalone assessments; no assessment collections remain.
 Each includes three main questions, two follow-ups, four local rubrics, 15 hints
-and five guidance records. Grade 2 Module 7 Lessons 1–26, Module 8 Lessons 1–16
-and Grade 3 Module 2 Lessons 1–21 are complete, including sixteen, six and
-twenty-one new full assessments respectively. See the root README for totals and coverage.
+and five guidance records. Grade 2 Module 7 Lessons 1–26, Module 8 Lessons 1–16,
+Grade 3 Module 2 Lessons 1–21 and Grade 4 Module 1 Lessons 1–19 are complete, including
+sixteen, six, twenty-one and nineteen new full assessments respectively. See the root README for totals and coverage.
 
 [Cleanup validation](assessment-cards-cleanup-validation.json) checks unchanged
 content, IDs, references, guidance, hashes, worked arithmetic, tutoring routes
@@ -107,3 +107,8 @@ answers throughout. Their hard questions state the place-value decompositions th
 check part needs, so the check introduces no new numbers. Lesson 1's reused easy answer is
 the word "minute". Numeric responses do not verify number-line drawings, clock or scale
 readings or measuring.
+
+Grade 4 Module 1 Lessons 1–19 ([new assessment validation](assessment-cards-grade4-module1-lessons1-19-validation.json),
+[module-pair validation](assessment-cards-grade4-module1-lesson-wise-validation.json)) use whole-number answers, many of them
+five- to seven-digit numbers; accept lists give the digits without commas and the number words. Their hard questions state the
+place-value decompositions that the check part needs. Numeric responses do not verify number-line drawings, place-value charts or tape diagrams.

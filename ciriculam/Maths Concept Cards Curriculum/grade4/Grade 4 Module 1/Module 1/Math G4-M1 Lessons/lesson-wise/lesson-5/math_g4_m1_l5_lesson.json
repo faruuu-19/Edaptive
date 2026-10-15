@@ -1,0 +1,3805 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g4_m1_l5_compare_numbers_with_symbols",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g4_m1",
+      "file": "math-g4-m1-topic-b-lesson-5.md",
+      "source_version": "not stated in file (no page footer in the .md)",
+      "title": "Eureka Math / EngageNY, Grade 4, Module 1, Lesson 5",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in file; page is n/a and section names are used"
+    }
+  ],
+  "grade": 4,
+  "subject": "math",
+  "standards": [
+    "3.OA.7",
+    "4.NBT.1",
+    "4.NBT.2",
+    "4.NBT.5"
+  ],
+  "review_status": "draft",
+  "objective": {
+    "id": "obj_1",
+    "text": "Compare numbers by the value of their digits. Order numbers from least to greatest.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_compare_largest",
+      "title": "Compare the largest unit first",
+      "text": "Find the largest unit in both numbers. The number with more of that unit is greater.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_compare_next",
+      "title": "If the largest units are equal",
+      "text": "If the digits of the largest unit are equal, compare the next place right.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_symbols",
+      "title": "Comparison symbols",
+      "text": "Greater than is >. Less than is <. Equal to is =. Say a comparison in two ways.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_order_many",
+      "title": "Order several numbers",
+      "text": "Write the numbers in the place value chart. Find the first place where they differ. Then order them.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "exp_diff_forms",
+      "title": "Numbers in different forms",
+      "text": "Write the first number in standard form. Then compare place by place.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_3010",
+      "title": "3,010 and 2,040",
+      "text": "Thousands is the largest unit. 3 thousands is greater than 2 thousands, so 3,010 > 2,040.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_43021",
+      "title": "43,021 and 45,302",
+      "text": "Both have 4 ten thousands. 3 thousands is less than 5 thousands, so 43,021 < 45,302.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "ex_32644",
+      "title": "Three numbers in order",
+      "text": "32,644 > 32,534 > 32,434. All three have 3 ten thousands and 2 thousands. The hundreds differ.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "ex_730028",
+      "title": "700,000 + 30,000 + 20 + 8 and 735,008",
+      "text": "The first number is 730,028. 730,028 < 735,008 because 0 thousands is less than 5 thousands.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 1 times 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "1 times 4"
+      },
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 1"
+      }
+    },
+    {
+      "id": "q_sp_a3",
+      "kind": "practice",
+      "text": "What is 2 times 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "2 times 4"
+      },
+      "rubric_id": "r_sp_a3",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 3"
+      }
+    },
+    {
+      "id": "q_sp_a6",
+      "kind": "practice",
+      "text": "What is 4 times 3?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "4 times 3"
+      },
+      "rubric_id": "r_sp_a6",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 6"
+      }
+    },
+    {
+      "id": "q_sp_a10",
+      "kind": "practice",
+      "text": "What is 6 times 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "6 times 4"
+      },
+      "rubric_id": "r_sp_a10",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 10"
+      }
+    },
+    {
+      "id": "q_sp_a13",
+      "kind": "practice",
+      "text": "What is 4 times 7?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "4 times 7"
+      },
+      "rubric_id": "r_sp_a13",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 13"
+      }
+    },
+    {
+      "id": "q_sp_a16",
+      "kind": "practice",
+      "text": "What is 9 times 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "9 times 4"
+      },
+      "rubric_id": "r_sp_a16",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 16"
+      }
+    },
+    {
+      "id": "q_sp_a18",
+      "kind": "practice",
+      "text": "What is 10 times 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "10 times 4"
+      },
+      "rubric_id": "r_sp_a18",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 18"
+      }
+    },
+    {
+      "id": "q_sp_a23",
+      "kind": "practice",
+      "text": "What is 10 times 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "10 times 4"
+      },
+      "rubric_id": "r_sp_a23",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 23"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "practice",
+      "text": "What is 8 times 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "8 times 4"
+      },
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 26"
+      }
+    },
+    {
+      "id": "q_sp_a29",
+      "kind": "practice",
+      "text": "What is 6 times 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "6 times 4"
+      },
+      "rubric_id": "r_sp_a29",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 29"
+      }
+    },
+    {
+      "id": "q_sp_a35",
+      "kind": "practice",
+      "text": "What is 4 times 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "4 times 4"
+      },
+      "rubric_id": "r_sp_a35",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 35"
+      }
+    },
+    {
+      "id": "q_sp_a41",
+      "kind": "practice",
+      "text": "What is 4 times 11?",
+      "asset_ids": [],
+      "stimulus": {
+        "item": "4 times 11"
+      },
+      "rubric_id": "r_sp_a41",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 41"
+      }
+    },
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Say 6 tens as a number.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_tens_count"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting (S: 2 tens, 4 tens, 6 tens ... Say the number in standard form. 60)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Say 12 tens as a number.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_tens_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting (stop at 12 tens; derived 120)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Say 16 tens as a number.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_tens_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting (stop at 16 tens; derived 160)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "Say 20 tens as a number.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_tens_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting (stop at 20 tens; derived 200)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "Say 6 ten thousands as a number.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_tens_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting by 3 ten thousands (stop at 6 ten thousands; derived 60,000)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "Say 30 ten thousands as a number.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_tens_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting by 3 ten thousands (stop at 30 ten thousands; derived 300,000)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "In 3,487, what digit is in the tens place?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 8)"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 8 in 3,487?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 80)"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 3 in 3,487?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 3,000)"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 4 in 3,487?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 400)"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 5 in 59,607?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 59,607; derived 50,000)"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 9 in 59,607?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 59,607; derived 9,000)"
+      }
+    },
+    {
+      "id": "q_pk_13",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 8 in 287,493?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_13",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 287,493; derived 80,000)"
+      }
+    },
+    {
+      "id": "q_pk_14",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 7 in 287,493?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_14",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 287,493; derived 7,000)"
+      }
+    },
+    {
+      "id": "q_pk_15",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 4 in 287,493?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_15",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 287,493; derived 400)"
+      }
+    },
+    {
+      "id": "q_pk_16",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 7 in 742,952?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_16",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 742,952; derived 700,000)"
+      }
+    },
+    {
+      "id": "q_pk_17",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 4 in 742,952?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_17",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 742,952; derived 40,000)"
+      }
+    },
+    {
+      "id": "q_pk_18",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 9 in 742,952?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_18",
+      "hint_ids": [
+        "h_value"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 742,952; derived 900)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Use the digits 9, 8, 7, 3, 1 and 0 once each. Make a number between 7 hundred thousands and 9 hundred thousands. Say it in words.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_digits_use"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (S: Use each of the digits 9, 8, 7, 3, 1, and 0 once ... In word form, write the number you created.)"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Use the digits 9, 8, 7, 3, 1 and 0 once each. Make a number between 700,000 and 900,000. Which digits can be in the hundred thousands place?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_digits_use"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: between 7 hundred thousands and 9 hundred thousands means the first digit is 7 or 8)"
+      }
+    },
+    {
+      "id": "q_app_3",
+      "kind": "application",
+      "text": "Use the digits 9, 8, 7, 3, 1 and 0 once each. Make the greatest number between 700,000 and 900,000. What is it?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_app_3",
+      "hint_ids": [
+        "h_digits_use"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem, Extension (derived: 897,310)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Which unit has the greatest value in 3,010 and 2,040?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_largest_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Thousands)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Compare 3,010 and 2,040. Is 3,010 greater than, less than or equal to 2,040?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_largest_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 3,010 > 2,040)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Is 2,040 greater than, less than or equal to 3,010?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_largest_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 2,040 is less than 3,010)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "What is the largest unit in 43,021 and 45,302?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_largest_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: ten thousands)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "The digits of the largest unit are equal. Which place do you compare next?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_compare_next"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: We compare the thousands / the next largest unit / the digit one place to the right)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Is 43,021 greater than, less than or equal to 45,302?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_compare_next"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 43,021 < 45,302)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Is 2,305 greater than, less than or equal to 2,530?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_compare_next"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: repeat with 2,305 and 2,530; derived <)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Is 970,461 greater than, less than or equal to 907,641?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_compare_next"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: repeat with 970,461 and 907,641; derived >)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Which of 32,434, 32,644 and 32,534 is the greatest?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_largest_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 32,644)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Which of 32,434, 32,644 and 32,534 is the least?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_largest_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 32,434 is the smallest ... least number of hundreds)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Order 32,434, 32,644 and 32,534 from greatest to least.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 32,644 > 32,534 > 32,434)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Add 700,000 plus 30,000 plus 20 plus 8. What is the number in standard form?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_forms"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: 730,028)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Is 730,028 greater than, less than or equal to 735,008?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_compare_next"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: 730,028 < 735,008)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "The first number is 4 hundred thousands 8 thousands 9 tens. The second is 40,000 plus 8,000 plus 90. Is the first number greater than, less than or equal to the second?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_forms"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: repeat; derived 408,090 > 48,090)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Is 600,015 greater than, less than or equal to 60,015?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_symbol"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: >)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Is 409,004 greater than, less than or equal to 440,002?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_symbol"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(b) (derived: <)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Is 342,001 greater than, less than or equal to 94,981?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_symbol"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 row 1 (derived: >)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "The first number is 500,000 plus 80,000 plus 9,000 plus 100. The second is five hundred eight thousand, nine hundred one. Is the first number greater than, less than or equal to the second?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_forms"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 row 2 (derived: 589,100 > 508,901)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "The first number is 9 hundred thousands 8 thousands 9 hundreds 3 tens. The second is 908,930. Is the first number greater than, less than or equal to the second?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_forms"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 row 3 (derived: 908,930 = 908,930)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "The first number is 9 hundreds 5 ten thousands 9 ones. The second is 6 ten thousands 5 hundreds 9 ones. Is the first number greater than, less than or equal to the second?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_forms"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 row 4 (derived: 50,909 < 60,509)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Allen Mountain is 4,340 feet. Mount Marcy is 5,344 feet. Mount Haystack is 4,960 feet. Slide Mountain is 4,240 feet. List the heights from least to greatest.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 4,240; 4,340; 4,960; 5,344)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "Allen Mountain is 4,340 feet. Mount Marcy is 5,344 feet. Mount Haystack is 4,960 feet. Slide Mountain is 4,240 feet. Which mountain has the lowest elevation?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: Slide Mountain)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Order 8,002, 2,080, 820, 2,008 and 8,200 from least to greatest.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 820; 2,008; 2,080; 8,002; 8,200)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "Order 728,000, 708,200, 720,800 and 87,300 from greatest to least.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 728,000; 720,800; 708,200; 87,300)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Alpha Centauri is 275,725 AUs away. Proxima Centauri is 268,269 AUs. Epsilon Eridani is 665,282 AUs. Barnard's Star is 377,098 AUs. Sirius is 542,774 AUs. Which star is closest to Earth?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 6 (derived: Proxima Centauri 268,269)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "Alpha Centauri is 275,725 AUs away. Proxima Centauri is 268,269. Epsilon Eridani is 665,282. Barnard's Star is 377,098. Sirius is 542,774. Put the stars in order from closest to farthest.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 6 (derived: Proxima, Alpha, Barnard's, Sirius, Epsilon Eridani)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "Amy has 2,398 points. Bonnie has 2,976. Jeff has 2,709. Rick has 2,699. List the points from least to greatest.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 2,398; 2,699; 2,709; 2,976)"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "Amy has 2,398 points. Bonnie has 2,976. Jeff has 2,709. Rick has 2,699. Who won the game?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: Bonnie 2,976)"
+      }
+    },
+    {
+      "id": "q_ps_15",
+      "kind": "practice",
+      "text": "Use the digits 5, 4, 3, 2 and 1 once each. Make two different five-digit numbers. Say which one is greater.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_15",
+      "hint_ids": [
+        "h_digits_use"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 2 (S: create two different five-digit numbers and compare)"
+      }
+    },
+    {
+      "id": "q_ps_16",
+      "kind": "practice",
+      "text": "What is the greatest five-digit number using 5, 4, 3, 2 and 1 once each?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_16",
+      "hint_ids": [
+        "h_digits_use"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 2 (derived: 54,321)"
+      }
+    },
+    {
+      "id": "q_ps_17",
+      "kind": "practice",
+      "text": "Is 909,013 greater than, less than or equal to 90,013?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_17",
+      "hint_ids": [
+        "h_symbol"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(a) (derived: >)"
+      }
+    },
+    {
+      "id": "q_ps_18",
+      "kind": "practice",
+      "text": "Is 210,005 greater than, less than or equal to 220,005?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_18",
+      "hint_ids": [
+        "h_symbol"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(b) (derived: <)"
+      }
+    },
+    {
+      "id": "q_ps_19",
+      "kind": "practice",
+      "text": "Is 501,107 greater than, less than or equal to 89,171?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_19",
+      "hint_ids": [
+        "h_symbol"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 row 1 (derived: >)"
+      }
+    },
+    {
+      "id": "q_ps_20",
+      "kind": "practice",
+      "text": "The first number is 300,000 plus 50,000 plus 1,000 plus 800. The second is six hundred five thousand, nine hundred eight. Is the first number greater than, less than or equal to the second?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_20",
+      "hint_ids": [
+        "h_forms"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 row 2 (derived: 351,800 < 605,908)"
+      }
+    },
+    {
+      "id": "q_ps_21",
+      "kind": "practice",
+      "text": "The first number is 3 hundred thousands 3 thousands 8 hundreds 4 tens. The second is 303,840. Is the first number greater than, less than or equal to the second?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_21",
+      "hint_ids": [
+        "h_forms"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 row 3 (derived: 303,840 = 303,840)"
+      }
+    },
+    {
+      "id": "q_ps_22",
+      "kind": "practice",
+      "text": "The first number is 5 hundreds 6 ten thousands 2 ones. The second is 3 ten thousands 5 hundreds 1 one. Is the first number greater than, less than or equal to the second?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_22",
+      "hint_ids": [
+        "h_forms"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 row 4 (derived: 60,502 > 30,501)"
+      }
+    },
+    {
+      "id": "q_ps_23",
+      "kind": "practice",
+      "text": "Willis Tower is 1,450 feet. One World Trade Center is 1,776 feet. Taipei 101 is 1,670 feet. Petronas Towers is 1,483 feet. List the heights from shortest to tallest.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_23",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 1,450; 1,483; 1,670; 1,776)"
+      }
+    },
+    {
+      "id": "q_ps_24",
+      "kind": "practice",
+      "text": "Willis Tower is 1,450 feet. One World Trade Center is 1,776 feet. Taipei 101 is 1,670 feet. Petronas Towers is 1,483 feet. Which is the tallest?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_24",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: One World Trade Center 1,776)"
+      }
+    },
+    {
+      "id": "q_ps_25",
+      "kind": "practice",
+      "text": "Order 7,550, 5,070, 750, 5,007 and 7,505 from least to greatest.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_25",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 4 (derived: 750; 5,007; 5,070; 7,505; 7,550)"
+      }
+    },
+    {
+      "id": "q_ps_26",
+      "kind": "practice",
+      "text": "Order 426,000, 406,200, 640,020 and 46,600 from greatest to least.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_26",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 5 (derived: 640,020; 426,000; 406,200; 46,600)"
+      }
+    },
+    {
+      "id": "q_ps_27",
+      "kind": "practice",
+      "text": "California is 158,648 square miles. Nevada is 110,567. Arizona is 114,007. Texas is 266,874. Montana is 147,047. Alaska is 587,878. Which state has the least area?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_27",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 6 (derived: Nevada 110,567)"
+      }
+    },
+    {
+      "id": "q_ps_28",
+      "kind": "practice",
+      "text": "Order these areas from least to greatest: 158,648, 110,567, 114,007, 266,874, 147,047 and 587,878.",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_28",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 6 (derived: Nevada, Arizona, Montana, California, Texas, Alaska)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How does place value help you compare and order numbers?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_largest_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How does your understanding of place value help to compare and order numbers?)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "How can ordering numbers be used in real life?",
+      "asset_ids": [
+        "a_compare_chart"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_order"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How can ordering numbers apply to real life?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 1"
+      }
+    },
+    {
+      "id": "r_sp_a3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 3"
+      }
+    },
+    {
+      "id": "r_sp_a6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 6"
+      }
+    },
+    {
+      "id": "r_sp_a10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty four"
+        ]
+      },
+      "correct": "Says 24.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 10"
+      }
+    },
+    {
+      "id": "r_sp_a13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "28",
+          "twenty eight"
+        ]
+      },
+      "correct": "Says 28.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 13"
+      }
+    },
+    {
+      "id": "r_sp_a16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "36",
+          "thirty six"
+        ]
+      },
+      "correct": "Says 36.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 16"
+      }
+    },
+    {
+      "id": "r_sp_a18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 18"
+      }
+    },
+    {
+      "id": "r_sp_a23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 23"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32",
+          "thirty two"
+        ]
+      },
+      "correct": "Says 32.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 26"
+      }
+    },
+    {
+      "id": "r_sp_a29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty four"
+        ]
+      },
+      "correct": "Says 24.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 29"
+      }
+    },
+    {
+      "id": "r_sp_a35",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 35"
+      }
+    },
+    {
+      "id": "r_sp_a41",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "44",
+          "forty four"
+        ]
+      },
+      "correct": "Says 44.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint A item 41"
+      }
+    },
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty"
+        ]
+      },
+      "correct": "Says 60.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting (S: 2 tens, 4 tens, 6 tens ... Say the number in standard form. 60)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "120",
+          "one hundred twenty"
+        ]
+      },
+      "correct": "Says 120.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting (stop at 12 tens; derived 120)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "160",
+          "one hundred sixty"
+        ]
+      },
+      "correct": "Says 160.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting (stop at 16 tens; derived 160)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred"
+        ]
+      },
+      "correct": "Says 200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting (stop at 20 tens; derived 200)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60,000",
+          "60000"
+        ]
+      },
+      "correct": "Says 60,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting by 3 ten thousands (stop at 6 ten thousands; derived 60,000)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "300,000",
+          "300000"
+        ]
+      },
+      "correct": "Says 300,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Skip-counting by 3 ten thousands (stop at 30 ten thousands; derived 300,000)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 8)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "80",
+          "eighty"
+        ]
+      },
+      "correct": "Says 80.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 80)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3,000",
+          "3000"
+        ]
+      },
+      "correct": "Says 3,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 3,000)"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "400",
+          "four hundred"
+        ]
+      },
+      "correct": "Says 400.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (S: 400)"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50,000",
+          "50000"
+        ]
+      },
+      "correct": "Says 50,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 59,607; derived 50,000)"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9,000",
+          "9000"
+        ]
+      },
+      "correct": "Says 9,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 59,607; derived 9,000)"
+      }
+    },
+    {
+      "id": "r_pk_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "80,000",
+          "80000"
+        ]
+      },
+      "correct": "Says 80,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 287,493; derived 80,000)"
+      }
+    },
+    {
+      "id": "r_pk_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7,000",
+          "7000"
+        ]
+      },
+      "correct": "Says 7,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 287,493; derived 7,000)"
+      }
+    },
+    {
+      "id": "r_pk_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "400",
+          "400"
+        ]
+      },
+      "correct": "Says 400.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 287,493; derived 400)"
+      }
+    },
+    {
+      "id": "r_pk_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "700,000",
+          "700000"
+        ]
+      },
+      "correct": "Says 700,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 742,952; derived 700,000)"
+      }
+    },
+    {
+      "id": "r_pk_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40,000",
+          "40000"
+        ]
+      },
+      "correct": "Says 40,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 742,952; derived 40,000)"
+      }
+    },
+    {
+      "id": "r_pk_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "900",
+          "900"
+        ]
+      },
+      "correct": "Says 900.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Place Value (sequence: 742,952; derived 900)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a six-digit number that uses each digit once and starts with 7 or 8. Reads it correctly in words.",
+      "partial": "Makes a correct number but reads it wrongly in words.",
+      "incorrect": "Repeats a digit, starts with another digit, or reads the words wrongly.",
+      "unclear": "Child does not give a number.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (S: Use each of the digits 9, 8, 7, 3, 1, and 0 once ... In word form, write the number you created.)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7 and 8",
+          "7, 8",
+          "8 and 7",
+          "seven and eight",
+          "7 or 8",
+          "seven or eight",
+          "8, 7",
+          "eight and seven"
+        ]
+      },
+      "correct": "Says 7 and 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: between 7 hundred thousands and 9 hundred thousands means the first digit is 7 or 8)"
+      }
+    },
+    {
+      "id": "r_app_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "897,310",
+          "897310"
+        ]
+      },
+      "correct": "Says 897,310.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem, Extension (derived: 897,310)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "thousands",
+          "thousand",
+          "the thousands"
+        ]
+      },
+      "correct": "Says thousands.",
+      "partial": null,
+      "incorrect": "Names a smaller unit.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Thousands)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          "the greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says less than or equal to.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_compare_small_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 3,010 > 2,040)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "is less than",
+          "less than sign",
+          "the less than sign",
+          "<"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says greater than or equal to.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 2,040 is less than 3,010)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "ten thousands",
+          "ten thousand",
+          "the ten thousands"
+        ]
+      },
+      "correct": "Says ten thousands.",
+      "partial": null,
+      "incorrect": "Names another unit.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: ten thousands)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "the next place to the right",
+          "thousands",
+          "the next largest unit",
+          "one place to the right",
+          "the digit one place to the right",
+          "the next unit"
+        ]
+      },
+      "correct": "Says the next place to the right.",
+      "partial": null,
+      "incorrect": "Says to compare the smallest unit.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: We compare the thousands / the next largest unit / the digit one place to the right)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "is less than",
+          "less than sign",
+          "the less than sign",
+          "<"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 43,021 < 45,302)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "is less than",
+          "less than sign",
+          "the less than sign",
+          "<"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: repeat with 2,305 and 2,530; derived <)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          "the greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: repeat with 970,461 and 907,641; derived >)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32,644",
+          "32644"
+        ]
+      },
+      "correct": "Says 32,644.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 32,644)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32,434",
+          "32434"
+        ]
+      },
+      "correct": "Says 32,434.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 32,434 is the smallest ... least number of hundreds)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32,644, 32,534, 32,434",
+          "32,644 32,534 32,434",
+          "32,644 then 32,534 then 32,434",
+          "32,644 greater than 32,534 greater than 32,434",
+          "32644, 32534, 32434",
+          "32644 32534 32434",
+          "32644 then 32534 then 32434",
+          "32644 greater than 32534 greater than 32434"
+        ]
+      },
+      "correct": "Says 32,644, 32,534, 32,434.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 32,644 > 32,534 > 32,434)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "730,028",
+          "730028"
+        ]
+      },
+      "correct": "Says 730,028.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: 730,028)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "is less than",
+          "less than sign",
+          "the less than sign",
+          "<"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: 730,028 < 735,008)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          "the greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: repeat; derived 408,090 > 48,090)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          "the greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: >)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "is less than",
+          "less than sign",
+          "the less than sign",
+          "<"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(b) (derived: <)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          "the greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 row 1 (derived: >)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          "the greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 row 2 (derived: 589,100 > 508,901)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "equal",
+          "equal to",
+          "equals",
+          "is equal to",
+          "the same",
+          "equal sign",
+          "="
+        ]
+      },
+      "correct": "Says equal.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 row 3 (derived: 908,930 = 908,930)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "is less than",
+          "less than sign",
+          "the less than sign",
+          "<"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 row 4 (derived: 50,909 < 60,509)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4,240, 4,340, 4,960, 5,344",
+          "4,240 4,340 4,960 5,344",
+          "4,240 then 4,340 then 4,960 then 5,344",
+          "4,240 less than 4,340 less than 4,960 less than 5,344",
+          "4240, 4340, 4960, 5344",
+          "4240 4340 4960 5344",
+          "4240 then 4340 then 4960 then 5344",
+          "4240 less than 4340 less than 4960 less than 5344"
+        ]
+      },
+      "correct": "Says 4,240, 4,340, 4,960, 5,344.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 4,240; 4,340; 4,960; 5,344)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "Slide Mountain",
+          "Slide",
+          "slide mountain"
+        ]
+      },
+      "correct": "Says Slide Mountain.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: Slide Mountain)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "820, 2,008, 2,080, 8,002, 8,200",
+          "820 2,008 2,080 8,002 8,200",
+          "820 then 2,008 then 2,080 then 8,002 then 8,200",
+          "820 less than 2,008 less than 2,080 less than 8,002 less than 8,200",
+          "820, 2008, 2080, 8002, 8200",
+          "820 2008 2080 8002 8200",
+          "820 then 2008 then 2080 then 8002 then 8200",
+          "820 less than 2008 less than 2080 less than 8002 less than 8200"
+        ]
+      },
+      "correct": "Says 820, 2,008, 2,080, 8,002, 8,200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 820; 2,008; 2,080; 8,002; 8,200)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "728,000, 720,800, 708,200, 87,300",
+          "728,000 720,800 708,200 87,300",
+          "728,000 then 720,800 then 708,200 then 87,300",
+          "728,000 greater than 720,800 greater than 708,200 greater than 87,300",
+          "728000, 720800, 708200, 87300",
+          "728000 720800 708200 87300",
+          "728000 then 720800 then 708200 then 87300",
+          "728000 greater than 720800 greater than 708200 greater than 87300"
+        ]
+      },
+      "correct": "Says 728,000, 720,800, 708,200, 87,300.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 728,000; 720,800; 708,200; 87,300)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "Proxima Centauri",
+          "Proxima",
+          "proxima centauri"
+        ]
+      },
+      "correct": "Says Proxima Centauri.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 6 (derived: Proxima Centauri 268,269)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "Proxima Centauri, Alpha Centauri, Barnard's Star, Sirius, Epsilon Eridani",
+          "Proxima Centauri Alpha Centauri Barnard's Star Sirius Epsilon Eridani",
+          "Proxima Centauri then Alpha Centauri then Barnard's Star then Sirius then Epsilon Eridani",
+          "Proxima Centauri closer than Alpha Centauri closer than Barnard's Star closer than Sirius closer than Epsilon Eridani",
+          "Proxima, Alpha, Barnard's, Sirius, Epsilon",
+          "Proxima Alpha Barnard's Sirius Epsilon",
+          "Proxima then Alpha then Barnard's then Sirius then Epsilon",
+          "Proxima closer than Alpha closer than Barnard's closer than Sirius closer than Epsilon"
+        ]
+      },
+      "correct": "Says Proxima Centauri, Alpha Centauri, Barnard's Star, Sirius, Epsilon Eridani.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 6 (derived: Proxima, Alpha, Barnard's, Sirius, Epsilon Eridani)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2,398, 2,699, 2,709, 2,976",
+          "2,398 2,699 2,709 2,976",
+          "2,398 then 2,699 then 2,709 then 2,976",
+          "2,398 less than 2,699 less than 2,709 less than 2,976",
+          "2398, 2699, 2709, 2976",
+          "2398 2699 2709 2976",
+          "2398 then 2699 then 2709 then 2976",
+          "2398 less than 2699 less than 2709 less than 2976"
+        ]
+      },
+      "correct": "Says 2,398, 2,699, 2,709, 2,976.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 2,398; 2,699; 2,709; 2,976)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "Bonnie",
+          "bonnie"
+        ]
+      },
+      "correct": "Says Bonnie.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: Bonnie 2,976)"
+      }
+    },
+    {
+      "id": "r_ps_15",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives two different five-digit numbers that each use the digits once. Says which is greater correctly.",
+      "partial": "Makes the numbers correctly but does not say which is greater.",
+      "incorrect": "Repeats a digit or names the smaller number as greater.",
+      "unclear": "Child does not give two numbers.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 2 (S: create two different five-digit numbers and compare)"
+      }
+    },
+    {
+      "id": "r_ps_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "54,321",
+          "54321"
+        ]
+      },
+      "correct": "Says 54,321.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 2 (derived: 54,321)"
+      }
+    },
+    {
+      "id": "r_ps_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          "the greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(a) (derived: >)"
+      }
+    },
+    {
+      "id": "r_ps_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "is less than",
+          "less than sign",
+          "the less than sign",
+          "<"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(b) (derived: <)"
+      }
+    },
+    {
+      "id": "r_ps_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          "the greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 row 1 (derived: >)"
+      }
+    },
+    {
+      "id": "r_ps_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "is less than",
+          "less than sign",
+          "the less than sign",
+          "<"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 row 2 (derived: 351,800 < 605,908)"
+      }
+    },
+    {
+      "id": "r_ps_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "equal",
+          "equal to",
+          "equals",
+          "is equal to",
+          "the same",
+          "equal sign",
+          "="
+        ]
+      },
+      "correct": "Says equal.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 row 3 (derived: 303,840 = 303,840)"
+      }
+    },
+    {
+      "id": "r_ps_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "is greater than",
+          "greater than sign",
+          "the greater than sign",
+          ">"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 row 4 (derived: 60,502 > 30,501)"
+      }
+    },
+    {
+      "id": "r_ps_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1,450, 1,483, 1,670, 1,776",
+          "1,450 1,483 1,670 1,776",
+          "1,450 then 1,483 then 1,670 then 1,776",
+          "1,450 less than 1,483 less than 1,670 less than 1,776",
+          "1450, 1483, 1670, 1776",
+          "1450 1483 1670 1776",
+          "1450 then 1483 then 1670 then 1776",
+          "1450 less than 1483 less than 1670 less than 1776"
+        ]
+      },
+      "correct": "Says 1,450, 1,483, 1,670, 1,776.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 1,450; 1,483; 1,670; 1,776)"
+      }
+    },
+    {
+      "id": "r_ps_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "One World Trade Center",
+          "One World Trade",
+          "world trade center",
+          "one world trade center"
+        ]
+      },
+      "correct": "Says One World Trade Center.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: One World Trade Center 1,776)"
+      }
+    },
+    {
+      "id": "r_ps_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "750, 5,007, 5,070, 7,505, 7,550",
+          "750 5,007 5,070 7,505 7,550",
+          "750 then 5,007 then 5,070 then 7,505 then 7,550",
+          "750 less than 5,007 less than 5,070 less than 7,505 less than 7,550",
+          "750, 5007, 5070, 7505, 7550",
+          "750 5007 5070 7505 7550",
+          "750 then 5007 then 5070 then 7505 then 7550",
+          "750 less than 5007 less than 5070 less than 7505 less than 7550"
+        ]
+      },
+      "correct": "Says 750, 5,007, 5,070, 7,505, 7,550.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 4 (derived: 750; 5,007; 5,070; 7,505; 7,550)"
+      }
+    },
+    {
+      "id": "r_ps_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "640,020, 426,000, 406,200, 46,600",
+          "640,020 426,000 406,200 46,600",
+          "640,020 then 426,000 then 406,200 then 46,600",
+          "640,020 greater than 426,000 greater than 406,200 greater than 46,600",
+          "640020, 426000, 406200, 46600",
+          "640020 426000 406200 46600",
+          "640020 then 426000 then 406200 then 46600",
+          "640020 greater than 426000 greater than 406200 greater than 46600"
+        ]
+      },
+      "correct": "Says 640,020, 426,000, 406,200, 46,600.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 5 (derived: 640,020; 426,000; 406,200; 46,600)"
+      }
+    },
+    {
+      "id": "r_ps_27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "Nevada",
+          "nevada"
+        ]
+      },
+      "correct": "Says Nevada.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 6 (derived: Nevada 110,567)"
+      }
+    },
+    {
+      "id": "r_ps_28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "110,567, 114,007, 147,047, 158,648, 266,874, 587,878",
+          "110,567 114,007 147,047 158,648 266,874 587,878",
+          "110,567 then 114,007 then 147,047 then 158,648 then 266,874 then 587,878",
+          "110,567 less than 114,007 less than 147,047 less than 158,648 less than 266,874 less than 587,878",
+          "110567, 114007, 147047, 158648, 266874, 587878",
+          "110567 114007 147047 158648 266874 587878",
+          "110567 then 114007 then 147047 then 158648 then 266874 then 587878",
+          "110567 less than 114007 less than 147047 less than 158648 less than 266874 less than 587878"
+        ]
+      },
+      "correct": "Says 110,567, 114,007, 147,047, 158,648, 266,874, 587,878.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 6 (derived: Nevada, Arizona, Montana, California, Texas, Alaska)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to compare the digits of the largest unit first. If they are equal, compare the next place.",
+      "partial": "Says place value helps but does not say how.",
+      "incorrect": "Says to compare the smallest digit first.",
+      "unclear": "Child does not describe a way.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How does your understanding of place value help to compare and order numbers?)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a real example, like ranking heights, scores or distances.",
+      "partial": "Says it is useful but gives no example.",
+      "incorrect": "Gives an example that has no numbers to order.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How can ordering numbers apply to real life?)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_sprint",
+      "level": 2,
+      "text": "Think of the multiplication fact with the same numbers. Count by fours.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_tens_count",
+      "level": 1,
+      "text": "Say the number of tens. Then say it as a number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_value",
+      "level": 1,
+      "text": "Say the digit and its place. Then say its value.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_digits_use",
+      "level": 2,
+      "text": "Use each digit once. Look at the biggest and smallest number allowed.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "h_largest_unit",
+      "level": 1,
+      "text": "Find the largest unit in each number. Compare the digits of that unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_compare_next",
+      "level": 1,
+      "text": "If the digits are equal, move one place to the right and compare there.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_symbol",
+      "level": 2,
+      "text": "Compare the digits from the largest unit. Say the greater number first.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "h_order",
+      "level": 2,
+      "text": "Find the greatest or least number first. Then find the next one.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "h_forms",
+      "level": 2,
+      "text": "Write both numbers in standard form first. Then compare them.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_compare_small_unit",
+      "label": "Compares a smaller unit first",
+      "description": "The child compares a smaller unit, like the tens, when the largest units differ.",
+      "detection_signals": [
+        "says 2,040 is greater than 3,010 because 4 tens is more than 1 ten"
+      ],
+      "response_text": "Start with the largest unit. 3 thousands is greater than 2 thousands, so you do not need the tens.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_compare_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The lesson uses disks on a paper chart. The child cannot draw them.",
+      "description": "A place value chart to hundred thousands with two numbers placed one above the other. The child picks greater than, less than or equal to and the chart shows which place decides.",
+      "must_show_exactly": [
+        "Columns in order: ones, tens, hundreds, thousands, ten thousands, hundred thousands",
+        "Two rows for the two numbers with digits in the columns",
+        "A highlight on the first column where the digits differ",
+        "Three buttons: greater than, less than, equal to",
+        "A text box where the child types or says two numbers"
+      ],
+      "states_or_frames": [
+        "Empty chart",
+        "Two numbers placed in the chart",
+        "The deciding column highlighted",
+        "The comparison sentence shown in two ways"
+      ],
+      "interaction": "Child enters two numbers and picks the symbol. The chart highlights the first place that differs.",
+      "alt_text": "A place value chart with two numbers stacked and the deciding place highlighted.",
+      "generation_caption": "A clean place value chart with six labeled columns, two rows of digits, and one highlighted column. [Build by code]",
+      "review_notes": "Source charts are blank pictures. Build from the printed headings.",
+      "used_by": [
+        "ex_3010",
+        "ex_32644",
+        "ex_43021",
+        "ex_730028",
+        "exp_compare_largest",
+        "exp_compare_next",
+        "exp_diff_forms",
+        "exp_order_many",
+        "exp_symbols",
+        "q_app_1",
+        "q_app_2",
+        "q_app_3",
+        "q_db_1",
+        "q_db_2",
+        "q_pk_1",
+        "q_pk_10",
+        "q_pk_11",
+        "q_pk_12",
+        "q_pk_13",
+        "q_pk_14",
+        "q_pk_15",
+        "q_pk_16",
+        "q_pk_17",
+        "q_pk_18",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pk_4",
+        "q_pk_5",
+        "q_pk_6",
+        "q_pk_7",
+        "q_pk_8",
+        "q_pk_9",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_15",
+        "q_ps_16",
+        "q_ps_17",
+        "q_ps_18",
+        "q_ps_19",
+        "q_ps_2",
+        "q_ps_20",
+        "q_ps_21",
+        "q_ps_22",
+        "q_ps_23",
+        "q_ps_24",
+        "q_ps_25",
+        "q_ps_26",
+        "q_ps_27",
+        "q_ps_28",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: timed paper race",
+      "reason": "Multiply by 4 Sprint (A and B) of 44 short facts. The timed race, scoring and Sprint A versus Sprint B cannot run on a screen. Its facts are used as practice questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint"
+      }
+    },
+    {
+      "id": "na_count_hand",
+      "name": "Count by tens and stop when the teacher raises a hand",
+      "reason": "Whole-class counting with a hand signal. The tutor cannot see a raised hand. Its facts are used as questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_hands_on",
+      "name": "Hands-on work with real materials (place value disks)",
+      "reason": "The child works on a screen. Real materials, cutting and tiling cannot be checked. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Covered by the debrief questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Drawing and writing on a personal white board",
+      "reason": "The tutor sees only typed text or a transcript, not paper or drawings. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_draw_on_sheet",
+      "name": "Draw on the worksheet (draw a rectangle, draw lines, circle shapes)",
+      "reason": "The tutor cannot see drawings. These items are skipped or asked as typed questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this license before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "Pictures and charts",
+      "issue": "The place value charts to label and draw disks in are blank pictures. Labeling and drawing disks were skipped. The typed comparisons were turned into questions."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "Sprint",
+      "issue": "Sprint A items 1, 3, 6, 10, 13, 16, 18, 23, 26, 29, 35 and 41 were used. Sprint B follows the same pattern and was not used."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Derived answers",
+      "issue": "Only the lesson examples are printed. All Problem Set, Exit Ticket, Homework and Application Problem answers were computed."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Symbols",
+      "issue": "The source asks the child to write < > or = in a circle. Questions ask for 'greater than', 'less than' or 'equal to' in words. A person should check voice matching."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Ordered lists",
+      "issue": "List answers accept commas, spaces, 'then' or 'greater than' or 'less than' between items. A person should check how voice lists are matched."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Open answers",
+      "issue": "q_app_1, q_ps_15, q_db_1 and q_db_2 accept any clear answer that fits. A person should check how they are marked."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Debrief items left out",
+      "issue": "Debrief items about lining up digits versus disks, Problem 1(a) versus 1(b), and Problem 2 forms depend on the child's own work and were left out."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Sheet labels",
+      "issue": "The .md does not label the Problem Set, Exit Ticket and Homework. Sheet order (first, second, third Name/Date page) was used. Problem Set on the first sheet; Exit Ticket on the second; Homework on the third. Check the PDF."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards come from the codes printed in the lesson text only (3.OA.7, 4.NBT.1, 4.NBT.2, 4.NBT.5)."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "source_version",
+      "issue": "The .md file has no page footer, so source_version could not be copied."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "q_sp_a1",
+      "issue": "The answer number also appears in the question text. These items are fact or pattern items (for example 2 times 7 equals 7 times what number). Check that the question still tests the skill."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f15",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot count. Build every visual with exact counts by code, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are not_available yet: a_compare_chart. Items that use them cannot be launched until the assets exist."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class. All child-facing text was rewritten for a screen and needs a wording review."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "The lesson input block was not given, so prerequisite_ids is empty. A person must add the real prerequisite cards (for example earlier lessons of this module)."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

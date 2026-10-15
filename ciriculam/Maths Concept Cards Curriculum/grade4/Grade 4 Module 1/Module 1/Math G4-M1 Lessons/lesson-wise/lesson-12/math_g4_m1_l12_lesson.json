@@ -1,0 +1,3015 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g4_m1_l12_multi_step_word_problems_tape_diagrams",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g4_m1",
+      "file": "math-g4-m1-topic-d-lesson-12.md",
+      "source_version": "not stated in file (no page footer in the .md)",
+      "title": "Eureka Math / EngageNY, Grade 4, Module 1, Lesson 12",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in file; page is n/a and section names are used"
+    }
+  ],
+  "grade": 4,
+  "subject": "math",
+  "standards": [
+    "4.NBT.3",
+    "4.NBT.4"
+  ],
+  "review_status": "draft",
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve multi-step addition word problems with tape diagrams. Check answers by rounding.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_tape_two",
+      "title": "Tape for each quantity",
+      "text": "Draw one tape for each quantity. If one quantity is more than another, extend its tape by the extra amount.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_multi_step",
+      "title": "Multi-step problems",
+      "text": "Find the missing quantity first. Then find the total. Use a letter for the unknown.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_estimate_first",
+      "title": "Estimate first",
+      "text": "Before you solve, round each number to get a general sense of the answer. After you solve, compare the answer with the estimate.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_reasonable",
+      "title": "Reasonable answers",
+      "text": "An answer is reasonable if it is close to the estimate. If it is not close, check your work.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_place_closer",
+      "title": "Smaller units are closer",
+      "text": "Rounding to a smaller unit gives an estimate closer to the actual answer. Rounding to a larger unit has a larger margin of error.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Note)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_roses",
+      "title": "Pink and red roses",
+      "text": "14,594 pink roses. 14,594 plus 7,857 is 22,451 red roses. 14,594 plus 22,451 is R. R is 37,045.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_tickets",
+      "title": "Bus tickets over the weekend",
+      "text": "Sunday 17,295. Saturday 17,295 plus 32,736 is 50,031. B is 67,326. The estimate 70,000 is close, so it is reasonable.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is the value of the 7 in 726,354?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_digit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (S: 700,000)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 726,354 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (S: 726,354 ≈ 700,000)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 726,354 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 726,354 to the nearest ten thousand; derived 730,000)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is 726,354 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 726,354 to the nearest thousand; derived 726,000)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "What is 726,354 rounded to the nearest hundred?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 726,354 to the nearest hundred; derived 726,400)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "What is 726,354 rounded to the nearest ten?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 726,354 to the nearest ten; derived 726,350)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "What is 496,517 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest hundred thousand; derived 500,000)"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is 496,517 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest ten thousand; derived 500,000)"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "What is 496,517 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest thousand; derived 497,000)"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "What is 496,517 rounded to the nearest hundred?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest hundred; derived 496,500)"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "prior_knowledge",
+      "text": "What is 496,517 rounded to the nearest ten?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest ten; derived 496,520)"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "prior_knowledge",
+      "text": "What is 417 plus 232?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_add"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (S: 417 + 232 = 649)"
+      }
+    },
+    {
+      "id": "q_pk_13",
+      "kind": "prior_knowledge",
+      "text": "What is 7,073 plus 2,312?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_13",
+      "hint_ids": [
+        "h_add"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 7,073 + 2,312; derived 9,385)"
+      }
+    },
+    {
+      "id": "q_pk_14",
+      "kind": "prior_knowledge",
+      "text": "What is 13,705 plus 4,412?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_14",
+      "hint_ids": [
+        "h_add"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 13,705 + 4,412; derived 18,117)"
+      }
+    },
+    {
+      "id": "q_pk_15",
+      "kind": "prior_knowledge",
+      "text": "What is 3,949 plus 451?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_15",
+      "hint_ids": [
+        "h_add"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 3,949 + 451; derived 4,400)"
+      }
+    },
+    {
+      "id": "q_pk_16",
+      "kind": "prior_knowledge",
+      "text": "What is 538 plus 385 plus 853?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_16",
+      "hint_ids": [
+        "h_add"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 538 + 385 + 853; derived 1,776)"
+      }
+    },
+    {
+      "id": "q_pk_17",
+      "kind": "prior_knowledge",
+      "text": "What is 23,944 plus 6,056 plus 159,368?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_17",
+      "hint_ids": [
+        "h_add"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 23,944 + 6,056 + 159,368; derived 189,368)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "The basketball team raised 154,694 dollars in September. In October they raised 29,987 dollars more than in September. How much did they raise in October?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 154,694 + 29,987 = 184,681)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "The city flower shop sold 14,594 pink roses. They sold 7,857 more red roses than pink roses. How many red roses did they sell?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 14,594 + 7,857 = 22,451)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "The shop sold 14,594 pink roses and 22,451 red roses. How many pink and red roses did it sell in all?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: R = 37,045)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "On Saturday 32,736 more bus tickets were sold than on Sunday. On Sunday 17,295 were sold. How many tickets were sold on Saturday?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (derived: 17,295 + 32,736 = 50,031)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "The rounded weekend numbers are 20,000, 20,000 and 30,000. Add them. What is the estimate?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 20,000 + 20,000 + 30,000 = 70,000)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Sunday had 17,295 tickets and Saturday had 50,031. How many tickets were sold over the weekend?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: B = 67,326)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Is 67,326 close to the estimate of 70,000? Is the answer reasonable?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: Our answer is reasonable)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Big Bill's sold 118,214 pairs of boots. They sold 37,092 more pairs of sandals than boots. How many pairs of sandals did they sell?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (derived: 155,306)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Big Bill's sold 118,214 pairs of boots. They sold 124,417 more pairs of sneakers than boots. How many pairs of sneakers did they sell?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (derived: 242,631)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Big Bill's sold 118,214 boots, 155,306 sandals and 242,631 sneakers. How many pairs of footwear did they sell in all?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (derived: 516,151)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Connie baked 144 cookies. Esther baked 49 more than Connie. How many cookies did Esther bake?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1 (derived: 144 + 49 = 193)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Round 144 and 193 to the nearest ten. Add them. What is the estimate of the cookies?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: 140 + 190 = 330)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Connie baked 144 cookies and Esther baked 193. How many cookies did they bake exactly?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(b) (derived: 337)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "The estimate is 330 and the exact answer is 337. Is the answer reasonable?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(c) (derived: 337 is close to 330)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "563 raffle tickets went to teachers. 888 more went to students than to teachers. How many went to students?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 (derived: 1,451)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Teachers had 563 tickets, students 1,451 and parents 904. Round each to the nearest hundred and add. What is the estimate?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(a) (derived: 600 + 1,500 + 900 = 3,000)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Teachers had 563 tickets, students 1,451 and parents 904. How many tickets were sold exactly?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(b) (derived: 2,918)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "The estimate is 3,000 and the exact answer is 2,918. Is the answer reasonable?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(c) (derived: 2,918 is close to 3,000)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "Queens grew by 16,075 people. Brooklyn grew by 11,870 more than Queens. By how many people did Brooklyn grow?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 27,945)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "Queens grew by 16,075 and Brooklyn by 27,945. Round each to the nearest thousand and add. What is the estimate?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(a) (derived: 16,000 + 28,000 = 44,000)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Queens grew by 16,075 and Brooklyn by 27,945. What is the total growth exactly?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(b) (derived: 44,020)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "The estimate is 44,000 and the exact answer is 44,020. Is the answer reasonable?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(c) (derived: 44,020 is close to 44,000)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "Week 1 had 10,827 cans. Week 2 had 1,256 more cans than week 1. How many cans were collected in week 2?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 12,083)"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "The four weeks had 10,827, 12,083, 10,522 and 20,011 cans. How many cans were collected in all?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4(a) (derived: 53,443)"
+      }
+    },
+    {
+      "id": "q_ps_15",
+      "kind": "practice",
+      "text": "Round the four weeks to the nearest thousand and add: 10,827, 12,083, 10,522 and 20,011. What is the estimate?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_15",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4(b) (derived: 11,000 + 12,000 + 11,000 + 20,000 = 54,000)"
+      }
+    },
+    {
+      "id": "q_ps_16",
+      "kind": "practice",
+      "text": "Scott earned 8,999 dollars in January. In February he earned 2,387 dollars more. How much did he earn in February?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_16",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 11,386)"
+      }
+    },
+    {
+      "id": "q_ps_17",
+      "kind": "practice",
+      "text": "Scott earned the same in March as in February. He earned 8,999, 11,386 and 11,386 dollars. How much did he earn in all?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_17",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 31,771)"
+      }
+    },
+    {
+      "id": "q_ps_18",
+      "kind": "practice",
+      "text": "Round Scott's three months to the nearest thousand and add: 8,999, 11,386 and 11,386. What is the estimate?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_18",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 9,000 + 11,000 + 11,000 = 31,000)"
+      }
+    },
+    {
+      "id": "q_ps_19",
+      "kind": "practice",
+      "text": "The estimate is 31,000 and the exact answer is 31,771. Is the answer reasonable?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_19",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 31,771 is close to 31,000)"
+      }
+    },
+    {
+      "id": "q_ps_20",
+      "kind": "practice",
+      "text": "The school website had 9,854 hits in February. January had 3,905 more hits than February. How many hits did it have in January?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_20",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1 (derived: 13,759)"
+      }
+    },
+    {
+      "id": "q_ps_21",
+      "kind": "practice",
+      "text": "January had 13,759 hits and February had 9,854. Round each to the nearest thousand and add. What is the estimate?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_21",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(a) (derived: 14,000 + 10,000 = 24,000)"
+      }
+    },
+    {
+      "id": "q_ps_22",
+      "kind": "practice",
+      "text": "January had 13,759 hits and February had 9,854. How many hits did the website have in both months?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_22",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(b) (derived: 23,613)"
+      }
+    },
+    {
+      "id": "q_ps_23",
+      "kind": "practice",
+      "text": "The estimate is 24,000 and the exact answer is 23,613. Is the answer reasonable?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_23",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(c) (derived: 23,613 is close to 24,000)"
+      }
+    },
+    {
+      "id": "q_ps_24",
+      "kind": "practice",
+      "text": "77,098 fans went to the Jets game. 3,397 more fans went to the Giants game. How many fans went to the Giants game?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_24",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 (derived: 80,495)"
+      }
+    },
+    {
+      "id": "q_ps_25",
+      "kind": "practice",
+      "text": "77,098 fans went to the Jets game and 80,495 to the Giants game. How many fans went to both games?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_25",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(a) (derived: 157,593)"
+      }
+    },
+    {
+      "id": "q_ps_26",
+      "kind": "practice",
+      "text": "Round 77,098 and 80,495 to the nearest thousand and add. What is the estimate?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_26",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(b) (derived: 77,000 + 80,000 = 157,000)"
+      }
+    },
+    {
+      "id": "q_ps_27",
+      "kind": "practice",
+      "text": "Buttercup made 7,087 liters of milk. Betsy made 986 more than Buttercup. How many liters did Betsy make?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_27",
+      "hint_ids": [
+        "h_find_part"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 8,073)"
+      }
+    },
+    {
+      "id": "q_ps_28",
+      "kind": "practice",
+      "text": "Daisy made 5,098 liters, Betsy 8,073, Mary 9,980 and Buttercup 7,087. How many liters did all four cows make?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_28",
+      "hint_ids": [
+        "h_total"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 30,238)"
+      }
+    },
+    {
+      "id": "q_ps_29",
+      "kind": "practice",
+      "text": "Round the cows' milk to the nearest thousand: 5,098, 8,073, 9,980 and 7,087. Add them. What is the estimate?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_29",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 5,000 + 8,000 + 10,000 + 7,000 = 30,000)"
+      }
+    },
+    {
+      "id": "q_ps_30",
+      "kind": "practice",
+      "text": "The estimate is 30,000 and the exact answer is 30,238. Is the answer reasonable?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_30",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 30,238 is close to 30,000)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Why should we test whether our answers are reasonable?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Explain why we should test to see if our answers are reasonable.)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "When might you need to use an estimate in real life?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (When might you need to use an estimate in real life?)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "How does the place you round to change how close your estimate is?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Note: rounding to the ten thousands brings our estimate closer ... discuss the margin of error)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "What can you do if your estimate is not near your actual answer?",
+      "asset_ids": [
+        "a_add_algorithm"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_reasonable"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (What are the next steps if your estimate is not near the actual answer?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "700,000",
+          "700000"
+        ]
+      },
+      "correct": "Says 700,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (S: 700,000)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "700,000",
+          "700000"
+        ]
+      },
+      "correct": "Says 700,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (S: 726,354 ≈ 700,000)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "730,000",
+          "730000"
+        ]
+      },
+      "correct": "Says 730,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 726,354 to the nearest ten thousand; derived 730,000)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "726,000",
+          "726000"
+        ]
+      },
+      "correct": "Says 726,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 726,354 to the nearest thousand; derived 726,000)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "726,400",
+          "726400"
+        ]
+      },
+      "correct": "Says 726,400.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 726,354 to the nearest hundred; derived 726,400)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "726,350",
+          "726350"
+        ]
+      },
+      "correct": "Says 726,350.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 726,354 to the nearest ten; derived 726,350)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500,000",
+          "500000"
+        ]
+      },
+      "correct": "Says 500,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest hundred thousand; derived 500,000)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500,000",
+          "500000"
+        ]
+      },
+      "correct": "Says 500,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest ten thousand; derived 500,000)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "497,000",
+          "497000"
+        ]
+      },
+      "correct": "Says 497,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest thousand; derived 497,000)"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "496,500",
+          "496500"
+        ]
+      },
+      "correct": "Says 496,500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest hundred; derived 496,500)"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "496,520",
+          "496520"
+        ]
+      },
+      "correct": "Says 496,520.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round (sequence: 496,517 to the nearest ten; derived 496,520)"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "649",
+          "six hundred forty nine"
+        ]
+      },
+      "correct": "Says 649.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (S: 417 + 232 = 649)"
+      }
+    },
+    {
+      "id": "r_pk_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9,385",
+          "9385"
+        ]
+      },
+      "correct": "Says 9,385.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 7,073 + 2,312; derived 9,385)"
+      }
+    },
+    {
+      "id": "r_pk_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18,117",
+          "18117"
+        ]
+      },
+      "correct": "Says 18,117.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 13,705 + 4,412; derived 18,117)"
+      }
+    },
+    {
+      "id": "r_pk_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4,400",
+          "4400"
+        ]
+      },
+      "correct": "Says 4,400.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 3,949 + 451; derived 4,400)"
+      }
+    },
+    {
+      "id": "r_pk_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1,776",
+          "1776"
+        ]
+      },
+      "correct": "Says 1,776.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 538 + 385 + 853; derived 1,776)"
+      }
+    },
+    {
+      "id": "r_pk_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "189,368",
+          "189368"
+        ]
+      },
+      "correct": "Says 189,368.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Add (sequence: 23,944 + 6,056 + 159,368; derived 189,368)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "184681",
+          "184,681",
+          "one hundred eighty four thousand six hundred eighty one",
+          "184,681 dollars",
+          "184681 dollars"
+        ]
+      },
+      "correct": "Says 184,681 dollars.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 154,694 + 29,987 = 184,681)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22451",
+          "22,451",
+          "twenty two thousand four hundred fifty one",
+          "22,451 red roses",
+          "22451 red roses"
+        ]
+      },
+      "correct": "Says 22,451 red roses.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 14,594 + 7,857 = 22,451)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "37045",
+          "37,045",
+          "thirty seven thousand forty five",
+          "37,045 roses",
+          "37045 roses"
+        ]
+      },
+      "correct": "Says 37,045 roses.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: R = 37,045)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50031",
+          "50,031",
+          "fifty thousand thirty one",
+          "50,031 tickets",
+          "50031 tickets"
+        ]
+      },
+      "correct": "Says 50,031 tickets.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (derived: 17,295 + 32,736 = 50,031)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "70,000",
+          "70000"
+        ]
+      },
+      "correct": "Says 70,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 20,000 + 20,000 + 30,000 = 70,000)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "67326",
+          "67,326",
+          "sixty seven thousand three hundred twenty six",
+          "67,326 tickets",
+          "67326 tickets"
+        ]
+      },
+      "correct": "Says 67,326 tickets.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: B = 67,326)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes, it is reasonable.",
+      "partial": null,
+      "incorrect": "Says it is not reasonable.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: Our answer is reasonable)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "155306",
+          "155,306",
+          "one hundred fifty five thousand three hundred six",
+          "155,306 pairs",
+          "155306 pairs"
+        ]
+      },
+      "correct": "Says 155,306 pairs.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (derived: 155,306)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "242631",
+          "242,631",
+          "two hundred forty two thousand six hundred thirty one",
+          "242,631 pairs",
+          "242631 pairs"
+        ]
+      },
+      "correct": "Says 242,631 pairs.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (derived: 242,631)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "516151",
+          "516,151",
+          "five hundred sixteen thousand one hundred fifty one",
+          "516,151 pairs",
+          "516151 pairs"
+        ]
+      },
+      "correct": "Says 516,151 pairs.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (derived: 516,151)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "193",
+          "one hundred ninety three",
+          "193 cookies"
+        ]
+      },
+      "correct": "Says 193 cookies.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1 (derived: 144 + 49 = 193)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "330",
+          "330"
+        ]
+      },
+      "correct": "Says 330.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(a) (derived: 140 + 190 = 330)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "337",
+          "three hundred thirty seven",
+          "337 cookies"
+        ]
+      },
+      "correct": "Says 337 cookies.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(b) (derived: 337)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1(c) (derived: 337 is close to 330)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1451",
+          "1,451",
+          "one thousand four hundred fifty one",
+          "1,451 tickets",
+          "1451 tickets"
+        ]
+      },
+      "correct": "Says 1,451 tickets.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 (derived: 1,451)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3,000",
+          "3000"
+        ]
+      },
+      "correct": "Says 3,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(a) (derived: 600 + 1,500 + 900 = 3,000)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2918",
+          "2,918",
+          "two thousand nine hundred eighteen",
+          "2,918 tickets",
+          "2918 tickets"
+        ]
+      },
+      "correct": "Says 2,918 tickets.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(b) (derived: 2,918)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2(c) (derived: 2,918 is close to 3,000)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "27945",
+          "27,945",
+          "twenty seven thousand nine hundred forty five",
+          "27,945 people",
+          "27945 people"
+        ]
+      },
+      "correct": "Says 27,945 people.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 27,945)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "44,000",
+          "44000"
+        ]
+      },
+      "correct": "Says 44,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(a) (derived: 16,000 + 28,000 = 44,000)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "44020",
+          "44,020",
+          "forty four thousand twenty",
+          "44,020 people",
+          "44020 people"
+        ]
+      },
+      "correct": "Says 44,020 people.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(b) (derived: 44,020)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3(c) (derived: 44,020 is close to 44,000)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12083",
+          "12,083",
+          "twelve thousand eighty three",
+          "12,083 cans",
+          "12083 cans"
+        ]
+      },
+      "correct": "Says 12,083 cans.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (derived: 12,083)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53443",
+          "53,443",
+          "fifty three thousand four hundred forty three",
+          "53,443 cans",
+          "53443 cans"
+        ]
+      },
+      "correct": "Says 53,443 cans.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4(a) (derived: 53,443)"
+      }
+    },
+    {
+      "id": "r_ps_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "54,000",
+          "54000"
+        ]
+      },
+      "correct": "Says 54,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4(b) (derived: 11,000 + 12,000 + 11,000 + 20,000 = 54,000)"
+      }
+    },
+    {
+      "id": "r_ps_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11386",
+          "11,386",
+          "eleven thousand three hundred eighty six",
+          "11,386 dollars",
+          "11386 dollars"
+        ]
+      },
+      "correct": "Says 11,386 dollars.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 11,386)"
+      }
+    },
+    {
+      "id": "r_ps_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "31771",
+          "31,771",
+          "thirty one thousand seven hundred seventy one",
+          "31,771 dollars",
+          "31771 dollars"
+        ]
+      },
+      "correct": "Says 31,771 dollars.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 31,771)"
+      }
+    },
+    {
+      "id": "r_ps_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "31,000",
+          "31000"
+        ]
+      },
+      "correct": "Says 31,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 9,000 + 11,000 + 11,000 = 31,000)"
+      }
+    },
+    {
+      "id": "r_ps_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 31,771 is close to 31,000)"
+      }
+    },
+    {
+      "id": "r_ps_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13759",
+          "13,759",
+          "thirteen thousand seven hundred fifty nine",
+          "13,759 hits",
+          "13759 hits"
+        ]
+      },
+      "correct": "Says 13,759 hits.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1 (derived: 13,759)"
+      }
+    },
+    {
+      "id": "r_ps_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24,000",
+          "24000"
+        ]
+      },
+      "correct": "Says 24,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(a) (derived: 14,000 + 10,000 = 24,000)"
+      }
+    },
+    {
+      "id": "r_ps_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "23613",
+          "23,613",
+          "twenty three thousand six hundred thirteen",
+          "23,613 hits",
+          "23613 hits"
+        ]
+      },
+      "correct": "Says 23,613 hits.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(b) (derived: 23,613)"
+      }
+    },
+    {
+      "id": "r_ps_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1(c) (derived: 23,613 is close to 24,000)"
+      }
+    },
+    {
+      "id": "r_ps_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "80495",
+          "80,495",
+          "eighty thousand four hundred ninety five",
+          "80,495 fans",
+          "80495 fans"
+        ]
+      },
+      "correct": "Says 80,495 fans.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 (derived: 80,495)"
+      }
+    },
+    {
+      "id": "r_ps_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "157593",
+          "157,593",
+          "one hundred fifty seven thousand five hundred ninety three",
+          "157,593 fans",
+          "157593 fans"
+        ]
+      },
+      "correct": "Says 157,593 fans.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(a) (derived: 157,593)"
+      }
+    },
+    {
+      "id": "r_ps_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "157,000",
+          "157000"
+        ]
+      },
+      "correct": "Says 157,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2(b) (derived: 77,000 + 80,000 = 157,000)"
+      }
+    },
+    {
+      "id": "r_ps_27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8073",
+          "8,073",
+          "eight thousand seventy three",
+          "8,073 liters",
+          "8073 liters"
+        ]
+      },
+      "correct": "Says 8,073 liters.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 8,073)"
+      }
+    },
+    {
+      "id": "r_ps_28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30238",
+          "30,238",
+          "thirty thousand two hundred thirty eight",
+          "30,238 liters",
+          "30238 liters"
+        ]
+      },
+      "correct": "Says 30,238 liters.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 30,238)"
+      }
+    },
+    {
+      "id": "r_ps_29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30,000",
+          "30000"
+        ]
+      },
+      "correct": "Says 30,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 5,000 + 8,000 + 10,000 + 7,000 = 30,000)"
+      }
+    },
+    {
+      "id": "r_ps_30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "yes it is reasonable",
+          "it is reasonable",
+          "reasonable"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 30,238 is close to 30,000)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says an estimate can show if an answer is wrong. If the answer is not close, you check your work.",
+      "partial": "Says to check but gives no reason.",
+      "incorrect": "Says there is no need to check.",
+      "unclear": "Child does not give a reason.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Explain why we should test to see if our answers are reasonable.)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a real use, like checking a bill or planning how much to buy.",
+      "partial": "Says estimates are useful but gives no use.",
+      "incorrect": "Gives a use that does not fit.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (When might you need to use an estimate in real life?)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says rounding to a smaller unit gives a closer estimate. A larger unit gives a bigger margin of error.",
+      "partial": "Says it matters but not how.",
+      "incorrect": "Says the place makes no difference.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Note: rounding to the ten thousands brings our estimate closer ... discuss the margin of error)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to check the work for a mistake, like a misplaced digit or a missed regroup.",
+      "partial": "Says to try again with no detail.",
+      "incorrect": "Says to keep the answer.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (What are the next steps if your estimate is not near the actual answer?)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_digit",
+      "level": 1,
+      "text": "Say the digit and its place. Then say its value.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_round",
+      "level": 2,
+      "text": "Find the two units around the number. Compare with the halfway point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_add",
+      "level": 2,
+      "text": "Line up the places. Add from the right. Regroup when you have 10 of a unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_find_part",
+      "level": 2,
+      "text": "Find the missing quantity first. Add the extra amount to the quantity you know.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_total",
+      "level": 2,
+      "text": "Add the quantities on all the tapes to find the total.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_estimate",
+      "level": 2,
+      "text": "Round each number to the named place. Then add.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "h_reasonable",
+      "level": 2,
+      "text": "Compare the exact answer with the estimate. Are they close?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "h_story",
+      "level": 2,
+      "text": "Find the missing quantity first. Then add everything.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_add_algorithm",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The lesson uses tape diagrams drawn on paper. The child cannot draw them.",
+      "description": "A vertical addition with place value columns up to hundred thousands and a tape diagram. The child adds, regroups, and compares the sum with a rounded estimate.",
+      "must_show_exactly": [
+        "Columns in order: hundred thousands, ten thousands, thousands, hundreds, tens, ones",
+        "Two or more addends stacked with places lined up",
+        "A row for the regrouped 1 above the next column",
+        "A tape diagram with two or three tapes, a bracket and a variable for the total",
+        "An estimate box beside the exact answer"
+      ],
+      "states_or_frames": [
+        "Addends placed",
+        "One column added",
+        "A column with 10 or more regrouped",
+        "Sum complete and compared with the estimate"
+      ],
+      "interaction": "Child adds one column at a time and sees regrouping. The child enters an estimate and the widget shows if the sum is close.",
+      "alt_text": "A vertical addition problem with regrouping, a tape diagram and an estimate box.",
+      "generation_caption": "A clean vertical addition with six labeled columns, carry marks, a tape diagram beside it and an estimate box. [Build by code]",
+      "review_notes": "Source tape diagrams are drawn by the child. Build from the printed numbers.",
+      "used_by": [
+        "ex_roses",
+        "ex_tickets",
+        "exp_estimate_first",
+        "exp_multi_step",
+        "exp_place_closer",
+        "exp_reasonable",
+        "exp_tape_two",
+        "q_app_1",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pk_1",
+        "q_pk_10",
+        "q_pk_11",
+        "q_pk_12",
+        "q_pk_13",
+        "q_pk_14",
+        "q_pk_15",
+        "q_pk_16",
+        "q_pk_17",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pk_4",
+        "q_pk_5",
+        "q_pk_6",
+        "q_pk_7",
+        "q_pk_8",
+        "q_pk_9",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_15",
+        "q_ps_16",
+        "q_ps_17",
+        "q_ps_18",
+        "q_ps_19",
+        "q_ps_2",
+        "q_ps_20",
+        "q_ps_21",
+        "q_ps_22",
+        "q_ps_23",
+        "q_ps_24",
+        "q_ps_25",
+        "q_ps_26",
+        "q_ps_27",
+        "q_ps_28",
+        "q_ps_29",
+        "q_ps_3",
+        "q_ps_30",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_hands_on",
+      "name": "Hands-on work with real materials (drawing tape diagrams on a personal board)",
+      "reason": "The child works on a screen. Real materials, cutting and tiling cannot be checked. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Covered by the debrief questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Drawing and writing on a personal white board",
+      "reason": "The tutor sees only typed text or a transcript, not paper or drawings. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice and Concept Development"
+      }
+    },
+    {
+      "id": "na_draw_on_sheet",
+      "name": "Draw on the worksheet (draw a rectangle, draw lines, circle shapes)",
+      "reason": "The tutor cannot see drawings. These items are skipped or asked as typed questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this license before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "Pictures and charts",
+      "issue": "Tape diagrams the child draws in the Problem Set, Exit Ticket and Homework were skipped. The two data tables (cans, milk) have blank cells for the missing week and cow. Their values were computed from the text."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "Derived answers",
+      "issue": "Only the lesson examples are printed. All Problem Set, Exit Ticket, Homework and Application Problem answers were computed."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Estimate places",
+      "issue": "The source does not name the rounding place for Problem Set 3 and 4, Exit Ticket and Homework estimates. Questions name the nearest thousand. A person should confirm."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Reasonable answers",
+      "issue": "Reasonable questions give both numbers and ask for yes or no. The source asks for a written sentence."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Open answers",
+      "issue": "q_db_1 to q_db_4 accept any clear answer that fits. A person should check how they are marked."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Debrief items left out",
+      "issue": "The debrief item on rounding to the hundred in Problem 1 depends on the child's own work and was left out."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconception",
+      "issue": "The source states no misconception for this lesson. A possible one is accepting an answer without checking it against an estimate. Do not use it until a person confirms."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Sheet labels",
+      "issue": "The .md does not label the Problem Set, Exit Ticket and Homework. Sheet order (first, second, third Name/Date page) was used. Problem Set on the first sheet; Exit Ticket on the second; Homework on the third. Check the PDF."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards come from the codes printed in the lesson text only (4.NBT.3, 4.NBT.4)."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "source_version",
+      "issue": "The .md file has no page footer, so source_version could not be copied."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot count. Build every visual with exact counts by code, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are not_available yet: a_add_algorithm. Items that use them cannot be launched until the assets exist."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class. All child-facing text was rewritten for a screen and needs a wording review."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "The lesson input block was not given, so prerequisite_ids is empty. A person must add the real prerequisite cards (for example earlier lessons of this module)."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson, so none were added."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

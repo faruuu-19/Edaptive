@@ -1,0 +1,4051 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g4_m1_l10_round_real_world_estimates",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g4_m1",
+      "file": "math-g4-m1-topic-c-lesson-10.md",
+      "source_version": "not stated in file (no page footer in the .md)",
+      "title": "Eureka Math / EngageNY, Grade 4, Module 1, Lesson 10",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in file; page is n/a and section names are used"
+    }
+  ],
+  "grade": 4,
+  "subject": "math",
+  "standards": [
+    "4.NBT.1",
+    "4.NBT.3"
+  ],
+  "review_status": "draft",
+  "objective": {
+    "id": "obj_1",
+    "text": "Round numbers to any place to make good estimates in real world problems.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_smaller_units",
+      "title": "Smaller units are closer",
+      "text": "Rounding to the largest unit gives the most zeros and the easiest number. Rounding to a smaller unit gives an estimate closer to the actual number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_best_estimate",
+      "title": "Choose the best estimate",
+      "text": "Look at the situation. Use patterns or data to decide which unit to round to.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_enough",
+      "title": "Enough for everyone",
+      "text": "If everyone needs one, it is better to have more than not enough. Sometimes you round up even if the digits say round down.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_largest_unit",
+      "title": "The largest unit can mislead",
+      "text": "Rounding to the largest unit can give a number below or above the actual number. Choose the unit that fits the situation.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "exp_tens_times_tens",
+      "title": "Multiply tens by tens",
+      "text": "3 tens times 4 tens is 12 hundreds, not 12 tens.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (Note)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_935292",
+      "title": "Round 935,292 to different places",
+      "text": "Hundred thousand: 900,000. Ten thousand: 940,000. Thousand: 935,000.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_chairs",
+      "title": "Chairs for 2,837 students",
+      "text": "Nearest thousand: 3,000 chairs. Nearest hundred: 2,800 chairs. Choose by what is reasonable for the situation.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_sp_a1",
+      "kind": "prior_knowledge",
+      "text": "What is 21,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 1 (derived: 20,000)"
+      }
+    },
+    {
+      "id": "q_sp_a4",
+      "kind": "prior_knowledge",
+      "text": "What is 541,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a4",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 4 (derived: 540,000)"
+      }
+    },
+    {
+      "id": "q_sp_a5",
+      "kind": "prior_knowledge",
+      "text": "What is 49,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a5",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 5 (derived: 50,000)"
+      }
+    },
+    {
+      "id": "q_sp_a8",
+      "kind": "prior_knowledge",
+      "text": "What is 369,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a8",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 8 (derived: 370,000)"
+      }
+    },
+    {
+      "id": "q_sp_a10",
+      "kind": "prior_knowledge",
+      "text": "What is 712,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a10",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 10 (derived: 710,000)"
+      }
+    },
+    {
+      "id": "q_sp_a13",
+      "kind": "prior_knowledge",
+      "text": "What is 137,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a13",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 13 (derived: 140,000)"
+      }
+    },
+    {
+      "id": "q_sp_a17",
+      "kind": "prior_knowledge",
+      "text": "What is 15,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a17",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 17 (derived: 20,000)"
+      }
+    },
+    {
+      "id": "q_sp_a18",
+      "kind": "prior_knowledge",
+      "text": "What is 25,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a18",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 18 (derived: 30,000)"
+      }
+    },
+    {
+      "id": "q_sp_a23",
+      "kind": "prior_knowledge",
+      "text": "What is 185,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a23",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 23 (derived: 190,000)"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "prior_knowledge",
+      "text": "What is 97,000 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 26 (derived: 100,000)"
+      }
+    },
+    {
+      "id": "q_sp_a30",
+      "kind": "prior_knowledge",
+      "text": "What is 31,200 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a30",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 30 (derived: 30,000)"
+      }
+    },
+    {
+      "id": "q_sp_a33",
+      "kind": "prior_knowledge",
+      "text": "What is 64,520 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a33",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 33 (derived: 60,000)"
+      }
+    },
+    {
+      "id": "q_sp_a37",
+      "kind": "prior_knowledge",
+      "text": "What is 38,396 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a37",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 37 (derived: 40,000)"
+      }
+    },
+    {
+      "id": "q_sp_a38",
+      "kind": "prior_knowledge",
+      "text": "What is 64,501 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a38",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 38 (derived: 60,000)"
+      }
+    },
+    {
+      "id": "q_sp_a40",
+      "kind": "prior_knowledge",
+      "text": "What is 239,500 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a40",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 40 (derived: 240,000)"
+      }
+    },
+    {
+      "id": "q_sp_a43",
+      "kind": "prior_knowledge",
+      "text": "What is 777,499 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_sp_a43",
+      "hint_ids": [
+        "h_sprint"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 43 (derived: 780,000)"
+      }
+    },
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 10 times 10?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_units_times"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (S: 10 × 10 = 100)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "1 ten times 1 ten equals how many hundreds?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_units_times"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (S: 1 ten × 1 ten = 1 hundred)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 1 ten times 50?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_units_times"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (sequence: 1 ten × 50; derived 500)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "1 ten times 80 equals how many hundreds?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_units_times"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (sequence: 1 ten × 80 = ___ hundreds; derived 8 hundreds)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "1 ten times what number equals 600?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_units_times"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (sequence: 1 ten × ___ = 600; derived 60)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "3 tens times 1 ten equals how many hundreds?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_units_times"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (sequence: 3 tens × 1 ten = ___ hundreds; derived 3 hundreds)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "3 tens times 4 tens equals how many hundreds?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_units_times"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (Note: 3 tens × 4 tens is 12 hundreds, not 12 tens)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "The post office sold 204,789 stamps last week and 93,061 this week. Round both numbers to the nearest ten thousand. What are they?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 200,000 and 90,000)"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "About how many more stamps did the post office sell last week than this week? Use the numbers rounded to the nearest ten thousand.",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 200,000 - 90,000 = 110,000)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "What is 935,292 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 900,000)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "We rounded 935,292 to the hundred thousands. What is the next largest unit to round to?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Ten thousands)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What is 935,292 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 940,000)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "What is 935,292 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 935,000)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "You round to smaller and smaller units. Does the estimate get closer to or farther from the actual number?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Rounding to smaller units gives an estimate closer to the actual value)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "The White House had 935,292 visitors in 2012. You need one map for each visitor. Should your estimate be greater than or less than 935,292?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_enough"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: It is better to have more maps than not enough maps)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "About how many maps would you predict for 2013? Round 935,292 to the nearest ten thousand.",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_enough"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: I predict 940,000 maps are needed)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "There were 998,250 visitors in 2011 and 935,292 in 2012. Did the number of visitors go up or down?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: The number of visitors decreased from 2011 to 2012)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Is 900,000 greater than or less than 935,292?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: In Problem 2, rounding to the largest unit resulted in a number less than the actual number)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "2,837 students attend a school. What is that rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 3,000 chairs)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "2,837 students attend a school. What is that rounded to the nearest hundred?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 2,800)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Is 3,000 greater than or less than 2,837?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: when we rounded to the largest unit in Problem 3, our estimate was greater)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Can rounding to the largest unit always give a reliable estimate?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_unit_pick"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: Rounding to the largest unit may not always be a reliable estimate)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "What is 543,982 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1 item 1 (derived: 544,000)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "What is 543,982 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1 item 2 (derived: 540,000)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "What is 543,982 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1 item 3 (derived: 500,000)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "What is 2,841 rounded to the nearest hundred?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 4 (derived: 2,800)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "What is 32,851 rounded to the nearest hundred?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 5 (derived: 32,900)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "What is 132,891 rounded to the nearest hundred?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 6 (derived: 132,900)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "What is 6,299 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 7 (derived: 6,000)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "What is 36,599 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 8 (derived: 37,000)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "What is 100,699 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 9 (derived: 101,000)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "What is 40,984 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 10 (derived: 40,000)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "What is 54,984 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 11 (derived: 50,000)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "What is 997,010 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 12 (derived: 1,000,000)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "What is 360,034 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 13 (derived: 400,000)"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "What is 436,709 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 14 (derived: 400,000)"
+      }
+    },
+    {
+      "id": "q_ps_15",
+      "kind": "practice",
+      "text": "What is 852,442 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_15",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 15 (derived: 900,000)"
+      }
+    },
+    {
+      "id": "q_ps_16",
+      "kind": "practice",
+      "text": "A school has 2,142 students. The principal rounds to the nearest hundred to order water bottles. How many bottles does she order?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_16",
+      "hint_ids": [
+        "h_unit_pick"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 2,142 rounds to 2,100)"
+      }
+    },
+    {
+      "id": "q_ps_17",
+      "kind": "practice",
+      "text": "The principal orders 2,100 bottles for 2,142 students. Will there be enough bottles for everyone?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_17",
+      "hint_ids": [
+        "h_enough"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 2,100 is 42 fewer than 2,142)"
+      }
+    },
+    {
+      "id": "q_ps_18",
+      "kind": "practice",
+      "text": "The New York State Fair had 46,753 people on opening day. Choose a place to round to for a newspaper article. Round the number and say why that place fits.",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_18",
+      "hint_ids": [
+        "h_unit_pick"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (S: decide which place value to round 46,753 to ... explain why it is an appropriate unit)"
+      }
+    },
+    {
+      "id": "q_ps_19",
+      "kind": "practice",
+      "text": "A jet holds about 65,000 gallons. Round it to its largest place.",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_19",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 70,000)"
+      }
+    },
+    {
+      "id": "q_ps_20",
+      "kind": "practice",
+      "text": "The jet uses about 7,460 gallons between New York and Los Angeles. Round it to its largest place.",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_20",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 7,000)"
+      }
+    },
+    {
+      "id": "q_ps_21",
+      "kind": "practice",
+      "text": "The jet has 70,000 gallons and uses 7,000 on each trip. About how many trips can it take?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_21",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 70,000 ÷ 7,000 = 10)"
+      }
+    },
+    {
+      "id": "q_ps_22",
+      "kind": "practice",
+      "text": "There are 598,500 Apple employees in the United States. What is that rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_22",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 599,000)"
+      }
+    },
+    {
+      "id": "q_ps_23",
+      "kind": "practice",
+      "text": "There are 598,500 Apple employees in the United States. What is that rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_23",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 600,000)"
+      }
+    },
+    {
+      "id": "q_ps_24",
+      "kind": "practice",
+      "text": "There are 598,500 Apple employees in the United States. What is that rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_24",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 600,000)"
+      }
+    },
+    {
+      "id": "q_ps_25",
+      "kind": "practice",
+      "text": "Why are the ten thousand and hundred thousand answers the same for 598,500?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_25",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (S: Explain why two of your answers are the same)"
+      }
+    },
+    {
+      "id": "q_ps_26",
+      "kind": "practice",
+      "text": "78,234 students took a survey in 2011. In 2012 the company planned 10 times as many. Round 78,234 to the nearest ten thousand. About how many surveys should it print?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_26",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 2 (derived: 80,000 × 10 = 800,000)"
+      }
+    },
+    {
+      "id": "q_ps_27",
+      "kind": "practice",
+      "text": "What is 845,001 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_27",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1 item 1 (derived: 845,000)"
+      }
+    },
+    {
+      "id": "q_ps_28",
+      "kind": "practice",
+      "text": "What is 845,001 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_28",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1 item 2 (derived: 850,000)"
+      }
+    },
+    {
+      "id": "q_ps_29",
+      "kind": "practice",
+      "text": "What is 845,001 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_29",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1 item 3 (derived: 800,000)"
+      }
+    },
+    {
+      "id": "q_ps_30",
+      "kind": "practice",
+      "text": "What is 783 rounded to the nearest hundred?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_30",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 4 (derived: 800)"
+      }
+    },
+    {
+      "id": "q_ps_31",
+      "kind": "practice",
+      "text": "What is 12,781 rounded to the nearest hundred?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_31",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 5 (derived: 12,800)"
+      }
+    },
+    {
+      "id": "q_ps_32",
+      "kind": "practice",
+      "text": "What is 951,194 rounded to the nearest hundred?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_32",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 6 (derived: 951,200)"
+      }
+    },
+    {
+      "id": "q_ps_33",
+      "kind": "practice",
+      "text": "What is 1,258 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_33",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 7 (derived: 1,000)"
+      }
+    },
+    {
+      "id": "q_ps_34",
+      "kind": "practice",
+      "text": "What is 65,124 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_34",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 8 (derived: 65,000)"
+      }
+    },
+    {
+      "id": "q_ps_35",
+      "kind": "practice",
+      "text": "What is 99,451 rounded to the nearest thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_35",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 9 (derived: 99,000)"
+      }
+    },
+    {
+      "id": "q_ps_36",
+      "kind": "practice",
+      "text": "What is 60,488 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_36",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 10 (derived: 60,000)"
+      }
+    },
+    {
+      "id": "q_ps_37",
+      "kind": "practice",
+      "text": "What is 80,801 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_37",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 11 (derived: 80,000)"
+      }
+    },
+    {
+      "id": "q_ps_38",
+      "kind": "practice",
+      "text": "What is 897,100 rounded to the nearest ten thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_38",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 12 (derived: 900,000)"
+      }
+    },
+    {
+      "id": "q_ps_39",
+      "kind": "practice",
+      "text": "What is 880,005 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_39",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 13 (derived: 900,000)"
+      }
+    },
+    {
+      "id": "q_ps_40",
+      "kind": "practice",
+      "text": "What is 545,999 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_40",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 14 (derived: 500,000)"
+      }
+    },
+    {
+      "id": "q_ps_41",
+      "kind": "practice",
+      "text": "What is 689,114 rounded to the nearest hundred thousand?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_41",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 15 (derived: 700,000)"
+      }
+    },
+    {
+      "id": "q_ps_42",
+      "kind": "practice",
+      "text": "29,867 men finished the 2011 New York City Marathon. Round to the nearest thousand. About how many men's shirts were given out?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_42",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(a) (derived: 30,000)"
+      }
+    },
+    {
+      "id": "q_ps_43",
+      "kind": "practice",
+      "text": "16,928 women finished the 2011 New York City Marathon. Round to the nearest thousand. About how many women's shirts were given out?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_43",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(a) (derived: 17,000)"
+      }
+    },
+    {
+      "id": "q_ps_44",
+      "kind": "practice",
+      "text": "42,429 people finished the 2010 marathon. You round to the nearest ten thousand to order medals. Do you order enough medals?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_44",
+      "hint_ids": [
+        "h_enough"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(b) (derived: 40,000 is fewer than 42,429)"
+      }
+    },
+    {
+      "id": "q_ps_45",
+      "kind": "practice",
+      "text": "In 2010, 28,357 men and 14,072 women finished. Round to the nearest ten thousand. About how many more men finished than women?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_45",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(c) (derived: 30,000 - 10,000 = 20,000)"
+      }
+    },
+    {
+      "id": "q_ps_46",
+      "kind": "practice",
+      "text": "In 2010, 28,357 men and 14,072 women finished. Round to the nearest thousand. About how many more men finished than women?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_46",
+      "hint_ids": [
+        "h_estimate"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(c) (derived: 28,000 - 14,000 = 14,000)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Why did rounding to the nearest hundred not work for the water bottles?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_enough"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (In Problem 3, why didn't rounding to the nearest hundred work?)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "When you estimate, how do you choose which unit to round to?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_unit_pick"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (When estimating, how do you choose to which unit you will round?)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Why might you round up, even though the numbers tell you to round down?",
+      "asset_ids": [
+        "a_round_line"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_enough"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Why might you round up, even though the numbers tell you to round down?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20,000",
+          "20000"
+        ]
+      },
+      "correct": "Says 20,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 1 (derived: 20,000)"
+      }
+    },
+    {
+      "id": "r_sp_a4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "540,000",
+          "540000"
+        ]
+      },
+      "correct": "Says 540,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 4 (derived: 540,000)"
+      }
+    },
+    {
+      "id": "r_sp_a5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50,000",
+          "50000"
+        ]
+      },
+      "correct": "Says 50,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 5 (derived: 50,000)"
+      }
+    },
+    {
+      "id": "r_sp_a8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "370,000",
+          "370000"
+        ]
+      },
+      "correct": "Says 370,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 8 (derived: 370,000)"
+      }
+    },
+    {
+      "id": "r_sp_a10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "710,000",
+          "710000"
+        ]
+      },
+      "correct": "Says 710,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 10 (derived: 710,000)"
+      }
+    },
+    {
+      "id": "r_sp_a13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "140,000",
+          "140000"
+        ]
+      },
+      "correct": "Says 140,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 13 (derived: 140,000)"
+      }
+    },
+    {
+      "id": "r_sp_a17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20,000",
+          "20000"
+        ]
+      },
+      "correct": "Says 20,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 17 (derived: 20,000)"
+      }
+    },
+    {
+      "id": "r_sp_a18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30,000",
+          "30000"
+        ]
+      },
+      "correct": "Says 30,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 18 (derived: 30,000)"
+      }
+    },
+    {
+      "id": "r_sp_a23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "190,000",
+          "190000"
+        ]
+      },
+      "correct": "Says 190,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 23 (derived: 190,000)"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100,000",
+          "100000"
+        ]
+      },
+      "correct": "Says 100,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 26 (derived: 100,000)"
+      }
+    },
+    {
+      "id": "r_sp_a30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30,000",
+          "30000"
+        ]
+      },
+      "correct": "Says 30,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 30 (derived: 30,000)"
+      }
+    },
+    {
+      "id": "r_sp_a33",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60,000",
+          "60000"
+        ]
+      },
+      "correct": "Says 60,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 33 (derived: 60,000)"
+      }
+    },
+    {
+      "id": "r_sp_a37",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40,000",
+          "40000"
+        ]
+      },
+      "correct": "Says 40,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 37 (derived: 40,000)"
+      }
+    },
+    {
+      "id": "r_sp_a38",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60,000",
+          "60000"
+        ]
+      },
+      "correct": "Says 60,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 38 (derived: 60,000)"
+      }
+    },
+    {
+      "id": "r_sp_a40",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "240,000",
+          "240000"
+        ]
+      },
+      "correct": "Says 240,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 40 (derived: 240,000)"
+      }
+    },
+    {
+      "id": "r_sp_a43",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "780,000",
+          "780000"
+        ]
+      },
+      "correct": "Says 780,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Round to the Nearest 10,000 Sprint A, item 43 (derived: 780,000)"
+      }
+    },
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (S: 10 × 10 = 100)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 hundred",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 1 hundred.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (S: 1 ten × 1 ten = 1 hundred)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500",
+          "five hundred"
+        ]
+      },
+      "correct": "Says 500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (sequence: 1 ten × 50; derived 500)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8 hundreds",
+          "eight hundreds"
+        ]
+      },
+      "correct": "Says 8 hundreds.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (sequence: 1 ten × 80 = ___ hundreds; derived 8 hundreds)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty"
+        ]
+      },
+      "correct": "Says 60.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (sequence: 1 ten × ___ = 600; derived 60)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 hundreds",
+          "three hundreds"
+        ]
+      },
+      "correct": "Says 3 hundreds.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_tens_times_tens"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (sequence: 3 tens × 1 ten = ___ hundreds; derived 3 hundreds)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12 hundreds",
+          "twelve hundreds"
+        ]
+      },
+      "correct": "Says 12 hundreds.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_tens_times_tens"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (Note: 3 tens × 4 tens is 12 hundreds, not 12 tens)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200,000 and 90,000",
+          "200,000 90,000",
+          "200000 and 90000",
+          "200,000, 90,000"
+        ]
+      },
+      "correct": "Says 200,000 and 90,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 200,000 and 90,000)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "110000",
+          "110,000",
+          "one hundred ten thousand",
+          "110,000 stamps",
+          "110000 stamps"
+        ]
+      },
+      "correct": "Says 110,000 stamps.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 200,000 - 90,000 = 110,000)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "900,000",
+          "900000"
+        ]
+      },
+      "correct": "Says 900,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 900,000)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "ten thousands",
+          "ten thousand",
+          "the ten thousands"
+        ]
+      },
+      "correct": "Says ten thousands.",
+      "partial": null,
+      "incorrect": "Names another unit.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Ten thousands)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "940,000",
+          "940000"
+        ]
+      },
+      "correct": "Says 940,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 940,000)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "935,000",
+          "935000"
+        ]
+      },
+      "correct": "Says 935,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 935,000)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "closer",
+          "closer to",
+          "closer to the actual number",
+          "closer to the actual value"
+        ]
+      },
+      "correct": "Says closer.",
+      "partial": null,
+      "incorrect": "Says farther.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Rounding to smaller units gives an estimate closer to the actual value)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "more",
+          "more than",
+          "greater than 935,292"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says less than.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: It is better to have more maps than not enough maps)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "940,000",
+          "940000"
+        ]
+      },
+      "correct": "Says 940,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: I predict 940,000 maps are needed)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "down",
+          "decreased",
+          "go down",
+          "it went down",
+          "went down",
+          "decrease"
+        ]
+      },
+      "correct": "Says it went down.",
+      "partial": null,
+      "incorrect": "Says it went up.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: The number of visitors decreased from 2011 to 2012)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than",
+          "less",
+          "less than 935,292"
+        ]
+      },
+      "correct": "Says less than.",
+      "partial": null,
+      "incorrect": "Says greater than.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: In Problem 2, rounding to the largest unit resulted in a number less than the actual number)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3,000",
+          "3000"
+        ]
+      },
+      "correct": "Says 3,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 3,000 chairs)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2,800",
+          "2800"
+        ]
+      },
+      "correct": "Says 2,800.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: 2,800)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "greater than",
+          "greater",
+          "more",
+          "more than",
+          "greater than 2,837"
+        ]
+      },
+      "correct": "Says greater than.",
+      "partial": null,
+      "incorrect": "Says less than.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: when we rounded to the largest unit in Problem 3, our estimate was greater)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no it can not",
+          "not always",
+          "no not always",
+          "it does not always"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: Rounding to the largest unit may not always be a reliable estimate)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "544,000",
+          "544000"
+        ]
+      },
+      "correct": "Says 544,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1 item 1 (derived: 544,000)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "540,000",
+          "540000"
+        ]
+      },
+      "correct": "Says 540,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1 item 2 (derived: 540,000)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500,000",
+          "500000"
+        ]
+      },
+      "correct": "Says 500,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 1 item 3 (derived: 500,000)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2,800",
+          "2800"
+        ]
+      },
+      "correct": "Says 2,800.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 4 (derived: 2,800)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32,900",
+          "32900"
+        ]
+      },
+      "correct": "Says 32,900.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 5 (derived: 32,900)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "132,900",
+          "132900"
+        ]
+      },
+      "correct": "Says 132,900.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 6 (derived: 132,900)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6,000",
+          "6000"
+        ]
+      },
+      "correct": "Says 6,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 7 (derived: 6,000)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "37,000",
+          "37000"
+        ]
+      },
+      "correct": "Says 37,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 8 (derived: 37,000)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "101,000",
+          "101000"
+        ]
+      },
+      "correct": "Says 101,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 9 (derived: 101,000)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40,000",
+          "40000"
+        ]
+      },
+      "correct": "Says 40,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 10 (derived: 40,000)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50,000",
+          "50000"
+        ]
+      },
+      "correct": "Says 50,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 11 (derived: 50,000)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1,000,000",
+          "1000000"
+        ]
+      },
+      "correct": "Says 1,000,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 12 (derived: 1,000,000)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "400,000",
+          "400000"
+        ]
+      },
+      "correct": "Says 400,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 13 (derived: 400,000)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "400,000",
+          "400000"
+        ]
+      },
+      "correct": "Says 400,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 14 (derived: 400,000)"
+      }
+    },
+    {
+      "id": "r_ps_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "900,000",
+          "900000"
+        ]
+      },
+      "correct": "Says 900,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 2 item 15 (derived: 900,000)"
+      }
+    },
+    {
+      "id": "r_ps_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2,100",
+          "2100"
+        ]
+      },
+      "correct": "Says 2,100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 2,142 rounds to 2,100)"
+      }
+    },
+    {
+      "id": "r_ps_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no there will not",
+          "there will not be enough",
+          "not enough",
+          "no there will not be enough"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 3 (derived: 2,100 is 42 fewer than 2,142)"
+      }
+    },
+    {
+      "id": "r_ps_18",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Rounds 46,753 correctly to a place, such as 47,000 or 50,000, and gives a reason that fits a news article.",
+      "partial": "Rounds correctly but gives no reason.",
+      "incorrect": "Rounds wrongly or gives a reason that does not fit.",
+      "unclear": "Child does not choose a place.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 4 (S: decide which place value to round 46,753 to ... explain why it is an appropriate unit)"
+      }
+    },
+    {
+      "id": "r_ps_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "70,000",
+          "70000"
+        ]
+      },
+      "correct": "Says 70,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 70,000)"
+      }
+    },
+    {
+      "id": "r_ps_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7,000",
+          "7000"
+        ]
+      },
+      "correct": "Says 7,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 7,000)"
+      }
+    },
+    {
+      "id": "r_ps_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten",
+          "10 trips"
+        ]
+      },
+      "correct": "Says 10 trips.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Problem 5 (derived: 70,000 ÷ 7,000 = 10)"
+      }
+    },
+    {
+      "id": "r_ps_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "599,000",
+          "599000"
+        ]
+      },
+      "correct": "Says 599,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 599,000)"
+      }
+    },
+    {
+      "id": "r_ps_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "600,000",
+          "600000"
+        ]
+      },
+      "correct": "Says 600,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 600,000)"
+      }
+    },
+    {
+      "id": "r_ps_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "600,000",
+          "600000"
+        ]
+      },
+      "correct": "Says 600,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (derived: 600,000)"
+      }
+    },
+    {
+      "id": "r_ps_25",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 598,500 is close to 600,000. It rounds up to 600,000 at both places.",
+      "partial": "Says they are the same without a reason.",
+      "incorrect": "Gives a reason that is not about rounding up.",
+      "unclear": "Child does not give a reason.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 1 (S: Explain why two of your answers are the same)"
+      }
+    },
+    {
+      "id": "r_ps_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "800000",
+          "800,000",
+          "eight hundred thousand",
+          "800,000 surveys",
+          "800000 surveys"
+        ]
+      },
+      "correct": "Says 800,000 surveys.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, Problem 2 (derived: 80,000 × 10 = 800,000)"
+      }
+    },
+    {
+      "id": "r_ps_27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "845,000",
+          "845000"
+        ]
+      },
+      "correct": "Says 845,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1 item 1 (derived: 845,000)"
+      }
+    },
+    {
+      "id": "r_ps_28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "850,000",
+          "850000"
+        ]
+      },
+      "correct": "Says 850,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1 item 2 (derived: 850,000)"
+      }
+    },
+    {
+      "id": "r_ps_29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "800,000",
+          "800000"
+        ]
+      },
+      "correct": "Says 800,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 1 item 3 (derived: 800,000)"
+      }
+    },
+    {
+      "id": "r_ps_30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "800",
+          "800"
+        ]
+      },
+      "correct": "Says 800.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 4 (derived: 800)"
+      }
+    },
+    {
+      "id": "r_ps_31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12,800",
+          "12800"
+        ]
+      },
+      "correct": "Says 12,800.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 5 (derived: 12,800)"
+      }
+    },
+    {
+      "id": "r_ps_32",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "951,200",
+          "951200"
+        ]
+      },
+      "correct": "Says 951,200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 6 (derived: 951,200)"
+      }
+    },
+    {
+      "id": "r_ps_33",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1,000",
+          "1000"
+        ]
+      },
+      "correct": "Says 1,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 7 (derived: 1,000)"
+      }
+    },
+    {
+      "id": "r_ps_34",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "65,000",
+          "65000"
+        ]
+      },
+      "correct": "Says 65,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 8 (derived: 65,000)"
+      }
+    },
+    {
+      "id": "r_ps_35",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "99,000",
+          "99000"
+        ]
+      },
+      "correct": "Says 99,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 9 (derived: 99,000)"
+      }
+    },
+    {
+      "id": "r_ps_36",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60,000",
+          "60000"
+        ]
+      },
+      "correct": "Says 60,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 10 (derived: 60,000)"
+      }
+    },
+    {
+      "id": "r_ps_37",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "80,000",
+          "80000"
+        ]
+      },
+      "correct": "Says 80,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 11 (derived: 80,000)"
+      }
+    },
+    {
+      "id": "r_ps_38",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "900,000",
+          "900000"
+        ]
+      },
+      "correct": "Says 900,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 12 (derived: 900,000)"
+      }
+    },
+    {
+      "id": "r_ps_39",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "900,000",
+          "900000"
+        ]
+      },
+      "correct": "Says 900,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 13 (derived: 900,000)"
+      }
+    },
+    {
+      "id": "r_ps_40",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500,000",
+          "500000"
+        ]
+      },
+      "correct": "Says 500,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 14 (derived: 500,000)"
+      }
+    },
+    {
+      "id": "r_ps_41",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "700,000",
+          "700000"
+        ]
+      },
+      "correct": "Says 700,000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 2 item 15 (derived: 700,000)"
+      }
+    },
+    {
+      "id": "r_ps_42",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30000",
+          "30,000",
+          "thirty thousand",
+          "30,000 shirts",
+          "30000 shirts"
+        ]
+      },
+      "correct": "Says 30,000 shirts.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(a) (derived: 30,000)"
+      }
+    },
+    {
+      "id": "r_ps_43",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17000",
+          "17,000",
+          "seventeen thousand",
+          "17,000 shirts",
+          "17000 shirts"
+        ]
+      },
+      "correct": "Says 17,000 shirts.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(a) (derived: 17,000)"
+      }
+    },
+    {
+      "id": "r_ps_44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no you do not",
+          "not enough",
+          "no not enough",
+          "you do not"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(b) (derived: 40,000 is fewer than 42,429)"
+      }
+    },
+    {
+      "id": "r_ps_45",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20000",
+          "20,000",
+          "twenty thousand",
+          "20,000 men",
+          "20000 men"
+        ]
+      },
+      "correct": "Says 20,000 men.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(c) (derived: 30,000 - 10,000 = 20,000)"
+      }
+    },
+    {
+      "id": "r_ps_46",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14000",
+          "14,000",
+          "fourteen thousand",
+          "14,000 men",
+          "14000 men"
+        ]
+      },
+      "correct": "Says 14,000 men.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3(c) (derived: 28,000 - 14,000 = 14,000)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 2,100 is less than 2,142, so some students would have no bottle.",
+      "partial": "Says it did not work but gives no reason.",
+      "incorrect": "Says it worked or gives another reason.",
+      "unclear": "Child does not give a reason.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (In Problem 3, why didn't rounding to the nearest hundred work?)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to think about the situation and pick the unit that makes the most sense.",
+      "partial": "Names a unit but not why.",
+      "incorrect": "Says to always pick the largest unit.",
+      "unclear": "Child does not give a way.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (When estimating, how do you choose to which unit you will round?)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says you need enough for everyone, so too many is better than too few.",
+      "partial": "Says to be safe but gives no example.",
+      "incorrect": "Gives a reason that does not fit.",
+      "unclear": "Child does not give a reason.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Why might you round up, even though the numbers tell you to round down?)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_sprint",
+      "level": 2,
+      "text": "Find the two ten thousands around the number. Compare with the halfway point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_units_times",
+      "level": 2,
+      "text": "Multiply the numbers. Then name the new unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_story",
+      "level": 2,
+      "text": "Round both numbers to the same place. Then subtract.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "h_round",
+      "level": 2,
+      "text": "Find the endpoints and the midpoint. Compare the number with the midpoint.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_enough",
+      "level": 2,
+      "text": "Think about whether each person needs one. Is it worse to have too few or too many?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_compare",
+      "level": 2,
+      "text": "Compare the rounded number with the actual number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unit_pick",
+      "level": 2,
+      "text": "Think about what the number is used for. Decide which place makes sense.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "h_estimate",
+      "level": 2,
+      "text": "Round each number first. Then do the operation with the rounded numbers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_tens_times_tens",
+      "label": "Multiplies tens by tens and keeps tens",
+      "description": "The child says 3 tens times 4 tens is 12 tens.",
+      "detection_signals": [
+        "says 12 tens for 3 tens times 4 tens"
+      ],
+      "response_text": "Multiply the numbers: 3 times 4 is 12. A ten times a ten is a hundred. So the answer is 12 hundreds.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Multiply by Ten (Note)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_round_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The lesson uses a number line and a teacher's board. The child cannot draw it.",
+      "description": "A vertical number line with a lower endpoint, an upper endpoint and a midpoint. The child picks a place, enters a number and sees all five roundings side by side.",
+      "must_show_exactly": [
+        "A vertical line with the lower endpoint at the bottom and the upper endpoint at the top",
+        "A midpoint mark with its value",
+        "A marker for the chosen number",
+        "A text box for a number up to 999,999",
+        "A choice of place: ten, hundred, thousand, ten thousand, hundred thousand",
+        "A table of the number rounded to every place"
+      ],
+      "states_or_frames": [
+        "Endpoints and midpoint shown",
+        "A number below the midpoint",
+        "A number above the midpoint",
+        "Table of roundings to every place"
+      ],
+      "interaction": "Child enters a number and picks a place. The line shows the endpoints and midpoint. A table shows the rounded number at every place.",
+      "alt_text": "A vertical number line with two endpoints, a midpoint, a marked number and a table of roundings.",
+      "generation_caption": "A clean vertical number line with labeled endpoints, midpoint and one marked point, with a small table beside it. [Build by code]",
+      "review_notes": "Source number lines are drawn by the teacher. Build from the printed values.",
+      "used_by": [
+        "ex_935292",
+        "ex_chairs",
+        "exp_best_estimate",
+        "exp_enough",
+        "exp_largest_unit",
+        "exp_smaller_units",
+        "exp_tens_times_tens",
+        "q_app_1",
+        "q_app_2",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pk_1",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pk_4",
+        "q_pk_5",
+        "q_pk_6",
+        "q_pk_7",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_11",
+        "q_ps_12",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_15",
+        "q_ps_16",
+        "q_ps_17",
+        "q_ps_18",
+        "q_ps_19",
+        "q_ps_2",
+        "q_ps_20",
+        "q_ps_21",
+        "q_ps_22",
+        "q_ps_23",
+        "q_ps_24",
+        "q_ps_25",
+        "q_ps_26",
+        "q_ps_27",
+        "q_ps_28",
+        "q_ps_29",
+        "q_ps_3",
+        "q_ps_30",
+        "q_ps_31",
+        "q_ps_32",
+        "q_ps_33",
+        "q_ps_34",
+        "q_ps_35",
+        "q_ps_36",
+        "q_ps_37",
+        "q_ps_38",
+        "q_ps_39",
+        "q_ps_4",
+        "q_ps_40",
+        "q_ps_41",
+        "q_ps_42",
+        "q_ps_43",
+        "q_ps_44",
+        "q_ps_45",
+        "q_ps_46",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9",
+        "q_sp_a1",
+        "q_sp_a10",
+        "q_sp_a13",
+        "q_sp_a17",
+        "q_sp_a18",
+        "q_sp_a23",
+        "q_sp_a26",
+        "q_sp_a30",
+        "q_sp_a33",
+        "q_sp_a37",
+        "q_sp_a38",
+        "q_sp_a4",
+        "q_sp_a40",
+        "q_sp_a43",
+        "q_sp_a5",
+        "q_sp_a8"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: timed paper race",
+      "reason": "Round to the Nearest 10,000 Sprint (A and B) of 44 short items. The timed race, scoring and Sprint A versus Sprint B cannot run on a screen. Its facts are used as practice questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint"
+      }
+    },
+    {
+      "id": "na_hands_on",
+      "name": "Hands-on work with real materials (writing on a personal board)",
+      "reason": "The child works on a screen. Real materials, cutting and tiling cannot be checked. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Covered by the debrief questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Drawing and writing on a personal white board",
+      "reason": "The tutor sees only typed text or a transcript, not paper or drawings. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice and Concept Development"
+      }
+    },
+    {
+      "id": "na_draw_on_sheet",
+      "name": "Draw on the worksheet (draw a rectangle, draw lines, circle shapes)",
+      "reason": "The tutor cannot see drawings. These items are skipped or asked as typed questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this license before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "medium",
+      "item": "Sprint",
+      "issue": "Sprint A items 1, 4, 5, 8, 10, 13, 17, 18, 23, 26, 30, 33, 37, 38, 40 and 43 were used. The source does not print answers, so the roundings were computed. Sprint B follows the same pattern and was not used."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "Derived answers",
+      "issue": "Only the lesson examples are printed. All Problem Set, Exit Ticket, Homework and Application Problem answers were computed."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Word problem choices",
+      "issue": "The source asks the child to choose a place or explain. Where it gives no place, questions name the place used (for example the nearest ten thousand for the stamps and surveys). A person should confirm these."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Open answers",
+      "issue": "q_ps_18, q_ps_25 and q_db_1 to q_db_3 accept any clear answer that fits. A person should check how they are marked."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Debrief items left out",
+      "issue": "Debrief items about Problem 5 relationships, estimates in Problem 1 and the best estimate depend on the child's own work and were left out."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Explain items left out",
+      "issue": "The explain parts of Problem Set items 3, 4 and 5 and the Homework were left out unless asked as a question."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Sheet labels",
+      "issue": "The .md does not label the Problem Set, Exit Ticket and Homework. Sheet order (first, second, third Name/Date page) was used. Problem Set on the first sheet; Exit Ticket on the second; Homework on the third. Check the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards come from the codes printed in the lesson text only (4.NBT.1, 4.NBT.3)."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "source_version",
+      "issue": "The .md file has no page footer, so source_version could not be copied."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f13",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot count. Build every visual with exact counts by code, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are not_available yet: a_round_line. Items that use them cannot be launched until the assets exist."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class. All child-facing text was rewritten for a screen and needs a wording review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "The lesson input block was not given, so prerequisite_ids is empty. A person must add the real prerequisite cards (for example earlier lessons of this module)."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

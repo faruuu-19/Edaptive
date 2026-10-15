@@ -5,6 +5,8 @@ from sqlalchemy import select
 
 from app.modules.consent.models import ConsentDecision
 
+from .conftest import PARENT_PIN
+
 
 def path(child, suffix=""):
     return "/api/consent/" + child["id"] + suffix
@@ -57,8 +59,9 @@ def test_decisions_are_per_child_and_household(parent_client, child):
     assert parent_client.put(path(unknown, "/camera"), json={"granted": True}).status_code == 404
 
 
-def test_archived_child_cannot_receive_new_permissions(parent_client, child):
-    assert parent_client.delete("/api/profiles/" + child["id"]).status_code == 204
+def test_unenrolled_child_cannot_receive_new_permissions(parent_client, child):
+    unenroll = parent_client.post("/api/profiles/" + child["id"] + "/unenroll", json={"pin": PARENT_PIN})
+    assert unenroll.status_code == 204
     assert parent_client.get(path(child)).status_code == 404
     assert parent_client.put(path(child, "/camera"), json={"granted": True}).status_code == 404
 

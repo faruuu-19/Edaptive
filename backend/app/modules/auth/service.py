@@ -58,11 +58,8 @@ def setup_household(db: Session, pin: str) -> str:
     return _open_session(db, household.id, "parent", None)
 
 
-def sign_in_parent(db: Session, pin: str) -> str:
-    household = get_household(db)
-    if household is None:
-        raise AuthError(409, "not set up yet")
-    record = db.get(ParentPin, household.id, with_for_update=True)
+def _check_pin(db: Session, household_id: uuid.UUID, pin: str) -> None:
+    record = db.get(ParentPin, household_id, with_for_update=True)
     now = _now()
     if record.locked_until and record.locked_until > now:
         raise AuthError(429, "too many attempts", int((record.locked_until - now).total_seconds()) + 1)
@@ -74,6 +71,18 @@ def sign_in_parent(db: Session, pin: str) -> str:
         db.commit()
         raise AuthError(401, "wrong PIN")
     record.failed_attempts, record.locked_until = 0, None
+
+
+def confirm_pin(db: Session, household_id: uuid.UUID, pin: str) -> None:
+    """Re-check the parent PIN for a sensitive action (counts toward the same lockout)."""
+    _check_pin(db, household_id, pin)
+
+
+def sign_in_parent(db: Session, pin: str) -> str:
+    household = get_household(db)
+    if household is None:
+        raise AuthError(409, "not set up yet")
+    _check_pin(db, household.id, pin)
     return _open_session(db, household.id, "parent", None)
 
 

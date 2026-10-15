@@ -231,3 +231,9 @@
 }
 .profileLink::after { content: ""; position: absolute; inset: 0; }
 .profileLink:hover .listName { text-decoration: underline; }
+
+/* Confirm-with-PIN dialog for permanently unenrolling a child. */
+.unenrollDialog { border: 2px solid var(--ink); border-radius: var(--radius); background: var(--surface); color: var(--ink); padding: 28px; width: min(92vw, 440px); box-shadow: 6px 6px 0 var(--ink); }
+.unenrollDialog::backdrop { background: rgba(34, 48, 75, 0.45); }
+.unenrollDialog h2 { font-family: var(--display); font-weight: 800; font-size: 1.7rem; margin: 0; }
+.unenrollDialog p { margin: 0; line-height: 1.5; }

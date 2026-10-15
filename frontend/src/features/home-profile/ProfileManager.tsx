@@ -5,7 +5,6 @@ import { useRouter } from "next/navigation";
 import { type FormEvent, type ReactNode, useEffect, useState } from "react";
 
 import {
-  archiveProfile,
   createProfile,
   listProfiles,
   type Profile,
@@ -18,14 +17,16 @@ import { AVATAR_COLOURS, DEFAULT_AVATAR } from "./avatars";
 import { Avatar } from "./Avatar";
 import styles from "./home-profile.module.css";
 import { LockIcon } from "./icons";
+import { UnenrollDialog } from "./UnenrollDialog";
 
 const EMPTY: ProfileInput = { display_name: "", grade: 1, avatar_key: DEFAULT_AVATAR };
 
-/** Parent-only: add, edit and archive children. Render inside the auth feature's ParentGate. */
+/** Parent-only: add, edit and unenroll children. Render inside the auth feature's ParentGate. */
 export function ProfileManager({ headerActions }: { headerActions?: ReactNode } = {}) {
   const router = useRouter();
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [editing, setEditing] = useState<Profile | null>(null);
+  const [unenrolling, setUnenrolling] = useState<Profile | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   const reload = () => listProfiles().then(setProfiles, () => setError("Couldn't load profiles."));
@@ -36,7 +37,8 @@ export function ProfileManager({ headerActions }: { headerActions?: ReactNode } 
   async function save(input: ProfileInput) {
     setError(null);
     try {
-      if (editing) await updateProfile(editing.id, input);
+      // A child's grade is fixed once they are added.
+      if (editing) await updateProfile(editing.id, { display_name: input.display_name, avatar_key: input.avatar_key });
       else await createProfile(input);
       setEditing(null);
       await reload();
@@ -47,10 +49,9 @@ export function ProfileManager({ headerActions }: { headerActions?: ReactNode } 
     }
   }
 
-  async function archive(profile: Profile) {
-    if (!window.confirm(`Remove ${profile.display_name}'s profile? Their learning history is kept.`)) return;
-    await archiveProfile(profile.id);
-    if (editing?.id === profile.id) setEditing(null);
+  async function unenrolled() {
+    if (editing?.id === unenrolling?.id) setEditing(null);
+    setUnenrolling(null);
     await reload();
   }
 
@@ -100,8 +101,8 @@ export function ProfileManager({ headerActions }: { headerActions?: ReactNode } 
                   <button className="btn" onClick={() => setEditing(p)}>
                     Edit
                   </button>
-                  <button className="btn btn-quiet btn-danger" onClick={() => archive(p)}>
-                    Remove
+                  <button className="btn btn-quiet btn-danger" onClick={() => setUnenrolling(p)}>
+                    Unenroll
                   </button>
                 </div>
               </div>
@@ -124,6 +125,7 @@ export function ProfileManager({ headerActions }: { headerActions?: ReactNode } 
           {error}
         </p>
       )}
+      {unenrolling && <UnenrollDialog profile={unenrolling} onDone={() => void unenrolled()} onCancel={() => setUnenrolling(null)} />}
     </div>
   );
 }
@@ -164,20 +166,29 @@ function ProfileForm({ initial, title, submitLabel, onSubmit, onCancel }: FormPr
           onChange={(e) => setForm({ ...form, display_name: e.target.value })}
         />
       </label>
-      <label className="field">
-        Grade
-        <select
-          className="input"
-          value={form.grade}
-          onChange={(e) => setForm({ ...form, grade: Number(e.target.value) })}
-        >
-          {[1, 2, 3, 4, 5].map((g) => (
-            <option key={g} value={g}>
-              Grade {g}
-            </option>
-          ))}
-        </select>
-      </label>
+      {onCancel ? (
+        <div className="field">
+          Grade
+          <p style={{ margin: 0 }}>
+            <strong>Grade {form.grade}</strong> <span className="muted">· a child’s grade can’t be changed</span>
+          </p>
+        </div>
+      ) : (
+        <label className="field">
+          Grade
+          <select
+            className="input"
+            value={form.grade}
+            onChange={(e) => setForm({ ...form, grade: Number(e.target.value) })}
+          >
+            {[1, 2, 3, 4, 5].map((g) => (
+              <option key={g} value={g}>
+                Grade {g}
+              </option>
+            ))}
+          </select>
+        </label>
+      )}
       <div className="field">
         Colour
         <div className={styles.swatches}>

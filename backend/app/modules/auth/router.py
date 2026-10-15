@@ -8,7 +8,7 @@ from sqlalchemy.orm import Session
 
 from app.core.db import DbSession
 from app.core.household import get_household
-from app.core.identity import Actor, install_actor_resolver
+from app.core.identity import Actor, install_actor_resolver, install_pin_confirmer
 from app.modules.auth import service
 from app.modules.auth.pin import PIN_PATTERN
 from app.session_log import append
@@ -22,8 +22,17 @@ def _resolve(request: Request, db: Session) -> Actor | None:
     return service.resolve_token(db, request.cookies.get(COOKIE))
 
 
+def _confirm_pin(db: Session, household_id: uuid.UUID, pin: str) -> None:
+    try:
+        service.confirm_pin(db, household_id, pin)
+    except service.AuthError as exc:
+        headers = {"Retry-After": str(exc.retry_after)} if exc.retry_after else None
+        raise HTTPException(exc.status, exc.detail, headers=headers) from None
+
+
 def on_mount(api: FastAPI) -> None:
     install_actor_resolver(api, _resolve)
+    install_pin_confirmer(api, _confirm_pin)
 
 
 Pin = Annotated[str, Field(pattern=PIN_PATTERN.pattern, description="4-6 digits")]

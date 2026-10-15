@@ -29,6 +29,7 @@ type Props = {
 export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnooze, onRejoin }: Props) {
   const ready = slot?.preparation?.status === 'ready';
   const percent = ready ? 100 : Math.round(slot?.preparation?.percent ?? 0);
+  const dead = slot?.preparation?.status === 'cancelled' || slot?.preparation?.status === 'failed';
   const snoozed = (slot?.borrowed_minutes ?? 0) > 0;
   const active = schedule?.status === 'active';
   const memory = needsMemoryHelp(slot?.preparation);
@@ -69,7 +70,7 @@ export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnoo
       <h2 className={styles.classTitle}>It’s time for Maths!</h2>
       <p className={styles.classLine}>{ready ? 'Your lesson is ready.' : 'Your teacher is almost ready.'}</p>
       {trouble}
-      {!ready && <label className={styles.classProgress}>
+      {!ready && !dead && <label className={styles.classProgress}>
         <progress max="100" value={percent} aria-label="Getting the lesson ready" />
         <span>{percent}%</span>
       </label>}

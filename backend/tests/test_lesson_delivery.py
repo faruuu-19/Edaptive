@@ -706,3 +706,73 @@ def test_a_lesson_that_was_never_ready_is_not_held_and_not_logged_as_absent(
     assert carried["status"] == "planned" and "attendance" not in carried, "it is simply tried again tomorrow"
     routines.refresh_routine(db, routine, cards_loader=lambda: router.available(), force=True)
     assert attendance_events(db, child) == []
+
+
+# ---- A class that could not run moves to the next school day; its lesson is prepared on schedule --------
+
+AFTER_CLASS = datetime(2026, 10, 14, 10, 0, tzinfo=UTC)  # 15:00 in Pakistan: the 09:00 class is over
+
+
+def unrun_class(db, result, preparation):
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    state = copy.deepcopy(row.state)
+    state["slots"][0]["preparation"] = preparation
+    row.state = state
+    db.flush()
+    return state["slots"][0]
+
+
+def refresh_at(db, child, monkeypatch, now):
+    monkeypatch.setattr(routines, "clock_now", lambda: now)
+    routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
+    routines.refresh_routine(db, routine, cards_loader=lambda: router.available())
+
+
+@pytest.mark.parametrize("dead", ["cancelled", "failed"])
+def test_a_class_that_could_not_run_moves_to_the_next_school_day_with_a_fresh_job(
+    parent_client, child, db, monkeypatch, dead
+):
+    result = create_plan(parent_client, child)
+    old = unrun_class(db, result, {"status": dead, "percent": 3})
+    refresh_at(db, child, monkeypatch, AFTER_CLASS)
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    slot = row.state["slots"][0]
+    assert row.state["school_date"] == "2026-10-15"
+    assert slot["start_ms"] > old["start_ms"] + 20 * 3600 * 1000, "the next morning's class"
+    assert slot["job_id"] != old["job_id"], "a cancelled or failed job is never reused"
+    assert slot["preparation"]["status"] == "waiting" and slot["preparation"]["percent"] == 0
+    # Preparation starts when its time comes, not now.
+    assert AFTER_CLASS.timestamp() * 1000 < slot["prepare_at_ms"] < slot["start_ms"]
+    assert attendance_events(db, child) == [], "a class that could not run is nobody's absence"
+
+
+@pytest.mark.parametrize("live", ["preparing", "paused", "queued"])
+def test_a_lesson_still_being_prepared_keeps_its_job_when_the_class_moves(
+    parent_client, child, db, monkeypatch, live
+):
+    result = create_plan(parent_client, child)
+    old = unrun_class(db, result, {"status": live, "percent": 40})
+    refresh_at(db, child, monkeypatch, AFTER_CLASS)
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    slot = row.state["slots"][0]
+    assert row.state["school_date"] == "2026-10-15"
+    assert slot["job_id"] == old["job_id"] and slot["preparation"]["status"] == live
+
+
+def test_a_ready_lesson_stays_on_its_day_so_the_child_can_still_join_late(
+    parent_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    _, old = prepared(db, result)
+    refresh_at(db, child, monkeypatch, AFTER_CLASS)
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    assert row.state["school_date"] == "2026-10-14" and row.state["slots"][0]["start_ms"] == old["start_ms"]
+    assert attendance_events(db, child) == [], "absence is only decided at the end of the school day"
+
+
+def test_a_class_that_is_not_over_yet_is_not_moved(parent_client, child, db, monkeypatch):
+    result = create_plan(parent_client, child)
+    old = unrun_class(db, result, {"status": "cancelled", "percent": 3})
+    refresh_at(db, child, monkeypatch, datetime(2026, 10, 14, 3, 0, tzinfo=UTC))  # 08:00, before class
+    slot = db.get(Timetable, uuid.UUID(result["id"])).state["slots"][0]
+    assert slot["start_ms"] == old["start_ms"] and slot["job_id"] == old["job_id"]

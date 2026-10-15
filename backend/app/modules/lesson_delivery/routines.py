@@ -175,7 +175,17 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
         append_coming_soon(state)
         started = any(s["status"] == "started" for s in state["slots"])
         missed = state.get("school_date", "9999") < now.astimezone(SCHOOL_ZONE).date().isoformat()
-        if (changed or missed) and not started:
+        now_ms = now.timestamp() * 1000
+        # Its time is over and no lesson was ready: the class could not run, so it moves to the next
+        # school day now, not at midnight. (A ready lesson stays so the child can still join late.)
+        unrun = any(
+            s["kind"] == "lesson"
+            and s["status"] == "planned"
+            and now_ms >= s["end_ms"]
+            and s.get("preparation", {}).get("status") != "ready"
+            for s in state["slots"]
+        )
+        if (changed or missed or unrun) and not started:
             index = next(
                 i
                 for i, s in enumerate(state["slots"])
@@ -194,6 +204,16 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
                 lesson["attempt_base"] = len(set(lesson.get("narrated_positions", [])))
                 for key in ("exited_at_ms", "exit_reason", "attendance"):
                     lesson.pop(key, None)
+                if lesson.get("preparation", {}).get("status") in {"cancelled", "failed"}:
+                    # A cancelled or failed job is never reused: prepare again when the new time comes.
+                    lesson.update(
+                        job_id=str(uuid.uuid4()),
+                        preparation={
+                            "status": "waiting",
+                            "percent": 0,
+                            "message": "Coming soon · waiting for preparation time",
+                        },
+                    )
             state["school_date"] = at.date().isoformat()
             routine.last_school_date = at.date()
         active.state = state

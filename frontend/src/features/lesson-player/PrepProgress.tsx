@@ -19,7 +19,9 @@ export function PrepProgress({ studentId }: { studentId: string }) {
         const { timetables } = await getTimetables(studentId);
         const day = chooseDay(timetables);
         const slot = day?.status === 'active' ? day.slots.find(s => s.id === day.current_slot_id) : undefined;
-        const value = slot ? (slot.preparation?.status === 'ready' ? 100 : Math.round(slot.preparation?.percent ?? 0)) : null;
+        // A cancelled or failed lesson is not being prepared, so there is nothing to show.
+        const dead = slot?.preparation?.status === 'cancelled' || slot?.preparation?.status === 'failed';
+        const value = slot && !dead ? (slot.preparation?.status === 'ready' ? 100 : Math.round(slot.preparation?.percent ?? 0)) : null;
         if (active) { setPercent(value === null ? null : Math.max(0, Math.min(100, value))); setPaused(!!slot && needsMemoryHelp(slot.preparation)); setWaitingText(slot && day && isWaitingToPrepare(slot.preparation) ? prepareTimeText(slot.prepare_at_ms, day.server_now_ms) : null); }
       } catch { if (active) setPercent(null); }
       if (active) timer = setTimeout(poll, 2000);

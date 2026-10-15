@@ -1,0 +1,1131 @@
+{
+  "schema_version": "0.2-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g5_m1_l9_add_decimals_place_value_strategies_v2",
+  "card_version": 2,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g5_m1_l9_add_decimals_place_value_strategies",
+    "concept_version": 1
+  },
+  "subject": "math",
+  "grade": 5,
+  "objective_refs": [
+    "obj_1"
+  ],
+  "provenance": {
+    "generated_by": "claude_manual_fixture",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+    "incorrect": "hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_without_using_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "reveal_worked_answer_then_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_7"
+      },
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "visual_asset",
+        "asset_ref": {
+          "scope": "concept_card",
+          "id": "a_place_value_disks"
+        },
+        "state": "disks laid out",
+        "description": "Place value disks: tens, ones, tenths (and hundredths when asked), laid out in five-group formation. Child can bundle 10 disks into 1 disk of the next larger unit.",
+        "must_show_exactly": [
+          "Number of disks of each unit matches the stimulus",
+          "Each disk shows its value (10, 1, 0.1, 0.01)",
+          "Bundling 10 disks gives 1 disk of the next unit"
+        ],
+        "states_or_frames": [
+          "disks laid out",
+          "10 disks circled",
+          "disks traded for 1 larger disk"
+        ],
+        "alt_text": "Round place value disks in rows of five, each showing a value."
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_7"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_3"
+        }
+      ],
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ],
+      "prompt": "A runner jogged 2.45 kilometers in the morning and 1.8 kilometers in the afternoon. In the evening the runner walked 0.6 kilometer. How many kilometers did the runner cover in all?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ],
+      "prompt": "Mia has 3.46 liters of juice and 2.78 liters of lemonade. Think of 3.46 as 3.4 and 0.06, and think of 2.78 as 2.7 and 0.08.",
+      "response_type": "multi_part",
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "Add 0.06 and 0.08. Write the sum as a decimal.",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p2",
+          "prompt": "Use your answer. Add 3.4 and 2.7, then add your answer. How many liters of drink does Mia have?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p3",
+          "prompt": "Check another way. Add 3.46 and 2.78 as one sum. How many liters of drink does Mia have?",
+          "response_type": "numeric_short"
+        }
+      ],
+      "final_part_id": "p2",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ],
+      "prompt": "Let's try an easier one: Add 3 tenths and 9 tenths. Write the sum as a decimal.",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ],
+      "prompt": "Let's try an easier one: Mia has 3.46 liters of juice and 2.78 liters of lemonade. Think of 3.46 as 3.4 and 0.06, and think of 2.78 as 2.7 and 0.08. Add 0.06 and 0.08. Write the sum as a decimal.",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4.85",
+          "four point eight five",
+          "four and eighty five hundredths"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 4.85.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 4.85.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "parts": [
+          {
+            "part_id": "p1",
+            "accept": [
+              "0.14",
+              "zero point one four",
+              "fourteen hundredths"
+            ]
+          },
+          {
+            "part_id": "p2",
+            "accept": [
+              "6.24",
+              "six point two four",
+              "six and twenty four hundredths"
+            ]
+          },
+          {
+            "part_id": "p3",
+            "accept": [
+              "6.24",
+              "six point two four",
+              "six and twenty four hundredths"
+            ]
+          }
+        ],
+        "final_part_id": "p2"
+      },
+      "partial_credit_eligible": true,
+      "correct": "Says 0.14 for p1, 6.24 for p2, and 6.24 for p3.",
+      "partial": "Gives some of the parts correctly but not all of them.",
+      "incorrect": "Gives clear numbers but none of the parts are correct.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.2",
+          "one point two",
+          "one and two tenths"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 1.2.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 1.2.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.14",
+          "zero point one four",
+          "fourteen hundredths"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 0.14.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 0.14.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_aq_easy_01_1",
+      "question_id": "aq_easy_01",
+      "level": 1,
+      "text": "13 tenths is more than 1 one. Write it as a decimal first.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_2",
+      "question_id": "aq_easy_01",
+      "level": 2,
+      "text": "13 tenths is 1.3. Now add 1.8 and 1.3.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_3",
+      "question_id": "aq_easy_01",
+      "level": 3,
+      "text": "8 tenths plus 3 tenths is 11 tenths. Regroup 10 tenths as 1 one.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_1"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_1",
+      "question_id": "aq_med_01",
+      "level": 1,
+      "text": "Add the distances two at a time.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_2",
+      "question_id": "aq_med_01",
+      "level": 2,
+      "text": "Line up the places: 2.45 and 1.80 have ones, tenths and hundredths.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_3",
+      "question_id": "aq_med_01",
+      "level": 3,
+      "text": "2.45 + 1.8 = 4.25. Now add 0.6.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_1",
+      "question_id": "aq_hard_01",
+      "level": 1,
+      "text": "Add the small parts first, then the larger parts.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_2",
+      "question_id": "aq_hard_01",
+      "level": 2,
+      "text": "For part 1, add the hundredths 0.06 and 0.08. For part 2, add 3.4 and 2.7, then add your part 1 answer.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_3",
+      "question_id": "aq_hard_01",
+      "level": 3,
+      "text": "For part 3, add the two full amounts, 3.46 and 2.78, in one sum.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_1",
+      "question_id": "fu_aq_med_01",
+      "level": 1,
+      "text": "Think about tenths as a unit.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_2",
+      "question_id": "fu_aq_med_01",
+      "level": 2,
+      "text": "3 tenths plus 9 tenths is 12 tenths.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_3",
+      "question_id": "fu_aq_med_01",
+      "level": 3,
+      "text": "Ten tenths make 1 one. Trade 10 tenths for 1 one.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_1",
+      "question_id": "fu_aq_hard_01",
+      "level": 1,
+      "text": "Think about hundredths as a unit.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_2",
+      "question_id": "fu_aq_hard_01",
+      "level": 2,
+      "text": "6 hundredths plus 8 hundredths is 14 hundredths.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_3",
+      "question_id": "fu_aq_hard_01",
+      "level": 3,
+      "text": "14 hundredths is 1 tenth and 4 hundredths. Write it as a decimal.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_like_units"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_regroup"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_align"
+        }
+      ]
+    }
+  ],
+  "tutor_guidance": {
+    "delivery_order": [
+      "aq_easy_01",
+      "aq_med_01",
+      "aq_hard_01"
+    ],
+    "input_contract": {
+      "concept_card_required": true,
+      "concept_id": "math_g5_m1_l9_add_decimals_place_value_strategies",
+      "concept_version": 1,
+      "authoritative_rules": "Use v0.2 route definitions and per-question guidance. Resolve concept_card references against the linked concept; do not invent missing questions, assets, answers, or hints."
+    },
+    "attempt_policy": {
+      "main_question_max_attempts": 2,
+      "followup_max_attempts": 1,
+      "count_attempt_when": [
+        "correct",
+        "partial",
+        "incorrect",
+        "incomplete"
+      ],
+      "help_uses_attempt": false,
+      "first_unclear_uses_attempt": false,
+      "unclear_reprompt_limit_per_question": 1,
+      "repeated_unclear": "Count one incorrect attempt and take that question's incorrect route.",
+      "followup_uses_parent_attempt": false,
+      "followup_limit_per_parent": 1,
+      "parent_attempts_persist_after_followup": true,
+      "correct_checked_before_exhaustion": true,
+      "at_parent_limit": "If correct, advance. Otherwise reveal all required answers with worked steps and advance; do not launch another follow-up or retry.",
+      "at_followup_limit": "If incorrect or repeatedly unclear, reveal the follow-up answer; then return to the parent if it has an attempt left, otherwise reveal the parent and advance."
+    },
+    "outcome_classification": {
+      "single_answer": "Compare with the linked rubric. Use partial only when that rubric explicitly permits it. If no answer can be understood, use unclear.",
+      "multi_part_priority": [
+        "unclear",
+        "incomplete",
+        "correct",
+        "partial",
+        "incorrect"
+      ],
+      "multi_part_rules": {
+        "unclear": "No part can be understood, or a supplied part remains ambiguous. Reprompt only the ambiguous part when another part is understood.",
+        "incomplete": "At least one part is understood, no supplied part is ambiguous, and one or more required parts are missing.",
+        "correct": "All required parts are present and match their answer keys.",
+        "partial": "All required parts are understood and present, and some but not all match. Keep correct parts and retry only incorrect parts.",
+        "incorrect": "All required parts are understood and present, and none match."
+      },
+      "final_part_alone_is_not_full_credit": true,
+      "accumulate_correct_parts_across_attempts": true,
+      "open_response": "Accept equivalent wording that meets the linked rubric's correct description. Use its partial description only when explicitly present; do not require an exact wording for an open answer.",
+      "normalization": "Trim surrounding whitespace and punctuation and ignore letter case. Use the declared rubric accept variants. A clear unambiguous number with the question's unit can be compared as a number; ambiguous or conflicting numbers require a reprompt."
+    },
+    "hint_policy": {
+      "sequence_source": "Use each question's hint_sequence in order; source_hint_refs are provenance, not an additional delivery sequence.",
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "delivery": "Give one hint at a time. Never reveal a later hint automatically.",
+      "on_help": "Give the next unused hint without consuming an attempt, then repeat the pending question or retry parts.",
+      "after_last_hint": "Repeat the last hint and reprompt the pending question without consuming an attempt for help. Reveal only after the attempt limit or an explicit request for the answer.",
+      "on_answer_requested": "Reveal worked steps, then advance for a main question or return to its parent for a follow-up.",
+      "partial_or_incomplete": "Keep correct parts. Read only unresolved part prompts; do not ask the learner to redo correct parts."
+    },
+    "silence_policy": {
+      "seconds": 20,
+      "action": "unclear",
+      "reprompt_limit_per_question": 1,
+      "after_reprompt": "A second silence counts as an incorrect attempt. Follow the question's incorrect route."
+    },
+    "route_definitions": {
+      "advance_to_next_question_or_close": "Advance through delivery_order; close after the final main question.",
+      "retry_eligible_parts_with_hint_until_max_attempts": "Give next hint and retry only unresolved parts if attempts remain; otherwise reveal and advance.",
+      "hint_then_retry_until_max_attempts": "Give next hint and retry if attempts remain; otherwise reveal and advance.",
+      "reprompt_once_then_treat_as_incorrect": "One clarification without an attempt; repeated unclear counts as incorrect and follows the current question's incorrect route.",
+      "followup_once_then_retry_parent_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry parent if attempts remain; otherwise reveal parent and advance. If already used, hint and retry without another follow-up.",
+      "followup_once_then_retry_missing_parts_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry only missing or incorrect parts if attempts remain; otherwise reveal and advance. If already used, retry missing or incorrect parts without another follow-up.",
+      "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance": "Return to triggered_by.question_id while preserving attempts and correct parts. Retry unresolved parts if an attempt remains; otherwise reveal parent and advance.",
+      "reveal_followup_then_return_to_parent_if_attempt_remains": "Reveal the follow-up with worked steps, then return to triggered_by.question_id if attempts remain; otherwise reveal parent and advance."
+    },
+    "closing": {
+      "say": "You have finished these questions. Thank you for trying.",
+      "record": [
+        "question_id",
+        "outcome",
+        "attempts_used",
+        "hints_delivered",
+        "followup_used",
+        "correct_part_ids",
+        "answer_revealed"
+      ],
+      "mastery_claim": "Record observed results; do not claim mastery from this three-question draft assessment alone."
+    },
+    "questions": [
+      {
+        "question_id": "aq_easy_01",
+        "delivery_prompt": "Add 1.8 and 13 tenths. Write the sum as a decimal.",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": true,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_3"
+          }
+        ],
+        "source_hint_refs": [
+          {
+            "scope": "concept_card",
+            "id": "h_like"
+          },
+          {
+            "scope": "concept_card",
+            "id": "h_regroup"
+          },
+          {
+            "scope": "concept_card",
+            "id": "h_chart"
+          }
+        ],
+        "feedback": {
+          "correct": "Yes. The sum is 3.1.",
+          "partial": "You have started adding. Check the regrouping.",
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say the sum.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say the sum.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "concept_card",
+            "id": "r_pr_7"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "3.1",
+              "three point one",
+              "three and one tenth"
+            ]
+          },
+          "say": "Let us work it out together. 13 tenths is 1.3. 1.8 + 1.3 = 3.1. The sum is 3.1.",
+          "worked_steps": [
+            "13 tenths is 1.3.",
+            "1.8 + 1.3 = 3.1.",
+            "The sum is 3.1."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_med_01",
+        "delivery_prompt": "A runner jogged 2.45 kilometers in the morning and 1.8 kilometers in the afternoon. In the evening the runner walked 0.6 kilometer. How many kilometers did the runner cover in all?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The runner covered 4.85 kilometers.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "4.85",
+              "four point eight five",
+              "four and eighty five hundredths"
+            ]
+          },
+          "say": "Let us work it out together. 2.45 + 1.8 = 4.25. 4.25 + 0.6 = 4.85. The runner covered 4.85 kilometers.",
+          "worked_steps": [
+            "2.45 + 1.8 = 4.25.",
+            "4.25 + 0.6 = 4.85.",
+            "The runner covered 4.85 kilometers."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_hard_01",
+        "delivery_prompt": "Mia has 3.46 liters of juice and 2.78 liters of lemonade. Think of 3.46 as 3.4 and 0.06, and think of 2.78 as 2.7 and 0.08.",
+        "part_delivery_prompts": [
+          {
+            "id": "p1",
+            "prompt": "Add 0.06 and 0.08. Write the sum as a decimal.",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p2",
+            "prompt": "Use your answer. Add 3.4 and 2.7, then add your answer. How many liters of drink does Mia have?",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p3",
+            "prompt": "Check another way. Add 3.46 and 2.78 as one sum. How many liters of drink does Mia have?",
+            "response_type": "numeric_short"
+          }
+        ],
+        "partial_credit_eligible": true,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. Both ways give 6.24 liters.",
+          "partial": "You have some parts right. Keep those answers, and let us check the other parts.",
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Tell me an answer for each question, one at a time.",
+          "incomplete": "You have answered part of the question. Let us finish the questions you have not answered yet."
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect",
+          "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+        },
+        "reprompt": "Tell me an answer for each question, one at a time.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "pair_of_parts",
+            "parts": [
+              {
+                "part_id": "p1",
+                "accept": [
+                  "0.14",
+                  "zero point one four",
+                  "fourteen hundredths"
+                ]
+              },
+              {
+                "part_id": "p2",
+                "accept": [
+                  "6.24",
+                  "six point two four",
+                  "six and twenty four hundredths"
+                ]
+              },
+              {
+                "part_id": "p3",
+                "accept": [
+                  "6.24",
+                  "six point two four",
+                  "six and twenty four hundredths"
+                ]
+              }
+            ],
+            "final_part_id": "p2"
+          },
+          "say": "Let us work it out together. Part 1: 0.06 + 0.08 = 0.14. Part 2: 3.4 + 2.7 = 6.1, and 6.1 + 0.14 = 6.24. Part 3: 3.46 + 2.78 = 6.24. Both ways give 6.24 liters.",
+          "worked_steps": [
+            "Part 1: 0.06 + 0.08 = 0.14.",
+            "Part 2: 3.4 + 2.7 = 6.1, and 6.1 + 0.14 = 6.24.",
+            "Part 3: 3.46 + 2.78 = 6.24.",
+            "Both ways give 6.24 liters."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_med_01",
+        "delivery_prompt": "Let's try an easier one: Add 3 tenths and 9 tenths. Write the sum as a decimal.",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. The sum is 1.2.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "1.2",
+              "one point two",
+              "one and two tenths"
+            ]
+          },
+          "say": "Let us work it out together. 3 tenths + 9 tenths = 12 tenths. 12 tenths is 1 one and 2 tenths. The sum is 1.2.",
+          "worked_steps": [
+            "3 tenths + 9 tenths = 12 tenths.",
+            "12 tenths is 1 one and 2 tenths.",
+            "The sum is 1.2."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_hard_01",
+        "delivery_prompt": "Let's try an easier one: Mia has 3.46 liters of juice and 2.78 liters of lemonade. Think of 3.46 as 3.4 and 0.06, and think of 2.78 as 2.7 and 0.08. Add 0.06 and 0.08. Write the sum as a decimal.",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. 0.06 + 0.08 = 0.14.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "0.14",
+              "zero point one four",
+              "fourteen hundredths"
+            ]
+          },
+          "say": "Let us work it out together. 6 hundredths + 8 hundredths = 14 hundredths. 14 hundredths is 1 tenth and 4 hundredths. 0.06 + 0.08 = 0.14.",
+          "worked_steps": [
+            "6 hundredths + 8 hundredths = 14 hundredths.",
+            "14 hundredths is 1 tenth and 4 hundredths.",
+            "0.06 + 0.08 = 0.14."
+          ]
+        }
+      }
+    ]
+  }
+}

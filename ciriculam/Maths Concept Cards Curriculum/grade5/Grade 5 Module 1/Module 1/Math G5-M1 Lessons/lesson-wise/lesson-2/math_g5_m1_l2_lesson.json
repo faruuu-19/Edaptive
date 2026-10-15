@@ -1,0 +1,4071 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g5_m1_l2_multiply_divide_by_powers_of_ten_abstractly",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g5_m1",
+      "file": "math-g5-m1-topic-a-lesson-2.md",
+      "source_version": "not stated in file",
+      "title": "Eureka Math / EngageNY, Grade 5, Module 1, Lesson 2",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the file; page n/a, section named"
+    }
+  ],
+  "review_status": "draft",
+  "grade": 5,
+  "subject": "math",
+  "standards": [
+    "3.OA.4",
+    "4.NBT.1",
+    "5.NBT.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Use place value to multiply and divide by 10, 100 and 1,000 without drawing every step.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g5_m1_l1_relate_adjacent_place_value_units_millions_to_thousandths"
+  ],
+  "explanations": [
+    {
+      "id": "exp_chart_rule",
+      "title": "Left is ten times larger",
+      "text": "Moving one place left makes a unit ten times larger. Moving one place right makes it one tenth as large.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_zero_rule",
+      "title": "Zeros tell the shift",
+      "text": "Multiply by one hundred and every digit moves two places left. There are two zeros in one hundred. Divide by one hundred and the digits move two places right.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "exp_like_units",
+      "title": "Think about the unit",
+      "text": "The digits in 4.3 times ten are the same as in 4.3. Only the units change. 43 tenths and 4 ones 3 tenths are the same amount.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    }
+  ],
+  "examples": [],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Count by threes. What number comes right after 27?",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "step": 3,
+        "after": 27
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting (threes)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Count by threes. What number comes right after 9?",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "step": 3,
+        "after": 9
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting (threes, crossing ten)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Count by fours. What number comes right after 36?",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "step": 4,
+        "after": 36
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting (fours)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "Count by fours. What number comes right after 44?",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "stimulus": {
+        "step": 4,
+        "after": 44
+      },
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting (fours)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "Write 83 ones as tens and ones.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "n": 83
+      },
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "Write 93 ones as tens and ones.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "n": 93
+      },
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "Write 103 ones as tens and ones.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "n": 103
+      },
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "Write 113 ones as tens and ones.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "n": 113
+      },
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "Write 163 ones as tens and ones.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "n": 163
+      },
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "Write 263 ones as tens and ones.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "n": 263
+      },
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "prior_knowledge",
+      "text": "Write 463 ones as tens and ones.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "n": 463
+      },
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "prior_knowledge",
+      "text": "Write 875 ones as tens and ones.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "n": 875
+      },
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "q_pk_13",
+      "kind": "prior_knowledge",
+      "text": "10 hundreds equal how many thousands?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 10,
+        "frm": "hundred",
+        "to": "thousand"
+      },
+      "rubric_id": "r_pk_13",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "q_pk_14",
+      "kind": "prior_knowledge",
+      "text": "10 tens equal how many hundreds?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 10,
+        "frm": "ten",
+        "to": "hundred"
+      },
+      "rubric_id": "r_pk_14",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "q_pk_15",
+      "kind": "prior_knowledge",
+      "text": "10 ones equal how many tens?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 10,
+        "frm": "one",
+        "to": "ten"
+      },
+      "rubric_id": "r_pk_15",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "q_pk_16",
+      "kind": "prior_knowledge",
+      "text": "10 tenths equal how many ones?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 10,
+        "frm": "tenth",
+        "to": "one"
+      },
+      "rubric_id": "r_pk_16",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "q_pk_17",
+      "kind": "prior_knowledge",
+      "text": "10 thousandths equal how many hundredths?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 10,
+        "frm": "thousandth",
+        "to": "hundredth"
+      },
+      "rubric_id": "r_pk_17",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "q_pk_18",
+      "kind": "prior_knowledge",
+      "text": "10 hundredths equal how many tenths?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 10,
+        "frm": "hundredth",
+        "to": "tenth"
+      },
+      "rubric_id": "r_pk_18",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "q_pk_19",
+      "kind": "practice",
+      "text": "Multiply 3 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "3",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pk_19",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_20",
+      "kind": "practice",
+      "text": "Multiply 0.02 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "0.02",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pk_20",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_21",
+      "kind": "practice",
+      "text": "Multiply 0.32 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "0.32",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pk_21",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_22",
+      "kind": "practice",
+      "text": "Multiply 0.324 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "0.324",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pk_22",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_23",
+      "kind": "practice",
+      "text": "Multiply 0.245 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "0.245",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pk_23",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_24",
+      "kind": "practice",
+      "text": "Multiply 0.13 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "0.13",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pk_24",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_25",
+      "kind": "practice",
+      "text": "Divide 2 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "2",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pk_25",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_26",
+      "kind": "practice",
+      "text": "Divide 0.3 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "0.3",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pk_26",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_27",
+      "kind": "practice",
+      "text": "Divide 2.3 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "2.3",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pk_27",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_28",
+      "kind": "practice",
+      "text": "Divide 2.35 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "2.35",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pk_28",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_29",
+      "kind": "practice",
+      "text": "Divide 0.52 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "0.52",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pk_29",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pk_30",
+      "kind": "practice",
+      "text": "Divide 10.005 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "10.005",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pk_30",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A school district ordered 247 boxes of pencils. Each box has 100 pencils. How many pencils is that in all?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "247*100"
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (boxes of pencils)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "The 24,700 pencils are shared evenly among 10 classrooms. How many pencils does each class get?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "24700/10"
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (S: shared among 10 classrooms)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Multiply 367 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "367",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Divide 367 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "367",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Multiply 4367 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "4367",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Divide 4367 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "4367",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Multiply 215.6 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "215.6",
+        "op": "x",
+        "k": 100
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Divide 215.6 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "215.6",
+        "op": "/",
+        "k": 100
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Multiply 3.7 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "3.7",
+        "op": "x",
+        "k": 100
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Divide 3.7 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "3.7",
+        "op": "/",
+        "k": 100
+      },
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Multiply 0.482 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "0.482",
+        "op": "x",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Divide 482 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "482",
+        "op": "/",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Multiply 54000 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "54000",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Divide 54000 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "54000",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Multiply 8.7 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "8.7",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "Divide 8.7 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "8.7",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "q_pr_17",
+      "kind": "practice",
+      "text": "Multiply 0.13 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "0.13",
+        "op": "x",
+        "k": 100
+      },
+      "rubric_id": "r_pr_17",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "q_pr_18",
+      "kind": "practice",
+      "text": "Divide 13 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "13",
+        "op": "/",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_18",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "q_pr_19",
+      "kind": "practice",
+      "text": "Multiply 3.12 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "3.12",
+        "op": "x",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_19",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "q_pr_20",
+      "kind": "practice",
+      "text": "Divide 4031.2 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "4031.2",
+        "op": "/",
+        "k": 100
+      },
+      "rubric_id": "r_pr_20",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "q_pr_21",
+      "kind": "practice",
+      "text": "Multiply 19340 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "19340",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pr_21",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 2 products)"
+      }
+    },
+    {
+      "id": "q_pr_22",
+      "kind": "practice",
+      "text": "Multiply 19340 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "19340",
+        "op": "x",
+        "k": 100
+      },
+      "rubric_id": "r_pr_22",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 2 products)"
+      }
+    },
+    {
+      "id": "q_pr_23",
+      "kind": "practice",
+      "text": "Multiply 19340 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "19340",
+        "op": "x",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_23",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 2 products)"
+      }
+    },
+    {
+      "id": "q_pr_24",
+      "kind": "practice",
+      "text": "Divide 152 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "152",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pr_24",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3 quotients)"
+      }
+    },
+    {
+      "id": "q_pr_25",
+      "kind": "practice",
+      "text": "Divide 152 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "152",
+        "op": "/",
+        "k": 100
+      },
+      "rubric_id": "r_pr_25",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3 quotients)"
+      }
+    },
+    {
+      "id": "q_pr_26",
+      "kind": "practice",
+      "text": "Divide 152 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "152",
+        "op": "/",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_26",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3 quotients)"
+      }
+    },
+    {
+      "id": "q_pr_27",
+      "kind": "practice",
+      "text": "Multiply 32.1 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "32.1",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pr_27",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_28",
+      "kind": "practice",
+      "text": "Divide 3632.1 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "3632.1",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pr_28",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_29",
+      "kind": "practice",
+      "text": "Multiply 455 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "455",
+        "op": "x",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_29",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_30",
+      "kind": "practice",
+      "text": "Divide 455 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "455",
+        "op": "/",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_30",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_31",
+      "kind": "practice",
+      "text": "Multiply 36000 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "36000",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pr_31",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_32",
+      "kind": "practice",
+      "text": "Divide 36000 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "36000",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pr_32",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_33",
+      "kind": "practice",
+      "text": "Multiply 4.3 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "4.3",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pr_33",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_34",
+      "kind": "practice",
+      "text": "Divide 4.3 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "4.3",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pr_34",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_35",
+      "kind": "practice",
+      "text": "Multiply 2.4 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "2.4",
+        "op": "x",
+        "k": 100
+      },
+      "rubric_id": "r_pr_35",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_36",
+      "kind": "practice",
+      "text": "Divide 24 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "24",
+        "op": "/",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_36",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_37",
+      "kind": "practice",
+      "text": "Multiply 4.54 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "4.54",
+        "op": "x",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_37",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_38",
+      "kind": "practice",
+      "text": "Divide 3045.4 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "3045.4",
+        "op": "/",
+        "k": 100
+      },
+      "rubric_id": "r_pr_38",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_39",
+      "kind": "practice",
+      "text": "Divide 16.5 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "16.5",
+        "op": "/",
+        "k": 10
+      },
+      "rubric_id": "r_pr_39",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_40",
+      "kind": "practice",
+      "text": "Divide 16.5 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "16.5",
+        "op": "/",
+        "k": 100
+      },
+      "rubric_id": "r_pr_40",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "q_pr_41",
+      "kind": "practice",
+      "text": "Multiply 14560 by 10.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "14560",
+        "op": "x",
+        "k": 10
+      },
+      "rubric_id": "r_pr_41",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework products)"
+      }
+    },
+    {
+      "id": "q_pr_42",
+      "kind": "practice",
+      "text": "Multiply 14560 by 100.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "14560",
+        "op": "x",
+        "k": 100
+      },
+      "rubric_id": "r_pr_42",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework products)"
+      }
+    },
+    {
+      "id": "q_pr_43",
+      "kind": "practice",
+      "text": "Multiply 14560 by 1,000.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "a": "14560",
+        "op": "x",
+        "k": 1000
+      },
+      "rubric_id": "r_pr_43",
+      "hint_ids": [
+        "h_shift",
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework products)"
+      }
+    },
+    {
+      "id": "q_pr_44",
+      "kind": "practice",
+      "text": "20 hundredths equal how many thousandths?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 20,
+        "frm": "hundredth",
+        "to": "thousandth"
+      },
+      "rubric_id": "r_pr_44",
+      "hint_ids": [
+        "h_unit",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (S: Janice's error, 20 hundredths)"
+      }
+    },
+    {
+      "id": "q_pr_45",
+      "kind": "practice",
+      "text": "Ted says 3 tenths times one hundred equals 300 thousandths. Is he correct? Say yes or no.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "q_pr_45"
+      },
+      "rubric_id": "r_pr_45",
+      "hint_ids": [
+        "h_chart",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework Problem 5, Ted)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Compare 367 times ten with 367 divided by ten. What is the same and what is different?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "same digits"
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_shift"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problem 1)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What operation finds a number that is one tenth as large as another number? How do you know?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "one tenth as large"
+      },
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_shift"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (one tenth as large)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "When can the number of zeros in the factors differ from the number of zeros in the product? Give an example.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "zeros differ"
+      },
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_zeros"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (zeros in factors and product)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "Why is a hundredth larger than a thousandth?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "size of units"
+      },
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_chart",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4, relative size of units)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting (threes)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting (threes, crossing ten)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting (fours)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "48",
+          "forty-eight"
+        ]
+      },
+      "correct": "Says 48.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting (fours)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8 tens 3 ones",
+          "8 tens and 3 ones",
+          "eight tens three ones"
+        ]
+      },
+      "correct": "Says 8 tens 3 ones.",
+      "partial": "Gets the tens right but not the ones.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9 tens 3 ones",
+          "9 tens and 3 ones",
+          "nine tens three ones"
+        ]
+      },
+      "correct": "Says 9 tens 3 ones.",
+      "partial": "Gets the tens right but not the ones.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10 tens 3 ones",
+          "10 tens and 3 ones",
+          "ten tens three ones"
+        ]
+      },
+      "correct": "Says 10 tens 3 ones.",
+      "partial": "Gets the tens right but not the ones.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11 tens 3 ones",
+          "11 tens and 3 ones",
+          "eleven tens three ones"
+        ]
+      },
+      "correct": "Says 11 tens 3 ones.",
+      "partial": "Gets the tens right but not the ones.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16 tens 3 ones",
+          "16 tens and 3 ones",
+          "sixteen tens three ones"
+        ]
+      },
+      "correct": "Says 16 tens 3 ones.",
+      "partial": "Gets the tens right but not the ones.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26 tens 3 ones",
+          "26 tens and 3 ones",
+          "twenty-six tens three ones"
+        ]
+      },
+      "correct": "Says 26 tens 3 ones.",
+      "partial": "Gets the tens right but not the ones.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "46 tens 3 ones",
+          "46 tens and 3 ones",
+          "forty-six tens three ones"
+        ]
+      },
+      "correct": "Says 46 tens 3 ones.",
+      "partial": "Gets the tens right but not the ones.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "87 tens 5 ones",
+          "87 tens and 5 ones",
+          "eighty-seven tens five ones"
+        ]
+      },
+      "correct": "Says 87 tens 5 ones.",
+      "partial": "Gets the tens right but not the ones.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Tens"
+      }
+    },
+    {
+      "id": "r_pk_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "1 thousand",
+          "one thousand"
+        ]
+      },
+      "correct": "Says 1 thousand.",
+      "partial": "Moves the digits the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "r_pk_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "1 hundred",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 1 hundred.",
+      "partial": "Moves the digits the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "r_pk_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "1 ten",
+          "one ten"
+        ]
+      },
+      "correct": "Says 1 ten.",
+      "partial": "Moves the digits the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "r_pk_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "1 one",
+          "one one"
+        ]
+      },
+      "correct": "Says 1 one.",
+      "partial": "Moves the digits the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "r_pk_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "1 hundredth",
+          "one hundredth"
+        ]
+      },
+      "correct": "Says 1 hundredth.",
+      "partial": "Moves the digits the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "r_pk_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "1 tenth",
+          "one tenth"
+        ]
+      },
+      "correct": "Says 1 tenth.",
+      "partial": "Moves the digits the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Bundle Ten and Change Units"
+      }
+    },
+    {
+      "id": "r_pk_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.2",
+          "zero point two",
+          "two tenths"
+        ]
+      },
+      "correct": "Says 0.2.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3.2",
+          "three point two",
+          "three and two tenths"
+        ]
+      },
+      "correct": "Says 3.2.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3.24",
+          "three point two four",
+          "three and twenty-four hundredths"
+        ]
+      },
+      "correct": "Says 3.24.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.45",
+          "two point four five",
+          "two and forty-five hundredths"
+        ]
+      },
+      "correct": "Says 2.45.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.3",
+          "one point three",
+          "one and three tenths"
+        ]
+      },
+      "correct": "Says 1.3.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.2",
+          "zero point two",
+          "two tenths"
+        ]
+      },
+      "correct": "Says 0.2.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.03",
+          "zero point zero three",
+          "three hundredths"
+        ]
+      },
+      "correct": "Says 0.03.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.23",
+          "zero point two three",
+          "twenty-three hundredths"
+        ]
+      },
+      "correct": "Says 0.23.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.235",
+          "zero point two three five",
+          "two hundred thirty-five thousandths"
+        ]
+      },
+      "correct": "Says 0.235.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.052",
+          "zero point zero five two",
+          "fifty-two thousandths"
+        ]
+      },
+      "correct": "Says 0.052.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pk_30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.0005",
+          "one point zero zero zero five"
+        ]
+      },
+      "correct": "Says 1.0005.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Multiply and Divide by 10"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24700",
+          "24,700",
+          "twenty-four thousand seven hundred",
+          "24,700 pencils",
+          "24700 pencils"
+        ]
+      },
+      "correct": "Says 24700 pencils.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (boxes of pencils)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2470",
+          "2,470",
+          "two thousand four hundred seventy",
+          "2,470 pencils",
+          "2470 pencils"
+        ]
+      },
+      "correct": "Says 2470 pencils.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (S: shared among 10 classrooms)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3670",
+          "3,670",
+          "three thousand six hundred seventy"
+        ]
+      },
+      "correct": "Says 3670.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "36.7",
+          "thirty-six point seven",
+          "thirty-six and seven tenths"
+        ]
+      },
+      "correct": "Says 36.7.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "43670",
+          "43,670",
+          "forty-three thousand six hundred seventy"
+        ]
+      },
+      "correct": "Says 43670.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "436.7",
+          "four hundred thirty-six point seven",
+          "four hundred thirty-six and seven tenths"
+        ]
+      },
+      "correct": "Says 436.7.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21560",
+          "21,560",
+          "twenty-one thousand five hundred sixty"
+        ]
+      },
+      "correct": "Says 21560.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.156",
+          "two point one five six",
+          "two and one hundred fifty-six thousandths"
+        ]
+      },
+      "correct": "Says 2.156.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "370",
+          "three hundred seventy"
+        ]
+      },
+      "correct": "Says 370.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.037",
+          "zero point zero three seven",
+          "thirty-seven thousandths"
+        ]
+      },
+      "correct": "Says 0.037.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "482",
+          "four hundred eighty-two"
+        ]
+      },
+      "correct": "Says 482.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.482",
+          "zero point four eight two",
+          "four hundred eighty-two thousandths"
+        ]
+      },
+      "correct": "Says 0.482.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "540000",
+          "540,000",
+          "five hundred forty thousand"
+        ]
+      },
+      "correct": "Says 540000.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5400",
+          "5,400",
+          "five thousand four hundred"
+        ]
+      },
+      "correct": "Says 5400.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "87",
+          "eighty-seven"
+        ]
+      },
+      "correct": "Says 87.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.87",
+          "zero point eight seven",
+          "eighty-seven hundredths"
+        ]
+      },
+      "correct": "Says 0.87.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "r_pr_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "r_pr_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.013",
+          "zero point zero one three",
+          "thirteen thousandths"
+        ]
+      },
+      "correct": "Says 0.013.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "r_pr_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3120",
+          "3,120",
+          "three thousand one hundred twenty"
+        ]
+      },
+      "correct": "Says 3120.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "r_pr_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40.312",
+          "forty point three one two",
+          "forty and three hundred twelve thousandths"
+        ]
+      },
+      "correct": "Says 40.312.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket)"
+      }
+    },
+    {
+      "id": "r_pr_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "193400",
+          "193,400",
+          "one hundred ninety-three thousand four hundred"
+        ]
+      },
+      "correct": "Says 193400.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 2 products)"
+      }
+    },
+    {
+      "id": "r_pr_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1934000",
+          "1,934,000",
+          "one million nine hundred thirty-four thousand"
+        ]
+      },
+      "correct": "Says 1934000.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 2 products)"
+      }
+    },
+    {
+      "id": "r_pr_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19340000",
+          "19,340,000",
+          "nineteen million three hundred forty thousand"
+        ]
+      },
+      "correct": "Says 19340000.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 2 products)"
+      }
+    },
+    {
+      "id": "r_pr_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15.2",
+          "fifteen point two",
+          "fifteen and two tenths"
+        ]
+      },
+      "correct": "Says 15.2.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3 quotients)"
+      }
+    },
+    {
+      "id": "r_pr_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.52",
+          "one point five two",
+          "one and fifty-two hundredths"
+        ]
+      },
+      "correct": "Says 1.52.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3 quotients)"
+      }
+    },
+    {
+      "id": "r_pr_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.152",
+          "zero point one five two",
+          "one hundred fifty-two thousandths"
+        ]
+      },
+      "correct": "Says 0.152.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3 quotients)"
+      }
+    },
+    {
+      "id": "r_pr_27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "321",
+          "three hundred twenty-one"
+        ]
+      },
+      "correct": "Says 321.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "363.21",
+          "three hundred sixty-three point two one",
+          "three hundred sixty-three and twenty-one hundredths"
+        ]
+      },
+      "correct": "Says 363.21.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "455000",
+          "455,000",
+          "four hundred fifty-five thousand"
+        ]
+      },
+      "correct": "Says 455000.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.455",
+          "zero point four five five",
+          "four hundred fifty-five thousandths"
+        ]
+      },
+      "correct": "Says 0.455.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "360000",
+          "360,000",
+          "three hundred sixty thousand"
+        ]
+      },
+      "correct": "Says 360000.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_32",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3600",
+          "3,600",
+          "three thousand six hundred"
+        ]
+      },
+      "correct": "Says 3600.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_33",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "43",
+          "forty-three"
+        ]
+      },
+      "correct": "Says 43.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_34",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.43",
+          "zero point four three",
+          "forty-three hundredths"
+        ]
+      },
+      "correct": "Says 0.43.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_35",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "240",
+          "two hundred forty"
+        ]
+      },
+      "correct": "Says 240.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_36",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.024",
+          "zero point zero two four",
+          "twenty-four thousandths"
+        ]
+      },
+      "correct": "Says 0.024.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_37",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4540",
+          "4,540",
+          "four thousand five hundred forty"
+        ]
+      },
+      "correct": "Says 4540.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_38",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30.454",
+          "thirty point four five four",
+          "thirty and four hundred fifty-four thousandths"
+        ]
+      },
+      "correct": "Says 30.454.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_39",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.65",
+          "one point six five",
+          "one and sixty-five hundredths"
+        ]
+      },
+      "correct": "Says 1.65.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_40",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.165",
+          "zero point one six five",
+          "one hundred sixty-five thousandths"
+        ]
+      },
+      "correct": "Says 0.165.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set and Homework)"
+      }
+    },
+    {
+      "id": "r_pr_41",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "145600",
+          "145,600",
+          "one hundred forty-five thousand six hundred"
+        ]
+      },
+      "correct": "Says 145600.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework products)"
+      }
+    },
+    {
+      "id": "r_pr_42",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1456000",
+          "1,456,000",
+          "one million four hundred fifty-six thousand"
+        ]
+      },
+      "correct": "Says 1456000.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework products)"
+      }
+    },
+    {
+      "id": "r_pr_43",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14560000",
+          "14,560,000",
+          "fourteen million five hundred sixty thousand"
+        ]
+      },
+      "correct": "Says 14560000.",
+      "partial": "Gets the digits right but shifts them the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework products)"
+      }
+    },
+    {
+      "id": "r_pr_44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "200 thousandths",
+          "two hundred thousandths"
+        ]
+      },
+      "correct": "Says 200 thousandths.",
+      "partial": "Moves the digits the wrong number of places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (S: Janice's error, 20 hundredths)"
+      }
+    },
+    {
+      "id": "r_pr_45",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no.",
+          "no"
+        ]
+      },
+      "correct": "Says no. 3 tenths times one hundred is 30 ones, not 300 thousandths.",
+      "partial": null,
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework Problem 5, Ted)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the digits are the same but the values change. Times ten makes each digit larger and divide by ten makes each digit smaller.",
+      "partial": "Says the digits are the same but not that the values change.",
+      "incorrect": "Says the answers are the same.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problem 1)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says divide by ten. One tenth as large means ten equal parts, and dividing by ten moves each digit one place right.",
+      "partial": "Says divide but gives no reason.",
+      "incorrect": "Says multiply by ten.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (one tenth as large)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives an example like four times five is twenty, so four times fifty is two hundred. The product of the basic facts can have a zero of its own.",
+      "partial": "Says it can differ but gives no example.",
+      "incorrect": "Says the zeros always match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (zeros in factors and product)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says ten thousandths make one hundredth, so the hundredth is the larger unit.",
+      "partial": "Says it is larger but gives no reason.",
+      "incorrect": "Says a thousandth is larger.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4, relative size of units)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_chart",
+      "level": 1,
+      "text": "Draw the place value chart. Put each digit in its own place.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_shift",
+      "level": 1,
+      "text": "Multiplying by ten moves every digit one place to the left. Dividing moves it right.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_zeros",
+      "level": 2,
+      "text": "Count the zeros in the number you multiply or divide by. That tells how many places the digits move.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_exp",
+      "level": 2,
+      "text": "The exponent tells how many tens are multiplied together. It matches the zeros.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unit",
+      "level": 1,
+      "text": "Say the unit name. Then use a basic fact with that unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_conv",
+      "level": 2,
+      "text": "Think how many small units fit in a big unit. Then multiply or divide.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_like",
+      "level": 1,
+      "text": "Add or subtract like units. Tenths with tenths, hundredths with hundredths.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_regroup",
+      "level": 2,
+      "text": "Trade ten of a small unit for one of the next larger unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_cmp",
+      "level": 1,
+      "text": "Compare digits from the left. Find the first place where they differ.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unitcmp",
+      "level": 2,
+      "text": "Rename both numbers with the same unit. Then compare.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_round",
+      "level": 1,
+      "text": "Find the nearest numbers on each side for that place. Then check if you are past the halfway point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_est",
+      "level": 2,
+      "text": "Round the numbers and estimate first. Then place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_area",
+      "level": 2,
+      "text": "Draw an area model. Multiply each unit by the whole number. Then add the partial products.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unbundle",
+      "level": 2,
+      "text": "If you cannot share a unit evenly, trade it for ten of the next smaller unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 1,
+      "text": "Draw a tape diagram. Label the total and the parts.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_whole",
+      "level": 1,
+      "text": "Divide like whole numbers first. Then think about the unit to place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_pv_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A place value chart from millions to thousandths with a decimal point between ones and tenths. Disks or digits sit in the columns.",
+      "must_show_exactly": [
+        "Columns run millions down to thousandths in order",
+        "Decimal point sits between ones and tenths",
+        "Digits or disks match the stimulus"
+      ],
+      "states_or_frames": [
+        "empty chart",
+        "digits placed",
+        "arrows show shift left or right"
+      ],
+      "interaction": "Child types digits into columns. Tutor can draw arrows.",
+      "alt_text": "A place value chart with labelled columns.",
+      "used_by": [
+        "exp_chart_rule",
+        "exp_like_units",
+        "exp_zero_rule",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pk_10",
+        "q_pk_11",
+        "q_pk_12",
+        "q_pk_13",
+        "q_pk_14",
+        "q_pk_15",
+        "q_pk_16",
+        "q_pk_17",
+        "q_pk_18",
+        "q_pk_19",
+        "q_pk_20",
+        "q_pk_21",
+        "q_pk_22",
+        "q_pk_23",
+        "q_pk_24",
+        "q_pk_25",
+        "q_pk_26",
+        "q_pk_27",
+        "q_pk_28",
+        "q_pk_29",
+        "q_pk_30",
+        "q_pk_5",
+        "q_pk_6",
+        "q_pk_7",
+        "q_pk_8",
+        "q_pk_9",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_18",
+        "q_pr_19",
+        "q_pr_2",
+        "q_pr_20",
+        "q_pr_21",
+        "q_pr_22",
+        "q_pr_23",
+        "q_pr_24",
+        "q_pr_25",
+        "q_pr_26",
+        "q_pr_27",
+        "q_pr_28",
+        "q_pr_29",
+        "q_pr_3",
+        "q_pr_30",
+        "q_pr_31",
+        "q_pr_32",
+        "q_pr_33",
+        "q_pr_34",
+        "q_pr_35",
+        "q_pr_36",
+        "q_pr_37",
+        "q_pr_38",
+        "q_pr_39",
+        "q_pr_4",
+        "q_pr_40",
+        "q_pr_41",
+        "q_pr_42",
+        "q_pr_43",
+        "q_pr_44",
+        "q_pr_45",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat place value chart with column headings from millions to thousandths, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A number line with equal tick marks and labels.",
+      "must_show_exactly": [
+        "Equal spacing between tick marks",
+        "Labels and marked points match the stimulus"
+      ],
+      "states_or_frames": [
+        "empty line",
+        "ticks added",
+        "points marked"
+      ],
+      "interaction": "Display. Child may be asked to place a point.",
+      "alt_text": "A number line with equally spaced tick marks.",
+      "used_by": [
+        "q_pk_1",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pk_4"
+      ],
+      "generation_caption": "Flat horizontal number line with equal tick marks, plain background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_skip_counting_number_line",
+      "name": "Skip-counting on a number line",
+      "reason": "Choral counting activity.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "source text quality",
+      "issue": "The lesson file is plain text with NO page images and NO page numbers. Fraction symbols, tape diagrams, number bonds and figures were lost in the text, so student answers such as 'S: [blank]' cannot be read. Only fractions written in words (for example '5 sixths') were used. Compare every question with the original PDF."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts or fractions. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "Prerequisites that start with math_g5_m1_ point to earlier cards of this module made in the same project. Check that each earlier lesson really teaches the needed skill."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Sheets present: Problem Set / Exit Ticket / Template",
+      "issue": "Place value chart pictures were not added. Number items were used. The printed items on these pages are pictures or formulas that were lost in the text."
+    },
+    {
+      "id": "f7",
+      "severity": "high",
+      "item": "Problem 4 and word problems",
+      "issue": "Problem 4 had a fraction and a Problem Set question about Canada and the United States, and one about Alaska and Florida, lost the fraction. No questions were made."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set",
+      "issue": "Problem Set item numbers were lost. Items were grouped by the Exit Ticket and Homework."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "Answers",
+      "issue": "Answers are computed from the printed numbers. Check them against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Fluency",
+      "issue": "Fluency items are listed in unit form in the source. They were turned into questions."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Hints",
+      "issue": "Hint coverage is thin. Hints come from the lesson's teaching moves."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer items have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_pv_chart, a_number_line). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with partners and objects. All child-facing text was rewritten for a screen and fractions are written in words. Needs an age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "low",
+      "item": "source_refs / page numbers",
+      "issue": "The file has no page numbers and no version footer. Every page is 'n/a' and the section name is used instead. source_version is 'not stated in file'. Fill in from the original PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

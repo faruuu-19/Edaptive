@@ -6,7 +6,7 @@ object. If the source JSON contains `cards[]`, select the concept by ID first.
 See [loading rules](assessment-card-collections.md).
 
 The full v0.2 schema and every retained assessment object are unchanged by
-cleanup. All 137 cards remain drafts. Script-agent integration is untested.
+cleanup. All 153 cards remain drafts. Script-agent integration is untested.
 
 ## Structure
 
@@ -77,11 +77,11 @@ separately from independently correct answers.
 
 ## Coverage and checks
 
-137 concept IDs have 137 standalone assessments; no assessment collections remain.
+153 concept IDs have 153 standalone assessments; no assessment collections remain.
 Each includes three main questions, two follow-ups, four local rubrics, 15 hints
 and five guidance records. Grade 2 Module 7 Lessons 1–26, Module 8 Lessons 1–16,
-Grade 3 Module 2 Lessons 1–21 and Grade 4 Module 1 Lessons 1–19 are complete, including
-sixteen, six, twenty-one and nineteen new full assessments respectively. See the root README for totals and coverage.
+Grade 3 Module 2 Lessons 1–21, Grade 4 Module 1 Lessons 1–19 and Grade 5 Module 1 Lessons 1–16
+are complete, including sixteen, six, twenty-one, nineteen and sixteen new full assessments respectively. See the root README for totals and coverage.
 
 [Cleanup validation](assessment-cards-cleanup-validation.json) checks unchanged
 content, IDs, references, guidance, hashes, worked arithmetic, tutoring routes
@@ -112,3 +112,12 @@ Grade 4 Module 1 Lessons 1–19 ([new assessment validation](assessment-cards-gr
 [module-pair validation](assessment-cards-grade4-module1-lesson-wise-validation.json)) use whole-number answers, many of them
 five- to seven-digit numbers; accept lists give the digits without commas and the number words. Their hard questions state the
 place-value decompositions that the check part needs. Numeric responses do not verify number-line drawings, place-value charts or tape diagrams.
+
+Grade 5 Module 1 Lessons 1–16 ([new assessment validation](assessment-cards-grade5-module1-lessons1-16-validation.json),
+[module-pair validation](assessment-cards-grade5-module1-lesson-wise-validation.json)) use decimal and whole-number answers.
+Accept lists give the digits, a "point" reading ("zero point zero five eight") and, for decimals, a unit reading
+("fifty eight thousandths", "four and thirty five hundredths"); whole numbers give digits and number words. Fifteen of the sixteen
+reused easy questions are partial-credit eligible (their source rubrics carry a partial description), so their guidance has a
+`partial` route and feedback; the generated rubrics are not. Lesson 6's reused easy answer is a comparison word ("greater than").
+Hard questions state the decompositions their check part needs. Numeric responses do not verify place-value charts, number-line,
+area-model or tape-diagram drawings or spoken reasoning.

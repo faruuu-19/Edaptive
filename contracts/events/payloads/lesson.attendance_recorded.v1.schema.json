@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "LessonAttendanceRecordedV1",
+  "description": "One attendance record per class attempt: present when the child stayed for at least 70% of the lesson.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "timetable_id",
+    "slot_id",
+    "concept_id",
+    "card_version",
+    "school_date",
+    "status",
+    "reason",
+    "attended_percent"
+  ],
+  "properties": {
+    "timetable_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "slot_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "concept_id": {
+      "$ref": "../../common/ids.schema.json#/$defs/ConceptId"
+    },
+    "card_version": {
+      "$ref": "../../common/ids.schema.json#/$defs/CardVersion"
+    },
+    "school_date": {
+      "description": "The school day (Pakistan time) the attendance is for.",
+      "type": "string",
+      "format": "date"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["present", "absent"]
+    },
+    "reason": {
+      "description": "completed: finished the lesson. left_after_threshold: left after staying for 70% or more. left_early: left before 70%. did_not_join: never joined that day.",
+      "type": "string",
+      "enum": ["completed", "left_after_threshold", "left_early", "did_not_join"]
+    },
+    "attended_percent": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "lesson_title": {
+      "type": "string",
+      "maxLength": 120
+    }
+  }
+}

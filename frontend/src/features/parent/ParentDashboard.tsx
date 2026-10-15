@@ -8,6 +8,7 @@ import { lessonAlarm } from '@/features/voice';
 import { getProfile, signOut, type Profile } from '@/lib/api';
 import { getSchoolRoutine, saveSchoolStartTime, type SchoolRoutine } from '@/lib/lesson-delivery-api';
 import { getPermissions, setPermission, type PermissionKind, type Permissions } from '@/lib/parent-api';
+import { AttendanceLog } from './AttendanceLog';
 import { ClassStatus } from './ClassStatus';
 import styles from './parent.module.css';
 
@@ -96,6 +97,7 @@ export function ParentDashboard({ studentId }: { studentId: string }) {
     </div>
     {actionError && <p className="error" role="alert">{actionError}</p>}
     <ClassStatus studentId={studentId} name={profile.display_name} />
+    <AttendanceLog studentId={studentId} name={profile.display_name} />
     <div className={styles.grid}>
       <section className="card stack" aria-labelledby="progress-title">
         <div className="row spread"><h2 id="progress-title">Learning progress</h2><span className={styles.sampleBadge}>Sample data</span></div>

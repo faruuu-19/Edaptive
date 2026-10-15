@@ -28,6 +28,20 @@ MAX_EXITS = 2
 DISCONNECT_MS = 120_000
 
 
+# Present means staying for at least this share of the lesson (the parts the child has listened to).
+ATTENDANCE_PERCENT = 70
+
+
+def attendance_of(slot):
+    """(percent, present) for this attempt. A lesson carried over from yesterday only expects the rest."""
+    base = slot.get("attempt_base", 0)
+    expected = max(0, slot.get("segment_count", 0) - base)
+    heard = max(0, len(set(slot.get("narrated_positions", []))) - base)
+    if expected == 0:
+        return 100, True
+    return min(100, round(heard * 100 / expected)), heard * 100 >= ATTENDANCE_PERCENT * expected
+
+
 def can_rejoin(slot, now_ms):
     """Back in until the class's scheduled end, and at most MAX_EXITS times."""
     return slot["status"] == "exited" and now_ms < slot["end_ms"] and slot.get("exit_count", 0) < MAX_EXITS
@@ -245,6 +259,8 @@ def act(db, row, slot_id, action, position=None):
             pass
     if action != "heartbeat":
         event(db, row, action, slot)
+    if action in {"finish", "exit"}:
+        settle_attendance(db, row, slot, state.get("school_date"), now)
     row.state = state
     db.flush()
     if action == "start":
@@ -260,6 +276,62 @@ def act(db, row, slot_id, action, position=None):
     return snapshot(row)
 
 
+def settle_attendance(db, row, slot, school_date, now_ms, *, day_over=False):
+    """Log this attempt's attendance once it is final. Returns True when a record was written."""
+    if slot.get("attendance"):
+        return False
+    status = slot["status"]
+    if status == "completed":
+        percent, present = attendance_of(slot)
+        reason = "completed"
+    elif status == "exited" and (day_over or not can_rejoin(slot, now_ms)):
+        percent, present = attendance_of(slot)
+        reason = "left_after_threshold" if present else "left_early"
+    elif status == "planned" and day_over:
+        percent, present, reason = 0, False, "did_not_join"
+    else:
+        return False
+    result = "present" if present else "absent"
+    slot["attendance"] = {"status": result, "reason": reason, "attended_percent": percent}
+    append(
+        db,
+        {
+            "event_id": str(uuid.uuid4()),
+            "event_version": 1,
+            "occurred_at": datetime.now(UTC).isoformat(),
+            "source": "lesson_delivery",
+            "session_id": slot.get("session_id"),
+            "student_id": str(row.student_id),
+            "event_type": "lesson.attendance_recorded",
+            "payload": {
+                "timetable_id": str(row.id),
+                "slot_id": slot["id"],
+                "concept_id": slot["concept_id"],
+                "card_version": slot["card_version"],
+                "school_date": school_date,
+                "status": result,
+                "reason": reason,
+                "attended_percent": percent,
+                "lesson_title": slot.get("title", "")[:120],
+            },
+        },
+    )
+    return True
+
+
+def settle_due(db, row, now_ms):
+    """Record attendance for classes the child left and can no longer rejoin."""
+    state = copy.deepcopy(row.state)
+    changed = False
+    for slot in state["slots"]:
+        if slot["kind"] == "lesson" and slot["status"] == "exited":
+            changed = settle_attendance(db, row, slot, state.get("school_date"), now_ms) or changed
+    if changed:
+        row.state = state
+        db.flush()
+    return changed
+
+
 def expire_disconnected(db, row, now_ms):
     """A started class with no heartbeat for DISCONNECT_MS is treated as left (connection lost)."""
     state = copy.deepcopy(row.state)
@@ -273,6 +345,7 @@ def expire_disconnected(db, row, now_ms):
     for slot in lost:
         leave(slot, now_ms, "timeout")
         event(db, row, "exit", slot)
+        settle_attendance(db, row, slot, state.get("school_date"), now_ms)
         try:
             voice_request("/jobs/" + slot["job_id"] + "/release", {})
         except (OSError, ValueError):
@@ -321,6 +394,7 @@ def poll_preparation():
                     )
                 )
                 for row in rows:
+                    settle_due(db, row, time.time() * 1000)
                     if expire_disconnected(db, row, time.time() * 1000):
                         continue
                     state = copy.deepcopy(row.state)

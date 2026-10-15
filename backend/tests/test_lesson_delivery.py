@@ -564,3 +564,122 @@ def test_an_unfinished_lesson_carries_to_the_next_school_day_from_the_same_place
     assert carried["exit_count"] == 0 and carried["borrowed_minutes"] == 0
     assert carried["start_ms"] > slot["start_ms"] + 12 * 3600 * 1000
     assert row.state["school_date"] == "2026-10-15"
+
+
+# ---- Attendance: present when the child stays for at least 70% of the lesson ----------------------
+
+
+def attendance_events(db, child):
+    events = db.scalars(
+        select(Event)
+        .where(Event.student_id == uuid.UUID(child["id"]), Event.event_type == "lesson.attendance_recorded")
+        .order_by(Event.seq)
+    )
+    return [e.payload for e in events]
+
+
+def set_progress(db, result, parts, total=10, **extra):
+    """Pretend the child has listened to `parts` of `total` lesson parts."""
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    state = copy.deepcopy(row.state)
+    state["slots"][0].update(segment_count=total, narrated_positions=list(range(parts)), **extra)
+    row.state = state
+    db.flush()
+    return row
+
+
+def test_finishing_the_lesson_marks_the_child_present(parent_client, student_client, child, db, monkeypatch):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    assert action(student_client, result, slot, "position", position=1).status_code == 200
+    assert action(student_client, result, slot, "position", position=2).status_code == 200
+    assert attendance_events(db, child) == []  # nothing is final until the class is over
+    assert action(student_client, result, slot, "finish").status_code == 200
+    (record,) = attendance_events(db, child)
+    assert record["status"] == "present" and record["reason"] == "completed"
+    assert record["attended_percent"] == 100 and record["lesson_title"] == "Polygons"
+    assert record["school_date"] == "2026-10-14" and record["slot_id"] == slot["id"]
+
+
+@pytest.mark.parametrize(
+    ("parts", "status", "reason"),
+    [
+        (6, "absent", "left_early"),
+        (7, "present", "left_after_threshold"),
+        (9, "present", "left_after_threshold"),
+    ],
+)
+def test_leaving_is_present_only_from_70_percent_and_is_settled_when_class_time_ends(
+    parent_client, student_client, child, db, monkeypatch, parts, status, reason
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    row = set_progress(db, result, parts)
+    assert action(student_client, result, slot, "exit").status_code == 200
+    assert attendance_events(db, child) == [], "the child can still rejoin, so it is not final yet"
+    end = row.state["slots"][0]["end_ms"]
+    assert runtime.settle_due(db, row, end - 1000) is False
+    assert runtime.settle_due(db, row, end + 1000) is True
+    (record,) = attendance_events(db, child)
+    assert (record["status"], record["reason"], record["attended_percent"]) == (status, reason, parts * 10)
+    assert runtime.settle_due(db, row, end + 2000) is False, "a class is recorded once"
+    assert len(attendance_events(db, child)) == 1
+
+
+def test_the_second_exit_settles_attendance_at_once(parent_client, student_client, child, db, monkeypatch):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    set_progress(db, result, 3)
+    assert action(student_client, result, slot, "exit").status_code == 200
+    assert action(student_client, result, slot, "rejoin").status_code == 200
+    assert action(student_client, result, slot, "exit").status_code == 200
+    (record,) = attendance_events(db, child)
+    assert record["status"] == "absent" and record["attended_percent"] == 30
+
+
+def test_leaving_then_rejoining_and_finishing_counts_the_whole_class_once(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    assert action(student_client, result, slot, "exit").status_code == 200
+    assert action(student_client, result, slot, "rejoin").status_code == 200
+    assert action(student_client, result, slot, "position", position=1).status_code == 200
+    assert action(student_client, result, slot, "position", position=2).status_code == 200
+    assert action(student_client, result, slot, "finish").status_code == 200
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    runtime.settle_due(db, row, slot["end_ms"] + 60_000)
+    (record,) = attendance_events(db, child)
+    assert record["status"] == "present" and record["reason"] == "completed"
+
+
+def test_a_class_never_joined_is_absent_at_the_end_of_the_school_day_and_not_double_counted(
+    parent_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    prepared(db, result)
+    monkeypatch.setattr(routines, "clock_now", lambda: datetime(2026, 10, 15, 3, 0, tzinfo=UTC))
+    routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
+    routines.refresh_routine(db, routine, cards_loader=lambda: router.available())
+    (record,) = attendance_events(db, child)
+    assert (record["status"], record["reason"], record["attended_percent"]) == ("absent", "did_not_join", 0)
+    assert record["school_date"] == "2026-10-14"
+    carried = db.get(Timetable, uuid.UUID(result["id"])).state["slots"][0]
+    assert carried["status"] == "planned" and "attendance" not in carried, "tomorrow is a new attempt"
+    routines.refresh_routine(db, routine, cards_loader=lambda: router.available(), force=True)
+    assert len(attendance_events(db, child)) == 1
+
+
+def test_a_lesson_left_early_is_judged_tomorrow_on_the_part_that_was_still_to_come(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    set_progress(db, result, 5)  # left at 50% today
+    assert action(student_client, result, slot, "exit").status_code == 200
+    monkeypatch.setattr(routines, "clock_now", lambda: datetime(2026, 10, 15, 3, 0, tzinfo=UTC))
+    routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
+    routines.refresh_routine(db, routine, cards_loader=lambda: router.available())
+    (today,) = [r for r in attendance_events(db, child) if r["school_date"] == "2026-10-14"]
+    assert today["status"] == "absent" and today["attended_percent"] == 50
+    carried = db.get(Timetable, uuid.UUID(result["id"])).state["slots"][0]
+    assert carried["attempt_base"] == 5
+    # Tomorrow only the remaining half is expected: hearing 4 of those 5 parts is 80%.
+    assert runtime.attendance_of({**carried, "narrated_positions": list(range(9))}) == (80, True)
+    # Walking in and straight out again is 0%, not "already at 50%".
+    assert runtime.attendance_of(carried) == (0, False)

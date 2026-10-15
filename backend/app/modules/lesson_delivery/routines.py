@@ -12,7 +12,7 @@ from app.core.household import get_active_profile
 
 from .curriculum import synchronize
 from .models import LearningProgress, SchoolRoutine, Timetable
-from .runtime import shift, voice_request
+from .runtime import settle_attendance, shift, voice_request
 
 SCHOOL_ZONE = ZoneInfo("Asia/Karachi")
 BREAK_MINUTES = 5
@@ -182,12 +182,17 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
                 if s["subject"] == "math" and s["status"] not in {"completed", "cancelled"}
             )
             at = next_start(routine.start_time, now)
-            shift(state, index, at.timestamp() * 1000 - state["slots"][index]["start_ms"])
             lesson = state["slots"][index]
-            if lesson["status"] == "exited":
+            # The school day is over: settle its attendance before the lesson moves to the next day.
+            settle_attendance(
+                db, active, lesson, state.get("school_date"), now.timestamp() * 1000, day_over=True
+            )
+            shift(state, index, at.timestamp() * 1000 - lesson["start_ms"])
+            if lesson["status"] in {"exited", "planned"}:
                 # An unfinished lesson is never skipped: it returns, prepared, from where the child stopped.
                 lesson.update(status="planned", exit_count=0, borrowed_minutes=0)
-                for key in ("exited_at_ms", "exit_reason"):
+                lesson["attempt_base"] = len(set(lesson.get("narrated_positions", [])))
+                for key in ("exited_at_ms", "exit_reason", "attendance"):
                     lesson.pop(key, None)
             state["school_date"] = at.date().isoformat()
             routine.last_school_date = at.date()

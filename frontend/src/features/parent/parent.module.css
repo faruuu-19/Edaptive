@@ -28,3 +28,14 @@
 .permission button { align-self: start; }
 @media (max-width: 680px) { .grid { grid-template-columns: minmax(0, 1fr); } }
 .classAttention { background: var(--notice); box-shadow: 5px 5px 0 var(--ink); }
+
+.attendanceTotals { font-size: .95rem; }
+.attendanceList { list-style: none; padding: 0; margin: 0; display: grid; gap: 0; }
+.attendanceList li { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; padding: 12px 0; border-top: 2px dashed var(--rule); }
+.attendanceList li > div:first-child { display: flex; flex-direction: column; gap: 2px; }
+.attendanceDetail { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right; }
+.attendanceDetail small { color: var(--muted); }
+.present, .absent { display: inline-block; border: 2px solid var(--ink); border-radius: 999px; padding: 2px 12px; font-weight: 700; font-size: .9rem; }
+.present { background: var(--teal-soft); }
+.absent { background: var(--tomato-soft); }
+@media (max-width: 500px) { .attendanceDetail { align-items: flex-start; text-align: left; } }

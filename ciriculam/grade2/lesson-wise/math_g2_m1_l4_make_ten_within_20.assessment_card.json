@@ -1,0 +1,1042 @@
+{
+  "schema_version": "0.2-draft",
+  "card_type": "assessment_card",
+  "assessment_card_id": "assess_math_g2_m1_l4_make_ten_within_20_v2",
+  "card_version": 2,
+  "review_status": "draft",
+  "linked_concept": {
+    "concept_id": "math_g2_m1_l4_make_ten_within_20",
+    "concept_version": 2
+  },
+  "subject": "math",
+  "grade": 2,
+  "objective_refs": [
+    "obj_l4"
+  ],
+  "provenance": {
+    "generated_by": "chatgpt_manual_fixture",
+    "reuse_policy": "prefer_existing_questions_then_generate_missing"
+  },
+  "readiness": {
+    "ready_for_delivery": false,
+    "blocking_issues": [
+      "card review_status is draft; needs human review before use"
+    ]
+  },
+  "difficulty_levels": [
+    "easy",
+    "medium",
+    "hard"
+  ],
+  "max_attempts_default": 2,
+  "default_outcome_routes": {
+    "correct": "advance_to_next_question_or_close",
+    "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+    "incorrect": "hint_then_retry_until_max_attempts",
+    "unclear": "reprompt_once_then_treat_as_incorrect"
+  },
+  "fallback_rules": {
+    "on_help_requested": "give_next_hint_without_using_attempt",
+    "on_silence_seconds": 20,
+    "on_silence_action": "treat_as_unclear",
+    "on_repeated_failure": "reveal_worked_answer_then_advance"
+  },
+  "questions": [
+    {
+      "id": "aq_easy_01",
+      "difficulty": "easy",
+      "origin": "reused",
+      "question_ref": {
+        "scope": "concept_card",
+        "id": "q_pr_l4_1"
+      },
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "visual_asset",
+        "asset_ref": {
+          "scope": "concept_card",
+          "id": "a_quick_ten_drawing"
+        },
+        "state": "9 circles + 4 Xs (1 X in the column, 3 X to the right)",
+        "description": "A quick-ten picture: each ten is a stick of 10 dots, each one is a single dot. For make-a-ten problems the extra dots can be drawn as circles and Xs.",
+        "must_show_exactly": [
+          "T sticks of 10 dots and U single dots represent 10T + U for the current lesson stimulus.",
+          "For make-a-ten tasks, the added dots complete the next ten first and the remaining dots stay outside that group."
+        ],
+        "states_or_frames": [
+          "9 circles + 4 Xs (1 X in the column, 3 X to the right)",
+          "configured from the current lesson question stimulus"
+        ],
+        "alt_text": "Sticks of ten dots and some single dots showing a two-digit number."
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_l4_1"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_easy_01_3"
+        }
+      ],
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_med_01",
+      "difficulty": "medium",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ],
+      "prompt": "A tray has 7 red beads and 6 blue beads. Split the blue group to make 10 with the red beads, then add the blue beads left. How many beads are there?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      }
+    },
+    {
+      "id": "aq_hard_01",
+      "difficulty": "hard",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ],
+      "prompt": "There are 8 red ribbons and 7 blue ribbons. Use 2 of the blue ribbons with the red ribbons to make 10. Keep the other blue ribbons as the leftover part.",
+      "response_type": "multi_part",
+      "parts": [
+        {
+          "id": "p1",
+          "prompt": "After taking 2 from the 7 blue ribbons to make the ten, how many blue ribbons are in the leftover part?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p2",
+          "prompt": "Use that leftover part. Add it to the made ten. How many ribbons are there altogether?",
+          "response_type": "numeric_short"
+        },
+        {
+          "id": "p3",
+          "prompt": "Check by making the ten from the other group. Start with 7 blue ribbons and take enough from the 8 red ribbons to make 10. Add the red ribbons left. How many ribbons are there?",
+          "response_type": "numeric_short"
+        }
+      ],
+      "final_part_id": "p2",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 2,
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+      }
+    }
+  ],
+  "follow_ups": [
+    {
+      "id": "fu_aq_med_01",
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ],
+      "prompt": "Let's try an easier one: A tray has 8 red beads and 3 blue beads. Make 10 first. How many beads are there?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    },
+    {
+      "id": "fu_aq_hard_01",
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ],
+      "prompt": "Let's try an easier one: There are 7 blue ribbons. Take 2 of them to make a ten with another group. After taking 2 from the 7 blue ribbons to make the ten, how many blue ribbons are in the leftover part?",
+      "response_type": "numeric_short",
+      "stimulus": {
+        "kind": "none"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "hint_refs": [
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_1"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_2"
+        },
+        {
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_3"
+        }
+      ],
+      "max_attempts": 1,
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance"
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 13.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_aq_hard_01",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "parts": [
+          {
+            "part_id": "p1",
+            "accept": [
+              "5",
+              "five"
+            ]
+          },
+          {
+            "part_id": "p2",
+            "accept": [
+              "15",
+              "fifteen"
+            ]
+          },
+          {
+            "part_id": "p3",
+            "accept": [
+              "15",
+              "fifteen"
+            ]
+          }
+        ],
+        "final_part_id": "p2"
+      },
+      "partial_credit_eligible": true,
+      "correct": "Says 5 for p1, 15 for p2, and 15 for p3.",
+      "partial": "Gives some of the parts correctly but not all of them.",
+      "incorrect": "Gives clear numbers but none of the parts are correct.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_med_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 11.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    },
+    {
+      "id": "r_fu_aq_hard_01",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "partial_credit_eligible": false,
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Gives a clear number that is not 5.",
+      "unclear": "No number can be understood from the response.",
+      "origin": "generated"
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_aq_easy_01_1",
+      "question_id": "aq_easy_01",
+      "level": 1,
+      "text": "Make a ten with nine first.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_l4"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_2",
+      "question_id": "aq_easy_01",
+      "level": 2,
+      "text": "Take one out of the four, leaving three.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_l4"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_easy_01_3",
+      "question_id": "aq_easy_01",
+      "level": 3,
+      "text": "Add the three left to ten.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "obj_l4"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_1",
+      "question_id": "aq_med_01",
+      "level": 1,
+      "text": "Find the partner of seven that makes ten.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_2",
+      "question_id": "aq_med_01",
+      "level": 2,
+      "text": "Take three from the six blue beads, leaving three blue beads.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_med_01_3",
+      "question_id": "aq_med_01",
+      "level": 3,
+      "text": "Join seven and three as ten, then add the remaining three.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_1",
+      "question_id": "aq_hard_01",
+      "level": 1,
+      "text": "Split the blue group, add the leftover part to ten, then make the ten from the other group.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_2",
+      "question_id": "aq_hard_01",
+      "level": 2,
+      "text": "Part 1 takes two from seven. Part 2 joins the leftover five with the ten made from eight and two.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_aq_hard_01_3",
+      "question_id": "aq_hard_01",
+      "level": 3,
+      "text": "For part 3, seven needs three to make ten. Take those three from the red group and include the red ribbons left.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_1",
+      "question_id": "fu_aq_med_01",
+      "level": 1,
+      "text": "Eight needs two to make ten.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_2",
+      "question_id": "fu_aq_med_01",
+      "level": 2,
+      "text": "Take two from the three blue beads.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_med_01_3",
+      "question_id": "fu_aq_med_01",
+      "level": 3,
+      "text": "Add the last blue bead to the ten.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_1",
+      "question_id": "fu_aq_hard_01",
+      "level": 1,
+      "text": "Count only the leftover blue part.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_2",
+      "question_id": "fu_aq_hard_01",
+      "level": 2,
+      "text": "Seven blue ribbons lose two to the ten group.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    },
+    {
+      "id": "h_fu_aq_hard_01_3",
+      "question_id": "fu_aq_hard_01",
+      "level": 3,
+      "text": "Take two from seven.",
+      "origin": "generated",
+      "grounded_in": [
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_make_ten"
+        },
+        {
+          "scope": "concept_card",
+          "id": "exp_l4_pattern"
+        }
+      ]
+    }
+  ],
+  "tutor_guidance": {
+    "delivery_order": [
+      "aq_easy_01",
+      "aq_med_01",
+      "aq_hard_01"
+    ],
+    "input_contract": {
+      "concept_card_required": true,
+      "concept_id": "math_g2_m1_l4_make_ten_within_20",
+      "concept_version": 2,
+      "authoritative_rules": "Use v0.2 route definitions and per-question guidance. Resolve concept_card references against the linked concept; do not invent missing questions, assets, answers, or hints."
+    },
+    "attempt_policy": {
+      "main_question_max_attempts": 2,
+      "followup_max_attempts": 1,
+      "count_attempt_when": [
+        "correct",
+        "partial",
+        "incorrect",
+        "incomplete"
+      ],
+      "help_uses_attempt": false,
+      "first_unclear_uses_attempt": false,
+      "unclear_reprompt_limit_per_question": 1,
+      "repeated_unclear": "Count one incorrect attempt and take that question's incorrect route.",
+      "followup_uses_parent_attempt": false,
+      "followup_limit_per_parent": 1,
+      "parent_attempts_persist_after_followup": true,
+      "correct_checked_before_exhaustion": true,
+      "at_parent_limit": "If correct, advance. Otherwise reveal all required answers with worked steps and advance; do not launch another follow-up or retry.",
+      "at_followup_limit": "If incorrect or repeatedly unclear, reveal the follow-up answer; then return to the parent if it has an attempt left, otherwise reveal the parent and advance."
+    },
+    "outcome_classification": {
+      "single_answer": "Compare with the linked rubric. Use partial only when that rubric explicitly permits it. If no answer can be understood, use unclear.",
+      "multi_part_priority": [
+        "unclear",
+        "incomplete",
+        "correct",
+        "partial",
+        "incorrect"
+      ],
+      "multi_part_rules": {
+        "unclear": "No part can be understood, or a supplied part remains ambiguous. Reprompt only the ambiguous part when another part is understood.",
+        "incomplete": "At least one part is understood, no supplied part is ambiguous, and one or more required parts are missing.",
+        "correct": "All required parts are present and match their answer keys.",
+        "partial": "All required parts are understood and present, and some but not all match. Keep correct parts and retry only incorrect parts.",
+        "incorrect": "All required parts are understood and present, and none match."
+      },
+      "final_part_alone_is_not_full_credit": true,
+      "accumulate_correct_parts_across_attempts": true,
+      "open_response": "Accept equivalent wording that meets the linked rubric's correct description. Use its partial description only when explicitly present; do not require an exact wording for an open answer.",
+      "normalization": "Trim surrounding whitespace and punctuation and ignore letter case. Use the declared rubric accept variants. A clear unambiguous number with the question's unit can be compared as a number; ambiguous or conflicting numbers require a reprompt."
+    },
+    "hint_policy": {
+      "sequence_source": "Use each question's hint_sequence in order; source_hint_refs are provenance, not an additional delivery sequence.",
+      "levels": [
+        1,
+        2,
+        3
+      ],
+      "delivery": "Give one hint at a time. Never reveal a later hint automatically.",
+      "on_help": "Give the next unused hint without consuming an attempt, then repeat the pending question or retry parts.",
+      "after_last_hint": "Repeat the last hint and reprompt the pending question without consuming an attempt for help. Reveal only after the attempt limit or an explicit request for the answer.",
+      "on_answer_requested": "Reveal worked steps, then advance for a main question or return to its parent for a follow-up.",
+      "partial_or_incomplete": "Keep correct parts. Read only unresolved part prompts; do not ask the learner to redo correct parts."
+    },
+    "silence_policy": {
+      "seconds": 20,
+      "action": "unclear",
+      "reprompt_limit_per_question": 1,
+      "after_reprompt": "A second silence counts as an incorrect attempt. Follow the question's incorrect route."
+    },
+    "route_definitions": {
+      "advance_to_next_question_or_close": "Advance through delivery_order; close after the final main question.",
+      "retry_eligible_parts_with_hint_until_max_attempts": "Give next hint and retry only unresolved parts if attempts remain; otherwise reveal and advance.",
+      "hint_then_retry_until_max_attempts": "Give next hint and retry if attempts remain; otherwise reveal and advance.",
+      "reprompt_once_then_treat_as_incorrect": "One clarification without an attempt; repeated unclear counts as incorrect and follows the current question's incorrect route.",
+      "followup_once_then_retry_parent_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry parent if attempts remain; otherwise reveal parent and advance. If already used, hint and retry without another follow-up.",
+      "followup_once_then_retry_missing_parts_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry only missing or incorrect parts if attempts remain; otherwise reveal and advance. If already used, retry missing or incorrect parts without another follow-up.",
+      "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance": "Return to triggered_by.question_id while preserving attempts and correct parts. Retry unresolved parts if an attempt remains; otherwise reveal parent and advance.",
+      "reveal_followup_then_return_to_parent_if_attempt_remains": "Reveal the follow-up with worked steps, then return to triggered_by.question_id if attempts remain; otherwise reveal parent and advance."
+    },
+    "closing": {
+      "say": "You have finished these questions. Thank you for trying.",
+      "record": [
+        "question_id",
+        "outcome",
+        "attempts_used",
+        "hints_delivered",
+        "followup_used",
+        "correct_part_ids",
+        "answer_revealed"
+      ],
+      "mastery_claim": "Record observed results; do not claim mastery from this three-question draft assessment alone."
+    },
+    "questions": [
+      {
+        "question_id": "aq_easy_01",
+        "delivery_prompt": "9 plus 4 equals what number?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_easy_01_3"
+          }
+        ],
+        "source_hint_refs": [
+          {
+            "scope": "concept_card",
+            "id": "h_14"
+          },
+          {
+            "scope": "concept_card",
+            "id": "h_15"
+          }
+        ],
+        "feedback": {
+          "correct": "Yes. The answer is 13.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "concept_card",
+            "id": "r_pr_l4_1"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "13",
+              "thirteen"
+            ]
+          },
+          "say": "Let us work it out together. 4 - 1 = 3; 9 + 1 = 10; 10 + 3 = 13. The answer is 13.",
+          "worked_steps": [
+            "4 - 1 = 3; 9 + 1 = 10; 10 + 3 = 13.",
+            "The answer is 13."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_med_01",
+        "delivery_prompt": "A tray has 7 red beads and 6 blue beads. Split the blue group to make 10 with the red beads, then add the blue beads left. How many beads are there?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. There are 13 beads.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "13",
+              "thirteen"
+            ]
+          },
+          "say": "Let us work it out together. 6 - 3 = 3; 7 + 3 = 10; 10 + 3 = 13. There are 13 beads.",
+          "worked_steps": [
+            "6 - 3 = 3; 7 + 3 = 10; 10 + 3 = 13.",
+            "There are 13 beads."
+          ]
+        }
+      },
+      {
+        "question_id": "aq_hard_01",
+        "delivery_prompt": "There are 8 red ribbons and 7 blue ribbons. Use 2 of the blue ribbons with the red ribbons to make 10. Keep the other blue ribbons as the leftover part.",
+        "part_delivery_prompts": [
+          {
+            "id": "p1",
+            "prompt": "After taking 2 from the 7 blue ribbons to make the ten, how many blue ribbons are in the leftover part?",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p2",
+            "prompt": "Use that leftover part. Add it to the made ten. How many ribbons are there altogether?",
+            "response_type": "numeric_short"
+          },
+          {
+            "id": "p3",
+            "prompt": "Check by making the ten from the other group. Start with 7 blue ribbons and take enough from the 8 red ribbons to make 10. Add the red ribbons left. How many ribbons are there?",
+            "response_type": "numeric_short"
+          }
+        ],
+        "partial_credit_eligible": true,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. Both make-a-ten routes give 15.",
+          "partial": "You have some parts right. Keep those answers, and let us check the other parts.",
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Tell me an answer for each question, one at a time.",
+          "incomplete": "You have answered part of the question. Let us finish the questions you have not answered yet."
+        },
+        "outcome_actions": {
+          "correct": "advance_to_next_question_or_close",
+          "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+          "incorrect": "hint_then_retry_until_max_attempts",
+          "unclear": "reprompt_once_then_treat_as_incorrect",
+          "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+        },
+        "reprompt": "Tell me an answer for each question, one at a time.",
+        "max_attempts": 2,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "pair_of_parts",
+            "parts": [
+              {
+                "part_id": "p1",
+                "accept": [
+                  "5",
+                  "five"
+                ]
+              },
+              {
+                "part_id": "p2",
+                "accept": [
+                  "15",
+                  "fifteen"
+                ]
+              },
+              {
+                "part_id": "p3",
+                "accept": [
+                  "15",
+                  "fifteen"
+                ]
+              }
+            ],
+            "final_part_id": "p2"
+          },
+          "say": "Let us work it out together. Part 1: 7 - 2 = 5 blue ribbons left over. Part 2: 8 + 2 = 10; 10 + 5 = 15 ribbons. Part 3: 8 - 3 = 5; 7 + 3 = 10; 10 + 5 = 15 ribbons. Both make-a-ten routes give 15.",
+          "worked_steps": [
+            "Part 1: 7 - 2 = 5 blue ribbons left over.",
+            "Part 2: 8 + 2 = 10; 10 + 5 = 15 ribbons.",
+            "Part 3: 8 - 3 = 5; 7 + 3 = 10; 10 + 5 = 15 ribbons.",
+            "Both make-a-ten routes give 15."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_med_01",
+        "delivery_prompt": "Let's try an easier one: A tray has 8 red beads and 3 blue beads. Make 10 first. How many beads are there?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. There are 11 beads.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "11",
+              "eleven"
+            ]
+          },
+          "say": "Let us work it out together. 3 - 2 = 1; 8 + 2 = 10; 10 + 1 = 11. There are 11 beads.",
+          "worked_steps": [
+            "3 - 2 = 1; 8 + 2 = 10; 10 + 1 = 11.",
+            "There are 11 beads."
+          ]
+        }
+      },
+      {
+        "question_id": "fu_aq_hard_01",
+        "delivery_prompt": "Let's try an easier one: There are 7 blue ribbons. Take 2 of them to make a ten with another group. After taking 2 from the 7 blue ribbons to make the ten, how many blue ribbons are in the leftover part?",
+        "part_delivery_prompts": [],
+        "partial_credit_eligible": false,
+        "hint_sequence": [
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_1"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_2"
+          },
+          {
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_3"
+          }
+        ],
+        "source_hint_refs": [],
+        "feedback": {
+          "correct": "Yes. There are 5 blue ribbons left over.",
+          "partial": null,
+          "incorrect": "Let us check this together, one step at a time.",
+          "unclear": "Please say one number for your answer.",
+          "incomplete": null
+        },
+        "outcome_actions": {
+          "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+          "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+          "unclear": "reprompt_once_then_treat_as_incorrect"
+        },
+        "reprompt": "Please say one number for your answer.",
+        "max_attempts": 1,
+        "answer_reveal": {
+          "rubric_ref": {
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          },
+          "answer_key": {
+            "mode": "exact",
+            "accept": [
+              "5",
+              "five"
+            ]
+          },
+          "say": "Let us work it out together. 7 - 2 = 5. There are 5 blue ribbons left over.",
+          "worked_steps": [
+            "7 - 2 = 5.",
+            "There are 5 blue ribbons left over."
+          ]
+        }
+      }
+    ]
+  }
+}

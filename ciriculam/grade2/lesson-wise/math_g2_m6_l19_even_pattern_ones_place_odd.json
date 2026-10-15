@@ -1,0 +1,2861 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l19_even_pattern_ones_place_odd",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-d-lesson-19.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 19",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Investigate the pattern of even numbers. They have 0, 2, 4, 6 and 8 in the ones place. Relate this to odd numbers.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l10_tiles_rectangles_arrays",
+    "math_g2_m6_l17_doubles_even_numbers",
+    "math_g2_m6_l18_pairing_skip_counting_even"
+  ],
+  "explanations": [
+    {
+      "id": "exp_even_ones",
+      "title": "Even numbers end in 0, 2, 4, 6 or 8",
+      "text": "All even numbers have 0, 2, 4, 6 or 8 in the ones place. Look at the ones place to tell if a number is even.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T: all even numbers have 0, 2, 4, 6, or 8 in the ones place)"
+      }
+    },
+    {
+      "id": "exp_odd",
+      "title": "Odd numbers",
+      "text": "Numbers that are not even are odd. Odd numbers are one more or one less than an even number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T: all the numbers that are not circled are called odd numbers)"
+      }
+    },
+    {
+      "id": "exp_add_sub_one",
+      "title": "Add or take away 1",
+      "text": "Add 1 to an even number and you get an odd number. Take away 1 from an even number and you get an odd number.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: An even number take away 1 is odd)"
+      }
+    },
+    {
+      "id": "exp_odd_array",
+      "title": "An odd number leaves one out",
+      "text": "An odd number does not make 2 equal rows. One tile sticks out. 19 is 10 plus 9, not a double.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (19 tiles)"
+      }
+    },
+    {
+      "id": "exp_next_ten",
+      "title": "Make the next ten to add",
+      "text": "9 plus 4 is the same as 10 plus 3. Take 1 from the 4 and give it to the 9.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_circle_evens",
+      "title": "Even numbers to 20",
+      "text": "2, 4, 6, 8, 10, 12, 14, 16, 18, 20 are even. Every other number is not circled. Those are odd.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_19_17",
+      "title": "19 and 17",
+      "text": "Take 1 tile from 20. 19 is left. One tile has no match. 19 is odd. 17 is odd too, because 8 plus 9 is not a double.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_40_41",
+      "title": "40 and 41",
+      "text": "40 is even. It ends in 0 and 20 plus 20 equals 40. 41 is one more than 40, so 41 is odd.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is nine plus four?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "9 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (9 + 4)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is nine plus six?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "9 + 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (9 + 6)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is nine plus sixteen?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "9 + 16"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (9 + 16)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is nineteen plus sixteen?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "19 + 16"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (19 + 16)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "What is eight plus seventeen?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "8 + 17"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (8 + 17)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "What is eighteen plus fifteen?",
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "18 + 15"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (18 + 15)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "What is seven plus sixteen?",
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "7 + 16"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (7 + 16)"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is seventeen plus fourteen?",
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "17 + 14"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (17 + 14)"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "What is nineteen plus eighteen?",
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "19 + 18"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (19 + 18)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Make a column of 2 tiles. Say the doubles equation.",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "count": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 1 + 1 = 2)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Is 2 an even number?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "count": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Yes!)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "You have 2 columns of 2 tiles. Say the doubles equation.",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "columns": 2,
+        "total": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 2 + 2 = 4)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Is 4 even? How do you know?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "count": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Yes, because none are sticking out)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Look at the even numbers 2, 4, 6, 8, 10, 12 and so on. What digits are in the ones place?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "evens": [
+          2,
+          4,
+          6,
+          8,
+          10,
+          12,
+          14,
+          16,
+          18,
+          20
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T: 0, 2, 4, 6, or 8 in the ones place)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "What are the numbers called that are not even?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "evens": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T: called odd numbers)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Take 1 tile from an array of 20. How many are left?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "count": 19
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 19 tiles!)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Is 19 even or odd? Why?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_pairs",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "count": 19
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: No! ... You can't make pairs)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Take away 1 more tile to get 18. Take away 1 more to get 17. Is 17 even or odd? Why?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_pairs",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "count": 17
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 17 is odd)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "An even number take away 1. Is the answer even or odd?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_even_plus_one"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "from": 20,
+        "to": 19
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: An even number take away 1 is odd)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "An even number plus 1. Is the answer even or odd? Give an example.",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_even_plus_one"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "expression": "8 + 1"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 8 + 1 = 9, and that is odd)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Is 40 even or odd? How do you know?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "number": 40
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 40 is even because it ends in 0)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Is 41 even or odd? How do you know?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_ones_place",
+        "h_even_plus_one"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "number": 41
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 41 must be odd)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Is twenty-six even or odd?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "number": 26
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (numbers within 50: 26)"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Is thirty even or odd?",
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "number": 30
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (numbers within 50: 30)"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "Is forty-four even or odd?",
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "number": 44
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (numbers within 50: 44)"
+      }
+    },
+    {
+      "id": "q_pr_17",
+      "kind": "practice",
+      "text": "Is fifty even or odd?",
+      "rubric_id": "r_pr_17",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "number": 50
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (numbers within 50: 50)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Eggs come in cartons of 12. Joanna's mom used 1 egg. How many eggs are left?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_even_plus_one"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "from": 12,
+        "to": 11
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Joanna's mom used 1 egg from 12. Is the amount left even or odd? Explain.",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_even_plus_one",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "from": 12,
+        "to": 11
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "What is one plus one?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 1,
+        "total": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (1 + 1)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "What is two plus two?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 2,
+        "total": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (2 + 2)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "What is three plus three?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (3 + 3)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "What is four plus four?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4,
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (4 + 4)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "What is five plus five?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 5,
+        "total": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (5 + 5)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "What is six plus six?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 6,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (6 + 6)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "What is seven plus seven?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 7,
+        "total": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (7 + 7)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "What is eight plus eight?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 8,
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (8 + 8)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "What is nine plus nine?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 9,
+        "total": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (9 + 9)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "What is ten plus ten?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 10,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) / Homework 2(a) (10 + 10)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "Fill in the missing even numbers on the number path: 20, 22, 24, __, 28, 30. What is the first missing number?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "path": [
+          20,
+          22,
+          24,
+          null,
+          28,
+          30
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3(a) (number path)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "Count by twos: 30, 32, 34, 36. What number comes after 36 on the path?",
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "path": [
+          30,
+          32,
+          34,
+          36,
+          null,
+          40
+        ]
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3(a) (number path)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "On the number path 0, 1, 2, 3, 4, which numbers are odd up to 10?",
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_even_plus_one"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "to": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3(b) (odd numbers on the number path)"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "Sami says 45 is even because it starts with 4. Is she correct? How do you know?",
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "number": 45
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 5(c): Sami argues that 45 is even)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "What happens to an even number when you add 1 or take away 1? What do you add or take away to get another even number?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_even_plus_one"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "number": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What do you notice about all the even numbers? All the odd numbers? How are the two patterns alike?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_even_odd_tiles"
+      ],
+      "stimulus": {
+        "to": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3)"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 9 plus 2?",
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_a4",
+      "kind": "practice",
+      "text": "What is 9 plus 7?",
+      "rubric_id": "r_sp_a4",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 4)"
+      }
+    },
+    {
+      "id": "q_sp_a8",
+      "kind": "practice",
+      "text": "What is 10 plus 3?",
+      "rubric_id": "r_sp_a8",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 + 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 8)"
+      }
+    },
+    {
+      "id": "q_sp_a10",
+      "kind": "practice",
+      "text": "What is 8 plus 10?",
+      "rubric_id": "r_sp_a10",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 10"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 10)"
+      }
+    },
+    {
+      "id": "q_sp_a14",
+      "kind": "practice",
+      "text": "What is 8 plus 9?",
+      "rubric_id": "r_sp_a14",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "8 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 14)"
+      }
+    },
+    {
+      "id": "q_sp_a18",
+      "kind": "practice",
+      "text": "What is 6 plus 5?",
+      "rubric_id": "r_sp_a18",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "6 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 18)"
+      }
+    },
+    {
+      "id": "q_sp_a20",
+      "kind": "practice",
+      "text": "What is 9 plus 5?",
+      "rubric_id": "r_sp_a20",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 20)"
+      }
+    },
+    {
+      "id": "q_sp_a22",
+      "kind": "practice",
+      "text": "What is 10 plus 6?",
+      "rubric_id": "r_sp_a22",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "10 + 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 22)"
+      }
+    },
+    {
+      "id": "q_sp_a26",
+      "kind": "practice",
+      "text": "What is 5 plus 7?",
+      "rubric_id": "r_sp_a26",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "5 + 7"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 26)"
+      }
+    },
+    {
+      "id": "q_sp_a30",
+      "kind": "practice",
+      "text": "What is 5 plus 10?",
+      "rubric_id": "r_sp_a30",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "5 + 10"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 30)"
+      }
+    },
+    {
+      "id": "q_sp_a31",
+      "kind": "practice",
+      "text": "What is 5 plus 8?",
+      "rubric_id": "r_sp_a31",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "5 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 31)"
+      }
+    },
+    {
+      "id": "q_sp_a34",
+      "kind": "practice",
+      "text": "What is 7 plus 6?",
+      "rubric_id": "r_sp_a34",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "7 + 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 34)"
+      }
+    },
+    {
+      "id": "q_sp_a40",
+      "kind": "practice",
+      "text": "What is 6 plus 6?",
+      "rubric_id": "r_sp_a40",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "6 + 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 40)"
+      }
+    },
+    {
+      "id": "q_sp_a43",
+      "kind": "practice",
+      "text": "What is 9 plus 9?",
+      "rubric_id": "r_sp_a43",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "9 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 43)"
+      }
+    },
+    {
+      "id": "q_sp_a44",
+      "kind": "practice",
+      "text": "What is 4 plus 9?",
+      "rubric_id": "r_sp_a44",
+      "hint_ids": [
+        "h_sp_strategy"
+      ],
+      "origin": "derived",
+      "stimulus": {
+        "expression": "4 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens (Sprint A item 44)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (9 + 4; S: 13)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (9 + 6; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (9 + 16; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five"
+        ]
+      },
+      "correct": "Says 35.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (19 + 16; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (8 + 17; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33",
+          "thirty-three"
+        ]
+      },
+      "correct": "Says 33.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (18 + 15; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "23",
+          "twenty-three"
+        ]
+      },
+      "correct": "Says 23.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (7 + 16; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "31",
+          "thirty-one"
+        ]
+      },
+      "correct": "Says 31.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (17 + 14; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "37",
+          "thirty-seven"
+        ]
+      },
+      "correct": "Says 37.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten to Add (19 + 18; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 + 1 = 2",
+          "1 plus 1 equals 2",
+          "one plus one equals two",
+          "1 plus 1",
+          "one plus one"
+        ]
+      },
+      "correct": "Says 1 plus 1.",
+      "partial": "Says 2 only.",
+      "incorrect": "Says another equation.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 1 + 1 = 2)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes it is",
+          "even"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Yes!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 + 2 = 4",
+          "2 plus 2 equals 4",
+          "two plus two equals four",
+          "2 plus 2",
+          "two plus two"
+        ]
+      },
+      "correct": "Says 2 plus 2.",
+      "partial": "Says 4 only.",
+      "incorrect": "Says another equation.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 2 + 2 = 4)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes. No tile sticks out, or we say 4 when we count by twos.",
+      "partial": "Says yes but gives no reason.",
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Yes, because none are sticking out; I can count 2, 4)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0, 2, 4, 6, 8",
+          "0 2 4 6 8",
+          "0, 2, 4, 6, and 8",
+          "zero, two, four, six, eight"
+        ]
+      },
+      "correct": "Says 0, 2, 4, 6 and 8.",
+      "partial": "Says some of them.",
+      "incorrect": "Says other digits.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T: all even numbers have 0, 2, 4, 6, or 8 in the ones place)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "odd",
+          "odd numbers"
+        ]
+      },
+      "correct": "Says odd.",
+      "partial": null,
+      "incorrect": "Says another word.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (T: All the numbers that are not circled are called odd numbers)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19",
+          "nineteen"
+        ]
+      },
+      "correct": "Says 19.",
+      "partial": "Says 21.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 19 tiles!)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says odd. One tile sticks out with no match, or it is 10 plus 9 and not a double.",
+      "partial": "Says odd but gives no reason.",
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: You can't make pairs; 10 + 9 = 19)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says odd. One tile has no match, or there is no doubles sentence, or 8 plus 9 is not a double, or we cannot count by twos to 17.",
+      "partial": "Says odd but gives no reason.",
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 17 is odd because there is no doubles sentence. 8 + 9 is 17)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "odd",
+          "it is odd",
+          "odd."
+        ]
+      },
+      "correct": "Says odd.",
+      "partial": null,
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: An even number take away 1 is odd)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says odd, with an example like 8 plus 1 equals 9.",
+      "partial": "Says odd but gives no example.",
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Adding 1 to an even will be odd because 8 + 1 = 9)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says even. It ends in 0, or we can count by twos to 40, or 20 plus 20 equals 40.",
+      "partial": "Says even but gives no reason.",
+      "incorrect": "Says odd.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 40 is even because it ends in 0; 20 + 20 = 40)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says odd. It is an even number plus 1, or it does not end in 0, 2, 4, 6 or 8.",
+      "partial": "Says odd but gives no reason.",
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 41 must be odd, because it's an even plus 1)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "even",
+          "it is even",
+          "even."
+        ]
+      },
+      "correct": "Says even.",
+      "partial": null,
+      "incorrect": "Says odd.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (numbers within 50 such as 26; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "even",
+          "it is even",
+          "even."
+        ]
+      },
+      "correct": "Says even.",
+      "partial": null,
+      "incorrect": "Says odd.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (numbers within 50 such as 30; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "even",
+          "it is even",
+          "even."
+        ]
+      },
+      "correct": "Says even.",
+      "partial": null,
+      "incorrect": "Says odd.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (numbers within 50 such as 44; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "even",
+          "it is even",
+          "even."
+        ]
+      },
+      "correct": "Says even.",
+      "partial": null,
+      "incorrect": "Says odd.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (numbers within 50 such as 50; answer not printed)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": "Says 13.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 12 - 1 = 11)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says odd. 12 is even, and 1 less than an even number is odd. Or 11 ends in 1.",
+      "partial": "Says odd but gives no reason.",
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 11 is odd)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (1 + 1; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (2 + 2; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (3 + 3; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (4 + 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (5 + 5; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (6 + 6; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (7 + 7; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (8 + 8; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (9 + 9; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (10 + 10; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty-six"
+        ]
+      },
+      "correct": "Says 26.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3(a) (answer not printed; 20, 22, 24, 26, 28, 30)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "38",
+          "thirty-eight"
+        ]
+      },
+      "correct": "Says 38.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3(a) (answer not printed; 36, 38, 40)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1, 3, 5, 7, 9",
+          "1 3 5 7 9",
+          "one, three, five, seven, nine"
+        ]
+      },
+      "correct": "Says 1, 3, 5, 7, 9.",
+      "partial": "Says some of them.",
+      "incorrect": "Says other numbers.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3(b) (answer not printed; odd numbers between the evens)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. Only the ones place matters. 45 ends in 5, so it is odd.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development: ones place 0, 2, 4, 6, 8)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it becomes odd. Add or take away 2 to get another even number.",
+      "partial": "Says it becomes odd but not how to get another even.",
+      "incorrect": "Says it stays even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development: add 1 or take away 1 gives odd)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says evens end in 0, 2, 4, 6, 8 and odds end in 1, 3, 5, 7, 9. Both go up by 2.",
+      "partial": "Says only one pattern.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development patterns)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1 (no answer printed; 9 + 2)"
+      }
+    },
+    {
+      "id": "r_sp_a4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 4 (no answer printed; 9 + 7)"
+      }
+    },
+    {
+      "id": "r_sp_a8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 8 (no answer printed; 10 + 3)"
+      }
+    },
+    {
+      "id": "r_sp_a10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 10 (no answer printed; 8 + 10)"
+      }
+    },
+    {
+      "id": "r_sp_a14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17",
+          "seventeen"
+        ]
+      },
+      "correct": "Says 17.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 14 (no answer printed; 8 + 9)"
+      }
+    },
+    {
+      "id": "r_sp_a18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 18 (no answer printed; 6 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 20 (no answer printed; 9 + 5)"
+      }
+    },
+    {
+      "id": "r_sp_a22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 22 (no answer printed; 10 + 6)"
+      }
+    },
+    {
+      "id": "r_sp_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 26 (no answer printed; 5 + 7)"
+      }
+    },
+    {
+      "id": "r_sp_a30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 30 (no answer printed; 5 + 10)"
+      }
+    },
+    {
+      "id": "r_sp_a31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 31 (no answer printed; 5 + 8)"
+      }
+    },
+    {
+      "id": "r_sp_a34",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 34 (no answer printed; 7 + 6)"
+      }
+    },
+    {
+      "id": "r_sp_a40",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 40 (no answer printed; 6 + 6)"
+      }
+    },
+    {
+      "id": "r_sp_a43",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 43 (no answer printed; 9 + 9)"
+      }
+    },
+    {
+      "id": "r_sp_a44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 44 (no answer printed; 4 + 9)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_ones_place",
+      "level": 1,
+      "text": "Look at the ones place. Is it 0, 2, 4, 6 or 8?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 41 doesn't end in 0, 2, 4, 6, or 8)"
+      }
+    },
+    {
+      "id": "h_pairs",
+      "level": 1,
+      "text": "Pair up the tiles. Is any tile left over?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (You can't make pairs)"
+      }
+    },
+    {
+      "id": "h_even_plus_one",
+      "level": 2,
+      "text": "Think of the even number next to it. One more or one less makes it odd.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: they are one more and one less than the even number)"
+      }
+    },
+    {
+      "id": "h_next_ten",
+      "level": 1,
+      "text": "Give some of the second number to the first number to make a ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Making the Next Ten (9 + 4 = 10 + 3)"
+      }
+    },
+    {
+      "id": "h_sp_strategy",
+      "level": 1,
+      "text": "Use a fact you know. Make a ten, or use a doubles fact.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_even_odd_tiles",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact tile counts, pairs, a leftover tile and a number path need exact behaviour. Diffusion cannot count.",
+      "description": "Tiles in columns of 2 on a number path. Even numbers are circled. A tile can be added or taken away to show odd numbers.",
+      "must_show_exactly": [
+        "Exactly the tile count in the stimulus",
+        "Pairs shown in columns of 2",
+        "Leftover tile shown when the count is odd",
+        "Number path matches the count"
+      ],
+      "states_or_frames": [
+        "2 tiles to 20 tiles in columns of 2",
+        "19 tiles with 1 sticking out",
+        "18 tiles",
+        "17 tiles",
+        "number path 0 to 20 with evens circled",
+        "12 eggs and 11 eggs",
+        "40 and 41 on a number line"
+      ],
+      "interaction": "Tutor sets the count from the stimulus. Child can add or take away 1 tile. Child answers by voice or typing.",
+      "alt_text": "Tiles in pairs with a number path.",
+      "used_by": [
+        "ex_19_17",
+        "ex_circle_evens",
+        "exp_add_sub_one",
+        "exp_even_ones",
+        "exp_odd",
+        "exp_odd_array",
+        "q_app_1",
+        "q_app_2",
+        "q_db_1",
+        "q_db_2",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_10",
+        "q_ps_13",
+        "q_ps_14",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Tiles in pairs above a number line, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Sprint: Sums to the Teens (timed Sprint A and B)",
+      "reason": "Timed paper race with 44 items per sheet. The items are used as questions. The race cannot run on a screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint Sums to the Teens"
+      }
+    },
+    {
+      "id": "na_board",
+      "name": "Circle evens and underline odds on the board; tiles with a partner",
+      "reason": "Needs a board and real tiles. The widget a_even_odd_tiles replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Skip-count the columns on the array; write and circle on the Problem Set",
+      "reason": "Writing and circling cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_even_odd_tiles). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md text has three unlabelled sheets. Items were counted from printed prompts. Check against the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l10_tiles_rectangles_arrays, math_g2_m6_l17_doubles_even_numbers and math_g2_m6_l18_pairing_skip_counting_even are earlier cards of this module."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f10",
+      "severity": "high",
+      "item": "Picture items",
+      "issue": "Problem Set 1 (skip-count the array), 4 and 5 (bold numbers) and the first-page 1 more or 1 less circle are pictures not in the .md. They were left out. Only the Sami question is used from Problem 5."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Standards",
+      "issue": "Only 2.OA.2 and 2.NBT.5 are printed in this file (fluency lines). The even and odd standard is not printed here, so it is not listed. Check against the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Problem Set number paths",
+      "issue": "Only the numbers shown are asked. Blanks were read from the printed lists. Check against the PDF."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Sprint A item numbers",
+      "issue": "The .md table has no printed item numbers. Items 1 to 22 are the left column and 23 to 44 the right column. Check against the PDF."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Sprint items used and left out",
+      "issue": "Used Sprint A items 1, 4, 8, 10, 14, 18, 20, 22, 26, 30, 31, 34, 40, 43, 44. Sprint B was not used. Other items repeat these patterns."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Open answers",
+      "issue": "Even or odd questions with a reason use open rubrics. A person or the tutor must check the reason."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "h_sp_strategy",
+      "issue": "Generated hint. No hint is in the source for this task. Need review."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

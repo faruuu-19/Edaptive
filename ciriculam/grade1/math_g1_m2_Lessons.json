@@ -1,0 +1,1518 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g1_m2_l1_three_addends_make_ten",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g1_m2",
+      "file": "math-g1-m2-topic-a-lesson-1.pdf",
+      "source_version": "G1-M2-TE-1.3.0-06.2015",
+      "title": "Eureka Math / EngageNY, Grade 1, Module 2, Lesson 1",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "printed footer numbers (lesson runs p15-p28)"
+    }
+  ],
+  "grade": 1,
+  "subject": "math",
+  "standards": [
+    "1.NBT.2",
+    "1.OA.5",
+    "1.OA.6"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Add three numbers when two of them make 10. Use this to solve word problems.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "15",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g1_m1_partners_to_ten",
+    "ext_k_decompose_numbers_within_10",
+    "ext_g1_adding_within_10"
+  ],
+  "explanations": [
+    {
+      "id": "exp_make_ten",
+      "title": "Make a ten first",
+      "text": "Let's add 9, 1, and 4. First, look for two numbers that make 10. 9 and 1 make 10. Now you have 10 and 4 more. 10 plus 4 equals 14.",
+      "asset_ids": [
+        "a_block_groups"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17-18",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_count_on",
+      "title": "Start with the biggest number and count on",
+      "text": "You can also start with the biggest number and count on. Start at 9. Count on 1 more. Then count on 4 more.",
+      "asset_ids": [
+        "a_block_groups"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Concept Development (ways to add the blocks)"
+      }
+    },
+    {
+      "id": "exp_five_inside",
+      "title": "Use the 5 hiding inside the 9",
+      "text": "Here is another way to make a ten. The 4 trapezoids and 1 square make 5. The 9 triangles have a 5 inside them. 5 and 5 make 10. 4 triangles are left. 10 plus 4 equals 14.",
+      "asset_ids": [
+        "a_block_groups"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Notes on Multiple Means of Representation (4 + 1 = 5 and the 5 triangles inside the 9)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_9_1_4",
+      "title": "9 plus 1 plus 4",
+      "text": "There are 9 triangles, 1 square, and 4 trapezoids. 9 plus 1 equals 10. 10 plus 4 equals 14. There are 14 blocks.",
+      "asset_ids": [
+        "a_block_groups"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17-18",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_bill",
+      "title": "1 plus 9 plus 6",
+      "text": "Bill buys 1 apple, 9 bananas, and 6 pears. 1 and 9 make 10. 10 plus 6 equals 16. Bill buys 16 pieces of fruit.",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "21",
+        "section": "Problem Set, item 1 (worked start: 1 and 9 circled as 10)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Take 1 out of 5. 1 and what number make 5?",
+      "asset_ids": [],
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_take_out"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "16",
+        "section": "Fluency: Take Out 1"
+      },
+      "stimulus": {
+        "number": 5,
+        "take_out": 1
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Take 1 out of 3. 1 and what number make 3?",
+      "asset_ids": [],
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_take_out"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "16",
+        "section": "Fluency: Take Out 1"
+      },
+      "stimulus": {
+        "number": 3,
+        "take_out": 1
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Take 1 out of 10. 1 and what number make 10?",
+      "asset_ids": [],
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_take_out"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "16",
+        "section": "Fluency: Take Out 1"
+      },
+      "stimulus": {
+        "number": 10,
+        "take_out": 1
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "2 plus 8 equals 3 plus what number?",
+      "asset_ids": [],
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_pk_equal"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "16",
+        "section": "Fluency: Equal Number Pairs for Ten (suggested numbers 2, 3, 7, 8)"
+      },
+      "stimulus": {
+        "left": [
+          2,
+          8
+        ],
+        "right": [
+          3,
+          null
+        ]
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "There are 9 triangle blocks, 1 square block, and 4 trapezoid blocks. 9 plus 1 plus 4 equals what number?",
+      "asset_ids": [
+        "a_block_groups"
+      ],
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_ten_and_more"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17-18",
+        "section": "Concept Development"
+      },
+      "stimulus": {
+        "addends": [
+          9,
+          1,
+          4
+        ],
+        "triangles": 9,
+        "squares": 1,
+        "trapezoids": 4
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Look at 9 plus 1 plus 4. Which two numbers make 10?",
+      "asset_ids": [
+        "a_block_groups"
+      ],
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_look_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17-18",
+        "section": "Concept Development (make ten)"
+      },
+      "stimulus": {
+        "addends": [
+          9,
+          1,
+          4
+        ],
+        "total": 10
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "9 plus 1 makes 10. You have 10 and 4 more. 10 plus 4 equals what number?",
+      "asset_ids": [
+        "a_block_groups"
+      ],
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_ten_and_more"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development"
+      },
+      "stimulus": {
+        "ten": 10,
+        "more": 4
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Marcus puts 2 pepper slices, 8 carrots, and 6 banana pieces on his tray. How many pieces of food does he have?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_larger_count_on"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (Marcus story)"
+      },
+      "stimulus": {
+        "addends": [
+          2,
+          8,
+          6
+        ]
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Lena makes 4 jump shots, 7 layups, and 3 free throws in basketball. How many baskets does Lena make?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_larger_count_on"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (Lena story)"
+      },
+      "stimulus": {
+        "addends": [
+          4,
+          7,
+          3
+        ]
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "5 upper-grade buddies visit the class. Then 3 more buddies come. Soon after, 5 more buddies come. How many buddies come in all?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_larger_count_on"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (buddies story)"
+      },
+      "stimulus": {
+        "addends": [
+          5,
+          3,
+          5
+        ]
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Bill buys 1 apple, 9 bananas, and 6 pears. How many pieces of fruit does he buy in all?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_larger_count_on"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "21",
+        "section": "Problem Set, item 1"
+      },
+      "stimulus": {
+        "addends": [
+          1,
+          9,
+          6
+        ]
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Maria gets 4 dolls, 7 balls, and 3 games for her birthday. How many toys does she get?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_larger_count_on"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "21",
+        "section": "Problem Set, item 2"
+      },
+      "stimulus": {
+        "addends": [
+          4,
+          7,
+          3
+        ]
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Maddy catches 8 bugs, 3 frogs, and 2 tadpoles at the pond. How many animals does she catch?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_larger_count_on"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "22",
+        "section": "Problem Set, item 3"
+      },
+      "stimulus": {
+        "addends": [
+          8,
+          3,
+          2
+        ]
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Molly brings 4 red balloons to a party. Kenny brings 2 green balloons. Dara brings 6 blue balloons. How many balloons do they bring?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_larger_count_on"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "22",
+        "section": "Problem Set, item 4"
+      },
+      "stimulus": {
+        "addends": [
+          4,
+          2,
+          6
+        ]
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Toby has 2 dimes. He finds 4 more dimes in his jacket and 8 more on the table. How many dimes does Toby have?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_larger_count_on"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "23",
+        "section": "Exit Ticket"
+      },
+      "stimulus": {
+        "addends": [
+          2,
+          4,
+          8
+        ]
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Cindy has 5 cats, 7 goldfish, and 5 dogs. How many pets does she have in all?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_look_ten",
+        "h_make_ten_first",
+        "h_larger_count_on"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Homework, item 2"
+      },
+      "stimulus": {
+        "addends": [
+          5,
+          7,
+          5
+        ]
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Jim sits at a table with 4 teachers and 9 children. How many people are at the table after Jim sits down?",
+      "asset_ids": [
+        "a_three_addend_frame"
+      ],
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_hidden_jim",
+        "h_make_ten_first"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "25",
+        "section": "Homework, item 4"
+      },
+      "stimulus": {
+        "addends": [
+          4,
+          9,
+          1
+        ],
+        "hidden_addend": "Jim = 1"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "John, Emma, and Alice each have 10 raisins. John eats 3, Emma eats 4, and Alice eats 5. How many raisins does each child have now? Say John, then Emma, then Alice.",
+      "asset_ids": [],
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_raisin"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Application Problem"
+      },
+      "stimulus": {
+        "start_each": 10,
+        "eaten": {
+          "John": 3,
+          "Emma": 4,
+          "Alice": 5
+        }
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "The class has 9 triangles, 1 square, and 4 trapezoids. A teacher next door has 4 triangles and 10 squares. Does she have more, fewer, or the same number of blocks? How do you know?",
+      "asset_ids": [
+        "a_block_groups"
+      ],
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_db_count"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "19",
+        "section": "Student Debrief"
+      },
+      "stimulus": {
+        "class": {
+          "triangles": 9,
+          "squares": 1,
+          "trapezoids": 4
+        },
+        "next_door": {
+          "triangles": 4,
+          "squares": 10
+        }
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What new way to add did you learn today?",
+      "asset_ids": [],
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_db_make"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "20",
+        "section": "Student Debrief (make ten)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Each child started with 10 raisins and ate some. How did this connect to today's lesson?",
+      "asset_ids": [],
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_connect"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "20",
+        "section": "Student Debrief (Application Problem connection)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "1 and 4",
+          "one and four",
+          "4 and 1"
+        ]
+      },
+      "correct": "Says 4 (or 1 and 4).",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "16",
+        "section": "Take Out 1 (example: 5 gives 1 and 4)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two",
+          "1 and 2",
+          "one and two",
+          "2 and 1"
+        ]
+      },
+      "correct": "Says 2 (or 1 and 2).",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "16",
+        "section": "Take Out 1 (S: 1 and 2)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine",
+          "1 and 9",
+          "one and nine",
+          "9 and 1"
+        ]
+      },
+      "correct": "Says 9 (or 1 and 9).",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "16",
+        "section": "Take Out 1 (S: 1 and 9)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "16",
+        "section": "Equal Number Pairs for Ten (numbers 2, 3, 7, 8 make 2 + 8 = 3 + 7; pairing computed)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (S: We have 14 blocks)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "pair_of_parts",
+        "total": 10,
+        "valid_pairs": [
+          [
+            9,
+            1
+          ]
+        ],
+        "order_matters": false
+      },
+      "correct": "Names 9 and 1 (in either order).",
+      "partial": "Names 9 or 1 but not both, or names all three numbers.",
+      "incorrect": "Names two numbers that do not make 10, for example 1 and 4.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "17-18",
+        "section": "Concept Development (S: 9 and 1)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (10 + 4 = 14)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (Marcus story) (answer computed from the story numbers)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (Lena story) (answer computed from the story numbers)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (buddies story) (answer computed from the story numbers)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "21",
+        "section": "Problem Set, item 1 (answer computed from the story numbers)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "21",
+        "section": "Problem Set, item 2 (answer computed from the story numbers)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "22",
+        "section": "Problem Set, item 3 (answer computed from the story numbers)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "22",
+        "section": "Problem Set, item 4 (answer computed from the story numbers)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "23",
+        "section": "Exit Ticket (answer computed from the story numbers)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17",
+          "seventeen"
+        ]
+      },
+      "correct": "Says 17.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "24",
+        "section": "Homework, item 2 (answer computed from the story numbers)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14 (4 plus 9 plus 1 for Jim).",
+      "partial": null,
+      "incorrect": "Says any other number, for example 13 (Jim not counted).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "25",
+        "section": "Homework, item 4 (answer computed: 4 + 9 + 1)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7, 6, 5",
+          "7 6 5",
+          "7,6,5",
+          "7 and 6 and 5",
+          "seven, six, five",
+          "john 7, emma 6, alice 5",
+          "john has 7, emma has 6, alice has 5"
+        ]
+      },
+      "correct": "Says 7 for John, 6 for Emma, and 5 for Alice.",
+      "partial": "Gets one or two of the three numbers right.",
+      "incorrect": "None of the three numbers is right.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Application Problem (10 - 3, 10 - 4, 10 - 5; answers computed, not printed)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "the same",
+          "same",
+          "the same number",
+          "same number of blocks",
+          "14 and 14",
+          "fourteen and fourteen"
+        ]
+      },
+      "correct": "Says the same (both groups have 14 blocks).",
+      "partial": "Says the same but gives no reason, or gives a reason with a wrong total.",
+      "incorrect": "Says more or fewer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "19",
+        "section": "Student Debrief (14 blocks and 4 + 10 = 14; answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "make ten",
+          "make a ten",
+          "making ten",
+          "make 10",
+          "making 10"
+        ]
+      },
+      "correct": "Says make ten.",
+      "partial": null,
+      "incorrect": "Names a different way, for example counting all.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "20",
+        "section": "Student Debrief (Make ten.)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the raisin problem used partners to ten (numbers that make 10).",
+      "partial": "Says it used 10 or taking away, but does not mention numbers that make 10.",
+      "incorrect": "Gives a reason that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Note after the Application Problem (partners to ten)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_take_out",
+      "level": 1,
+      "text": "Take 1 away from the number. How many are left?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "16",
+        "section": "Fluency: Take Out 1"
+      }
+    },
+    {
+      "id": "h_pk_equal",
+      "level": 2,
+      "text": "First add 2 plus 8. Then think what goes with 3 to make that number.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_look_ten",
+      "level": 1,
+      "text": "Look at the numbers. Can you find two that make 10?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Concept Development (make ten)"
+      }
+    },
+    {
+      "id": "h_make_ten_first",
+      "level": 2,
+      "text": "Put the two numbers that make 10 together first. Then add the last number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (10 and 4 more)"
+      }
+    },
+    {
+      "id": "h_ten_and_more",
+      "level": 3,
+      "text": "You have a 10 and some more. Add the 10 and the number that is left.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "18",
+        "section": "Concept Development (10 and 4 more)"
+      }
+    },
+    {
+      "id": "h_larger_count_on",
+      "level": 3,
+      "text": "You can also start with the biggest number and count on.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Concept Development (start with the larger number and count on)"
+      }
+    },
+    {
+      "id": "h_hidden_jim",
+      "level": 1,
+      "text": "Think about who is at the table. Does Jim count too?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_raisin",
+      "level": 1,
+      "text": "Each child starts with 10. Take away the raisins that child ate.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "h_db_count",
+      "level": 1,
+      "text": "Look at the blocks again. Add up each group of blocks.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "19",
+        "section": "Student Debrief (re-create the blocks)"
+      }
+    },
+    {
+      "id": "h_db_make",
+      "level": 1,
+      "text": "Think about how we added the blocks. What did we do with 9 and 1?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17-18",
+        "section": "Concept Development (make ten)"
+      }
+    },
+    {
+      "id": "h_connect",
+      "level": 1,
+      "text": "Look at what each child ate and what is left. What do they make together?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Note after the Application Problem"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_block_groups",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact counts of 9 triangles, 1 square and 4 trapezoids in a 5-group layout. Diffusion cannot count reliably. The square must be able to move.",
+      "description": "A block board. 9 triangles sit in a 5-group layout. A square and 4 trapezoids sit nearby. The square can join the triangles to make a group of 10, and a loop can circle that group.",
+      "must_show_exactly": [
+        "Exactly 9 triangle blocks: 5 in the top row and 4 in the bottom row (source p17)",
+        "Exactly 1 square block",
+        "Exactly 4 trapezoid blocks",
+        "14 blocks in all",
+        "The loop circles exactly the 9 triangles and the 1 square (10 blocks), not the trapezoids",
+        "Next-door bin for q_db_1: exactly 4 triangles and exactly 10 squares"
+      ],
+      "states_or_frames": [
+        "State 1: 9 triangles only",
+        "State 2: 9 triangles, 1 square apart, 4 trapezoids apart",
+        "State 3: square in the 10th place, loop around the 10, 4 trapezoids outside",
+        "State 4 (q_db_1): bin with 4 triangles and 10 squares"
+      ],
+      "interaction": "Square can be dragged next to the triangles. The loop then appears around the 10. No typed input inside the widget.",
+      "alt_text": "Nine triangles, one square and four trapezoids, with a loop around ten of them.",
+      "review_notes": "Source blocks are pattern blocks (p17). Check that the loop shows 10 and not 14. Check the next-door bin count of 10 squares.",
+      "generation_caption": "Flat, simple shapes on a plain background: triangles in rows of 5, one square, four trapezoids, no text. Draw a loop around the triangles and the square. [Build by code]",
+      "used_by": [
+        "exp_make_ten",
+        "exp_count_on",
+        "exp_five_inside",
+        "ex_9_1_4",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_db_1"
+      ]
+    },
+    {
+      "asset_id": "a_three_addend_frame",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Number sentence frame with exact blanks and a marked pair. Anything with exact numbers and interaction is built by code.",
+      "description": "The printed Problem Set frame: three addends, an equals sign and a total, then a second line with 10 plus a number equals a total. The two addends that make 10 can be marked.",
+      "must_show_exactly": [
+        "Three addends shown, matching the question stimulus",
+        "A total blank after the equals sign",
+        "A second line: 10 plus a blank equals a blank",
+        "Exactly two addends can be marked as the pair that makes 10",
+        "For q_pr_9 the third addend is Jim = 1"
+      ],
+      "states_or_frames": [
+        "Frame with the three addends and empty totals",
+        "Two addends marked as 10",
+        "Second line filled in"
+      ],
+      "interaction": "Child marks the two addends that make 10, then fills the totals. The tutor judges only the typed or spoken final answer.",
+      "alt_text": "A number sentence with three numbers added together and a line below that starts with 10 plus.",
+      "review_notes": "Homework item 4 (p25) prints the second line as blank plus blank equals blank, not 10 plus blank. Decide if the widget keeps the 10 plus form.",
+      "generation_caption": "Clean white number sentence frame with three blanks, plus signs, an equals sign and a second line starting with 10, no pictures. [Build by code]",
+      "used_by": [
+        "ex_bill",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_ps_1",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sparkle",
+      "name": "Sparkle: The Say Ten and Regular Way",
+      "reason": "Standing circle counting game with children taking turns and sitting. A screen tutor cannot run it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "15-16"
+      }
+    },
+    {
+      "id": "na_equal_pairs",
+      "name": "Equal Number Pairs for Ten (5-group card game)",
+      "reason": "Partner work with physical cards. Only the suggested numbers 2, 3, 7, 8 are used, as a question (q_pk_4).",
+      "source_ref": {
+        "src": "src1",
+        "page": "16"
+      }
+    },
+    {
+      "id": "na_fluency_template",
+      "name": "Lesson 1 Fluency Template (5-group cards)",
+      "reason": "Cut-out cards for the partner game. Not a question.",
+      "source_ref": {
+        "src": "src1",
+        "page": "26-28"
+      }
+    },
+    {
+      "id": "na_physical_blocks",
+      "name": "Block bin, pattern blocks and string loop",
+      "reason": "Physical materials and partner work. Replaced by the on-screen block board (a_block_groups).",
+      "source_ref": {
+        "src": "src1",
+        "page": "17-18"
+      }
+    },
+    {
+      "id": "na_act_out",
+      "name": "Acting out number stories and turn and talk",
+      "reason": "Body movement and partner talk. The camera and tutor cannot check them.",
+      "source_ref": {
+        "src": "src1",
+        "page": "18"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Simple math drawing with labels and circling 10 on paper",
+      "reason": "Drawing and circling on paper in the Problem Set, Exit Ticket and Homework. The tutor sees no drawings. Only the final typed answer is judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "21-25"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is an AI draft. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "source_refs / concept_id",
+      "issue": "Source license: Eureka Math is CC BY-NC-SA 3.0 (Great Minds). Credit Great Minds, stay non-commercial, share under the same license."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "module number / concept_id",
+      "issue": "The request said module 1, but the PDF footer and title say Grade 1 Module 2 (G1-M2-TE-1.3.0-06.2015). The card uses m2 (math_g1_m2_l1_...). Confirm."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "assets_required (all)",
+      "issue": "Image models cannot be trusted for counts. A person must check every visual against its rubric and stimulus (a_block_groups, a_three_addend_frame)."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "Both assets are not_available: a_block_groups, a_three_addend_frame. Questions that use them cannot launch until built."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "All child text was rewritten from a teacher script and past tense stories into present tense for a screen. Needs a wording review."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "prerequisite ext_g1_m1_partners_to_ten: no card exists; source p17 says the Application Problem builds on Module 1 subtraction to ten."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "prerequisite ext_k_decompose_numbers_within_10: no card exists; p16 says Take Out 1 supports decomposing within 10."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "prerequisite ext_g1_adding_within_10: no card exists; the lesson adds three numbers with a total over 10."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Left-out printed items",
+      "issue": "Homework 1 (5+6+4) and 3 (7+6+3) are the same pattern as items already used, so not added. Sparkle and card game not added. Debrief: Problem 3 versus 4 and why 10 is friendly have no source answer, so not added."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception, so none were added. Proposals for a person to decide: counting all instead of making ten; leaving out Jim in q_pr_9."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "exp_five_inside",
+      "issue": "The source only starts this idea (4 + 1 = 5 and the 5 triangles in the 9). The ending (4 triangles left, 10 + 4 = 14) is derived. Check it."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "All 3 variants come from one Concept Development scene. The Planner has little real choice for now."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "The source has few hints. h_pk_equal and h_hidden_jim are generated. Hint coverage is thin. Check level 3 wording."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "rubrics with partial = null",
+      "issue": "Single-number answers have no real partial outcome (r_pk_1, r_pk_2, r_pk_3, r_pk_4, r_pr_1, r_pr_3, r_pr_4, r_pr_5, r_pr_6, r_ps_1, r_ps_2, r_ps_3, r_ps_4, r_pr_7, r_pr_8, r_pr_9, r_db_2). The script must map partial to the same path as incorrect."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Derived answer keys",
+      "issue": "Not printed, computed from the story numbers: r_pk_4, r_pr_4, r_pr_5, r_pr_6, r_ps_1, r_ps_2, r_ps_3, r_ps_4, r_pr_7, r_pr_8, r_pr_9, r_app_1, r_db_1. Recompute by hand."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "q_pr_9",
+      "issue": "Homework item 4: Jim is a hidden third addend (4 + 9 + 1 = 14). The printed second line is blank plus blank, not 10 plus blank. Check the answer."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "q_app_1 / r_app_1",
+      "issue": "The source asks for a number bond and a number sentence for each child. Only the three numbers left (7, 6, 5) are judged. Drawn or written bonds are not judged. The answer is derived."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "q_ps_1-4, q_pr_7-9",
+      "issue": "The tasks ask for a drawing, circling 10 and filling blanks on paper. Only the final answer is judged. Problem Set item 1 has a printed worked drawing, not used as a picture question."
+    },
+    {
+      "id": "f20",
+      "severity": "medium",
+      "item": "q_db_1 / r_db_1",
+      "issue": "The source gives no answer. The key (the same, 14 and 14) is derived from 9+1+4 and 4+10. The word reason is not checked by an exact key."
+    },
+    {
+      "id": "f21",
+      "severity": "low",
+      "item": "q_pk_4 / r_pk_4",
+      "issue": "The source prints only the number set 2, 3, 7, 8 and one worked example (9 + 1 = 5 + 5). The question 2 plus 8 equals 3 plus 7 is derived; the key is 7."
+    },
+    {
+      "id": "f22",
+      "severity": "low",
+      "item": "Sprint",
+      "issue": "This lesson has no Sprint pages, so no Sprint questions or Sprint activity entry. The sheets present are Problem Set, Exit Ticket, Homework and Template."
+    },
+    {
+      "id": "f23",
+      "severity": "low",
+      "item": "Image-dependent questions",
+      "issue": "No question depends on reading a picture, so no image_dependent flags."
+    },
+    {
+      "id": "f24",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only 1.NBT.2, 1.OA.5 and 1.OA.6 are printed on p15, in the Fluency list. No other standard was added."
+    },
+    {
+      "id": "f25",
+      "severity": "low",
+      "item": "Characters",
+      "issue": "Story characters (Bill, Maria, John) are names only. Any drawn character must be original."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

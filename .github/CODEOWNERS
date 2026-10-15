@@ -1,0 +1,44 @@
+# Who reviews changes to each path. Shared areas need all three tracks; each track adds
+# lines for its own folders when it creates them (see docs/CONTRIBUTING.md).
+
+*                                    @faruuu-19 @amna-cpp @ibrahim-idcode
+
+# Shared: contracts and tooling affect everyone
+/contracts/                          @faruuu-19 @amna-cpp @ibrahim-idcode
+/tools/                              @faruuu-19 @amna-cpp @ibrahim-idcode
+/.github/                            @faruuu-19 @amna-cpp @ibrahim-idcode
+
+# Track C: Data, Scheduling & Parent, incl. auth & profiles (Ibrahim)
+/contracts/auth/                     @ibrahim-idcode
+/backend/app/core/                   @ibrahim-idcode
+/backend/app/session_log/            @ibrahim-idcode
+/backend/migrations/                 @ibrahim-idcode
+/backend/app/modules/auth/           @ibrahim-idcode
+/backend/app/modules/profiles/       @ibrahim-idcode
+/backend/app/modules/curriculum/     @ibrahim-idcode
+/frontend/src/features/auth/         @ibrahim-idcode
+/frontend/src/features/home-profile/ @ibrahim-idcode
+
+# Track B: local lesson voice preview
+/voice_service/                      @amna-cpp
+/frontend/src/features/voice/        @amna-cpp
+/frontend/src/features/lesson-player/ @amna-cpp
+/frontend/src/features/avatar/       @amna-cpp
+/frontend/public/avatar/             @amna-cpp
+/frontend/public/avatars/            @amna-cpp
+/frontend/build-tools/              @amna-cpp
+
+# Lesson integration: scheduling/storage additions require Track C review
+/backend/app/modules/lesson_delivery/ @amna-cpp @ibrahim-idcode
+
+# Parent dashboard and consent: local integration requires Track C review
+/backend/app/modules/consent/        @ibrahim-idcode @amna-cpp
+/frontend/src/features/parent/       @ibrahim-idcode @amna-cpp
+
+# Bundled local script generation, authoring and lesson snapshots
+/script_agent/                       @amna-cpp @faruuu-19
+/lesson_run.py                       @amna-cpp
+/build_lesson_script.py               @amna-cpp
+/authoring/assessment/               @amna-cpp @faruuu-19
+/ciriculam/*/lesson-wise/             @amna-cpp @faruuu-19
+/docs/content/                       @amna-cpp @faruuu-19

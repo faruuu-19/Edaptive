@@ -1,0 +1,1391 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l16_grid_paper_designs_tessellation",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-c-lesson-16.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 16",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Use grid paper to create designs to develop spatial structuring.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l10_tiles_rectangles_arrays",
+    "math_g2_m6_l12_math_drawings_square_tiles",
+    "math_g2_m6_l15_shade_arrays_repeated_addition"
+  ],
+  "explanations": [
+    {
+      "id": "exp_design_array",
+      "title": "A design is like an array",
+      "text": "A tile design on a grid has rows and columns. You can describe it like an array. Look at the colours in each row.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It looks like an array with 3 rows and 3 columns)"
+      }
+    },
+    {
+      "id": "exp_core_unit",
+      "title": "Core unit",
+      "text": "A 3 by 3 design has 3 rows and 3 columns. That is 9 squares. We call it a core unit.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4"
+      }
+    },
+    {
+      "id": "exp_tessellation",
+      "title": "Tessellation",
+      "text": "A tessellation repeats the core unit again and again. The copies touch but do not overlap. There are no gaps. This is also called tiling.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4"
+      }
+    },
+    {
+      "id": "exp_triangle_halves",
+      "title": "Square cut in half",
+      "text": "Cut a square in half corner to corner. You get two triangles.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_get_to_ten",
+      "title": "Get to the next ten",
+      "text": "9 cents plus 1 cent makes 1 dime. A dime is 10 cents.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get to 10, 20, or 30"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_red_blue",
+      "title": "Red and blue design",
+      "text": "The design goes red, blue, red, blue and so on. It has 5 red squares and 4 blue squares. It is 3 rows and 3 columns.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_3x3_unit",
+      "title": "A 3 by 3 core unit",
+      "text": "3 rows of 3 is 9 squares. Copy it side by side with no gaps. This makes a tessellation.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "You have 9 cents in pennies. How many more cents make 1 dime?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_get_dime"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "pennies": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get to 10, 20, or 30 (S: 9 cents + 1 cent = 1 dime)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "You have 1 dime and 9 pennies. How many more cents make 2 dimes?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_get_dime"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "dimes": 1,
+        "pennies": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get to 10, 20, or 30 (1 dime 9 cents + 1 cent = 2 dimes)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "You have 6 pennies. How many more cents make 1 dime?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_get_dime"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "pennies": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get to 10, 20, or 30"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "You have 2 pennies. How many ones are there?",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "pennies": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by Ten or One (Begin with 2 pennies)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "You have 2 pennies. Add a dime. What number do you say?",
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "pennies": 2,
+        "dimes": 1
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by Ten or One (start at 2, add 10)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "You have 2 dimes. How many tens are there?",
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "dimes": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by Ten or One (Begin with 2 dimes)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "You start at 20 with 2 dimes. Add a penny. What number do you say?",
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "dimes": 2,
+        "pennies": 1
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by Ten or One (start at 20, add 1)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A design has red, blue, red, blue, red, blue, red, blue, red squares. How many red squares and how many blue squares?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "columns": 3,
+        "colours": {
+          "red": 5,
+          "blue": 4
+        }
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 5 red squares and 4 blue squares)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "The design has 3 rows and 3 columns. How many squares is that in all?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "columns": 3,
+        "total": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (9 squares)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "You cut a square in half corner to corner. What do you get?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "cut": "square_diagonal"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (so that you have two triangles)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "A design uses 9 squares and 2 triangle halves from one more square. How many tiles did you start with?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "squares": 9,
+        "cut_squares": 1
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (Create a design using 10 tiles)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "How would you describe this design as an array?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "columns": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "What do we call a 3 by 3 design that we repeat again and again?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "columns": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (core unit)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "When you copy the core unit to fill the page, how should the copies touch?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_no_gaps"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "unit": [
+          3,
+          3
+        ],
+        "copies": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: tiles touch but don't overlap)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "What is the name for a design made by repeating a core unit with no gaps or overlaps?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_no_gaps"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "unit": [
+          3,
+          3
+        ],
+        "copies": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: Tessellation!)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Describe a tessellation in your own words.",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_no_gaps"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "unit": [
+          3,
+          3
+        ],
+        "copies": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (How would you describe a tessellation?)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "The process of making a tessellation is often called what?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_no_gaps"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "unit": [
+          3,
+          3
+        ],
+        "copies": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (called tiling)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Rick fills 3 columns of 3 muffins. Say the repeated addition for the muffins he makes.",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "columns": 4,
+        "per_column": 3,
+        "filled": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "The whole pan has 4 columns of 3. Say the repeated addition for the whole pan.",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "columns": 4,
+        "per_column": 3,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_3",
+      "kind": "application",
+      "text": "How many muffins would fit in the whole pan?",
+      "rubric_id": "r_app_3",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "columns": 4,
+        "per_column": 3,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How is knowing how to build an array helpful when you make designs with tiles?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_rows_cols_design"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "columns": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problems 1 to 3)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "How would you describe a tessellation to a first grader?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_no_gaps"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "unit": [
+          3,
+          3
+        ],
+        "copies": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "How is making copies of a unit like something we did before?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_no_gaps"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {
+        "unit": [
+          3,
+          3
+        ],
+        "copies": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "Where do you see tessellations at school, at home or outside?",
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_no_gaps"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tessellation"
+      ],
+      "stimulus": {},
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get to 10, 20, or 30 (9 cents + 1 cent = 1 dime)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get to 10, 20, or 30 (1 dime 9 cents + 1 cent = 2 dimes)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Get to 10, 20, or 30 (any 0 to 10 pennies; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by Ten or One with Dimes and Pennies (second minute: begin with 2 pennies)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by Ten or One (start at 2, add 10 for each dime; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by Ten or One with Dimes and Pennies (third minute: begin with 2 dimes)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21",
+          "twenty-one"
+        ]
+      },
+      "correct": "Says 21.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Count by Ten or One (start at 20, add 1 for each penny; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 red and 4 blue",
+          "5 red, 4 blue",
+          "five red and four blue"
+        ]
+      },
+      "correct": "Says 5 red and 4 blue.",
+      "partial": "Says only one colour correctly.",
+      "incorrect": "Says other numbers.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: It shows 5 red squares and 4 blue squares)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": "Says 6.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (3 rows and 3 columns, a total of 9 squares)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "two triangles",
+          "2 triangles",
+          "triangles"
+        ]
+      },
+      "correct": "Says two triangles.",
+      "partial": "Says triangle (one).",
+      "incorrect": "Says another shape.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (cut one square in half diagonally so that you have two triangles)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": "Says 11 or 9.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (10 tiles; 9 squares and 1 cut into 2 triangles; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the number of rows and columns, like 3 rows and 3 columns.",
+      "partial": "Says something about the design but not rows and columns.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (How would you describe it as an array?)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "core unit",
+          "a core unit"
+        ]
+      },
+      "correct": "Says core unit.",
+      "partial": null,
+      "incorrect": "Says another word.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (I can also call it my core unit)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says they touch with no gaps and no overlaps.",
+      "partial": "Says they touch but not about gaps or overlaps.",
+      "incorrect": "Says they can overlap or have gaps.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (the tiles touch but don't overlap... no gaps or overlaps)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "tessellation",
+          "a tessellation"
+        ]
+      },
+      "correct": "Says tessellation.",
+      "partial": null,
+      "incorrect": "Says another word.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (T/S: Tessellation!)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it is copies of a pattern over and over, like tiles in an array, with no gaps.",
+      "partial": "Says part of it, like tiles, but not that the pattern is repeated.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: We made copies of a pattern over and over)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "tiling",
+          "tiling."
+        ]
+      },
+      "correct": "Says tiling.",
+      "partial": null,
+      "incorrect": "Says another word.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (The process of creating a tessellation is often described as tiling)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3 + 3",
+          "3 plus 3 plus 3",
+          "three plus three plus three"
+        ]
+      },
+      "correct": "Says 3 plus 3 plus 3.",
+      "partial": "Says an addition with 3 but not three 3s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 3 + 3 + 3)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 + 3 + 3 + 3",
+          "3 plus 3 plus 3 plus 3",
+          "three plus three plus three plus three"
+        ]
+      },
+      "correct": "Says 3 plus 3 plus 3 plus 3.",
+      "partial": "Says an addition with 3 but not four 3s.",
+      "incorrect": "Says another addition.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 3 + 3 + 3 + 3)"
+      }
+    },
+    {
+      "id": "r_app_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": "Says 9 (the filled columns only).",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 3 + 3 + 3 + 3 = 12)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says an array shows rows and columns, so tiles can be placed in neat rows and columns.",
+      "partial": "Says it helps but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development relates designs to arrays)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it is a pattern copied again and again with no gaps, like tiles on a floor.",
+      "partial": "Says part of it but not that the pattern is copied.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development Part 4)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it is like repeated addition, or like adding equal groups and making an array.",
+      "partial": "Says it is like something but gives no link to equal groups.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; the lesson links tiling to arrays and equal groups)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a real example, like floor tiles, a brick wall, a tiled bathroom or a quilt.",
+      "partial": "Gives an example that has gaps or no repeating pattern.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; open answer)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_rows_cols_design",
+      "level": 1,
+      "text": "Look at the rows and the columns. Count each one.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Describe it as an array)"
+      }
+    },
+    {
+      "id": "h_no_gaps",
+      "level": 1,
+      "text": "The copies must touch. They must not leave spaces or overlap.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (the tiles touch but don't overlap)"
+      }
+    },
+    {
+      "id": "h_get_dime",
+      "level": 1,
+      "text": "A dime is 10 cents. How many pennies make 10 cents?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_tens_ones",
+      "level": 1,
+      "text": "Dimes are tens. Pennies are ones.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_tessellation",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact grid squares, colours and a core unit repeated with no gaps need exact behaviour. Diffusion cannot do this.",
+      "description": "A grid with a 3 by 3 coloured core unit. The core unit is copied again and again to fill the grid.",
+      "must_show_exactly": [
+        "Exactly the colours and counts in the stimulus",
+        "Core unit is 3 by 3 squares",
+        "Copies touch with no gaps and no overlaps",
+        "A design can use a square cut into two triangles"
+      ],
+      "states_or_frames": [
+        "3 by 3 red and blue design (5 red, 4 blue)",
+        "9 square tiles with 2 triangles",
+        "16 tiles with 2 cut squares",
+        "3 by 3 core unit",
+        "core unit copied 2 by 2",
+        "tessellation filling the grid",
+        "muffin pan 4 columns of 3 with 3 filled"
+      ],
+      "interaction": "Tutor sets the unit and copies from the stimulus. Child can place copies. Child answers by voice or typing.",
+      "alt_text": "A coloured grid pattern repeated across the page.",
+      "used_by": [
+        "ex_3x3_unit",
+        "ex_red_blue",
+        "exp_core_unit",
+        "exp_design_array",
+        "exp_tessellation",
+        "exp_triangle_halves",
+        "q_app_1",
+        "q_app_2",
+        "q_app_3",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Plain coloured grid with a 3 by 3 pattern repeated, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets",
+      "reason": "Printed timed sets. They are in Lesson 12. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_coins",
+      "name": "Get to 10, 20, or 30 and Count by Ten or One with real dimes and pennies",
+      "reason": "Needs a teacher and real coins. Only a few coin questions are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency"
+      }
+    },
+    {
+      "id": "na_cut_design",
+      "name": "Cut grid paper, make tile designs, shade designs, make a tessellation with a partner",
+      "reason": "Needs paper, scissors, colours and a partner. The widget a_tessellation replaces the viewing part. Creating a design cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw the muffin pan and shade the columns",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_tessellation). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The Problem Set is completed during the Concept Development. The .md text has three unlabelled sheets. Check against the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l10_tiles_rectangles_arrays, math_g2_m6_l12_math_drawings_square_tiles and math_g2_m6_l15_shade_arrays_repeated_addition are earlier cards of this module."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f10",
+      "severity": "high",
+      "item": "Picture items",
+      "issue": "The pictured designs (red and blue tiles, the 9-tile core unit, the Problem Set copy design) are not in the .md. Only items described in words were used. Copy-the-design Homework 2 was left out."
+    },
+    {
+      "id": "f11",
+      "severity": "high",
+      "item": "Problem Set 1 to 3 and Homework 1 to 3",
+      "issue": "These are creation tasks (make a design, shade it, make a tessellation). They cannot be checked as right or wrong answers. No questions were made. The ideas are covered by q_pr_1 to q_pr_10."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Fluency: Get to 10, 20, or 30",
+      "issue": "The source gives two examples. q_pk_3, q_pk_5 and q_pk_7 are derived from the described steps."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Open answers",
+      "issue": "q_pr_9, q_db_1, q_db_2, q_db_3 and q_db_4 use open rubrics. A person or the tutor must judge the answer."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Application Problem",
+      "issue": "No answer printed. Rick fills 3 columns of 3, so 9 muffins. The whole pan has 4 columns of 3, so 12. Check this reading."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "h_get_dime, h_tens_ones",
+      "issue": "Generated hints. No hint is in the source for these tasks. Need review."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

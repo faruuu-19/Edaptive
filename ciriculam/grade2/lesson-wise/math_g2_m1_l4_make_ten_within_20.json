@@ -1,0 +1,989 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m1_l4_make_ten_within_20",
+  "card_version": 2,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m1",
+      "file": "Module_1.zip (math-g2-m1-topic-a-lesson-1.md to math-g2-m1-topic-b-lesson-8.md)",
+      "source_version": "not_stated_in_file",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 1, Lesson 4 (lesson-scoped extraction from combined JSON)",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none: markdown files without page numbers; page is 'n/a' and section names (with lesson number) are used"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_l4",
+    "text": "Make a ten to add two single-digit numbers within 20.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "L4 lesson content in the combined Module 1 concept JSON; objective adapted from its explanations and questions"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g1_add_subtract_within_10",
+    "ext_k_say_ten_counting",
+    "ext_g1_place_value_tens_ones",
+    "math_g2_m1_l3_add_subtract_like_units"
+  ],
+  "explanations": [
+    {
+      "id": "exp_l4_make_ten",
+      "title": "L4 Make a ten to add",
+      "text": "To add 9 plus 4, make a ten first. Break 4 into 1 and 3. 9 plus 1 equals 10. Then 10 plus 3 equals 13.",
+      "asset_ids": [
+        "a_quick_ten_drawing",
+        "a_number_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_l4_pattern",
+      "title": "L4 Patterns for 9 and 8",
+      "text": "When you add 9, you take 1 out of the other number. When you add 8, you take 2 out.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 2"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_l4_9_4",
+      "title": "L4 9 plus 4",
+      "text": "9 plus 4: take 1 out of 4. 9 plus 1 equals 10. 10 plus 3 equals 13.",
+      "asset_ids": [
+        "a_quick_ten_drawing",
+        "a_number_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_l4_8_4",
+      "title": "L4 8 plus 4",
+      "text": "8 plus 4: break 4 into 2 and 2. 8 plus 2 equals 10. 10 plus 2 equals 12.",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Homework 1 (8 + 4 with bond 2 and 2)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_l4_1",
+      "kind": "prior_knowledge",
+      "text": "8 needs what number to make 10?",
+      "stimulus": {
+        "number": 8,
+        "target": 10
+      },
+      "rubric_id": "r_pk_l4_1",
+      "hint_ids": [
+        "h_2",
+        "h_1"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Fluency: Make Ten (8, S: 2)"
+      }
+    },
+    {
+      "id": "q_pk_l4_2",
+      "kind": "prior_knowledge",
+      "text": "19 plus what number equals 20?",
+      "stimulus": {
+        "equation": "19 + ? = 20"
+      },
+      "rubric_id": "r_pk_l4_2",
+      "hint_ids": [
+        "h_13",
+        "h_2"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Fluency: Make the Next Ten Within 100 (19 + 1 = 20)"
+      }
+    },
+    {
+      "id": "q_pk_l4_3",
+      "kind": "prior_knowledge",
+      "text": "Take 1 out of 5. What is the other part?",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "total": 5,
+        "taken_out": 1
+      },
+      "rubric_id": "r_pk_l4_3",
+      "hint_ids": [
+        "h_2",
+        "h_3"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Fluency: Take Out One (5, S: 1 and 4)"
+      }
+    },
+    {
+      "id": "q_pr_l4_1",
+      "kind": "practice",
+      "text": "9 plus 4 equals what number?",
+      "asset_ids": [
+        "a_quick_ten_drawing",
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "equation": "9 + 4 = ?"
+      },
+      "rubric_id": "r_pr_l4_1",
+      "hint_ids": [
+        "h_14",
+        "h_15"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (9 + 4, S: 13)"
+      }
+    },
+    {
+      "id": "q_pr_l4_2",
+      "kind": "practice",
+      "text": "To add 9 plus 4, you make a ten. How much do you take out of 4?",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "addends": [
+          9,
+          4
+        ],
+        "target": 10
+      },
+      "rubric_id": "r_pr_l4_2",
+      "hint_ids": [
+        "h_14",
+        "h_2"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (what did we take out of 4, S: 1)"
+      }
+    },
+    {
+      "id": "q_pr_l4_3",
+      "kind": "practice",
+      "text": "9 plus 7 equals what number?",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "equation": "9 + 7 = ?"
+      },
+      "rubric_id": "r_pr_l4_3",
+      "hint_ids": [
+        "h_14",
+        "h_15"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (sequence 9 + 6, 9 + 7, ...)"
+      }
+    },
+    {
+      "id": "q_pr_l4_4",
+      "kind": "practice",
+      "text": "8 plus 4 equals what number?",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "equation": "8 + 4 = ?"
+      },
+      "rubric_id": "r_pr_l4_4",
+      "hint_ids": [
+        "h_14",
+        "h_15"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Homework 1 (8 + 4: 8 + 2 = 10, 10 + 2 = 12)"
+      }
+    },
+    {
+      "id": "q_pr_l4_5",
+      "kind": "practice",
+      "text": "7 plus 5 equals what number?",
+      "asset_ids": [
+        "a_number_bond"
+      ],
+      "stimulus": {
+        "equation": "7 + 5 = ?"
+      },
+      "rubric_id": "r_pr_l4_5",
+      "hint_ids": [
+        "h_14",
+        "h_15"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (sequence ... 7 + 5)"
+      }
+    },
+    {
+      "id": "q_ps_l4_9",
+      "kind": "practice",
+      "text": "9 plus what number equals 12?",
+      "stimulus": {
+        "equation": "9 + ? = 12"
+      },
+      "rubric_id": "r_ps_l4_9",
+      "hint_ids": [
+        "h_14",
+        "h_8"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Problem Set 9"
+      }
+    },
+    {
+      "id": "q_ps_l4_12",
+      "kind": "practice",
+      "text": "7 plus what number equals 16?",
+      "stimulus": {
+        "equation": "7 + ? = 16"
+      },
+      "rubric_id": "r_ps_l4_12",
+      "hint_ids": [
+        "h_14",
+        "h_8"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Problem Set 12"
+      }
+    },
+    {
+      "id": "q_pr_l4_6",
+      "kind": "practice",
+      "text": "8 plus 8 equals what number?",
+      "stimulus": {
+        "equation": "8 + 8 = ?"
+      },
+      "rubric_id": "r_pr_l4_6",
+      "hint_ids": [
+        "h_14",
+        "h_15"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Homework 7"
+      }
+    },
+    {
+      "id": "q_app_l4_1",
+      "kind": "application",
+      "text": "Mark has 9 green cubes. A friend gives him 4 yellow cubes. How many cubes does he have now?",
+      "stimulus": {
+        "part_1": 9,
+        "part_2": 4
+      },
+      "rubric_id": "r_app_l4_1",
+      "hint_ids": [
+        "h_19",
+        "h_14"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Application Problem"
+      }
+    },
+    {
+      "id": "q_ps_l4_13",
+      "kind": "practice",
+      "text": "Lisa has 2 blue beads and 9 purple beads. How many beads does she have in all?",
+      "stimulus": {
+        "part_1": 2,
+        "part_2": 9
+      },
+      "rubric_id": "r_ps_l4_13",
+      "hint_ids": [
+        "h_19",
+        "h_14"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Problem Set 13"
+      }
+    },
+    {
+      "id": "q_db_l4_1",
+      "kind": "debrief",
+      "text": "How is solving 9 plus 4 different from solving 8 plus 4?",
+      "stimulus": {
+        "compare": [
+          "9 + 4",
+          "8 + 4"
+        ]
+      },
+      "rubric_id": "r_db_l4_1",
+      "hint_ids": [
+        "h_22"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 2 (9 + 4 and 8 + 4)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_l4_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2 or two.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Fluency: Make Ten (8, S: 2) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pk_l4_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1 or one.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Fluency: Make the Next Ten Within 100 (19 + 1 = 20) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pk_l4_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4 or four.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Fluency: Take Out One (5, S: 1 and 4) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l4_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13 or thirteen.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (9 + 4, S: 13) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l4_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1 or one.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (what did we take out of 4, S: 1) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l4_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16 or sixteen.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (sequence 9 + 6, 9 + 7, ...) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_pr_l4_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12 or twelve.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Homework 1 (8 + 4: 8 + 2 = 10, 10 + 2 = 12) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l4_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12 or twelve.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (sequence ... 7 + 5) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_ps_l4_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3 or three.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Problem Set 9 (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_ps_l4_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9 or nine.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Problem Set 12 (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_pr_l4_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16 or sixteen.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Homework 7 (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_app_l4_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13",
+          "thirteen"
+        ]
+      },
+      "correct": "Says 13 or thirteen.",
+      "partial": null,
+      "incorrect": "Says any other number (for example one of the numbers in the story).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Application Problem (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_ps_l4_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11",
+          "eleven"
+        ]
+      },
+      "correct": "Says 11 or eleven.",
+      "partial": null,
+      "incorrect": "Says any other number (for example one of the numbers in the story).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Problem Set 13 (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_db_l4_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 9 plus 4 uses 1 to make ten, and 8 plus 4 uses 2 to make ten.",
+      "partial": "Says the problems use different numbers but does not say how much is taken out.",
+      "incorrect": "Gives an answer that does not compare the two problems.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 2 (9 + 4 and 8 + 4) (source gives no single answer; guided by the lesson)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_1",
+      "level": 1,
+      "text": "Picture a ten-frame. A full ten-frame has 10 spots. How many spots are empty?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L1 Fluency: Ten-Frame Flash"
+      }
+    },
+    {
+      "id": "h_2",
+      "level": 2,
+      "text": "Think of a number bond with 10 on top. One part is shown. What part goes with it?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L1 Fluency: Pairs to Ten with Number Bonds"
+      }
+    },
+    {
+      "id": "h_3",
+      "level": 2,
+      "text": "Start at 10. Take away the part you know. What is left?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L1 Fluency: Ten-Frame Flash (related subtraction sentence)"
+      }
+    },
+    {
+      "id": "h_8",
+      "level": 3,
+      "text": "Start at the small number. Count on to the big number. How many steps do you take?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_13",
+      "level": 1,
+      "text": "How many more make the next ten? Use your partners to ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L2 Fluency: Make the Next Ten"
+      }
+    },
+    {
+      "id": "h_14",
+      "level": 2,
+      "text": "Break the number you add into two parts. One part makes a ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (what did we take out of 4)"
+      }
+    },
+    {
+      "id": "h_15",
+      "level": 3,
+      "text": "First make a ten. Then add the part that is left.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Concept Development Part 1 (make a ten, then ten-plus fact)"
+      }
+    },
+    {
+      "id": "h_19",
+      "level": 1,
+      "text": "Picture the story. Do you add or take away?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Application Problem (RDW: understand and draw the situation)"
+      }
+    },
+    {
+      "id": "h_22",
+      "level": 1,
+      "text": "Say what is the same and what is different. Use words or numbers.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_number_bond",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Needs exact numbers in fixed circles and a hidden part. This is layout and behaviour, not a picture.",
+      "description": "A number bond: one circle on top (the total) joined by lines to two circles below (the parts). One circle can show a question mark.",
+      "must_show_exactly": [
+        "Total circle on top, two part circles below",
+        "Known numbers shown; the missing part shows a question mark",
+        "Numbers and any missing part match the current lesson question stimulus."
+      ],
+      "states_or_frames": [
+        "total 5, taken out 1, missing part (q_pk_l4_3)",
+        "total 4, parts 1 and 3 (9 plus 4, exp_l4_make_ten)",
+        "configured from the current lesson question stimulus"
+      ],
+      "interaction": "Shows the bond. The child answers by typing or speaking. The missing part is revealed after the answer.",
+      "alt_text": "A number bond with a total on top and two parts below.",
+      "generation_caption": "Flat number bond: one big circle on top joined by two lines to two smaller circles below, plain background, numbers set by the question. [Build by code]",
+      "used_by": [
+        "q_pk_l4_3",
+        "q_pr_l4_1",
+        "q_pr_l4_2",
+        "q_pr_l4_3",
+        "q_pr_l4_4",
+        "q_pr_l4_5",
+        "ex_l4_9_4",
+        "ex_l4_8_4",
+        "exp_l4_make_ten"
+      ]
+    },
+    {
+      "asset_id": "a_quick_ten_drawing",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Needs an exact number of tens sticks and ones dots. Image models cannot count.",
+      "description": "A quick-ten picture: each ten is a stick of 10 dots, each one is a single dot. For make-a-ten problems the extra dots can be drawn as circles and Xs.",
+      "must_show_exactly": [
+        "T sticks of 10 dots and U single dots represent 10T + U for the current lesson stimulus.",
+        "For make-a-ten tasks, the added dots complete the next ten first and the remaining dots stay outside that group."
+      ],
+      "states_or_frames": [
+        "9 circles + 4 Xs (1 X in the column, 3 X to the right)",
+        "configured from the current lesson question stimulus"
+      ],
+      "interaction": "Shows the picture. The child answers by typing or speaking. Adding tens or Xs can be animated one at a time.",
+      "alt_text": "Sticks of ten dots and some single dots showing a two-digit number.",
+      "generation_caption": "Flat quick-ten drawing: T vertical sticks of 10 dots and U single dots, plain background, no text. [Build by code]",
+      "used_by": [
+        "q_pr_l4_1",
+        "ex_l4_9_4",
+        "exp_l4_make_ten"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_draw_on_board",
+      "name": "Drawing quick tens, 5-group columns, ten-frame drawings and number bonds on a white board",
+      "reason": "Needs drawing or writing on paper. The tutor sees only typed text or a transcript.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Fluency: Draw Tens and Ones; L5 Concept Development; L6 and L7 Concept Development; Exit Tickets and Homework with bonds"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Covered by the open debrief questions, where the child explains to the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 to L8 Concept Development and Student Debrief"
+      }
+    },
+    {
+      "id": "na_rekenrek_one_two_less",
+      "name": "One or Two Less with a Rekenrek (L6) and Rekenrek counting (L4, L5)",
+      "reason": "Teacher moves beads on a physical Rekenrek. The same facts are asked as questions (the corresponding lesson task).",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4, L5 and L6 Fluency"
+      }
+    },
+    {
+      "id": "na_match_activity",
+      "name": "Solve and match (Homework 9, columns A and B)",
+      "reason": "A matching task on paper, not typed or spoken.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L4 Homework 9"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before any use."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "source_refs / license",
+      "issue": "Source license is CC BY-NC-SA 3.0 (Great Minds). Cards made from it must credit Great Minds, stay non-commercial, and share under the same license. Check before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "lesson assets and visuals",
+      "issue": "Build the 2 lesson visual specifications by code and check exact quantities against each rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "lesson extraction",
+      "issue": "Lesson 4 was extracted by lesson-specific IDs. Its objective and scoped asset states are adapted. Review them against the original lesson before use."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "source_refs and every source_ref.page",
+      "issue": "The source is 8 markdown files with no printed page numbers, no images and no 'This file derived from' footer. Every page is 'n/a' with a section name. source_version is 'not_stated_in_file' and source_refs holds one item for the whole zip. Fill both in from the original PDFs."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "worksheet identification (all lessons)",
+      "issue": "The worksheets have no printed titles in these files. They were named by order after the Exit Ticket instructions: Lessons 1 to 3 start with Sprint A and Sprint B. Lessons 3 to 8 then show Problem Set, Exit Ticket, Homework. Lessons 1 and 2 show Exit Ticket, Homework. A person must confirm this against the PDFs. Section names that say Problem Set, Exit Ticket or Homework depend on it."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "child-facing wording",
+      "issue": "The source is a teacher script for a class with a Rekenrek, cards and partners. All child text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g1_add_subtract_within_10, ext_k_say_ten_counting and ext_g1_place_value_tens_ones are external prerequisite cards that do not exist yet. The source names Grade 1 and Kindergarten work as earlier learning but does not teach it."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "The source prints no answers for Sprints, Exit Tickets, Homework or Problem Sets, and none for most Fluency and word-problem items. Every such key is derived. Each was solved by code from the printed item, then checked against the lesson text."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework items left out",
+      "issue": "Only the original questions assigned to Lesson 4 are included. Repeated worksheet items remain unconverted; review the original source before adding them."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "This lesson has 2 original explanations. Keep its own method; do not import another lesson to pad the explanation count."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "shared hints",
+      "issue": "Referenced original hints are retained, including generic support from other lesson sections. Their original source references are provenance; they do not authorize teaching later-lesson methods."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map a null partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f22",
+      "severity": "low",
+      "item": "standards",
+      "issue": "The standard codes are inherited from the combined module source. Confirm which apply to this individual lesson against the original lesson document."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

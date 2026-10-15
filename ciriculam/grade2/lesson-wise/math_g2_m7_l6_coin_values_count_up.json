@@ -1,0 +1,1997 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l6_coin_values_count_up",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-b-lesson-6.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 6",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Recognize the value of coins and count up to find their total value.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g1_coin_names_values",
+    "ext_g2_skip_count_by_5",
+    "ext_g2_skip_count_by_10"
+  ],
+  "explanations": [
+    {
+      "id": "exp_coin_values",
+      "title": "Coin values",
+      "text": "A penny is 1 cent. A nickel is 5 cents. A dime is 10 cents. A quarter is 25 cents.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_same_coin",
+      "title": "Count the same coin",
+      "text": "Skip-count to find the value of the same coins. Count nickels by fives and dimes by tens. 5 plus 5 plus 5 equals 15 for 3 nickels.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_largest_first",
+      "title": "Start with the largest coin",
+      "text": "To count mixed coins, start with the coin of largest value. Count the dimes by tens first. Then add the ones.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Counting the dimes first)"
+      }
+    },
+    {
+      "id": "exp_cent_sign",
+      "title": "The cent sign",
+      "text": "We write the value of coins with the cent sign. 23 cents is written 23¢. 100 cents can also be written $1.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_make_ten",
+      "title": "Make a ten first",
+      "text": "A quarter and a nickel make 30. Add the nickel to the quarter first. Then count on by tens and ones.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "exp_decomp_tree",
+      "title": "Decomposition tree",
+      "text": "A decomposition tree breaks a whole into two parts. The two parts add up to the whole. 2 quarters make 50 cents, so each part is 25 cents.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_23",
+      "title": "2 dimes and 3 pennies",
+      "text": "Count the dimes first: 10, 20. Then the pennies: 21, 22, 23. The total is 23 cents.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "ex_31",
+      "title": "Quarter, nickel and penny",
+      "text": "25 plus 5 equals 30. 30 plus 1 equals 31. The total is 31 cents.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "ex_62",
+      "title": "Make ten first",
+      "text": "1 quarter, 3 dimes, 1 nickel, 2 pennies. 25 plus 5 is 30. Then 40, 50, 60. Then 61, 62. The total is 62 cents.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "A quarter is worth 25 cents. How much are 2 quarters worth?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Break 50 cents into two parts. One part is 30 cents. What is the other part?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_parts"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Break 50 cents into two parts. One part is 35 cents. What is the other part?",
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_parts"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "Break 60 cents into two parts. Name one pair of parts.",
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_parts"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (60¢)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "How much is a penny worth, in cents?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coin": "penny"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "How much is a nickel worth, in cents?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coin": "nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "How much is a dime worth, in cents?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coin": "dime"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "How much is a quarter worth, in cents?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coin": "quarter"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Say the addition for the value of 3 nickels.",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "nickel": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "What coin does each 5 stand for in 5 plus 5 plus 5?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: A nickel!)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Say the addition for the value of 3 dimes.",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "dime": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Say the addition for the value of 3 quarters.",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "quarter": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "You skip-count 10 nickels by fives. What is the value of the 10 nickels?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "nickel": 10
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 5, 10, ... 50)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "You put together 20 nickels. What is the value of the 20 nickels?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "nickel": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 5, 10, 15, ..., 100)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "You have 1 nickel and 5 dimes. Start with the nickel and count on. What is the value?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_skip",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "nickel": 1,
+        "dime": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 5, 15, 25, 35, 45, 55)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "You trade the nickel for a quarter. You have 1 quarter and 5 dimes. What is the value?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_skip",
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "quarter": 1,
+        "dime": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 25, 35, 45, 55, 65, 75)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 2 dimes and 3 pennies, in cents?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "2 dimes and 3 pennies",
+        "total": 23
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 1 quarter, 1 nickel and 1 penny, in cents?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 1 nickel and 1 penny",
+        "total": 31
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 1 quarter, 1 dime and 1 penny, in cents?",
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 1 dime and 1 penny",
+        "total": 36
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 1 quarter, 2 nickels and 1 dime, in cents?",
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 2 nickels and 1 dime",
+        "total": 45
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice"
+      }
+    },
+    {
+      "id": "q_pr_17",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 1 quarter, 2 pennies and 1 dime, in cents?",
+      "rubric_id": "r_pr_17",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 2 pennies and 1 dime",
+        "total": 37
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice"
+      }
+    },
+    {
+      "id": "q_pr_18",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 1 quarter, 2 dimes and 1 nickel, in cents?",
+      "rubric_id": "r_pr_18",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 2 dimes and 1 nickel",
+        "total": 50
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice"
+      }
+    },
+    {
+      "id": "q_pr_19",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 2 quarters, 2 dimes and 1 nickel, in cents?",
+      "rubric_id": "r_pr_19",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "2 quarters, 2 dimes and 1 nickel",
+        "total": 75
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice"
+      }
+    },
+    {
+      "id": "q_pr_20",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 2 quarters and 3 dimes, in cents?",
+      "rubric_id": "r_pr_20",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "2 quarters and 3 dimes",
+        "total": 80
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice"
+      }
+    },
+    {
+      "id": "q_pr_21",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 2 quarters and 5 dimes, in cents?",
+      "rubric_id": "r_pr_21",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "2 quarters and 5 dimes",
+        "total": 100
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice"
+      }
+    },
+    {
+      "id": "q_pr_22",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 1 quarter, 3 dimes, 1 nickel and 2 pennies, in cents?",
+      "rubric_id": "r_pr_22",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 3 dimes, 1 nickel and 2 pennies",
+        "total": 62
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "q_pr_23",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 1 quarter, 2 pennies, 1 nickel and 2 dimes, in cents?",
+      "rubric_id": "r_pr_23",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 2 pennies, 1 nickel and 2 dimes",
+        "total": 52
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 practice"
+      }
+    },
+    {
+      "id": "q_pr_24",
+      "kind": "practice",
+      "text": "Count from the largest coin. What is the total value of 1 quarter, 1 penny, 3 nickels and 1 dime, in cents?",
+      "rubric_id": "r_pr_24",
+      "hint_ids": [
+        "h_largest",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "1 quarter, 1 penny, 3 nickels and 1 dime",
+        "total": 51
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 practice"
+      }
+    },
+    {
+      "id": "q_pr_25",
+      "kind": "practice",
+      "text": "Which is easier: counting the dimes first or the pennies first? Why?",
+      "rubric_id": "r_pr_25",
+      "hint_ids": [
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_pr_26",
+      "kind": "practice",
+      "text": "You can write 100 cents another way. How?",
+      "rubric_id": "r_pr_26",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Sarah has 3 dimes, 1 quarter and 8 pennies in her piggy bank. How much money does she have, in cents?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "coins": "3 dimes, 1 quarter, 8 pennies"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Sarah has 63 cents. How many more cents does she need to have a dollar?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_parts"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "stimulus": {
+        "have": 63,
+        "goal": 100
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Where did you start counting a row of coins? Why is it a good way to find the value?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem Set page 1)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Did skip-counting help you add faster? Did an addition equation help?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "How could a table help you find the value of a group of coins?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_largest"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_coins"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty",
+          "50 cents",
+          "fifty cents",
+          "50¢",
+          "50 cent",
+          "50 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (I know 2 quarters makes 50 cents)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty",
+          "20 cents",
+          "twenty cents",
+          "20¢",
+          "20 cent",
+          "20 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (S: 30¢ and 20¢)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 cents",
+          "fifteen cents",
+          "15¢",
+          "15 cent",
+          "15 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (S: 35¢ and 15¢)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Names two parts that add up to 60 cents, such as 40 and 20, or 30 and 30.",
+      "partial": "Names parts that do not add up to 60.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (break apart 60¢ in as many ways as you can; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one",
+          "1 cents",
+          "one cents",
+          "1¢",
+          "1 cent",
+          "1 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 1 cents!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 cents",
+          "five cents",
+          "5¢",
+          "5 cent",
+          "5 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 5 cents!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten",
+          "10 cents",
+          "ten cents",
+          "10¢",
+          "10 cent",
+          "10 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 10 cents!)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five",
+          "25 cents",
+          "twenty-five cents",
+          "25¢",
+          "25 cent",
+          "25 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 25 cents!)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 + 5 + 5 = 15",
+          "5 plus 5 plus 5 equals 15",
+          "five plus five plus five equals fifteen",
+          "5 plus 5 plus 5",
+          "five plus five plus five"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": "Says 15 only.",
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 5 + 5 + 5 = 15)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "nickel",
+          "a nickel",
+          "nickels"
+        ]
+      },
+      "correct": "Says nickel.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: A nickel!)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10 + 10 + 10 = 30",
+          "10 plus 10 plus 10 equals 30",
+          "ten plus ten plus ten equals thirty",
+          "10 plus 10 plus 10",
+          "ten plus ten plus ten"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": "Says 30 only.",
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 10 + 10 + 10 = 30)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25 + 25 + 25 = 75",
+          "25 plus 25 plus 25 equals 75",
+          "twenty-five plus twenty-five plus twenty-five equals seventy-five",
+          "25 plus 25 plus 25"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": "Says 75 only.",
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 25 + 25 + 25 = 75)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty",
+          "50 cents",
+          "fifty cents",
+          "50¢",
+          "50 cent",
+          "50 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 5, 10, 15, ... 50)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 cents",
+          "one hundred cents",
+          "100¢",
+          "100 cent",
+          "100 c",
+          "$1",
+          "1 dollar",
+          "one dollar",
+          "$1.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 5, 10, 15, ..., 100)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55",
+          "fifty-five",
+          "55 cents",
+          "fifty-five cents",
+          "55¢",
+          "55 cent",
+          "55 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 5, 15, 25, 35, 45, 55)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "75",
+          "seventy-five",
+          "75 cents",
+          "seventy-five cents",
+          "75¢",
+          "75 cent",
+          "75 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 25, 35, 45, 55, 65, 75)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "23",
+          "twenty-three",
+          "23 cents",
+          "twenty-three cents",
+          "23¢",
+          "23 cent",
+          "23 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 23 cents!)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "31",
+          "thirty-one",
+          "31 cents",
+          "thirty-one cents",
+          "31¢",
+          "31 cent",
+          "31 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 25 + 5 + 1 = 31)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "36",
+          "thirty-six",
+          "36 cents",
+          "thirty-six cents",
+          "36¢",
+          "36 cent",
+          "36 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice (1 quarter 1 dime 1 penny; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five",
+          "45 cents",
+          "forty-five cents",
+          "45¢",
+          "45 cent",
+          "45 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice (answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "37",
+          "thirty-seven",
+          "37 cents",
+          "thirty-seven cents",
+          "37¢",
+          "37 cent",
+          "37 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice (answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty",
+          "50 cents",
+          "fifty cents",
+          "50¢",
+          "50 cent",
+          "50 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice (answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "75",
+          "seventy-five",
+          "75 cents",
+          "seventy-five cents",
+          "75¢",
+          "75 cent",
+          "75 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice (answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "80",
+          "eighty",
+          "80 cents",
+          "eighty cents",
+          "80¢",
+          "80 cent",
+          "80 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice (answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 cents",
+          "one hundred cents",
+          "100¢",
+          "100 cent",
+          "100 c",
+          "$1",
+          "1 dollar",
+          "one dollar",
+          "$1.00"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 practice (answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "62",
+          "sixty-two",
+          "62 cents",
+          "sixty-two cents",
+          "62¢",
+          "62 cent",
+          "62 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 62)"
+      }
+    },
+    {
+      "id": "r_pr_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "52",
+          "fifty-two",
+          "52 cents",
+          "fifty-two cents",
+          "52¢",
+          "52 cent",
+          "52 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 practice (answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "51",
+          "fifty-one",
+          "51 cents",
+          "fifty-one cents",
+          "51¢",
+          "51 cent",
+          "51 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 practice (answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_25",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says counting the dimes first, because we can count by tens and then add the ones.",
+      "partial": "Says the dimes first but gives no reason.",
+      "incorrect": "Says the pennies first.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Counting the dimes first. We can count by tens. Then we add the ones)"
+      }
+    },
+    {
+      "id": "r_pr_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$1",
+          "1 dollar",
+          "one dollar",
+          "a dollar"
+        ]
+      },
+      "correct": "Says $1.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (100 cents can be written as 100¢ or $1)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "63",
+          "sixty-three",
+          "63 cents",
+          "sixty-three cents",
+          "63¢",
+          "63 cent",
+          "63 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 25 + 30 + 8 = 63)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "37",
+          "thirty-seven",
+          "37 cents",
+          "thirty-seven cents",
+          "37¢",
+          "37 cent",
+          "37 c"
+        ]
+      },
+      "correct": "Gives a correct answer.",
+      "partial": null,
+      "incorrect": "Gives another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 100 - 63 = 37)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says start with the largest coin and count on, because it is easier to add small coins at the end.",
+      "partial": "Gives a way to count but no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; start with the largest coin)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes, skip-counting by fives and tens is quick, and an addition equation shows each coin value.",
+      "partial": "Says yes or no but gives no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; open)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says sort the coins by kind, count each kind, then add the values.",
+      "partial": "Says a table helps but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; sort the coins and count each kind)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_largest",
+      "level": 1,
+      "text": "Start with the coin that is worth the most. Count on from there.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (start counting with the coin that has the largest value)"
+      }
+    },
+    {
+      "id": "h_skip",
+      "level": 1,
+      "text": "Skip-count by the value of the coin. Fives for nickels. Tens for dimes.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_ten",
+      "level": 2,
+      "text": "Add the nickel to the quarter first to make a ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (make a ten first)"
+      }
+    },
+    {
+      "id": "h_parts",
+      "level": 2,
+      "text": "The two parts must add to the whole.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree (the sum of the two parts is equal to the whole)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_coins",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact coin counts and coin images need exact behaviour. Diffusion cannot count or draw the same coin every time.",
+      "description": "Coins laid out in a row or a group. Each coin is a penny, nickel, dime or quarter with its value. The widget can sort the coins by kind.",
+      "must_show_exactly": [
+        "Exactly the coins in the stimulus",
+        "Each coin looks like its real coin",
+        "Value labels only when the stimulus asks for them",
+        "Coins can be sorted by kind"
+      ],
+      "states_or_frames": [
+        "3 nickels",
+        "3 dimes",
+        "3 quarters",
+        "10 nickels",
+        "1 nickel and 5 dimes",
+        "2 dimes and 3 pennies",
+        "1 quarter, 1 nickel and 1 penny",
+        "1 quarter, 3 dimes, 1 nickel and 2 pennies",
+        "2 quarters and 5 dimes",
+        "Sarah's piggy bank"
+      ],
+      "interaction": "Tutor sets the coins from the stimulus. Child can sort or move coins. Child answers by voice or typing.",
+      "alt_text": "Real-looking coins in a row.",
+      "used_by": [
+        "ex_23",
+        "ex_31",
+        "ex_62",
+        "exp_cent_sign",
+        "exp_coin_values",
+        "exp_largest_first",
+        "exp_make_ten",
+        "exp_same_coin",
+        "q_app_1",
+        "q_app_2",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_18",
+        "q_pr_19",
+        "q_pr_2",
+        "q_pr_20",
+        "q_pr_21",
+        "q_pr_22",
+        "q_pr_23",
+        "q_pr_24",
+        "q_pr_25",
+        "q_pr_26",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Plain flat coin icons (penny, nickel, dime, quarter), white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Differentiated Practice Sets",
+      "reason": "Printed timed sets. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency"
+      }
+    },
+    {
+      "id": "na_decomp_paper",
+      "name": "Decomposition tree on paper in 90 seconds with a partner",
+      "reason": "Needs paper and a partner. A few questions about parts of 50 and 60 are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decomposition Tree"
+      }
+    },
+    {
+      "id": "na_real_coins",
+      "name": "Hold up and count real coins in a circle",
+      "reason": "Needs real coins and a class. The widget a_coins replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_coins). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set and Homework",
+      "issue": "The coin pictures (rows and boxes of coins) are not in the .md. Questions that need those pictures were not made. Needs the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Answer key for amounts",
+      "issue": "Answers were computed from the coin counts in the text. Most are not printed in the source and are marked derived."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Cent sign",
+      "issue": "The cent sign is used only in explanations and answer keys. Child question text uses the word cents."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g1_coin_names_values, ext_g2_skip_count_by_5 and ext_g2_skip_count_by_10 are prerequisite cards that do not exist yet."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source says to listen for misconceptions but states none. None added."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

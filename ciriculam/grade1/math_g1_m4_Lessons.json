@@ -1,0 +1,1339 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g1_m4_l1_group_tens_ones",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g1_m4",
+      "file": "math-g1-m4-topic-a-lesson-1.docx",
+      "source_version": "unknown",
+      "title": "Eureka Math / EngageNY, Grade 1, Module 4, Lesson 1",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none (docx)"
+    }
+  ],
+  "grade": 1,
+  "subject": "math",
+  "standards": [
+    "1.NBT.2",
+    "1.NBT.5",
+    "1.OA.6"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Count groups of ten faster than counting ones. Show tens and ones in a number bond.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective: compare the efficiency of counting by ones and counting by tens"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g1_number_bonds_within_10",
+    "ext_g1_count_by_tens"
+  ],
+  "explanations": [
+    {
+      "id": "exp_group_tens",
+      "title": "Count tens, not ones",
+      "text": "Counting 40 cubes by ones takes a long time. Make 4 ten-sticks and count by tens: 10, 20, 30, 40. You get the same number, but it is faster.",
+      "asset_ids": [
+        "a_cubes_tens_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: make 4 ten-sticks; counting by tens is more efficient"
+      }
+    },
+    {
+      "id": "exp_tens_ones_bond",
+      "title": "A number bond for tens and ones",
+      "text": "12 cubes are 1 ten-stick and 2 extra ones. A number bond shows the grouped tens and the extra ones. 12 is made of 10 and 2.",
+      "asset_ids": [
+        "a_cubes_tens_ones",
+        "a_number_bond_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 12 is made of 10 and 2 extra ones"
+      }
+    },
+    {
+      "id": "exp_count_tens_first",
+      "title": "Count the tens first",
+      "text": "Count the tens first, then the ones. For 35, say 10, 20, 30, 31, 32, 33, 34, 35. Or say 10, 20, 30, and 5 is 35.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: for 35, one student may count 10, 20, 30, 31 ... 35"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_12_cubes",
+      "title": "12 cubes",
+      "text": "Show 12 cubes as 1 ten-stick and 2 ones. The number bond has the total 12 and the parts 10 and 2.",
+      "asset_ids": [
+        "a_cubes_tens_ones",
+        "a_number_bond_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 12 is made of 10 and 2 extra ones"
+      }
+    },
+    {
+      "id": "ex_35_cubes",
+      "title": "35 cubes",
+      "text": "Show 35 as 3 ten-sticks and 5 ones. Count 10, 20, 30, then 31, 32, 33, 34, 35.",
+      "asset_ids": [
+        "a_cubes_tens_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 3 tens 5 ones, 35"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "7 is 4 and what number?",
+      "stimulus": {
+        "whole": 7,
+        "known_part": 4
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_part_away"
+      ],
+      "origin": "generated",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Break Apart Numbers (decomposing 5-9; the template holds no printed items)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "How many pennies are the same as 1 dime?",
+      "stimulus": {
+        "coin": "dime",
+        "unit": "pennies"
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_trade_pennies"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Change 10 Pennies for 1 Dime"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "You count by tens. What number comes after 30?",
+      "stimulus": {
+        "count_by": 10,
+        "after": 30
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_count_tens"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens (counting by tens from 0 to 120)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Joy holds 10 marbles in one hand and 10 marbles in the other hand. How many marbles does she have in all?",
+      "stimulus": {
+        "left_hand": 10,
+        "right_hand": 10
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_two_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (Joy and the marbles); answer not printed"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "12 cubes make 1 ten-stick and some extra ones. How many extra ones are there?",
+      "asset_ids": [
+        "a_cubes_tens_ones",
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "total": 12,
+        "tens": 1
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_ten_and"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 12 is made of 10 and 2 extra ones"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "A number has 3 tens and 2 ones. What is the number?",
+      "asset_ids": [
+        "a_cubes_tens_ones"
+      ],
+      "stimulus": {
+        "tens": 3,
+        "ones": 2
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_tens_first"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: students show 3 tens 2 ones; answer not printed"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "You count 35 cubes. You count the tens first: 10, 20, 30. How many ones are left to count?",
+      "stimulus": {
+        "total": 35,
+        "tens_counted": 30
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_count_on_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: for 35, count 10, 20, 30, and 5 is 35"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "You have 40 cubes. You make ten-sticks. How many ten-sticks do you make?",
+      "asset_ids": [
+        "a_cubes_tens_ones"
+      ],
+      "stimulus": {
+        "total": 40,
+        "stick_size": 10
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: make 4 ten-sticks (10, 20, 30, 40)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Look at the picture of grapes. The grapes sit in groups of 5. How many grapes are there in all?",
+      "asset_ids": [
+        "a_grapes_in_fives"
+      ],
+      "stimulus": {
+        "object": "grapes",
+        "tens_rows": 2,
+        "ones": 3,
+        "total": 23
+      },
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_circle_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 1-4: circle groups of 10, write the total (new picture)"
+      },
+      "image_dependent": true
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Look at the picture of carrots. Each bunch has 10 carrots. How many carrots are there in all?",
+      "asset_ids": [
+        "a_carrot_bunches"
+      ],
+      "stimulus": {
+        "object": "carrots",
+        "bunches_of_10": 3,
+        "loose": 4,
+        "total": 34
+      },
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_circle_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 5-8: bunches and loose objects (new picture)"
+      },
+      "image_dependent": true
+    },
+    {
+      "id": "q_ps_3a",
+      "kind": "practice",
+      "text": "Look at the picture of grapes. The bunch has 10 grapes. How many grapes are there in all?",
+      "asset_ids": [
+        "a_grape_bunch_loose"
+      ],
+      "stimulus": {
+        "object": "grapes",
+        "bunches_of_10": 1,
+        "loose": 7,
+        "total": 17
+      },
+      "rubric_id": "r_ps_3a",
+      "hint_ids": [
+        "h_tens_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 9-12: make a number bond to show tens and ones (new picture)"
+      },
+      "image_dependent": true
+    },
+    {
+      "id": "q_ps_3b",
+      "kind": "practice",
+      "text": "You make a number bond for the grapes. One part is the 10 in the bunch. What is the other part?",
+      "asset_ids": [
+        "a_grape_bunch_loose",
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "total": 17,
+        "known_part": 10
+      },
+      "rubric_id": "r_ps_3b",
+      "hint_ids": [
+        "h_loose_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 9-12: make a number bond to show tens and ones (new picture)"
+      },
+      "image_dependent": true
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "Look at the picture of cubes. The long sticks have 10 cubes each. How many cubes are there in all?",
+      "asset_ids": [
+        "a_cubes_tens_ones"
+      ],
+      "stimulus": {
+        "object": "cubes",
+        "ten_sticks": 2,
+        "ones": 6,
+        "total": 26
+      },
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_tens_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 13-16: circle tens, make a number bond (new picture)"
+      },
+      "image_dependent": true
+    },
+    {
+      "id": "q_et_1",
+      "kind": "practice",
+      "text": "Look at the picture of strawberries. Each bowl has 10. Some are loose. How many strawberries are there in all?",
+      "asset_ids": [
+        "a_strawberry_bowls"
+      ],
+      "stimulus": {
+        "object": "strawberries",
+        "bowls_of_10": 2,
+        "loose": 5,
+        "total": 25
+      },
+      "rubric_id": "r_et_1",
+      "hint_ids": [
+        "h_tens_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket: item 1: complete the number bond (new picture)"
+      },
+      "image_dependent": true
+    },
+    {
+      "id": "q_et_2",
+      "kind": "practice",
+      "text": "The picture shows ten-sticks and loose cubes. A number bond has one part 30. What is the other part?",
+      "asset_ids": [
+        "a_cubes_tens_ones",
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "object": "cubes",
+        "ten_sticks": 3,
+        "ones": 5,
+        "total": 35,
+        "known_part": 30
+      },
+      "rubric_id": "r_et_2",
+      "hint_ids": [
+        "h_loose_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket: item 4: complete the number bond with ten-sticks and cubes (new picture)"
+      },
+      "image_dependent": true
+    },
+    {
+      "id": "q_hw_1",
+      "kind": "practice",
+      "text": "A number bond has the total 18. One part is 10. What is the other part?",
+      "asset_ids": [
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "total": 18,
+        "known_part": 10
+      },
+      "rubric_id": "r_hw_1",
+      "hint_ids": [
+        "h_part_away"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework: items 11-12: complete the number bonds (numbers 10 and 18 printed beside item 11)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How does putting objects in groups of 10 help us count?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_tens_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: how does organizing objects in groups of 10 help us"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Joy has 10 marbles in each hand. Is it faster to count them by ones or by tens? Why?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_two_tens"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: how did the Application Problem connect to today's lesson"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3 (7 is 4 and 3).",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Break Apart Numbers (decomposing 5-9; the template holds no printed items); answer computed 7 - 4 = 3"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10 (10 pennies is equal to 1 dime).",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Change 10 Pennies for 1 Dime (10 pennies is equal to 1 dime)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens (counting by tens from 0 to 120); answer computed 30 + 10 = 40"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number, for example 10.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (Joy and the marbles); answer computed 10 + 10 = 20"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 12 is made of 10 and 2 extra ones"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32",
+          "thirty-two",
+          "thirty two"
+        ]
+      },
+      "correct": "Says 32.",
+      "partial": null,
+      "incorrect": "Says any other number, for example 5 or 23.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 3 tens 2 ones; answer computed 30 + 2 = 32"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: for 35, count 10, 20, 30, and 5 is 35"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: make 4 ten-sticks (10, 20, 30, 40)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "23",
+          "twenty-three",
+          "twenty three"
+        ]
+      },
+      "correct": "Says 23.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 1-4 (answer is the count in the new picture: 23)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "34",
+          "thirty-four",
+          "thirty four"
+        ]
+      },
+      "correct": "Says 34.",
+      "partial": null,
+      "incorrect": "Says any other number, for example 7 or 43.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 5-8 (answer is the count in the new picture: 34)"
+      }
+    },
+    {
+      "id": "r_ps_3a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "17",
+          "seventeen"
+        ]
+      },
+      "correct": "Says 17.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 9-12 (answer is the count in the new picture: 17)"
+      }
+    },
+    {
+      "id": "r_ps_3b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number, for example 17.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 9-12 (answer is the loose count in the new picture: 7)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty-six",
+          "twenty six"
+        ]
+      },
+      "correct": "Says 26.",
+      "partial": null,
+      "incorrect": "Says any other number, for example 8 or 62.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: items 13-16 (answer is the count in the new picture: 26)"
+      }
+    },
+    {
+      "id": "r_et_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "twenty-five",
+          "twenty five"
+        ]
+      },
+      "correct": "Says 25.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket: item 1 (answer is the count in the new picture: 25)"
+      }
+    },
+    {
+      "id": "r_et_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number, for example 35.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "generated",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket: item 4 (answer is the loose count in the new picture: 5)"
+      }
+    },
+    {
+      "id": "r_hw_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number, for example 28.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework: item 11 (answer computed 18 - 10 = 8)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says counting tens is faster or easier, or you do not lose count, or you can see the number quickly.",
+      "partial": "Says it helps but gives no reason.",
+      "incorrect": "Says it does not help, or gives a reason that is not true.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: answer drawn from Concept Development (more efficient; no need to start over; see 12 quickly); no answer printed"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says by tens is faster because 10 and 10 is 2 tens, so you count 10, 20 and not 20 ones.",
+      "partial": "Says by tens is faster but gives no reason.",
+      "incorrect": "Says counting by ones is faster, or gives a reason that is not true.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief: source note: students relate the Application Problem to the efficiency of counting by tens instead of by ones; no answer printed"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_circle_tens",
+      "level": 1,
+      "text": "Find groups of 10 first. Then count the extra ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: circle groups of 10"
+      }
+    },
+    {
+      "id": "h_tens_first",
+      "level": 1,
+      "text": "Count the tens first. Then count the ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: always guide the students to count the tens first"
+      }
+    },
+    {
+      "id": "h_count_tens",
+      "level": 1,
+      "text": "Count by tens, like this: 10, 20, 30.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens"
+      }
+    },
+    {
+      "id": "h_ten_and",
+      "level": 1,
+      "text": "The number is made of a ten and some extra ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 12 is made of 10 and extra ones"
+      }
+    },
+    {
+      "id": "h_count_on_ones",
+      "level": 2,
+      "text": "Count on from the last ten. How many more do you say?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development: 10, 20, 30, and 5 is 35"
+      }
+    },
+    {
+      "id": "h_loose_ones",
+      "level": 2,
+      "text": "Take the ten or the tens away from the total. What is left?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_part_away",
+      "level": 1,
+      "text": "Take the part you know away from the whole number.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_trade_pennies",
+      "level": 1,
+      "text": "Think about trading pennies for 1 dime.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Change 10 Pennies for 1 Dime"
+      }
+    },
+    {
+      "id": "h_two_tens",
+      "level": 2,
+      "text": "Think of the marbles as 2 tens. Count by tens.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_grapes_in_fives",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The count of 23 must be exact. Image models miscount.",
+      "description": "Grapes in rows. Each row is two groups of 5.",
+      "must_show_exactly": [
+        "23 grapes in all",
+        "Row 1 has 10 grapes in two groups of 5",
+        "Row 2 has 10 grapes in two groups of 5",
+        "3 extra grapes sit apart from the rows"
+      ],
+      "states_or_frames": [
+        "no marks",
+        "the two rows of 10 circled"
+      ],
+      "interaction": "Display only. The child answers by typing or speaking.",
+      "alt_text": "23 grapes in two rows of ten with three extra grapes.",
+      "review_notes": "This picture is new, drawn to match the question. It is not a copy of the source picture, whose count was not read.",
+      "generation_caption": "Flat picture of 23 grapes on a plain background: two rows of 10, each row in two groups of 5, and 3 extra grapes apart. [Build by code]",
+      "used_by": [
+        "q_ps_1"
+      ]
+    },
+    {
+      "asset_id": "a_carrot_bunches",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Each bunch must show exactly 10 carrots.",
+      "description": "Carrots tied in bunches of 10, plus loose carrots.",
+      "must_show_exactly": [
+        "34 carrots in all",
+        "3 bunches with exactly 10 carrots each",
+        "4 loose carrots lying apart from the bunches"
+      ],
+      "states_or_frames": [
+        "no marks"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "3 bunches of 10 carrots and 4 loose carrots.",
+      "review_notes": "This picture is new, drawn to match the question. It is not a copy of the source picture, whose count was not read.",
+      "generation_caption": "Flat picture of 3 tied bunches with exactly 10 carrots in each and 4 loose carrots, plain background. [Build by code]",
+      "used_by": [
+        "q_ps_2"
+      ]
+    },
+    {
+      "asset_id": "a_grape_bunch_loose",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The bunch must show exactly 10 grapes.",
+      "description": "One bunch of 10 grapes and loose grapes.",
+      "must_show_exactly": [
+        "17 grapes in all",
+        "1 bunch with exactly 10 grapes",
+        "7 loose grapes apart from the bunch"
+      ],
+      "states_or_frames": [
+        "no marks"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "A bunch of 10 grapes and 7 loose grapes.",
+      "review_notes": "This picture is new, drawn to match the question. It is not a copy of the source picture, whose count was not read.",
+      "generation_caption": "Flat picture of 1 grape bunch with exactly 10 grapes and 7 loose grapes, plain background. [Build by code]",
+      "used_by": [
+        "q_ps_3a",
+        "q_ps_3b"
+      ]
+    },
+    {
+      "asset_id": "a_strawberry_bowls",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Each bowl must show exactly 10 strawberries.",
+      "description": "Two bowls of 10 strawberries and loose strawberries.",
+      "must_show_exactly": [
+        "25 strawberries in all",
+        "2 bowls with exactly 10 strawberries each",
+        "5 loose strawberries apart from the bowls"
+      ],
+      "states_or_frames": [
+        "no marks"
+      ],
+      "interaction": "Display only.",
+      "alt_text": "2 bowls of 10 strawberries and 5 loose strawberries.",
+      "review_notes": "This picture is new, drawn to match the question. It is not a copy of the source picture, whose count was not read.",
+      "generation_caption": "Flat picture of 2 bowls with exactly 10 strawberries in each and 5 loose strawberries, plain background. [Build by code]",
+      "used_by": [
+        "q_et_1"
+      ]
+    },
+    {
+      "asset_id": "a_cubes_tens_ones",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact cube counts in each stick and in the loose group. The widget shows several states.",
+      "description": "Linking cubes drawn as ten-sticks (10 cubes each) and loose single cubes.",
+      "must_show_exactly": [
+        "Every ten-stick has exactly 10 cubes",
+        "Loose cubes are single and apart from the sticks",
+        "The number of sticks and loose cubes matches the state"
+      ],
+      "states_or_frames": [
+        "1 ten-stick and 2 ones (12)",
+        "3 ten-sticks and 2 ones (32)",
+        "3 ten-sticks and 5 ones (35)",
+        "2 ten-sticks and 6 ones (26)",
+        "4 ten-sticks (40)"
+      ],
+      "interaction": "Tutor can show the state a question names. Display only for the answer.",
+      "alt_text": "Ten-sticks and loose cubes.",
+      "review_notes": "This picture is new, drawn to match the question. It is not a copy of the source picture, whose count was not read.",
+      "generation_caption": "Ten-sticks of exactly 10 linking cubes each and loose single cubes, flat style, plain background. [Build by code]",
+      "used_by": [
+        "ex_12_cubes",
+        "ex_35_cubes",
+        "exp_group_tens",
+        "exp_tens_ones_bond",
+        "q_et_2",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_4",
+        "q_ps_4"
+      ]
+    },
+    {
+      "asset_id": "a_number_bond_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "A fixed diagram with boxes and exact numbers.",
+      "description": "A number bond: one total box joined to two part boxes.",
+      "must_show_exactly": [
+        "1 total box and 2 part boxes",
+        "A box can be empty or hold a numeral"
+      ],
+      "states_or_frames": [
+        "empty",
+        "total 12 with parts 10 and 2",
+        "total 17 with part 10 and one empty part",
+        "total 18 with part 10 and one empty part",
+        "total 35 with part 30 and one empty part"
+      ],
+      "interaction": "Tutor can fill or hide boxes from the question stimulus. The child answers by typing or speaking.",
+      "alt_text": "A number bond with a total and two parts.",
+      "review_notes": "The source bonds have the total on top and the two parts below. The picture of the bond in item 9 also holds a printed 20 whose role could not be read.",
+      "generation_caption": "Clean number bond diagram: one total box joined by two lines to two part boxes, plain background. [Build by code]",
+      "used_by": [
+        "ex_12_cubes",
+        "exp_tens_ones_bond",
+        "q_et_2",
+        "q_hw_1",
+        "q_pr_1",
+        "q_ps_3b"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_break_apart",
+      "name": "Break Apart Numbers (one minute, fluency template)",
+      "reason": "A timed page of number bonds written on a paper template, with a class poll.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Break Apart Numbers"
+      }
+    },
+    {
+      "id": "na_pennies",
+      "name": "Change 10 pennies for 1 dime",
+      "reason": "Needs real pennies and a dime and a partner.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Change 10 Pennies for 1 Dime"
+      }
+    },
+    {
+      "id": "na_happy_counting",
+      "name": "Happy Counting by Tens, regular and Say Ten way, 0 to 120",
+      "reason": "A call and response chant with the teacher. Only one counting fact is used (q_pk_3).",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Happy Counting by Tens (counting by tens from 0 to 120)"
+      }
+    },
+    {
+      "id": "na_linking_cubes",
+      "name": "Make the math toolkit with 40 linking cubes",
+      "reason": "Needs a bag of 40 cubes and hands-on work with a partner.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_circle_tens",
+      "name": "Circle groups of 10 on paper",
+      "reason": "Needs a pencil and a paper picture. The typed total is used instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set: circle groups of 10 (items 1-8; also Homework items 1-10)"
+      }
+    },
+    {
+      "id": "na_math_drawing",
+      "name": "Make or complete a math drawing (Homework items 11-12)",
+      "reason": "A drawing task.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework: items 11-12"
+      }
+    },
+    {
+      "id": "na_partner_debrief",
+      "name": "Compare Problem Set answers with a partner",
+      "reason": "Needs a second child.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "This card is an AI draft. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math (Great Minds) under CC BY-NC-SA 3.0. Credit Great Minds, keep it non-commercial, and share under the same license."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "q_ps_1, q_ps_2, q_ps_3a, q_ps_3b, q_ps_4, q_et_1, q_et_2, r_ps_1, r_ps_2, r_ps_3a, r_ps_3b, r_ps_4, r_et_1, r_et_2",
+      "issue": "These questions depend on a picture. The pictures are NEW: the count in each caption (23, 34, 17, 26, 25, 35) was chosen for the new picture and is the answer. The counts in the source pictures were not read, so these items do not match the source worksheet numbers."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. All 6 assets must be built by code, and a person must check each picture against must_show_exactly and its question."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 6 assets are not_available: a_grapes_in_fives, a_carrot_bunches, a_grape_bunch_loose, a_strawberry_bowls, a_cubes_tens_ones, a_number_bond_widget. Items that use them cannot launch until they exist."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "source_refs",
+      "issue": "The source is a .docx with no printed page numbers. Every source_ref uses page n/a and a section name. Pictures were not read."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script. All child-facing text was rewritten for a screen and needs an age-appropriate wording review."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g1_number_bonds_within_10 and ext_g1_count_by_tens are external placeholder ids. No earlier Module 4 cards exist yet. The source says the fluency reviews decomposing 5-9 and counting by tens. Replace with real card ids."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Worksheet items not converted",
+      "issue": "Problem Set has 16 items in 4 types; one new question per type was made (q_ps_1 to q_ps_4), each with a regenerated picture. Exit Ticket items 2 and 3 and Homework items 1-10 repeat the same types and were not converted. Item 9 prints a 20 inside the bond whose role could not be read."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_hw_1",
+      "issue": "Homework item 11 shows the numbers 10 and 18 beside the bond, and item 12 shows 3 and 30. Only item 11 was used, as total 18 with part 10 (derived: 8). Item 12 was left out because it could not be read."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "h_loose_ones, h_part_away, h_two_tens",
+      "issue": "These 3 hints are generated (not in the source). Their wording needs review."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "q_pk_1, r_pk_1",
+      "issue": "Break Apart Numbers has no printed items (the template holds repeated numbers 5-9). The question 7 is 4 and what number is generated, answer 3."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "No answers are printed in the source. These were computed: r_pk_3, r_app_1, r_pr_2, r_hw_1, r_db_2. Recompute before use."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson, so the card has none."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "minutes",
+      "issue": "The structure says Fluency 10, Application 5, Concept Development 35, Student Debrief 10 (total 60). The Student Debrief section says 8 minutes and the Exit Ticket 3, so 8 + 3 does not match 10. Not corrected."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the schema must allow null."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "na_pennies",
+      "issue": "The source note says coins are used in Module 1 Lesson 6. This lesson is in Module 4, so this may be a typo in the source. Not corrected."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only 1.NBT.2, 1.NBT.5 and 1.OA.6 are named in this lesson file."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

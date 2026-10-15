@@ -1,0 +1,985 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m1_l3_add_subtract_like_units",
+  "card_version": 2,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m1",
+      "file": "Module_1.zip (math-g2-m1-topic-a-lesson-1.md to math-g2-m1-topic-b-lesson-8.md)",
+      "source_version": "not_stated_in_file",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 1, Lesson 3 (lesson-scoped extraction from combined JSON)",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none: markdown files without page numbers; page is 'n/a' and section names (with lesson number) are used"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.2",
+    "2.NBT.5"
+  ],
+  "objective": {
+    "id": "obj_l3",
+    "text": "Add or subtract like units: tens with tens and ones with ones, within 100 without regrouping.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "L3 lesson content in the combined Module 1 concept JSON; objective adapted from its explanations and questions"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g1_add_subtract_within_10",
+    "ext_k_say_ten_counting",
+    "ext_g1_place_value_tens_ones",
+    "math_g2_m1_l2_tens_and_ones"
+  ],
+  "explanations": [
+    {
+      "id": "exp_l3_ones",
+      "title": "L3 Add and subtract ones",
+      "text": "Use an easier fact. 5 plus 2 equals 7. So 45 plus 2 equals 47. Only the ones change. The tens stay the same.",
+      "asset_ids": [
+        "a_quick_ten_drawing"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_l3_tens",
+      "title": "L3 Add and subtract tens",
+      "text": "Add tens to tens. 5 tens plus 2 tens equals 7 tens. So 50 plus 20 equals 70. And 51 plus 20 equals 71.",
+      "asset_ids": [
+        "a_quick_ten_drawing"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_l3_45_2",
+      "title": "L3 45 plus 2 and 47 minus 2",
+      "text": "45 plus 2 equals 47. 47 minus 2 equals 45. The tens stay the same.",
+      "asset_ids": [
+        "a_quick_ten_drawing"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_l3_51_20",
+      "title": "L3 51 plus 20 and 71 minus 20",
+      "text": "51 plus 20 equals 71. 71 minus 20 equals 51.",
+      "asset_ids": [
+        "a_quick_ten_drawing"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_sp_l3_a1",
+      "kind": "practice",
+      "text": "3 plus 1 equals what number?",
+      "stimulus": {
+        "equation": "3 + 1 = ?"
+      },
+      "rubric_id": "r_sp_l3_a1",
+      "hint_ids": [
+        "h_10"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 1 (3 + 1 = __)"
+      }
+    },
+    {
+      "id": "q_sp_l3_a22",
+      "kind": "practice",
+      "text": "47 minus 2 equals what number?",
+      "stimulus": {
+        "equation": "47 - 2 = ?"
+      },
+      "rubric_id": "r_sp_l3_a22",
+      "hint_ids": [
+        "h_10",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 22 (47 - 2 = __)"
+      }
+    },
+    {
+      "id": "q_sp_l3_a25",
+      "kind": "practice",
+      "text": "56 plus what number equals 59?",
+      "stimulus": {
+        "equation": "56 + ? = 59"
+      },
+      "rubric_id": "r_sp_l3_a25",
+      "hint_ids": [
+        "h_8"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 25 (56 + __ = 59)"
+      }
+    },
+    {
+      "id": "q_sp_l3_a26",
+      "kind": "practice",
+      "text": "What number plus 3 equals 76?",
+      "stimulus": {
+        "equation": "? + 3 = 76"
+      },
+      "rubric_id": "r_sp_l3_a26",
+      "hint_ids": [
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 26 (__ + 3 = 76)"
+      }
+    },
+    {
+      "id": "q_sp_l3_a27",
+      "kind": "practice",
+      "text": "57 minus what number equals 54?",
+      "stimulus": {
+        "equation": "57 - ? = 54"
+      },
+      "rubric_id": "r_sp_l3_a27",
+      "hint_ids": [
+        "h_20",
+        "h_8"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 27 (57 - __ = 54)"
+      }
+    },
+    {
+      "id": "q_sp_l3_a29",
+      "kind": "practice",
+      "text": "What number minus 4 equals 73?",
+      "stimulus": {
+        "equation": "? - 4 = 73"
+      },
+      "rubric_id": "r_sp_l3_a29",
+      "hint_ids": [
+        "h_20"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 29 (__ - 4 = 73)"
+      }
+    },
+    {
+      "id": "q_pr_l3_1",
+      "kind": "practice",
+      "text": "45 plus 2 equals what number?",
+      "asset_ids": [
+        "a_quick_ten_drawing"
+      ],
+      "stimulus": {
+        "equation": "45 + 2 = ?"
+      },
+      "rubric_id": "r_pr_l3_1",
+      "hint_ids": [
+        "h_10"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 1 (45 + 2, S: 47)"
+      }
+    },
+    {
+      "id": "q_pr_l3_2",
+      "kind": "practice",
+      "text": "67 minus 2 equals what number?",
+      "stimulus": {
+        "equation": "67 - 2 = ?"
+      },
+      "rubric_id": "r_pr_l3_2",
+      "hint_ids": [
+        "h_10"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 1 (67 - 2, S: 65)"
+      }
+    },
+    {
+      "id": "q_pr_l3_3",
+      "kind": "practice",
+      "text": "51 plus 20 equals what number?",
+      "asset_ids": [
+        "a_quick_ten_drawing"
+      ],
+      "stimulus": {
+        "equation": "51 + 20 = ?"
+      },
+      "rubric_id": "r_pr_l3_3",
+      "hint_ids": [
+        "h_11",
+        "h_12"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (51 + 20, S: 71)"
+      }
+    },
+    {
+      "id": "q_pr_l3_4",
+      "kind": "practice",
+      "text": "71 minus 20 equals what number?",
+      "stimulus": {
+        "equation": "71 - 20 = ?"
+      },
+      "rubric_id": "r_pr_l3_4",
+      "hint_ids": [
+        "h_11",
+        "h_12"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (71 - 20, S: 51)"
+      }
+    },
+    {
+      "id": "q_pr_l3_5",
+      "kind": "practice",
+      "text": "56 minus 30 equals what number?",
+      "stimulus": {
+        "equation": "56 - 30 = ?"
+      },
+      "rubric_id": "r_pr_l3_5",
+      "hint_ids": [
+        "h_11",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (sequence 56 - 30, 56 - 3, ...)"
+      }
+    },
+    {
+      "id": "q_pr_l3_6",
+      "kind": "practice",
+      "text": "76 minus 60 equals what number?",
+      "stimulus": {
+        "equation": "76 - 60 = ?"
+      },
+      "rubric_id": "r_pr_l3_6",
+      "hint_ids": [
+        "h_11",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Exit Ticket 4"
+      }
+    },
+    {
+      "id": "q_app_l3_1",
+      "kind": "application",
+      "text": "A teacher has 48 folders. She gives 6 folders to a table. How many folders does she have now?",
+      "stimulus": {
+        "start": 48,
+        "take_away": 6
+      },
+      "rubric_id": "r_app_l3_1",
+      "hint_ids": [
+        "h_19",
+        "h_10"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Application Problem"
+      }
+    },
+    {
+      "id": "q_db_l3_1",
+      "kind": "debrief",
+      "text": "Compare 54 plus 2 to 54 plus 20. How are they different?",
+      "stimulus": {
+        "compare": [
+          "54 + 2",
+          "54 + 20"
+        ]
+      },
+      "rubric_id": "r_db_l3_1",
+      "hint_ids": [
+        "h_22"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (compare 54 + 2 to 54 + 20)"
+      }
+    },
+    {
+      "id": "q_ps_l3_4",
+      "kind": "debrief",
+      "text": "Compare 57 minus 2 to 57 minus 20. How are they different?",
+      "stimulus": {
+        "compare": [
+          "57 - 2",
+          "57 - 20"
+        ]
+      },
+      "rubric_id": "r_ps_l3_4",
+      "hint_ids": [
+        "h_22"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Problem Set 4 (compare 57 - 2 to 57 - 20)"
+      }
+    },
+    {
+      "id": "q_ps_l3_5",
+      "kind": "practice",
+      "text": "Andy had $28 and spent $5. Lisa had $20 and got $3 more. Does Lisa have more money than Andy?",
+      "stimulus": {
+        "andy": "28 - 5",
+        "lisa": "20 + 3"
+      },
+      "rubric_id": "r_ps_l3_5",
+      "hint_ids": [
+        "h_19",
+        "h_11"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Problem Set 5 (Extension: prove Lisa right or wrong)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_sp_l3_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4 or four.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 1 (3 + 1 = __) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l3_a22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five",
+          "forty five"
+        ]
+      },
+      "correct": "Says 45 or forty-five.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 22 (47 - 2 = __) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l3_a25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3 or three.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 25 (56 + __ = 59) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l3_a26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "73",
+          "seventy-three",
+          "seventy three"
+        ]
+      },
+      "correct": "Says 73 or seventy-three.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 26 (__ + 3 = 76) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l3_a27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3 or three.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 27 (57 - __ = 54) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_sp_l3_a29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "77",
+          "seventy-seven",
+          "seventy seven"
+        ]
+      },
+      "correct": "Says 77 or seventy-seven.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Sprint A item 29 (__ - 4 = 73) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_pr_l3_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "47",
+          "forty-seven",
+          "forty seven"
+        ]
+      },
+      "correct": "Says 47 or forty-seven.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 1 (45 + 2, S: 47) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l3_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "65",
+          "sixty-five",
+          "sixty five"
+        ]
+      },
+      "correct": "Says 65 or sixty-five.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 1 (67 - 2, S: 65) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l3_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "71",
+          "seventy-one",
+          "seventy one"
+        ]
+      },
+      "correct": "Says 71 or seventy-one.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (51 + 20, S: 71) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l3_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "51",
+          "fifty-one",
+          "fifty one"
+        ]
+      },
+      "correct": "Says 51 or fifty-one.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (71 - 20, S: 51) (answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_l3_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty-six",
+          "twenty six"
+        ]
+      },
+      "correct": "Says 26 or twenty-six.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (sequence 56 - 30, 56 - 3, ...) (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_pr_l3_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16 or sixteen.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Exit Ticket 4 (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_app_l3_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "42",
+          "forty-two",
+          "forty two"
+        ]
+      },
+      "correct": "Says 42 or forty-two.",
+      "partial": null,
+      "incorrect": "Says any other number (for example one of the numbers in the story).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Application Problem (answer not printed; computed twice)"
+      }
+    },
+    {
+      "id": "r_db_l3_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says one problem adds 2 ones and the other adds 2 tens, so the answers are not the same.",
+      "partial": "Says the problems are different but does not say ones and tens.",
+      "incorrect": "Says they have the same answer, or gives an answer that does not compare them.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (compare 54 + 2 to 54 + 20) (source gives no single answer; guided by the lesson)"
+      }
+    },
+    {
+      "id": "r_ps_l3_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says one takes away 2 ones and the other takes away 2 tens, so the answers are not the same.",
+      "partial": "Says the problems are different but does not say ones and tens.",
+      "incorrect": "Says they have the same answer, or gives an answer that does not compare them.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Problem Set 4 (compare 57 - 2 to 57 - 20) (source gives no single answer; guided by the lesson)"
+      }
+    },
+    {
+      "id": "r_ps_l3_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no she does not",
+          "she does not",
+          "same",
+          "they have the same",
+          "wrong"
+        ]
+      },
+      "correct": "Says no, because both children have $23.",
+      "partial": null,
+      "incorrect": "Says yes, or says Lisa has more.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Problem Set 5 (Extension: prove Lisa right or wrong) (answer not printed)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_8",
+      "level": 3,
+      "text": "Start at the small number. Count on to the big number. How many steps do you take?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_10",
+      "level": 1,
+      "text": "Find an easier fact with just the ones. The tens stay the same.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 1"
+      }
+    },
+    {
+      "id": "h_11",
+      "level": 2,
+      "text": "Add tens to tens, or ones to ones. Do not mix them up.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (tens from tens)"
+      }
+    },
+    {
+      "id": "h_12",
+      "level": 2,
+      "text": "Break the number into tens and ones. Which part changes?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Concept Development Part 2 (number bond for 51)"
+      }
+    },
+    {
+      "id": "h_19",
+      "level": 1,
+      "text": "Picture the story. Do you add or take away?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Application Problem (RDW: understand and draw the situation)"
+      }
+    },
+    {
+      "id": "h_20",
+      "level": 2,
+      "text": "You can find a missing part by taking away or by adding on.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L7 Application Problem (note: subtract or add on)"
+      }
+    },
+    {
+      "id": "h_22",
+      "level": 1,
+      "text": "Say what is the same and what is different. Use words or numbers.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_quick_ten_drawing",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Needs an exact number of tens sticks and ones dots. Image models cannot count.",
+      "description": "A quick-ten picture: each ten is a stick of 10 dots, each one is a single dot. For make-a-ten problems the extra dots can be drawn as circles and Xs.",
+      "must_show_exactly": [
+        "T sticks of 10 dots and U single dots represent 10T + U for the current lesson stimulus.",
+        "For make-a-ten tasks, the added dots complete the next ten first and the remaining dots stay outside that group."
+      ],
+      "states_or_frames": [
+        "45: 4 sticks + 5 dots",
+        "47: 4 sticks + 7 dots",
+        "51: 5 sticks + 1 dot; 71: 7 sticks + 1 dot",
+        "configured from the current lesson question stimulus"
+      ],
+      "interaction": "Shows the picture. The child answers by typing or speaking. Adding tens or Xs can be animated one at a time.",
+      "alt_text": "Sticks of ten dots and some single dots showing a two-digit number.",
+      "generation_caption": "Flat quick-ten drawing: T vertical sticks of 10 dots and U single dots, plain background, no text. [Build by code]",
+      "used_by": [
+        "q_pr_l3_1",
+        "q_pr_l3_3",
+        "ex_l3_45_2",
+        "ex_l3_51_20",
+        "exp_l3_ones",
+        "exp_l3_tens"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint_l3",
+      "name": "Sprint: Related Facts (Lesson 3 Sprint A and B race)",
+      "reason": "Timed paper race with scoring and two parallel sheets. The items are used as practice questions the corresponding lesson task*.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 Fluency: Sprint"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Covered by the open debrief questions, where the child explains to the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "L3 to L8 Concept Development and Student Debrief"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before any use."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "source_refs / license",
+      "issue": "Source license is CC BY-NC-SA 3.0 (Great Minds). Cards made from it must credit Great Minds, stay non-commercial, and share under the same license. Check before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "lesson assets and visuals",
+      "issue": "Build the 1 lesson visual specifications by code and check exact quantities against each rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "lesson extraction",
+      "issue": "Lesson 3 was extracted by lesson-specific IDs. Its objective and scoped asset states are adapted. Review them against the original lesson before use."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "source_refs and every source_ref.page",
+      "issue": "The source is 8 markdown files with no printed page numbers, no images and no 'This file derived from' footer. Every page is 'n/a' with a section name. source_version is 'not_stated_in_file' and source_refs holds one item for the whole zip. Fill both in from the original PDFs."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "worksheet identification (all lessons)",
+      "issue": "The worksheets have no printed titles in these files. They were named by order after the Exit Ticket instructions: Lessons 1 to 3 start with Sprint A and Sprint B. Lessons 3 to 8 then show Problem Set, Exit Ticket, Homework. Lessons 1 and 2 show Exit Ticket, Homework. A person must confirm this against the PDFs. Section names that say Problem Set, Exit Ticket or Homework depend on it."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "child-facing wording",
+      "issue": "The source is a teacher script for a class with a Rekenrek, cards and partners. All child text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g1_add_subtract_within_10, ext_k_say_ten_counting and ext_g1_place_value_tens_ones are external prerequisite cards that do not exist yet. The source names Grade 1 and Kindergarten work as earlier learning but does not teach it."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "The source prints no answers for Sprints, Exit Tickets, Homework or Problem Sets, and none for most Fluency and word-problem items. Every such key is derived. Each was solved by code from the printed item, then checked against the lesson text."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework items left out",
+      "issue": "Only the original questions assigned to Lesson 3 are included. Repeated worksheet items remain unconverted; review the original source before adding them."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "This lesson has 2 original explanations. Keep its own method; do not import another lesson to pad the explanation count."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "shared hints",
+      "issue": "Referenced original hints are retained, including generic support from other lesson sections. Their original source references are provenance; they do not authorize teaching later-lesson methods."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map a null partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f22",
+      "severity": "low",
+      "item": "standards",
+      "issue": "The standard codes are inherited from the combined module source. Confirm which apply to this individual lesson against the original lesson document."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

@@ -1,0 +1,1429 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g1_m3_l1_compare_length_endpoints",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g1_m3",
+      "file": "math-g1-m3-topic-a-lesson-1_only_docs.docx",
+      "source_version": "G1-M3-TE-1.3.0-06.2015",
+      "title": "Eureka Math / EngageNY, Grade 1, Module 3, Lesson 1",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "DOCX source: footer numbers as rendered (lesson runs p11-p24); section names are given for each citation"
+    }
+  ],
+  "grade": 1,
+  "subject": "math",
+  "standards": [
+    "1.NBT.1",
+    "1.NBT.2",
+    "1.OA.6"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Compare the length of two objects. Line up the endpoints so the comparison is fair.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "11",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_k_compare_lengths_of_objects",
+    "ext_g1_m2_subtract_within_20",
+    "ext_g1_place_value_tens_and_ones"
+  ],
+  "explanations": [
+    {
+      "id": "exp_endpoints",
+      "title": "Line up the endpoints",
+      "text": "The endpoint is the very end of an object. To compare two objects, line up their endpoints. Start both objects at the same place. Then you can see which is longer.",
+      "asset_ids": [
+        "a_endpoint_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "14",
+        "section": "Concept Development (endpoints)"
+      }
+    },
+    {
+      "id": "exp_hidden",
+      "title": "Hidden endpoints fool you",
+      "text": "If you cannot see the endpoints, you cannot be sure. An object can look longer when it is held higher. Line up the endpoints first.",
+      "asset_ids": [
+        "a_hidden_endpoints"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13-14",
+        "section": "Concept Development (marker and pencil, crayon and glue stick)"
+      }
+    },
+    {
+      "id": "exp_frames",
+      "title": "Say it with sentence frames",
+      "text": "Use a sentence frame to tell what you see. The pencil is longer than the marker. The marker is shorter than the pencil.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development (sentence frames)"
+      }
+    },
+    {
+      "id": "exp_flip",
+      "title": "Flipping does not change length",
+      "text": "You can stand one object upside down. If the endpoints are still lined up, longer and shorter stay the same.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "15",
+        "section": "Concept Development (flip an item upside down)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_marker_pencil",
+      "title": "Marker and pencil",
+      "text": "A marker and a pencil stand side by side on the floor. Their bottoms are at the same place. The pencil is longer than the marker. The marker is shorter than the pencil.",
+      "asset_ids": [
+        "a_endpoint_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_crayon_glue",
+      "title": "Crayon and glue stick",
+      "text": "A crayon and a glue stick start at the same place. The glue stick is longer than the crayon.",
+      "asset_ids": [
+        "a_hidden_endpoints"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "14",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_pencils",
+      "title": "Nigel and Corey's pencils",
+      "text": "Nigel and Corey have new pencils the same length. Corey sharpens his pencil many times. Nigel does not use his. Corey's pencil is shorter than Nigel's pencil.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "12",
+        "section": "Application Problem (note on the expected statements)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "16 is 1 ten and how many ones?",
+      "asset_ids": [],
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_pk_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "11-12",
+        "section": "Fluency: Tens and Ones"
+      },
+      "stimulus": {
+        "number": 16,
+        "tens": 1
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "2 tens plus 6 ones equals what number?",
+      "asset_ids": [],
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_pk_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "11-12",
+        "section": "Fluency: Tens and Ones"
+      },
+      "stimulus": {
+        "tens": 2,
+        "ones": 6
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A marker and a pencil stand side by side on the floor. Their bottoms are at the same place. The pencil's top is higher. Which is longer?",
+      "asset_ids": [
+        "a_endpoint_compare"
+      ],
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_line_up",
+        "h_higher_top"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development"
+      },
+      "stimulus": {
+        "aligned": true,
+        "longer": "pencil",
+        "shorter": "marker"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "A marker and a pencil stand side by side on the floor. Their bottoms are at the same place. The pencil's top is higher. Which is shorter?",
+      "asset_ids": [
+        "a_endpoint_compare"
+      ],
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_line_up",
+        "h_higher_top"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development"
+      },
+      "stimulus": {
+        "aligned": true,
+        "longer": "pencil",
+        "shorter": "marker"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "A teacher holds a crayon in one fist. She holds a glue stick in the other fist. You cannot see where they start. Can you tell which is longer?",
+      "asset_ids": [
+        "a_hidden_endpoints"
+      ],
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_hidden_start",
+        "h_line_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "14",
+        "section": "Concept Development (crayon and glue stick in fists)"
+      },
+      "stimulus": {
+        "endpoints_hidden": true
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "What do you need to do when you compare two objects? Tell me how to make it fair.",
+      "asset_ids": [],
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_line_up",
+        "h_hidden_start"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13-14",
+        "section": "Concept Development (S: You have to start at the same spot)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "You line up the endpoints of two objects. Then you flip one object upside down. Do longer and shorter change?",
+      "asset_ids": [],
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_flip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "15",
+        "section": "Concept Development (flip an item upside down)"
+      },
+      "stimulus": {
+        "flipped": true
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "The pencil is longer than the marker. Finish this sentence. The marker is what than the pencil? Say shorter or longer.",
+      "asset_ids": [
+        "a_endpoint_compare"
+      ],
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_frame"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development (sentence frames)"
+      },
+      "stimulus": {
+        "given": "The pencil is longer than the marker."
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "A crayon and a glue stick stand side by side. Their bottoms are at the same place. The glue stick's top is higher. Which is longer?",
+      "asset_ids": [
+        "a_hidden_endpoints"
+      ],
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_line_up",
+        "h_higher_top"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "14",
+        "section": "Concept Development (crayon and glue stick, aligned)"
+      },
+      "stimulus": {
+        "aligned": true,
+        "longer": "glue stick",
+        "shorter": "crayon"
+      }
+    },
+    {
+      "id": "q_sp_1",
+      "kind": "practice",
+      "text": "3 minus 3 equals what number?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_1",
+      "hint_ids": [
+        "h_sp_take"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 3 - 3 (Sprint A item 1): ones minus ones, answer zero"
+      },
+      "stimulus": {
+        "sprint_item": "3 - 3 (Sprint A item 1)"
+      }
+    },
+    {
+      "id": "q_sp_2",
+      "kind": "practice",
+      "text": "13 minus 3 equals what number?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_2",
+      "hint_ids": [
+        "h_sp_take"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 13 - 3 (Sprint A item 2): teen minus its ones"
+      },
+      "stimulus": {
+        "sprint_item": "13 - 3 (Sprint A item 2)"
+      }
+    },
+    {
+      "id": "q_sp_3",
+      "kind": "practice",
+      "text": "4 minus 2 equals what number?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_3",
+      "hint_ids": [
+        "h_sp_take"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 4 - 2 (Sprint A item 5): ones minus ones"
+      },
+      "stimulus": {
+        "sprint_item": "4 - 2 (Sprint A item 5)"
+      }
+    },
+    {
+      "id": "q_sp_4",
+      "kind": "practice",
+      "text": "14 minus 2 equals what number?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_4",
+      "hint_ids": [
+        "h_sp_take"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 14 - 2 (Sprint A item 6): teen minus ones"
+      },
+      "stimulus": {
+        "sprint_item": "14 - 2 (Sprint A item 6)"
+      }
+    },
+    {
+      "id": "q_sp_5",
+      "kind": "practice",
+      "text": "14 minus 10 equals what number?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_5",
+      "hint_ids": [
+        "h_sp_take"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 14 - 10 (Sprint A item 9): teen minus ten"
+      },
+      "stimulus": {
+        "sprint_item": "14 - 10 (Sprint A item 9)"
+      }
+    },
+    {
+      "id": "q_sp_6",
+      "kind": "practice",
+      "text": "8 minus what number equals 5?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_6",
+      "hint_ids": [
+        "h_sp_missing"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 8 - [] = 5 (Sprint A item 24): missing subtrahend"
+      },
+      "stimulus": {
+        "sprint_item": "8 - [] = 5 (Sprint A item 24)"
+      }
+    },
+    {
+      "id": "q_sp_7",
+      "kind": "practice",
+      "text": "What number minus 2 equals 17?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_7",
+      "hint_ids": [
+        "h_sp_missing"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, [] - 2 = 17 (Sprint A item 28): missing minuend"
+      },
+      "stimulus": {
+        "sprint_item": "[] - 2 = 17 (Sprint A item 28)"
+      }
+    },
+    {
+      "id": "q_sp_8",
+      "kind": "practice",
+      "text": "17 minus 3 equals 16 minus what number?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_8",
+      "hint_ids": [
+        "h_sp_equal"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 17 - 3 = 16 - [] (Sprint A item 29): equal sentences, blank on the right"
+      },
+      "stimulus": {
+        "sprint_item": "17 - 3 = 16 - [] (Sprint A item 29)"
+      }
+    },
+    {
+      "id": "q_sp_9",
+      "kind": "practice",
+      "text": "19 minus 6 equals what number minus 5?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_9",
+      "hint_ids": [
+        "h_sp_equal"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 19 - 6 = [] - 5 (Sprint A item 30): equal sentences, blank on the left"
+      },
+      "stimulus": {
+        "sprint_item": "19 - 6 = [] - 5 (Sprint A item 30)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Nigel and Corey have new pencils the same length. Corey sharpens his pencil many times. Nigel does not use his. Whose pencil is longer?",
+      "asset_ids": [],
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_nigel"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "12",
+        "section": "Application Problem"
+      },
+      "stimulus": {
+        "nigel": "not used",
+        "corey": "sharpened several times"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "What do we need to do to compare two lengths accurately?",
+      "asset_ids": [],
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_line_up"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "15",
+        "section": "Student Debrief (first question)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "The pencil is longer than the marker. Can you say which is shorter without looking? How?",
+      "asset_ids": [],
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_frame"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "15",
+        "section": "Student Debrief (second question)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "12",
+        "section": "Tens and Ones (S: 6)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty six",
+          "twenty-six"
+        ]
+      },
+      "correct": "Says 26.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "12",
+        "section": "Tens and Ones (S: 26)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "pencil",
+          "the pencil",
+          "the pencil is longer",
+          "the pencil is longer than the marker"
+        ]
+      },
+      "correct": "Says the pencil.",
+      "partial": null,
+      "incorrect": "Says the marker.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development (S: The pencil is longer than the marker)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "marker",
+          "the marker",
+          "the marker is shorter",
+          "the marker is shorter than the pencil"
+        ]
+      },
+      "correct": "Says the marker.",
+      "partial": null,
+      "incorrect": "Says the pencil.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development (S: The marker is shorter than the pencil)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no i cannot",
+          "we cannot tell",
+          "cannot tell",
+          "can't tell",
+          "i can't tell"
+        ]
+      },
+      "correct": "Says no, because the endpoints are hidden or may not start at the same place.",
+      "partial": "Says no but gives no reason, or says it is not sure.",
+      "incorrect": "Says yes, or picks the crayon or the glue stick as longer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_taller_is_longer"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "14",
+        "section": "Concept Development (S: We can't tell. We don't know if they are starting from the same place)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to line up the endpoints, or start both objects at the same place.",
+      "partial": "Says to put the objects side by side or next to each other, but does not say the endpoints or the same place.",
+      "incorrect": "Gives something that does not help compare, for example guessing by the tops.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_taller_is_longer"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "13-14",
+        "section": "Concept Development (S: You have to start at the same spot)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no",
+          "no it does not",
+          "it does not change",
+          "they do not change",
+          "stay the same",
+          "the same"
+        ]
+      },
+      "correct": "Says no, because the endpoints are still lined up.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "15",
+        "section": "Concept Development (S: No)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "shorter",
+          "shorter than",
+          "the marker is shorter than the pencil"
+        ]
+      },
+      "correct": "Says shorter.",
+      "partial": null,
+      "incorrect": "Says longer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development (S: The marker is shorter than the pencil)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "glue stick",
+          "the glue stick",
+          "the glue stick is longer",
+          "the glue stick is longer than the crayon"
+        ]
+      },
+      "correct": "Says the glue stick.",
+      "partial": null,
+      "incorrect": "Says the crayon.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "14",
+        "section": "Concept Development (S: The glue stick is longer than the crayon)"
+      }
+    },
+    {
+      "id": "r_sp_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0",
+          "zero"
+        ]
+      },
+      "correct": "Says 0.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 3 - 3 (Sprint A item 1) (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_sp_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 13 - 3 (Sprint A item 2) (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_sp_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 4 - 2 (Sprint A item 5) (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_sp_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 14 - 2 (Sprint A item 6) (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_sp_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 14 - 10 (Sprint A item 9) (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_sp_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 8 - [] = 5 (Sprint A item 24) (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_sp_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19",
+          "nineteen"
+        ]
+      },
+      "correct": "Says 19.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, [] - 2 = 17 (Sprint A item 28) (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_sp_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 17 - 3 = 16 - [] (Sprint A item 29) (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_sp_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "17",
+        "section": "Sprint A, 19 - 6 = [] - 5 (Sprint A item 30) (answer computed, not printed)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "nigel",
+          "nigel's",
+          "nigels",
+          "nigel's pencil",
+          "nigel's pencil is longer"
+        ]
+      },
+      "correct": "Says Nigel's pencil.",
+      "partial": null,
+      "incorrect": "Says Corey's pencil.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "12",
+        "section": "Application Problem (note: Nigel's pencil is longer than Corey's pencil)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says to line up the endpoints, or start both at the same place.",
+      "partial": "Says to put them next to each other, without the endpoints or the same place.",
+      "incorrect": "Gives something that does not help compare.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [
+        "mis_taller_is_longer"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "13-14",
+        "section": "Concept Development (answer taken from the lesson; the debrief prints no answer)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes. If the pencil is longer, the marker is shorter.",
+      "partial": "Says yes but gives no reason.",
+      "incorrect": "Says no, or says the pencil is shorter.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development (sentence frames: longer than / shorter than; the debrief prints no answer)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_pk_tens",
+      "level": 1,
+      "text": "Think of tens and ones. How many ones are left over?",
+      "origin": "generated"
+    },
+    {
+      "id": "h_line_up",
+      "level": 1,
+      "text": "Look at where each object starts. Do the endpoints line up?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "14",
+        "section": "Concept Development (line up the endpoints)"
+      }
+    },
+    {
+      "id": "h_higher_top",
+      "level": 2,
+      "text": "The bottoms are at the same place. The object with the higher top is longer.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13-14",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_hidden_start",
+      "level": 1,
+      "text": "Can you see where each object starts? Think about the endpoints.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "14",
+        "section": "Concept Development (hiding the endpoints)"
+      }
+    },
+    {
+      "id": "h_flip",
+      "level": 1,
+      "text": "Think about the endpoints. Are they still at the same place after the flip?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "15",
+        "section": "Concept Development (flip an item upside down)"
+      }
+    },
+    {
+      "id": "h_frame",
+      "level": 1,
+      "text": "If the pencil is longer, then the marker is the other one. Use shorter than or longer than.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development (sentence frames)"
+      }
+    },
+    {
+      "id": "h_nigel",
+      "level": 1,
+      "text": "Corey sharpens his pencil. Does a sharpened pencil get longer or shorter?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "12",
+        "section": "Application Problem (note)"
+      }
+    },
+    {
+      "id": "h_sp_take",
+      "level": 1,
+      "text": "Start with the first number. Take away the second number.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_sp_missing",
+      "level": 1,
+      "text": "Think of the missing number. Use plus or minus to check your answer.",
+      "origin": "generated"
+    },
+    {
+      "id": "h_sp_equal",
+      "level": 1,
+      "text": "Work out one side first. Then find the number that makes the other side the same.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_taller_is_longer",
+      "label": "Higher top means longer",
+      "description": "Child says the object whose top is higher is the longer one, even when the endpoints are hidden or not at the same place.",
+      "detection_signals": [
+        "Says the marker is longer because its top is higher or taller, when the bottoms are not lined up.",
+        "Compares tops only and does not mention where the objects start."
+      ],
+      "response_text": "Good looking! Let's check. Do both objects start at the same place? Line up the endpoints first. Then look again.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "13",
+        "section": "Concept Development (S: The marker is longer because the top of it is taller)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_endpoint_compare",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Two objects with exact relative lengths. The bottoms must line up exactly. Diffusion cannot keep lengths exact.",
+      "description": "A marker and a pencil. First they are held at different heights so the marker's top looks higher. Then both stand side by side on one floor line, and the pencil is clearly longer.",
+      "must_show_exactly": [
+        "Exactly 2 objects: 1 pencil and 1 marker",
+        "In the aligned state both bottoms touch the same floor line",
+        "In the aligned state the pencil's top is clearly higher than the marker's top",
+        "In the held state the marker is held higher so its top looks higher than the pencil's top"
+      ],
+      "states_or_frames": [
+        "State 1: held at different heights, marker top looks higher",
+        "State 2: both stand on the floor line, bottoms aligned, pencil longer"
+      ],
+      "interaction": "Child can drag the marker down to the floor line. The bottoms then snap together. No typed input inside the widget.",
+      "alt_text": "A pencil and a marker standing side by side with their bottoms lined up.",
+      "used_by": [
+        "exp_endpoints",
+        "ex_marker_pencil",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_6"
+      ],
+      "generation_caption": "Flat, simple pencil and marker standing side by side on a plain floor line, pencil taller, no text. [Build by code]"
+    },
+    {
+      "asset_id": "a_hidden_endpoints",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Two objects with exact relative lengths and a hide-and-reveal state. Anything exact and interactive is built by code.",
+      "description": "A crayon and a glue stick. First each is held in a fist so the endpoints are hidden. Then both stand side by side with bottoms aligned and the glue stick is clearly longer.",
+      "must_show_exactly": [
+        "Exactly 2 objects: 1 crayon and 1 glue stick",
+        "Hidden state: each bottom endpoint is covered by a fist",
+        "Aligned state: both bottoms touch the same floor line",
+        "Aligned state: the glue stick's top is clearly higher than the crayon's top"
+      ],
+      "states_or_frames": [
+        "State 1: both in fists, endpoints hidden",
+        "State 2: both stand on the floor line, bottoms aligned, glue stick longer"
+      ],
+      "interaction": "Child can open the fists. The objects then stand on the floor line. No typed input inside the widget.",
+      "alt_text": "A crayon and a glue stick, first hidden in two fists and then standing side by side.",
+      "used_by": [
+        "exp_hidden",
+        "ex_crayon_glue",
+        "q_pr_3",
+        "q_pr_7"
+      ],
+      "generation_caption": "Flat, simple crayon and glue stick, first in two fists, then standing on a plain floor line, glue stick taller, no text. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_speed_writing",
+      "name": "Speed Writing",
+      "reason": "Writing numbers 10 and up on paper while whisper counting. The Tutor sees no writing.",
+      "source_ref": {
+        "src": "src1",
+        "page": "11",
+        "section": "Fluency: Speed Writing"
+      }
+    },
+    {
+      "id": "na_rekenrek",
+      "name": "Tens and Ones on a 100-bead Rekenrek",
+      "reason": "Teacher demonstration with a Rekenrek. Two questions from it are used (q_pk_1, q_pk_2).",
+      "source_ref": {
+        "src": "src1",
+        "page": "12",
+        "section": "Fluency: Tens and Ones"
+      }
+    },
+    {
+      "id": "na_sprint_sheet",
+      "name": "Sprint: Subtracting Ones from Teen Numbers (A and B)",
+      "reason": "Timed paper sheets of 30 items each. Nine distinct patterns from Sprint A became questions. Sprint B repeats the patterns with other numbers.",
+      "source_ref": {
+        "src": "src1",
+        "page": "17-18",
+        "section": "Sprint A and B"
+      }
+    },
+    {
+      "id": "na_app_drawing",
+      "name": "Application Problem: draw a picture to show your thinking",
+      "reason": "Drawing on paper. Only the spoken or typed answer (q_app_1) is judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "12",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "na_partner_game",
+      "name": "Hide and guess game with folders and paper strips",
+      "reason": "Partner play with physical strips and folders.",
+      "source_ref": {
+        "src": "src1",
+        "page": "14-15",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_scavenger",
+      "name": "Scavenger hunt for two objects of different lengths",
+      "reason": "Needs real objects in the room and partner talk.",
+      "source_ref": {
+        "src": "src1",
+        "page": "15",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_ps_pictures",
+      "name": "Problem Set items 1 to 7: write longer than or shorter than",
+      "reason": "The answers depend on pictures, are not printed, and the picture layout in this file is garbled.",
+      "source_ref": {
+        "src": "src1",
+        "page": "19-20",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "na_ps_8",
+      "name": "Problem Set item 8: circle true or false",
+      "reason": "Depends on a picture and has no printed answer.",
+      "source_ref": {
+        "src": "src1",
+        "page": "20",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "na_ps_9",
+      "name": "Problem Set item 9: draw 3 school supplies from shortest to longest",
+      "reason": "Drawing and real school supplies on paper.",
+      "source_ref": {
+        "src": "src1",
+        "page": "20",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "na_exit_ticket",
+      "name": "Exit Ticket: Shoe A is ____ Shoe B",
+      "reason": "Depends on a picture and has no printed answer.",
+      "source_ref": {
+        "src": "src1",
+        "page": "20-21",
+        "section": "Exit Ticket"
+      }
+    },
+    {
+      "id": "na_homework",
+      "name": "Homework items 1 to 8 (circle longer or shorter, sentences, true or false, draw)",
+      "reason": "Picture-based or drawing tasks with no printed answers.",
+      "source_ref": {
+        "src": "src1",
+        "page": "21-23",
+        "section": "Homework"
+      }
+    },
+    {
+      "id": "na_template",
+      "name": "Longer than / shorter than sentence frames (Template)",
+      "reason": "Printed frames for the class. The frames are used inside q_pr_6.",
+      "source_ref": {
+        "src": "src1",
+        "page": "23-24",
+        "section": "Template"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "whole card",
+      "issue": "This card is an AI draft. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "source_refs",
+      "issue": "Source license: Eureka Math is CC BY-NC-SA 3.0 (Great Minds). Credit Great Minds, stay non-commercial, share under the same license."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "source file / page labels",
+      "issue": "The source is a DOCX (Module 3 'only_docs' version), not a PDF. I converted it to PDF to look at the pages. The page labels are the footer numbers on that converted copy (11 to 24); section names are in every citation. Word may break pages differently. Check the citations."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "concept_id / module",
+      "issue": "You asked for module 1 earlier, but this file says Grade 1 Module 3 (G1-M3-TE-1.3.0-06.2015). The id uses m3. No lesson number was given in this message, so I took Lesson 1. Confirm both."
+    },
+    {
+      "id": "f5",
+      "severity": "high",
+      "item": "na_ps_pictures, na_ps_8, na_exit_ticket, na_homework",
+      "issue": "Picture-based items are NOT in the card: Problem Set 1-8, Exit Ticket, Homework 1-7. They need pictures that are scrambled in this DOCX, and no answers are printed. No question was made. A person must build them from the original pictures."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "assets_required",
+      "issue": "Image models cannot be trusted for lengths or counts. A person must check every visual (a_endpoint_compare, a_hidden_endpoints) against its stimulus and rubric."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "Both assets are not_available: a_endpoint_compare, a_hidden_endpoints."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "child wording",
+      "issue": "All child wording was rewritten for a screen. The teacher script talks to a class with real objects. Needs a wording review."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "q_sp_1 to q_sp_9",
+      "issue": "Sprint A has no printed answers. These nine answers are computed by me (derived). Recompute by hand. Sprint B is the same patterns with other numbers and was not converted."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_db_1, q_db_2",
+      "issue": "The Student Debrief prints questions with no answers. The keys are taken from the Concept Development (derived). Check them."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "q_pr_1, q_pr_2, q_pr_7",
+      "issue": "Child text tells the child that the bottoms are at the same place and which top is higher. The original used real objects. Check that the questions still test the idea."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "prerequisite ext_k_compare_lengths_of_objects, ext_g1_m2_subtract_within_20 and ext_g1_place_value_tens_and_ones: no card exists for these. They were chosen from the Fluency items and the lesson topic; check them."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "h_pk_tens, h_sp_take, h_sp_missing, h_sp_equal",
+      "issue": "These hints are generated (not in the source). A person must approve them."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "mis_taller_is_longer",
+      "issue": "The only misconception comes from a printed student answer on the Concept Development page. No other misconception is stated in the source."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "All explanations come from one Concept Development scene, so the Planner has little choice."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "rubrics with partial = null",
+      "issue": "partial is null for single-answer keys (r_pk_1, r_pk_2, r_pr_1, r_pr_2, r_pr_6, r_pr_7, r_sp_1, r_sp_2, r_sp_3, r_sp_4, r_sp_5, r_sp_6, r_sp_7, r_sp_8, r_sp_9, r_app_1). The script must map partial to the same path as incorrect."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only 1.NBT.1, 1.NBT.2 and 1.OA.6 are printed in the Fluency list on the first page. No measurement standard is printed for this lesson, so none was added."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "na_speed_writing, na_partner_game, na_scavenger",
+      "issue": "Hands-on and paper activities were not converted."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

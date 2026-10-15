@@ -1,0 +1,2883 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m6_l20_rectangular_arrays_odd_even_sums",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m6",
+      "file": "math-g2-m6-topic-d-lesson-20.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 6, Lesson 20",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.OA.3",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Use rectangular arrays to investigate odd and even numbers.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m6_l17_doubles_even_numbers",
+    "math_g2_m6_l18_pairing_skip_counting_even",
+    "math_g2_m6_l19_even_pattern_ones_place_odd"
+  ],
+  "explanations": [
+    {
+      "id": "exp_even_even",
+      "title": "Even plus even",
+      "text": "Join two even arrays. The total is even. 6 plus 8 equals 14. 14 is even.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_even_odd",
+      "title": "Even plus odd",
+      "text": "An odd number has one tile sticking out. Join an even and an odd and one tile still sticks out. The total is odd.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "exp_odd_odd",
+      "title": "Odd plus odd",
+      "text": "Two odd numbers each have one tile sticking out. The two extra tiles make a pair. The total is even.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    },
+    {
+      "id": "exp_larger",
+      "title": "It works for bigger numbers",
+      "text": "The same rules work for larger numbers. 10 plus 12 equals 22. Both addends are even and the total is even.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4"
+      }
+    },
+    {
+      "id": "exp_skip_two",
+      "title": "Skip-count by twos",
+      "text": "Count by ones and knock on the twos. Then say only the twos: 2, 4, 6, 8 and on to 20.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting by Twos"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_6_8",
+      "title": "6 plus 8",
+      "text": "2 rows of 3 and 2 rows of 4 join to make 2 rows of 7. That is 14. 14 is even.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_6_7",
+      "title": "6 plus 7",
+      "text": "2 rows of 3 and 2 rows of 3 with 1 extra tile. That is 13. One tile sticks out. 13 is odd.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "ex_7_9",
+      "title": "7 plus 9",
+      "text": "7 and 9 are odd. Join them to make 2 rows of 8. That is 16. 16 is even.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Count by twos from 0. 0, 2, 4. What number comes next?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_count_twos"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "count_by": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting by Twos (S: 2, 4, 6, 8)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Count by twos. What number comes after 18?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_count_twos"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "count_by": 2
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting by Twos (up to 20)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "2 rows of 3 tiles is how many tiles? Is the number even or odd?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "total": 6
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 6 tiles! Even!)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "2 rows of 4 tiles is how many tiles? Is the number even or odd?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4,
+        "total": 8
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 8 tiles! Even!)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Join 2 rows of 3 and 2 rows of 4. How many tiles are there? Is the number even or odd?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          3
+        ],
+        "b": [
+          2,
+          4
+        ],
+        "joined": [
+          2,
+          7
+        ],
+        "total": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 14 tiles! Even!)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Join 2 rows of 5 and 2 rows of 3. How many tiles are there? Is the number even or odd?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          5
+        ],
+        "b": [
+          2,
+          3
+        ],
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (2 rows of 5 + 2 rows of 3)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Join 2 rows of 4 and 2 rows of 8. How many tiles are there? Is the number even or odd?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          4
+        ],
+        "b": [
+          2,
+          8
+        ],
+        "total": 24
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (2 rows of 4 + 2 rows of 8)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "When we add an even number and an even number, do we get an even or an odd number?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "rule": "even+even"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Even number!)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "2 rows of 3 is 6. Add 1 tile to the top row to make 7. Is 7 even or odd?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 3,
+        "extra": 1,
+        "total": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Odd!)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Join 6 tiles and 7 tiles. How many tiles are there? Is the number even or odd?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": 6,
+        "b": 7,
+        "total": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 13 tiles! Odd!)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Why is 13 odd?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "total": 13
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: There is one extra)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Join 2 rows of 5 (10 tiles) and 2 rows of 2 plus 1 (5 tiles). How many tiles are there? Is the number even or odd?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          5
+        ],
+        "b": [
+          2,
+          2
+        ],
+        "b_extra": 1,
+        "total": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (2 rows of 5 + 2 rows of 2 (plus 1))"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Join 2 rows of 3 plus 1 (7 tiles) and 2 rows of 6 (12 tiles). How many tiles are there? Is the number even or odd?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": [
+          2,
+          3
+        ],
+        "a_extra": 1,
+        "b": [
+          2,
+          6
+        ],
+        "total": 19
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (2 rows of 3 (plus 1) + 2 rows of 6)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "When we add an even number and an odd number, do we get an even or an odd number?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "rule": "even+odd"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Odd!)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "2 rows of 4 plus 1 tile is 9 tiles. Is 9 even or odd?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "rows": 2,
+        "per_row": 4,
+        "extra": 1,
+        "total": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: Odd!)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Join 7 tiles and 9 tiles to make 2 rows of 8. How many tiles are there? Is the number even or odd?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": 7,
+        "b": 9,
+        "joined": [
+          2,
+          8
+        ],
+        "total": 16
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 2 rows of 8; 16; Even!)"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Join 2 rows of 2 plus 1 (5 tiles) and 2 rows of 4 plus 1 (9 tiles). How many tiles are there? Is the number even or odd?",
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": 5,
+        "b": 9,
+        "total": 14
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (2 rows of 2 (plus 1) + 2 rows of 4 (plus 1))"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "Join 7 tiles and 11 tiles. How many tiles are there? Is the number even or odd?",
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": 7,
+        "b": 11,
+        "total": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (2 rows of 3 (plus 1) + 2 rows of 5 (plus 1))"
+      }
+    },
+    {
+      "id": "q_pr_17",
+      "kind": "practice",
+      "text": "When we add an odd number and an odd number, do we get an even or an odd number?",
+      "rubric_id": "r_pr_17",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "rule": "odd+odd"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: An even!)"
+      }
+    },
+    {
+      "id": "q_pr_18",
+      "kind": "practice",
+      "text": "What is 10 plus 12? Is the total even or odd?",
+      "rubric_id": "r_pr_18",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "10 + 12"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (10 + 12 = 22)"
+      }
+    },
+    {
+      "id": "q_pr_19",
+      "kind": "practice",
+      "text": "How do you know 22 is even?",
+      "rubric_id": "r_pr_19",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "number": 22
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4"
+      }
+    },
+    {
+      "id": "q_pr_20",
+      "kind": "practice",
+      "text": "What is twenty-two plus four? Is the total even or odd?",
+      "rubric_id": "r_pr_20",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "22 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (22 + 4)"
+      }
+    },
+    {
+      "id": "q_pr_21",
+      "kind": "practice",
+      "text": "What is twenty-two plus three? Is the total even or odd?",
+      "rubric_id": "r_pr_21",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "22 + 3"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (22 + 3)"
+      }
+    },
+    {
+      "id": "q_pr_22",
+      "kind": "practice",
+      "text": "What is twenty-one plus five? Is the total even or odd?",
+      "rubric_id": "r_pr_22",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "21 + 5"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (21 + 5)"
+      }
+    },
+    {
+      "id": "q_pr_23",
+      "kind": "practice",
+      "text": "What is twenty-two plus fourteen? Is the total even or odd?",
+      "rubric_id": "r_pr_23",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "22 + 14"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (22 + 14)"
+      }
+    },
+    {
+      "id": "q_pr_24",
+      "kind": "practice",
+      "text": "What is twenty-two plus thirteen? Is the total even or odd?",
+      "rubric_id": "r_pr_24",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "22 + 13"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (22 + 13)"
+      }
+    },
+    {
+      "id": "q_pr_25",
+      "kind": "practice",
+      "text": "What is twenty-one plus fifteen? Is the total even or odd?",
+      "rubric_id": "r_pr_25",
+      "hint_ids": [
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "21 + 15"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (21 + 15)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Mrs. Boxer has 11 boys and 9 girls at a party. How many people is that?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": 11,
+        "b": 9,
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Are the addends 11 and 9 even or odd?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "derived",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "a": 11,
+        "b": 9
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_3",
+      "kind": "application",
+      "text": "Mrs. Boxer wants everyone to have a match for a game. Does she have the right number of people? Why?",
+      "rubric_id": "r_app_3",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "total": 20
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "What is six plus four? Is the total even or odd?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "6 + 4"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(a)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "What is seventeen plus two? Is the total even or odd?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "17 + 2"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(b)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "What is eleven plus thirteen? Is the total even or odd?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "11 + 13"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(c)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "What is fourteen plus eight? Is the total even or odd?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "14 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(d)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "What is three plus nine? Is the total even or odd?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "3 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(e)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "What is five plus fourteen? Is the total even or odd?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "5 + 14"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(f)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "What is six plus six? Is the total even or odd?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "6 + 6"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "What is eight plus thirteen? Is the total even or odd?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "8 + 13"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(b)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "What is nine plus fifteen? Is the total even or odd?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "9 + 15"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(c)"
+      }
+    },
+    {
+      "id": "q_ps_10",
+      "kind": "practice",
+      "text": "What is seventeen plus eight? Is the total even or odd?",
+      "rubric_id": "r_ps_10",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "17 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(d)"
+      }
+    },
+    {
+      "id": "q_ps_11",
+      "kind": "practice",
+      "text": "What is seven plus eight? Is the total even or odd?",
+      "rubric_id": "r_ps_11",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "7 + 8"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(e)"
+      }
+    },
+    {
+      "id": "q_ps_12",
+      "kind": "practice",
+      "text": "What is nine plus eleven? Is the total even or odd?",
+      "rubric_id": "r_ps_12",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "9 + 11"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(f)"
+      }
+    },
+    {
+      "id": "q_ps_13",
+      "kind": "practice",
+      "text": "What is seven plus fourteen? Is the total even or odd?",
+      "rubric_id": "r_ps_13",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "7 + 14"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(g)"
+      }
+    },
+    {
+      "id": "q_ps_14",
+      "kind": "practice",
+      "text": "What is nine plus nine? Is the total even or odd?",
+      "rubric_id": "r_ps_14",
+      "hint_ids": [
+        "h_extra_tile",
+        "h_ones_place"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "expression": "9 + 9"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(h)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Can you make an array with 2 equal rows or columns for an odd number of objects?",
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "total": 7
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1(a))"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "If you have rows of 3, must the number be odd? When will it be even?",
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "rows": 4,
+        "per_row": 3,
+        "total": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "What do you get when you add different combinations of even and odd addends?",
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_extra_tile"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {},
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "Can you only build rectangular arrays for even numbers? Think about 15.",
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_pairs"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_array_join"
+      ],
+      "stimulus": {
+        "rows": 3,
+        "per_row": 5,
+        "total": 15
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting by Twos (S: 2 (knock), 4 (knock), 6 (knock), 8 (knock))"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting by Twos (count by twos up to 20; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6 even",
+          "6, even",
+          "6 and even",
+          "even, 6",
+          "even 6",
+          "even and 6",
+          "6 is even",
+          "it is 6 and even",
+          "six even",
+          "six, even",
+          "six and even",
+          "even, six",
+          "even six",
+          "even and six",
+          "six is even",
+          "it is six and even"
+        ]
+      },
+      "correct": "Says 6, even.",
+      "partial": "Says only the total or only even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 6 tiles! Even!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8 even",
+          "8, even",
+          "8 and even",
+          "even, 8",
+          "even 8",
+          "even and 8",
+          "8 is even",
+          "it is 8 and even",
+          "eight even",
+          "eight, even",
+          "eight and even",
+          "even, eight",
+          "even eight",
+          "even and eight",
+          "eight is even",
+          "it is eight and even"
+        ]
+      },
+      "correct": "Says 8, even.",
+      "partial": "Says only the total or only even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 8 tiles! Even!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14 even",
+          "14, even",
+          "14 and even",
+          "even, 14",
+          "even 14",
+          "even and 14",
+          "14 is even",
+          "it is 14 and even",
+          "fourteen even",
+          "fourteen, even",
+          "fourteen and even",
+          "even, fourteen",
+          "even fourteen",
+          "even and fourteen",
+          "fourteen is even",
+          "it is fourteen and even"
+        ]
+      },
+      "correct": "Says 14, even.",
+      "partial": "Says only the total or only even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: 14 tiles! Even!)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16 even",
+          "16, even",
+          "16 and even",
+          "even, 16",
+          "even 16",
+          "even and 16",
+          "16 is even",
+          "it is 16 and even",
+          "sixteen even",
+          "sixteen, even",
+          "sixteen and even",
+          "even, sixteen",
+          "even sixteen",
+          "even and sixteen",
+          "sixteen is even",
+          "it is sixteen and even"
+        ]
+      },
+      "correct": "Says 16, even.",
+      "partial": "Says only the total or only even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (2 rows of 5 + 2 rows of 3; answer not printed; 10 + 6)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24 even",
+          "24, even",
+          "24 and even",
+          "even, 24",
+          "even 24",
+          "even and 24",
+          "24 is even",
+          "it is 24 and even",
+          "twenty-four even",
+          "twenty-four, even",
+          "twenty-four and even",
+          "even, twenty-four",
+          "even twenty-four",
+          "even and twenty-four",
+          "twenty-four is even",
+          "it is twenty-four and even"
+        ]
+      },
+      "correct": "Says 24, even.",
+      "partial": "Says only the total or only even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (2 rows of 4 + 2 rows of 8; answer not printed; 8 + 16)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "even",
+          "it is even",
+          "even."
+        ]
+      },
+      "correct": "Says even.",
+      "partial": null,
+      "incorrect": "Says odd.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Even number!)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "odd",
+          "it is odd",
+          "odd."
+        ]
+      },
+      "correct": "Says odd.",
+      "partial": null,
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Even! ... Odd!)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13 odd",
+          "13, odd",
+          "13 and odd",
+          "odd, 13",
+          "odd 13",
+          "odd and 13",
+          "13 is odd",
+          "it is 13 and odd",
+          "thirteen odd",
+          "thirteen, odd",
+          "thirteen and odd",
+          "odd, thirteen",
+          "odd thirteen",
+          "odd and thirteen",
+          "thirteen is odd",
+          "it is thirteen and odd"
+        ]
+      },
+      "correct": "Says 13, odd.",
+      "partial": "Says only the total or only odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: 13 tiles! Odd!)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says there is one extra tile, or there are not 2 equal groups, or we cannot count by twos to 13.",
+      "partial": "Says it is odd but gives no reason.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: There is one extra. There are not 2 equal groups. You can't count by twos to 13)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15 odd",
+          "15, odd",
+          "15 and odd",
+          "odd, 15",
+          "odd 15",
+          "odd and 15",
+          "15 is odd",
+          "it is 15 and odd",
+          "fifteen odd",
+          "fifteen, odd",
+          "fifteen and odd",
+          "odd, fifteen",
+          "odd fifteen",
+          "odd and fifteen",
+          "fifteen is odd",
+          "it is fifteen and odd"
+        ]
+      },
+      "correct": "Says 15, odd.",
+      "partial": "Says only the total or only odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (2 rows of 5 + 2 rows of 2 (plus 1); answer not printed; 10 + 5)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19 odd",
+          "19, odd",
+          "19 and odd",
+          "odd, 19",
+          "odd 19",
+          "odd and 19",
+          "19 is odd",
+          "it is 19 and odd",
+          "nineteen odd",
+          "nineteen, odd",
+          "nineteen and odd",
+          "odd, nineteen",
+          "odd nineteen",
+          "odd and nineteen",
+          "nineteen is odd",
+          "it is nineteen and odd"
+        ]
+      },
+      "correct": "Says 19, odd.",
+      "partial": "Says only the total or only odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (2 rows of 3 (plus 1) + 2 rows of 6; answer not printed; 7 + 12)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "odd",
+          "it is odd",
+          "odd."
+        ]
+      },
+      "correct": "Says odd.",
+      "partial": null,
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2 (S: Odd!)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "odd",
+          "it is odd",
+          "odd."
+        ]
+      },
+      "correct": "Says odd.",
+      "partial": null,
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: Odd!)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16 even",
+          "16, even",
+          "16 and even",
+          "even, 16",
+          "even 16",
+          "even and 16",
+          "16 is even",
+          "it is 16 and even",
+          "sixteen even",
+          "sixteen, even",
+          "sixteen and even",
+          "even, sixteen",
+          "even sixteen",
+          "even and sixteen",
+          "sixteen is even",
+          "it is sixteen and even"
+        ]
+      },
+      "correct": "Says 16, even.",
+      "partial": "Says only the total or only even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: 2 rows of 8. 16. Even!)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14 even",
+          "14, even",
+          "14 and even",
+          "even, 14",
+          "even 14",
+          "even and 14",
+          "14 is even",
+          "it is 14 and even",
+          "fourteen even",
+          "fourteen, even",
+          "fourteen and even",
+          "even, fourteen",
+          "even fourteen",
+          "even and fourteen",
+          "fourteen is even",
+          "it is fourteen and even"
+        ]
+      },
+      "correct": "Says 14, even.",
+      "partial": "Says only the total or only even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (2 rows of 2 (plus 1) + 2 rows of 4 (plus 1); answer not printed; 5 + 9)"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18 even",
+          "18, even",
+          "18 and even",
+          "even, 18",
+          "even 18",
+          "even and 18",
+          "18 is even",
+          "it is 18 and even",
+          "eighteen even",
+          "eighteen, even",
+          "eighteen and even",
+          "even, eighteen",
+          "even eighteen",
+          "even and eighteen",
+          "eighteen is even",
+          "it is eighteen and even"
+        ]
+      },
+      "correct": "Says 18, even.",
+      "partial": "Says only the total or only even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (2 rows of 3 (plus 1) + 2 rows of 5 (plus 1); answer not printed; 7 + 11)"
+      }
+    },
+    {
+      "id": "r_pr_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "even",
+          "it is even",
+          "even."
+        ]
+      },
+      "correct": "Says even.",
+      "partial": null,
+      "incorrect": "Says odd.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 3 (S: An even!)"
+      }
+    },
+    {
+      "id": "r_pr_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22 even",
+          "22, even",
+          "22 and even",
+          "even, 22",
+          "even 22",
+          "even and 22",
+          "22 is even",
+          "it is 22 and even",
+          "twenty-two even",
+          "twenty-two, even",
+          "twenty-two and even",
+          "even, twenty-two",
+          "even twenty-two",
+          "even and twenty-two",
+          "twenty-two is even",
+          "it is twenty-two and even"
+        ]
+      },
+      "correct": "Says 22, even.",
+      "partial": "Says only the total or only even.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: 22; even)"
+      }
+    },
+    {
+      "id": "r_pr_19",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says we can count by twos to 22, or the ones digit is 2, or 11 plus 11 equals 22.",
+      "partial": "Says it is even but gives no reason.",
+      "incorrect": "Says odd.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: It is even because I can count by 2 to get to 22 / the ones digit is a 2 / 11 + 11)"
+      }
+    },
+    {
+      "id": "r_pr_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26 even",
+          "26, even",
+          "26 and even",
+          "even, 26",
+          "even 26",
+          "even and 26",
+          "26 is even",
+          "it is 26 and even",
+          "twenty-six even",
+          "twenty-six, even",
+          "twenty-six and even",
+          "even, twenty-six",
+          "even twenty-six",
+          "even and twenty-six",
+          "twenty-six is even",
+          "it is twenty-six and even"
+        ]
+      },
+      "correct": "Says 26, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (22 + 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25 odd",
+          "25, odd",
+          "25 and odd",
+          "odd, 25",
+          "odd 25",
+          "odd and 25",
+          "25 is odd",
+          "it is 25 and odd",
+          "twenty-five odd",
+          "twenty-five, odd",
+          "twenty-five and odd",
+          "odd, twenty-five",
+          "odd twenty-five",
+          "odd and twenty-five",
+          "twenty-five is odd",
+          "it is twenty-five and odd"
+        ]
+      },
+      "correct": "Says 25, odd.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (22 + 3; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26 even",
+          "26, even",
+          "26 and even",
+          "even, 26",
+          "even 26",
+          "even and 26",
+          "26 is even",
+          "it is 26 and even",
+          "twenty-six even",
+          "twenty-six, even",
+          "twenty-six and even",
+          "even, twenty-six",
+          "even twenty-six",
+          "even and twenty-six",
+          "twenty-six is even",
+          "it is twenty-six and even"
+        ]
+      },
+      "correct": "Says 26, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (21 + 5; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "36 even",
+          "36, even",
+          "36 and even",
+          "even, 36",
+          "even 36",
+          "even and 36",
+          "36 is even",
+          "it is 36 and even",
+          "thirty-six even",
+          "thirty-six, even",
+          "thirty-six and even",
+          "even, thirty-six",
+          "even thirty-six",
+          "even and thirty-six",
+          "thirty-six is even",
+          "it is thirty-six and even"
+        ]
+      },
+      "correct": "Says 36, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (22 + 14; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35 odd",
+          "35, odd",
+          "35 and odd",
+          "odd, 35",
+          "odd 35",
+          "odd and 35",
+          "35 is odd",
+          "it is 35 and odd",
+          "thirty-five odd",
+          "thirty-five, odd",
+          "thirty-five and odd",
+          "odd, thirty-five",
+          "odd thirty-five",
+          "odd and thirty-five",
+          "thirty-five is odd",
+          "it is thirty-five and odd"
+        ]
+      },
+      "correct": "Says 35, odd.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (22 + 13; answer not printed)"
+      }
+    },
+    {
+      "id": "r_pr_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "36 even",
+          "36, even",
+          "36 and even",
+          "even, 36",
+          "even 36",
+          "even and 36",
+          "36 is even",
+          "it is 36 and even",
+          "thirty-six even",
+          "thirty-six, even",
+          "thirty-six and even",
+          "even, thirty-six",
+          "even thirty-six",
+          "even and thirty-six",
+          "thirty-six is even",
+          "it is thirty-six and even"
+        ]
+      },
+      "correct": "Says 36, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (21 + 15; answer not printed)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": "Says 2 or 11.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 11 + 9 = 20)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "odd",
+          "both odd",
+          "odd and odd",
+          "they are both odd"
+        ]
+      },
+      "correct": "Says both are odd.",
+      "partial": "Says only one is odd.",
+      "incorrect": "Says even.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 11 and 9 are odd)"
+      }
+    },
+    {
+      "id": "r_app_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes. 20 is even, so everyone can have a match. Odd plus odd makes an even.",
+      "partial": "Says yes but gives no reason.",
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 20 is even)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10 even",
+          "10, even",
+          "10 and even",
+          "even, 10",
+          "even 10",
+          "even and 10",
+          "10 is even",
+          "it is 10 and even",
+          "ten even",
+          "ten, even",
+          "ten and even",
+          "even, ten",
+          "even ten",
+          "even and ten",
+          "ten is even",
+          "it is ten and even"
+        ]
+      },
+      "correct": "Says 10, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(a) (answer not printed; 6 + 4)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19 odd",
+          "19, odd",
+          "19 and odd",
+          "odd, 19",
+          "odd 19",
+          "odd and 19",
+          "19 is odd",
+          "it is 19 and odd",
+          "nineteen odd",
+          "nineteen, odd",
+          "nineteen and odd",
+          "odd, nineteen",
+          "odd nineteen",
+          "odd and nineteen",
+          "nineteen is odd",
+          "it is nineteen and odd"
+        ]
+      },
+      "correct": "Says 19, odd.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(b) (answer not printed; 17 + 2)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24 even",
+          "24, even",
+          "24 and even",
+          "even, 24",
+          "even 24",
+          "even and 24",
+          "24 is even",
+          "it is 24 and even",
+          "twenty-four even",
+          "twenty-four, even",
+          "twenty-four and even",
+          "even, twenty-four",
+          "even twenty-four",
+          "even and twenty-four",
+          "twenty-four is even",
+          "it is twenty-four and even"
+        ]
+      },
+      "correct": "Says 24, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(c) (answer not printed; 11 + 13)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22 even",
+          "22, even",
+          "22 and even",
+          "even, 22",
+          "even 22",
+          "even and 22",
+          "22 is even",
+          "it is 22 and even",
+          "twenty-two even",
+          "twenty-two, even",
+          "twenty-two and even",
+          "even, twenty-two",
+          "even twenty-two",
+          "even and twenty-two",
+          "twenty-two is even",
+          "it is twenty-two and even"
+        ]
+      },
+      "correct": "Says 22, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(d) (answer not printed; 14 + 8)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12 even",
+          "12, even",
+          "12 and even",
+          "even, 12",
+          "even 12",
+          "even and 12",
+          "12 is even",
+          "it is 12 and even",
+          "twelve even",
+          "twelve, even",
+          "twelve and even",
+          "even, twelve",
+          "even twelve",
+          "even and twelve",
+          "twelve is even",
+          "it is twelve and even"
+        ]
+      },
+      "correct": "Says 12, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(e) (answer not printed; 3 + 9)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19 odd",
+          "19, odd",
+          "19 and odd",
+          "odd, 19",
+          "odd 19",
+          "odd and 19",
+          "19 is odd",
+          "it is 19 and odd",
+          "nineteen odd",
+          "nineteen, odd",
+          "nineteen and odd",
+          "odd, nineteen",
+          "odd nineteen",
+          "odd and nineteen",
+          "nineteen is odd",
+          "it is nineteen and odd"
+        ]
+      },
+      "correct": "Says 19, odd.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2(f) (answer not printed; 5 + 14)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12 even",
+          "12, even",
+          "12 and even",
+          "even, 12",
+          "even 12",
+          "even and 12",
+          "12 is even",
+          "it is 12 and even",
+          "twelve even",
+          "twelve, even",
+          "twelve and even",
+          "even, twelve",
+          "even twelve",
+          "even and twelve",
+          "twelve is even",
+          "it is twelve and even"
+        ]
+      },
+      "correct": "Says 12, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(a) (answer not printed; 6 + 6)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21 odd",
+          "21, odd",
+          "21 and odd",
+          "odd, 21",
+          "odd 21",
+          "odd and 21",
+          "21 is odd",
+          "it is 21 and odd",
+          "twenty-one odd",
+          "twenty-one, odd",
+          "twenty-one and odd",
+          "odd, twenty-one",
+          "odd twenty-one",
+          "odd and twenty-one",
+          "twenty-one is odd",
+          "it is twenty-one and odd"
+        ]
+      },
+      "correct": "Says 21, odd.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(b) (answer not printed; 8 + 13)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24 even",
+          "24, even",
+          "24 and even",
+          "even, 24",
+          "even 24",
+          "even and 24",
+          "24 is even",
+          "it is 24 and even",
+          "twenty-four even",
+          "twenty-four, even",
+          "twenty-four and even",
+          "even, twenty-four",
+          "even twenty-four",
+          "even and twenty-four",
+          "twenty-four is even",
+          "it is twenty-four and even"
+        ]
+      },
+      "correct": "Says 24, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(c) (answer not printed; 9 + 15)"
+      }
+    },
+    {
+      "id": "r_ps_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25 odd",
+          "25, odd",
+          "25 and odd",
+          "odd, 25",
+          "odd 25",
+          "odd and 25",
+          "25 is odd",
+          "it is 25 and odd",
+          "twenty-five odd",
+          "twenty-five, odd",
+          "twenty-five and odd",
+          "odd, twenty-five",
+          "odd twenty-five",
+          "odd and twenty-five",
+          "twenty-five is odd",
+          "it is twenty-five and odd"
+        ]
+      },
+      "correct": "Says 25, odd.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(d) (answer not printed; 17 + 8)"
+      }
+    },
+    {
+      "id": "r_ps_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15 odd",
+          "15, odd",
+          "15 and odd",
+          "odd, 15",
+          "odd 15",
+          "odd and 15",
+          "15 is odd",
+          "it is 15 and odd",
+          "fifteen odd",
+          "fifteen, odd",
+          "fifteen and odd",
+          "odd, fifteen",
+          "odd fifteen",
+          "odd and fifteen",
+          "fifteen is odd",
+          "it is fifteen and odd"
+        ]
+      },
+      "correct": "Says 15, odd.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(e) (answer not printed; 7 + 8)"
+      }
+    },
+    {
+      "id": "r_ps_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20 even",
+          "20, even",
+          "20 and even",
+          "even, 20",
+          "even 20",
+          "even and 20",
+          "20 is even",
+          "it is 20 and even",
+          "twenty even",
+          "twenty, even",
+          "twenty and even",
+          "even, twenty",
+          "even twenty",
+          "even and twenty",
+          "twenty is even",
+          "it is twenty and even"
+        ]
+      },
+      "correct": "Says 20, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(f) (answer not printed; 9 + 11)"
+      }
+    },
+    {
+      "id": "r_ps_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "21 odd",
+          "21, odd",
+          "21 and odd",
+          "odd, 21",
+          "odd 21",
+          "odd and 21",
+          "21 is odd",
+          "it is 21 and odd",
+          "twenty-one odd",
+          "twenty-one, odd",
+          "twenty-one and odd",
+          "odd, twenty-one",
+          "odd twenty-one",
+          "odd and twenty-one",
+          "twenty-one is odd",
+          "it is twenty-one and odd"
+        ]
+      },
+      "correct": "Says 21, odd.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(g) (answer not printed; 7 + 14)"
+      }
+    },
+    {
+      "id": "r_ps_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18 even",
+          "18, even",
+          "18 and even",
+          "even, 18",
+          "even 18",
+          "even and 18",
+          "18 is even",
+          "it is 18 and even",
+          "eighteen even",
+          "eighteen, even",
+          "eighteen and even",
+          "even, eighteen",
+          "even eighteen",
+          "even and eighteen",
+          "eighteen is even",
+          "it is eighteen and even"
+        ]
+      },
+      "correct": "Says 18, even.",
+      "partial": "Says only the total or only even or odd.",
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2(h) (answer not printed; 9 + 9)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. An odd number always has one object left over.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development Part 2)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. An even number of rows of 3, like 2 rows of 3 or 4 rows of 3, is even.",
+      "partial": "Says no but cannot say when it is even.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 2 rows of 3 is 6 and 4 rows of 3 is 12)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says even plus even is even, even plus odd is odd, and odd plus odd is even.",
+      "partial": "Says some of the three rules.",
+      "incorrect": "Says another rule.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: Even number! Odd! An even!)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. 15 can make 3 rows of 5 or 5 rows of 3.",
+      "partial": "Says no but gives no example.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; 3 rows of 5 makes 15, as in Lesson 7)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_pairs",
+      "level": 1,
+      "text": "Pair up the tiles. Is any tile left over?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: There is one extra)"
+      }
+    },
+    {
+      "id": "h_extra_tile",
+      "level": 2,
+      "text": "An odd number has one extra tile. What happens to the extras when you join?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Parts 2 and 3"
+      }
+    },
+    {
+      "id": "h_ones_place",
+      "level": 1,
+      "text": "Look at the ones place. Is it 0, 2, 4, 6 or 8?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 4 (S: the ones digit)"
+      }
+    },
+    {
+      "id": "h_count_twos",
+      "level": 2,
+      "text": "Count by twos. Do you say this number?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting by Twos"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_array_join",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact tile counts, joining two arrays and an extra tile need exact behaviour. Diffusion cannot count.",
+      "description": "Two tile arrays that can be joined. An extra tile can be added to the top row or the bottom row. The total and the even or odd label show when the stimulus asks.",
+      "must_show_exactly": [
+        "Exactly the tile counts in the stimulus",
+        "Arrays join with no gaps",
+        "Extra tile is shown separately",
+        "Total shown only when the stimulus has a total"
+      ],
+      "states_or_frames": [
+        "2 rows of 3 and 2 rows of 4 joined",
+        "2 rows of 3 and 2 rows of 3 plus 1",
+        "2 rows of 3 plus 1 and 2 rows of 4 plus 1",
+        "2 rows of 5 and 2 rows of 3",
+        "2 rows of 4 and 2 rows of 8",
+        "2 rows of 5 and 2 rows of 2 plus 1",
+        "2 rows of 3 plus 1 and 2 rows of 6",
+        "2 rows of 8",
+        "11 boys and 9 girls in pairs",
+        "3 rows of 5",
+        "4 rows of 3"
+      ],
+      "interaction": "Tutor sets the arrays from the stimulus. Child can join the arrays. Child answers by voice or typing.",
+      "alt_text": "Two tile arrays joined, with an extra tile on one side.",
+      "used_by": [
+        "ex_6_7",
+        "ex_6_8",
+        "ex_7_9",
+        "exp_even_even",
+        "exp_even_odd",
+        "exp_larger",
+        "exp_odd_odd",
+        "q_app_1",
+        "q_app_2",
+        "q_app_3",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Two arrays of square tiles with an extra tile, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Practice Sets",
+      "reason": "Printed timed sets. They are in Lesson 12. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Core Fluency Practice Sets"
+      }
+    },
+    {
+      "id": "na_tap_knock",
+      "name": "Tap and knock counting with the teacher",
+      "reason": "Needs a teacher and a class. The skip-count questions replace it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Skip-Counting by Twos"
+      }
+    },
+    {
+      "id": "na_poster",
+      "name": "Premade even and odd poster; build arrays on a white board with a partner",
+      "reason": "Needs a poster, real tiles and a partner. The widget a_array_join replaces it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_drawing",
+      "name": "Draw arrays on the Problem Set and write three example sentences",
+      "reason": "Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1, 3 and 4; Homework 1"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available (a_array_join). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Problem Set, Exit Ticket and Homework numbering",
+      "issue": "The .md text has three unlabelled sheets. Items were counted from printed prompts. Check against the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "math_g2_m6_l17_doubles_even_numbers, math_g2_m6_l18_pairing_skip_counting_even and math_g2_m6_l19_even_pattern_ones_place_odd are earlier cards of this module."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f10",
+      "severity": "high",
+      "item": "Picture items",
+      "issue": "Problem Set 1 (use the objects to make an array) and the Exit Ticket and Homework object pictures are not in the .md. They were left out."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Part 2 and Part 3 sequences",
+      "issue": "The text says 'plus 1' for the odd arrays. The totals were worked out from that: 7 plus 9, 5 plus 9 and 7 plus 11. Check against the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Problem Set and Exit Ticket sums",
+      "issue": "No answers are printed. All totals and even or odd labels are derived."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Answer key for even or odd with totals",
+      "issue": "tot_par accepts the total with the word even or odd. Answers that give only the total or only the word get partial credit, not correct."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Open answers",
+      "issue": "Reason questions use open rubrics. A person or the tutor must check the reason."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Standards",
+      "issue": "2.OA.3 and 2.OA.2 are the codes printed in this file."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

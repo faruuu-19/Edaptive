@@ -1,0 +1,1274 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g1_m5_l1_shape_attributes",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g1_m5",
+      "file": "math-g1-m5-topic-a-lesson-1_only_docs.docx",
+      "source_version": "not-available-in-docx (no printed footer)",
+      "title": "Eureka Math / EngageNY, Grade 1, Module 5, Lesson 1",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none (docx, text-only extraction)"
+    }
+  ],
+  "grade": 1,
+  "subject": "math",
+  "standards": [
+    "1.OA.6",
+    "1.OA.7"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Sort shapes by their attributes, like how many straight sides and corners they have.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_k_basic_shapes"
+  ],
+  "explanations": [
+    {
+      "id": "exp_open_closed",
+      "title": "Open and closed shapes",
+      "text": "A closed shape has no opening. Every end of every straw touches another straw. An open shape has an opening.",
+      "asset_ids": [
+        "a_straw_shapes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Open Shapes / Closed Shapes)"
+      }
+    },
+    {
+      "id": "exp_attributes",
+      "title": "What an attribute is",
+      "text": "An attribute is a fact about a shape. 'Three straight sides' and 'three corners' are attributes.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (all of these shapes have two attributes)"
+      }
+    },
+    {
+      "id": "exp_three_sides_corners",
+      "title": "Three sides and three corners",
+      "text": "All the shapes on this chart share two attributes: three straight sides and three corners. A corner is where two sides meet.",
+      "asset_ids": [
+        "a_straw_shapes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Chart 1: 3 Straight Sides and 3 Corners)"
+      }
+    },
+    {
+      "id": "exp_four_sides_corners",
+      "title": "Four sides and four corners",
+      "text": "These shapes look different, but all of them have four straight sides and four corners. Some corners are special square corners.",
+      "asset_ids": [
+        "a_straw_shapes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Chart 2: 4 Corners and 4 Straight Sides)"
+      }
+    },
+    {
+      "id": "exp_square_corners",
+      "title": "Square corners",
+      "text": "A square corner makes the same shape as the corner of a book. We can check a corner with a square corner tester.",
+      "asset_ids": [
+        "a_square_corner_tester"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (square corner tester)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_record_dots",
+      "title": "Record a straw shape",
+      "text": "Put your straw shape on paper. Draw a dot at every corner, where two straws meet. Move the straws away. Draw straight lines dot to dot.",
+      "asset_ids": [
+        "a_straw_shapes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (record the shape)"
+      }
+    },
+    {
+      "id": "ex_three_three",
+      "title": "Three straws, three sides, three corners",
+      "text": "This shape is made of 3 straws. It has 3 straight sides and 3 corners. Even when the sides have different lengths, it still has 3 sides and 3 corners.",
+      "asset_ids": [
+        "a_straw_shapes"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (three-sided straw shape)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Make both sides equal. 5 plus 5 equals 9 plus what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "activity": "make_it_equal",
+        "left": "5 + 5",
+        "right": "9 + ?"
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_balance"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Make it Equal (worked example 5 + 5 = 9 + 1)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Make both sides equal. 10 plus 0 equals 8 plus what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "activity": "make_it_equal",
+        "left": "10 + 0",
+        "right": "8 + ?"
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_balance",
+        "h_counton"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Make it Equal (suggested set 10, 8, 2, 0)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "You get 7 straw pieces. Your partner gets 7 straw pieces. You put them together. How many straw pieces can you use?",
+      "asset_ids": [],
+      "stimulus": {
+        "story": "straw_pieces",
+        "parts": [
+          7,
+          7
+        ]
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_draw_sets",
+        "h_counton"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Look at this straw shape. How many straight sides does it have?",
+      "asset_ids": [
+        "a_straw_shapes"
+      ],
+      "stimulus": {
+        "sides": 3,
+        "corners": 3
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_touch_count"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: three straight sides)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Can you make a closed shape with four straight sides but only three corners? Answer yes or no.",
+      "asset_ids": [],
+      "stimulus": {
+        "sides": 4,
+        "claimed_corners": 3,
+        "closed": true
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_count_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (four straight sides and only three corners)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Two straws lie in a straight line, touching end to end. Are they one side or two sides?",
+      "asset_ids": [],
+      "stimulus": {
+        "straws_in_straight_line": 2
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_straight_check"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (two straws side by side can be one side)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "You join your straws with your partner's straws. You make a new shape with four straight sides and four corners. What must be true about your new shape?",
+      "asset_ids": [
+        "a_straw_shapes"
+      ],
+      "stimulus": {
+        "required_attributes": [
+          "4 straight sides",
+          "4 corners"
+        ]
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (combine your straws with your partner)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "What does it mean when shapes share an attribute?",
+      "asset_ids": [],
+      "stimulus": {
+        "concept": "shared_attribute"
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_look_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (what does it mean to share an attribute)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Look at the shapes on the first chart. Some sides are long and some are short. What is the same about all of them?",
+      "asset_ids": [],
+      "stimulus": {
+        "chart": "three_sides_three_corners"
+      },
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_touch_count"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (which attributes are the same for all of the shapes)"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "What is 4 plus 1?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 4,
+        "b": 1,
+        "op": "plus"
+      },
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_counton"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 1"
+      }
+    },
+    {
+      "id": "q_sp_a2",
+      "kind": "practice",
+      "text": "What is 4 plus 2?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 4,
+        "b": 2,
+        "op": "plus"
+      },
+      "rubric_id": "r_sp_a2",
+      "hint_ids": [
+        "h_counton"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 2"
+      }
+    },
+    {
+      "id": "q_sp_a3",
+      "kind": "practice",
+      "text": "What is 4 plus 3?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 4,
+        "b": 3,
+        "op": "plus"
+      },
+      "rubric_id": "r_sp_a3",
+      "hint_ids": [
+        "h_counton"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 3"
+      }
+    },
+    {
+      "id": "q_sp_a6",
+      "kind": "practice",
+      "text": "What is 6 plus 3?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 6,
+        "b": 3,
+        "op": "plus"
+      },
+      "rubric_id": "r_sp_a6",
+      "hint_ids": [
+        "h_counton"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 6"
+      }
+    },
+    {
+      "id": "q_sp_a8",
+      "kind": "practice",
+      "text": "What is 2 plus 5?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 2,
+        "b": 5,
+        "op": "plus"
+      },
+      "rubric_id": "r_sp_a8",
+      "hint_ids": [
+        "h_counton"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 8"
+      }
+    },
+    {
+      "id": "q_sp_a10",
+      "kind": "practice",
+      "text": "5 plus what number equals 8?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 5,
+        "result": 8,
+        "op": "missing_addend"
+      },
+      "rubric_id": "r_sp_a10",
+      "hint_ids": [
+        "h_counton"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 10"
+      }
+    },
+    {
+      "id": "q_sp_a11",
+      "kind": "practice",
+      "text": "8 equals 3 plus what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "result": 8,
+        "b": 3,
+        "op": "missing_addend"
+      },
+      "rubric_id": "r_sp_a11",
+      "hint_ids": [
+        "h_match_side"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 11"
+      }
+    },
+    {
+      "id": "q_sp_a18",
+      "kind": "practice",
+      "text": "7 equals what number plus 4?",
+      "asset_ids": [],
+      "stimulus": {
+        "result": 7,
+        "b": 4,
+        "op": "missing_addend_first"
+      },
+      "rubric_id": "r_sp_a18",
+      "hint_ids": [
+        "h_match_side"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 18"
+      }
+    },
+    {
+      "id": "q_sp_a28",
+      "kind": "practice",
+      "text": "4 plus 4 equals what number plus 2?",
+      "asset_ids": [],
+      "stimulus": {
+        "left": "4 + 4",
+        "right": "? + 2"
+      },
+      "rubric_id": "r_sp_a28",
+      "hint_ids": [
+        "h_match_side"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 28"
+      }
+    },
+    {
+      "id": "q_sp_a30",
+      "kind": "practice",
+      "text": "What number plus 7 equals 3 plus 6?",
+      "asset_ids": [],
+      "stimulus": {
+        "left": "? + 7",
+        "right": "3 + 6"
+      },
+      "rubric_id": "r_sp_a30",
+      "hint_ids": [
+        "h_match_side"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 30"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says 1.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Make it Equal (worked example 5 + 5 = 9 + 1)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Make it Equal (answer not printed; 10 + 0 = 8 + 2)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer; 7 + 7 = 14)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: three straight sides)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "no"
+        ]
+      },
+      "correct": "Says no.",
+      "partial": "Says no but cannot give a reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No yes-or-no answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (a closed shape with 4 straight sides has 4 corners)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "Says one side.",
+      "partial": null,
+      "incorrect": "Says two sides.",
+      "unclear": "No answer of one or two that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (two straws in one straight line count as one side)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the new shape must have four straight sides and four corners.",
+      "partial": "Says only one of the two attributes.",
+      "incorrect": "Says something that is not required.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (combine straws with a partner)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it means the shapes have the same attribute, like the same number of straight sides.",
+      "partial": "Says 'they are alike' without naming the attribute.",
+      "incorrect": "Gives an answer that is not about shared attributes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (share an attribute)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says they all have three straight sides and three corners, even though the sides have different lengths.",
+      "partial": "Names only one shared attribute.",
+      "incorrect": "Names attributes that are not shared by all the shapes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (attributes the same for all shapes)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 1 (no answer key printed; recomputed)"
+      }
+    },
+    {
+      "id": "r_sp_a2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 2 (no answer key printed; recomputed)"
+      }
+    },
+    {
+      "id": "r_sp_a3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 3 (no answer key printed; recomputed)"
+      }
+    },
+    {
+      "id": "r_sp_a6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 6 (no answer key printed; recomputed)"
+      }
+    },
+    {
+      "id": "r_sp_a8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 8 (no answer key printed; recomputed)"
+      }
+    },
+    {
+      "id": "r_sp_a10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 10 (no answer key printed; recomputed)"
+      }
+    },
+    {
+      "id": "r_sp_a11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 11 (no answer key printed; recomputed)"
+      }
+    },
+    {
+      "id": "r_sp_a18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 18 (no answer key printed; recomputed)"
+      }
+    },
+    {
+      "id": "r_sp_a28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 28 (no answer key printed; recomputed)"
+      }
+    },
+    {
+      "id": "r_sp_a30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint A, item 30 (no answer key printed; recomputed)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_balance",
+      "level": 2,
+      "text": "Work out one side first. Then match the other side to it.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Make it Equal (make two equivalent expressions)"
+      }
+    },
+    {
+      "id": "h_counton",
+      "level": 2,
+      "text": "Start at the bigger number and count on.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Make it Equal (counting on strategy)"
+      }
+    },
+    {
+      "id": "h_draw_sets",
+      "level": 2,
+      "text": "Draw your straws and your partner's straws before you count.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem note (Can you draw something?)"
+      }
+    },
+    {
+      "id": "h_touch_count",
+      "level": 1,
+      "text": "Touch each corner as you count.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Notes on Multiple Means of Representation (touch the corners)"
+      }
+    },
+    {
+      "id": "h_count_each",
+      "level": 1,
+      "text": "Count the sides one at a time, slowly.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (focus on the number of straight sides and corners)"
+      }
+    },
+    {
+      "id": "h_straight_check",
+      "level": 2,
+      "text": "Look where the straws point. Do they point the same way?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (two straws in a straight line)"
+      }
+    },
+    {
+      "id": "h_look_chart",
+      "level": 1,
+      "text": "Look at every shape on the chart. What is true of all of them?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (what do these shapes have in common)"
+      }
+    },
+    {
+      "id": "h_match_side",
+      "level": 2,
+      "text": "First work out the side with no blank. Then find the matching number.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Core Fluency Sprint instructions (pay attention to the symbols)"
+      }
+    }
+  ],
+  "misconceptions": [
+    {
+      "id": "mis_refined_attributes",
+      "label": "Trouble seeing small differences between shapes",
+      "description": "Some students find visual discrimination challenging, especially when the attributes are at more refined levels, such as counting sides and corners of similar shapes.",
+      "detection_signals": [
+        "Counts a different number of sides or corners than the shape has.",
+        "Changes the answer when counting the same shape a second time."
+      ],
+      "response_text": "Take your time. Touch each corner, or line up the straws, as you count.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Notes on Multiple Means of Representation (visual discrimination)"
+      }
+    }
+  ],
+  "assets_required": [
+    {
+      "asset_id": "a_straw_shapes",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Side counts, corner counts and straw lengths must be exact, and pieces must snap together. Image models cannot count.",
+      "description": "Straw pieces of three lengths that snap end to end to build open and closed shapes, with tap-to-mark corner dots.",
+      "must_show_exactly": [
+        "Straw pieces in exactly 3 lengths (full, half, quarter)",
+        "The shape for q_pr_1 has exactly 3 straight sides and 3 corners",
+        "Closed shapes have no gap; open shapes show a visible gap",
+        "Corner dots appear only where two straws meet"
+      ],
+      "states_or_frames": [
+        "free build (open or closed)",
+        "q_pr_1 shape: 3 straight sides, 3 corners",
+        "Chart 2 shapes: 4 straight sides, 4 corners, varied lengths",
+        "corner dots placed at each join"
+      ],
+      "interaction": "Child drags straw pieces; pieces snap end to end. Tap a join to mark a corner dot. Tutor can load a fixed shape from the question stimulus.",
+      "alt_text": "Straw pieces joined end to end to make a shape.",
+      "used_by": [
+        "exp_open_closed",
+        "exp_three_sides_corners",
+        "exp_four_sides_corners",
+        "ex_record_dots",
+        "ex_three_three",
+        "q_pr_1",
+        "q_pr_4"
+      ],
+      "generation_caption": "Flat colourful straw pieces in three lengths on a plain desk background, child-friendly style. [Build by code]"
+    },
+    {
+      "asset_id": "a_square_corner_tester",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "The L-shaped tester must fit corners exactly; the fit check is behaviour, not a picture.",
+      "description": "An L-shaped square corner tester the child drags onto each corner of a shape to check whether it is a square corner.",
+      "must_show_exactly": [
+        "The tester is a true right angle (L shape)",
+        "It fits exactly only into square corners"
+      ],
+      "states_or_frames": [
+        "tester resting beside the shape",
+        "tester placed into a corner: fits (square corner)",
+        "tester placed into a corner: does not fit (not a square corner)"
+      ],
+      "interaction": "Drag the tester onto a corner. It glows green when it fits and red when it does not.",
+      "alt_text": "An L-shaped tool checking the corner of a shape.",
+      "used_by": [
+        "exp_square_corners"
+      ],
+      "generation_caption": "Simple bright L-shaped corner tool, flat style, plain background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint_race",
+      "name": "Core Fluency Sprint timed race",
+      "reason": "A timed paper race (Sprint A, then Sprint B) cannot run on a screen. The printed items are used as untimed practice questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Grade 1 Core Fluency Sprint"
+      }
+    },
+    {
+      "id": "na_straw_building",
+      "name": "Exploring and building shapes with real straw pieces",
+      "reason": "Needs real straws on a desk; replaced by the on-screen straw shapes board (a_straw_shapes).",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (straw kit)"
+      }
+    },
+    {
+      "id": "na_tester_craft",
+      "name": "Cutting out the paper square corner tester",
+      "reason": "Printing and cutting cardstock cannot be done or checked on a screen; replaced by the on-screen tester.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (square corner tester template)"
+      }
+    },
+    {
+      "id": "na_ruler_drawing",
+      "name": "Recording shapes with a ruler on paper",
+      "reason": "Handwriting and ruler use cannot be checked from typed or spoken answers.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (record the shape)"
+      }
+    },
+    {
+      "id": "na_partner_work",
+      "name": "Combining straws with a partner",
+      "reason": "Needs a second child at the same desk; covered by q_pr_4, where the child describes the shape to the tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (combine your straws with your partner)"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and be shared under the same license. The word license must stay in the card."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "Problem Set items 1-8, Exit Ticket 1-2, Homework 1-8, square-corner counting",
+      "issue": "These items are picture-only (circle, draw, and count from shape pictures). The uploaded DOCX is text-only with no images attached, so the shapes cannot be read. Not added as questions. Needs human or vision extraction from the original PDF pages."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "Both assets (a_straw_shapes, a_square_corner_tester) are not_available. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "wording",
+      "issue": "All child-facing text was rewritten from a 60-minute teacher script with classroom objects into screen wording. Needs an age-appropriate wording review."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_k_basic_shapes is an external prerequisite (ext_) that has no card yet. The lesson assumes Kindergarten knowledge of open and closed shapes."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "sprint_coverage",
+      "issue": "Sprint A items used: 1, 2, 3, 6, 8, 10, 11, 18, 28, 30 (every distinct pattern once: +1, +2, +3, adding to 5, missing addend in three positions, balanced equations both ways). Sprint B adds no new pattern, so no B items were used. Remaining items are parallel repeats of used patterns."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no sensible partial outcome. The script must map partial to the same path as incorrect, or the schema must allow null."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "hints, misconceptions, explanations",
+      "issue": "The source states only one misconception and few hint moves, and all explanations come from one straw-building activity. Hint coverage is thin and the Planner has little real choice. Needs review."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "The Sprint pages and the Application Problem have no printed answers. All Sprint answers and the application answer (14) are derived and were recomputed twice."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Only 1.OA.6 and 1.OA.7 are printed in this lesson file. The focus standard 1.G.1 appears in the Topic Overview, not in the lesson text, so it was not added."
+    },
+    {
+      "id": "f13",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The text-only DOCX has no page footer, so 'This file derived from...' could not be read. source_version is a placeholder; confirm it against the original PDF footer."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "generation_log": [
+    "Reviewing the DOCX lesson for segments, answers and missing pictures.",
+    "Confirming the source has no printed page numbers or footers.",
+    "Setting all source_refs to page n/a with section names.",
+    "Picking a concept id from the required prefix and lesson topic.",
+    "Rewriting the objective in child-friendly words.",
+    "Listing one external prerequisite from the Kindergarten link.",
+    "Collecting the standards printed in the lesson text only.",
+    "Drafting explanations for open, closed, sides, corners and attributes.",
+    "Writing the square corner tester explanation from the teacher script.",
+    "Building two worked examples from the recording process.",
+    "Turning the Make it Equal fluency exchanges into prior-knowledge questions.",
+    "Deriving the application answer from the story numbers (7 and 7).",
+    "Writing practice questions from the Concept Development exchanges.",
+    "Rephrasing debrief questions whose answers the source guides.",
+    "Reading both Sprint pages and listing every distinct item pattern.",
+    "Selecting ten Sprint A items that cover each pattern exactly once.",
+    "Checking that Sprint B adds no new pattern before leaving it out.",
+    "Recomputing every Sprint answer a second time by hand.",
+    "Writing one rubric per question with digit and word accepted.",
+    "Keeping partial null only for single-number exact answers.",
+    "Adapting teacher notes into hints that never state the answer.",
+    "Recording the single source-stated misconception about visual discrimination.",
+    "Specifying two code-rendered assets with exact counts and frames.",
+    "Listing timed and hands-on activities a screen tutor cannot run.",
+    "Flagging the picture-only sheets missing from the text extraction.",
+    "Running the final self-check on ids, references and word counts.",
+    "Marking the card as an unreviewed AI draft with license terms."
+  ]
+}

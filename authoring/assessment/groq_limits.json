@@ -1,0 +1,8 @@
+{
+  "_note": "Free-tier limits written down from Groq's documentation and confirmed against real response headers (x-ratelimit-limit-requests = requests per DAY, x-ratelimit-limit-tokens = tokens per MINUTE). The batch runner re-reads the headers on every response and uses them over this file; this file is only the starting point. Edit it when Groq changes the limits.",
+  "source": "https://console.groq.com/docs/rate-limits (checked 2026-10-09; headers seen 2026-10-09: limit-requests 1000, limit-tokens 8000)",
+  "models": {
+    "openai/gpt-oss-120b": {"requests_per_minute": 30, "requests_per_day": 1000, "tokens_per_minute": 8000, "tokens_per_day": 200000},
+    "openai/gpt-oss-20b": {"requests_per_minute": 30, "requests_per_day": 1000, "tokens_per_minute": 8000, "tokens_per_day": 200000}
+  }
+}

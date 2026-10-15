@@ -1,0 +1,77 @@
+[
+  {
+    "name": "area_perimeter",
+    "concept": "tests/script_fixtures/area_perimeter.concept.json",
+    "assessment": "tests/script_fixtures/area_perimeter.assessment.json",
+    "concept_id": "math_g4_m3_l1_area_perimeter_formulas",
+    "source_concept_file": "Benchmark teaching fixture; not the production catalog",
+    "assessment_fixture_only": true,
+    "outline": {
+      "exp_perimeter_trace": [
+        "ex_rect_4x7"
+      ],
+      "exp_perimeter_formulas": [
+        "ex_rect_3x9",
+        "ex_check_2x4"
+      ],
+      "exp_area_formula": [
+        "ex_area_3x9"
+      ],
+      "exp_unknown_side": [
+        "ex_unknown_p",
+        "ex_unknown_a"
+      ],
+      "exp_area_pairs": [
+        "ex_pairs_24"
+      ],
+      "exp_units": [
+        "ex_rect_4x7"
+      ]
+    }
+  },
+  {
+    "name": "grade1",
+    "concept": "tests/script_fixtures/grade1.concept.json",
+    "assessment": "tests/script_fixtures/grade1.assessment.json",
+    "concept_id": "math_g1_m1_l1_embedded_numbers",
+    "source_concept_file": "Benchmark teaching fixture; not the production catalog",
+    "assessment_fixture_only": false,
+    "outline": {
+      "exp_detective": [
+        "ex_5_two_three"
+      ],
+      "exp_total_parts": [
+        "ex_5_two_three"
+      ],
+      "exp_five_group_count_on": [
+        "ex_7_five_two"
+      ],
+      "exp_fingers_math_way": [
+        "exp_fingers_math_way"
+      ]
+    }
+  },
+  {
+    "name": "shape_attributes",
+    "concept": "tests/script_fixtures/shape_attributes.concept.json",
+    "assessment": "tests/script_fixtures/shape_attributes.assessment.json",
+    "concept_id": "math_g2_m8_l1_shape_attributes",
+    "source_concept_file": "Benchmark teaching fixture; not the production catalog",
+    "assessment_fixture_only": false,
+    "outline": {
+      "exp_describe_no_name": [
+        "ex_count_angles",
+        "ex_closed_open"
+      ],
+      "exp_angle": [
+        "exp_angle"
+      ],
+      "exp_build_geoboard": [
+        "exp_build_geoboard"
+      ],
+      "exp_same_attributes": [
+        "exp_same_attributes"
+      ]
+    }
+  }
+]

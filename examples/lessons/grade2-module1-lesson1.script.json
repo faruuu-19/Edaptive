@@ -1,0 +1,3770 @@
+{
+  "schema_version": "script-0.1",
+  "rewrite": true,
+  "review_notes": {
+    "ideas_without_example": [
+      "exp_l1_ten_plus_ones"
+    ]
+  },
+  "concept_id": "math_g2_m1_l1_pairs_to_ten",
+  "assessment_card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+  "grade": 2,
+  "subject": "math",
+  "metaphor": "detectives",
+  "route_plan": [
+    {
+      "question_id": "aq_easy_01",
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      },
+      "source_routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      },
+      "rubric_ref": {
+        "scope": "concept_card",
+        "id": "r_pr_l1_1"
+      },
+      "max_attempts": 2,
+      "branches": {
+        "correct": "s_0017",
+        "incorrect": "s_0018",
+        "unclear": "s_0019"
+      },
+      "hint_segments": [
+        "s_0020",
+        "s_0021",
+        "s_0022"
+      ],
+      "follow_up_ref": null,
+      "triggered_by": null,
+      "on_resolved": null,
+      "answer_reveal_segment": "s_0023"
+    },
+    {
+      "question_id": "aq_med_01",
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      },
+      "source_routes": {
+        "correct": "advance_to_next_question_or_close",
+        "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_med_01"
+      },
+      "max_attempts": 2,
+      "branches": {
+        "correct": "s_0025",
+        "incorrect": "s_0026",
+        "unclear": "s_0027"
+      },
+      "hint_segments": [
+        "s_0028",
+        "s_0029",
+        "s_0030"
+      ],
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_med_01"
+      },
+      "triggered_by": null,
+      "on_resolved": null,
+      "answer_reveal_segment": "s_0031"
+    },
+    {
+      "question_id": "aq_hard_01",
+      "routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+      },
+      "source_routes": {
+        "correct": "advance_to_next_question_or_close",
+        "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+        "incorrect": "hint_then_retry_until_max_attempts",
+        "unclear": "reprompt_once_then_treat_as_incorrect",
+        "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+      },
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_aq_hard_01"
+      },
+      "max_attempts": 2,
+      "branches": {
+        "correct": "s_0033",
+        "partial": "s_0034",
+        "incorrect": "s_0035",
+        "unclear": "s_0036",
+        "incomplete": "s_0037"
+      },
+      "hint_segments": [
+        "s_0038",
+        "s_0039",
+        "s_0040"
+      ],
+      "follow_up_ref": {
+        "scope": "this_card",
+        "id": "fu_aq_hard_01"
+      },
+      "triggered_by": null,
+      "on_resolved": null,
+      "answer_reveal_segment": "s_0041"
+    },
+    {
+      "question_id": "fu_aq_med_01",
+      "routes": {
+        "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+        "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      },
+      "source_routes": "default",
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_med_01"
+      },
+      "max_attempts": 1,
+      "branches": {
+        "correct": "s_0043",
+        "incorrect": "s_0044",
+        "unclear": "s_0045"
+      },
+      "hint_segments": [
+        "s_0046",
+        "s_0047",
+        "s_0048"
+      ],
+      "follow_up_ref": null,
+      "triggered_by": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+      "answer_reveal_segment": "s_0049"
+    },
+    {
+      "question_id": "fu_aq_hard_01",
+      "routes": {
+        "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+        "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+        "unclear": "reprompt_once_then_treat_as_incorrect"
+      },
+      "source_routes": "default",
+      "rubric_ref": {
+        "scope": "this_card",
+        "id": "r_fu_aq_hard_01"
+      },
+      "max_attempts": 1,
+      "branches": {
+        "correct": "s_0051",
+        "incorrect": "s_0052",
+        "unclear": "s_0053"
+      },
+      "hint_segments": [
+        "s_0054",
+        "s_0055",
+        "s_0056"
+      ],
+      "follow_up_ref": null,
+      "triggered_by": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "on_resolved": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+      "answer_reveal_segment": "s_0057"
+    }
+  ],
+  "delivery_policy": {
+    "main_path": [
+      "s_0001",
+      "s_0002",
+      "s_0003",
+      "s_0004",
+      "s_0005",
+      "s_0006",
+      "s_0007",
+      "s_0008",
+      "s_0009",
+      "s_0010",
+      "s_0011",
+      "s_0012",
+      "s_0013",
+      "s_0014",
+      "s_0015",
+      "s_0016",
+      "s_0024",
+      "s_0032",
+      "s_0084"
+    ],
+    "conditional_segments_are_not_read_sequentially": true,
+    "default_outcome_routes": {
+      "correct": "advance_to_next_question_or_close",
+      "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+      "incorrect": "hint_then_retry_until_max_attempts",
+      "unclear": "reprompt_once_then_treat_as_incorrect"
+    },
+    "fallback_rules": {
+      "on_help_requested": "give_next_hint_without_using_attempt",
+      "on_silence_seconds": 20,
+      "on_silence_action": "treat_as_unclear",
+      "on_repeated_failure": "reveal_worked_answer_then_advance"
+    },
+    "tutor_guidance": {
+      "delivery_order": [
+        "aq_easy_01",
+        "aq_med_01",
+        "aq_hard_01"
+      ],
+      "input_contract": {
+        "concept_card_required": true,
+        "concept_id": "math_g2_m1_l1_pairs_to_ten",
+        "concept_version": 2,
+        "authoritative_rules": "Use v0.2 route definitions and per-question guidance. Resolve concept_card references against the linked concept; do not invent missing questions, assets, answers, or hints."
+      },
+      "attempt_policy": {
+        "main_question_max_attempts": 2,
+        "followup_max_attempts": 1,
+        "count_attempt_when": [
+          "correct",
+          "partial",
+          "incorrect",
+          "incomplete"
+        ],
+        "help_uses_attempt": false,
+        "first_unclear_uses_attempt": false,
+        "unclear_reprompt_limit_per_question": 1,
+        "repeated_unclear": "Count one incorrect attempt and take that question's incorrect route.",
+        "followup_uses_parent_attempt": false,
+        "followup_limit_per_parent": 1,
+        "parent_attempts_persist_after_followup": true,
+        "correct_checked_before_exhaustion": true,
+        "at_parent_limit": "If correct, advance. Otherwise reveal all required answers with worked steps and advance; do not launch another follow-up or retry.",
+        "at_followup_limit": "If incorrect or repeatedly unclear, reveal the follow-up answer; then return to the parent if it has an attempt left, otherwise reveal the parent and advance."
+      },
+      "outcome_classification": {
+        "single_answer": "Compare with the linked rubric. Use partial only when that rubric explicitly permits it. If no answer can be understood, use unclear.",
+        "multi_part_priority": [
+          "unclear",
+          "incomplete",
+          "correct",
+          "partial",
+          "incorrect"
+        ],
+        "multi_part_rules": {
+          "unclear": "No part can be understood, or a supplied part remains ambiguous. Reprompt only the ambiguous part when another part is understood.",
+          "incomplete": "At least one part is understood, no supplied part is ambiguous, and one or more required parts are missing.",
+          "correct": "All required parts are present and match their answer keys.",
+          "partial": "All required parts are understood and present, and some but not all match. Keep correct parts and retry only incorrect parts.",
+          "incorrect": "All required parts are understood and present, and none match."
+        },
+        "final_part_alone_is_not_full_credit": true,
+        "accumulate_correct_parts_across_attempts": true,
+        "open_response": "Accept equivalent wording that meets the linked rubric's correct description. Use its partial description only when explicitly present; do not require an exact wording for an open answer.",
+        "normalization": "Trim surrounding whitespace and punctuation and ignore letter case. Use the declared rubric accept variants. A clear unambiguous number with the question's unit can be compared as a number; ambiguous or conflicting numbers require a reprompt."
+      },
+      "hint_policy": {
+        "sequence_source": "Use each question's hint_sequence in order; source_hint_refs are provenance, not an additional delivery sequence.",
+        "levels": [
+          1,
+          2,
+          3
+        ],
+        "delivery": "Give one hint at a time. Never reveal a later hint automatically.",
+        "on_help": "Give the next unused hint without consuming an attempt, then repeat the pending question or retry parts.",
+        "after_last_hint": "Repeat the last hint and reprompt the pending question without consuming an attempt for help. Reveal only after the attempt limit or an explicit request for the answer.",
+        "on_answer_requested": "Reveal worked steps, then advance for a main question or return to its parent for a follow-up.",
+        "partial_or_incomplete": "Keep correct parts. Read only unresolved part prompts; do not ask the learner to redo correct parts."
+      },
+      "silence_policy": {
+        "seconds": 20,
+        "action": "unclear",
+        "reprompt_limit_per_question": 1,
+        "after_reprompt": "A second silence counts as an incorrect attempt. Follow the question's incorrect route."
+      },
+      "route_definitions": {
+        "advance_to_next_question_or_close": "Advance through delivery_order; close after the final main question.",
+        "retry_eligible_parts_with_hint_until_max_attempts": "Give next hint and retry only unresolved parts if attempts remain; otherwise reveal and advance.",
+        "hint_then_retry_until_max_attempts": "Give next hint and retry if attempts remain; otherwise reveal and advance.",
+        "reprompt_once_then_treat_as_incorrect": "One clarification without an attempt; repeated unclear counts as incorrect and follows the current question's incorrect route.",
+        "followup_once_then_retry_parent_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry parent if attempts remain; otherwise reveal parent and advance. If already used, hint and retry without another follow-up.",
+        "followup_once_then_retry_missing_parts_if_attempt_remains": "Give next parent hint, ask its follow_up_ref once, then retry only missing or incorrect parts if attempts remain; otherwise reveal and advance. If already used, retry missing or incorrect parts without another follow-up.",
+        "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance": "Return to triggered_by.question_id while preserving attempts and correct parts. Retry unresolved parts if an attempt remains; otherwise reveal parent and advance.",
+        "reveal_followup_then_return_to_parent_if_attempt_remains": "Reveal the follow-up with worked steps, then return to triggered_by.question_id if attempts remain; otherwise reveal parent and advance."
+      },
+      "closing": {
+        "say": "You have finished these questions. Thank you for trying.",
+        "record": [
+          "question_id",
+          "outcome",
+          "attempts_used",
+          "hints_delivered",
+          "followup_used",
+          "correct_part_ids",
+          "answer_revealed"
+        ],
+        "mastery_claim": "Record observed results; do not claim mastery from this three-question draft assessment alone."
+      },
+      "questions": [
+        {
+          "question_id": "aq_easy_01",
+          "delivery_prompt": "8 and what number make 10?",
+          "part_delivery_prompts": [],
+          "partial_credit_eligible": false,
+          "hint_sequence": [
+            {
+              "scope": "this_card",
+              "id": "h_aq_easy_01_1"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_aq_easy_01_2"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_aq_easy_01_3"
+            }
+          ],
+          "source_hint_refs": [
+            {
+              "scope": "concept_card",
+              "id": "h_2"
+            },
+            {
+              "scope": "concept_card",
+              "id": "h_1"
+            }
+          ],
+          "feedback": {
+            "correct": "Yes. The missing part is 2.",
+            "partial": null,
+            "incorrect": "Let us check this together, one step at a time.",
+            "unclear": "Please say one number for your answer.",
+            "incomplete": null
+          },
+          "outcome_actions": {
+            "correct": "advance_to_next_question_or_close",
+            "incorrect": "hint_then_retry_until_max_attempts",
+            "unclear": "reprompt_once_then_treat_as_incorrect"
+          },
+          "reprompt": "Please say one number for your answer.",
+          "max_attempts": 2,
+          "answer_reveal": {
+            "rubric_ref": {
+              "scope": "concept_card",
+              "id": "r_pr_l1_1"
+            },
+            "answer_key": {
+              "mode": "exact",
+              "accept": [
+                "2",
+                "two"
+              ]
+            },
+            "say": "Let us work it out together. 8 + 2 = 10. The missing part is 2.",
+            "worked_steps": [
+              "8 + 2 = 10.",
+              "The missing part is 2."
+            ]
+          }
+        },
+        {
+          "question_id": "aq_med_01",
+          "delivery_prompt": "A craft bag holds 10 shells. There are 9 more shells beside it. Think of the whole as ten and some ones. How many shells are there altogether?",
+          "part_delivery_prompts": [],
+          "partial_credit_eligible": false,
+          "hint_sequence": [
+            {
+              "scope": "this_card",
+              "id": "h_aq_med_01_1"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_aq_med_01_2"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_aq_med_01_3"
+            }
+          ],
+          "source_hint_refs": [],
+          "feedback": {
+            "correct": "Yes. There are 19 shells.",
+            "partial": null,
+            "incorrect": "Let us check this together, one step at a time.",
+            "unclear": "Please say one number for your answer.",
+            "incomplete": null
+          },
+          "outcome_actions": {
+            "correct": "advance_to_next_question_or_close",
+            "incorrect": "followup_once_then_retry_parent_if_attempt_remains",
+            "unclear": "reprompt_once_then_treat_as_incorrect"
+          },
+          "reprompt": "Please say one number for your answer.",
+          "max_attempts": 2,
+          "answer_reveal": {
+            "rubric_ref": {
+              "scope": "this_card",
+              "id": "r_aq_med_01"
+            },
+            "answer_key": {
+              "mode": "exact",
+              "accept": [
+                "19",
+                "nineteen"
+              ]
+            },
+            "say": "Let us work it out together. 10 + 9 = 19. There are 19 shells.",
+            "worked_steps": [
+              "10 + 9 = 19.",
+              "There are 19 shells."
+            ]
+          }
+        },
+        {
+          "question_id": "aq_hard_01",
+          "delivery_prompt": "A full ten-frame holds 10 stones. Four more stones lie outside it, with one of each colour: red, blue, green, yellow. Use ten and ones to name the whole.",
+          "part_delivery_prompts": [
+            {
+              "id": "p1",
+              "prompt": "Count the named stones outside the frame. How many ones are there?",
+              "response_type": "numeric_short"
+            },
+            {
+              "id": "p2",
+              "prompt": "Use your ones count with the ten in the frame. Say the ten-and-ones name, then give the usual whole number. How many stones are there altogether?",
+              "response_type": "numeric_short"
+            },
+            {
+              "id": "p3",
+              "prompt": "Check by starting with the outside stones instead. Count on the 10 stones in the full frame. What whole number do you reach?",
+              "response_type": "numeric_short"
+            }
+          ],
+          "partial_credit_eligible": true,
+          "hint_sequence": [
+            {
+              "scope": "this_card",
+              "id": "h_aq_hard_01_1"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_aq_hard_01_2"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_aq_hard_01_3"
+            }
+          ],
+          "source_hint_refs": [],
+          "feedback": {
+            "correct": "Yes. Both orders give 14.",
+            "partial": "You have some parts right. Keep those answers, and let us check the other parts.",
+            "incorrect": "Let us check this together, one step at a time.",
+            "unclear": "Tell me an answer for each question, one at a time.",
+            "incomplete": "You have answered part of the question. Let us finish the questions you have not answered yet."
+          },
+          "outcome_actions": {
+            "correct": "advance_to_next_question_or_close",
+            "partial": "retry_eligible_parts_with_hint_until_max_attempts",
+            "incorrect": "hint_then_retry_until_max_attempts",
+            "unclear": "reprompt_once_then_treat_as_incorrect",
+            "incomplete": "followup_once_then_retry_missing_parts_if_attempt_remains"
+          },
+          "reprompt": "Tell me an answer for each question, one at a time.",
+          "max_attempts": 2,
+          "answer_reveal": {
+            "rubric_ref": {
+              "scope": "this_card",
+              "id": "r_aq_hard_01"
+            },
+            "answer_key": {
+              "mode": "pair_of_parts",
+              "parts": [
+                {
+                  "part_id": "p1",
+                  "accept": [
+                    "4",
+                    "four"
+                  ]
+                },
+                {
+                  "part_id": "p2",
+                  "accept": [
+                    "14",
+                    "fourteen"
+                  ]
+                },
+                {
+                  "part_id": "p3",
+                  "accept": [
+                    "14",
+                    "fourteen"
+                  ]
+                }
+              ],
+              "final_part_id": "p2"
+            },
+            "say": "Let us work it out together. Part 1: the four named outside stones make 4 ones. Part 2: 10 + 4 = 14; ten four is fourteen, so there are 14 stones. Part 3: 4 + 10 = 14 stones. Both orders give 14.",
+            "worked_steps": [
+              "Part 1: the four named outside stones make 4 ones.",
+              "Part 2: 10 + 4 = 14; ten four is fourteen, so there are 14 stones.",
+              "Part 3: 4 + 10 = 14 stones.",
+              "Both orders give 14."
+            ]
+          }
+        },
+        {
+          "question_id": "fu_aq_med_01",
+          "delivery_prompt": "Let's try an easier one: A bag holds 10 shells and there are 2 loose shells. How many shells are there altogether?",
+          "part_delivery_prompts": [],
+          "partial_credit_eligible": false,
+          "hint_sequence": [
+            {
+              "scope": "this_card",
+              "id": "h_fu_aq_med_01_1"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_fu_aq_med_01_2"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_fu_aq_med_01_3"
+            }
+          ],
+          "source_hint_refs": [],
+          "feedback": {
+            "correct": "Yes. There are 12 shells.",
+            "partial": null,
+            "incorrect": "Let us check this together, one step at a time.",
+            "unclear": "Please say one number for your answer.",
+            "incomplete": null
+          },
+          "outcome_actions": {
+            "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+            "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+            "unclear": "reprompt_once_then_treat_as_incorrect"
+          },
+          "reprompt": "Please say one number for your answer.",
+          "max_attempts": 1,
+          "answer_reveal": {
+            "rubric_ref": {
+              "scope": "this_card",
+              "id": "r_fu_aq_med_01"
+            },
+            "answer_key": {
+              "mode": "exact",
+              "accept": [
+                "12",
+                "twelve"
+              ]
+            },
+            "say": "Let us work it out together. 10 + 2 = 12. There are 12 shells.",
+            "worked_steps": [
+              "10 + 2 = 12.",
+              "There are 12 shells."
+            ]
+          }
+        },
+        {
+          "question_id": "fu_aq_hard_01",
+          "delivery_prompt": "Let's try an easier one: There is one outside stone of each colour: red, blue, green, yellow. Count the named stones outside the frame. How many ones are there?",
+          "part_delivery_prompts": [],
+          "partial_credit_eligible": false,
+          "hint_sequence": [
+            {
+              "scope": "this_card",
+              "id": "h_fu_aq_hard_01_1"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_fu_aq_hard_01_2"
+            },
+            {
+              "scope": "this_card",
+              "id": "h_fu_aq_hard_01_3"
+            }
+          ],
+          "source_hint_refs": [],
+          "feedback": {
+            "correct": "Yes. The named outside stones make 4 ones.",
+            "partial": null,
+            "incorrect": "Let us check this together, one step at a time.",
+            "unclear": "Please say one number for your answer.",
+            "incomplete": null
+          },
+          "outcome_actions": {
+            "correct": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+            "incorrect": "reveal_followup_then_return_to_parent_if_attempt_remains",
+            "unclear": "reprompt_once_then_treat_as_incorrect"
+          },
+          "reprompt": "Please say one number for your answer.",
+          "max_attempts": 1,
+          "answer_reveal": {
+            "rubric_ref": {
+              "scope": "this_card",
+              "id": "r_fu_aq_hard_01"
+            },
+            "answer_key": {
+              "mode": "exact",
+              "accept": [
+                "4",
+                "four"
+              ]
+            },
+            "say": "Let us work it out together. The named outside stones make 4 ones.",
+            "worked_steps": [
+              "The named outside stones make 4 ones."
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "input_readiness": {
+    "concept_review_status": "draft",
+    "assessment_review_status": "draft",
+    "assessment_readiness": {
+      "ready_for_delivery": false,
+      "blocking_issues": [
+        "card review_status is draft; needs human review before use"
+      ]
+    }
+  },
+  "model": "qwen3.5:9b-q4_K_M",
+  "segments": [
+    {
+      "id": "s_0001",
+      "type": "hook",
+      "content": "Find partners to ten and describe a teen number as ten and some ones.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "obj_l1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "rewrite": true,
+      "template": "Your mission starts today, detective! You can join me to find hidden clues. 🔎 <CONTENT>",
+      "text": "Your mission starts today, detective! You can join me to find hidden clues. 🔎 Find partners to ten and describe a teen number as ten and some ones.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 3,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": [
+            "sentence_length"
+          ]
+        },
+        {
+          "attempt": 2,
+          "errors": [
+            "sentence_length"
+          ]
+        },
+        {
+          "attempt": 3,
+          "mode": "framed",
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "fallback_framed",
+      "rewrite_errors": [
+        "sentence_length"
+      ]
+    },
+    {
+      "id": "s_0002",
+      "type": "lecture",
+      "content": "A ten-frame has 10 spots. Here 9 spots are full. Only 1 spot is empty. So 9 plus 1 equals 10. Also, 10 minus 1 equals 9. And 10 minus 9 equals 1.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_ten_frame"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_ten_frame"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "visual_cue": "[show: A ten-frame: a grid of 10 boxes in 2 rows of 5. Dots fill the boxes.]",
+      "rewrite": true,
+      "template": "Let's find out together! A ten-frame holds ten spots for our number clues. Look here: nine spots are full, but one spot is empty. So nine plus one equals ten. Also, ten minus one equals nine. And ten minus nine equals one. Can you see the pattern? 🕵️‍♀️",
+      "text": "Let's find out together! A ten-frame holds ten spots for our number clues. Look here: nine spots are full, but one spot is empty. So nine plus one equals ten. Also, ten minus one equals nine. And ten minus nine equals one. Can you see the pattern? 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 2,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": [
+            "rewrite_copied_source"
+          ]
+        },
+        {
+          "attempt": 2,
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "rewritten",
+      "rewrite_errors": []
+    },
+    {
+      "id": "s_0003",
+      "type": "worked_example",
+      "content": "The ten-frame has 9 dots and 1 empty spot. 9 plus 1 equals 10. 10 minus 1 equals 9. 10 minus 9 equals 1.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "ex_l1_ten_frame_9"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_ten_frame"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "idea_id": "exp_l1_ten_frame",
+      "source_title": "Ten-frame with 9 dots",
+      "visual_cue": "[show: A ten-frame: a grid of 10 boxes in 2 rows of 5. Dots fill the boxes.]",
+      "rewrite": true,
+      "template": "Let me show you how it goes. Look at our detective ten-frame. It has 9 dots and 1 empty spot. Can you picture those 9 dots and that 1 empty spot? We know 9 plus 1 equals 10. Now let's try taking away one. 10 minus 1 equals 9. Finally, take away the nine dots. 10 minus 9 equals 1. You can watch me try this.",
+      "text": "Let me show you how it goes. Look at our detective ten-frame. It has 9 dots and 1 empty spot. Can you picture those 9 dots and that 1 empty spot? We know 9 plus 1 equals 10. Now let's try taking away one. 10 minus 1 equals 9. Finally, take away the nine dots. 10 minus 9 equals 1. You can watch me try this.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "rewritten",
+      "rewrite_errors": []
+    },
+    {
+      "id": "s_0004",
+      "type": "transition",
+      "content": "How would you explain this idea: Ten-frame: 9 and 1 make 10?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_ten_frame"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "your_turn",
+      "instruction": "Write one short encouragement sentence, then <CONTENT>. The source already asks the reflection. No extra question, question stem, achievement claim, task or number. Wait for the student.",
+      "template": "Now it is your turn. <CONTENT>",
+      "text": "Now it is your turn. How would you explain this idea: Ten-frame: 9 and 1 make 10?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0005",
+      "type": "lecture",
+      "content": "A number bond shows a total and two parts. The total is the big number. Here the total is 10. If one part is 5, the other part is 5. So 5 plus 5 equals 10.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_number_bond"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_number_bond"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "visual_cue": "[show: A number bond: one circle on top (the total) joined by lines to two circles below (the parts). One circle can show a question mark.]",
+      "rewrite": true,
+      "template": "Let's look closely at our number bond! It shows a total and two parts. The total is the big number, which is 10 here. If one part is 5, the other part is also 5. So 5 plus 5 equals 10. Can you see how they fit?",
+      "text": "Let's look closely at our number bond! It shows a total and two parts. The total is the big number, which is 10 here. If one part is 5, the other part is also 5. So 5 plus 5 equals 10. Can you see how they fit?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "rewritten",
+      "rewrite_errors": []
+    },
+    {
+      "id": "s_0006",
+      "type": "worked_example",
+      "content": "The total is 10. One part is 5. The other part is 5. 5 plus 5 equals 10.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "ex_l1_bond_5_5"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_number_bond"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "idea_id": "exp_l1_number_bond",
+      "source_title": "Number bond: total 10, parts 5 and 5",
+      "visual_cue": "[show: A number bond: one circle on top (the total) joined by lines to two circles below (the parts). One circle can show a question mark.]",
+      "rewrite": true,
+      "template": "Here is something for you to look at. Let's follow this carefully together. <CONTENT>",
+      "text": "Here is something for you to look at. Let's follow this carefully together. The total is 10. One part is 5. The other part is 5. 5 plus 5 equals 10.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 3,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": [
+            "rewrite_copied_source"
+          ]
+        },
+        {
+          "attempt": 2,
+          "errors": [
+            "rewrite_copied_source"
+          ]
+        },
+        {
+          "attempt": 3,
+          "mode": "framed",
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "fallback_framed",
+      "rewrite_errors": [
+        "rewrite_copied_source"
+      ]
+    },
+    {
+      "id": "s_0007",
+      "type": "transition",
+      "content": "What would you tell someone about this idea: Number bond to 10?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_number_bond"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "your_turn",
+      "instruction": "Write one short encouragement sentence, then <CONTENT>. The source already asks the reflection. No extra question, question stem, achievement claim, task or number. Wait for the student.",
+      "template": "Over to you, detective. <CONTENT>",
+      "text": "Over to you, detective. What would you tell someone about this idea: Number bond to 10?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0008",
+      "type": "lecture",
+      "content": "Some people say numbers the Say Ten way. You say the ten first, then the ones. 13 is said ten 3. Ten 3 means 10 plus 3. So 10 plus 3 equals 13.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_say_ten"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_say_ten_rekenrek"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "visual_cue": "[show: Two rows of beads like a Rekenrek. The top row has 10 beads. The bottom row adds beads one at a time.]",
+      "rewrite": true,
+      "template": "Let's take a careful look at some numbers the Say Ten way. Some people say the ten first, then the ones. When you hear 13, you say ten 3. That phrase means 10 plus 3. So 10 plus 3 equals 13. Can you picture that sound?",
+      "text": "Let's take a careful look at some numbers the Say Ten way. Some people say the ten first, then the ones. When you hear 13, you say ten 3. That phrase means 10 plus 3. So 10 plus 3 equals 13. Can you picture that sound?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "rewritten",
+      "rewrite_errors": []
+    },
+    {
+      "id": "s_0009",
+      "type": "worked_example",
+      "content": "Thirteen is said ten 3. So 10 plus 3 equals 13.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "ex_l1_say_ten_13"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_say_ten_rekenrek"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "idea_id": "exp_l1_say_ten",
+      "source_title": "13 is ten 3",
+      "visual_cue": "[show: Two rows of beads like a Rekenrek. The top row has 10 beads. The bottom row adds beads one at a time.]",
+      "rewrite": true,
+      "template": "You can watch me try this! Thirteen is said ten 3. So 10 plus 3 equals 13. Think of the number like a detective clue where we split it up. Can you picture how the parts fit together? 🕵️",
+      "text": "You can watch me try this! Thirteen is said ten 3. So 10 plus 3 equals 13. Think of the number like a detective clue where we split it up. Can you picture how the parts fit together? 🕵️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "rewritten",
+      "rewrite_errors": []
+    },
+    {
+      "id": "s_0010",
+      "type": "worked_example",
+      "content": "Ten 5 means 10 plus 5. So 10 plus 5 equals 15.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "ex_l1_ten_plus_5"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_say_ten_rekenrek"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "idea_id": "exp_l1_say_ten",
+      "source_title": "Ten 5 is 15",
+      "visual_cue": "[show: Two rows of beads like a Rekenrek. The top row has 10 beads. The bottom row adds beads one at a time.]",
+      "rewrite": true,
+      "template": "Let's see it in action! When we say ten five, that really means ten plus five. So ten plus five equals fifteen.",
+      "text": "Let's see it in action! When we say ten five, that really means ten plus five. So ten plus five equals fifteen.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "rewritten",
+      "rewrite_errors": []
+    },
+    {
+      "id": "s_0011",
+      "type": "transition",
+      "content": "What helped you understand this idea: Say Ten way?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_say_ten"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "your_turn",
+      "instruction": "Write one short encouragement sentence, then <CONTENT>. The source already asks the reflection. No extra question, question stem, achievement claim, task or number. Wait for the student.",
+      "template": "Your thinking time. <CONTENT>",
+      "text": "Your thinking time. What helped you understand this idea: Say Ten way?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0012",
+      "type": "lecture",
+      "content": "When you add 10 and some ones, the answer has a ten and those ones. Look at ten 5. It means 10 plus 5. So 10 plus 5 equals 15.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_ten_plus_ones"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_say_ten_rekenrek"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "visual_cue": "[show: Two rows of beads like a Rekenrek. The top row has 10 beads. The bottom row adds beads one at a time.]",
+      "rewrite": true,
+      "template": "Let's follow the trail of clues together. <CONTENT> 🕵️‍♀️",
+      "text": "Let's follow the trail of clues together. When you add 10 and some ones, the answer has a ten and those ones. Look at ten 5. It means 10 plus 5. So 10 plus 5 equals 15. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 3,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": [
+            "rewrite_copied_source",
+            "sentence_length"
+          ]
+        },
+        {
+          "attempt": 2,
+          "errors": [
+            "rewrite_copied_source",
+            "sentence_length"
+          ]
+        },
+        {
+          "attempt": 3,
+          "mode": "framed",
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "fallback_framed",
+      "rewrite_errors": [
+        "rewrite_copied_source",
+        "sentence_length"
+      ]
+    },
+    {
+      "id": "s_0013",
+      "type": "transition",
+      "content": "How would you explain this idea: Add a ten and some ones?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_ten_plus_ones"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "your_turn",
+      "instruction": "Write one short encouragement sentence, then <CONTENT>. The source already asks the reflection. No extra question, question stem, achievement claim, task or number. Wait for the student.",
+      "template": "You can take your time. <CONTENT>",
+      "text": "You can take your time. How would you explain this idea: Add a ten and some ones?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0014",
+      "type": "watch_out",
+      "content": "Careful, fourteen is not forty. Fourteen is said ten 4. It means 10 plus 4.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "mis_teen_forty"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "rewrite": true,
+      "template": "Let's slow down for a moment. You can take another careful look with your detective eyes. <CONTENT> 🕵️‍♀️",
+      "text": "Let's slow down for a moment. You can take another careful look with your detective eyes. Careful, fourteen is not forty. Fourteen is said ten 4. It means 10 plus 4. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 3,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": [
+            "rewrite_copied_source"
+          ]
+        },
+        {
+          "attempt": 2,
+          "errors": [
+            "rewrite_copied_source"
+          ]
+        },
+        {
+          "attempt": 3,
+          "mode": "framed",
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "fallback_framed",
+      "rewrite_errors": [
+        "rewrite_copied_source"
+      ]
+    },
+    {
+      "id": "s_0015",
+      "type": "transition",
+      "content": "",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "obj_l1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "instruction": "Invite the student into the check-in. Wait for their answers.",
+      "template": "Let's move to the check-in. You can share your thinking now, detective! 🕵️‍♀️ <CONTENT>",
+      "text": "Let's move to the check-in. You can share your thinking now, detective! 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0016",
+      "type": "question",
+      "content": "8 and what number make 10?",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_easy_01"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_1"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_number_bond"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "root_question",
+      "question_id": "aq_easy_01",
+      "difficulty": "easy",
+      "answer_aliases": [
+        "2",
+        "two"
+      ],
+      "condition": null,
+      "visual_cue": "[show: A number bond: one circle on top (the total) joined by lines to two circles below (the parts). One circle can show a question mark.; total 10, known part 8, missing part (q_pr_l1_1); Total circle on top, two part circles below; Known numbers shown; the missing part shows a question mark; Numbers and any missing part match the current lesson question stimulus.]",
+      "template": "Take your time. <CONTENT>",
+      "text": "Take your time. 8 and what number make 10?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0017",
+      "type": "branch",
+      "content": "Yes. The missing part is 2.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_easy_01"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_1"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "r_pr_l1_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_easy_01",
+      "outcome": "correct",
+      "route_action": "advance_to_next_question_or_close",
+      "condition": {
+        "question_id": "aq_easy_01",
+        "outcome": "correct"
+      },
+      "instruction": "Celebrate effort and invite the next step.",
+      "template": "Your thinking paid off! You checked it carefully! Let's keep solving clues together. <CONTENT>",
+      "text": "Your thinking paid off! You checked it carefully! Let's keep solving clues together. Yes. The missing part is 2.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0018",
+      "type": "branch",
+      "content": "Let us check this together, one step at a time.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_easy_01"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_1"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "r_pr_l1_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_easy_01",
+      "outcome": "incorrect",
+      "route_action": "hint_then_retry_until_max_attempts",
+      "condition": {
+        "question_id": "aq_easy_01",
+        "outcome": "incorrect"
+      },
+      "instruction": "Gently invite another try. Do not give any hint in this feedback line.",
+      "template": "You gave it a try. You can try again. I'm here to help you think it through. <CONTENT>",
+      "text": "You gave it a try. You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0019",
+      "type": "branch",
+      "content": "Please say one number for your answer.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_easy_01"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_1"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "r_pr_l1_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_easy_01",
+      "outcome": "unclear",
+      "route_action": "reprompt_once_then_treat_as_incorrect",
+      "condition": {
+        "question_id": "aq_easy_01",
+        "outcome": "unclear"
+      },
+      "instruction": "Gently ask the student to say their answer again; do not supply an answer.",
+      "template": "I did not quite catch your answer. Could you tell me again? Let's listen to your detective clues together! 🕵️‍♀️ <CONTENT>",
+      "text": "I did not quite catch your answer. Could you tell me again? Let's listen to your detective clues together! 🕵️‍♀️ Please say one number for your answer.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0020",
+      "type": "branch",
+      "content": "The whole bond is ten. Find the partner of eight.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_easy_01"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_1"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_aq_easy_01_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "aq_easy_01",
+      "hint_level": 1,
+      "hint_index": 0,
+      "condition": {
+        "question_id": "aq_easy_01",
+        "event": "next_hint",
+        "hint_index": 0
+      },
+      "template": "Here is your clue. Let's look at a helpful hint together. <CONTENT>",
+      "text": "Here is your clue. Let's look at a helpful hint together. The whole bond is ten. Find the partner of eight.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0021",
+      "type": "branch",
+      "content": "Count on from eight until you reach ten.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_easy_01"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_1"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_aq_easy_01_2"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "aq_easy_01",
+      "hint_level": 2,
+      "hint_index": 1,
+      "condition": {
+        "question_id": "aq_easy_01",
+        "event": "next_hint",
+        "hint_index": 1
+      },
+      "template": "Let's look at a helpful clue together. <CONTENT> 🕵️‍♀️",
+      "text": "Let's look at a helpful clue together. Count on from eight until you reach ten. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0022",
+      "type": "branch",
+      "content": "Eight needs two more to make ten.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_easy_01"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_1"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_aq_easy_01_3"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "aq_easy_01",
+      "hint_level": 3,
+      "hint_index": 2,
+      "condition": {
+        "question_id": "aq_easy_01",
+        "event": "next_hint",
+        "hint_index": 2
+      },
+      "template": "A little help for you. Let's look at a helpful clue together with our detective tools. <CONTENT> 🕵️‍♀️",
+      "text": "A little help for you. Let's look at a helpful clue together with our detective tools. Eight needs two more to make ten. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0023",
+      "type": "branch",
+      "content": "Let us work it out together. 8 plus 2 equals 10. The missing part is 2.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_easy_01"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_1"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "r_pr_l1_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "answer_reveal",
+      "question_id": "aq_easy_01",
+      "condition": {
+        "question_id": "aq_easy_01",
+        "event": "answer_reveal_authorized_by_card"
+      },
+      "instruction": "Offer to work through it together. The lesson player resolves the linked rubric.",
+      "answer_reference_only": false,
+      "template": "You kept going, and that matters. <CONTENT>",
+      "text": "You kept going, and that matters. Let us work it out together. 8 plus 2 equals 10. The missing part is 2.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0024",
+      "type": "question",
+      "content": "A craft bag holds 10 shells. There are 9 more shells beside it. Think of the whole as ten and some ones. How many shells are there altogether?",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "root_question",
+      "question_id": "aq_med_01",
+      "difficulty": "medium",
+      "answer_aliases": [
+        "19",
+        "nineteen"
+      ],
+      "condition": null,
+      "template": "Here comes a question for you. You can take your time as a detective. <CONTENT>",
+      "text": "Here comes a question for you. You can take your time as a detective. A craft bag holds 10 shells. There are 9 more shells beside it. Think of the whole as ten and some ones. How many shells are there altogether?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0025",
+      "type": "branch",
+      "content": "Yes. There are 19 shells.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_med_01",
+      "outcome": "correct",
+      "route_action": "advance_to_next_question_or_close",
+      "condition": {
+        "question_id": "aq_med_01",
+        "outcome": "correct"
+      },
+      "instruction": "Celebrate effort and invite the next step.",
+      "template": "You checked it carefully! Your effort paid off. Let's keep solving together. <CONTENT>",
+      "text": "You checked it carefully! Your effort paid off. Let's keep solving together. Yes. There are 19 shells.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0026",
+      "type": "branch",
+      "content": "Let us check this together, one step at a time.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_med_01",
+      "outcome": "incorrect",
+      "route_action": "followup_once_then_retry_parent_if_attempt_remains",
+      "condition": {
+        "question_id": "aq_med_01",
+        "outcome": "incorrect"
+      },
+      "instruction": "Gently invite another try. Do not give any hint in this feedback line.",
+      "template": "Thank you for trying. You can try again. I'm here to help you think it through. <CONTENT>",
+      "text": "Thank you for trying. You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0027",
+      "type": "branch",
+      "content": "Please say one number for your answer.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_med_01",
+      "outcome": "unclear",
+      "route_action": "reprompt_once_then_treat_as_incorrect",
+      "condition": {
+        "question_id": "aq_med_01",
+        "outcome": "unclear"
+      },
+      "instruction": "Gently ask the student to say their answer again; do not supply an answer.",
+      "template": "Could you tell me again? I want to understand your thinking. <CONTENT> 🕵️‍♀️",
+      "text": "Could you tell me again? I want to understand your thinking. Please say one number for your answer. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0028",
+      "type": "branch",
+      "content": "Keep ten shells as one part and the loose shells as the other.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_aq_med_01_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "aq_med_01",
+      "hint_level": 1,
+      "hint_index": 0,
+      "condition": {
+        "question_id": "aq_med_01",
+        "event": "next_hint",
+        "hint_index": 0
+      },
+      "template": "You can try looking at it this way. Let's use our detective magnifying glass to find a clue together! <CONTENT>",
+      "text": "You can try looking at it this way. Let's use our detective magnifying glass to find a clue together! Keep ten shells as one part and the loose shells as the other.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0029",
+      "type": "branch",
+      "content": "Ten and nine ones are said ten nine.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_aq_med_01_2"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "aq_med_01",
+      "hint_level": 2,
+      "hint_index": 1,
+      "condition": {
+        "question_id": "aq_med_01",
+        "event": "next_hint",
+        "hint_index": 1
+      },
+      "template": "Let's look at a helpful clue together. <CONTENT> 🕵️‍♀️",
+      "text": "Let's look at a helpful clue together. Ten and nine ones are said ten nine. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0030",
+      "type": "branch",
+      "content": "Count nine ones after ten, then name the usual number.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_aq_med_01_3"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "aq_med_01",
+      "hint_level": 3,
+      "hint_index": 2,
+      "condition": {
+        "question_id": "aq_med_01",
+        "event": "next_hint",
+        "hint_index": 2
+      },
+      "template": "Here is something for you to try. <CONTENT>",
+      "text": "Here is something for you to try. Count nine ones after ten, then name the usual number.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0031",
+      "type": "branch",
+      "content": "Let us work it out together. 10 plus 9 equals 19. There are 19 shells.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "answer_reveal",
+      "question_id": "aq_med_01",
+      "condition": {
+        "question_id": "aq_med_01",
+        "event": "answer_reveal_authorized_by_card"
+      },
+      "instruction": "Offer to work through it together. The lesson player resolves the linked rubric.",
+      "answer_reference_only": false,
+      "template": "You can see how it works out. <CONTENT>",
+      "text": "You can see how it works out. Let us work it out together. 10 plus 9 equals 19. There are 19 shells.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0032",
+      "type": "question",
+      "content": "A full ten-frame holds 10 stones. Four more stones lie outside it, with one of each colour: red, blue, green, yellow. Use ten and ones to name the whole.\nCount the named stones outside the frame. How many ones are there?\nUse your ones count with the ten in the frame. Say the ten-and-ones name, then give the usual whole number. How many stones are there altogether?\nCheck by starting with the outside stones instead. Count on the 10 stones in the full frame. What whole number do you reach?",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "root_question",
+      "question_id": "aq_hard_01",
+      "difficulty": "hard",
+      "answer_aliases": [
+        "4",
+        "four",
+        "14",
+        "fourteen"
+      ],
+      "condition": null,
+      "template": "You can do this. Take your time. Think it through at your own pace. <CONTENT>",
+      "text": "You can do this. Take your time. Think it through at your own pace. A full ten-frame holds 10 stones. Four more stones lie outside it, with one of each colour: red, blue, green, yellow. Use ten and ones to name the whole.\nCount the named stones outside the frame. How many ones are there?\nUse your ones count with the ten in the frame. Say the ten-and-ones name, then give the usual whole number. How many stones are there altogether?\nCheck by starting with the outside stones instead. Count on the 10 stones in the full frame. What whole number do you reach?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0033",
+      "type": "branch",
+      "content": "Yes. Both orders give 14.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_hard_01",
+      "outcome": "correct",
+      "route_action": "advance_to_next_question_or_close",
+      "condition": {
+        "question_id": "aq_hard_01",
+        "outcome": "correct"
+      },
+      "instruction": "Celebrate effort and invite the next step.",
+      "template": "You did it! Your thinking paid off! Let's keep going. <CONTENT>",
+      "text": "You did it! Your thinking paid off! Let's keep going. Yes. Both orders give 14.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0034",
+      "type": "branch",
+      "content": "You have some parts right. Keep those answers, and let us check the other parts.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_hard_01",
+      "outcome": "partial",
+      "route_action": "retry_eligible_parts_with_hint_until_max_attempts",
+      "condition": {
+        "question_id": "aq_hard_01",
+        "outcome": "partial"
+      },
+      "instruction": "Encourage the student to revisit unfinished reasoning; do not assert which parts were correct.",
+      "template": "You gave it a try. Let's take another look at your clues so far. <CONTENT>",
+      "text": "You gave it a try. Let's take another look at your clues so far. You have some parts right. Keep those answers, and let us check the other parts.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0035",
+      "type": "branch",
+      "content": "Let us check this together, one step at a time.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_hard_01",
+      "outcome": "incorrect",
+      "route_action": "hint_then_retry_until_max_attempts",
+      "condition": {
+        "question_id": "aq_hard_01",
+        "outcome": "incorrect"
+      },
+      "instruction": "Gently invite another try. Do not give any hint in this feedback line.",
+      "template": "Let's take another look. You can try again. I'm here to help you think it through. <CONTENT>",
+      "text": "Let's take another look. You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0036",
+      "type": "branch",
+      "content": "Tell me an answer for each question, one at a time.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_hard_01",
+      "outcome": "unclear",
+      "route_action": "reprompt_once_then_treat_as_incorrect",
+      "condition": {
+        "question_id": "aq_hard_01",
+        "outcome": "unclear"
+      },
+      "instruction": "Gently ask the student to say their answer again; do not supply an answer.",
+      "template": "Could you say that again? I did not quite catch your answer. I want to understand your thinking. <CONTENT> 🕵️‍♀️",
+      "text": "Could you say that again? I did not quite catch your answer. I want to understand your thinking. Tell me an answer for each question, one at a time. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0037",
+      "type": "branch",
+      "content": "You have answered part of the question. Let us finish the questions you have not answered yet.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "aq_hard_01",
+      "outcome": "incomplete",
+      "route_action": "followup_once_then_retry_missing_parts_if_attempt_remains",
+      "condition": {
+        "question_id": "aq_hard_01",
+        "outcome": "incomplete"
+      },
+      "instruction": "Invite the student to try the remaining parts; do not guess what is missing.",
+      "template": "Thank you for trying. Let's keep our detective work going by finishing what we started. <CONTENT>",
+      "text": "Thank you for trying. Let's keep our detective work going by finishing what we started. You have answered part of the question. Let us finish the questions you have not answered yet.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0038",
+      "type": "branch",
+      "content": "Count the outside ones, name ten and those ones, then check in the other order.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_aq_hard_01_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "aq_hard_01",
+      "hint_level": 1,
+      "hint_index": 0,
+      "condition": {
+        "question_id": "aq_hard_01",
+        "event": "next_hint",
+        "hint_index": 0
+      },
+      "template": "Here is your clue. Let's solve this mystery together with our detective hats on! 🕵️‍♀️ <CONTENT>",
+      "text": "Here is your clue. Let's solve this mystery together with our detective hats on! 🕵️‍♀️ Count the outside ones, name ten and those ones, then check in the other order.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0039",
+      "type": "branch",
+      "content": "Part 1 counts red, blue, green and yellow. Part 2 puts that ones count with the full ten.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_aq_hard_01_2"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "aq_hard_01",
+      "hint_level": 2,
+      "hint_index": 1,
+      "condition": {
+        "question_id": "aq_hard_01",
+        "event": "next_hint",
+        "hint_index": 1
+      },
+      "template": "A little help for you. Let's look at a helpful clue together with our detective tools. <CONTENT> 🕵️‍♀️",
+      "text": "A little help for you. Let's look at a helpful clue together with our detective tools. Part 1 counts red, blue, green and yellow. Part 2 puts that ones count with the full ten. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0040",
+      "type": "branch",
+      "content": "For part 3, start with the four outside stones and count ten more rather than starting at ten.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_aq_hard_01_3"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "aq_hard_01",
+      "hint_level": 3,
+      "hint_index": 2,
+      "condition": {
+        "question_id": "aq_hard_01",
+        "event": "next_hint",
+        "hint_index": 2
+      },
+      "template": "You can try looking at it this way. Let's follow that clue together like detectives! 🕵️‍♀️ <CONTENT>",
+      "text": "You can try looking at it this way. Let's follow that clue together like detectives! 🕵️‍♀️ For part 3, start with the four outside stones and count ten more rather than starting at ten.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0041",
+      "type": "branch",
+      "content": "Let us work it out together. Part 1: the four named outside stones make 4 ones. Part 2: 10 plus 4 equals 14; ten four is fourteen, so there are 14 stones. Part 3: 4 plus 10 equals 14 stones. Both orders give 14.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "answer_reveal",
+      "question_id": "aq_hard_01",
+      "condition": {
+        "question_id": "aq_hard_01",
+        "event": "answer_reveal_authorized_by_card"
+      },
+      "instruction": "Offer to work through it together. The lesson player resolves the linked rubric.",
+      "answer_reference_only": false,
+      "template": "You kept going, and that matters. <CONTENT>",
+      "text": "You kept going, and that matters. Let us work it out together. Part 1: the four named outside stones make 4 ones. Part 2: 10 plus 4 equals 14; ten four is fourteen, so there are 14 stones. Part 3: 4 plus 10 equals 14 stones. Both orders give 14.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0042",
+      "type": "question",
+      "content": "Let's try an easier one: A bag holds 10 shells and there are 2 loose shells. How many shells are there altogether?",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "follow_up_question",
+      "question_id": "fu_aq_med_01",
+      "difficulty": null,
+      "answer_aliases": [
+        "12",
+        "twelve"
+      ],
+      "condition": {
+        "triggered_by": {
+          "question_id": "aq_med_01",
+          "outcome": "incorrect"
+        }
+      },
+      "template": "Take your time. <CONTENT>",
+      "text": "Take your time. Let's try an easier one: A bag holds 10 shells and there are 2 loose shells. How many shells are there altogether?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0043",
+      "type": "branch",
+      "content": "Yes. There are 12 shells.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_fu_aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "fu_aq_med_01",
+      "outcome": "correct",
+      "route_action": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+      "condition": {
+        "question_id": "fu_aq_med_01",
+        "outcome": "correct"
+      },
+      "instruction": "Celebrate effort and invite the next step.",
+      "template": "You checked it carefully! Your effort paid off! Let's keep solving clues together. <CONTENT>",
+      "text": "You checked it carefully! Your effort paid off! Let's keep solving clues together. Yes. There are 12 shells.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0044",
+      "type": "branch",
+      "content": "Let us check this together, one step at a time.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_fu_aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "fu_aq_med_01",
+      "outcome": "incorrect",
+      "route_action": "reveal_followup_then_return_to_parent_if_attempt_remains",
+      "condition": {
+        "question_id": "fu_aq_med_01",
+        "outcome": "incorrect"
+      },
+      "instruction": "Gently invite another try. Do not give any hint in this feedback line.",
+      "template": "You can try again. I'm here to help you think it through. <CONTENT>",
+      "text": "You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0045",
+      "type": "branch",
+      "content": "Please say one number for your answer.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_fu_aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "fu_aq_med_01",
+      "outcome": "unclear",
+      "route_action": "reprompt_once_then_treat_as_incorrect",
+      "condition": {
+        "question_id": "fu_aq_med_01",
+        "outcome": "unclear"
+      },
+      "instruction": "Gently ask the student to say their answer again; do not supply an answer.",
+      "template": "Could you tell me again? I did not quite catch your answer. I want to understand your thinking. <CONTENT>",
+      "text": "Could you tell me again? I did not quite catch your answer. I want to understand your thinking. Please say one number for your answer.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0046",
+      "type": "branch",
+      "content": "Keep the full ten and count the loose shells.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "fu_aq_med_01",
+      "hint_level": 1,
+      "hint_index": 0,
+      "condition": {
+        "question_id": "fu_aq_med_01",
+        "event": "next_hint",
+        "hint_index": 0
+      },
+      "template": "Let's look at a helpful clue together. <CONTENT> 🕵️‍♀️",
+      "text": "Let's look at a helpful clue together. Keep the full ten and count the loose shells. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0047",
+      "type": "branch",
+      "content": "There are two ones after ten.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_2"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "fu_aq_med_01",
+      "hint_level": 2,
+      "hint_index": 1,
+      "condition": {
+        "question_id": "fu_aq_med_01",
+        "event": "next_hint",
+        "hint_index": 1
+      },
+      "template": "Here is something for you to try. <CONTENT>",
+      "text": "Here is something for you to try. There are two ones after ten.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0048",
+      "type": "branch",
+      "content": "Ten two is the usual number twelve.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_fu_aq_med_01_3"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "fu_aq_med_01",
+      "hint_level": 3,
+      "hint_index": 2,
+      "condition": {
+        "question_id": "fu_aq_med_01",
+        "event": "next_hint",
+        "hint_index": 2
+      },
+      "template": "Here is your clue. Let's look at it together like detectives solving a mystery. <CONTENT>",
+      "text": "Here is your clue. Let's look at it together like detectives solving a mystery. Ten two is the usual number twelve.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0049",
+      "type": "branch",
+      "content": "Let us work it out together. 10 plus 2 equals 12. There are 12 shells.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_med_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_fu_aq_med_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "answer_reveal",
+      "question_id": "fu_aq_med_01",
+      "condition": {
+        "question_id": "fu_aq_med_01",
+        "event": "answer_reveal_authorized_by_card"
+      },
+      "instruction": "Offer to work through it together. The lesson player resolves the linked rubric.",
+      "answer_reference_only": false,
+      "template": "You can see how it works out. <CONTENT>",
+      "text": "You can see how it works out. Let us work it out together. 10 plus 2 equals 12. There are 12 shells.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0050",
+      "type": "question",
+      "content": "Let's try an easier one: There is one outside stone of each colour: red, blue, green, yellow. Count the named stones outside the frame. How many ones are there?",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "follow_up_question",
+      "question_id": "fu_aq_hard_01",
+      "difficulty": null,
+      "answer_aliases": [
+        "4",
+        "four"
+      ],
+      "condition": {
+        "triggered_by": {
+          "question_id": "aq_hard_01",
+          "outcome": "incomplete"
+        }
+      },
+      "template": "Think it through at your own pace. <CONTENT>",
+      "text": "Think it through at your own pace. Let's try an easier one: There is one outside stone of each colour: red, blue, green, yellow. Count the named stones outside the frame. How many ones are there?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0051",
+      "type": "branch",
+      "content": "Yes. The named outside stones make 4 ones.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_fu_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "fu_aq_hard_01",
+      "outcome": "correct",
+      "route_action": "return_to_parent_if_attempt_remains_else_reveal_parent_and_advance",
+      "condition": {
+        "question_id": "fu_aq_hard_01",
+        "outcome": "correct"
+      },
+      "instruction": "Celebrate effort and invite the next step.",
+      "template": "You did it! Your detective work paid off. Let's keep solving. <CONTENT>",
+      "text": "You did it! Your detective work paid off. Let's keep solving. Yes. The named outside stones make 4 ones.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0052",
+      "type": "branch",
+      "content": "Let us check this together, one step at a time.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_fu_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "fu_aq_hard_01",
+      "outcome": "incorrect",
+      "route_action": "reveal_followup_then_return_to_parent_if_attempt_remains",
+      "condition": {
+        "question_id": "fu_aq_hard_01",
+        "outcome": "incorrect"
+      },
+      "instruction": "Gently invite another try. Do not give any hint in this feedback line.",
+      "template": "Let's take another look. You gave it a try. <CONTENT>",
+      "text": "Let's take another look. You gave it a try. Let us check this together, one step at a time.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0053",
+      "type": "branch",
+      "content": "Please say one number for your answer.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_fu_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "feedback",
+      "question_id": "fu_aq_hard_01",
+      "outcome": "unclear",
+      "route_action": "reprompt_once_then_treat_as_incorrect",
+      "condition": {
+        "question_id": "fu_aq_hard_01",
+        "outcome": "unclear"
+      },
+      "instruction": "Gently ask the student to say their answer again; do not supply an answer.",
+      "template": "I did not quite catch your answer. Could you say that again? Let's listen to your detective clues together! 🕵️‍♀️ <CONTENT>",
+      "text": "I did not quite catch your answer. Could you say that again? Let's listen to your detective clues together! 🕵️‍♀️ Please say one number for your answer.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0054",
+      "type": "branch",
+      "content": "Count just the named outside stones.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "fu_aq_hard_01",
+      "hint_level": 1,
+      "hint_index": 0,
+      "condition": {
+        "question_id": "fu_aq_hard_01",
+        "event": "next_hint",
+        "hint_index": 0
+      },
+      "template": "A little help for you. Let's follow this clue like a detective would. <CONTENT>",
+      "text": "A little help for you. Let's follow this clue like a detective would. Count just the named outside stones.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0055",
+      "type": "branch",
+      "content": "There is one red, one blue, one green and one yellow stone.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_2"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "fu_aq_hard_01",
+      "hint_level": 2,
+      "hint_index": 1,
+      "condition": {
+        "question_id": "fu_aq_hard_01",
+        "event": "next_hint",
+        "hint_index": 1
+      },
+      "template": "You can try looking at it this way. <CONTENT> 🕵️‍♀️",
+      "text": "You can try looking at it this way. There is one red, one blue, one green and one yellow stone. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0056",
+      "type": "branch",
+      "content": "Count those colours once each.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "h_fu_aq_hard_01_3"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint",
+      "question_id": "fu_aq_hard_01",
+      "hint_level": 3,
+      "hint_index": 2,
+      "condition": {
+        "question_id": "fu_aq_hard_01",
+        "event": "next_hint",
+        "hint_index": 2
+      },
+      "template": "Here is your clue. Let's solve this mystery together. <CONTENT>",
+      "text": "Here is your clue. Let's solve this mystery together. Count those colours once each.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0057",
+      "type": "branch",
+      "content": "Let us work it out together. The named outside stones make 4 ones.",
+      "source_refs": [
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "fu_aq_hard_01"
+        },
+        {
+          "card_id": "assess_math_g2_m1_l1_pairs_to_ten_v2",
+          "scope": "this_card",
+          "id": "r_fu_aq_hard_01"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "answer_reveal",
+      "question_id": "fu_aq_hard_01",
+      "condition": {
+        "question_id": "fu_aq_hard_01",
+        "event": "answer_reveal_authorized_by_card"
+      },
+      "instruction": "Offer to work through it together. The lesson player resolves the linked rubric.",
+      "answer_reference_only": false,
+      "template": "You kept going, and that matters. <CONTENT>",
+      "text": "You kept going, and that matters. Let us work it out together. The named outside stones make 4 ones.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0058",
+      "type": "question",
+      "content": "This ten-frame shows 7 dots. How many more dots make 10?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pk_l1_1"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_ten_frame"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "3",
+        "three"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pk_l1_1"
+      },
+      "visual_cue": "[show: A ten-frame: a grid of 10 boxes in 2 rows of 5. Dots fill the boxes.]",
+      "template": "Your extra practice is ready. A bonus for you, detective! <CONTENT> 🕵️‍♀️",
+      "text": "Your extra practice is ready. A bonus for you, detective! This ten-frame shows 7 dots. How many more dots make 10? 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0059",
+      "type": "question",
+      "content": "10 minus 1 equals what number?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pk_l1_2"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "9",
+        "nine"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pk_l1_2"
+      },
+      "template": "A bonus for you, detective. <CONTENT> 🕵️",
+      "text": "A bonus for you, detective. 10 minus 1 equals what number? 🕵️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0060",
+      "type": "question",
+      "content": "Say Ten way, we say ten 2. That means 10 plus 2. What number is it?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pk_l1_3"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "12",
+        "twelve"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pk_l1_3"
+      },
+      "template": "Here is another question for you. <CONTENT> 🕵️‍♀️",
+      "text": "Here is another question for you. Say Ten way, we say ten 2. That means 10 plus 2. What number is it? 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 2,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": [
+            "source_content_placeholder"
+          ]
+        },
+        {
+          "attempt": 2,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0061",
+      "type": "question",
+      "content": "Fourteen is 10 plus what number?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pk_l1_4"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "4",
+        "four"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pk_l1_4"
+      },
+      "template": "A bonus for you, detective. Your extra practice is ready. <CONTENT>",
+      "text": "A bonus for you, detective. Your extra practice is ready. Fourteen is 10 plus what number?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0062",
+      "type": "question",
+      "content": "6 and what number make 10?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_2"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_number_bond"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "4",
+        "four"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pr_l1_2"
+      },
+      "visual_cue": "[show: A number bond: one circle on top (the total) joined by lines to two circles below (the parts). One circle can show a question mark.]",
+      "template": "A bonus for you, detective. <CONTENT>",
+      "text": "A bonus for you, detective. 6 and what number make 10?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0063",
+      "type": "question",
+      "content": "10 and what number make 10?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_3"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_number_bond"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "0",
+        "zero"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pr_l1_3"
+      },
+      "visual_cue": "[show: A number bond: one circle on top (the total) joined by lines to two circles below (the parts). One circle can show a question mark.]",
+      "template": "Let's solve this mystery together. <CONTENT>",
+      "text": "Let's solve this mystery together. 10 and what number make 10?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0064",
+      "type": "question",
+      "content": "Tell me two numbers that make 10.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_4"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_number_bond"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pr_l1_4"
+      },
+      "visual_cue": "[show: A number bond: one circle on top (the total) joined by lines to two circles below (the parts). One circle can show a question mark.]",
+      "template": "Here is another question for you. <CONTENT> 🕵️",
+      "text": "Here is another question for you. Tell me two numbers that make 10. 🕵️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0065",
+      "type": "question",
+      "content": "10 minus 4 equals what number?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_5"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "6",
+        "six"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pr_l1_5"
+      },
+      "template": "Your extra practice is ready. Let's solve this mystery together, detective! 🕵️‍♀️ <CONTENT>",
+      "text": "Your extra practice is ready. Let's solve this mystery together, detective! 🕵️‍♀️ 10 minus 4 equals what number?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0066",
+      "type": "question",
+      "content": "13 equals 10 plus what number?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_6"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "3",
+        "three"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pr_l1_6"
+      },
+      "template": "You can try this if you like. <CONTENT>",
+      "text": "You can try this if you like. 13 equals 10 plus what number?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0067",
+      "type": "question",
+      "content": "10 equals 7 plus what number?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_pr_l1_7"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "a_number_bond"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "3",
+        "three"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_pr_l1_7"
+      },
+      "visual_cue": "[show: A number bond: one circle on top (the total) joined by lines to two circles below (the parts). One circle can show a question mark.]",
+      "template": "Let's solve this mystery together. <CONTENT>",
+      "text": "Let's solve this mystery together. 10 equals 7 plus what number?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0068",
+      "type": "question",
+      "content": "10 plus 4 equals what number?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_sp_l1_a3"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "14",
+        "fourteen"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_sp_l1_a3"
+      },
+      "template": "Your extra practice is ready. Let's solve this mystery together, detective! 🕵️‍♀️ <CONTENT>",
+      "text": "Your extra practice is ready. Let's solve this mystery together, detective! 🕵️‍♀️ 10 plus 4 equals what number?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0069",
+      "type": "question",
+      "content": "What number equals 10 plus 8?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_sp_l1_a22"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "18",
+        "eighteen"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_sp_l1_a22"
+      },
+      "template": "A bonus for you, detective. <CONTENT>",
+      "text": "A bonus for you, detective. What number equals 10 plus 8?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0070",
+      "type": "question",
+      "content": "16 equals what number plus 6?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_sp_l1_a26"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "10",
+        "ten"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_sp_l1_a26"
+      },
+      "template": "A bonus for you, detective. <CONTENT>",
+      "text": "A bonus for you, detective. 16 equals what number plus 6?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0071",
+      "type": "question",
+      "content": "What number plus 10 equals 17?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_sp_l1_a28"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "7",
+        "seven"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_sp_l1_a28"
+      },
+      "template": "You can try this if you like. <CONTENT> 🕵️",
+      "text": "You can try this if you like. What number plus 10 equals 17? 🕵️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0072",
+      "type": "question",
+      "content": "18 equals 8 plus what number?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_sp_l1_a30"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [
+        "10",
+        "ten"
+      ],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_sp_l1_a30"
+      },
+      "template": "Here is another question for you. <CONTENT> 🕵️",
+      "text": "Here is another question for you. 18 equals 8 plus what number? 🕵️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0073",
+      "type": "question",
+      "content": "What was the math goal today? What name would you give this lesson?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_db_l1_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_db_l1_1"
+      },
+      "template": "Your extra practice is ready. A bonus for you, detective! <CONTENT>",
+      "text": "Your extra practice is ready. A bonus for you, detective! What was the math goal today? What name would you give this lesson?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0074",
+      "type": "question",
+      "content": "What math work today do you remember from last year?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "q_db_l1_2"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "optional_practice",
+      "answer_aliases": [],
+      "condition": {
+        "event": "optional_practice",
+        "question_ref": "q_db_l1_2"
+      },
+      "template": "A bonus for you, detective. <CONTENT>",
+      "text": "A bonus for you, detective. What math work today do you remember from last year?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0075",
+      "type": "branch",
+      "content": "Picture a ten-frame. A full ten-frame has 10 spots. How many spots are empty?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "h_1"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint_bank",
+      "hint_level": 1,
+      "condition": {
+        "event": "source_hint_requested",
+        "hint_ref": "h_1"
+      },
+      "template": "Here is your clue. <CONTENT>",
+      "text": "Here is your clue. Picture a ten-frame. A full ten-frame has 10 spots. How many spots are empty?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0076",
+      "type": "branch",
+      "content": "Think of a number bond with 10 on top. One part is shown. What part goes with it?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "h_2"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint_bank",
+      "hint_level": 2,
+      "condition": {
+        "event": "source_hint_requested",
+        "hint_ref": "h_2"
+      },
+      "template": "A little help for you. You can use this clue when you need it. <CONTENT>",
+      "text": "A little help for you. You can use this clue when you need it. Think of a number bond with 10 on top. One part is shown. What part goes with it?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0077",
+      "type": "branch",
+      "content": "Start at 10. Take away the part you know. What is left?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "h_3"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint_bank",
+      "hint_level": 2,
+      "condition": {
+        "event": "source_hint_requested",
+        "hint_ref": "h_3"
+      },
+      "template": "Here is a helpful clue for your detective work. You can use this whenever you need it. <CONTENT> Let's keep exploring together! 🕵️‍♀️",
+      "text": "Here is a helpful clue for your detective work. You can use this whenever you need it. Start at 10. Take away the part you know. What is left? Let's keep exploring together! 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0078",
+      "type": "branch",
+      "content": "Say Ten way, the ten comes first. Ten 3 means 10 plus 3.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "h_4"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint_bank",
+      "hint_level": 1,
+      "condition": {
+        "event": "source_hint_requested",
+        "hint_ref": "h_4"
+      },
+      "template": "You can use this clue when you need it. <CONTENT>",
+      "text": "You can use this clue when you need it. Say Ten way, the ten comes first. Ten 3 means 10 plus 3.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0079",
+      "type": "branch",
+      "content": "A number from 11 to 19 is a ten and some ones. Look at the ones.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "h_5"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint_bank",
+      "hint_level": 2,
+      "condition": {
+        "event": "source_hint_requested",
+        "hint_ref": "h_5"
+      },
+      "template": "You can use this clue when you need it. <CONTENT>",
+      "text": "You can use this clue when you need it. A number from 11 to 19 is a ten and some ones. Look at the ones.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0080",
+      "type": "branch",
+      "content": "Start at 10. Count on the ones, one at a time, the Say Ten way.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "h_6"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint_bank",
+      "hint_level": 3,
+      "condition": {
+        "event": "source_hint_requested",
+        "hint_ref": "h_6"
+      },
+      "template": "Here is something for you to try. You can use this clue when you need it. <CONTENT>",
+      "text": "Here is something for you to try. You can use this clue when you need it. Start at 10. Count on the ones, one at a time, the Say Ten way.",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0081",
+      "type": "branch",
+      "content": "Take the 10 out of the big number. What is left?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "h_7"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint_bank",
+      "hint_level": 2,
+      "condition": {
+        "event": "source_hint_requested",
+        "hint_ref": "h_7"
+      },
+      "template": "You can use this clue when you need it. <CONTENT>",
+      "text": "You can use this clue when you need it. Take the 10 out of the big number. What is left?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0082",
+      "type": "branch",
+      "content": "Start at the small number. Count on to the big number. How many steps do you take?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "h_8"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint_bank",
+      "hint_level": 3,
+      "condition": {
+        "event": "source_hint_requested",
+        "hint_ref": "h_8"
+      },
+      "template": "Let's look at this clue like a detective finding a hidden clue. <CONTENT>",
+      "text": "Let's look at this clue like a detective finding a hidden clue. Start at the small number. Count on to the big number. How many steps do you take?",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0083",
+      "type": "branch",
+      "content": "Think about the lesson. What did you do with the number 10?",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "h_9"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "hint_bank",
+      "hint_level": 1,
+      "condition": {
+        "event": "source_hint_requested",
+        "hint_ref": "h_9"
+      },
+      "template": "You can try looking at it this way. <CONTENT> You are truly solving mysteries with every step! 🕵️‍♀️",
+      "text": "You can try looking at it this way. Think about the lesson. What did you do with the number 10? You are truly solving mysteries with every step! 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ]
+    },
+    {
+      "id": "s_0084",
+      "type": "recap",
+      "content": "A ten-frame has 10 spots. A number bond shows a total and two parts. Some people say numbers the Say Ten way.",
+      "source_refs": [
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "obj_l1"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_ten_frame"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_number_bond"
+        },
+        {
+          "card_id": "math_g2_m1_l1_pairs_to_ten",
+          "scope": "concept_card",
+          "id": "exp_l1_say_ten"
+        }
+      ],
+      "metaphor": "detectives",
+      "phase": "main",
+      "instruction": "Close warmly and summarise the taught facts. Do not restart the lesson or claim the student has mastered it.",
+      "rewrite": true,
+      "template": "Let's remember the ideas we explored. A ten-frame has 10 spots for your clues. A number bond shows a total and two parts of it. Some people say numbers the Say Ten way. You can keep noticing these clues. 🕵️‍♀️",
+      "text": "Let's remember the ideas we explored. A ten-frame has 10 spots for your clues. A number bond shows a total and two parts of it. Some people say numbers the Say Ten way. You can keep noticing these clues. 🕵️‍♀️",
+      "status": "passed",
+      "errors": [],
+      "attempts": 1,
+      "attempts_log": [
+        {
+          "attempt": 1,
+          "errors": []
+        }
+      ],
+      "rewrite_mode": "rewritten",
+      "rewrite_errors": []
+    }
+  ],
+  "validation": {
+    "passed": true,
+    "initial_rule_violations": 7,
+    "final_rule_violations": 0,
+    "coverage_errors": [],
+    "repairs": 6,
+    "rewrite": {
+      "enabled": true,
+      "rewritten": 7,
+      "fallback_framed": [
+        "s_0001",
+        "s_0006",
+        "s_0012",
+        "s_0014"
+      ],
+      "fallback_verbatim": []
+    },
+    "style": {
+      "score": 98.43,
+      "sentence_word_limit": 14,
+      "mean_sentence_words": 6.75,
+      "max_sentence_words": 15,
+      "short_sentence_fraction": 0.98,
+      "direct_address_fraction": 1.0,
+      "question_rate": 0.141,
+      "emoji_count": 7,
+      "emojis_per_100_words": 1.05,
+      "repeated_openers": 1,
+      "words": 668,
+      "segments": 19,
+      "heuristic_only": true
+    },
+    "all_segment_style": {
+      "score": 92.62,
+      "sentence_word_limit": 14,
+      "mean_sentence_words": 6.21,
+      "max_sentence_words": 18,
+      "short_sentence_fraction": 0.979,
+      "direct_address_fraction": 1.0,
+      "question_rate": 0.132,
+      "emoji_count": 29,
+      "emojis_per_100_words": 1.4,
+      "repeated_openers": 38,
+      "words": 2068,
+      "segments": 84,
+      "heuristic_only": true
+    },
+    "generated_framing_style": {
+      "score": 74.41,
+      "sentence_word_limit": 14,
+      "mean_sentence_words": 5.03,
+      "max_sentence_words": 12,
+      "short_sentence_fraction": 1.0,
+      "direct_address_fraction": 1.0,
+      "question_rate": 0.032,
+      "emoji_count": 26,
+      "emojis_per_100_words": 3.27,
+      "repeated_openers": 35,
+      "words": 794,
+      "segments": 77,
+      "heuristic_only": true
+    },
+    "review_required": [
+      "Free framing has heuristic checks, not semantic proof.",
+      "Teaching rewrites have heuristic fact checks; source accuracy, meaning and reading level still need human review.",
+      "Input card readiness and human model selection still apply."
+    ]
+  }
+}

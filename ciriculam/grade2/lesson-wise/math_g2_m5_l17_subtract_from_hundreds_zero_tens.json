@@ -1,0 +1,1440 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m5_l17_subtract_from_hundreds_zero_tens",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m5",
+      "file": "math-g2-m5-topic-c-lesson-17.md",
+      "source_version": "not stated in the file (no 'This file derived from' footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 5, Lesson 17",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in file; page set to n/a and section names used"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.5",
+    "2.NBT.7",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Subtract from 100s and from numbers with zeros. Unbundle a hundred and a ten.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_1",
+      "title": "Unbundle from 300",
+      "text": "In 300 minus 195, change 1 hundred for 10 tens. Then change 1 ten for 10 ones.",
+      "asset_ids": [
+        "a_pvc",
+        "a_vert"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_2",
+      "title": "Unbundle from 500",
+      "text": "In 500 minus 213, there are no tens and no ones. Unbundle a hundred and a ten.",
+      "asset_ids": [
+        "a_pvc",
+        "a_vert"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_3",
+      "title": "Zero in the tens place",
+      "text": "In 603 minus 487, there are 0 tens. Change 1 hundred for 10 tens first.",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_4",
+      "title": "Check with addition",
+      "text": "Add the answer and the part you took away. You should get the whole.",
+      "asset_ids": [
+        "a_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_1",
+      "title": "300 minus 195",
+      "text": "Change 1 hundred for 10 tens. Change 1 ten for 10 ones. 10 minus 5 is 5. 9 tens minus 9 tens is 0. 2 hundreds minus 1 hundred is 1. The answer is 105.",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_2",
+      "title": "500 minus 213",
+      "text": "Unbundle a hundred, then a ten. 10 minus 3 is 7. 9 tens minus 1 ten is 8 tens. 4 hundreds minus 2 hundreds is 2. The answer is 287.",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 16 minus 9?",
+      "asset_ids": [],
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_10",
+        "h_11",
+        "h_12"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 10 minus 9?",
+      "asset_ids": [],
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_10",
+        "h_11",
+        "h_12"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 55 minus 22?",
+      "asset_ids": [],
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_10",
+        "h_11",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtract Common Units"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "What is 300 minus 195?",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "stimulus": {
+        "a": 300,
+        "b": 195
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "What is 500 minus 213?",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "stimulus": {
+        "a": 500,
+        "b": 213
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "What is 603 minus 487?",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "stimulus": {
+        "a": 603,
+        "b": 487
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_ps_1a",
+      "kind": "practice",
+      "text": "What is 200 minus 113?",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "stimulus": {
+        "a": 200,
+        "b": 113
+      },
+      "rubric_id": "r_ps_1a",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_1b",
+      "kind": "practice",
+      "text": "What is 400 minus 247?",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "stimulus": {
+        "a": 400,
+        "b": 247
+      },
+      "rubric_id": "r_ps_1b",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_1c",
+      "kind": "practice",
+      "text": "What is 700 minus 428?",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "stimulus": {
+        "a": 700,
+        "b": 428
+      },
+      "rubric_id": "r_ps_1c",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_1d",
+      "kind": "practice",
+      "text": "What is 800 minus 606?",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "stimulus": {
+        "a": 800,
+        "b": 606
+      },
+      "rubric_id": "r_ps_1d",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_1e",
+      "kind": "practice",
+      "text": "What is 901 minus 404?",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "stimulus": {
+        "a": 901,
+        "b": 404
+      },
+      "rubric_id": "r_ps_1e",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "What is 600 minus 367?",
+      "asset_ids": [
+        "a_vert"
+      ],
+      "stimulus": {
+        "a": 600,
+        "b": 367
+      },
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "q_sp_a3",
+      "kind": "practice",
+      "text": "What is 20 minus 2?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_a3",
+      "hint_ids": [
+        "h_10",
+        "h_11",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 3"
+      }
+    },
+    {
+      "id": "q_sp_a4",
+      "kind": "practice",
+      "text": "What is 40 minus 2?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_a4",
+      "hint_ids": [
+        "h_10",
+        "h_11",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 4"
+      }
+    },
+    {
+      "id": "q_sp_a6",
+      "kind": "practice",
+      "text": "What is 11 minus 2?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_a6",
+      "hint_ids": [
+        "h_10",
+        "h_11",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 6"
+      }
+    },
+    {
+      "id": "q_sp_a8",
+      "kind": "practice",
+      "text": "What is 51 minus 2?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_a8",
+      "hint_ids": [
+        "h_10",
+        "h_11",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 8"
+      }
+    },
+    {
+      "id": "q_sp_a23",
+      "kind": "practice",
+      "text": "What is 21 minus 6?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_a23",
+      "hint_ids": [
+        "h_10",
+        "h_11",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 23"
+      }
+    },
+    {
+      "id": "q_sp_a27",
+      "kind": "practice",
+      "text": "What is 31 minus 7?",
+      "asset_ids": [],
+      "rubric_id": "r_sp_a27",
+      "hint_ids": [
+        "h_10",
+        "h_11",
+        "h_12"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 27"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Colleen put 46 beads on her necklace. That is 27 fewer than Jenny. How many beads did Jenny put on?",
+      "asset_ids": [],
+      "stimulus": {
+        "colleen": 46,
+        "fewer": 27
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_13",
+        "h_14",
+        "h_15"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Jenny had 73 beads. 16 fell off. How many beads are still on her necklace?",
+      "asset_ids": [],
+      "stimulus": {
+        "jenny": 73,
+        "fell": 16
+      },
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_13",
+        "h_14",
+        "h_15"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Why do you unbundle a hundred first when there are zero tens?",
+      "asset_ids": [],
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_1",
+        "h_2",
+        "h_3"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "The answer says 7 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1",
+          "one"
+        ]
+      },
+      "correct": "The answer says 1 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Using the Nearest Ten to Subtract"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33",
+          "thirty three",
+          "thirty-three"
+        ]
+      },
+      "correct": "The answer says 33 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Subtract Common Units"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "105",
+          "one hundred five",
+          "one hundred and five"
+        ]
+      },
+      "correct": "The answer says 105 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "287",
+          "two hundred eighty seven",
+          "two hundred and eighty seven",
+          "two hundred eighty-seven",
+          "two hundred and eighty-seven"
+        ]
+      },
+      "correct": "The answer says 287 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "116",
+          "one hundred sixteen",
+          "one hundred and sixteen"
+        ]
+      },
+      "correct": "The answer says 116 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "r_ps_1a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "87",
+          "eighty seven",
+          "eighty-seven"
+        ]
+      },
+      "correct": "The answer says 87 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "r_ps_1b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "153",
+          "one hundred fifty three",
+          "one hundred and fifty three",
+          "one hundred fifty-three",
+          "one hundred and fifty-three"
+        ]
+      },
+      "correct": "The answer says 153 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "r_ps_1c",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "272",
+          "two hundred seventy two",
+          "two hundred and seventy two",
+          "two hundred seventy-two",
+          "two hundred and seventy-two"
+        ]
+      },
+      "correct": "The answer says 272 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "r_ps_1d",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "194",
+          "one hundred ninety four",
+          "one hundred and ninety four",
+          "one hundred ninety-four",
+          "one hundred and ninety-four"
+        ]
+      },
+      "correct": "The answer says 194 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "r_ps_1e",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "497",
+          "four hundred ninety seven",
+          "four hundred and ninety seven",
+          "four hundred ninety-seven",
+          "four hundred and ninety-seven"
+        ]
+      },
+      "correct": "The answer says 497 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "233",
+          "two hundred thirty three",
+          "two hundred and thirty three",
+          "two hundred thirty-three",
+          "two hundred and thirty-three"
+        ]
+      },
+      "correct": "The answer says 233 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 2"
+      }
+    },
+    {
+      "id": "r_sp_a3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "The answer says 18 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 3"
+      }
+    },
+    {
+      "id": "r_sp_a4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "38",
+          "thirty eight",
+          "thirty-eight"
+        ]
+      },
+      "correct": "The answer says 38 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 4"
+      }
+    },
+    {
+      "id": "r_sp_a6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "The answer says 9 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 6"
+      }
+    },
+    {
+      "id": "r_sp_a8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "49",
+          "forty nine",
+          "forty-nine"
+        ]
+      },
+      "correct": "The answer says 49 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 8"
+      }
+    },
+    {
+      "id": "r_sp_a23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "The answer says 15 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 23"
+      }
+    },
+    {
+      "id": "r_sp_a27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "24",
+          "twenty four",
+          "twenty-four"
+        ]
+      },
+      "correct": "The answer says 24 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 27"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "73",
+          "seventy three",
+          "seventy-three"
+        ]
+      },
+      "correct": "The answer says 73 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "57",
+          "fifty seven",
+          "fifty-seven"
+        ]
+      },
+      "correct": "The answer says 57 (digits or words).",
+      "partial": null,
+      "incorrect": "The answer is a different number or no number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says there are no tens to take from, so a hundred is changed for 10 tens.",
+      "partial": "Says to unbundle but not why.",
+      "incorrect": "Says to skip it or gives no reason.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_1",
+      "level": 1,
+      "text": "Look at the tens place. Are there enough tens to take from?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_2",
+      "level": 2,
+      "text": "Change 1 hundred for 10 tens first. Then change 1 ten for 10 ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_3",
+      "level": 3,
+      "text": "Try adding 1 to both numbers. Does it make a friendlier problem?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_4",
+      "level": 1,
+      "text": "Line up the ones, tens and hundreds.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_5",
+      "level": 2,
+      "text": "Start with the ones. Do you have enough to take away?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_6",
+      "level": 3,
+      "text": "Change 1 ten for 10 ones, or 1 hundred for 10 tens.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_7",
+      "level": 1,
+      "text": "Check your answer with addition.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_8",
+      "level": 2,
+      "text": "Add the answer to the part you took away. Do you get the whole?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_9",
+      "level": 3,
+      "text": "Make a number bond. The parts add up to the whole.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_10",
+      "level": 1,
+      "text": "Think of the ten you can make.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_11",
+      "level": 2,
+      "text": "Break the second number to make ten first.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_12",
+      "level": 3,
+      "text": "Count on or count back. Use your fingers or a number line.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_13",
+      "level": 1,
+      "text": "Read the story again. What do you know? What do you need to find?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_14",
+      "level": 2,
+      "text": "Draw a tape diagram. Label what you know.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_15",
+      "level": 3,
+      "text": "Decide: do you add or take away? Then solve.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_pvc",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact numbers and steps must be correct, so code builds it.",
+      "description": "A hundreds, tens and ones chart where disks can be added, removed and regrouped.",
+      "must_show_exactly": [
+        "Three columns: hundreds, tens, ones",
+        "Disk count in each column equals the digits of the number in the question stimulus"
+      ],
+      "states_or_frames": [
+        "Start: disks for the first number",
+        "After each change: updated disks and the number shown below the chart"
+      ],
+      "interaction": "Child can see disks added or removed one place at a time.",
+      "alt_text": "A place value chart with hundreds, tens and ones disks.",
+      "generation_caption": "Flat child-friendly place value chart with three columns and round disks, plain background, no text in the image. [Build by code]",
+      "used_by": [
+        "exp_1",
+        "exp_2"
+      ]
+    },
+    {
+      "asset_id": "a_vert",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact numbers and steps must be correct, so code builds it.",
+      "description": "Vertical addition or subtraction beside a place value chart. Each regroup step is shown in both.",
+      "must_show_exactly": [
+        "Digits lined up by place",
+        "Each new ten or hundred (or each unbundled ten or hundred) shown in the chart and written below the line"
+      ],
+      "states_or_frames": [
+        "Numbers written vertically and chips on the chart",
+        "Ones step with regrouping",
+        "Tens step with regrouping",
+        "Hundreds step and final answer"
+      ],
+      "interaction": "Child can see each chart step match one written step.",
+      "alt_text": "A vertical problem next to a place value chart.",
+      "generation_caption": "Flat vertical addition problem beside a place value chart with round chips, plain background. [Build by code]",
+      "used_by": [
+        "exp_1",
+        "exp_2",
+        "exp_3",
+        "ex_1",
+        "ex_2",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_ps_1a",
+        "q_ps_1b",
+        "q_ps_1c",
+        "q_ps_1d",
+        "q_ps_1e",
+        "q_ps_2"
+      ]
+    },
+    {
+      "asset_id": "a_bond",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact numbers and steps must be correct, so code builds it.",
+      "description": "A number bond with a whole on top and two parts below. One number is split to make a hundred.",
+      "must_show_exactly": [
+        "Whole and both parts add up exactly",
+        "The part moved to the close number is the same size in both bonds"
+      ],
+      "states_or_frames": [
+        "Whole shown with parts hidden",
+        "Parts revealed",
+        "New easier addition shown next to the bond"
+      ],
+      "interaction": "Child can see which part moves to make a hundred.",
+      "alt_text": "A number bond with a whole and two parts.",
+      "generation_caption": "Flat number bond: one circle on top joined to two circles below, plain background. [Build by code]",
+      "used_by": [
+        "exp_4"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_1",
+      "name": "Sprint: Subtract Crossing the Ten (timed race, Sprint A then Sprint B)",
+      "reason": "Timed paper drill. Its items are used as questions; the race and scoring cannot run on screen.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_2",
+      "name": "Partner talk (Turn and talk)",
+      "reason": "Needs another person. A screen tutor cannot run it.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_3",
+      "name": "Personal white board show-me and paper drawing",
+      "reason": "The tutor sees only typed or spoken answers, not boards or drawings.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "whole card",
+      "issue": "AI draft. A person must review every item and answer key before use."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0 (Great Minds). Keep credit to Great Minds, stay non-commercial, share under the same license. Check before any paid use."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Code-build every asset and have a person check it against the answer keys."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are not_available (a_pvc, a_vert, a_bond). Items that use them cannot launch until they exist."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "child-facing wording",
+      "issue": "Teacher script was rewritten for a screen. Needs wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so prerequisite_ids is []. Earlier lessons of this module likely are prerequisites; a person must link them."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "source file",
+      "issue": "Source is a text file with no page numbers, no images and no source version. All pages are 'n/a'. Pictures (disk drawings, student work samples, tape diagrams, Templates) could not be read."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Problem Set / Exit Ticket / Homework",
+      "issue": "Used: Problem Set 1(a)-(e) and Problem Set 2. Not used: the check boxes, Exit Ticket and Homework sheets."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Answers not printed in the source were computed by code from the printed numbers (origin derived). A person must spot-check them."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "rubrics partial",
+      "issue": "partial is null for exact keys. The script needs a mapping for null partial."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "hints",
+      "issue": "Hint coverage is thin: hints are written from the strategy moves in the lesson, not printed hints. Check them."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The lesson states no misconception. The card has no misconception entries. Proposals for a person to judge: child adds instead of subtracts or the reverse."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "Sprint",
+      "issue": "Sprint items used (A): 3, 4, 6, 8, 23, 27 (numbering inferred from table row order; no image). Patterns left out: items that repeat these. Sprint B is the parallel page and adds no new pattern."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Sprint numbering",
+      "issue": "The Sprint tables have no printed item numbers in the text. Item numbers were inferred as rows 1-22 on the left and 23-44 on the right. Check against the printed page."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Problem Set text",
+      "issue": "Some operation signs are missing in the extracted text. Operations were read from the lesson context. A person must check them against the printed page."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only those printed in this lesson file: 2.NBT.5, 2.NBT.7, 2.OA.2."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

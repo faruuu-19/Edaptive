@@ -1,0 +1,14 @@
+# Tested local Apple Silicon / Python 3.12 voice runtime. Install during provisioning.
+# No dependency installation or model download happens when the application starts.
+mlx-audio==0.5.8
+mlx==0.32.3
+numpy==2.5.4
+misaki[en]==0.9.4
+spacy==3.8.16
+espeakng-loader==0.2.4
+phonemizer-fork==3.3.2
+num2words==0.5.14
+huggingface-hub==2.2.0
+transformers==5.19.0
+# English pronunciation assets, provisioned once before offline use.
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl

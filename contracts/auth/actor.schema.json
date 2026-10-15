@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Actor",
+  "description": "Who is acting on a request, as established by the auth module (Track C). Identity hierarchy: household -> parent -> students. Every module reads this; none of them establish identity themselves.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["household_id", "role", "student_id"],
+  "properties": {
+    "household_id": { "$ref": "../common/ids.schema.json#/$defs/Uuid" },
+    "role": {
+      "description": "student: a child using their own profile. parent: the guardian, unlocked for parent-only areas (dashboard, consent, schedule and privacy controls).",
+      "type": "string",
+      "enum": ["student", "parent"]
+    },
+    "student_id": {
+      "description": "The active student profile. Required for role student; null for parent unless the parent is viewing a specific child.",
+      "oneOf": [{ "$ref": "../common/ids.schema.json#/$defs/Uuid" }, { "type": "null" }]
+    }
+  },
+  "if": { "properties": { "role": { "const": "student" } } },
+  "then": { "properties": { "student_id": { "$ref": "../common/ids.schema.json#/$defs/Uuid" } } }
+}

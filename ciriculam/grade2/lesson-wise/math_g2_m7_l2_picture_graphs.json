@@ -1,0 +1,1607 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g2_m7_l2_picture_graphs",
+  "card_version": 1,
+  "review_status": "draft",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g2_m7",
+      "file": "math-g2-m7-topic-a-lesson-2.md",
+      "source_version": "unknown (text export has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 2, Module 7, Lesson 2",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the .md export; refs use section names (page = n/a)"
+    }
+  ],
+  "grade": 2,
+  "subject": "math",
+  "standards": [
+    "2.NBT.2",
+    "2.OA.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Draw and label a picture graph to represent data with up to four categories.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g2_m7_l1_sort_record_data_tables",
+    "ext_g2_compare_tape_diagrams"
+  ],
+  "explanations": [
+    {
+      "id": "exp_picture_graph",
+      "title": "Picture graph",
+      "text": "A picture graph shows data with pictures. Each picture stands for one thing. The graph has a title, labels and a key.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_title_labels",
+      "title": "Title and labels",
+      "text": "The title tells what the graph is about. The labels name the categories. Write the labels in the same order as the table.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: So we don't get confused)"
+      }
+    },
+    {
+      "id": "exp_circle_symbol",
+      "title": "A circle as a picture",
+      "text": "A circle is a quick way to draw. Each circle stands for one thing. It is math, not art.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_legend",
+      "title": "Legend or key",
+      "text": "The legend, or key, tells what each picture stands for. For example, each circle stands for one animal.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "exp_compare_frames",
+      "title": "More and fewer questions",
+      "text": "Say the group with fewer first in 'how many fewer'. Say the group with more first in 'how many more'. The answer is the extra pictures.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1; Student Debrief"
+      }
+    },
+    {
+      "id": "exp_grid_paper",
+      "title": "Grid paper",
+      "text": "Grid paper keeps the pictures in neat rows or columns. Fill only the squares above the labels.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2; Student Debrief"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_animal_graph",
+      "title": "Animal Classification graph",
+      "text": "The title is Animal Classification. The categories are bird, mammal, reptile and fish. 4 circles are drawn for 4 birds. Each circle stands for one animal.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "ex_survey_graph",
+      "title": "Favorite Class of Animal",
+      "text": "Each child gets one vote. The votes are recorded in a table. Then a picture graph is made on grid paper.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 2"
+      }
+    },
+    {
+      "id": "ex_robins_ducks",
+      "title": "Robins, ducks and squirrels",
+      "text": "Gemma counts 16 robins, 19 ducks and 17 squirrels. 16 plus 19 equals 35. 35 minus 17 equals 18.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "I am holding up a coin worth 5 cents. What is the name of the coin?",
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_coin"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "coin": "nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "How much is a nickel worth?",
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_coin"
+      ],
+      "origin": "adapted",
+      "stimulus": {
+        "coin": "nickel"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Gemma counts 16 robins, 19 ducks and 17 squirrels. How many robins and ducks are there in all?",
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "stimulus": {
+        "a": 16,
+        "b": 19,
+        "total": 35
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "How many more robins and ducks did Gemma count than squirrels?",
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_tape",
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_tape_compare"
+      ],
+      "stimulus": {
+        "a": 35,
+        "b": 17,
+        "difference": 18
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "What do we use to show data on a picture graph?",
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "What is the title of a picture graph for the Animal Classification table?",
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "title": "Animal Classification"
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Why do we write the labels in the same order as the table?",
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "What quick shape do we draw in math drawings to stand for one thing?",
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "The table says 4 birds. How many circles do you draw in the bird column?",
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "category": "bird",
+        "count": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "What do we add to a graph to tell what each circle stands for?",
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "In the animal graph, what does each circle stand for?",
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Why do we write the total for each category on the graph?",
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "In 'how many fewer ___ are there than ___', which group do you say first?",
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "In 'how many more ___ are there than ___', which group do you say first?",
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "On a picture graph, how do you find 'how many more' mammals than fish?",
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1(a))"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Why is it called a picture graph? Are there pictures in the graph?",
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Why does grid paper make it easier to make a picture graph?",
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Does it matter if the circles go in rows or in columns? Does it change the information?",
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "A picture graph has a title, labels and a legend. What else should be correct?",
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "How does a picture graph help us organize information from a survey?",
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_pictures"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "A zoo table shows birds 6, fish 5, mammals 11 and reptiles 3. How many more mammals than fish are there?",
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "fish": 5,
+        "mammal": 11
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (picture graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Use the same table. How many more mammals and fish are there than birds and reptiles?",
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "bird": 6,
+        "fish": 5,
+        "mammal": 11,
+        "reptile": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (picture graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "How many fewer reptiles than mammals are there in that table?",
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "mammal": 11,
+        "reptile": 3
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (picture graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "A second zoo table shows birds 8, fish 4, mammals 12 and reptiles 5. How many more mammals than birds are there?",
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "bird": 8,
+        "mammal": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (picture graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Use the same table. How many more mammals and reptiles are there than birds and fish?",
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "bird": 8,
+        "fish": 4,
+        "mammal": 12,
+        "reptile": 5
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (picture graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "How many fewer fish than birds are there in that table?",
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "bird": 8,
+        "fish": 4
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (picture graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "A vote for favorite mammal shows tiger 8, panda 11, snow leopard 7 and gorilla 12. How many more people chose gorilla than tiger?",
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "tiger": 8,
+        "panda": 11,
+        "snow leopard": 7,
+        "gorilla": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (picture graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "Use the same vote. How many more people chose tiger and gorilla than panda and snow leopard?",
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "tiger": 8,
+        "panda": 11,
+        "snow leopard": 7,
+        "gorilla": 12
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (picture graph tables)"
+      }
+    },
+    {
+      "id": "q_ps_9",
+      "kind": "practice",
+      "text": "How many fewer people chose tiger than panda?",
+      "rubric_id": "r_ps_9",
+      "hint_ids": [
+        "h_extra"
+      ],
+      "origin": "adapted",
+      "asset_ids": [
+        "a_picture_graph"
+      ],
+      "stimulus": {
+        "tiger": 8,
+        "panda": 11
+      },
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set / Homework (picture graph tables)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "nickel",
+          "a nickel",
+          "nickels"
+        ]
+      },
+      "correct": "Says nickel.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (S: A nickel)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5 cents",
+          "five cents",
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5 cents.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Coin Drop (S: 5 cents)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five"
+        ]
+      },
+      "correct": "Says 35.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 16 + 19 = 35)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (no answer printed; 35 - 17 = 18)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "pictures",
+          "picture",
+          "a picture",
+          "symbols"
+        ]
+      },
+      "correct": "Says pictures.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Pictures!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "animal classification",
+          "Animal Classification"
+        ]
+      },
+      "correct": "Says animal classification.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Animal Classification)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says so we do not get confused, or so the data match up.",
+      "partial": "Says it is the rule but not why.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: So we don't get confused; so the information looks the same)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "circle",
+          "a circle"
+        ]
+      },
+      "correct": "Says circle.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: A circle)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Four circles!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "legend",
+          "key",
+          "a legend",
+          "a key",
+          "legend or key"
+        ]
+      },
+      "correct": "Says legend.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (we need a legend, or key)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "one animal",
+          "1 animal",
+          "an animal"
+        ]
+      },
+      "correct": "Says one animal.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Each circle stands for one animal)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it is helpful, or it shows the count at once.",
+      "partial": "Says it is the rule but not why.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (it's also helpful to write the total for each category count right on the graph)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "the one with fewer",
+          "fewer",
+          "the group with fewer",
+          "the smaller group"
+        ]
+      },
+      "correct": "Says the one with fewer.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (T: you made sure to put the class with fewer animals first)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "the one with more",
+          "more",
+          "the group with more",
+          "the greater number",
+          "the bigger group"
+        ]
+      },
+      "correct": "Says the one with more.",
+      "partial": null,
+      "incorrect": "Says another answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: The one with more. The one with a greater number of animals)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says point to the extra circles in the mammal group, past the fish group, and count them.",
+      "partial": "Says to compare but not the extra circles.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; the extra circles of the two groups)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes. The circles are the pictures that stand for the data.",
+      "partial": "Says yes but not what the pictures are.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the squares keep pictures neat and in line, in rows or columns.",
+      "partial": "Says it helps but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; Concept Development Part 2)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. Rows or columns show the same data.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says it changes the information.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed; the data are the same)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the information (the data) should be correct and match the table.",
+      "partial": "Names one of the parts again.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Are there labels and symbols? Did they include a legend? Is the information correct?)"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it shows each vote as a picture so we can see and compare the groups.",
+      "partial": "Says it helps but not how.",
+      "incorrect": "Gives an answer that does not match.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (no answer printed)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (11 - 5 = 6; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (16 - 9 = 7; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 1 (11 - 3 = 8; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (12 - 8 = 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (17 - 12 = 5; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework 1 (8 - 4 = 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (12 - 8 = 4; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (20 - 18 = 2; answer not printed)"
+      }
+    },
+    {
+      "id": "r_ps_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set 3 (11 - 8 = 3; answer not printed)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_pictures",
+      "level": 1,
+      "text": "Think about what a picture graph uses to show data.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Part 1 (S: Pictures!)"
+      }
+    },
+    {
+      "id": "h_extra",
+      "level": 2,
+      "text": "Look at the extra pictures in the longer group. Count only those.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (more than and fewer than mean the extra circles)"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 2,
+      "text": "Add the two groups first. Then take away the third group.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (tape diagram)"
+      }
+    },
+    {
+      "id": "h_coin",
+      "level": 1,
+      "text": "A nickel is a silver coin. It is bigger than a penny.",
+      "origin": "generated"
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_picture_graph",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact circle counts, labels, a legend and total labels need exact behaviour. Diffusion cannot count.",
+      "description": "A picture graph with a title, category labels and circles. It has a legend. It can be vertical or horizontal, and can sit on a grid.",
+      "must_show_exactly": [
+        "Exactly the circle counts in the stimulus",
+        "Labels in the same order as the table",
+        "Legend shows what one circle stands for",
+        "Totals written only when the stimulus has them"
+      ],
+      "states_or_frames": [
+        "Animal Classification graph (vertical)",
+        "Animal Habitats graph (horizontal)",
+        "Favorite Class of Animal on grid paper",
+        "blank template"
+      ],
+      "interaction": "Tutor sets the title, categories and counts from the stimulus. Child can add circles. Child answers by voice or typing.",
+      "alt_text": "A picture graph with circles in columns.",
+      "used_by": [
+        "ex_animal_graph",
+        "ex_survey_graph",
+        "exp_circle_symbol",
+        "exp_compare_frames",
+        "exp_grid_paper",
+        "exp_legend",
+        "exp_picture_graph",
+        "exp_title_labels",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_2",
+        "q_ps_3",
+        "q_ps_4",
+        "q_ps_5",
+        "q_ps_6",
+        "q_ps_7",
+        "q_ps_8",
+        "q_ps_9"
+      ],
+      "generation_caption": "Simple picture graph with circles in boxes and a legend, plain white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_compare",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact bar lengths for a comparison need exact behaviour. Diffusion cannot count.",
+      "description": "Two tape diagram bars. One is longer. The difference is a bracket.",
+      "must_show_exactly": [
+        "Bar lengths match the numbers",
+        "Difference shown as a bracket"
+      ],
+      "states_or_frames": [
+        "35 and 17 with a difference bracket",
+        "16 and 19 joined"
+      ],
+      "interaction": "Tutor sets the numbers from the stimulus. Child answers by voice or typing.",
+      "alt_text": "Two bars of different length with a bracket.",
+      "used_by": [
+        "ex_robins_ducks",
+        "q_app_1",
+        "q_app_2"
+      ],
+      "generation_caption": "Two tape diagram bars with a bracket, plain white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_core_fluency",
+      "name": "Core Fluency Differentiated Practice Sets",
+      "reason": "Printed timed sets. No questions made.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency"
+      }
+    },
+    {
+      "id": "na_coin_drop",
+      "name": "Coin Drop with real coins",
+      "reason": "Needs a teacher, real coins and a can. Only the coin name and value questions are used.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Coin Drop"
+      }
+    },
+    {
+      "id": "na_survey",
+      "name": "Class survey of favorite class of animal; draw graphs on templates",
+      "reason": "Needs a class and paper. The widget a_picture_graph replaces the viewing part. Drawing cannot be checked by a voice or text tutor.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development; Problem Set"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0. Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f4",
+      "severity": "medium",
+      "item": "source_refs / page",
+      "issue": "The source is a .md export with no page numbers and no 'derived from' footer. Page is n/a and section names are used. source_version is unknown. Add both from the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects and partners. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_picture_graph, a_tape_compare). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "standards",
+      "issue": "Only the standard codes printed in the fluency lines of this file are listed. The main standard for this lesson is not printed in the .md. Add it from the PDF."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set tables",
+      "issue": "The Animal Habitats and favorite bird (Mr. Clark) tables have no counts in the .md. Questions that need those were not made. Which table belongs to which problem was inferred from the order. Check against the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "Animal Classification data",
+      "issue": "The class table from Lesson 1 is not in the .md. The count 4 birds is used only because the teacher script says four circles."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Application Problem",
+      "issue": "No answer printed. 16 plus 19 is 35. 35 minus 17 is 18."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "ext_g2_compare_tape_diagrams is a prerequisite card that does not exist yet."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson. None added."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "h_coin",
+      "issue": "Generated hint. No hint is in the source for this task. Need review."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

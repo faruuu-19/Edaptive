@@ -1,0 +1,12 @@
+[
+  {"model":"qwen3.5:9b-q4_K_M","backend":"ollama","weight_gb":6.6,"family":"Qwen","purpose":"Current primary Qwen candidate; fixed GGUF quantization, text use only."},
+  {"model":"gemma4:12b-it-q4_K_M","backend":"ollama","weight_gb":8.0,"family":"Gemma","purpose":"Strongest verified Gemma candidate inside the nominal memory budget; close other apps first."},
+  {"model":"script-ministral14b-q4","backend":"ollama","weight_gb":8.239593024,"family":"Mistral","purpose":"Official publisher text-only 14B Q4_K_M GGUF imported locally; SHA-256 verified before staging."},
+  {"model":"ministral-3:14b-instruct-2512-q4_K_M","backend":"ollama","weight_gb":9.1,"family":"Mistral","purpose":"Full Ollama bundle exceeds this machine's conservative memory budget; preflight records the exclusion."},
+  {"model":"ministral-3:8b-instruct-2512-q4_K_M","backend":"ollama","weight_gb":6.0,"family":"Mistral","purpose":"Practical Mistral alternative when 14B is blocked."},
+  {"model":"llama3.1:8b-instruct-q4_K_M","backend":"ollama","weight_gb":4.9,"family":"Llama","purpose":"Largest verified dense Llama instruct size fitting 16 GiB with headroom."},
+  {"model":"qwen3.5:4b-q4_K_M","backend":"ollama","weight_gb":3.3,"family":"Qwen","purpose":"Matched 4B precision control at Q4_K_M."},
+  {"model":"qwen3.5:4b-q8_0","backend":"ollama","weight_gb":5.2,"family":"Qwen","purpose":"Smaller 8-bit candidate to compare precision against larger 4-bit weights."},
+  {"model":"qwen3:8b","backend":"ollama","weight_gb":5.2,"family":"Qwen","purpose":"Already-installed historical baseline; not a current-family winner."},
+  {"model":"qwen2.5:1.5b","backend":"ollama","weight_gb":0.986,"family":"Qwen","purpose":"Already-installed low-resource baseline; not a strongest-model candidate."}
+]

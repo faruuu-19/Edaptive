@@ -1,0 +1,46 @@
+{
+  "$comment": "Single list of every event type the system may log. The session log rejects anything not listed here. Each namespace belongs to one track; only that track adds or changes types in it.",
+  "namespaces": {
+    "tutor": "track-a",
+    "verifier": "track-a",
+    "misconception": "track-a",
+    "mastery": "track-a",
+    "remediation": "track-a",
+    "widget": "track-b",
+    "avatar": "track-b",
+    "student": "track-b",
+    "voice": "track-b",
+    "lesson": "track-b",
+    "replay": "track-b",
+    "reward": "track-b",
+    "nudge": "track-b",
+    "session": "track-c",
+    "auth": "track-c",
+    "profile": "track-c",
+    "curriculum": "track-c",
+    "schedule": "track-c",
+    "assessment": "track-c",
+    "attention": "track-c",
+    "consent": "track-c",
+    "parent": "track-c",
+    "privacy": "track-c"
+  },
+  "events": {
+    "session.started": {
+      "version": 1,
+      "payload": "payloads/session.started.v1.schema.json"
+    },
+    "session.ended": {
+      "version": 1,
+      "payload": "payloads/session.ended.v1.schema.json"
+    },
+    "profile.selected": {
+      "version": 1,
+      "payload": "payloads/profile.selected.v1.schema.json"
+    },
+    "lesson.delivery_changed": {
+      "version": 1,
+      "payload": "payloads/lesson.delivery_changed.v1.schema.json"
+    }
+  }
+}

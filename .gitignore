@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# Node / frontend
+node_modules/
+dist/
+build/
+.next/
+.next-qa/
+*.log
+
+# Data / models (large files don't belong in git)
+*.gguf
+*.safetensors
+*.ckpt
+*.bin
+/data/
+/models/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Local runtime state, credentials, generated jobs and audio
+*.sqlite3
+*.sqlite3-shm
+*.sqlite3-wal
+*.wav
+*.mp3
+*.pcm
+*.onnx
+/runtime-data/
+/artifacts/
+/.assessment_batch/
+/output/
+/demo-audio/
+.venv*/
+pgdata/
+postgres-data/
+/tests/__pycache__/
+!/.env.example
+
+# Teacher 3D models: the two prepared teachers are committed (see frontend/public/avatars/CREDITS.md); stray experiments
+# and the source archives they came from are not
+/frontend/public/avatars/*.glb
+!/frontend/public/avatars/teacher.glb
+!/frontend/public/avatars/teacher-male.glb
+/*.zip
+
+# Output of the development demo and the browser checks
+/tools/dev_demo/lectures/
+/tools/qa/out/

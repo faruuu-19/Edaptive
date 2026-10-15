@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Common identifiers",
+  "$comment": "Content ids follow the format already used in the curriculum data (Faryal's format). Ids never carry a version: versions live in card_version. Never reuse or renumber an id once data references it.",
+  "$defs": {
+    "Uuid": {
+      "type": "string",
+      "format": "uuid",
+      "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+    },
+    "Subject": {
+      "type": "string",
+      "enum": ["math", "english", "science"]
+    },
+    "Grade": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5
+    },
+    "ModuleId": {
+      "description": "<subject>_g<grade>_m<module>, e.g. math_g3_m5",
+      "type": "string",
+      "pattern": "^(math|english|science)_g[1-5]_m[1-9][0-9]*$"
+    },
+    "ConceptId": {
+      "description": "One lesson's concept card: <subject>_g<grade>_m<module>_l<lesson>_<short_name>, e.g. math_g1_m1_l1_embedded_numbers",
+      "type": "string",
+      "pattern": "^(math|english|science)_g[1-5]_m[1-9][0-9]*_l[1-9][0-9]*_[a-z0-9]+(_[a-z0-9]+)*$"
+    },
+    "AssessmentCardId": {
+      "description": "A lesson's assessment card: assess_<concept_id>, e.g. assess_math_g1_m1_l1_embedded_numbers (no version suffix)",
+      "type": "string",
+      "pattern": "^assess_(math|english|science)_g[1-5]_m[1-9][0-9]*_l[1-9][0-9]*_[a-z0-9]+(_[a-z0-9]+)*$"
+    },
+    "ModuleAssessmentId": {
+      "description": "<module_id>_end_of_module_assessment, e.g. math_g1_m1_end_of_module_assessment",
+      "type": "string",
+      "pattern": "^(math|english|science)_g[1-5]_m[1-9][0-9]*_end_of_module_assessment$"
+    },
+    "CardVersion": {
+      "description": "Version of a concept or assessment card. Events record the exact version a child saw.",
+      "type": "integer",
+      "minimum": 1
+    },
+    "Track": {
+      "type": "string",
+      "enum": ["track-a", "track-b", "track-c"]
+    }
+  }
+}

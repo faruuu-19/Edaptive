@@ -1,0 +1,5061 @@
+[
+  {
+    "name": "area_perimeter",
+    "grade": 4,
+    "metaphor": "builders",
+    "source_concept_id": "math_g4_m3_l1_area_perimeter_formulas",
+    "segments": [
+      {
+        "type": "hook",
+        "phase": "main",
+        "outcome": null,
+        "template": "Welcome to the building crew! 🛠️ You get to plan with me today. <CONTENT>",
+        "content": "Use the formulas for the area and perimeter of rectangles.",
+        "text": "Welcome to the building crew! 🛠️ You get to plan with me today. Use the formulas for the area and perimeter of rectangles.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "obj_1"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's walk through our plan together. <CONTENT>",
+        "content": "Perimeter is the distance around a rectangle. Trace the outside and count the units. Or add the lengths of all four sides.",
+        "text": "Let's walk through our plan together. Perimeter is the distance around a rectangle. Trace the outside and count the units. Or add the lengths of all four sides.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_perimeter_trace"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's work through this plan together. <CONTENT>",
+        "content": "A 4 by 7 rectangle. The rectangle is 4 units wide and 7 units long. Its perimeter is 22 units. Its area is 28 square units.",
+        "text": "Let's work through this plan together. A 4 by 7 rectangle. The rectangle is 4 units wide and 7 units long. Its perimeter is 22 units. Its area is 28 square units.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "ex_rect_4x7"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "What does perimeter measure?",
+        "text": "What would you check in your plan?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_perimeter_trace"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can keep this handy in your building kit. <CONTENT>",
+        "content": "Opposite sides are equal. So you can double the length and double the width. Or add the length and width, then double that sum.",
+        "text": "You can keep this handy in your building kit. Opposite sides are equal. So you can double the length and double the width. Or add the length and width, then double that sum.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_perimeter_formulas"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can follow the steps at your own pace. <CONTENT>",
+        "content": "Perimeter of a 3 by 9 rectangle. Add 3 plus 9 to get 12. Double 12 to get 24. The perimeter is 24 units.",
+        "text": "You can follow the steps at your own pace. Perimeter of a 3 by 9 rectangle. Add 3 plus 9 to get 12. Double 12 to get 24. The perimeter is 24 units.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "ex_rect_3x9"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Here's another plan for you to explore. <CONTENT>",
+        "content": "Two ways to check perimeter. A rectangle is 2 wide and 4 long. Add 2 plus 4 to get 6, then double it to get 12. Or double 2 and double 4 to get 4 plus 8, which is 12.",
+        "text": "Here's another plan for you to explore. Two ways to check perimeter. A rectangle is 2 wide and 4 long. Add 2 plus 4 to get 6, then double it to get 12. Or double 2 and double 4 to get 4 plus 8, which is 12.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "ex_check_2x4"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "Your turn to think. <CONTENT>",
+        "content": "How can equal opposite sides help you find perimeter?",
+        "text": "Can you talk me through how you would start?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_perimeter_formulas"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "Now let's look closely at our building plan. <CONTENT>",
+        "content": "Area is the number of square units inside. Count the squares. Or skip count the rows. Or multiply length times width.",
+        "text": "Now let's look closely at our building plan. Area is the number of square units inside. Count the squares. Or skip count the rows. Or multiply length times width.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_area_formula"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's check our work together. <CONTENT>",
+        "content": "Area of a 3 by 9 rectangle. Nine rows of 3 squares make an array. Multiply 9 times 3. The area is 27 square units.",
+        "text": "Let's check our work together. Area of a 3 by 9 rectangle. Nine rows of 3 squares make an array. Multiply 9 times 3. The area is 27 square units.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "ex_area_3x9"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "Let’s pause here. <CONTENT>",
+        "content": "What does area count?",
+        "text": "What would you pay attention to here?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_area_formula"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can pause and look for a useful clue. <CONTENT>",
+        "content": "For perimeter, take away the known sides and share the rest. For area, divide the area by the known side.",
+        "text": "You can pause and look for a useful clue. For perimeter, take away the known sides and share the rest. For area, divide the area by the known side.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_unknown_side"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can look for the clue that helps us start. <CONTENT>",
+        "content": "Unknown length from the perimeter. The width is 5 and the perimeter is 26. Two widths make 10. The other two sides make 26 minus 10, which is 16. Each length is 8.",
+        "text": "You can look for the clue that helps us start. Unknown length from the perimeter. The width is 5 and the perimeter is 26. Two widths make 10. The other two sides make 26 minus 10, which is 16. Each length is 8.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "ex_unknown_p"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's compare the choices in our building kit. <CONTENT>",
+        "content": "Unknown width from the area. The area is 50 square centimeters and the length is 10 centimeters. Divide 50 by 10. The width is 5 centimeters.",
+        "text": "Let's compare the choices in our building kit. Unknown width from the area. The area is 50 square centimeters and the length is 10 centimeters. Divide 50 by 10. The width is 5 centimeters.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "ex_unknown_a"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "Which information helps you find a missing side?",
+        "text": "What clue would help you begin?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_unknown_side"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's explore the choices in our plan. <CONTENT>",
+        "content": "One area can come from many rectangles. List each pair of whole numbers that multiply to the area. Then find each perimeter.",
+        "text": "Let's explore the choices in our plan. One area can come from many rectangles. List each pair of whole numbers that multiply to the area. Then find each perimeter.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_area_pairs"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_factor_table"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's work through this plan together. <CONTENT>",
+        "content": "Rectangles with area 24. Four rectangles work. They are 1 by 24, 2 by 12, 3 by 8 and 4 by 6. Their perimeters are 50, 28, 22 and 20.",
+        "text": "Let's work through this plan together. Rectangles with area 24. Four rectangles work. They are 1 by 24, 2 by 12, 3 by 8 and 4 by 6. Their perimeters are 50, 28, 22 and 20.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "ex_pairs_24"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_factor_table"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "Your turn to think. <CONTENT>",
+        "content": "How could you describe a factor pair?",
+        "text": "How would you check your reasoning?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_area_pairs"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "Before you finish, check the labels in your plan. <CONTENT>",
+        "content": "Perimeter is a length, so it uses units like centimeters. Area counts squares, so it uses square units like square centimeters.",
+        "text": "Before you finish, check the labels in your plan. Perimeter is a length, so it uses units like centimeters. Area counts squares, so it uses square units like square centimeters.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_units"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can follow the steps at your own pace. <CONTENT>",
+        "content": "A 4 by 7 rectangle. The rectangle is 4 units wide and 7 units long. Its perimeter is 22 units. Its area is 28 square units.",
+        "text": "You can follow the steps at your own pace. A 4 by 7 rectangle. The rectangle is 4 units wide and 7 units long. Its perimeter is 22 units. Its area is 28 square units.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "ex_rect_4x7"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "a_rect_grid"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "Let’s pause here. <CONTENT>",
+        "content": "Why do the units matter?",
+        "text": "What would you check before you finish?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "exp_units"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "main",
+        "outcome": null,
+        "template": "Your building kit is ready. Let's try the check-in together! <CONTENT>",
+        "content": "",
+        "text": "Your building kit is ready. Let's try the check-in together!",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "obj_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "root_question",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle is 4 units wide and 7 units long. What is its perimeter?",
+        "text": "You're in charge of this plan. Take your time. A rectangle is 4 units wide and 7 units long. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_easy"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "You did it! Let's keep going. <CONTENT>",
+        "content": "",
+        "text": "You did it! Let's keep going.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_easy"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "partial",
+        "template": "You can keep working on this. Let's revisit what needs another try. <CONTENT>",
+        "content": "",
+        "text": "You can keep working on this. Let's revisit what needs another try.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_easy"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "You can try again. I'm here to help you think it through. <CONTENT>",
+        "content": "",
+        "text": "You can try again. I'm here to help you think it through.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_easy"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "",
+        "text": "Could you say your answer again? I want to understand your thinking.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_easy"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Perimeter is the distance around the rectangle. Think about all four sides.",
+        "text": "Let's look at a helpful clue together. Perimeter is the distance around the rectangle. Think about all four sides.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_easy"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_trace"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "Add the length and the width. Then double the sum.",
+        "text": "You can use this clue to take another look. Add the length and the width. Then double the sum.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_easy"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_formula"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "The answer is 22.",
+        "text": "You kept trying. Let's work through this together. The answer is 22.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_easy"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_2"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "root_question",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle has an area of 32 square meters. Its length is 8 meters. What is its width?",
+        "text": "Let's see how you would approach the next plan. A rectangle has an area of 32 square meters. Its length is 8 meters. What is its width?",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_medium"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_16"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "Your careful work paid off. You can feel proud of your effort! <CONTENT>",
+        "content": "",
+        "text": "Your careful work paid off. You can feel proud of your effort!",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_medium"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_16"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_16"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "partial",
+        "template": "You can keep working on this. Let's revisit what needs another try. <CONTENT>",
+        "content": "",
+        "text": "You can keep working on this. Let's revisit what needs another try.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_medium"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_16"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_16"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "Let's pause and take another look. <CONTENT>",
+        "content": "",
+        "text": "Let's pause and take another look together.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_medium"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_16"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_16"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "",
+        "text": "Could you say your answer again? I want to understand your thinking.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_medium"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_16"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_16"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "Area equals length times width. Divide the area by the side you know.",
+        "text": "Let's pause and work with this clue. Area equals length times width. Divide the area by the side you know.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_medium"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_16"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_unknown_a"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "The answer is 4.",
+        "text": "You kept trying. Let's work through this together. The answer is 4.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_medium"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_16"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_16"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "root_question",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "A rectangle has an area of 32 square centimeters and a perimeter of 24 centimeters. The sides are whole numbers. What are the length and width?",
+        "text": "You've reached a new challenge. Tell me how you think it through. A rectangle has an area of 32 square centimeters and a perimeter of 24 centimeters. The sides are whole numbers. What are the length and width?",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_ps_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "You did it! Let's keep going. <CONTENT>",
+        "content": "",
+        "text": "You did it! Let's keep going.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_ps_1"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_ps_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "partial",
+        "template": "You can keep working on this. Let's revisit what needs another try. <CONTENT>",
+        "content": "",
+        "text": "You can keep working on this. Let's revisit what needs another try.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_ps_1"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_ps_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "You can try again. I'm here to help you think it through. <CONTENT>",
+        "content": "",
+        "text": "You can try again. I'm here to help you think it through.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_ps_1"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_ps_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "",
+        "text": "Could you say your answer again? I want to understand your thinking.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_ps_1"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_ps_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Find pairs of whole numbers that multiply to the area. Then check the perimeter.",
+        "text": "Let's look at a helpful clue together. Find pairs of whole numbers that multiply to the area. Then check the perimeter.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_ps_1"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_pairs"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "Subtract the sides you know from the perimeter. Share what is left between the matching sides.",
+        "text": "You can use this clue to take another look. Subtract the sides you know from the perimeter. Share what is left between the matching sides.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_ps_1"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_unknown_p"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "The answer is 8 and 4.",
+        "text": "You kept trying. Let's work through this together. The answer is 8 and 4.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "aq_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_ps_1"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_ps_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "follow_up_question",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle has an area of 63 square centimeters. Its width is 7 centimeters. What is its length?",
+        "text": "Let's take our time with a helpful question. A rectangle has an area of 63 square centimeters. Its width is 7 centimeters. What is its length?",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "fu_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_17"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "Your careful work paid off. You can feel proud of your effort! <CONTENT>",
+        "content": "",
+        "text": "Your careful work paid off. You can feel proud of your effort!",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "fu_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_17"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_17"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "Let's pause and take another look. <CONTENT>",
+        "content": "",
+        "text": "Let's pause and take another look together.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "fu_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_17"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_17"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "",
+        "text": "Could you say your answer again? I want to understand your thinking.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "fu_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_17"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_17"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "Area equals length times width. Divide the area by the side you know.",
+        "text": "Let's pause and work with this clue. Area equals length times width. Divide the area by the side you know.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "fu_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_17"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_unknown_a"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "The answer is 9.",
+        "text": "You kept trying. Let's work through this together. The answer is 9.",
+        "source_refs": [
+          {
+            "card_id": "benchmark_assess_math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "this_card",
+            "id": "fu_hard"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_17"
+          },
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "r_pr_17"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle is 5 units long and 2 units wide. What is the sum of its two longest sides?",
+        "text": "You can try this when you want another challenge. A rectangle is 5 units long and 2 units wide. What is the sum of its two longest sides?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "The same rectangle is 5 units long and 2 units wide. What is the sum of its two shortest sides?",
+        "text": "Here's another question for you to explore. The same rectangle is 5 units long and 2 units wide. What is the sum of its two shortest sides?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_2"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle is 5 units long and 2 units wide. What is its perimeter?",
+        "text": "You can try this when you want another challenge. A rectangle is 5 units long and 2 units wide. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_3"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle is 5 units long and 2 units wide. What is its area?",
+        "text": "Here's another question for you to explore. A rectangle is 5 units long and 2 units wide. What is its area?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_4"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "A rectangle is 3 units long and 4 units wide. What is its perimeter?",
+        "text": "You can try this when you want another challenge. A rectangle is 3 units long and 4 units wide. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_5"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle is 3 units long and 4 units wide. What is its area?",
+        "text": "Here's another question for you to explore. A rectangle is 3 units long and 4 units wide. What is its area?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_6"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle is 7 units long and 3 units wide. What is its perimeter?",
+        "text": "You can try this when you want another challenge. A rectangle is 7 units long and 3 units wide. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_7"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "A rectangle is 7 units long and 3 units wide. What is its area?",
+        "text": "Here's another question for you to explore. A rectangle is 7 units long and 3 units wide. What is its area?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_8"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "What is 1 times 1?",
+        "text": "You can try this when you want another challenge. What is 1 times 1?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_9"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "What is 2 times 2?",
+        "text": "Here's another question for you to explore. What is 2 times 2?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_10"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "What is 10 times 10?",
+        "text": "You can try this when you want another challenge. What is 10 times 10?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_11"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "What is 5 times 5?",
+        "text": "Here's another question for you to explore. What is 5 times 5?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_12"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "What is 3 times 3?",
+        "text": "You can try this when you want another challenge. What is 3 times 3?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_13"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "What is 6 times 6?",
+        "text": "Here's another question for you to explore. What is 6 times 6?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_14"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "What is 8 times 8?",
+        "text": "You can try this when you want another challenge. What is 8 times 8?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_15"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "What is 4 times 4?",
+        "text": "Here's another question for you to explore. What is 4 times 4?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_16"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "What is 7 times 7?",
+        "text": "You can try this when you want another challenge. What is 7 times 7?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_17"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "What is 9 times 9?",
+        "text": "Here's another question for you to explore. What is 9 times 9?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_18"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "3 times what number equals 12?",
+        "text": "You can try this when you want another challenge. 3 times what number equals 12?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_19"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "4 times what number equals 12?",
+        "text": "Here's another question for you to explore. 4 times what number equals 12?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_20"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "4 times what number equals 24?",
+        "text": "You can try this when you want another challenge. 4 times what number equals 24?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_21"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "3 times what number equals 24?",
+        "text": "Here's another question for you to explore. 3 times what number equals 24?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_22"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "6 times what number equals 12?",
+        "text": "You can try this when you want another challenge. 6 times what number equals 12?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_23"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "6 times what number equals 24?",
+        "text": "Here's another question for you to explore. 6 times what number equals 24?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_24"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "3 times what number equals 18?",
+        "text": "You can try this when you want another challenge. 3 times what number equals 18?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pk_25"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "What do we call the distance around a rectangle?",
+        "text": "Here's another question for you to explore. What do we call the distance around a rectangle?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle is 4 units wide and 7 units long. What is its area?",
+        "text": "You can try this when you want another challenge. A rectangle is 4 units wide and 7 units long. What is its area?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_3"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle is 3 units wide and 9 units long. You add all four sides. What is the perimeter?",
+        "text": "Here's another question for you to explore. A rectangle is 3 units wide and 9 units long. You add all four sides. What is the perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_4"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "You trace one width and one length of the 3 by 9 rectangle. How many units is that?",
+        "text": "You can try this when you want another challenge. You trace one width and one length of the 3 by 9 rectangle. How many units is that?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_5"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "The length plus the width is 12 units. What is 12 doubled?",
+        "text": "Here's another question for you to explore. The length plus the width is 12 units. What is 12 doubled?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_6"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle is 2 units wide and 4 units long. What is its perimeter?",
+        "text": "You can try this when you want another challenge. A rectangle is 2 units wide and 4 units long. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_7"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "A rectangle is 5 units wide and 6 units long. What is its perimeter?",
+        "text": "Here's another question for you to explore. A rectangle is 5 units wide and 6 units long. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_8"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle has a perimeter of 26 units. The two widths are 5 units each. What is the sum of the two lengths?",
+        "text": "You can try this when you want another challenge. A rectangle has a perimeter of 26 units. The two widths are 5 units each. What is the sum of the two lengths?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_9"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "Now the two lengths together are 16 units. How long is one length?",
+        "text": "Here's another question for you to explore. Now the two lengths together are 16 units. How long is one length?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_10"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "The perimeter of a rectangle is 26 units. What is half of the perimeter?",
+        "text": "You can try this when you want another challenge. The perimeter of a rectangle is 26 units. What is half of the perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_11"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle has a perimeter of 28 centimeters. Its length is 8 centimeters. What is its width?",
+        "text": "Here's another question for you to explore. A rectangle has a perimeter of 28 centimeters. Its length is 8 centimeters. What is its width?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_12"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle is 3 units wide and 9 units long. What is its area?",
+        "text": "You can try this when you want another challenge. A rectangle is 3 units wide and 9 units long. What is its area?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_13"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "Is area labeled with units or square units?",
+        "text": "Here's another question for you to explore. Is area labeled with units or square units?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_14"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle has an area of 50 square centimeters. Its length is 10 centimeters. What is its width?",
+        "text": "You can try this when you want another challenge. A rectangle has an area of 50 square centimeters. Its length is 10 centimeters. What is its width?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_15"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle has an area of 24 square units. Its length is 3 units. What is its width?",
+        "text": "Here's another question for you to explore. A rectangle has an area of 24 square units. Its length is 3 units. What is its width?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_18"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "Another rectangle has an area of 24 square units. Its length is 4 units. What is its width?",
+        "text": "You can try this when you want another challenge. Another rectangle has an area of 24 square units. Its length is 4 units. What is its width?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_19"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle has an area of 24 square units. Its length is 12 units. What is its width?",
+        "text": "Here's another question for you to explore. A rectangle has an area of 24 square units. Its length is 12 units. What is its width?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_20"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle is 3 units by 8 units. Its area is 24 square units. What is its perimeter?",
+        "text": "You can try this when you want another challenge. A rectangle is 3 units by 8 units. Its area is 24 square units. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_21"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "A rectangle is 4 units by 6 units. Its area is 24 square units. What is its perimeter?",
+        "text": "Here's another question for you to explore. A rectangle is 4 units by 6 units. Its area is 24 square units. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_22"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle is 2 units by 12 units. Its area is 24 square units. What is its perimeter?",
+        "text": "You can try this when you want another challenge. A rectangle is 2 units by 12 units. Its area is 24 square units. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_23"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A rectangle is 1 unit by 24 units. Its area is 24 square units. What is its perimeter?",
+        "text": "Here's another question for you to explore. A rectangle is 1 unit by 24 units. Its area is 24 square units. What is its perimeter?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_24"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "How many different rectangles have an area of 24 square units and whole number sides? A 3 by 8 and an 8 by 3 count as one.",
+        "text": "You can try this when you want another challenge. How many different rectangles have an area of 24 square units and whole number sides? A 3 by 8 and an 8 by 3 count as one.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_pr_25"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "A rectangle has an area of 36 square meters and a perimeter of 30 meters. The sides are whole numbers. What are the length and width?",
+        "text": "Here's another question for you to explore. A rectangle has an area of 36 square meters and a perimeter of 30 meters. The sides are whole numbers. What are the length and width?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_ps_2"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "What is a formula for the perimeter of a rectangle? Which formula is the fastest for you?",
+        "text": "You can try this when you want another challenge. What is a formula for the perimeter of a rectangle? Which formula is the fastest for you?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_db_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "Perimeter and area use different units. What units does each one use?",
+        "text": "Here's another question for you to explore. Perimeter and area use different units. What units does each one use?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "q_db_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Opposite sides are equal. Write all four sides, then add them.",
+        "text": "You can use this clue when you need it. Opposite sides are equal. Write all four sides, then add them.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_formula3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Area counts the squares inside. Think of rows of squares, or length times width.",
+        "text": "You can use this clue when you need it. Area counts the squares inside. Think of rows of squares, or length times width.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_area"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "A square has four equal sides. Use the same number twice.",
+        "text": "You can use this clue when you need it. A square has four equal sides. Use the same number twice.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_square"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Think of the number that makes the product. Check it by multiplying.",
+        "text": "You can use this clue when you need it. Think of the number that makes the product. Check it by multiplying.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_factor"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Think about what you did in the lesson. Use math words in your answer.",
+        "text": "You can use this clue when you need it. Think about what you did in the lesson. Use math words in your answer.",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "h_explain"
+          }
+        ]
+      },
+      {
+        "type": "recap",
+        "phase": "main",
+        "outcome": null,
+        "template": "You kept thinking and checking like a careful builder! 🌟 <CONTENT> How would you explain your approach?",
+        "content": "Use the formulas for the area and perimeter of rectangles.",
+        "text": "You kept thinking and checking like a careful builder! 🌟 Use the formulas for the area and perimeter of rectangles. How would you explain your approach?",
+        "source_refs": [
+          {
+            "card_id": "math_g4_m3_l1_area_perimeter_formulas",
+            "scope": "concept_card",
+            "id": "obj_1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "grade1",
+    "grade": 1,
+    "metaphor": "detectives",
+    "source_concept_id": "math_g1_m1_l1_embedded_numbers",
+    "segments": [
+      {
+        "type": "hook",
+        "phase": "main",
+        "outcome": null,
+        "template": "Ready, detective? You can find hidden clues today! 🔎 <CONTENT>",
+        "content": "Find numbers hiding inside a number up to 10. Show them with 5-groups and number bonds.",
+        "text": "Ready, detective? You can find hidden clues today! 🔎 Find numbers hiding inside a number up to 10. Show them with 5-groups and number bonds.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "obj_1"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can look for a hidden clue. <CONTENT>",
+        "content": "Let's be number detectives! A number can have smaller numbers hiding inside it. Look at 5 beads. I can see 2 hiding inside the 5.",
+        "text": "You can look for a hidden clue. Let's be number detectives! A number can have smaller numbers hiding inside it. Look at 5 beads. I can see 2 hiding inside the 5.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "exp_detective"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_egg_carton_board"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's try this together. <CONTENT>",
+        "content": "Parts of 5: 2 and 3. 5 beads are in the top row. Cover 2 beads. The other part is 3. Number bond: total 5, parts 2 and 3.",
+        "text": "Let's try this together. Parts of 5: 2 and 3. 5 beads are in the top row. Cover 2 beads. The other part is 3. Number bond: total 5, parts 2 and 3.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "ex_5_two_three"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_egg_carton_board"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "What do you notice about the groups?",
+        "text": "What do you notice, detective?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "exp_detective"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's look at how the clues fit. <CONTENT>",
+        "content": "A number bond shows a big number and the parts hiding inside it. The big number is the total, or the whole. The smaller numbers are the parts. 2 and 3 are the parts of 5.",
+        "text": "Let's look at how the clues fit. A number bond shows a big number and the parts hiding inside it. The big number is the total, or the whole. The smaller numbers are the parts. 2 and 3 are the parts of 5.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "exp_total_parts"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can follow along with me. <CONTENT>",
+        "content": "Parts of 5: 2 and 3. 5 beads are in the top row. Cover 2 beads. The other part is 3. Number bond: total 5, parts 2 and 3.",
+        "text": "You can follow along with me. Parts of 5: 2 and 3. 5 beads are in the top row. Cover 2 beads. The other part is 3. Number bond: total 5, parts 2 and 3.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "ex_5_two_three"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_egg_carton_board"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "Your turn to think. <CONTENT>",
+        "content": "How do the parts fit together?",
+        "text": "What would you try next?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "exp_total_parts"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "Now you can spot a group. <CONTENT>",
+        "content": "Look at 7 beads. There is a row of 5 and 2 more. Draw 5 dots for one part and 2 dots for the other part. Now count on from 5: five, 6, 7. The total is 7.",
+        "text": "Now you can spot a group. Look at 7 beads. There is a row of 5 and 2 more. Draw 5 dots for one part and 2 dots for the other part. Now count on from 5: five, 6, 7. The total is 7.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "exp_five_group_count_on"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_egg_carton_board"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_five_group_dots"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's try this together. <CONTENT>",
+        "content": "Parts of 7: 5 and 2. 7 beads: 5 in the top row and 2 in the bottom row. Number bond: total 7, parts 5 and 2. Count on from 5: five, 6, 7.",
+        "text": "Let's try this together. Parts of 7: 5 and 2. 7 beads: 5 in the top row and 2 in the bottom row. Number bond: total 7, parts 5 and 2. Count on from 5: five, 6, 7.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "ex_7_five_two"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_egg_carton_board"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_five_group_dots"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "Let’s pause here. <CONTENT>",
+        "content": "What helps you count on?",
+        "text": "Can you tell me what helped you?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "exp_five_group_count_on"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "Your hands can help you look for clues. <CONTENT>",
+        "content": "You can show numbers with your fingers. To show 6, hold up all 5 fingers on one hand and 1 finger on the other hand. Can you see the 5 inside the 6?",
+        "text": "Your hands can help you look for clues. You can show numbers with your fingers. To show 6, hold up all 5 fingers on one hand and 1 finger on the other hand. Can you see the 5 inside the 6?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "exp_fingers_math_way"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_fingers_flash"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can follow along with me. <CONTENT>",
+        "content": "Fingers the Math Way. You can show numbers with your fingers. To show 6, hold up all 5 fingers on one hand and 1 finger on the other hand. Can you see the 5 inside the 6?",
+        "text": "You can follow along with me. Fingers the Math Way. You can show numbers with your fingers. To show 6, hold up all 5 fingers on one hand and 1 finger on the other hand. Can you see the 5 inside the 6?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "exp_fingers_math_way"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_fingers_flash"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "How could your fingers show the groups?",
+        "text": "What clue would you look for?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "exp_fingers_math_way"
+          }
+        ]
+      },
+      {
+        "type": "watch_out",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can pause and take another look. <CONTENT>",
+        "content": "Nice counting! Here is a faster way. You can see the 5 right away. Start at 5, then count on: five, 6, 7.",
+        "text": "You can pause and take another look. Nice counting! Here is a faster way. You can see the 5 right away. Start at 5, then count on: five, 6, 7.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "mis_touch_count"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "main",
+        "outcome": null,
+        "template": "Now it's your turn, detective. Tell me what you think. <CONTENT>",
+        "content": "",
+        "text": "Now it's your turn, detective. Tell me what you think.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "obj_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "root_question",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "There are 5 beads in the top row. Cover 2 of them. What is the other part of 5?",
+        "text": "You can take your time. There are 5 beads in the top row. Cover 2 of them. What is the other part of 5?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_egg_carton_board"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "You did it! Let's keep going. <CONTENT>",
+        "content": "Yes. The other part is 3.",
+        "text": "You did it! Let's keep going. Yes. The other part is 3.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "r_pr_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "You can try again. I'm here to help you think it through. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "r_pr_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Please say one number for your answer.",
+        "text": "Could you say your answer again? I want to understand your thinking. Please say one number for your answer.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "r_pr_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Look at the beads you can still see.",
+        "text": "Let's look at a helpful clue together. Look at the beads you can still see.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_aq_easy_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "Cover only 2 of the 5 beads. The uncovered beads are the other part.",
+        "text": "You can use this clue to take another look. Cover only 2 of the 5 beads. The uncovered beads are the other part.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_aq_easy_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "Touch each uncovered bead once and count it. Stop before counting the covered beads.",
+        "text": "Let's pause and work with this clue. Touch each uncovered bead once and count it. Stop before counting the covered beads.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_aq_easy_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. There are 5 beads altogether. Covering 2 leaves 3 uncovered: 5 - 2 = 3. The other part is 3.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. There are 5 beads altogether. Covering 2 leaves 3 uncovered: 5 - 2 = 3. The other part is 3.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "r_pr_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "root_question",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "Lina has 9 stamps. She puts 4 on a book. The other stamps are on the table. Think of the stamps as two parts of 9. How many stamps are on the table?",
+        "text": "Let's look for the next clue. Lina has 9 stamps. She puts 4 on a book. The other stamps are on the table. Think of the stamps as two parts of 9. How many stamps are on the table?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "Your careful work paid off. You can feel proud of your effort! <CONTENT>",
+        "content": "Yes. 5 stamps are outside the book.",
+        "text": "Your careful work paid off. You can feel proud of your effort! Yes. 5 stamps are outside the book.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "Let's pause and take another look. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "Let's pause and take another look together. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Please say one number for your answer.",
+        "text": "Could you say your answer again? I want to understand your thinking. Please say one number for your answer.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Think about the whole group and the part in the book.",
+        "text": "Let's look at a helpful clue together. Think about the whole group and the part in the book.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_aq_med_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "Start with 9 stamps and take away the 4 stamps in the book.",
+        "text": "You can use this clue to take another look. Start with 9 stamps and take away the 4 stamps in the book.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_aq_med_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "Draw 9 small dots. Cross out 4 and count the dots left.",
+        "text": "Let's pause and work with this clue. Draw 9 small dots. Cross out 4 and count the dots left.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_aq_med_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. There are 9 stamps altogether. 4 are in the book: 9 - 4 = 5. 5 stamps are outside the book.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. There are 9 stamps altogether. 4 are in the book: 9 - 4 = 5. 5 stamps are outside the book.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "root_question",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "You have 4 toy ducks in a bag and 6 toy ducks on a table. Think of them as one whole. Then show the whole as 5 and some more.\nCount the ducks in both groups. How many ducks are in the whole?\nUse your whole from the first part. Make 5 one part of a number bond. How many ducks are in the other part?\nCheck the other part a different way. Start at 5 and count on to your whole. How many counts do you make?",
+        "text": "You can tell me how you think about it. You have 4 toy ducks in a bag and 6 toy ducks on a table. Think of them as one whole. Then show the whole as 5 and some more.\nCount the ducks in both groups. How many ducks are in the whole?\nUse your whole from the first part. Make 5 one part of a number bond. How many ducks are in the other part?\nCheck the other part a different way. Start at 5 and count on to your whole. How many counts do you make?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "You did it! Let's keep going. <CONTENT>",
+        "content": "Yes. The missing part is 5; the count-on check agrees.",
+        "text": "You did it! Let's keep going. Yes. The missing part is 5; the count-on check agrees.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "partial",
+        "template": "You can keep working on this. Let's revisit what needs another try. <CONTENT>",
+        "content": "You have some parts right. Keep those answers, and let us check the other parts.",
+        "text": "You can keep working on this. Let's revisit what needs another try. You have some parts right. Keep those answers, and let us check the other parts.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "You can try again. I'm here to help you think it through. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Tell me an answer for each question, one at a time.",
+        "text": "Could you say your answer again? I want to understand your thinking. Tell me an answer for each question, one at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incomplete",
+        "template": "You can take your time. Let's try the remaining parts. <CONTENT>",
+        "content": "You have answered part of the question. Let us finish the questions you have not answered yet.",
+        "text": "You can take your time. Let's try the remaining parts. You have answered part of the question. Let us finish the questions you have not answered yet.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "First join the two duck groups. Then find the missing part and check it.",
+        "text": "Let's look at a helpful clue together. First join the two duck groups. Then find the missing part and check it.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_aq_hard_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "For part 1, join 4 and 6. For part 2, split that whole into 5 and a missing part.",
+        "text": "You can use this clue to take another look. For part 1, join 4 and 6. For part 2, split that whole into 5 and a missing part.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_aq_hard_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "For part 3, start at 5 and count up to the whole from part 1. Count how many steps you take.",
+        "text": "Let's pause and work with this clue. For part 3, start at 5 and count up to the whole from part 1. Count how many steps you take.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_aq_hard_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. Part 1: 4 + 6 = 10 ducks. Part 2: 10 - 5 = 5 ducks in the other part. Part 3: counting from 5 to 10 takes 5 steps. The missing part is 5; the count-on check agrees.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. Part 1: 4 + 6 = 10 ducks. Part 2: 10 - 5 = 5 ducks in the other part. Part 3: counting from 5 to 10 takes 5 steps. The missing part is 5; the count-on check agrees.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "follow_up_question",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "Let's try an easier one: You have 4 stamps. You put 1 on a book. How many stamps are in the other part?",
+        "text": "Let's take our time with a helpful question. Let's try an easier one: You have 4 stamps. You put 1 on a book. How many stamps are in the other part?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "Your careful work paid off. You can feel proud of your effort! <CONTENT>",
+        "content": "Yes. 3 stamps are outside the book.",
+        "text": "Your careful work paid off. You can feel proud of your effort! Yes. 3 stamps are outside the book.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "Let's pause and take another look. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "Let's pause and take another look together. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Please say one number for your answer.",
+        "text": "Could you say your answer again? I want to understand your thinking. Please say one number for your answer.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Look for the stamps that are outside the book.",
+        "text": "Let's look at a helpful clue together. Look for the stamps that are outside the book.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "There are 4 stamps altogether and 1 is in the book. Take away that 1.",
+        "text": "You can use this clue to take another look. There are 4 stamps altogether and 1 is in the book. Take away that 1.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "Draw 4 dots and cross out 1. Count the dots left.",
+        "text": "Let's pause and work with this clue. Draw 4 dots and cross out 1. Count the dots left.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. 4 - 1 = 3. 3 stamps are outside the book.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. 4 - 1 = 3. 3 stamps are outside the book.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "follow_up_question",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "Let's try an easier one: You have 4 toy ducks in a bag and 6 toy ducks on a table. Count the ducks in both groups. How many ducks are in the whole?",
+        "text": "Let's take our time with a helpful question. Let's try an easier one: You have 4 toy ducks in a bag and 6 toy ducks on a table. Count the ducks in both groups. How many ducks are in the whole?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "You did it! Let's keep going. <CONTENT>",
+        "content": "Yes. There are 10 ducks in the joined group.",
+        "text": "You did it! Let's keep going. Yes. There are 10 ducks in the joined group.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "You can try again. I'm here to help you think it through. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Please say one number for your answer.",
+        "text": "Could you say your answer again? I want to understand your thinking. Please say one number for your answer.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Join both duck groups.",
+        "text": "Let's look at a helpful clue together. Join both duck groups.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "Start at 6 and count on 4 more ducks.",
+        "text": "You can use this clue to take another look. Start at 6 and count on 4 more ducks.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "Say the next 4 numbers after 6. The last number is the whole.",
+        "text": "Let's pause and work with this clue. Say the next 4 numbers after 6. The last number is the whole.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. 4 + 6 = 10. There are 10 ducks in the joined group.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. 4 + 6 = 10. There are 10 ducks in the joined group.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g1_m1_l1_embedded_numbers_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "I will show some fingers very fast. Look carefully! How many fingers did you see?",
+        "text": "You can try this when you want another challenge. I will show some fingers very fast. Look carefully! How many fingers did you see?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pk_1"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_fingers_flash"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "Here are 5 fingers on one hand. Now I show 2 more fingers on the other hand. Count on from 5. How many fingers in all?",
+        "text": "Here's another question for you to explore. Here are 5 fingers on one hand. Now I show 2 more fingers on the other hand. Count on from 5. How many fingers in all?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pk_2"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_fingers_flash"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "2 and 3 are parts of 5. Can you find two different parts that make 5?",
+        "text": "You can try this when you want another challenge. 2 and 3 are parts of 5. Can you find two different parts that make 5?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_egg_carton_board"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "Now there are 7 beads: 5 in the top row and 2 in the bottom row. Cover the 5. What is the other part of 7?",
+        "text": "Here's another question for you to explore. Now there are 7 beads: 5 in the top row and 2 in the bottom row. Cover the 5. What is the other part of 7?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_3"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_egg_carton_board"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "You have 5 dots as one part and 2 dots as the other part. Count on from 5 to find the total. What is the total?",
+        "text": "You can try this when you want another challenge. You have 5 dots as one part and 2 dots as the other part. Count on from 5 to find the total. What is the total?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_4"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_five_group_dots"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "Look at 7 beads. What numbers can you see hiding inside the 7? Tell me how you see them.",
+        "text": "Here's another question for you to explore. Look at 7 beads. What numbers can you see hiding inside the 7? Tell me how you see them.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_pr_5"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_egg_carton_board"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "Eight fingernails have nail polish. One hand has 5 fingernails. Make 5 one part of the number bond. What is the other part of 8?",
+        "text": "You can try this when you want another challenge. Eight fingernails have nail polish. One hand has 5 fingernails. Make 5 one part of the number bond. What is the other part of 8?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_ps_5"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_nail_polish_hands"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "Six fingernails have nail polish. One hand has 5 fingernails. Make 5 one part of the number bond. What is the other part of 6?",
+        "text": "Here's another question for you to explore. Six fingernails have nail polish. One hand has 5 fingernails. Make 5 one part of the number bond. What is the other part of 6?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_ps_6"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_nail_polish_hands"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_number_bond_widget"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "Dora found 5 leaves that blew in through the window. Then she found 2 more leaves. How many leaves did Dora find in all? Show your thinking.",
+        "text": "You can try this when you want another challenge. Dora found 5 leaves that blew in through the window. Then she found 2 more leaves. How many leaves did Dora find in all? Show your thinking.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_app_1"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_dora_leaves_story"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "Look at 8 soccer balls and 9 pencils. What is the same about them?",
+        "text": "Here's another question for you to explore. Look at 8 soccer balls and 9 pencils. What is the same about them?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "q_db_1"
+          },
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "a_soccer_pencil_images"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "You do not have to count one by one. Can you see 2 or 3 together at once?",
+        "text": "You can use this clue when you need it. You do not have to count one by one. Can you see 2 or 3 together at once?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "h_nocount"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Look at the top row first. How many beads are in it?",
+        "text": "You can use this clue when you need it. Look at the top row first. How many beads are in it?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "h_5row"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Cover the part you know. How many beads can you still see?",
+        "text": "You can use this clue when you need it. Cover the part you know. How many beads can you still see?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "h_cover"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Start at 5. Say 5, then count the rest one at a time: 6, ...",
+        "text": "You can use this clue when you need it. Start at 5. Say 5, then count the rest one at a time: 6, ...",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "h_counton"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Draw the dots first. Then write the numbers.",
+        "text": "You can use this clue when you need it. Draw the dots first. Then write the numbers.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "h_dots"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Look for 1 or 2 groups that make it easier to find the total.",
+        "text": "You can use this clue when you need it. Look for 1 or 2 groups that make it easier to find the total.",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "h_group"
+          }
+        ]
+      },
+      {
+        "type": "recap",
+        "phase": "main",
+        "outcome": null,
+        "template": "You worked hard, detective! 🌟 <CONTENT> What helped you today?",
+        "content": "Find numbers hiding inside a number up to 10. Show them with 5-groups and number bonds.",
+        "text": "You worked hard, detective! 🌟 Find numbers hiding inside a number up to 10. Show them with 5-groups and number bonds. What helped you today?",
+        "source_refs": [
+          {
+            "card_id": "math_g1_m1_l1_embedded_numbers",
+            "scope": "concept_card",
+            "id": "obj_1"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "shape_attributes",
+    "grade": 2,
+    "metaphor": "explorers",
+    "source_concept_id": "math_g2_m8_l1_shape_attributes",
+    "segments": [
+      {
+        "type": "hook",
+        "phase": "main",
+        "outcome": null,
+        "template": "Come exploring with me! You can look for clues as we go. 🧭 <CONTENT>",
+        "content": "Describe flat shapes by their sides and angles.",
+        "text": "Come exploring with me! You can look for clues as we go. 🧭 Describe flat shapes by their sides and angles.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "obj_1"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's look closely, explorer. <CONTENT>",
+        "content": "You can describe a shape without saying its name. Count its sides. Count its corners. Are the sides straight?",
+        "text": "Let's look closely, explorer. You can describe a shape without saying its name. Count its sides. Count its corners. Are the sides straight?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_describe_no_name"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's follow this carefully together. <CONTENT>",
+        "content": "Counting the angles of a 4-sided shape. Put your finger by the first angle. Count as you go around: 1 angle, 2 angles, 3 angles, 4 angles.",
+        "text": "Let's follow this carefully together. Counting the angles of a 4-sided shape. Put your finger by the first angle. Count as you go around: 1 angle, 2 angles, 3 angles, 4 angles.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "ex_count_angles"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can look closely at this example. <CONTENT>",
+        "content": "Closed and open. A closed shape has no gaps between its sides. This shape has a gap, so it is open.",
+        "text": "You can look closely at this example. Closed and open. A closed shape has no gaps between its sides. This shape has a gap, so it is open.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "ex_closed_open"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "Which features could help you describe a shape?",
+        "text": "What would you look for first?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_describe_no_name"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can pause and notice where the clues meet. <CONTENT>",
+        "content": "Two sides meet at a corner. The shape they make there is called an angle. A shape with 3 corners has 3 angles.",
+        "text": "You can pause and notice where the clues meet. Two sides meet at a corner. The shape they make there is called an angle. A shape with 3 corners has 3 angles.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_angle"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's follow this carefully together. <CONTENT>",
+        "content": "What an angle is. Two sides meet at a corner. The shape they make there is called an angle. A shape with 3 corners has 3 angles.",
+        "text": "Let's follow this carefully together. What an angle is. Two sides meet at a corner. The shape they make there is called an angle. A shape with 3 corners has 3 angles.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_angle"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "Your turn to think. <CONTENT>",
+        "content": "How would you explain an angle?",
+        "text": "What can you notice here?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_angle"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "Now let's try the next activity together. <CONTENT>",
+        "content": "Make a shape on the geoboard with 4 sides. It can look different from mine. It still has 4 sides and 4 angles.",
+        "text": "Now let's try the next activity together. Make a shape on the geoboard with 4 sides. It can look different from mine. It still has 4 sides and 4 angles.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_build_geoboard"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_geoboard"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can look closely at this example. <CONTENT>",
+        "content": "Build it on a geoboard. Make a shape on the geoboard with 4 sides. It can look different from mine. It still has 4 sides and 4 angles.",
+        "text": "You can look closely at this example. Build it on a geoboard. Make a shape on the geoboard with 4 sides. It can look different from mine. It still has 4 sides and 4 angles.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_build_geoboard"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_geoboard"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "Let’s pause here. <CONTENT>",
+        "content": "What would you look for when building a shape?",
+        "text": "How would you check your work?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_build_geoboard"
+          }
+        ]
+      },
+      {
+        "type": "lecture",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can compare the clues with me. <CONTENT>",
+        "content": "These shapes look different. But they all have 3 straight sides and 3 angles. They are all closed shapes.",
+        "text": "You can compare the clues with me. These shapes look different. But they all have 3 straight sides and 3 angles. They are all closed shapes.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_same_attributes"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_attribute_chart"
+          }
+        ]
+      },
+      {
+        "type": "worked_example",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's follow this carefully together. <CONTENT>",
+        "content": "Different looks, same attributes. These shapes look different. But they all have 3 straight sides and 3 angles. They are all closed shapes.",
+        "text": "Let's follow this carefully together. Different looks, same attributes. These shapes look different. But they all have 3 straight sides and 3 angles. They are all closed shapes.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_same_attributes"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_attribute_chart"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "your_turn",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "How could you recognise shapes with matching features?",
+        "text": "What clues would you compare?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "exp_same_attributes"
+          }
+        ]
+      },
+      {
+        "type": "watch_out",
+        "phase": "main",
+        "outcome": null,
+        "template": "You can stop and look again. <CONTENT>",
+        "content": "Let's count again. Put your finger on the first one. Stop when you get back to it.",
+        "text": "You can stop and look again. Let's count again. Put your finger on the first one. Stop when you get back to it.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "mis_double_count"
+          }
+        ]
+      },
+      {
+        "type": "watch_out",
+        "phase": "main",
+        "outcome": null,
+        "template": "Let's check the clues carefully together. <CONTENT>",
+        "content": "Shapes can look different. Count the sides and angles. That tells us the kind of shape.",
+        "text": "Let's check the clues carefully together. Shapes can look different. Count the sides and angles. That tells us the kind of shape.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "mis_looks_not_attributes"
+          }
+        ]
+      },
+      {
+        "type": "transition",
+        "phase": "main",
+        "outcome": null,
+        "template": "You're ready to explore the check-in. Tell me what you think! <CONTENT>",
+        "content": "",
+        "text": "You're ready to explore the check-in. Tell me what you think!",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "obj_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "root_question",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "Look at this shape. How many sides does it have?",
+        "text": "You can look for the clues at your own pace. Look at this shape. How many sides does it have?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "You did it! Let's keep going. <CONTENT>",
+        "content": "Yes. The triangle has 3 straight sides.",
+        "text": "You did it! Let's keep going. Yes. The triangle has 3 straight sides.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "r_pr_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "You can try again. I'm here to help you think it through. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "r_pr_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Please say one number for your answer.",
+        "text": "Could you say your answer again? I want to understand your thinking. Please say one number for your answer.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "r_pr_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Trace the outside of the shape once.",
+        "text": "Let's look at a helpful clue together. Trace the outside of the shape once.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_aq_easy_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "Count each straight side once, starting and finishing at the same corner.",
+        "text": "You can use this clue to take another look. Count each straight side once, starting and finishing at the same corner.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_aq_easy_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "The triangle has three sides. Do not count a side again when you return to the start.",
+        "text": "Let's pause and work with this clue. The triangle has three sides. Do not count a side again when you return to the start.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_aq_easy_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. The triangle has 3 straight sides.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. The triangle has 3 straight sides.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_easy_01"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_1"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "r_pr_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "root_question",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "A craft badge is a closed shape with 5 straight sides. Trace around it once, counting each corner once. How many angles does the badge have?",
+        "text": "Let's explore the next question together. A craft badge is a closed shape with 5 straight sides. Trace around it once, counting each corner once. How many angles does the badge have?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "Your careful work paid off. You can feel proud of your effort! <CONTENT>",
+        "content": "Yes. It therefore has 5 angles.",
+        "text": "Your careful work paid off. You can feel proud of your effort! Yes. It therefore has 5 angles.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "Let's pause and take another look. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "Let's pause and take another look together. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Please say one number for your answer.",
+        "text": "Could you say your answer again? I want to understand your thinking. Please say one number for your answer.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "An angle is made where two sides meet at a corner.",
+        "text": "Let's look at a helpful clue together. An angle is made where two sides meet at a corner.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_aq_med_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "Trace every corner of this closed five-sided badge once.",
+        "text": "You can use this clue to take another look. Trace every corner of this closed five-sided badge once.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_aq_med_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "A closed polygon has one angle for each side. Five sides means five angles.",
+        "text": "Let's pause and work with this clue. A closed polygon has one angle for each side. Five sides means five angles.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_aq_med_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. The badge has 5 sides and 5 corners. It therefore has 5 angles.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. The badge has 5 sides and 5 corners. It therefore has 5 angles.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "root_question",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "A closed badge has straight edges. Corner dots: red, blue, green, orange, purple. Each corner has exactly one dot. Edges: bottom, right wall, right roof, left roof, left wall. Tray 1 holds shapes with 4 sides and 4 angles. Tray 2 holds shapes with 5 sides and 5 angles.\nCount the corner dots once each. How many corners does the badge have?\nUse your corner count to find the angle count. Then match the badge to a tray. What tray number fits its attributes?\nCheck by tracing the named edges instead of counting corner dots. Each named edge is one straight side. What tray number fits the side count?",
+        "text": "Take your time with this challenge, explorer. A closed badge has straight edges. Corner dots: red, blue, green, orange, purple. Each corner has exactly one dot. Edges: bottom, right wall, right roof, left roof, left wall. Tray 1 holds shapes with 4 sides and 4 angles. Tray 2 holds shapes with 5 sides and 5 angles.\nCount the corner dots once each. How many corners does the badge have?\nUse your corner count to find the angle count. Then match the badge to a tray. What tray number fits its attributes?\nCheck by tracing the named edges instead of counting corner dots. Each named edge is one straight side. What tray number fits the side count?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "You did it! Let's keep going. <CONTENT>",
+        "content": "Yes. Both checks select tray number 2.",
+        "text": "You did it! Let's keep going. Yes. Both checks select tray number 2.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "partial",
+        "template": "You can keep working on this. Let's revisit what needs another try. <CONTENT>",
+        "content": "You have some parts right. Keep those answers, and let us check the other parts.",
+        "text": "You can keep working on this. Let's revisit what needs another try. You have some parts right. Keep those answers, and let us check the other parts.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "You can try again. I'm here to help you think it through. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Tell me an answer for each question, one at a time.",
+        "text": "Could you say your answer again? I want to understand your thinking. Tell me an answer for each question, one at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incomplete",
+        "template": "You can take your time. Let's try the remaining parts. <CONTENT>",
+        "content": "You have answered part of the question. Let us finish the questions you have not answered yet.",
+        "text": "You can take your time. Let's try the remaining parts. You have answered part of the question. Let us finish the questions you have not answered yet.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Use corners and sides as two ways to describe the same closed outline.",
+        "text": "Let's look at a helpful clue together. Use corners and sides as two ways to describe the same closed outline.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_aq_hard_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "Part 1 counts the five coloured dots. Part 2 treats each corner as an angle and matches the tray rules.",
+        "text": "You can use this clue to take another look. Part 1 counts the five coloured dots. Part 2 treats each corner as an angle and matches the tray rules.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_aq_hard_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "For part 3, trace the bottom, walls and roof edges. Count each named straight edge once and match that count to a tray.",
+        "text": "Let's pause and work with this clue. For part 3, trace the bottom, walls and roof edges. Count each named straight edge once and match that count to a tray.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_aq_hard_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. Part 1: red, blue, green, orange and purple make 5 corners. Part 2: 5 corners give 5 angles; the closed outline has 5 sides, so Tray 2 fits. Part 3: bottom, right wall, right roof, left roof and left wall make 5 straight sides, so Tray 2 fits again. Both checks select tray number 2.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. Part 1: red, blue, green, orange and purple make 5 corners. Part 2: 5 corners give 5 angles; the closed outline has 5 sides, so Tray 2 fits. Part 3: bottom, right wall, right roof, left roof and left wall make 5 straight sides, so Tray 2 fits again. Both checks select tray number 2.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "follow_up_question",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "Let's try an easier one: A closed paper label has 4 straight sides. How many angles does it have?",
+        "text": "Let's take our time with a helpful question. Let's try an easier one: A closed paper label has 4 straight sides. How many angles does it have?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "Your careful work paid off. You can feel proud of your effort! <CONTENT>",
+        "content": "Yes. A closed four-sided label has 4 angles.",
+        "text": "Your careful work paid off. You can feel proud of your effort! Yes. A closed four-sided label has 4 angles.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "Let's pause and take another look. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "Let's pause and take another look together. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Please say one number for your answer.",
+        "text": "Could you say your answer again? I want to understand your thinking. Please say one number for your answer.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Each corner is where two straight sides meet.",
+        "text": "Let's look at a helpful clue together. Each corner is where two straight sides meet.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "The closed label has four sides and four corners.",
+        "text": "You can use this clue to take another look. The closed label has four sides and four corners.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "Count one angle for each corner.",
+        "text": "Let's pause and work with this clue. Count one angle for each corner.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_med_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. A closed four-sided label has 4 angles.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. A closed four-sided label has 4 angles.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_med_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_med_01"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "follow_up_question",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "Let's try an easier one: Each badge corner has one dot. Corner dots: red, blue, green, orange, purple. Count the corner dots once each. How many corners does the badge have?",
+        "text": "Let's take our time with a helpful question. Let's try an easier one: Each badge corner has one dot. Corner dots: red, blue, green, orange, purple. Count the corner dots once each. How many corners does the badge have?",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "correct",
+        "template": "You did it! Let's keep going. <CONTENT>",
+        "content": "Yes. The badge has 5 corners.",
+        "text": "You did it! Let's keep going. Yes. The badge has 5 corners.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "incorrect",
+        "template": "You can try again. I'm here to help you think it through. <CONTENT>",
+        "content": "Let us check this together, one step at a time.",
+        "text": "You can try again. I'm here to help you think it through. Let us check this together, one step at a time.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "feedback",
+        "outcome": "unclear",
+        "template": "Could you say your answer again? I want to understand your thinking. <CONTENT>",
+        "content": "Please say one number for your answer.",
+        "text": "Could you say your answer again? I want to understand your thinking. Please say one number for your answer.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's look at a helpful clue together. <CONTENT>",
+        "content": "Count each dot once.",
+        "text": "Let's look at a helpful clue together. Count each dot once.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_1"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "You can use this clue to take another look. <CONTENT>",
+        "content": "The dots are red, blue, green, orange and purple.",
+        "text": "You can use this clue to take another look. The dots are red, blue, green, orange and purple.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint",
+        "outcome": null,
+        "template": "Let's pause and work with this clue. <CONTENT>",
+        "content": "Keep one count for each of those five colours.",
+        "text": "Let's pause and work with this clue. Keep one count for each of those five colours.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "h_fu_aq_hard_01_3"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "answer_reveal",
+        "outcome": null,
+        "template": "You kept trying, and that matters. <CONTENT>",
+        "content": "Let us work it out together. There are 5 dots, one at each corner. The badge has 5 corners.",
+        "text": "You kept trying. Let's work through this together. Let us work it out together. There are 5 dots, one at each corner. The badge has 5 corners.",
+        "source_refs": [
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "fu_aq_hard_01"
+          },
+          {
+            "card_id": "assess_math_g2_m8_l1_shape_attributes_v2",
+            "scope": "this_card",
+            "id": "r_fu_aq_hard_01"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "I have 41 ones. Make as many tens as you can. How many tens and ones?",
+        "text": "You can try this when you want another challenge. I have 41 ones. Make as many tens as you can. How many tens and ones?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pk_1"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "I have 54 ones. How many tens and ones is that?",
+        "text": "Here's another question for you to explore. I have 54 ones. How many tens and ones is that?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pk_2"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "18 plus 1 equals what number?",
+        "text": "You can try this when you want another challenge. 18 plus 1 equals what number?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_sp_a2"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "39 plus 2 equals what number?",
+        "text": "Here's another question for you to explore. 39 plus 2 equals what number?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_sp_a15"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "50 plus 8 equals what number?",
+        "text": "You can try this when you want another challenge. 50 plus 8 equals what number?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_sp_a16"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "50 plus 20 equals what number?",
+        "text": "Here's another question for you to explore. 50 plus 20 equals what number?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_sp_a19"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "54 plus 20 equals what number?",
+        "text": "You can try this when you want another challenge. 54 plus 20 equals what number?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_sp_a20"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "90 plus 30 equals what number?",
+        "text": "Here's another question for you to explore. 90 plus 30 equals what number?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_sp_a26"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "97 plus 30 equals what number?",
+        "text": "You can try this when you want another challenge. 97 plus 30 equals what number?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_sp_a27"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "97 plus 60 equals what number?",
+        "text": "Here's another question for you to explore. 97 plus 60 equals what number?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_sp_a44"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "Now look at its corners. How many angles does the shape have?",
+        "text": "You can try this when you want another challenge. Now look at its corners. How many angles does the shape have?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_2"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "What is an angle? Tell me in your own words.",
+        "text": "Here's another question for you to explore. What is an angle? Tell me in your own words.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_3"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "Look at this figure. Is it a closed shape?",
+        "text": "You can try this when you want another challenge. Look at this figure. Is it a closed shape?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_4"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "This shape has a corner that points in. Count all the angles. How many?",
+        "text": "Here's another question for you to explore. This shape has a corner that points in. Count all the angles. How many?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_5"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_shape_viewer"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "Here is a shape made on the geoboard. Count its angles. How many?",
+        "text": "You can try this when you want another challenge. Here is a shape made on the geoboard. Count its angles. How many?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_6"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_geoboard"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "These triangles look different. What is the same about all of them?",
+        "text": "Here's another question for you to explore. These triangles look different. What is the same about all of them?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_pr_7"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_attribute_chart"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "You can take your time. <CONTENT>",
+        "content": "Terrence makes shapes with 12 toothpicks. He uses all 12. Name 3 different shapes he could make.",
+        "text": "You can try this when you want another challenge. Terrence makes shapes with 12 toothpicks. He uses all 12. Name 3 different shapes he could make.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_app_1"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_toothpick_story"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Let’s hear your thinking. <CONTENT>",
+        "content": "Think about every shape today. What do you notice about its sides and angles?",
+        "text": "Here's another question for you to explore. Think about every shape today. What do you notice about its sides and angles?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_db_1"
+          },
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "a_attribute_chart"
+          }
+        ]
+      },
+      {
+        "type": "question",
+        "phase": "optional_practice",
+        "outcome": null,
+        "template": "Here is a question for you. <CONTENT>",
+        "content": "Why should you count sides and angles, not just look, when you group shapes?",
+        "text": "You can try this when you want another challenge. Why should you count sides and angles, not just look, when you group shapes?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "q_db_2"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Put your finger by the first one you count. Go around the shape.",
+        "text": "You can use this clue when you need it. Put your finger by the first one you count. Go around the shape.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "h_finger"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Look at each corner. Each corner makes one angle.",
+        "text": "You can use this clue when you need it. Look at each corner. Each corner makes one angle.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "h_corner"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Look for a gap between the sides.",
+        "text": "You can use this clue when you need it. Look for a gap between the sides.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "h_gap"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Count the sides and angles of each shape. What matches?",
+        "text": "You can use this clue when you need it. Count the sides and angles of each shape. What matches?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "h_common"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Use a small fact you know. It helps with the bigger numbers.",
+        "text": "You can use this clue when you need it. Use a small fact you know. It helps with the bigger numbers.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "h_small_fact"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Think of the number as tens and ones.",
+        "text": "You can use this clue when you need it. Think of the number as tens and ones.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "h_tens"
+          }
+        ]
+      },
+      {
+        "type": "branch",
+        "phase": "hint_bank",
+        "outcome": null,
+        "template": "You can use this clue when you need it. <CONTENT>",
+        "content": "Each side needs at least 1 toothpick. Count toothpicks for each shape.",
+        "text": "You can use this clue when you need it. Each side needs at least 1 toothpick. Count toothpicks for each shape.",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "h_toothpicks"
+          }
+        ]
+      },
+      {
+        "type": "recap",
+        "phase": "main",
+        "outcome": null,
+        "template": "You looked closely and kept exploring! 🌟 <CONTENT> What helped you notice the clues?",
+        "content": "Describe flat shapes by their sides and angles.",
+        "text": "You looked closely and kept exploring! 🌟 Describe flat shapes by their sides and angles. What helped you notice the clues?",
+        "source_refs": [
+          {
+            "card_id": "math_g2_m8_l1_shape_attributes",
+            "scope": "concept_card",
+            "id": "obj_1"
+          }
+        ]
+      }
+    ]
+  }
+]

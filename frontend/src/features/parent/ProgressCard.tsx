@@ -21,11 +21,13 @@ export function ProgressCard({ studentId, name }: { studentId: string; name: str
   }, [studentId]);
   const progress = state?.progress;
   const delivered = progress?.modules.reduce((sum, m) => sum + m.delivered_lessons, 0) ?? 0;
+  const unfinished = progress?.modules.reduce((sum, m) => sum + (m.unfinished_lessons ?? 0), 0) ?? 0;
   return <section className="card stack" aria-labelledby="progress-title">
     <h2 id="progress-title">Maths progress</h2>
     {!state && <p role="status" className="muted">Loading…</p>}
     {state && (!progress || delivered === 0) && <p role="status"><strong>No lessons delivered yet.</strong> {name}’s progress will appear here after the first class.</p>}
     {progress && delivered > 0 && <p role="status"><strong>{delivered} {delivered === 1 ? 'lesson' : 'lessons'} delivered</strong></p>}
+    {unfinished > 0 && <p className="muted" role="status">{unfinished} {unfinished === 1 ? 'lesson was' : 'lessons were'} not finished. They are not repeated; the next school day moves on.</p>}
     {progress && delivered > 0 && <ul className={styles.moduleList}>{progress.modules.filter(m => m.status !== 'yet_to_learn').map(m => <li key={m.module}>
       <span>Module {m.module}</span><span>{STATUS[m.status] ?? m.status} · {m.delivered_lessons}{m.expected_lessons ? ` of ${m.expected_lessons}` : ''} lessons</span>
     </li>)}</ul>}

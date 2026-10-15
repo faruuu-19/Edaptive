@@ -41,13 +41,22 @@ export function describeClass(name: string, day: SavedTimetable | undefined): Cl
         detail: `${slot.exit_reason === 'timeout' ? 'The connection was lost' : `${name} chose to leave`} at ${clock(slot.exited_at_ms ?? slot.end_ms)}, at ${part}. They can rejoin until ${clock(slot.end_ms)}.`,
         attention: true,
       };
-    case 'left_early':
+    case 'unfinished':
       return {
-        headline: `${name} left class early`,
-        detail: `They left at ${clock(slot.exited_at_ms ?? slot.end_ms)}, at ${part}. Maths will continue on the next school day from where they stopped. Other classes keep their times.`,
+        headline: `${name}’s Maths class ended unfinished`,
+        detail: slot.exited_at_ms
+          ? `They left at ${clock(slot.exited_at_ms)}, at ${part}. This lesson will not come back; the next school day starts the next lesson. Other classes keep their times.`
+          : `They did not join. This lesson will not come back; the next school day starts the next lesson.`,
         attention: true,
       };
     default:
+      if (slot.delay_notice) {
+        return {
+          headline: `${name}’s Maths class was moved to ${clock(slot.start_ms)}`,
+          detail: `${slot.delay_notice} The rest of the day moved too. Nothing for you to do.`,
+          attention: true,
+        };
+      }
       return {
         headline: `Maths starts at ${clock(slot.start_ms)}`,
         detail: isWaitingToPrepare(slot.preparation) ? `The lesson will be prepared ${prepareTimeText(slot.prepare_at_ms, day.server_now_ms)}. Nothing for you to do.` : 'Nothing for you to do.',

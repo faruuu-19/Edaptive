@@ -330,16 +330,18 @@ def test_daily_worker_plans_next_lesson_for_next_day_after_delivery(
     assert routines.refresh_routine(db, routine, loader).id == following.id
 
 
-def test_missed_days_reschedule_same_ready_lesson_without_stacking(parent_client, child, db, monkeypatch):
+def test_missed_days_close_the_lesson_and_plan_one_new_day_without_stacking(
+    parent_client, child, db, monkeypatch
+):
     result = create_plan(parent_client, child)
     row, slot = prepared(db, result)
     monkeypatch.setattr(routines, "clock_now", lambda: datetime(2026, 10, 16, 3, tzinfo=UTC))
     routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
     recovered = routines.refresh_routine(db, routine, router.available)
-    assert recovered.id == row.id
+    assert row.status == "completed" and row.state["slots"][0]["status"] == "unfinished"
+    assert recovered.id != row.id and recovered.status == "active"
     assert recovered.state["school_date"] == "2026-10-16"
-    assert recovered.state["slots"][0]["job_id"] == slot["job_id"]
-    assert recovered.state["slots"][0]["preparation"]["percent"] == 100
+    assert len(timetables_of(db, child)) == 2, "days that passed are not stacked up"
 
 
 def test_time_change_does_not_interrupt_running_class(parent_client, student_client, child, db, monkeypatch):
@@ -525,7 +527,7 @@ def test_after_class_time_ends_the_lesson_is_left_early_and_cannot_be_rejoined(
     late = action(student_client, result, slot, "rejoin")
     assert late.status_code == 409 and "next school day" in late.json()["detail"]
     after = parent_client.get("/api/lesson_delivery/student/" + child["id"]).json()["timetables"][0]
-    assert after["slots"][0]["class_phase"] == "left_early"
+    assert after["slots"][0]["class_phase"] == "unfinished"
 
 
 def test_a_child_can_leave_at_most_twice(parent_client, student_client, child, db, monkeypatch):
@@ -533,7 +535,7 @@ def test_a_child_can_leave_at_most_twice(parent_client, student_client, child, d
     assert action(student_client, result, slot, "exit").status_code == 200
     assert action(student_client, result, slot, "rejoin").status_code == 200
     second = action(student_client, result, slot, "exit")
-    assert second.status_code == 200 and second.json()["slots"][0]["class_phase"] == "left_early"
+    assert second.status_code == 200 and second.json()["slots"][0]["class_phase"] == "unfinished"
     assert action(student_client, result, slot, "rejoin").status_code == 409
 
 
@@ -546,24 +548,6 @@ def test_a_lost_connection_counts_as_leaving(parent_client, student_client, chil
     out = runtime.snapshot(row, now + runtime.DISCONNECT_MS + 5_000)["slots"][0]
     assert out["exit_reason"] == "timeout" and out["exit_count"] == 1 and out["class_phase"] == "exited"
     assert ("session.ended", "timeout") in delivery_actions(db, child)
-
-
-def test_an_unfinished_lesson_carries_to_the_next_school_day_from_the_same_place(
-    parent_client, student_client, child, db, monkeypatch
-):
-    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
-    assert action(student_client, result, slot, "position", position=1).status_code == 200
-    assert action(student_client, result, slot, "exit").status_code == 200
-    monkeypatch.setattr(routines, "clock_now", lambda: datetime(2026, 10, 15, 3, 0, tzinfo=UTC))
-    routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
-    routines.refresh_routine(db, routine, cards_loader=lambda: router.available())
-    row = db.get(Timetable, uuid.UUID(result["id"]))
-    carried = row.state["slots"][0]
-    assert carried["status"] == "planned" and carried["position"] == 1
-    assert carried["preparation"]["status"] == "ready", "the prepared lesson is kept"
-    assert carried["exit_count"] == 0 and carried["borrowed_minutes"] == 0
-    assert carried["start_ms"] > slot["start_ms"] + 12 * 3600 * 1000
-    assert row.state["school_date"] == "2026-10-15"
 
 
 # ---- Attendance: present when the child stays for at least 70% of the lesson ----------------------
@@ -649,42 +633,6 @@ def test_leaving_then_rejoining_and_finishing_counts_the_whole_class_once(
     assert record["status"] == "present" and record["reason"] == "completed"
 
 
-def test_a_class_never_joined_is_absent_at_the_end_of_the_school_day_and_not_double_counted(
-    parent_client, child, db, monkeypatch
-):
-    result = create_plan(parent_client, child)
-    prepared(db, result)
-    monkeypatch.setattr(routines, "clock_now", lambda: datetime(2026, 10, 15, 3, 0, tzinfo=UTC))
-    routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
-    routines.refresh_routine(db, routine, cards_loader=lambda: router.available())
-    (record,) = attendance_events(db, child)
-    assert (record["status"], record["reason"], record["attended_percent"]) == ("absent", "did_not_join", 0)
-    assert record["school_date"] == "2026-10-14"
-    carried = db.get(Timetable, uuid.UUID(result["id"])).state["slots"][0]
-    assert carried["status"] == "planned" and "attendance" not in carried, "tomorrow is a new attempt"
-    routines.refresh_routine(db, routine, cards_loader=lambda: router.available(), force=True)
-    assert len(attendance_events(db, child)) == 1
-
-
-def test_a_lesson_left_early_is_judged_tomorrow_on_the_part_that_was_still_to_come(
-    parent_client, student_client, child, db, monkeypatch
-):
-    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
-    set_progress(db, result, 5)  # left at 50% today
-    assert action(student_client, result, slot, "exit").status_code == 200
-    monkeypatch.setattr(routines, "clock_now", lambda: datetime(2026, 10, 15, 3, 0, tzinfo=UTC))
-    routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
-    routines.refresh_routine(db, routine, cards_loader=lambda: router.available())
-    (today,) = [r for r in attendance_events(db, child) if r["school_date"] == "2026-10-14"]
-    assert today["status"] == "absent" and today["attended_percent"] == 50
-    carried = db.get(Timetable, uuid.UUID(result["id"])).state["slots"][0]
-    assert carried["attempt_base"] == 5
-    # Tomorrow only the remaining half is expected: hearing 4 of those 5 parts is 80%.
-    assert runtime.attendance_of({**carried, "narrated_positions": list(range(9))}) == (80, True)
-    # Walking in and straight out again is 0%, not "already at 50%".
-    assert runtime.attendance_of(carried) == (0, False)
-
-
 # ---- A class that could not run is not the child's absence ----------------------------------------
 
 
@@ -726,37 +674,6 @@ def refresh_at(db, child, monkeypatch, now):
     monkeypatch.setattr(routines, "clock_now", lambda: now)
     routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
     routines.refresh_routine(db, routine, cards_loader=lambda: router.available())
-
-
-@pytest.mark.parametrize("dead", ["cancelled", "failed"])
-def test_a_class_that_could_not_run_moves_to_the_next_school_day_with_a_fresh_job(
-    parent_client, child, db, monkeypatch, dead
-):
-    result = create_plan(parent_client, child)
-    old = unrun_class(db, result, {"status": dead, "percent": 3})
-    refresh_at(db, child, monkeypatch, AFTER_CLASS)
-    row = db.get(Timetable, uuid.UUID(result["id"]))
-    slot = row.state["slots"][0]
-    assert row.state["school_date"] == "2026-10-15"
-    assert slot["start_ms"] > old["start_ms"] + 20 * 3600 * 1000, "the next morning's class"
-    assert slot["job_id"] != old["job_id"], "a cancelled or failed job is never reused"
-    assert slot["preparation"]["status"] == "waiting" and slot["preparation"]["percent"] == 0
-    # Preparation starts when its time comes, not now.
-    assert AFTER_CLASS.timestamp() * 1000 < slot["prepare_at_ms"] < slot["start_ms"]
-    assert attendance_events(db, child) == [], "a class that could not run is nobody's absence"
-
-
-@pytest.mark.parametrize("live", ["preparing", "paused", "queued"])
-def test_a_lesson_still_being_prepared_keeps_its_job_when_the_class_moves(
-    parent_client, child, db, monkeypatch, live
-):
-    result = create_plan(parent_client, child)
-    old = unrun_class(db, result, {"status": live, "percent": 40})
-    refresh_at(db, child, monkeypatch, AFTER_CLASS)
-    row = db.get(Timetable, uuid.UUID(result["id"]))
-    slot = row.state["slots"][0]
-    assert row.state["school_date"] == "2026-10-15"
-    assert slot["job_id"] == old["job_id"] and slot["preparation"]["status"] == live
 
 
 def test_a_ready_lesson_stays_on_its_day_so_the_child_can_still_join_late(
@@ -824,3 +741,199 @@ def test_a_started_class_is_never_held(parent_client, student_client, child, db,
     result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
     state = copy.deepcopy(db.get(Timetable, uuid.UUID(result["id"])).state)
     assert runtime.hold_early_jobs(state, slot["prepare_at_ms"] - 60_000) == []
+
+
+# ---- A lesson never comes back: an unfinished class is closed and tomorrow brings the next lesson ----
+
+
+def two_lessons(monkeypatch):
+    second = "math_g3_m1_l2_sort_quadrilaterals"
+    cards = router.available()
+    monkeypatch.setattr(router, "available", lambda: cards + [{**cards[0], "id": second}])
+    return second
+
+
+def timetables_of(db, child):
+    rows = db.scalars(select(Timetable).where(Timetable.student_id == uuid.UUID(child["id"])))
+    # created_at is the transaction time in tests, so order by the school day each timetable belongs to
+    return sorted(rows, key=lambda row: row.state["school_date"])
+
+
+NEXT_DAY = datetime(2026, 10, 15, 3, 0, tzinfo=UTC)  # 08:00 in Pakistan, the morning after
+
+
+def test_a_lesson_left_early_is_closed_and_the_next_day_brings_the_next_lesson(
+    parent_client, student_client, child, db, monkeypatch
+):
+    second = two_lessons(monkeypatch)
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    set_progress(db, result, 5)  # left at 50%
+    assert action(student_client, result, slot, "exit").status_code == 200
+    refresh_at(db, child, monkeypatch, NEXT_DAY)
+    today, tomorrow = timetables_of(db, child)
+    assert today.status == "completed" and today.state["slots"][0]["status"] == "unfinished"
+    assert tomorrow.status == "active" and tomorrow.state["slots"][0]["concept_id"] == second
+    assert tomorrow.state["slots"][0]["position"] == 0, "the new lesson starts from its beginning"
+    (record,) = attendance_events(db, child)
+    assert (record["status"], record["reason"], record["attended_percent"]) == ("absent", "left_early", 50)
+
+
+def test_a_class_never_joined_is_absent_at_the_end_of_the_day_and_the_lesson_does_not_return(
+    parent_client, child, db, monkeypatch
+):
+    second = two_lessons(monkeypatch)
+    result = create_plan(parent_client, child)
+    prepared(db, result)
+    refresh_at(db, child, monkeypatch, NEXT_DAY)
+    refresh_at(db, child, monkeypatch, NEXT_DAY)  # a second pass changes nothing
+    (record,) = attendance_events(db, child)
+    assert (record["status"], record["reason"], record["attended_percent"]) == ("absent", "did_not_join", 0)
+    assert record["school_date"] == "2026-10-14"
+    today, tomorrow = timetables_of(db, child)
+    assert today.state["slots"][0]["status"] == "unfinished" and today.status == "completed"
+    assert tomorrow.state["slots"][0]["concept_id"] == second
+
+
+def test_progress_counts_an_unfinished_lesson_as_taken_so_the_plan_moves_on(
+    parent_client, student_client, child, db, monkeypatch
+):
+    second = two_lessons(monkeypatch)
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    assert action(student_client, result, slot, "exit").status_code == 200
+    assert action(student_client, result, slot, "rejoin").status_code == 200
+    assert action(student_client, result, slot, "exit").status_code == 200  # second exit: class over
+    row = timetables_of(db, child)[0]
+    assert row.state["slots"][0]["status"] == "unfinished" and row.status == "completed"
+    refresh_at(db, child, monkeypatch, datetime(2026, 10, 14, 10, 0, tzinfo=UTC))
+    progress = parent_client.get("/api/lesson_delivery/student/" + child["id"]).json()["learning_progress"]
+    assert progress["next_required"]["concept_id"] == second
+    module = progress["modules"][0]
+    assert module["delivered_lessons"] == 0 and module["unfinished_lessons"] == 1
+
+
+def test_changing_the_start_time_during_the_day_never_logs_an_absence(parent_client, child, db):
+    result = create_plan(parent_client, child)
+    prepared(db, result)
+    assert save_time(parent_client, child, start_time="10:00").status_code == 200
+    assert attendance_events(db, child) == []
+    assert timetables_of(db, child)[0].state["slots"][0]["status"] == "planned"
+
+
+@pytest.mark.parametrize("dead", ["cancelled", "failed"])
+def test_a_lesson_that_was_never_ready_is_tried_again_with_a_fresh_job_when_the_day_ends(
+    parent_client, child, db, monkeypatch, dead
+):
+    result = create_plan(parent_client, child)
+    old = unrun_class(db, result, {"status": dead, "percent": 3})
+    refresh_at(db, child, monkeypatch, NEXT_DAY)
+    (row,) = timetables_of(db, child)
+    slot = row.state["slots"][0]
+    assert slot["status"] == "planned" and slot["job_id"] != old["job_id"]
+    assert slot["preparation"]["status"] == "waiting" and row.state["school_date"] == "2026-10-15"
+    assert attendance_events(db, child) == [], "nobody was absent: no lesson was ever ready"
+
+
+def preparing(db, response, percent, **extra):
+    row = db.get(Timetable, uuid.UUID(response["id"]))
+    state = copy.deepcopy(row.state)
+    slot = state["slots"][0]
+    slot["preparation"] = {"status": "preparing", "percent": percent, **extra}
+    row.state = state
+    db.flush()
+    return row, slot
+
+
+def student_view(client, child):
+    return client.get("/api/lesson_delivery/student/" + child["id"]).json()["timetables"][0]
+
+
+def test_a_class_that_is_not_ready_at_its_time_is_delayed_and_both_are_told(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    _, slot = preparing(db, result, 50)
+    lead = slot["start_ms"] - slot["prepare_at_ms"]
+    now = slot["start_ms"] + 1000
+    monkeypatch.setattr(runtime.time, "time", lambda: now / 1000)
+    view = student_view(student_client, child)
+    first, after_break = view["slots"][0], view["slots"][1]
+    # Half done after a `lead`-long head start, so about `lead` is still needed.
+    delay = first["start_ms"] - slot["start_ms"]
+    assert delay >= lead * 0.9 and delay % 300000 == 0, "rounded up to whole five minutes"
+    assert first["class_phase"] == "waiting" and first["delay_minutes"] == delay / 60000
+    assert "will start at" in first["delay_notice"] and "instead of" in first["delay_notice"]
+    assert after_break["start_ms"] - slot["end_ms"] > 0 and view["status"] == "active"
+    assert first["status"] == "planned", "a delayed class is not skipped, closed or absent"
+    assert attendance_events(db, child) == []
+    assert (
+        parent_client.get("/api/lesson_delivery/student/" + child["id"]).json()["timetables"][0]["slots"][0][
+            "delay_notice"
+        ]
+        == first["delay_notice"]
+    )
+
+
+def test_a_delay_shifts_every_later_slot_and_keeps_the_lesson(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    row, slot = preparing(db, result, 10)
+    before = [(s["start_ms"], s["end_ms"]) for s in row.state["slots"]]
+    monkeypatch.setattr(runtime.time, "time", lambda: (slot["start_ms"] + 1) / 1000)
+    view = student_view(student_client, child)
+    shifted = {s["start_ms"] - b[0] for s, b in zip(view["slots"], before, strict=True)}
+    assert len(shifted) == 1 and shifted.pop() > 0, "the whole day moves by the same amount"
+    assert (
+        view["slots"][0]["concept_id"] == slot["concept_id"] and view["slots"][0]["job_id"] == slot["job_id"]
+    )
+
+
+def test_a_delayed_class_that_is_still_not_ready_is_delayed_again(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    _, slot = preparing(db, result, 50)
+    monkeypatch.setattr(runtime.time, "time", lambda: (slot["start_ms"] + 1) / 1000)
+    first = student_view(student_client, child)["slots"][0]
+    monkeypatch.setattr(runtime.time, "time", lambda: (first["start_ms"] + 1) / 1000)
+    second = student_view(student_client, child)["slots"][0]
+    assert second["start_ms"] > first["start_ms"]
+    assert second["delay_minutes"] > first["delay_minutes"]
+    assert second["delayed_from_ms"] == slot["start_ms"], "the notice still names the time it was first due"
+
+
+def test_a_ready_class_is_never_delayed(parent_client, student_client, child, db, monkeypatch):
+    result = create_plan(parent_client, child)
+    _, slot = prepared(db, result)
+    monkeypatch.setattr(runtime.time, "time", lambda: (slot["start_ms"] + 1) / 1000)
+    view = student_view(student_client, child)["slots"][0]
+    assert view["start_ms"] == slot["start_ms"] and "delay_notice" not in view
+    assert view["class_phase"] == "ringing"
+
+
+def test_a_class_is_not_delayed_before_its_time(parent_client, student_client, child, db, monkeypatch):
+    result = create_plan(parent_client, child)
+    _, slot = preparing(db, result, 5)
+    monkeypatch.setattr(runtime.time, "time", lambda: (slot["start_ms"] - 60000) / 1000)
+    view = student_view(student_client, child)["slots"][0]
+    assert view["start_ms"] == slot["start_ms"] and "delay_notice" not in view
+
+
+def test_a_failed_preparation_is_not_waited_for(parent_client, student_client, child, db, monkeypatch):
+    result = create_plan(parent_client, child)
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    state = copy.deepcopy(row.state)
+    state["slots"][0]["preparation"] = {"status": "failed", "percent": 30}
+    row.state = state
+    db.flush()
+    monkeypatch.setattr(runtime.time, "time", lambda: (state["slots"][0]["start_ms"] + 1) / 1000)
+    view = student_view(student_client, child)["slots"][0]
+    assert view["start_ms"] == state["slots"][0]["start_ms"] and "delay_notice" not in view
+
+
+def test_a_delay_does_not_use_up_the_childs_snooze(parent_client, student_client, child, db, monkeypatch):
+    result = create_plan(parent_client, child)
+    _, slot = preparing(db, result, 50)
+    monkeypatch.setattr(runtime.time, "time", lambda: (slot["start_ms"] + 1) / 1000)
+    view = student_view(student_client, child)["slots"][0]
+    assert view.get("borrowed_minutes", 0) == 0

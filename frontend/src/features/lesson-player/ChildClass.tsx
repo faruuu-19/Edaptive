@@ -58,11 +58,11 @@ export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnoo
         <button className={`btn btn-primary ${styles.big}`} disabled={busy} onClick={onRejoin}>Rejoin class</button>
       </div>
     </section>;
-  } else if (slot.class_phase === 'left_early') {
+  } else if (slot.class_phase === 'unfinished') {
     body = <section className={`card ${styles.classCard}`} role="status" aria-label="Maths class">
       <div className={styles.classArt}><MathsMark /></div>
       <h2 className={styles.classTitle}>Maths class has finished for today</h2>
-      <p className={styles.classLine}>We’ll carry on from where you stopped on the next school day.</p>
+      <p className={styles.classLine}>Tomorrow you’ll start your next Maths lesson.</p>
     </section>;
   } else if (slot.class_phase === 'ringing') {
     body = <section className={`card ${styles.classCard}`} role="alert" aria-label="Maths class">
@@ -83,6 +83,7 @@ export function ChildClass({ loaded, schedule, slot, busy, error, onJoin, onSnoo
     body = <section className={`card ${styles.classCard}`} role="status" aria-label="Maths class">
       <div className={styles.classArt}><MathsMark /></div>
       <h2 className={styles.classTitle}>Maths starts at {clock(slot.start_ms)}</h2>
+      {slot.delay_notice && <p className={styles.classLine} role="status">{slot.delay_notice}</p>}
       {trouble}
     </section>;
   }

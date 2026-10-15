@@ -17,7 +17,7 @@ from app.core.identity import CurrentActor, ParentActor, ensure_student_access
 
 from .models import LearningProgress, SchoolRoutine, Timetable
 from .routines import refresh_routine, routine_snapshot
-from .runtime import RELOAD_TIMEOUT, VOICE, act, snapshot, start_worker, voice_request
+from .runtime import RELOAD_TIMEOUT, VOICE, act, refresh_delays, snapshot, start_worker, voice_request
 
 router = APIRouter()
 
@@ -123,6 +123,8 @@ def for_student(student_id: uuid.UUID, actor: CurrentActor, db: DbSession):
             .limit(20)
         )
     )
+    for r in rows:
+        refresh_delays(db, r)
     return {
         "timetables": [snapshot(r) for r in rows],
         "routine": routine_snapshot(db.get(SchoolRoutine, student_id)),

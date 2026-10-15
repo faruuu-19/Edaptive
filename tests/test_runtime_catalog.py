@@ -33,7 +33,7 @@ class RuntimeCatalogTests(unittest.TestCase):
         row, = load_catalog(self.root)
         self.assertTrue(Path(row["concept"]).is_relative_to(self.root.resolve()))
         self.assertTrue(row["plan_passed"])
-        self.assertFalse(row["ready_for_delivery"])
+        self.assertTrue(row["ready_for_delivery"], "the content owner has reviewed every pair")
 
     def test_absolute_and_parent_paths_are_rejected(self):
         for value in ("/private/file.json", "../outside.json"):
@@ -74,7 +74,10 @@ class RuntimeCatalogTests(unittest.TestCase):
         self.assertEqual(91, sum(row["origin"] == "published_assessment_branch" for row in rows))
         module = [row for row in rows if row["grade"] == 2 and row["module"] == 7]
         self.assertEqual(set(range(1, 27)), {row["lesson"] for row in module})
-        self.assertTrue(all(not row["ready_for_delivery"] for row in rows))
+        self.assertTrue(all(row["ready_for_delivery"] for row in rows))
+        self.assertTrue(all(row["review_status"] == row["assessment_review_status"] == "reviewed" for row in rows))
+        before = json.loads((ROOT / "docs/content/review-status-before.json").read_text())["pairs"]
+        self.assertEqual({row["concept_id"] for row in rows}, set(before), "the old statuses are on record")
 
 
 if __name__ == "__main__":

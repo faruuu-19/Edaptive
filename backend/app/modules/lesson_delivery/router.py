@@ -30,7 +30,7 @@ class RoutineInput(BaseModel):
 class ActionInput(BaseModel):
     model_config = ConfigDict(extra="forbid")
     slot_id: str
-    action: Literal["start", "borrow", "position", "finish", "cancel", "heartbeat"]
+    action: Literal["start", "borrow", "position", "finish", "cancel", "heartbeat", "exit", "rejoin"]
     position: int | None = None
 
 

@@ -23,6 +23,22 @@ VOICE = "http://127.0.0.1:8766"
 RELOAD_TIMEOUT = 60
 
 
+# A child may leave a live class and come back, but the clock never moves because of it.
+MAX_EXITS = 2
+DISCONNECT_MS = 120_000
+
+
+def can_rejoin(slot, now_ms):
+    """Back in until the class's scheduled end, and at most MAX_EXITS times."""
+    return slot["status"] == "exited" and now_ms < slot["end_ms"] and slot.get("exit_count", 0) < MAX_EXITS
+
+
+def leave(slot, now_ms, reason):
+    slot.update(
+        status="exited", exited_at_ms=now_ms, exit_reason=reason, exit_count=slot.get("exit_count", 0) + 1
+    )
+
+
 def voice_request(path, payload=None, timeout=5):
     req = Request(
         VOICE + path,
@@ -52,7 +68,7 @@ def event(db, row, kind, slot, payload=None):
         "session_id": session,
         "student_id": str(row.student_id),
     }
-    if kind == "start":
+    if kind in {"start", "rejoin"}:
         append(
             db,
             {
@@ -65,15 +81,15 @@ def event(db, row, kind, slot, payload=None):
                 },
             },
         )
-    elif kind in {"finish", "cancel"} and session:
-        append(
-            db,
-            {
-                **common,
-                "event_type": "session.ended",
-                "payload": {"reason": "completed" if kind == "finish" else "exited"},
-            },
+    elif kind in {"finish", "cancel", "exit"} and session:
+        reason = (
+            "completed"
+            if kind == "finish"
+            else "timeout"
+            if slot.get("exit_reason") == "timeout"
+            else "exited"
         )
+        append(db, {**common, "event_type": "session.ended", "payload": {"reason": reason}})
     append(
         db,
         {
@@ -112,6 +128,8 @@ def snapshot(row, now=None):
             )
         if phase == "planned":
             phase = "ringing" if slot["kind"] == "lesson" and now >= slot["start_ms"] else "waiting"
+        elif phase == "exited":
+            phase = "exited" if can_rejoin(slot, now) else "left_early"
         slot["class_phase"] = phase
     current = next(
         (
@@ -169,6 +187,17 @@ def act(db, row, slot_id, action, position=None):
             shift(state, index, now - slot["start_ms"])
         voice_request("/jobs/" + slot["job_id"] + "/reserve", {}, RELOAD_TIMEOUT)
         slot.update(status="started", session_id=str(uuid.uuid4()), started_at_ms=now, last_seen_ms=now)
+    elif action == "exit":
+        if slot["status"] != "started":
+            raise ValueError("You are not in a class right now.")
+        leave(slot, now, "child")
+    elif action == "rejoin":
+        if not can_rejoin(slot, now):
+            raise ValueError(
+                "This class has finished. Maths will continue on the next school day from where you stopped."
+            )
+        voice_request("/jobs/" + slot["job_id"] + "/reserve", {}, RELOAD_TIMEOUT)
+        slot.update(status="started", session_id=str(uuid.uuid4()), last_seen_ms=now)
     elif action == "heartbeat":
         if slot["status"] != "started":
             raise ValueError("The lesson is not active.")
@@ -209,7 +238,7 @@ def act(db, row, slot_id, action, position=None):
         row.status = "cancelled"
     else:
         raise ValueError("Unknown lesson action.")
-    if action in {"finish", "cancel"}:
+    if action in {"finish", "cancel", "exit"}:
         try:
             voice_request("/jobs/" + slot["job_id"] + "/release", {})
         except OSError:
@@ -229,6 +258,29 @@ def act(db, row, slot_id, action, position=None):
         mark_delivered(db, row.student_id, slot["concept_id"])
         db.flush()
     return snapshot(row)
+
+
+def expire_disconnected(db, row, now_ms):
+    """A started class with no heartbeat for DISCONNECT_MS is treated as left (connection lost)."""
+    state = copy.deepcopy(row.state)
+    lost = [
+        s
+        for s in state["slots"]
+        if s["kind"] == "lesson"
+        and s["status"] == "started"
+        and now_ms - s.get("last_seen_ms", s.get("started_at_ms", now_ms)) > DISCONNECT_MS
+    ]
+    for slot in lost:
+        leave(slot, now_ms, "timeout")
+        event(db, row, "exit", slot)
+        try:
+            voice_request("/jobs/" + slot["job_id"] + "/release", {})
+        except (OSError, ValueError):
+            pass
+    if lost:
+        row.state = state
+        db.flush()
+    return bool(lost)
 
 
 def apply_prepared(state, index, lesson, status):
@@ -269,6 +321,8 @@ def poll_preparation():
                     )
                 )
                 for row in rows:
+                    if expire_disconnected(db, row, time.time() * 1000):
+                        continue
                     state = copy.deepcopy(row.state)
                     # Prioritise current delivery over loading another large model.
                     active = next((s for s in state["slots"] if s["status"] == "started"), None)

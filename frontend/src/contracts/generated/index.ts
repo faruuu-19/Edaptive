@@ -63,7 +63,7 @@ export interface EventEnvelope {
 export interface LessonDeliveryChangedV1 {
   timetable_id: string;
   slot_id: string;
-  action: "start" | "borrow" | "position" | "finish" | "cancel";
+  action: "start" | "borrow" | "position" | "finish" | "cancel" | "exit" | "rejoin";
   /**
    * One lesson's concept card: <subject>_g<grade>_m<module>_l<lesson>_<short_name>, e.g. math_g1_m1_l1_embedded_numbers
    */

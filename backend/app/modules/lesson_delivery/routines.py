@@ -183,6 +183,12 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
             )
             at = next_start(routine.start_time, now)
             shift(state, index, at.timestamp() * 1000 - state["slots"][index]["start_ms"])
+            lesson = state["slots"][index]
+            if lesson["status"] == "exited":
+                # An unfinished lesson is never skipped: it returns, prepared, from where the child stopped.
+                lesson.update(status="planned", exit_count=0, borrowed_minutes=0)
+                for key in ("exited_at_ms", "exit_reason"):
+                    lesson.pop(key, None)
             state["school_date"] = at.date().isoformat()
             routine.last_school_date = at.date()
         active.state = state

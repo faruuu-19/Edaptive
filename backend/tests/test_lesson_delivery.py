@@ -438,3 +438,129 @@ def test_a_lesson_still_being_prepared_keeps_the_worker_waiting(parent_client, c
     _voice(monkeypatch, job={"status": "preparing", "percent": 40, "message": "Working"})
     assert runtime.refresh_preparation(state, 0) is True
     assert state["slots"][0]["preparation"]["status"] == "preparing"
+
+
+# ---- Leaving a live class: the clock never moves, the child's place is saved ----------------------
+
+
+def started_class(parent_client, student_client, child, db, monkeypatch):
+    result = create_plan(parent_client, child)
+    _, slot = prepared(db, result)
+    monkeypatch.setattr(runtime.time, "time", lambda: slot["start_ms"] / 1000 + 1)
+    assert action(student_client, result, slot, "start").status_code == 200
+    return result, slot
+
+
+def day_slots(parent_client, child):
+    return parent_client.get("/api/lesson_delivery/student/" + child["id"]).json()["timetables"][0]["slots"]
+
+
+def delivery_actions(db, child):
+    events = db.scalars(select(Event).where(Event.student_id == uuid.UUID(child["id"])).order_by(Event.seq))
+    return [
+        (e.event_type, e.payload.get("action") or e.payload.get("reason"))
+        for e in events
+        if e.event_type in {"lesson.delivery_changed", "session.started", "session.ended"}
+    ]
+
+
+def test_leaving_a_class_keeps_the_clock_and_saves_the_place(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    assert action(student_client, result, slot, "position", position=1).status_code == 200
+    before = [(s["start_ms"], s["end_ms"]) for s in day_slots(parent_client, child)]
+    calls = []
+    monkeypatch.setattr(runtime, "voice_request", lambda *a, **k: calls.append(a[0]) or {})
+    left = action(student_client, result, slot, "exit")
+    assert left.status_code == 200
+    out = left.json()["slots"][0]
+    assert out["class_phase"] == "exited" and out["position"] == 1
+    assert out["exit_count"] == 1 and out["exit_reason"] == "child" and out["exited_at_ms"]
+    # Nothing else in the day moves because a child left.
+    assert [(s["start_ms"], s["end_ms"]) for s in day_slots(parent_client, child)] == before
+    assert any(path.endswith("/release") for path in calls), "leaving must free the teacher voice"
+    kinds = delivery_actions(db, child)
+    assert ("session.ended", "exited") in kinds and ("lesson.delivery_changed", "exit") in kinds
+
+
+def test_only_the_child_can_leave_and_only_from_a_running_class(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    _, slot = prepared(db, result)
+    for kind in ("exit", "rejoin"):
+        assert action(parent_client, result, slot, kind).status_code == 403
+    monkeypatch.setattr(runtime.time, "time", lambda: slot["start_ms"] / 1000 + 1)
+    assert action(student_client, result, slot, "exit").status_code == 409  # not started yet
+    assert action(student_client, result, slot, "rejoin").status_code == 409
+
+
+def test_a_child_can_rejoin_where_they_stopped_until_class_time_ends(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    assert action(student_client, result, slot, "position", position=1).status_code == 200
+    first = day_slots(parent_client, child)[0]["session_id"]
+    assert action(student_client, result, slot, "exit").status_code == 200
+    calls = []
+    monkeypatch.setattr(runtime, "voice_request", lambda *a, **k: calls.append(a[0]) or {"reserved": True})
+    back = action(student_client, result, slot, "rejoin")
+    assert back.status_code == 200
+    out = back.json()["slots"][0]
+    assert out["class_phase"] == "started" and out["position"] == 1
+    assert out["session_id"] != first and out["exit_count"] == 1
+    assert any(path.endswith("/reserve") for path in calls)
+    assert len([k for k in delivery_actions(db, child) if k[0] == "session.started"]) == 2
+
+
+def test_after_class_time_ends_the_lesson_is_left_early_and_cannot_be_rejoined(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    assert action(student_client, result, slot, "exit").status_code == 200
+    end = day_slots(parent_client, child)[0]["end_ms"]
+    monkeypatch.setattr(runtime.time, "time", lambda: end / 1000 + 1)
+    assert day_slots(parent_client, child)[0]["class_phase"] != "exited"
+    late = action(student_client, result, slot, "rejoin")
+    assert late.status_code == 409 and "next school day" in late.json()["detail"]
+    after = parent_client.get("/api/lesson_delivery/student/" + child["id"]).json()["timetables"][0]
+    assert after["slots"][0]["class_phase"] == "left_early"
+
+
+def test_a_child_can_leave_at_most_twice(parent_client, student_client, child, db, monkeypatch):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    assert action(student_client, result, slot, "exit").status_code == 200
+    assert action(student_client, result, slot, "rejoin").status_code == 200
+    second = action(student_client, result, slot, "exit")
+    assert second.status_code == 200 and second.json()["slots"][0]["class_phase"] == "left_early"
+    assert action(student_client, result, slot, "rejoin").status_code == 409
+
+
+def test_a_lost_connection_counts_as_leaving(parent_client, student_client, child, db, monkeypatch):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    now = slot["start_ms"] + 1000
+    assert runtime.expire_disconnected(db, row, now + 30_000) is False  # a quiet half minute is fine
+    assert runtime.expire_disconnected(db, row, now + runtime.DISCONNECT_MS + 5_000) is True
+    out = runtime.snapshot(row, now + runtime.DISCONNECT_MS + 5_000)["slots"][0]
+    assert out["exit_reason"] == "timeout" and out["exit_count"] == 1 and out["class_phase"] == "exited"
+    assert ("session.ended", "timeout") in delivery_actions(db, child)
+
+
+def test_an_unfinished_lesson_carries_to_the_next_school_day_from_the_same_place(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    assert action(student_client, result, slot, "position", position=1).status_code == 200
+    assert action(student_client, result, slot, "exit").status_code == 200
+    monkeypatch.setattr(routines, "clock_now", lambda: datetime(2026, 10, 15, 3, 0, tzinfo=UTC))
+    routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
+    routines.refresh_routine(db, routine, cards_loader=lambda: router.available())
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    carried = row.state["slots"][0]
+    assert carried["status"] == "planned" and carried["position"] == 1
+    assert carried["preparation"]["status"] == "ready", "the prepared lesson is kept"
+    assert carried["exit_count"] == 0 and carried["borrowed_minutes"] == 0
+    assert carried["start_ms"] > slot["start_ms"] + 12 * 3600 * 1000
+    assert row.state["school_date"] == "2026-10-15"

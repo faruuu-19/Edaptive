@@ -86,11 +86,14 @@ setting `allow_draft_content` is on (dev and demo). All 471 cards are `draft` to
 | `parent_pin` ✅ | C | Mid-1 | household_id, pin_hash, failed_attempts, locked_until |
 | `auth_session` ✅ | C | Mid-1 | token_hash, role, student_id, expires_at |
 | `event` ✅ | C (infra) | Mid-1 | seq, event_id, event_type, event_version, occurred_at, source, session_id, student_id, payload |
+| `lesson_timetable` ✅ | B (C reviews) | Mid-1 | id, student_id, household_id, status (one `active` per child), `state` jsonb (the day's slots, lesson positions, snoozes) |
+| `lesson_school_routine` ✅ | B (C reviews) | Mid-1 | student_id, household_id, start_time `HH:MM` (Asia/Karachi), last_school_date, status, message |
+| `lesson_learning_progress` ✅ | B (C reviews) | Mid-1 | student_id, household_id, `state` jsonb (curriculum delivery progress; not mastery) |
 | `learning_session` | C | Mid-1 | session_id, student_id, kind (scheduled / free_practice / quiz), slot_id, concept_id + card_version, started_at, ended_at, end_reason |
-| `schedule_template` | C | Final-1 | id, student_id, weekday, start_time, minutes, subject |
+| `schedule_template` | C | Final-1 (normalises the schedule now held in `lesson_timetable.state`) | id, student_id, weekday, start_time, minutes, subject |
 | `schedule_slot` | C | Final-1 | slot_id, student_id, date, starts_at, ends_at, subject, planned concept_id, status (planned / ready / in_progress / done / missed) |
 | `assessment_run` | C (runtime), A (grading) | Final-1 | run_id, student_id, session_id, assessment_card_id + version, status, `state` jsonb (attempt counters, hints used, current question), opened_at, closed_at |
-| `consent` | C | Mid-2 | id, student_id, kind (camera / microphone / attention_monitoring), granted, decided_at, decided_by, policy_version. One row per decision, so history is kept. |
+| `consent` ✅ | C (built by B) | Mid-1 | id (bigserial), student_id, household_id, kind (camera / microphone / lesson_alarm), granted, decided_at, decided_by, policy_version (`no-input-v1`). One row per decision, so history is kept. `attention_monitoring` is added with the attention pipeline (Mid-2). |
 | `schedule_rule` | C | Final-2 | household or student scope, allowed hours, max minutes per day, break rules |
 | `privacy_setting` | C | Final-2 | household_id, replay_hours (default 24), retention_days, transcripts_kept |
 
@@ -110,6 +113,7 @@ Each track owns its namespace and confirms its list.
 | `tutor` | A | `tutor.turn` (turn_id, action type, text shown, widget/avatar directive, llm_calls, latency_ms) | Mid-1 |
 | `verifier` | A | `verifier.verdict` (turn_id, verifier: sympy / grammar / concept_card, claim, result: pass / fail / unclear, misconception_id, latency_ms) | Mid-1 |
 | `student` | B | `student.answered` (question_id, response text or structured, input mode: touch / voice / keyboard) | Mid-1 |
+| `lesson` ✅ | B | `lesson.delivery_changed` (timetable_id, slot_id, action, concept_id, card_version, position), `lesson.attendance_recorded` (timetable_id, slot_id, concept_id, card_version, school_date, status present/absent, reason, attended_percent, lesson_title). Attendance threshold: 70% of the lesson. | Mid-1 |
 | `widget` | B | `widget.mounted`, `widget.interacted` (widget_type, action, value) | Mid-1 |
 | `avatar` | B | `avatar.state_changed` (state) | Mid-1 |
 | `mastery` | A | `mastery.updated` (concept_id, from, to, evidence) | Final-1 |
@@ -162,7 +166,11 @@ per subject, latency, accuracy and mastery over time) are plain SQL over these f
 3. **Erasure vs append-only:** a parent must be able to delete a child's data. Proposal: one
    privileged job (Track C) erases a student's rows from `event` and projections through a
    guarded DB function, then appends a `privacy.erased` tombstone. No other code can delete.
-4. **Retention period** for events (e.g. keep 1 school year), set in `privacy_setting`.
+4. **What unenroll erases (built, Mid-1):** `POST /api/profiles/{id}/unenroll` re-checks the parent PIN, then
+   deletes the profile and, by cascade, its sessions, consent, routine, timetable and progress. Events in
+   the log keep the child's id (no name), because the log refuses deletes; the privacy erasure job above
+   is still needed to remove them.
+5. **Retention period** for events (e.g. keep 1 school year), set in `privacy_setting`.
 
 ## 8. Build order
 

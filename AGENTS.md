@@ -32,8 +32,8 @@ Read `README.md`, then `docs/CONTRIBUTING.md` and `docs/ARCHITECTURE.md` before 
 | Track | Backend (`backend/app/modules/<name>/`) | Frontend (`frontend/src/features/<name>/`) |
 |---|---|---|
 | A: AI & verification (Faryal) | `socratic`, `verification`; later `misconception`, `adaptive`, `remediation`, `grammar`, `science_rag` | `verification-badge`, `citation-overlay` |
-| B: front-end, avatar & voice (Amna) | only if needed (e.g. `replay`) | `widgets`, `avatar`, `voice`, `lesson-player`, `replay`, `rewards` |
-| C: data, scheduling & parent (Ibrahim) | `auth` ✅, `profiles` ✅, `curriculum`, `scheduling`, `assessment`, `attention`, `consent`, `parent` | `auth` ✅, `home-profile` ✅, `timetable`, `progress`, `attention`, `parent` |
+| B: front-end, avatar & voice (Amna) | `lesson_delivery` ✅, `attendance` ✅ (Track C reviews storage and scheduling changes); repo root: `voice_service/`, `script_agent/` | `voice` ✅, `lesson-player` ✅, `widgets`, `avatar`, `replay`, `rewards` |
+| C: data, scheduling & parent (Ibrahim) | `auth` ✅, `profiles` ✅, `consent` ✅ (built by B), `curriculum`, `scheduling`, `assessment`, `attention`, `parent` | `auth` ✅, `home-profile` ✅, `parent` ✅ (shared with B), `timetable`, `progress`, `attention` |
 
 - New module: create its folder, add `router.py` exposing `router` (mounted automatically at
   `/api/<name>`), give it a README naming its owner, and add the path to `.github/CODEOWNERS`.

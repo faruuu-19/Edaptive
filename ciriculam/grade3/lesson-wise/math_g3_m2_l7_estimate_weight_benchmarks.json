@@ -1,0 +1,1093 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l7_estimate_weight_benchmarks",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-b-lesson-7.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 7",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.OA.1",
+    "3.MD.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Estimate weights using benchmarks: 1 kilogram, 100 grams, 10 grams and 1 gram. Read spring scales.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_kilogram_grams"
+  ],
+  "explanations": [
+    {
+      "id": "exp_benchmarks",
+      "title": "Benchmark weights",
+      "text": "Hold a 1 kilogram weight in one hand. Hold an object in the other. Is it less than, more than, or about the same?",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "exp_read_scale",
+      "title": "Read the interval first",
+      "text": "Find what one interval on the scale is worth. Then count intervals to the arrow.",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "exp_choose_unit",
+      "title": "Grams or kilograms",
+      "text": "Light things like a postcard are measured in grams. Heavy things like a cat are measured in kilograms.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2 (circle the correct unit)"
+      }
+    },
+    {
+      "id": "exp_same_kg",
+      "title": "1 kilogram is always 1 kilogram",
+      "text": "1 kilogram of bricks and 1 kilogram of feathers weigh the same. Both are 1 kilogram.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (riddle)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_200_scale",
+      "title": "A scale labelled by 200",
+      "text": "Count 200, 400, up to 2,000. This scale measures up to 2,000 grams. Each small mark is 20 grams.",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "ex_100_interval",
+      "title": "5 intervals make 500 grams",
+      "text": "5 intervals show 500 grams, so 1 interval is 100 grams. Count 100, 200, up to 1 kilogram.",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Skip-count by sevens. 63 is how many sevens?",
+      "asset_ids": [],
+      "stimulus": {
+        "total": 63,
+        "size": 7
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_track"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (63 is how many sevens?)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "1 kilogram is 900 grams and how many more grams?",
+      "asset_ids": [
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "whole_g": 1000,
+        "part_g": 900
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 1 Kilogram"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "1 kilogram is 350 grams and how many more grams?",
+      "asset_ids": [
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "whole_g": 1000,
+        "part_g": 350
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 1 Kilogram (sequence: 350 g)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Justin puts a 1 kilogram bag of flour on a pan balance. How many 100 gram bags balance it?",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "stimulus": {
+        "weight_g": 1000,
+        "bag_g": 100
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_bond",
+        "h_track"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Each interval on this scale is 1 kilogram. The arrow points at the third mark. How much do the apples weigh?",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "stimulus": {
+        "interval_kg": 1,
+        "reading_kg": 3
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_interval",
+        "h_count_intervals"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (bowl of apples)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "On a scale, 5 intervals show 500 grams. How much is 1 interval?",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "stimulus": {
+        "intervals": 5,
+        "grams": 500
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_interval"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "A scale is labelled 200, 400, 600, and so on, up to the last label. It has 10 labels. How many grams can it measure?",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "stimulus": {
+        "label_step": 200,
+        "labels": 10
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_count_intervals"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (spring scale by two-hundreds)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Each tick mark is 20 grams. How many tick marks from 0 to 100 grams?",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "stimulus": {
+        "tick_g": 20,
+        "target_g": 100
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_count_intervals"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "A box of cereal weighs about 350. Grams or kilograms?",
+      "asset_ids": [],
+      "stimulus": {
+        "object": "cereal box",
+        "number": 350
+      },
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_compare_kg"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, item a"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "A watermelon weighs about 3. Grams or kilograms?",
+      "asset_ids": [],
+      "stimulus": {
+        "object": "watermelon",
+        "number": 3
+      },
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_compare_kg"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, item b"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "A postcard weighs about 6. Grams or kilograms?",
+      "asset_ids": [],
+      "stimulus": {
+        "object": "postcard",
+        "number": 6
+      },
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_compare_kg"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, item c"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "A bicycle weighs about 15. Grams or kilograms?",
+      "asset_ids": [],
+      "stimulus": {
+        "object": "bicycle",
+        "number": 15
+      },
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_compare_kg"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, item e"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Derrick's water bottle weighs 1 kilogram. The laptop weighs the same as 2 bottles. How much does the laptop weigh?",
+      "asset_ids": [],
+      "stimulus": {
+        "bottle_kg": 1,
+        "bottles": 2
+      },
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_compare_kg"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, Derrick"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Nessa says 1 kilogram of rice weighs the same as 10 bags of 100 grams of beans. Do you agree? Why?",
+      "asset_ids": [],
+      "stimulus": {
+        "bags": 10,
+        "bag_g": 100
+      },
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, Nessa"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Alicia weighs a cell phone. The scale shows 113, but the unit is missing. Grams or kilograms? How do you know?",
+      "asset_ids": [],
+      "stimulus": {
+        "number": 113,
+        "object": "cell phone"
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_compare_kg"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Which weighs more: 1 kilogram of bricks or 1 kilogram of feathers?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_compare_kg"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (riddle)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (63 is how many sevens?)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 grams",
+          "one hundred grams"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 1 Kilogram (S: 100 g)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "650",
+          "six hundred fifty",
+          "650 grams",
+          "six hundred fifty grams"
+        ]
+      },
+      "correct": "Says 650.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 1 Kilogram (sequence: 350 g)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no printed answer; 1,000 ÷ 100)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three",
+          "3 kilograms",
+          "three kilograms",
+          "3 kg"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (S: 3 kilograms.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 grams",
+          "one hundred grams"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (S: 100 grams!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2000",
+          "two thousand",
+          "2,000",
+          "2000 grams",
+          "2,000 grams"
+        ]
+      },
+      "correct": "Says 2000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (S: ... 2,000; This scale can measure 2,000 grams.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (S: 20, 40, 60, 80, 100.)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "grams",
+          "gram",
+          "g"
+        ]
+      },
+      "correct": "Says grams.",
+      "partial": null,
+      "incorrect": "Says kilograms.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, item a"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "kilograms",
+          "kilogram",
+          "kg"
+        ]
+      },
+      "correct": "Says kilograms.",
+      "partial": null,
+      "incorrect": "Says grams.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, item b"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "grams",
+          "gram",
+          "g"
+        ]
+      },
+      "correct": "Says grams.",
+      "partial": null,
+      "incorrect": "Says kilograms.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, item c"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "kilograms",
+          "kilogram",
+          "kg"
+        ]
+      },
+      "correct": "Says kilograms.",
+      "partial": null,
+      "incorrect": "Says grams.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, item e"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two",
+          "2 kilograms",
+          "two kilograms",
+          "2 kg"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, Derrick"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says agree: 10 bags of 100 grams is 1,000 grams, which is 1 kilogram.",
+      "partial": "Says agree but gives no reason.",
+      "incorrect": "Says disagree.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Side 2, Nessa"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says grams, because a phone is light; 113 kilograms would be far too heavy.",
+      "partial": "Says grams with no reason.",
+      "incorrect": "Says kilograms.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says they weigh the same; both are 1 kilogram.",
+      "partial": "Says 'the same' with no reason.",
+      "incorrect": "Says the bricks (or the feathers) weigh more.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (riddle; key derived: both are 1 kilogram)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_interval",
+      "level": 1,
+      "text": "How much is one interval worth on this scale?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "h_count_intervals",
+      "level": 2,
+      "text": "Count the intervals from 0 to the arrow by the interval size.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "h_compare_kg",
+      "level": 1,
+      "text": "Is it as heavy as a 1 kilogram bag of rice? Light things use grams.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "h_bond",
+      "level": 2,
+      "text": "1 kilogram is 1,000 grams. What part adds on to make 1,000?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 1 Kilogram"
+      }
+    },
+    {
+      "id": "h_track",
+      "level": 1,
+      "text": "Skip-count and track the groups on your fingers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_scale_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The pointer must point to an exact reading on an exactly labelled dial or number line.",
+      "description": "A spring scale with a number-line face. Labels and interval size come from the stimulus (1 kg, 500 g, 100 g or 200 g labels).",
+      "must_show_exactly": [
+        "Scale face labels and intervals exactly as in the stimulus",
+        "Pointer at the exact reading in the stimulus",
+        "Unit (g or kg) printed on the face",
+        "q_pr_1: scale 0-5 kg by 1 kg, arrow at 3 kg",
+        "q_pr_2: scale labelled 0, 500, 1000 g with 5 intervals between labels",
+        "q_pr_3: scale 0-2,000 g labelled by 200",
+        "q_pr_4: scale ticks every 20 g, arrow at 100 g"
+      ],
+      "states_or_frames": [
+        "face with labels and intervals",
+        "pointer at the reading"
+      ],
+      "interaction": "Tutor sets the reading. Child answers by voice or typing.",
+      "alt_text": "A scale with a pointer showing a mass.",
+      "used_by": [
+        "ex_100_interval",
+        "ex_200_scale",
+        "exp_benchmarks",
+        "exp_read_scale",
+        "q_app_1",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4"
+      ],
+      "generation_caption": "Simple flat kitchen scale with a round dial, evenly spaced tick marks, pointer, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_number_bond_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "A fixed diagram with exact numbers in exact boxes.",
+      "description": "A number bond with 1 kg (1,000 g) as the whole and two parts in grams.",
+      "must_show_exactly": [
+        "Whole: 1 kg (1,000 g)",
+        "One part shown in grams, one part unknown",
+        "q_pk_2: whole 1 kg, part 900 g",
+        "q_pk_3: whole 1 kg, part 350 g"
+      ],
+      "states_or_frames": [
+        "empty",
+        "total filled",
+        "parts filled",
+        "all filled"
+      ],
+      "interaction": "Child or tutor fills the circles. Child answers by voice or typing.",
+      "alt_text": "A number bond with a total and two parts.",
+      "used_by": [
+        "q_pk_2",
+        "q_pk_3"
+      ],
+      "generation_caption": "Number bond: big circle labelled 1 kg joined to two smaller circles, flat colours. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_estimate_weigh",
+      "name": "Estimating and weighing classroom objects with weights and scales",
+      "reason": "Hands-on activity with real objects; answers differ by object. The tutor cannot see the objects.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 and Problem Set, Side 1"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Exit Ticket and Homework scale readings; Homework 'Match each object' item",
+      "issue": "'Read and write the weights' and the matching item exist only as pictures. Not used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "high",
+      "item": "q_pr_1",
+      "issue": "The apples scale is a picture in the source. The reading (3 kilograms) comes from the S: line; the widget must show exactly 3 kg on a 1 kg-interval scale."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Unit estimation keys",
+      "issue": "Grams/kilograms keys come from common sense about the objects, not from a printed answer key. The source's numbers make only one unit sensible. Recheck."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Problem Set Side 2 items d (cat) and f (lemon), Problem F, Exit Ticket units (orange, basketball, brick, sugar, tiger) repeat the unit-choice pattern. Spring scale locating 340 g, 880 g, 1,360 g left out (needs pointing)."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_pr_4, q_ps_5",
+      "issue": "Question text contains the answer number by chance (5 tick marks; 2 bottles). Check these."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposal, not added: thinking a bigger object always weighs more (feathers vs bricks)."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 1,000 − 350 = 650; 1,000 ÷ 100 = 10; 63 ÷ 7 = 9; laptop 2 kg."
+    },
+    {
+      "id": "f13",
+      "severity": "low",
+      "item": "No Sprint",
+      "issue": "This lesson has no Sprint."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_kilogram_grams (1 kilogram = 1000 grams, Lesson 6). Replace with real card ids after review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_scale_widget, a_number_bond_widget. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f19",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.OA.1, 3.MD.2. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

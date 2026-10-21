@@ -1,0 +1,1187 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l11_mass_volume_word_problems",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-b-lesson-11.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 11",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.NBT.3",
+    "3.NBT.1",
+    "3.MD.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve word problems about grams, kilograms, liters and milliliters. Use adding, subtracting, multiplying or dividing.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_weight_word_problems",
+    "ext_g3_m2_liquid_volume"
+  ],
+  "explanations": [
+    {
+      "id": "exp_make_ten",
+      "title": "Make a ten",
+      "text": "For 34 plus 126, move 4 to the 126 to make 130. Then 130 plus 30 equals 160.",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 126 grams is almost 130 grams...)"
+      }
+    },
+    {
+      "id": "exp_choose_op",
+      "title": "Choose the operation",
+      "text": "Ask: are we joining, taking away, finding equal groups, or sharing? That tells you to add, subtract, multiply or divide.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problems 1-3"
+      }
+    },
+    {
+      "id": "exp_same_units",
+      "title": "Keep the same unit",
+      "text": "All the numbers in a problem use the same unit, like grams or liters. Your answer uses that unit too.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Lesson objective (given in the same units)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_hamster",
+      "title": "Mouse and hamster",
+      "text": "The mouse weighs 34 grams. The hamster weighs 126 grams more. 34 plus 126 equals 160 grams.",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_fish_bowls",
+      "title": "Fish bowls",
+      "text": "36 liters, 4 liters in each bowl. 36 divided by 4 equals 9 bowls.",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "16 tens equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "tens": 16
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename Tens (16 tens)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What number is halfway between 80 and 90?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "low": 80,
+        "high": 90
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_halfway"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Halfway on the Number Line (80 and 90)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "A 1 liter beaker has 2 equal parts. Each part is how many milliliters?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "capacity_ml": 1000,
+        "parts": 2
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Read a Beaker (2 equal parts, 500 mL)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A mouse weighs 34 grams. A hamster weighs 126 grams more. How much does the hamster weigh?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "mouse_g": 34,
+        "more_g": 126
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_ten",
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Robert's tool crate weighs 12 kilograms. He takes out the power tools. Now it weighs 4 kilograms. How much do the power tools weigh?",
+      "asset_ids": [],
+      "stimulus": {
+        "before_kg": 12,
+        "after_kg": 4
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_op",
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Robert)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "A pitcher of shaved ice needs 5 milliliters of coloring. How much do 9 pitchers need?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "groups": 9,
+        "size_ml": 5
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_op",
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "A tank has 36 liters of water. Each fish bowl holds 4 liters. How many bowls can be filled?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "total_l": 36,
+        "size_l": 4
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_op",
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "9 kilograms of walnuts cost 36 dollars. How much does 1 kilogram cost?",
+      "asset_ids": [],
+      "stimulus": {
+        "total_dollars": 36,
+        "kg": 9
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_op",
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (walnuts)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "An orange and a mango weigh 637 grams together. The orange weighs 385 grams. What does the mango weigh?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "whole_g": 637,
+        "part_g": 385
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_tape",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (take apart with addend unknown)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "A rabbit weighs 892 grams. A guinea pig weighs 736 grams. How much more does the rabbit weigh?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "a_g": 892,
+        "b_g": 736
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_tape",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (compare with difference unknown)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Jack measures 250 milliliters of water. Angie measures double that. How much does Angie measure?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "jack_ml": 250
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Jack and Angie)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "A frozen turkey weighs about 5 kilograms. The chef orders 45 kilograms. About how many turkeys is that?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "total_kg": 45,
+        "size_kg": 5
+      },
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_op",
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "A recipe needs 300 milliliters of milk. Sara triples the recipe. How much milk does she need?",
+      "asset_ids": [],
+      "stimulus": {
+        "size_ml": 300,
+        "times": 3
+      },
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 5"
+      }
+    },
+    {
+      "id": "q_ps_6",
+      "kind": "practice",
+      "text": "Marian fills 3 buckets of 4 liters each. She still has 2 liters left. What is the capacity of her container?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "buckets": 3,
+        "bucket_l": 4,
+        "left_l": 2
+      },
+      "rubric_id": "r_ps_6",
+      "hint_ids": [
+        "h_tape",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 6"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "A horse and rider weigh 729 kilograms. The horse weighs 625 kilograms. How much does the rider weigh?",
+      "asset_ids": [],
+      "stimulus": {
+        "whole_kg": 729,
+        "part_kg": 625
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_tape",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Dwight has 48 kilograms of fertilizer. Each garden bed needs 6 kilograms. How many beds can he fertilize?",
+      "asset_ids": [],
+      "stimulus": {
+        "total_kg": 48,
+        "size_kg": 6
+      },
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_op",
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 4"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Marian's problem has two steps. Why is it harder than a one-step problem?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 6 more challenging)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "160",
+          "one hundred sixty"
+        ]
+      },
+      "correct": "Says 160.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename Tens (16 tens)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "85",
+          "eighty-five"
+        ]
+      },
+      "correct": "Says 85.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Halfway on the Number Line (80 and 90)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500",
+          "five hundred",
+          "500 milliliters",
+          "five hundred milliliters"
+        ]
+      },
+      "correct": "Says 500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Read a Beaker (increments of 500 milliliters)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "160",
+          "one hundred sixty",
+          "160 grams",
+          "one hundred sixty grams"
+        ]
+      },
+      "correct": "Says 160.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Then it's just 30 + 130)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight",
+          "8 kilograms",
+          "eight kilograms",
+          "8 kg"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Robert)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45",
+          "forty-five",
+          "45 milliliters",
+          "forty-five milliliters"
+        ]
+      },
+      "correct": "Says 45.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four",
+          "4 dollars",
+          "four dollars"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (walnuts)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "252",
+          "two hundred fifty-two",
+          "252 grams",
+          "two hundred fifty-two grams"
+        ]
+      },
+      "correct": "Says 252.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (take apart with addend unknown)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "156",
+          "one hundred fifty-six",
+          "156 grams",
+          "one hundred fifty-six grams"
+        ]
+      },
+      "correct": "Says 156.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (compare with difference unknown)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500",
+          "five hundred",
+          "500 milliliters",
+          "five hundred milliliters"
+        ]
+      },
+      "correct": "Says 500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (Jack and Angie)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "900",
+          "nine hundred",
+          "900 milliliters",
+          "nine hundred milliliters"
+        ]
+      },
+      "correct": "Says 900.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 5"
+      }
+    },
+    {
+      "id": "r_ps_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen",
+          "14 liters",
+          "fourteen liters"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": "Says 12 (forgets the 2 liters left).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 6"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "104",
+          "one hundred four",
+          "104 kilograms",
+          "one hundred four kilograms"
+        ]
+      },
+      "correct": "Says 104.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 4"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says you must find the water in the full buckets (3 times 4) and then add the 2 liters left, so there are two steps.",
+      "partial": "Says it has two steps but does not name them.",
+      "incorrect": "Says only one operation is needed.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (asked; key derived: multiply the full buckets, then add the 2 liters left)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_op",
+      "level": 1,
+      "text": "Joining, taking away, equal groups, or sharing? Pick the operation.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problems 1-3"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 2,
+      "text": "Draw a tape diagram. Label what you know and put ? on the unknown.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "h_ten",
+      "level": 2,
+      "text": "Make a ten first, then add the rest.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "h_skip",
+      "level": 2,
+      "text": "Skip-count by the amount in one group. Track the count on your fingers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "h_halfway",
+      "level": 1,
+      "text": "Halfway between two tens ends in 5.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Halfway on the Number Line"
+      }
+    },
+    {
+      "id": "h_tens",
+      "level": 1,
+      "text": "10 tens is 100. Add the extra tens.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename Tens"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Unit bars must be exactly equal and the number of units must be exact. Labels and the question mark must be placed exactly.",
+      "description": "A tape diagram: one long bar cut into equal units. A label shows the size of a unit or the total, and a question mark shows the unknown.",
+      "must_show_exactly": [
+        "Exactly the number of equal units given in the stimulus",
+        "All units the same length",
+        "Known value labelled, unknown shown as a question mark",
+        "q_pr_1: tape: 34 g and 126 g more",
+        "q_pr_3: 9 units of 5 mL",
+        "q_pr_4: 36 L in units of 4 L",
+        "q_ps_4: 45 kg in units of 5 kg",
+        "q_ps_6: 3 units of 4 L plus 2 L"
+      ],
+      "states_or_frames": [
+        "empty bar",
+        "bar cut into units",
+        "labels and question mark shown"
+      ],
+      "interaction": "Display only, or child taps a unit to label it. Child answers by voice or typing.",
+      "alt_text": "A bar cut into equal parts with a question mark.",
+      "used_by": [
+        "ex_fish_bowls",
+        "ex_hamster",
+        "exp_make_ten",
+        "q_pr_1",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_6",
+        "q_pr_7",
+        "q_ps_4",
+        "q_ps_6"
+      ],
+      "generation_caption": "Clean horizontal bar divided into equal rectangular units, with a brace and a question mark, flat colours, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_beaker_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Liquid level and scale marks must be exact.",
+      "description": "A beaker image used for fluency: 4 L with 1 L marks, or 1 L with 10 marks of 100 mL, or 1 L with 2 parts of 500 mL.",
+      "must_show_exactly": [
+        "Capacity and marks exactly as in the stimulus",
+        "Shaded water level exactly at the stimulus reading",
+        "q_pk_3: 1 L beaker with 2 parts",
+        "q_pr_8: beaker at 500 mL"
+      ],
+      "states_or_frames": [
+        "4 L beaker, 1 L marks",
+        "1 L beaker, 100 mL marks",
+        "1 L beaker, 500 mL marks"
+      ],
+      "interaction": "Tutor sets the scale and level. Child answers by voice or typing.",
+      "alt_text": "A container with a scale, filled with water.",
+      "used_by": [
+        "q_pk_3",
+        "q_pr_8"
+      ],
+      "generation_caption": "Clear flat beaker with a vertical scale of evenly spaced marks and blue water inside, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_vertical_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Endpoints, halfway point and the plotted number must be in exact positions.",
+      "description": "A vertical number line with two tens as endpoints and the halfway point marked.",
+      "must_show_exactly": [
+        "Endpoints exactly as in the stimulus",
+        "Halfway point marked and labelled",
+        "Number plotted at its exact position",
+        "Equal spacing",
+        "q_pk_2: 80 at bottom, 90 at top, halfway marked"
+      ],
+      "states_or_frames": [
+        "endpoints only",
+        "halfway point added",
+        "number plotted",
+        "arrow to the nearer endpoint"
+      ],
+      "interaction": "Tutor sets the number. Child answers by voice or typing.",
+      "alt_text": "A vertical number line with a number between two tens.",
+      "used_by": [
+        "q_pk_2"
+      ],
+      "generation_caption": "Vertical number line with two labelled ends and a marked middle, flat colours, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set items 1-3; Exit Ticket; Homework item 1",
+      "issue": "Scale and cup pictures hold the numbers (tomatoes and baby food total, pen weight, fruit total, cup capacities, Karina's items). Not in the extract. Not used."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Concept Development repeats (Judith 140 mL × 2; Alyssa 3 L × 8; almonds 4 g × 7; garden 49 L ÷ 7; pineapple 24 kg ÷ 4; pitchers 3 L × 9) and Homework 3 (6 × 9 L), 5 (7 × 5 mL) repeat used patterns."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "q_db_1, r_db_1",
+      "issue": "The Debrief asks why Problem 6 is harder but gives no answer. Key derived."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposal, not added: forgetting the leftover amount in two-step capacity problems (linked only as partial in r_ps_6)."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 160 tens rename, 85, 8, 45, 9, 4, 252, 156, 500, 9, 900, 14, 104, 8. Recheck."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "No Application Problem, no Sprint",
+      "issue": "This lesson has no Application Problem and no Sprint."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_weight_word_problems (one-step weight problems, Lesson 8); ext_g3_m2_liquid_volume (liters and milliliters, Lessons 9-10). Replace with real card ids after review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available: a_tape_diagram, a_beaker_widget, a_vertical_number_line. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.NBT.3, 3.NBT.1, 3.MD.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

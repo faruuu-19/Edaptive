@@ -1,0 +1,3321 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g5_m1_l8_round_decimals_choose_helpful_decomposition",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g5_m1",
+      "file": "math-g5-m1-topic-c-lesson-8.md",
+      "source_version": "not stated in file",
+      "title": "Eureka Math / EngageNY, Grade 5, Module 1, Lesson 8",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the file; page n/a, section named"
+    }
+  ],
+  "review_status": "reviewed",
+  "grade": 5,
+  "subject": "math",
+  "standards": [
+    "5.NBT.3",
+    "5.NBT.4"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Round a decimal to any place by choosing a helpful unit decomposition and the vertical number line.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g5_m1_l7_round_decimals_with_vertical_number_line",
+    "math_g5_m1_l6_compare_decimals_with_like_units"
+  ],
+  "explanations": [
+    {
+      "id": "exp_choose_unit",
+      "title": "Pick the helpful unit",
+      "text": "To round 49.67 to the nearest ten, think of it as 4 tens and about 9.67 ones. The choices are 4 tens or 5 tens. 49.67 is closer to 5 tens, so it rounds to 50.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "exp_deciding_digit",
+      "title": "The digit that decides",
+      "text": "To round 9.949 to the nearest tenth, look at the hundredths. 4 hundredths is not 5 or more, so it rounds down to 9.9. The thousandths do not matter.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "exp_max_min",
+      "title": "Greatest and least",
+      "text": "Numbers with one decimal digit that round to 27 run from 26.5 to 27.4. 27.5 rounds up to 28, so it is too big.",
+      "asset_ids": [
+        "a_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3"
+      }
+    }
+  ],
+  "examples": [],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "practice",
+      "text": "Write 13 tenths as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 13,
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "practice",
+      "text": "Write 14 tenths as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 14,
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "practice",
+      "text": "Write 24 tenths as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 24,
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "practice",
+      "text": "Write 124 tenths as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 124,
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "practice",
+      "text": "Write 524 tenths as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 524,
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "practice",
+      "text": "How many whole tenths are in 2.5?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "2.5",
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "practice",
+      "text": "How many whole tenths are in 17.5?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "17.5",
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "practice",
+      "text": "How many whole tenths are in 27.5?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "27.5",
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "practice",
+      "text": "How many whole tenths are in 24.5?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "24.5",
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "practice",
+      "text": "How many whole tenths are in 24.3?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "24.3",
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "practice",
+      "text": "How many whole tenths are in 42.3?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "42.3",
+        "unit": "tenth"
+      },
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "practice",
+      "text": "Write 37 hundredths as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 37,
+        "unit": "hundredth"
+      },
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (hundredths)"
+      }
+    },
+    {
+      "id": "q_pk_13",
+      "kind": "practice",
+      "text": "Write 137 hundredths as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 137,
+        "unit": "hundredth"
+      },
+      "rubric_id": "r_pk_13",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (hundredths)"
+      }
+    },
+    {
+      "id": "q_pk_14",
+      "kind": "practice",
+      "text": "Write 537 hundredths as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 537,
+        "unit": "hundredth"
+      },
+      "rubric_id": "r_pk_14",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (hundredths)"
+      }
+    },
+    {
+      "id": "q_pk_15",
+      "kind": "practice",
+      "text": "Write 296 hundredths as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "count": 296,
+        "unit": "hundredth"
+      },
+      "rubric_id": "r_pk_15",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (hundredths)"
+      }
+    },
+    {
+      "id": "q_pk_16",
+      "kind": "practice",
+      "text": "How many thousandths are in 0.548?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.548",
+        "unit": "thousandth"
+      },
+      "rubric_id": "r_pk_16",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (thousandths)"
+      }
+    },
+    {
+      "id": "q_pk_17",
+      "kind": "practice",
+      "text": "How many thousandths are in 1.548?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "1.548",
+        "unit": "thousandth"
+      },
+      "rubric_id": "r_pk_17",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (thousandths)"
+      }
+    },
+    {
+      "id": "q_pk_18",
+      "kind": "practice",
+      "text": "How many thousandths are in 2.548?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "2.548",
+        "unit": "thousandth"
+      },
+      "rubric_id": "r_pk_18",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (thousandths)"
+      }
+    },
+    {
+      "id": "q_pk_19",
+      "kind": "practice",
+      "text": "How many thousandths are in 7.352?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "7.352",
+        "unit": "thousandth"
+      },
+      "rubric_id": "r_pk_19",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (thousandths)"
+      }
+    },
+    {
+      "id": "q_pk_20",
+      "kind": "practice",
+      "text": "Round 8.735 to the nearest whole number.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "8.735",
+        "place": "one"
+      },
+      "rubric_id": "r_pk_20",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "q_pk_21",
+      "kind": "practice",
+      "text": "Round 8.735 to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "8.735",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pk_21",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "q_pk_22",
+      "kind": "practice",
+      "text": "Round 8.735 to the nearest hundredth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "8.735",
+        "place": "hundredth"
+      },
+      "rubric_id": "r_pk_22",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "q_pk_23",
+      "kind": "practice",
+      "text": "Round 7.458 to the nearest whole number.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "7.458",
+        "place": "one"
+      },
+      "rubric_id": "r_pk_23",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "q_pk_24",
+      "kind": "practice",
+      "text": "Round 7.458 to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "7.458",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pk_24",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "q_pk_25",
+      "kind": "practice",
+      "text": "Round 7.458 to the nearest hundredth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "7.458",
+        "place": "hundredth"
+      },
+      "rubric_id": "r_pk_25",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A bag of whole wheat flour weighs 2.915 kilograms. Round this to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "2.915",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (bag of flour)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "A bag of whole wheat flour weighs 2.915 kilograms. Round this to the nearest whole kilogram.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "2.915",
+        "place": "one"
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (bag of flour)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "The flour weighs 2.915 kilograms. Rounded to the tenth it is 2.9 kilograms. Rounded to the whole it is 3 kilograms. What is the difference of the two answers?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "3-2.9"
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (bag of flour) (extension)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Round 49.67 to the nearest ten.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "49.67",
+        "place": "ten"
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Round 49.67 to the nearest whole number.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "49.67",
+        "place": "one"
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Round 49.67 to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "49.67",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Round 9.949 to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "9.949",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Round 9.949 to the nearest hundredth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "9.949",
+        "place": "hundredth"
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "A number has one digit to the right of the decimal point. It rounds to 27 when rounded to the nearest whole number. What is the greatest the number can be?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "27.4"
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (maximum)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "A number has one digit to the right of the decimal point. It rounds to 27 when rounded to the nearest whole number. What is the least the number can be?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "26.5"
+      },
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (minimum)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "A number has two digits to the right of the decimal point. It rounds to 27 when rounded to the nearest whole number. What is the greatest it can be?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "27.49"
+      },
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (two decimal digits, maximum)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Round 32.697 to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "32.697",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Round 32.697 to the nearest hundredth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "32.697",
+        "place": "hundredth"
+      },
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Round 32.697 to the nearest whole number.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "32.697",
+        "place": "one"
+      },
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Round 141.999 to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "141.999",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2)"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "Round 141.999 to the nearest hundredth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "141.999",
+        "place": "hundredth"
+      },
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2)"
+      }
+    },
+    {
+      "id": "q_pr_17",
+      "kind": "practice",
+      "text": "Round 141.999 to the nearest ten.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "141.999",
+        "place": "ten"
+      },
+      "rubric_id": "r_pr_17",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2)"
+      }
+    },
+    {
+      "id": "q_pr_18",
+      "kind": "practice",
+      "text": "Round 141.999 to the nearest hundred.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "141.999",
+        "place": "hundred"
+      },
+      "rubric_id": "r_pr_18",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2)"
+      }
+    },
+    {
+      "id": "q_pr_19",
+      "kind": "practice",
+      "text": "A root beer factory makes 132,554 cases in 100 days. That is 1,325.54 cases a day. Round to the nearest tenth of a case.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "1325.54",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_19",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3, cases per day)"
+      }
+    },
+    {
+      "id": "q_pr_20",
+      "kind": "practice",
+      "text": "A number has two digits to the right of its decimal point. It rounds to 13.7 to the nearest tenth. What is the greatest it can be?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "13.74"
+      },
+      "rubric_id": "r_pr_20",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 4a)"
+      }
+    },
+    {
+      "id": "q_pr_21",
+      "kind": "practice",
+      "text": "A number has two digits to the right of its decimal point. It rounds to 13.7 to the nearest tenth. What is the least it can be?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "13.65"
+      },
+      "rubric_id": "r_pr_21",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 4b)"
+      }
+    },
+    {
+      "id": "q_pr_22",
+      "kind": "practice",
+      "text": "Round 13.989 to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "13.989",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_22",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 1a)"
+      }
+    },
+    {
+      "id": "q_pr_23",
+      "kind": "practice",
+      "text": "Round 382.993 to the nearest hundredth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "382.993",
+        "place": "hundredth"
+      },
+      "rubric_id": "r_pr_23",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 1b)"
+      }
+    },
+    {
+      "id": "q_pr_24",
+      "kind": "practice",
+      "text": "Round 43.586 to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "43.586",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_24",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2a)"
+      }
+    },
+    {
+      "id": "q_pr_25",
+      "kind": "practice",
+      "text": "Round 43.586 to the nearest hundredth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "43.586",
+        "place": "hundredth"
+      },
+      "rubric_id": "r_pr_25",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2a)"
+      }
+    },
+    {
+      "id": "q_pr_26",
+      "kind": "practice",
+      "text": "Round 43.586 to the nearest whole number.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "43.586",
+        "place": "one"
+      },
+      "rubric_id": "r_pr_26",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2a)"
+      }
+    },
+    {
+      "id": "q_pr_27",
+      "kind": "practice",
+      "text": "Round 243.875 to the nearest tenth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "243.875",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_27",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2b)"
+      }
+    },
+    {
+      "id": "q_pr_28",
+      "kind": "practice",
+      "text": "Round 243.875 to the nearest hundredth.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "243.875",
+        "place": "hundredth"
+      },
+      "rubric_id": "r_pr_28",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2b)"
+      }
+    },
+    {
+      "id": "q_pr_29",
+      "kind": "practice",
+      "text": "Round 243.875 to the nearest ten.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "243.875",
+        "place": "ten"
+      },
+      "rubric_id": "r_pr_29",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2b)"
+      }
+    },
+    {
+      "id": "q_pr_30",
+      "kind": "practice",
+      "text": "Round 243.875 to the nearest hundred.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "243.875",
+        "place": "hundred"
+      },
+      "rubric_id": "r_pr_30",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2b)"
+      }
+    },
+    {
+      "id": "q_pr_31",
+      "kind": "practice",
+      "text": "A trip of 2,852.1 miles is driven in 10 equal days. That is 285.21 miles a day. Round to the nearest tenth of a mile.",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "285.21",
+        "place": "tenth"
+      },
+      "rubric_id": "r_pr_31",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3, miles a day)"
+      }
+    },
+    {
+      "id": "q_pr_32",
+      "kind": "practice",
+      "text": "A number has two digits to the right of its decimal point. It rounds to 18.6 to the nearest tenth. What is the greatest it can be?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "18.64"
+      },
+      "rubric_id": "r_pr_32",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4a)"
+      }
+    },
+    {
+      "id": "q_pr_33",
+      "kind": "practice",
+      "text": "A number has two digits to the right of its decimal point. It rounds to 18.6 to the nearest tenth. What is the least it can be?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "18.55"
+      },
+      "rubric_id": "r_pr_33",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4b)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How is today's way of rounding different from Lesson 7?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "approach"
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_unit",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (compare Lesson 7 and 8)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "If a number rounds up at one place, will it round up at every place? Why or why not?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "rounding up"
+      },
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1b)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Why is 27.4 the greatest one-decimal number that rounds down to 27?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "maximum"
+      },
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "Which digit decides whether 9.949 rounds up or down to the nearest tenth? Which digit makes no difference?",
+      "asset_ids": [
+        "a_number_line",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "deciding digit"
+      },
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_round",
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problem 2)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.3",
+          "one point three",
+          "one and three tenths"
+        ]
+      },
+      "correct": "Says 1.3.",
+      "partial": "Writes the right digits in the wrong places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.4",
+          "one point four",
+          "one and four tenths"
+        ]
+      },
+      "correct": "Says 1.4.",
+      "partial": "Writes the right digits in the wrong places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.4",
+          "two point four",
+          "two and four tenths"
+        ]
+      },
+      "correct": "Says 2.4.",
+      "partial": "Writes the right digits in the wrong places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12.4",
+          "twelve point four",
+          "twelve and four tenths"
+        ]
+      },
+      "correct": "Says 12.4.",
+      "partial": "Writes the right digits in the wrong places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "52.4",
+          "fifty-two point four",
+          "fifty-two and four tenths"
+        ]
+      },
+      "correct": "Says 52.4.",
+      "partial": "Writes the right digits in the wrong places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "25",
+          "25 tenths",
+          "twenty-five tenths"
+        ]
+      },
+      "correct": "Says 25 tenths.",
+      "partial": "Counts only some of the digits.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "175",
+          "175 tenths",
+          "one hundred seventy-five tenths"
+        ]
+      },
+      "correct": "Says 175 tenths.",
+      "partial": "Counts only some of the digits.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "275",
+          "275 tenths",
+          "two hundred seventy-five tenths"
+        ]
+      },
+      "correct": "Says 275 tenths.",
+      "partial": "Counts only some of the digits.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "245",
+          "245 tenths",
+          "two hundred forty-five tenths"
+        ]
+      },
+      "correct": "Says 245 tenths.",
+      "partial": "Counts only some of the digits.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "243",
+          "243 tenths",
+          "two hundred forty-three tenths"
+        ]
+      },
+      "correct": "Says 243 tenths.",
+      "partial": "Counts only some of the digits.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "423",
+          "423 tenths",
+          "four hundred twenty-three tenths"
+        ]
+      },
+      "correct": "Says 423 tenths.",
+      "partial": "Counts only some of the digits.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (tenths)"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.37",
+          "zero point three seven",
+          "thirty-seven hundredths"
+        ]
+      },
+      "correct": "Says 0.37.",
+      "partial": "Writes the right digits in the wrong places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (hundredths)"
+      }
+    },
+    {
+      "id": "r_pk_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.37",
+          "one point three seven",
+          "one and thirty-seven hundredths"
+        ]
+      },
+      "correct": "Says 1.37.",
+      "partial": "Writes the right digits in the wrong places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (hundredths)"
+      }
+    },
+    {
+      "id": "r_pk_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5.37",
+          "five point three seven",
+          "five and thirty-seven hundredths"
+        ]
+      },
+      "correct": "Says 5.37.",
+      "partial": "Writes the right digits in the wrong places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (hundredths)"
+      }
+    },
+    {
+      "id": "r_pk_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.96",
+          "two point nine six",
+          "two and ninety-six hundredths"
+        ]
+      },
+      "correct": "Says 2.96.",
+      "partial": "Writes the right digits in the wrong places.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (hundredths)"
+      }
+    },
+    {
+      "id": "r_pk_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "548",
+          "548 thousandths",
+          "five hundred forty-eight thousandths"
+        ]
+      },
+      "correct": "Says 548 thousandths.",
+      "partial": "Counts only the digits to the right of the decimal point.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (thousandths)"
+      }
+    },
+    {
+      "id": "r_pk_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1548",
+          "1,548",
+          "1,548 thousandths",
+          "1548 thousandths",
+          "one thousand five hundred forty-eight thousandths"
+        ]
+      },
+      "correct": "Says 1,548 thousandths.",
+      "partial": "Counts only the digits to the right of the decimal point.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (thousandths)"
+      }
+    },
+    {
+      "id": "r_pk_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2548",
+          "2,548",
+          "2,548 thousandths",
+          "2548 thousandths",
+          "two thousand five hundred forty-eight thousandths"
+        ]
+      },
+      "correct": "Says 2,548 thousandths.",
+      "partial": "Counts only the digits to the right of the decimal point.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (thousandths)"
+      }
+    },
+    {
+      "id": "r_pk_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7352",
+          "7,352",
+          "7,352 thousandths",
+          "7352 thousandths",
+          "seven thousand three hundred fifty-two thousandths"
+        ]
+      },
+      "correct": "Says 7,352 thousandths.",
+      "partial": "Counts only the digits to the right of the decimal point.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Units (thousandths)"
+      }
+    },
+    {
+      "id": "r_pk_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9",
+          "nine"
+        ]
+      },
+      "correct": "Says 9.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "r_pk_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8.7",
+          "eight point seven",
+          "eight and seven tenths"
+        ]
+      },
+      "correct": "Says 8.7.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "r_pk_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8.74",
+          "eight point seven four",
+          "eight and seventy-four hundredths"
+        ]
+      },
+      "correct": "Says 8.74.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "r_pk_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "r_pk_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7.5",
+          "seven point five",
+          "seven and five tenths"
+        ]
+      },
+      "correct": "Says 7.5.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "r_pk_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7.46",
+          "seven point four six",
+          "seven and forty-six hundredths"
+        ]
+      },
+      "correct": "Says 7.46.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Round to Different Place Values"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.9",
+          "two point nine",
+          "two and nine tenths"
+        ]
+      },
+      "correct": "Says 2.9.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (bag of flour)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (bag of flour)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.1",
+          "zero point one",
+          "one tenth",
+          "0.1 kilograms"
+        ]
+      },
+      "correct": "Says 0.1 kilograms.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (bag of flour) (extension)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "49.7",
+          "forty-nine point seven",
+          "forty-nine and seven tenths"
+        ]
+      },
+      "correct": "Says 49.7.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9.9",
+          "nine point nine",
+          "nine and nine tenths"
+        ]
+      },
+      "correct": "Says 9.9.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9.95",
+          "nine point nine five",
+          "nine and ninety-five hundredths"
+        ]
+      },
+      "correct": "Says 9.95.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 2"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "27.4",
+          "twenty-seven point four",
+          "twenty-seven and four tenths"
+        ]
+      },
+      "correct": "Says 27.4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (maximum)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26.5",
+          "twenty-six point five",
+          "twenty-six and five tenths"
+        ]
+      },
+      "correct": "Says 26.5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (minimum)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "27.49",
+          "twenty-seven point four nine",
+          "twenty-seven and forty-nine hundredths"
+        ]
+      },
+      "correct": "Says 27.49.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 3 (two decimal digits, maximum)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32.7",
+          "thirty-two point seven",
+          "thirty-two and seven tenths"
+        ]
+      },
+      "correct": "Says 32.7.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "32.70",
+          "thirty-two point seven zero",
+          "thirty-two and seventy hundredths",
+          "32.7",
+          "thirty-two point seven",
+          "thirty-two and seven tenths"
+        ]
+      },
+      "correct": "Says 32.70.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33",
+          "thirty-three"
+        ]
+      },
+      "correct": "Says 33.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "142.0",
+          "one hundred forty-two point zero",
+          "one hundred forty-two",
+          "142"
+        ]
+      },
+      "correct": "Says 142.0.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2)"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "142.00",
+          "one hundred forty-two point zero zero",
+          "one hundred forty-two",
+          "142"
+        ]
+      },
+      "correct": "Says 142.00.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2)"
+      }
+    },
+    {
+      "id": "r_pr_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "140",
+          "one hundred forty"
+        ]
+      },
+      "correct": "Says 140.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2)"
+      }
+    },
+    {
+      "id": "r_pr_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2)"
+      }
+    },
+    {
+      "id": "r_pr_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1325.5",
+          "1,325.5",
+          "one thousand three hundred twenty-five point five",
+          "one thousand three hundred twenty-five and five tenths"
+        ]
+      },
+      "correct": "Says 1325.5.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3, cases per day)"
+      }
+    },
+    {
+      "id": "r_pr_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13.74",
+          "thirteen point seven four",
+          "thirteen and seventy-four hundredths"
+        ]
+      },
+      "correct": "Says 13.74.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 4a)"
+      }
+    },
+    {
+      "id": "r_pr_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "13.65",
+          "thirteen point six five",
+          "thirteen and sixty-five hundredths"
+        ]
+      },
+      "correct": "Says 13.65.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 4b)"
+      }
+    },
+    {
+      "id": "r_pr_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14.0",
+          "fourteen point zero",
+          "fourteen",
+          "14"
+        ]
+      },
+      "correct": "Says 14.0.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 1a)"
+      }
+    },
+    {
+      "id": "r_pr_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "382.99",
+          "three hundred eighty-two point nine nine",
+          "three hundred eighty-two and ninety-nine hundredths"
+        ]
+      },
+      "correct": "Says 382.99.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 1b)"
+      }
+    },
+    {
+      "id": "r_pr_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "43.6",
+          "forty-three point six",
+          "forty-three and six tenths"
+        ]
+      },
+      "correct": "Says 43.6.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2a)"
+      }
+    },
+    {
+      "id": "r_pr_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "43.59",
+          "forty-three point five nine",
+          "forty-three and fifty-nine hundredths"
+        ]
+      },
+      "correct": "Says 43.59.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2a)"
+      }
+    },
+    {
+      "id": "r_pr_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "44",
+          "forty-four"
+        ]
+      },
+      "correct": "Says 44.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2a)"
+      }
+    },
+    {
+      "id": "r_pr_27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "243.9",
+          "two hundred forty-three point nine",
+          "two hundred forty-three and nine tenths"
+        ]
+      },
+      "correct": "Says 243.9.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2b)"
+      }
+    },
+    {
+      "id": "r_pr_28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "243.88",
+          "two hundred forty-three point eight eight",
+          "two hundred forty-three and eighty-eight hundredths"
+        ]
+      },
+      "correct": "Says 243.88.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2b)"
+      }
+    },
+    {
+      "id": "r_pr_29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "240",
+          "two hundred forty"
+        ]
+      },
+      "correct": "Says 240.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2b)"
+      }
+    },
+    {
+      "id": "r_pr_30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred"
+        ]
+      },
+      "correct": "Says 200.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2b)"
+      }
+    },
+    {
+      "id": "r_pr_31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "285.2",
+          "two hundred eighty-five point two",
+          "two hundred eighty-five and two tenths"
+        ]
+      },
+      "correct": "Says 285.2.",
+      "partial": "Rounds to a different place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3, miles a day)"
+      }
+    },
+    {
+      "id": "r_pr_32",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18.64",
+          "eighteen point six four",
+          "eighteen and sixty-four hundredths"
+        ]
+      },
+      "correct": "Says 18.64.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4a)"
+      }
+    },
+    {
+      "id": "r_pr_33",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18.55",
+          "eighteen point five five",
+          "eighteen and fifty-five hundredths"
+        ]
+      },
+      "correct": "Says 18.55.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4b)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says today we choose only the useful decomposition for the place we round to, instead of naming every decomposition.",
+      "partial": "Says it is different but not how.",
+      "incorrect": "Says it is the same.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (compare Lesson 7 and 8)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. Each place has its own halfway point, so a number can round up at one place and down at another.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1b)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the halfway point between 27 and 28 is 27.5, and 27.5 rounds up. So 27.4 is the largest one-digit number that rounds down.",
+      "partial": "Says it is below 27.5 but does not say why.",
+      "incorrect": "Says 27.9.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 3)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the hundredths digit decides. The thousandths digit makes no difference because the hundredths digit is below 5.",
+      "partial": "Names the hundredths digit but not why.",
+      "incorrect": "Names the thousandths digit.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problem 2)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_chart",
+      "level": 1,
+      "text": "Draw the place value chart. Put each digit in its own place.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_shift",
+      "level": 1,
+      "text": "Multiplying by ten moves every digit one place to the left. Dividing moves it right.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_zeros",
+      "level": 2,
+      "text": "Count the zeros in the number you multiply or divide by. That tells how many places the digits move.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_exp",
+      "level": 2,
+      "text": "The exponent tells how many tens are multiplied together. It matches the zeros.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unit",
+      "level": 1,
+      "text": "Say the unit name. Then use a basic fact with that unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_conv",
+      "level": 2,
+      "text": "Think how many small units fit in a big unit. Then multiply or divide.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_like",
+      "level": 1,
+      "text": "Add or subtract like units. Tenths with tenths, hundredths with hundredths.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_regroup",
+      "level": 2,
+      "text": "Trade ten of a small unit for one of the next larger unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_cmp",
+      "level": 1,
+      "text": "Compare digits from the left. Find the first place where they differ.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unitcmp",
+      "level": 2,
+      "text": "Rename both numbers with the same unit. Then compare.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_round",
+      "level": 1,
+      "text": "Find the nearest numbers on each side for that place. Then check if you are past the halfway point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_est",
+      "level": 2,
+      "text": "Round the numbers and estimate first. Then place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_area",
+      "level": 2,
+      "text": "Draw an area model. Multiply each unit by the whole number. Then add the partial products.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unbundle",
+      "level": 2,
+      "text": "If you cannot share a unit evenly, trade it for ten of the next smaller unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 1,
+      "text": "Draw a tape diagram. Label the total and the parts.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_whole",
+      "level": 1,
+      "text": "Divide like whole numbers first. Then think about the unit to place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_pv_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A place value chart from millions to thousandths with a decimal point between ones and tenths. Disks or digits sit in the columns.",
+      "must_show_exactly": [
+        "Columns run millions down to thousandths in order",
+        "Decimal point sits between ones and tenths",
+        "Digits or disks match the stimulus"
+      ],
+      "states_or_frames": [
+        "empty chart",
+        "digits placed",
+        "arrows show shift left or right"
+      ],
+      "interaction": "Child types digits into columns. Tutor can draw arrows.",
+      "alt_text": "A place value chart with labelled columns.",
+      "used_by": [
+        "exp_choose_unit",
+        "exp_deciding_digit",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pk_1",
+        "q_pk_10",
+        "q_pk_11",
+        "q_pk_12",
+        "q_pk_13",
+        "q_pk_14",
+        "q_pk_15",
+        "q_pk_16",
+        "q_pk_17",
+        "q_pk_18",
+        "q_pk_19",
+        "q_pk_2",
+        "q_pk_20",
+        "q_pk_21",
+        "q_pk_22",
+        "q_pk_23",
+        "q_pk_24",
+        "q_pk_25",
+        "q_pk_3",
+        "q_pk_4",
+        "q_pk_5",
+        "q_pk_6",
+        "q_pk_7",
+        "q_pk_8",
+        "q_pk_9",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_18",
+        "q_pr_19",
+        "q_pr_2",
+        "q_pr_20",
+        "q_pr_21",
+        "q_pr_22",
+        "q_pr_23",
+        "q_pr_24",
+        "q_pr_25",
+        "q_pr_26",
+        "q_pr_27",
+        "q_pr_28",
+        "q_pr_29",
+        "q_pr_3",
+        "q_pr_30",
+        "q_pr_31",
+        "q_pr_32",
+        "q_pr_33",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat place value chart with column headings from millions to thousandths, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A number line with equal tick marks and labels.",
+      "must_show_exactly": [
+        "Equal spacing between tick marks",
+        "Labels and marked points match the stimulus"
+      ],
+      "states_or_frames": [
+        "empty line",
+        "ticks added",
+        "points marked"
+      ],
+      "interaction": "Display. Child may be asked to place a point.",
+      "alt_text": "A number line with equally spaced tick marks.",
+      "used_by": [
+        "exp_choose_unit",
+        "exp_deciding_digit",
+        "exp_max_min",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pk_20",
+        "q_pk_21",
+        "q_pk_22",
+        "q_pk_23",
+        "q_pk_24",
+        "q_pk_25",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_18",
+        "q_pr_19",
+        "q_pr_2",
+        "q_pr_20",
+        "q_pr_21",
+        "q_pr_22",
+        "q_pr_23",
+        "q_pr_24",
+        "q_pr_25",
+        "q_pr_26",
+        "q_pr_27",
+        "q_pr_28",
+        "q_pr_29",
+        "q_pr_30",
+        "q_pr_31",
+        "q_pr_32",
+        "q_pr_33",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat horizontal number line with equal tick marks, plain background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "source text quality",
+      "issue": "The lesson file is plain text with NO page images and NO page numbers. Fraction symbols, tape diagrams, number bonds and figures were lost in the text, so student answers such as 'S: [blank]' cannot be read. Only fractions written in words (for example '5 sixths') were used. Compare every question with the original PDF."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts or fractions. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "Prerequisites that start with math_g5_m1_ point to earlier cards of this module made in the same project. Check that each earlier lesson really teaches the needed skill."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Sheets present: Problem Set / Exit Ticket / Template",
+      "issue": "Number lines and tables were not added. Number items were used. The printed items on these pages are pictures or formulas that were lost in the text."
+    },
+    {
+      "id": "f7",
+      "severity": "high",
+      "item": "Number lines and tables",
+      "issue": "Number line pictures were lost. Questions ask for the rounded number only."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Maximum and minimum",
+      "issue": "Greatest and least values are computed from the halfway point. The minimum for two digits (26.50) was not asked."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "Problem Set",
+      "issue": "The Problem Set item numbers were lost. Items were rebuilt from the Exit Ticket and Homework."
+    },
+    {
+      "id": "f10",
+      "severity": "high",
+      "item": "Answers",
+      "issue": "Answers are computed from the printed numbers. Check them against the PDF."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Word problems",
+      "issue": "The cases per day and miles per day problems were split into two steps. The division was done for the child."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Hints",
+      "issue": "Hint coverage is thin. Hints come from the lesson's teaching moves."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer items have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available (a_pv_chart, a_number_line). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with partners and objects. All child-facing text was rewritten for a screen and fractions are written in words. Needs an age-appropriate wording review."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs / page numbers",
+      "issue": "The file has no page numbers and no version footer. Every page is 'n/a' and the section name is used instead. source_version is 'not stated in file'. Fill in from the original PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

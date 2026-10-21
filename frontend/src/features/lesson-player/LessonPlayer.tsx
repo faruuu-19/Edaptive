@@ -2,7 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
-import { LiveNarrator } from "@/features/voice";
+import { LiveNarrator, type NarrationSink } from "@/features/voice";
+import { TeacherAvatar } from "@/features/avatar";
 import { childMessage } from "@/lib/friendly-error";
 import { getPreviewLesson, type PreviewLesson } from "@/lib/voice-preview-api";
 import { deliveryAction, getDeliveryLesson, type DeliveryContext } from "@/lib/lesson-delivery-api";
@@ -34,6 +35,9 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
   const [phase, setPhase] = useState<Phase>("ready");
   const [caption, setCaption] = useState(-1);
   const narrator = useRef<LiveNarrator | null>(null);
+  const [analyser, setAnalyser] = useState<AnalyserNode | null>(null);
+  const voiceSink = useRef<NarrationSink | null>(null);
+  const [teacherReady, setTeacherReady] = useState(false);
   const generation = useRef(0);
   const advanceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
   const [reload, setReload] = useState(0);
@@ -48,6 +52,7 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
     if (advanceTimer.current) clearTimeout(advanceTimer.current);
     advanceTimer.current = null;
     narrator.current?.cancel(); narrator.current = null;
+    voiceSink.current?.stop();
   }
 
   useEffect(() => {
@@ -65,11 +70,11 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
   }, []);
 
   useEffect(() => {
-    if (!lesson || !autoStart || autoStarted.current) return;
+    if (!lesson || !teacherReady || !autoStart || autoStarted.current) return;
     autoStarted.current = true;
     const timer = setTimeout(() => startButton.current?.click(), 0);
     return () => clearTimeout(timer);
-  }, [lesson, autoStart]);
+  }, [lesson, teacherReady, autoStart]);
 
   async function move(partIndex: number, data = lesson, selectedVoice = voice) {
     try {
@@ -84,7 +89,9 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
     setIndex(partIndex); setCaption(-1); setPhase("preparing"); setError("");
     const token = generation.current;
     const part = data.segments[partIndex];
-    const engine = new LiveNarrator(); narrator.current = engine;
+    voiceSink.current?.part?.(part.kind);
+    const engine = new LiveNarrator(voiceSink.current ?? undefined); narrator.current = engine;
+    setAnalyser(engine.analyser);
     void engine.speak(part.id, selectedVoice, {
       onPlaying: () => { if (generation.current === token) setPhase("playing"); },
       onCaption: current => { if (generation.current === token) setCaption(current); },
@@ -168,6 +175,8 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
         <progress value={percent} max="100" aria-label="Lesson progress" />
       </div>
     </div>
+    <div className={styles.stage}>
+    <TeacherAvatar phase={phase} analyser={analyser} voice={voice} onVoice={sink => { voiceSink.current = sink; }} onReady={setTeacherReady} />
     <section className={`card ${styles.lessonCard}`} aria-label="Current lesson part">
       <div className={styles.partLabel}>{LABELS[part.kind] ?? "Learn together"}</div>
       <div className={styles.lessonText}>
@@ -180,10 +189,11 @@ export function LessonPlayer({ onFinished, onLeave, autoStart = false, delivery 
       {part.checkpoint && phase === "complete" && <p className={styles.thinking} role="status">Take a moment to think. Continue when you’re ready.</p>}
       {last && phase === "complete" && <p className={styles.thinking} role="status">You’ve reached the end of this lesson.</p>}
     </section>
+    </div>
     <div className={styles.controls}>
       <button className="btn" disabled={index === 0} onClick={() => navigate(index - 1)}>Previous</button>
-      <button ref={startButton} className="btn btn-primary" disabled={phase === "preparing"} onClick={() => void primary()}><PlayIcon paused={phase === "playing"} />{label}</button>
-      <button className="btn" disabled={phase === "preparing"} onClick={() => start(index)}>Replay this part</button>
+      <button ref={startButton} className="btn btn-primary" disabled={!teacherReady || phase === "preparing"} onClick={() => void primary()}><PlayIcon paused={phase === "playing"} />{label}</button>
+      <button className="btn" disabled={!teacherReady || phase === "preparing"} onClick={() => start(index)}>Replay this part</button>
       <button className="btn" disabled={last || (!!delivery && phase !== "complete")} onClick={() => void navigate(index + 1)}>Next</button>
     </div>
     <p className={styles.status} role="status">{phase === "preparing" ? "The teacher is getting ready to speak." : phase === "paused" ? "Paused. Keep listening when you’re ready." : phase === "playing" ? "Listen and follow the highlighted sentence." : "You can listen, replay or move through the lesson."}</p>

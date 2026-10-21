@@ -1,0 +1,33 @@
+.roadmap { padding: 8px 0 0; }
+.header { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.grade { display: block; color: var(--muted); font-size: .7rem; font-weight: 700; letter-spacing: .1em; margin-bottom: 8px; }
+.header h2 { font-size: 1.65rem; font-weight: 600; }
+.counter { flex-shrink: 0; font-weight: 700; text-align: right; font-size: 1rem; }
+.counter > span { display: block; font-weight: 400; color: var(--muted); font-size: .75rem; margin-top: 3px; }
+.intro { color: var(--muted); font-size: .9rem; margin: 10px 0 28px; }
+.path, .rowModules { list-style: none; margin: 0; padding: 0; }
+.pathRow { position: relative; padding-bottom: 28px; }
+.rowModules { display: flex; position: relative; }
+.reverse .rowModules { flex-direction: row-reverse; }
+.pathRow::before { content: ''; position: absolute; top: 28px; left: 25%; right: 25%; border-top: 2px dashed var(--rule); }
+.pathRow:not(:last-child)::after { content: ''; position: absolute; top: 28px; bottom: -28px; right: 7%; width: 18%; border: 2px dashed var(--rule); border-left: 0; border-radius: 0 36px 36px 0; }
+.pathRow.reverse:not(:last-child)::after { right: auto; left: 7%; border: 2px dashed var(--rule); border-right: 0; border-radius: 36px 0 0 36px; }
+.pathRow:last-child:has(.module:only-child)::before { display: none; }
+.module { position: relative; z-index: 1; width: 50%; min-width: 0; text-align: center; }
+.moduleButton { width: 100%; border: 0; background: none; color: var(--ink); font: inherit; padding: 0 12px; display: flex; flex-direction: column; align-items: center; cursor: pointer; border-radius: 12px; }
+.moduleButton:focus-visible { outline: 3px solid var(--mustard); outline-offset: 5px; }
+.node { display: grid; place-items: center; width: 56px; height: 56px; border: 2px solid var(--rule); border-radius: 50%; background: var(--paper); color: var(--muted); font-family: var(--display); font-size: 1.4rem; font-weight: 600; margin-bottom: 10px; transition: transform 120ms ease; }
+.moduleButton:hover .node { transform: translateY(-2px); }
+.current .node { color: var(--surface); background: var(--tomato); border-color: var(--ink); box-shadow: 0 0 0 5px var(--paper), 0 0 0 7px var(--tomato-soft); }
+.complete .node { color: var(--ink); background: var(--teal-soft); border-color: var(--ink); }
+.visited .node { color: var(--ink); background: var(--teal-soft); border-color: var(--rule); }
+.moduleLabel { color: var(--muted); font-size: .7rem; margin-bottom: 3px; }
+.title { background: var(--paper); padding: 0 4px; font-size: .95rem; font-weight: 700; line-height: 1.4; }
+.state { display: flex; align-items: center; gap: 4px; color: var(--muted); font-size: .7rem; margin-top: 6px; background: var(--paper); padding: 2px 7px; border-radius: 12px; }
+.current .state { background: var(--tomato-soft); color: var(--ink); font-weight: 700; }
+.complete .state { background: var(--teal-soft); color: var(--ink); }
+.visited .state { background: var(--teal-soft); color: var(--ink); }
+.detail { background: var(--surface); border: 1px solid var(--rule); border-radius: 12px; font-size: .8rem; line-height: 1.6; padding: 10px; margin: 12px 8px 0; }
+.footer { border-top: 1px solid var(--rule); margin: 0; padding-top: 16px; text-align: center; color: var(--muted); font-size: .8rem; }
+@media (max-width: 400px) { .header h2 { font-size: 1.4rem; } .counter { font-size: .9rem; } .counter > span { font-size: .65rem; } .moduleButton { padding: 0 4px; } .title { font-size: .85rem; } }
+@media (prefers-reduced-motion: reduce) { .node { transition: none; } }

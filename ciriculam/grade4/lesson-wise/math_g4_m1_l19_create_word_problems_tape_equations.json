@@ -1,0 +1,2308 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g4_m1_l19_create_word_problems_tape_equations",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g4_m1",
+      "file": "math-g4-m1-topic-f-lesson-19.md",
+      "source_version": "not stated in file (no page footer in the .md)",
+      "title": "Eureka Math / EngageNY, Grade 4, Module 1, Lesson 19",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in file; page is n/a and section names are used"
+    }
+  ],
+  "grade": 4,
+  "subject": "math",
+  "standards": [
+    "4.MD.1",
+    "4.NBT.4"
+  ],
+  "review_status": "reviewed",
+  "objective": {
+    "id": "obj_1",
+    "text": "Create and solve multi-step word problems from tape diagrams and equations.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [],
+  "explanations": [
+    {
+      "id": "exp_story_from_tape",
+      "title": "Story from a tape diagram",
+      "text": "Pick a context that fits the diagram. Write a statement about the total. Ask a question about the unknown. Tell the other information.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_equation_tape",
+      "title": "Tape diagram from an equation",
+      "text": "Each number in the equation is a part or the total. Draw tapes for the parts. Add a bracket for the total and a letter for the unknown.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    },
+    {
+      "id": "exp_variable",
+      "title": "Solve for the variable",
+      "text": "The variable is the unknown number. Subtract the known parts from the total to find it.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    },
+    {
+      "id": "exp_reasonable",
+      "title": "Check the answer",
+      "text": "Round the numbers to estimate. The exact answer should be close to the estimate.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_equation",
+      "title": "5,233 plus 3,094 plus k equals 12,946",
+      "text": "The total is 12,946. Two parts are 5,233 and 3,094. The unknown part k is 12,946 minus 5,233 minus 3,094, which is 4,619.",
+      "origin": "adapted",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "What is 1 ten minus 6 ones?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (S: 10 ones minus 6 ones is 4 ones)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What is 2 tens minus 6 ones in standard form?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 2 tens minus 6 ones; derived 14)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "What is 2 tens minus 1 ten 6 ones in standard form?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 2 tens minus 1 ten 6 ones; derived 4)"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "What is 1 hundred minus 6 tens in standard form?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 1 hundred minus 6 tens; derived 40)"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "What is 2 hundreds minus 4 tens in standard form?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 2 hundreds minus 4 tens; derived 160)"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "What is 3 hundreds minus 1 hundred 4 tens in standard form?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 3 hundreds minus 1 hundred 4 tens; derived 160)"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "What is 5 thousands minus 3 hundreds in standard form?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 5 thousands minus 3 hundreds; derived 4,700)"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is 5 thousands minus 3 thousands 3 hundreds in standard form?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 5 thousands minus 3 thousands 3 hundreds; derived 1,700)"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "What is 2 ten thousands minus 3 hundreds in standard form?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 2 ten thousands minus 3 hundreds; derived 19,700)"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "How many more make 8 into 10?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (S: 2)"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "prior_knowledge",
+      "text": "How many more make 80 into 100?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (S: 20)"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "prior_knowledge",
+      "text": "How many more make 84 into 100?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (S: 16)"
+      }
+    },
+    {
+      "id": "q_pk_13",
+      "kind": "prior_knowledge",
+      "text": "How many more make 200 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_13",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 200 to 1,000; derived 800)"
+      }
+    },
+    {
+      "id": "q_pk_14",
+      "kind": "prior_knowledge",
+      "text": "How many more make 250 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_14",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 250 to 1,000; derived 750)"
+      }
+    },
+    {
+      "id": "q_pk_15",
+      "kind": "prior_knowledge",
+      "text": "How many more make 450 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_15",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 450 to 1,000; derived 550)"
+      }
+    },
+    {
+      "id": "q_pk_16",
+      "kind": "prior_knowledge",
+      "text": "How many more make 475 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_16",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 475 to 1,000; derived 525)"
+      }
+    },
+    {
+      "id": "q_pk_17",
+      "kind": "prior_knowledge",
+      "text": "How many more make 600 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_17",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 600 to 1,000; derived 400)"
+      }
+    },
+    {
+      "id": "q_pk_18",
+      "kind": "prior_knowledge",
+      "text": "How many more make 680 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_18",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 680 to 1,000; derived 320)"
+      }
+    },
+    {
+      "id": "q_pk_19",
+      "kind": "prior_knowledge",
+      "text": "How many more make 700 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_19",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 700 to 1,000; derived 300)"
+      }
+    },
+    {
+      "id": "q_pk_20",
+      "kind": "prior_knowledge",
+      "text": "How many more make 720 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_20",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 720 to 1,000; derived 280)"
+      }
+    },
+    {
+      "id": "q_pk_21",
+      "kind": "prior_knowledge",
+      "text": "How many more make 800 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_21",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 800 to 1,000; derived 200)"
+      }
+    },
+    {
+      "id": "q_pk_22",
+      "kind": "prior_knowledge",
+      "text": "How many more make 805 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_22",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 805 to 1,000; derived 195)"
+      }
+    },
+    {
+      "id": "q_pk_23",
+      "kind": "prior_knowledge",
+      "text": "How many more make 855 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_23",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 855 to 1,000; derived 145)"
+      }
+    },
+    {
+      "id": "q_pk_24",
+      "kind": "prior_knowledge",
+      "text": "How many more make 945 into 1,000?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_24",
+      "hint_ids": [
+        "h_next_unit"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 945 to 1,000; derived 55)"
+      }
+    },
+    {
+      "id": "q_pk_25",
+      "kind": "prior_knowledge",
+      "text": "1 meter is how many centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_25",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (S: 1 m = 100 cm)"
+      }
+    },
+    {
+      "id": "q_pk_26",
+      "kind": "prior_knowledge",
+      "text": "2 meters is how many centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_26",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 2 m; derived 200 cm)"
+      }
+    },
+    {
+      "id": "q_pk_27",
+      "kind": "prior_knowledge",
+      "text": "3 meters is how many centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_27",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 3 m; derived 300 cm)"
+      }
+    },
+    {
+      "id": "q_pk_28",
+      "kind": "prior_knowledge",
+      "text": "8 meters is how many centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_28",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 8 m; derived 800 cm)"
+      }
+    },
+    {
+      "id": "q_pk_29",
+      "kind": "prior_knowledge",
+      "text": "8 meters 50 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_29",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 8 m 50 cm; derived 850 cm)"
+      }
+    },
+    {
+      "id": "q_pk_30",
+      "kind": "prior_knowledge",
+      "text": "7 meters 50 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_30",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 7 m 50 cm; derived 750 cm)"
+      }
+    },
+    {
+      "id": "q_pk_31",
+      "kind": "prior_knowledge",
+      "text": "4 meters 25 centimeters is how many centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_31",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 4 m 25 cm; derived 425 cm)"
+      }
+    },
+    {
+      "id": "q_pk_32",
+      "kind": "prior_knowledge",
+      "text": "150 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_32",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (S: 150 cm = 1 m 50 cm)"
+      }
+    },
+    {
+      "id": "q_pk_33",
+      "kind": "prior_knowledge",
+      "text": "250 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_33",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 250 cm; derived 2 m 50 cm)"
+      }
+    },
+    {
+      "id": "q_pk_34",
+      "kind": "prior_knowledge",
+      "text": "350 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_34",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 350 cm; derived 3 m 50 cm)"
+      }
+    },
+    {
+      "id": "q_pk_35",
+      "kind": "prior_knowledge",
+      "text": "950 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_35",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 950 cm; derived 9 m 50 cm)"
+      }
+    },
+    {
+      "id": "q_pk_36",
+      "kind": "prior_knowledge",
+      "text": "725 centimeters is how many meters and centimeters?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pk_36",
+      "hint_ids": [
+        "h_cm"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 725 cm; derived 7 m 25 cm)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Jordan travels from his house to Albany, 189 miles, and then to Plattsburgh, 161 miles. The whole trip is 508 miles. How far from Plattsburgh do his grandparents live?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 508 - 189 - 161 = 158)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "In 5,233 plus 3,094 plus k equals 12,946, what is the total?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_variable"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: the equation 5,233 + 3,094 + k = 12,946)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "In 5,233 plus 3,094 plus k equals 12,946, what is k?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_variable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (derived: 12,946 - 5,233 - 3,094 = 4,619)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Make up a word problem for 5,233 plus 3,094 plus k equals 12,946. Give a context, a statement about the total and a question about the unknown.",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: create a word problem that uses the numbers from the equation ... a context ... a statement about the total and a question about the unknown)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "In 27,894 plus A plus 6,892 equals 40,392, what is A?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_variable"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 40,392 - 27,894 - 6,892 = 5,606)"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Make up a word problem for 27,894 plus A plus 6,892 equals 40,392. Give a context, a statement about the total and a question about the unknown.",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (S: Create a word problem. Solve for the value of the variable.)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How does a tape diagram help when you solve a problem?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How does a tape diagram help when solving a problem?)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What must you know to write a word problem?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (To write a word problem, what must you know?)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "A problem has many different contexts, but everyone gets the same answer. How is that possible?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (There are many different contexts for Problem 2, but everyone found the same answer. How is that possible?)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "How can you use adding, subtracting and word problems in the future?",
+      "asset_ids": [
+        "a_equation_tape"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_story"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How can you use this new understanding of addition, subtraction, and solving word problems in the future?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "four"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (S: 10 ones minus 6 ones is 4 ones)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "14"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 2 tens minus 6 ones; derived 14)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4",
+          "4"
+        ]
+      },
+      "correct": "Says 4.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 2 tens minus 1 ten 6 ones; derived 4)"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "40"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 1 hundred minus 6 tens; derived 40)"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "160",
+          "160"
+        ]
+      },
+      "correct": "Says 160.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 2 hundreds minus 4 tens; derived 160)"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "160",
+          "160"
+        ]
+      },
+      "correct": "Says 160.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 3 hundreds minus 1 hundred 4 tens; derived 160)"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4,700",
+          "4700"
+        ]
+      },
+      "correct": "Says 4,700.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 5 thousands minus 3 hundreds; derived 4,700)"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1,700",
+          "1700"
+        ]
+      },
+      "correct": "Says 1,700.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 5 thousands minus 3 thousands 3 hundreds; derived 1,700)"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "19,700",
+          "19700"
+        ]
+      },
+      "correct": "Says 19,700.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Rename Units (sequence: 2 ten thousands minus 3 hundreds; derived 19,700)"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2",
+          "two"
+        ]
+      },
+      "correct": "Says 2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (S: 2)"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (S: 20)"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16",
+          "sixteen"
+        ]
+      },
+      "correct": "Says 16.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (S: 16)"
+      }
+    },
+    {
+      "id": "r_pk_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "800",
+          "800"
+        ]
+      },
+      "correct": "Says 800.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 200 to 1,000; derived 800)"
+      }
+    },
+    {
+      "id": "r_pk_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "750",
+          "750"
+        ]
+      },
+      "correct": "Says 750.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 250 to 1,000; derived 750)"
+      }
+    },
+    {
+      "id": "r_pk_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "550",
+          "550"
+        ]
+      },
+      "correct": "Says 550.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 450 to 1,000; derived 550)"
+      }
+    },
+    {
+      "id": "r_pk_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "525",
+          "525"
+        ]
+      },
+      "correct": "Says 525.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 475 to 1,000; derived 525)"
+      }
+    },
+    {
+      "id": "r_pk_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "400",
+          "400"
+        ]
+      },
+      "correct": "Says 400.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 600 to 1,000; derived 400)"
+      }
+    },
+    {
+      "id": "r_pk_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "320",
+          "320"
+        ]
+      },
+      "correct": "Says 320.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 680 to 1,000; derived 320)"
+      }
+    },
+    {
+      "id": "r_pk_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "300",
+          "300"
+        ]
+      },
+      "correct": "Says 300.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 700 to 1,000; derived 300)"
+      }
+    },
+    {
+      "id": "r_pk_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "280",
+          "280"
+        ]
+      },
+      "correct": "Says 280.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 720 to 1,000; derived 280)"
+      }
+    },
+    {
+      "id": "r_pk_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "200"
+        ]
+      },
+      "correct": "Says 200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 800 to 1,000; derived 200)"
+      }
+    },
+    {
+      "id": "r_pk_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "195",
+          "195"
+        ]
+      },
+      "correct": "Says 195.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 805 to 1,000; derived 195)"
+      }
+    },
+    {
+      "id": "r_pk_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "145",
+          "145"
+        ]
+      },
+      "correct": "Says 145.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 855 to 1,000; derived 145)"
+      }
+    },
+    {
+      "id": "r_pk_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "55",
+          "55"
+        ]
+      },
+      "correct": "Says 55.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Make the Next Unit (sequence: 945 to 1,000; derived 55)"
+      }
+    },
+    {
+      "id": "r_pk_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 centimeters",
+          "100 cm"
+        ]
+      },
+      "correct": "Says 100 centimeters.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (S: 1 m = 100 cm)"
+      }
+    },
+    {
+      "id": "r_pk_26",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred",
+          "200 centimeters",
+          "200 cm"
+        ]
+      },
+      "correct": "Says 200 centimeters.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 2 m; derived 200 cm)"
+      }
+    },
+    {
+      "id": "r_pk_27",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "300",
+          "three hundred",
+          "300 centimeters",
+          "300 cm"
+        ]
+      },
+      "correct": "Says 300 centimeters.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 3 m; derived 300 cm)"
+      }
+    },
+    {
+      "id": "r_pk_28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "800",
+          "eight hundred",
+          "800 centimeters",
+          "800 cm"
+        ]
+      },
+      "correct": "Says 800 centimeters.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 8 m; derived 800 cm)"
+      }
+    },
+    {
+      "id": "r_pk_29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "850",
+          "eight hundred fifty",
+          "850 centimeters",
+          "850 cm"
+        ]
+      },
+      "correct": "Says 850 centimeters.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 8 m 50 cm; derived 850 cm)"
+      }
+    },
+    {
+      "id": "r_pk_30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "750",
+          "seven hundred fifty",
+          "750 centimeters",
+          "750 cm"
+        ]
+      },
+      "correct": "Says 750 centimeters.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 7 m 50 cm; derived 750 cm)"
+      }
+    },
+    {
+      "id": "r_pk_31",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "425",
+          "four hundred twenty five",
+          "425 centimeters",
+          "425 cm"
+        ]
+      },
+      "correct": "Says 425 centimeters.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 4 m 25 cm; derived 425 cm)"
+      }
+    },
+    {
+      "id": "r_pk_32",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1 m 50 cm",
+          "1 meters 50 centimeters",
+          "1 meters and 50 centimeters",
+          "1 meter 50 centimeters",
+          "1 meter and 50 centimeters",
+          "1 meters, 50 centimeters",
+          "1m 50cm"
+        ]
+      },
+      "correct": "Says 1 meter 50 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (S: 150 cm = 1 m 50 cm)"
+      }
+    },
+    {
+      "id": "r_pk_33",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2 m 50 cm",
+          "2 meters 50 centimeters",
+          "2 meters and 50 centimeters",
+          "2 meter 50 centimeters",
+          "2 meter and 50 centimeters",
+          "2 meters, 50 centimeters",
+          "2m 50cm"
+        ]
+      },
+      "correct": "Says 2 meters 50 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 250 cm; derived 2 m 50 cm)"
+      }
+    },
+    {
+      "id": "r_pk_34",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3 m 50 cm",
+          "3 meters 50 centimeters",
+          "3 meters and 50 centimeters",
+          "3 meter 50 centimeters",
+          "3 meter and 50 centimeters",
+          "3 meters, 50 centimeters",
+          "3m 50cm"
+        ]
+      },
+      "correct": "Says 3 meters 50 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 350 cm; derived 3 m 50 cm)"
+      }
+    },
+    {
+      "id": "r_pk_35",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9 m 50 cm",
+          "9 meters 50 centimeters",
+          "9 meters and 50 centimeters",
+          "9 meter 50 centimeters",
+          "9 meter and 50 centimeters",
+          "9 meters, 50 centimeters",
+          "9m 50cm"
+        ]
+      },
+      "correct": "Says 9 meters 50 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 950 cm; derived 9 m 50 cm)"
+      }
+    },
+    {
+      "id": "r_pk_36",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7 m 25 cm",
+          "7 meters 25 centimeters",
+          "7 meters and 25 centimeters",
+          "7 meter 25 centimeters",
+          "7 meter and 25 centimeters",
+          "7 meters, 25 centimeters",
+          "7m 25cm"
+        ]
+      },
+      "correct": "Says 7 meters 25 centimeters.",
+      "partial": null,
+      "incorrect": "Gives another length.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Meters and Centimeters (sequence: 725 cm; derived 7 m 25 cm)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "158",
+          "one hundred fifty eight",
+          "158 miles"
+        ]
+      },
+      "correct": "Says 158 miles.",
+      "partial": null,
+      "incorrect": "Says another number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (derived: 508 - 189 - 161 = 158)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12,946",
+          "12946"
+        ]
+      },
+      "correct": "Says 12,946.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: the equation 5,233 + 3,094 + k = 12,946)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4,619",
+          "4619"
+        ]
+      },
+      "correct": "Says 4,619.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (derived: 12,946 - 5,233 - 3,094 = 4,619)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a context. States the total 12,946 and two parts 5,233 and 3,094. Asks for the unknown part.",
+      "partial": "Gives a context and numbers but no question.",
+      "incorrect": "Leaves out a number or asks a question that does not match the equation.",
+      "unclear": "Child does not give a problem.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (S: create a word problem that uses the numbers from the equation ... a context ... a statement about the total and a question about the unknown)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5,606",
+          "5606"
+        ]
+      },
+      "correct": "Says 5,606.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (derived: 40,392 - 27,894 - 6,892 = 5,606)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a context. States the total 40,392 and two parts 27,894 and 6,892. Asks for the unknown part.",
+      "partial": "Gives a context and numbers but no question.",
+      "incorrect": "Leaves out a number or asks a question that does not match the equation.",
+      "unclear": "Child does not give a problem.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, Problem 3 (S: Create a word problem. Solve for the value of the variable.)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says it shows the parts and the total so you can see what to add or subtract.",
+      "partial": "Says it helps but not how.",
+      "incorrect": "Says it does not help.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How does a tape diagram help when solving a problem?)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says you need a context, the numbers, and a question. You also need to know what is the total and what is unknown.",
+      "partial": "Names one thing, like the numbers.",
+      "incorrect": "Says you only need numbers.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (To write a word problem, what must you know?)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the numbers and the tape diagram are the same, so the math is the same in any context.",
+      "partial": "Says the numbers are the same without a reason.",
+      "incorrect": "Says the answers are different.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (There are many different contexts for Problem 2, but everyone found the same answer. How is that possible?)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a real use, like budgeting, comparing amounts or checking a bill.",
+      "partial": "Says it will be useful but gives no use.",
+      "incorrect": "Gives a use that does not involve adding or subtracting.",
+      "unclear": "Child does not give an answer.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (How can you use this new understanding of addition, subtraction, and solving word problems in the future?)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_rename",
+      "level": 2,
+      "text": "Rename the larger unit as smaller units. Then subtract.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_next_unit",
+      "level": 2,
+      "text": "Think how many more it takes to reach the next unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_cm",
+      "level": 2,
+      "text": "Think how many centimeters make one meter.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "h_story",
+      "level": 2,
+      "text": "Find the total and the parts you know. Subtract the parts from the total.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "h_variable",
+      "level": 2,
+      "text": "Subtract the known parts from the total.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 1,
+      "text": "Think about what the tape diagram shows about the parts and the total.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_equation_tape",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The lesson uses tape diagrams the child draws and the source diagrams are pictures. The child cannot draw here.",
+      "description": "A tape diagram builder. The child types an equation with a variable and sees a tape diagram with the parts, the total bracket and the unknown. The child can then solve for the variable.",
+      "must_show_exactly": [
+        "A text box for an equation with a variable",
+        "A tape diagram with one segment for each part",
+        "A bracket for the total",
+        "A highlighted segment for the unknown",
+        "A box to type the value of the variable",
+        "An estimate check next to the exact answer"
+      ],
+      "states_or_frames": [
+        "Equation entered",
+        "Tape diagram drawn from the equation",
+        "Unknown highlighted",
+        "Variable solved and checked"
+      ],
+      "interaction": "Child types an equation. The widget draws the tape. The child solves for the variable and checks it with an estimate.",
+      "alt_text": "A tape diagram drawn from an equation with the unknown highlighted.",
+      "generation_caption": "A clean tape diagram with three labeled segments, a bracket for the total and one highlighted unknown with a variable. [Build by code]",
+      "review_notes": "Source tape diagrams are pictures with no numbers in the .md. Build from typed equations.",
+      "used_by": [
+        "ex_equation",
+        "exp_equation_tape",
+        "exp_reasonable",
+        "exp_story_from_tape",
+        "exp_variable",
+        "q_app_1",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pk_1",
+        "q_pk_10",
+        "q_pk_11",
+        "q_pk_12",
+        "q_pk_13",
+        "q_pk_14",
+        "q_pk_15",
+        "q_pk_16",
+        "q_pk_17",
+        "q_pk_18",
+        "q_pk_19",
+        "q_pk_2",
+        "q_pk_20",
+        "q_pk_21",
+        "q_pk_22",
+        "q_pk_23",
+        "q_pk_24",
+        "q_pk_25",
+        "q_pk_26",
+        "q_pk_27",
+        "q_pk_28",
+        "q_pk_29",
+        "q_pk_3",
+        "q_pk_30",
+        "q_pk_31",
+        "q_pk_32",
+        "q_pk_33",
+        "q_pk_34",
+        "q_pk_35",
+        "q_pk_36",
+        "q_pk_4",
+        "q_pk_5",
+        "q_pk_6",
+        "q_pk_7",
+        "q_pk_8",
+        "q_pk_9",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_ps_1",
+        "q_ps_2"
+      ]
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_hands_on",
+      "name": "Hands-on work with real materials (drawing tape diagrams on a personal board)",
+      "reason": "The child works on a screen. Real materials, cutting and tiling cannot be checked. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Covered by the debrief questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Drawing and writing on a personal white board",
+      "reason": "The tutor sees only typed text or a transcript, not paper or drawings. Replaced by on-screen assets where noted.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice and Concept Development"
+      }
+    },
+    {
+      "id": "na_draw_on_sheet",
+      "name": "Draw on the worksheet (draw a rectangle, draw lines, circle shapes)",
+      "reason": "The tutor cannot see drawings. These items are skipped or asked as typed questions.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set"
+      }
+    },
+    {
+      "id": "na_two_pairs_board",
+      "name": "Two pairs of students write problems at the board",
+      "reason": "Whole-class modeling with peer feedback. Needs other students.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. A person must review it before it is used."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is CC BY-NC-SA 3.0 (Great Minds). Cards must credit Great Minds, stay non-commercial, and share under the same license. Check this license before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "Pictures and charts",
+      "issue": "The tape diagrams in Problems 1 to 3 of the Problem Set, Exit Ticket and Homework are pictures. Their numbers are not in the .md. Those items were skipped. Only the typed equations were turned into questions."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "Missing Exit Ticket equation",
+      "issue": "The Exit Ticket asks the child to use an equation, but the equation is not printed in the .md. It was not used."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "Derived answers",
+      "issue": "Only the lesson equation is printed. Its answer and the Homework answer were computed."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Make-up problems",
+      "issue": "Items that ask the child to write a word problem are open. A person should check how they are marked."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Open answers",
+      "issue": "q_db_1 to q_db_4 accept any clear answer that fits. A person should check how they are marked."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Debrief items left out",
+      "issue": "Debrief items about the hardest part of creating a context and what the child learned as a mathematician are personal and were left out."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Meters and centimeters",
+      "issue": "Answers like '1 m 50 cm' accept several spoken forms. A person should check how voice answers are matched."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "misconception",
+      "issue": "The source states no misconception for this lesson. A possible one is writing a story that does not match the total and the parts in the diagram. Do not use it until a person confirms."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Sheet labels",
+      "issue": "The .md does not label the Problem Set, Exit Ticket and Homework. Sheet order (first, second, third Name/Date page) was used. Problem Set on the first sheet; Exit Ticket on the second; Homework on the third. Check the PDF."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards come from the codes printed in the lesson text only (4.MD.1, 4.NBT.4)."
+    },
+    {
+      "id": "f13",
+      "severity": "low",
+      "item": "source_version",
+      "issue": "The .md file has no page footer, so source_version could not be copied."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f15",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot count. Build every visual with exact counts by code, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are not_available yet: a_equation_tape. Items that use them cannot be launched until the assets exist."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class. All child-facing text was rewritten for a screen and needs a wording review."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "The lesson input block was not given, so prerequisite_ids is empty. A person must add the real prerequisite cards (for example earlier lessons of this module)."
+    },
+    {
+      "id": "f19",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception for this lesson, so none were added."
+    }
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ]
+}

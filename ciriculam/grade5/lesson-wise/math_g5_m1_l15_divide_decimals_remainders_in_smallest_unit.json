@@ -1,0 +1,1679 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g5_m1_l15_divide_decimals_remainders_in_smallest_unit",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g5_m1",
+      "file": "math-g5-m1-topic-f-lesson-15.md",
+      "source_version": "not stated in file",
+      "title": "Eureka Math / EngageNY, Grade 5, Module 1, Lesson 15",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the file; page n/a, section named"
+    }
+  ],
+  "review_status": "reviewed",
+  "grade": 5,
+  "subject": "math",
+  "standards": [
+    "5.NBT.2",
+    "5.NBT.7"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Divide decimals using place value, including trading a remainder for smaller units.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g5_m1_l14_divide_decimals_with_remainders_place_value",
+    "math_g5_m1_l13_divide_decimals_by_single_digits_easy_multiples"
+  ],
+  "explanations": [
+    {
+      "id": "exp_zero_ones",
+      "title": "Keep sharing with smaller units",
+      "text": "1.7 divided by 2: 1 one cannot be shared by 2. Trade it for 10 tenths. 17 tenths shared by 2 is 8 tenths with 1 left. Trade 1 tenth for 10 hundredths. Now 5 hundredths each. The answer is 0.85.",
+      "asset_ids": [
+        "a_pv_chart",
+        "a_place_value_disks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-2"
+      }
+    },
+    {
+      "id": "exp_same_amount",
+      "title": "A trade does not change the amount",
+      "text": "1 and 7 tenths is the same as 1 and 70 hundredths. We write a zero in the hundredths place to show the trade.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-2"
+      }
+    },
+    {
+      "id": "exp_whole_remainder",
+      "title": "Whole numbers can give decimals",
+      "text": "17 divided by 4 used to have a remainder of 1. Now trade the remainder for tenths and hundredths. The answer is 4.25.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 3-4"
+      }
+    }
+  ],
+  "examples": [],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Divide 0.48 by 2.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.48/2"
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Quotient"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Divide 0.42 by 3.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.42/3"
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Quotient"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Divide 3.52 by 2.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "3.52/2"
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Quotient"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "Divide 9.6 by 8.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "9.6/8"
+      },
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Quotient"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Jose buys 6 oranges for $2.82 and 5 pineapples. He pays with $20 and gets $1.43 change. How much does each pineapple cost?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "expr": "(20-1.43-2.82)/5"
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_tape",
+        "h_unbundle"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (oranges and pineapples)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "How many hundredths are in 1.7?",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "1.7",
+        "unit": "hundredth"
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-2 (1 and 7 tenths is 170 hundredths)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Divide 1.7 by 2.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "1.7/2"
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-2"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Divide 2.6 by 4.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "2.6/4"
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-2"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Divide 17 by 4. Write the answer as a decimal, with no remainder.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "17/4"
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 3-4"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Divide 22 by 8. Write the answer as a decimal, with no remainder.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "22/8"
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 3-4"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Divide 7.7 by 4.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "7.7/4"
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 5"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Divide 0.84 by 4.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.84/4"
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Divide 0.5 by 2.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.5/2"
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Divide 5.7 by 4.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "5.7/4"
+      },
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Divide 0.9 by 4.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.9/4"
+      },
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 1)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Divide 9.8 by 5.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "9.8/5"
+      },
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Divide 0.7 by 4.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.7/4"
+      },
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Divide 8.1 by 5.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "8.1/5"
+      },
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_unit",
+        "h_unbundle",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3)"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Six bakers share 7.5 kilograms of flour equally. How much flour does each baker get in kilograms?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "expr": "7.5/6"
+      },
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_tape",
+        "h_unbundle"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 3)"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "Mrs. Henderson mixes 10.9 liters of apple juice, 0.6 liters of orange juice and 8 liters of ginger ale. She pours it equally into 6 punch bowls. How much punch is in each bowl in liters?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "expr": "(10.9+0.6+8)/6"
+      },
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_tape",
+        "h_unbundle",
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 4)"
+      }
+    },
+    {
+      "id": "q_pr_17",
+      "kind": "practice",
+      "text": "A rope 8.7 meters long is cut into 5 equal pieces. How long is each piece in meters?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "expr": "8.7/5"
+      },
+      "rubric_id": "r_pr_17",
+      "hint_ids": [
+        "h_tape",
+        "h_unbundle"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4)"
+      }
+    },
+    {
+      "id": "q_pr_18",
+      "kind": "practice",
+      "text": "Yasmine buys 6 gallons of apple juice. She fills 4 same-size bottles and has 0.3 gallon left. How many gallons are in each bottle?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "expr": "(6-0.3)/4"
+      },
+      "rubric_id": "r_pr_18",
+      "hint_ids": [
+        "h_tape",
+        "h_unbundle",
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 5)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Will a whole number divided by a whole number always give a whole number? Explain with 17 divided by 4.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "whole number quotients"
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_unbundle"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2c and 2f)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "When you divide 1.7 by 2, why does it not change the amount to write 1.70?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "write a zero"
+      },
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problem 1)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Which is faster for you, drawing place value disks or using the algorithm? Why?",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "strategy choice"
+      },
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1a and 1b)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "In a word problem the juice is measured in milliliters and liters. What should you do before you divide?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "topic": "unlike units"
+      },
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_conv"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4, unlike units)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.24",
+          "zero point two four",
+          "twenty-four hundredths"
+        ]
+      },
+      "correct": "Says 0.24.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Quotient"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.14",
+          "zero point one four",
+          "fourteen hundredths"
+        ]
+      },
+      "correct": "Says 0.14.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Quotient"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.76",
+          "one point seven six",
+          "one and seventy-six hundredths"
+        ]
+      },
+      "correct": "Says 1.76.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Quotient"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.2",
+          "one point two",
+          "one and two tenths"
+        ]
+      },
+      "correct": "Says 1.2.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Quotient"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$3.15",
+          "3.15",
+          "3 dollars and 15 cents"
+        ]
+      },
+      "correct": "Says $3.15.",
+      "partial": "Makes one adding mistake.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (oranges and pineapples)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "170",
+          "170 hundredths",
+          "one hundred seventy hundredths"
+        ]
+      },
+      "correct": "Says 170 hundredths.",
+      "partial": "Counts only the digits to the right of the decimal point.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-2 (1 and 7 tenths is 170 hundredths)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.85",
+          "zero point eight five",
+          "eighty-five hundredths"
+        ]
+      },
+      "correct": "Says 0.85.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-2"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.65",
+          "zero point six five",
+          "sixty-five hundredths"
+        ]
+      },
+      "correct": "Says 0.65.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-2"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "4.25",
+          "four point two five",
+          "four and twenty-five hundredths"
+        ]
+      },
+      "correct": "Says 4.25.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 3-4"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.75",
+          "two point seven five",
+          "two and seventy-five hundredths"
+        ]
+      },
+      "correct": "Says 2.75.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 3-4"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.925",
+          "one point nine two five",
+          "one and nine hundred twenty-five thousandths"
+        ]
+      },
+      "correct": "Says 1.925.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 5"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.21",
+          "zero point two one",
+          "twenty-one hundredths"
+        ]
+      },
+      "correct": "Says 0.21.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 6"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.25",
+          "zero point two five",
+          "twenty-five hundredths"
+        ]
+      },
+      "correct": "Says 0.25.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.425",
+          "one point four two five",
+          "one and four hundred twenty-five thousandths"
+        ]
+      },
+      "correct": "Says 1.425.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 1)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.225",
+          "zero point two two five",
+          "two hundred twenty-five thousandths"
+        ]
+      },
+      "correct": "Says 0.225.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 1)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.96",
+          "one point nine six",
+          "one and ninety-six hundredths"
+        ]
+      },
+      "correct": "Says 1.96.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.175",
+          "zero point one seven five",
+          "one hundred seventy-five thousandths"
+        ]
+      },
+      "correct": "Says 0.175.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.62",
+          "one point six two",
+          "one and sixty-two hundredths"
+        ]
+      },
+      "correct": "Says 1.62.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.25",
+          "one point two five",
+          "one and twenty-five hundredths",
+          "1.25 kilograms",
+          "1.25 kg"
+        ]
+      },
+      "correct": "Says 1.25 kilograms.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 3)"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3.25",
+          "three point two five",
+          "three and twenty-five hundredths",
+          "3.25 liters",
+          "3.25 L",
+          "3.25 l"
+        ]
+      },
+      "correct": "Says 3.25 liters.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 4)"
+      }
+    },
+    {
+      "id": "r_pr_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.74",
+          "one point seven four",
+          "one and seventy-four hundredths",
+          "1.74 meters",
+          "1.74 m"
+        ]
+      },
+      "correct": "Says 1.74 meters.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4)"
+      }
+    },
+    {
+      "id": "r_pr_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.425",
+          "one point four two five",
+          "one and four hundred twenty-five thousandths",
+          "1.425 gallons",
+          "1.425 gal"
+        ]
+      },
+      "correct": "Says 1.425 gallons.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 5)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. 17 divided by 4 has a remainder, and trading the remainder for tenths and hundredths gives 4.25.",
+      "partial": "Says no but gives no example.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2c and 2f)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 1 and 7 tenths equals 1 and 70 hundredths. The amount is the same but the smaller unit lets you keep sharing.",
+      "partial": "Says it is the same amount but gives no reason.",
+      "incorrect": "Says it changes the amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problem 1)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a choice with a reason. Disks show what happens to each unit. The algorithm is faster once you understand the steps.",
+      "partial": "Gives a choice but no reason.",
+      "incorrect": "Says neither works.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1a and 1b)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says change all amounts to the same unit first. Then add and divide.",
+      "partial": "Says the units are different but not what to do.",
+      "incorrect": "Says to ignore the units.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4, unlike units)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_chart",
+      "level": 1,
+      "text": "Draw the place value chart. Put each digit in its own place.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_shift",
+      "level": 1,
+      "text": "Multiplying by ten moves every digit one place to the left. Dividing moves it right.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_zeros",
+      "level": 2,
+      "text": "Count the zeros in the number you multiply or divide by. That tells how many places the digits move.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_exp",
+      "level": 2,
+      "text": "The exponent tells how many tens are multiplied together. It matches the zeros.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unit",
+      "level": 1,
+      "text": "Say the unit name. Then use a basic fact with that unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_conv",
+      "level": 2,
+      "text": "Think how many small units fit in a big unit. Then multiply or divide.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_like",
+      "level": 1,
+      "text": "Add or subtract like units. Tenths with tenths, hundredths with hundredths.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_regroup",
+      "level": 2,
+      "text": "Trade ten of a small unit for one of the next larger unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_cmp",
+      "level": 1,
+      "text": "Compare digits from the left. Find the first place where they differ.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unitcmp",
+      "level": 2,
+      "text": "Rename both numbers with the same unit. Then compare.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_round",
+      "level": 1,
+      "text": "Find the nearest numbers on each side for that place. Then check if you are past the halfway point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_est",
+      "level": 2,
+      "text": "Round the numbers and estimate first. Then place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_area",
+      "level": 2,
+      "text": "Draw an area model. Multiply each unit by the whole number. Then add the partial products.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unbundle",
+      "level": 2,
+      "text": "If you cannot share a unit evenly, trade it for ten of the next smaller unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 1,
+      "text": "Draw a tape diagram. Label the total and the parts.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_whole",
+      "level": 1,
+      "text": "Divide like whole numbers first. Then think about the unit to place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_pv_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A place value chart from millions to thousandths with a decimal point between ones and tenths. Disks or digits sit in the columns.",
+      "must_show_exactly": [
+        "Columns run millions down to thousandths in order",
+        "Decimal point sits between ones and tenths",
+        "Digits or disks match the stimulus"
+      ],
+      "states_or_frames": [
+        "empty chart",
+        "digits placed",
+        "arrows show shift left or right"
+      ],
+      "interaction": "Child types digits into columns. Tutor can draw arrows.",
+      "alt_text": "A place value chart with labelled columns.",
+      "used_by": [
+        "exp_same_amount",
+        "exp_whole_remainder",
+        "exp_zero_ones",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pk_1",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pk_4",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat place value chart with column headings from millions to thousandths, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_place_value_disks",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "Place value disks: tens, ones, tenths (and hundredths when asked), laid out in five-group formation. Child can bundle 10 disks into 1 disk of the next larger unit.",
+      "must_show_exactly": [
+        "Number of disks of each unit matches the stimulus",
+        "Each disk shows its value (10, 1, 0.1, 0.01)",
+        "Bundling 10 disks gives 1 disk of the next unit"
+      ],
+      "states_or_frames": [
+        "disks laid out",
+        "10 disks circled",
+        "disks traded for 1 larger disk"
+      ],
+      "interaction": "Child taps disks to circle or trade. Tutor sets the disks from the stimulus.",
+      "alt_text": "Round place value disks in rows of five, each showing a value.",
+      "used_by": [
+        "exp_zero_ones",
+        "q_db_3",
+        "q_pk_1",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pk_4",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat round disks in neat rows of five, each with a number on it, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A tape diagram: one long rectangle cut into equal units, with some units shaded and brackets above or below.",
+      "must_show_exactly": [
+        "Number of equal units and shaded units always match the question stimulus",
+        "All units are exactly the same size",
+        "Brackets and labels only where the question says"
+      ],
+      "states_or_frames": [
+        "empty tape",
+        "tape cut into n units",
+        "k units shaded",
+        "brackets and labels added"
+      ],
+      "interaction": "Display. Tutor sets the number of units, the shaded units and the labels from the question stimulus.",
+      "alt_text": "A tape diagram cut into equal parts with some parts shaded.",
+      "used_by": [
+        "q_db_4",
+        "q_pr_1",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_18"
+      ],
+      "generation_caption": "A flat tape diagram: one long rectangle cut into equal boxes, some boxes shaded blue, plain background, no text. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_multiply_exponents_sprint",
+      "name": "Sprint: Multiply by Exponents",
+      "reason": "Timed sheet. Not added.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "source text quality",
+      "issue": "The lesson file is plain text with NO page images and NO page numbers. Fraction symbols, tape diagrams, number bonds and figures were lost in the text, so student answers such as 'S: [blank]' cannot be read. Only fractions written in words (for example '5 sixths') were used. Compare every question with the original PDF."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts or fractions. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "Prerequisites that start with math_g5_m1_ point to earlier cards of this module made in the same project. Check that each earlier lesson really teaches the needed skill."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Sheets present: Sprint / Problem Set / Exit Ticket / Template",
+      "issue": "Place value charts and tape diagrams were not added. Number items were used. The printed items on these pages are pictures or formulas that were lost in the text."
+    },
+    {
+      "id": "f7",
+      "severity": "high",
+      "item": "Problem Set",
+      "issue": "The Problem Set item numbers were lost. Items were rebuilt from the Exit Ticket and Homework."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Juice problem",
+      "issue": "Problem 4 (juice in milliliters) was lost. The debrief question about unlike units is general."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "Answers",
+      "issue": "Answers are computed from the printed numbers. Check them against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Word problems",
+      "issue": "The Henderson punch and Yasmine juice problems were rewritten with one step each. The numbers are from the source."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Standard algorithm",
+      "issue": "The lesson asks for disks and the algorithm. The questions ask for the quotient only."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Hints",
+      "issue": "Hint coverage is thin. Hints come from the lesson's teaching moves."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_pv_chart, a_place_value_disks, a_tape_diagram). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with partners and objects. All child-facing text was rewritten for a screen and fractions are written in words. Needs an age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "low",
+      "item": "source_refs / page numbers",
+      "issue": "The file has no page numbers and no version footer. Every page is 'n/a' and the section name is used instead. source_version is 'not stated in file'. Fill in from the original PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

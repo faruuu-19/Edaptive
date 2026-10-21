@@ -66,10 +66,10 @@ def test_each_grade_is_planned_from_its_own_first_lesson(parent_client, grade, f
     assert progress["next_required"]["concept_id"] == first_lesson
 
 
-def test_a_grade_without_its_first_lesson_gets_no_other_grades_lesson(parent_client):
+def test_a_grade_without_its_first_module_uses_its_next_available_pair(parent_client):
     child, saved = plan(parent_client, 3)
     first = saved["timetable"]["slots"][0]
-    assert first["kind"] == "unavailable", "never fall back to another grade's lesson"
-    assert saved["routine"]["status"] == "content_unavailable"
-    assert "Module 1, Lesson 1" in saved["routine"]["message"]
+    assert first["kind"] == "lesson"
+    assert (first["module"], first["lesson"]) == (2, 1)
+    assert first["concept_id"].startswith("math_g3_m2_l1_")
     assert not any(s.get("concept_id", "").startswith("math_g2") for s in saved["timetable"]["slots"])

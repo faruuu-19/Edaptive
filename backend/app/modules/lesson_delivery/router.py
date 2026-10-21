@@ -1,5 +1,6 @@
 import copy
 import json
+import time
 import uuid
 from typing import Literal
 from urllib.request import Request, urlopen
@@ -15,9 +16,20 @@ from app.core.db import DbSession, get_engine
 from app.core.household import get_active_profile
 from app.core.identity import CurrentActor, ParentActor, ensure_student_access
 
+from . import runtime
+from .curriculum import coordinates
 from .models import LearningProgress, SchoolRoutine, Timetable
 from .routines import refresh_routine, routine_snapshot
-from .runtime import RELOAD_TIMEOUT, VOICE, act, refresh_delays, snapshot, start_worker, voice_request
+from .runtime import (
+    RELOAD_TIMEOUT,
+    VOICE,
+    act,
+    can_rejoin,
+    refresh_delays,
+    snapshot,
+    start_worker,
+    voice_request,
+)
 
 router = APIRouter()
 
@@ -45,10 +57,29 @@ def available():
     return voice_request("/catalog")["cards"]
 
 
+def catalog_sort_key(card):
+    position = coordinates(card["id"])
+    if position is None or position[:2] != (card["grade"], card["module"]):
+        raise ValueError("Invalid lesson catalog identity.")
+    return card["module"], position[2]
+
+
+def cards_loader_before_lock():
+    try:
+        cards = available()
+    except (OSError, ValueError, KeyError) as error:
+
+        def unavailable(source=error):
+            raise OSError("Local lesson catalog unavailable.") from source
+
+        return unavailable
+    return lambda: cards
+
+
 def owned(db, actor, key, lock=False):
     query = select(Timetable).where(Timetable.id == key, Timetable.household_id == actor.household_id)
     if lock:
-        query = query.with_for_update()
+        query = query.with_for_update().execution_options(populate_existing=True)
     row = db.scalar(query)
     if row is None:
         raise HTTPException(404, "Timetable not found.")
@@ -66,9 +97,9 @@ def catalog(student_id: uuid.UUID, actor: CurrentActor, db: DbSession):
         raise HTTPException(404, "Profile not found.")
     try:
         cards = [c for c in available() if c["grade"] == profile.grade]
-    except (OSError, ValueError):
+        cards.sort(key=catalog_sort_key)
+    except (OSError, ValueError, KeyError, TypeError, IndexError):
         raise HTTPException(503, "The local lesson service is unavailable.") from None
-    cards.sort(key=lambda c: (c["module"], int(c["id"].split("_")[3][1:])))
     return {
         "cards": cards,
         "subjects": [
@@ -84,6 +115,7 @@ def save_routine(student_id: uuid.UUID, body: RoutineInput, actor: ParentActor, 
     profile = get_active_profile(db, actor.household_id, student_id)
     if not profile:
         raise HTTPException(404, "Profile not found.")
+    cards_loader = cards_loader_before_lock()
     routine = db.scalar(select(SchoolRoutine).where(SchoolRoutine.student_id == student_id).with_for_update())
     changed = routine is not None and routine.start_time != body.start_time
     if routine is None:
@@ -95,7 +127,7 @@ def save_routine(student_id: uuid.UUID, body: RoutineInput, actor: ParentActor, 
         routine.start_time = body.start_time
     try:
         db.flush()
-        row = refresh_routine(db, routine, available, changed=changed, force=True)
+        row = refresh_routine(db, routine, cards_loader, changed=changed, force=True)
         db.flush()
     except IntegrityError:
         raise HTTPException(409, "Start time is being updated. Please try again.") from None
@@ -121,6 +153,7 @@ def for_student(student_id: uuid.UUID, actor: CurrentActor, db: DbSession):
             .where(Timetable.student_id == student_id, Timetable.household_id == actor.household_id)
             .order_by(Timetable.created_at.desc())
             .limit(20)
+            .with_for_update()
         )
     )
     for r in rows:
@@ -138,9 +171,50 @@ def action(key: uuid.UUID, body: ActionInput, actor: CurrentActor, db: DbSession
         raise HTTPException(
             403, "Class controls belong to the student. Parents can set the daily start time."
         )
-    row = owned(db, actor, key, True)
+    row = None
+    reserved_job = None
     try:
-        result = act(db, row, body.slot_id, body.action, body.position)
+        if body.action in {"start", "rejoin"}:
+            # Warm/reserve the voice before taking the timetable row lock. Recheck under the lock below.
+            row = owned(db, actor, key)
+            if row.status != "active":
+                raise ValueError("This timetable has ended.")
+            slot = next(
+                (s for s in row.state["slots"] if s["id"] == body.slot_id and s["kind"] == "lesson"),
+                None,
+            )
+            if slot is None:
+                raise ValueError("Unknown lesson slot.")
+            current = next(
+                (
+                    s
+                    for s in row.state["slots"]
+                    if s["kind"] == "lesson" and s["status"] not in {"completed", "unfinished", "cancelled"}
+                ),
+                None,
+            )
+            if current is not slot:
+                raise ValueError("Finish the earlier lesson before starting this one.")
+            now_ms = time.time() * 1000
+            if body.action == "start":
+                if slot["status"] not in {"planned", "started"}:
+                    raise ValueError("Rejoin a class you already started; Start is for a new class.")
+                if slot["status"] != "started" and (
+                    now_ms < slot["start_ms"] or slot["preparation"]["status"] != "ready"
+                ):
+                    raise ValueError("Wait for class time and completed preparation.")
+                if slot["status"] != "started":
+                    reserved_job = slot["job_id"]
+            elif not can_rejoin(slot, now_ms):
+                raise ValueError("This class has finished. Your next Maths lesson is on the next school day.")
+            else:
+                reserved_job = slot["job_id"]
+            if reserved_job:
+                runtime.voice_request("/jobs/" + reserved_job + "/reserve", {}, RELOAD_TIMEOUT)
+        row = owned(db, actor, key, True)
+        result = act(
+            db, row, body.slot_id, body.action, body.position, voice_reserved=reserved_job is not None
+        )
         if body.action == "cancel":
             for slot in row.state["slots"]:
                 if slot["kind"] == "lesson":
@@ -149,8 +223,20 @@ def action(key: uuid.UUID, body: ActionInput, actor: CurrentActor, db: DbSession
                     except (OSError, ValueError):
                         pass
         return result
-    except (ValueError, StopIteration, OSError) as error:
-        raise HTTPException(409, str(error) or "Lesson slot unavailable.") from None
+    except Exception as error:
+        keep_reservation = bool(
+            reserved_job
+            and row
+            and any(s.get("job_id") == reserved_job and s["status"] == "started" for s in row.state["slots"])
+        )
+        if reserved_job and not keep_reservation:
+            try:
+                runtime.voice_request("/jobs/" + reserved_job + "/release", {})
+            except (OSError, ValueError):
+                pass
+        if isinstance(error, (ValueError, StopIteration, OSError)):
+            raise HTTPException(409, str(error) or "Lesson slot unavailable.") from None
+        raise
 
 
 def active_slot(row, slot_id):
@@ -183,10 +269,22 @@ def narrate(key: uuid.UUID, body: NarrateInput, actor: CurrentActor, db: DbSessi
     row = owned(db, actor, key)
     slot = active_slot(row, body.slot_id)
     try:
-        voice_request("/jobs/" + slot["job_id"] + "/reserve", {}, RELOAD_TIMEOUT)
         prepared = voice_request("/jobs/" + slot["job_id"] + "/lesson")
-        if body.segment_id != prepared["segments"][slot["position"]]["id"]:
+        if not isinstance(prepared, dict):
+            raise HTTPException(409, "The prepared lesson changed. Ask a grown-up to check it.")
+        segments = prepared.get("segments")
+        position = slot["position"]
+        if (
+            prepared.get("concept_id") != slot["concept_id"]
+            or not isinstance(segments, list)
+            or not isinstance(position, int)
+            or not 0 <= position < len(segments)
+            or not isinstance(segments[position], dict)
+        ):
+            raise HTTPException(409, "The prepared lesson changed. Ask a grown-up to check it.")
+        if body.segment_id != segments[position].get("id"):
             raise HTTPException(409, "Narrate the current lesson part.")
+        voice_request("/jobs/" + slot["job_id"] + "/reserve", {}, RELOAD_TIMEOUT)
         request = Request(
             VOICE + "/narrate",
             data=json.dumps(
@@ -198,30 +296,45 @@ def narrate(key: uuid.UUID, body: NarrateInput, actor: CurrentActor, db: DbSessi
     except (OSError, ValueError):
         raise HTTPException(503, "The local teacher voice is unavailable.") from None
 
+    def acknowledge():
+        with Session(get_engine()) as save_db, save_db.begin():
+            saved = save_db.scalar(select(Timetable).where(Timetable.id == key).with_for_update())
+            if not saved or saved.status != "active":
+                return False
+            state = copy.deepcopy(saved.state)
+            saved_slot = next((s for s in state["slots"] if s["id"] == body.slot_id), None)
+            if not (
+                saved_slot
+                and saved_slot["status"] == "started"
+                and saved_slot.get("job_id") == slot["job_id"]
+                and saved_slot.get("position") == position
+            ):
+                return False
+            saved_slot["narrated_positions"] = list(
+                set(saved_slot.get("narrated_positions", []) + [position])
+            )
+            saved.state = state
+            return True
+
     def frames():
-        completed = False
         try:
-            for line in stream:
-                with Session(get_engine()) as current_db:
-                    current = current_db.get(Timetable, key)
-                    if not current or current.status != "active":
+            # The same connection checks every frame, without holding a transaction or a row lock.
+            with get_engine().connect().execution_options(isolation_level="AUTOCOMMIT") as current_db:
+                for line in stream:
+                    current = current_db.scalar(
+                        select(Timetable.status).where(
+                            Timetable.id == key, Timetable.household_id == actor.household_id
+                        )
+                    )
+                    if current != "active":
                         return
-                yield line
-                try:
-                    completed = completed or json.loads(line).get("type") == "done"
-                except ValueError:
-                    pass
-            if completed:
-                with Session(get_engine()) as save_db, save_db.begin():
-                    saved = save_db.scalar(select(Timetable).where(Timetable.id == key).with_for_update())
-                    if saved and saved.status == "active":
-                        state = copy.deepcopy(saved.state)
-                        saved_slot = next(s for s in state["slots"] if s["id"] == body.slot_id)
-                        if saved_slot["status"] == "started":
-                            saved_slot["narrated_positions"] = list(
-                                set(saved_slot.get("narrated_positions", []) + [slot["position"]])
-                            )
-                            saved.state = state
+                    try:
+                        done = json.loads(line).get("type") == "done"
+                    except ValueError:
+                        done = False
+                    if done and not acknowledge():
+                        return
+                    yield line
         finally:
             stream.close()
 

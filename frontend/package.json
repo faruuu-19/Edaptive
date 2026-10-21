@@ -7,14 +7,18 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test:avatar": "node --test tests/avatar-integration.test.mjs",
+    "test:delivery": "node --test tests/delivery-edge-cases.test.mjs"
   },
   "dependencies": {
     "@fontsource/andika": "^5.3.0",
     "@fontsource/fraunces": "^5.3.0",
     "next": "16.3.8",
     "react": "19.2.8",
-    "react-dom": "19.2.8"
+    "react-dom": "19.2.8",
+    "@met4citizen/talkinghead": "1.7.0",
+    "three": "0.180.0"
   },
   "devDependencies": {
     "@types/node": "^20",
@@ -23,7 +27,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.3.8",
     "json-schema-to-typescript": "^15.0.4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@types/three": "0.180.0"
   },
   "engines": {
     "node": ">=20.9"

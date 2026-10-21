@@ -1,0 +1,1199 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l16_add_measurements_rename_twice",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-d-lesson-16.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 16",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.MD.2",
+    "3.NBT.1",
+    "3.OA.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Add measurements with the standard algorithm when you rename twice: ones to tens and tens to hundreds.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_add_rename_once"
+  ],
+  "explanations": [
+    {
+      "id": "exp_rename_twice",
+      "title": "Rename two times",
+      "text": "158 plus 266: 8 ones plus 6 ones is 14 ones. Rename 1 ten. Then 12 tens, so rename 1 hundred.",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_where_to_write",
+      "title": "Where the new unit goes",
+      "text": "A new ten goes in the tens column. A new hundred goes in the hundreds column.",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (we put it in the hundreds column because it's a hundred, not a ten)"
+      }
+    },
+    {
+      "id": "exp_check_scale",
+      "title": "Check with a scale",
+      "text": "Put both bags on the scale. It shows 424 grams, the same as our sum.",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_158_266",
+      "title": "158 g plus 266 g",
+      "text": "Ones: 14, write 4, rename 1 ten. Tens: 5 plus 6 plus 1 is 12, write 2, rename 1 hundred. Hundreds: 1 plus 2 plus 1 is 4. Total 424 grams.",
+      "asset_ids": [
+        "a_place_value_chart",
+        "a_scale_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_jamal",
+      "title": "Jamal's rope",
+      "text": "68 centimeters left and 47 centimeters cut off. 68 plus 47 equals 115 centimeters.",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Jamal)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "25 minutes plus how many minutes equals 1 hour?",
+      "asset_ids": [],
+      "stimulus": {
+        "part": 25,
+        "whole": 60
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole (25 minutes)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "550 milliliters plus how many milliliters equals 1 liter?",
+      "asset_ids": [],
+      "stimulus": {
+        "part_ml": 550,
+        "whole_ml": 1000
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole (550 mL)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Josh's apple weighs 93 grams. His pear weighs 152 grams. What is their total weight?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_g": [
+          93,
+          152
+        ]
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_ones_first",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "158 grams plus 266 grams. What is 8 ones plus 6 ones?",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "stimulus": {
+        "parts_g": [
+          158,
+          266
+        ]
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_ones_first"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Now add the tens: 5 tens plus 6 tens plus 1 renamed ten. How many tens?",
+      "asset_ids": [
+        "a_place_value_chart"
+      ],
+      "stimulus": {
+        "tens": [
+          5,
+          6,
+          1
+        ]
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_rename_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Bag A has 266 grams. Bag B has 158 grams. What is the total weight?",
+      "asset_ids": [
+        "a_place_value_chart",
+        "a_scale_widget"
+      ],
+      "stimulus": {
+        "parts_g": [
+          266,
+          158
+        ]
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_rename_ten",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Jamal's brother cuts off 47 centimeters of rope. Jamal has 68 centimeters left. How long was the rope?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "left_cm": 68,
+        "cut_cm": 47
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_tape",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Jamal)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "The goldfish tank has 189 liters. The guppy tank has 94 liters more. How many liters are in both tanks?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "goldfish_l": 189,
+        "more_l": 94
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_tape",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (aquariums)"
+      }
+    },
+    {
+      "id": "q_ps_1c",
+      "kind": "practice",
+      "text": "352 milliliters plus 468 milliliters equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_ml": [
+          352,
+          468
+        ]
+      },
+      "rubric_id": "r_ps_1c",
+      "hint_ids": [
+        "h_rename_ten",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1c"
+      }
+    },
+    {
+      "id": "q_ps_1f",
+      "kind": "practice",
+      "text": "506 centimeters plus 394 centimeters equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_cm": [
+          506,
+          394
+        ]
+      },
+      "rubric_id": "r_ps_1f",
+      "hint_ids": [
+        "h_rename_ten",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1f"
+      }
+    },
+    {
+      "id": "q_ps_1i",
+      "kind": "practice",
+      "text": "486 grams plus 497 grams equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_g": [
+          486,
+          497
+        ]
+      },
+      "rubric_id": "r_ps_1i",
+      "hint_ids": [
+        "h_rename_ten",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1i"
+      }
+    },
+    {
+      "id": "q_ps_1k",
+      "kind": "practice",
+      "text": "4 kilograms 384 grams plus 2 kilograms 467 grams. What is the total?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": [
+          4,
+          384
+        ],
+        "b": [
+          2,
+          467
+        ]
+      },
+      "rubric_id": "r_ps_1k",
+      "hint_ids": [
+        "h_rename_ten",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1k"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Sue wraps 86 muffins. 58 muffins are still cooling. How many did she bake?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "parts": [
+          86,
+          58
+        ]
+      },
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_tape",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "328 kilograms plus 289 kilograms equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts_kg": [
+          328,
+          289
+        ]
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_rename_ten",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 1b"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "A miniature horse weighs 56 kilograms. That is 268 kilograms less than a Shetland pony. What does the pony weigh?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "mini_kg": 56,
+        "fewer_kg": 268
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_tape",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3a"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "In 158 plus 266, which units did you rename? How can you tell?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts": [
+          158,
+          266
+        ]
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_rename_ten",
+        "h_rename_hundred"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Did you rename ones? Tens? Hundreds?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35",
+          "thirty-five",
+          "35 minutes",
+          "thirty-five minutes"
+        ]
+      },
+      "correct": "Says 35.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole (25 minutes)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "450",
+          "four hundred fifty",
+          "450 milliliters",
+          "four hundred fifty milliliters"
+        ]
+      },
+      "correct": "Says 450.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole (550 mL)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "245",
+          "two hundred forty-five",
+          "245 grams",
+          "two hundred forty-five grams"
+        ]
+      },
+      "correct": "Says 245.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer; 93 + 152)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen",
+          "14 ones",
+          "fourteen ones"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 14 ones.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve",
+          "12 tens",
+          "twelve tens"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 12 tens!)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "424",
+          "four hundred twenty-four",
+          "424 grams",
+          "four hundred twenty-four grams"
+        ]
+      },
+      "correct": "Says 424.",
+      "partial": "Says 324 or 414 (forgot one renamed unit).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 424 grams.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "115",
+          "one hundred fifteen",
+          "115 centimeters",
+          "one hundred fifteen centimeters"
+        ]
+      },
+      "correct": "Says 115.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Jamal)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "472",
+          "four hundred seventy-two",
+          "472 liters",
+          "four hundred seventy-two liters"
+        ]
+      },
+      "correct": "Says 472.",
+      "partial": "Says 283 (only the guppy tank).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (aquariums)"
+      }
+    },
+    {
+      "id": "r_ps_1c",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "820",
+          "eight hundred twenty",
+          "820 milliliters",
+          "eight hundred twenty milliliters"
+        ]
+      },
+      "correct": "Says 820.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1c"
+      }
+    },
+    {
+      "id": "r_ps_1f",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "900",
+          "nine hundred",
+          "900 centimeters",
+          "nine hundred centimeters"
+        ]
+      },
+      "correct": "Says 900.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1f"
+      }
+    },
+    {
+      "id": "r_ps_1i",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "983",
+          "nine hundred eighty-three",
+          "983 grams",
+          "nine hundred eighty-three grams"
+        ]
+      },
+      "correct": "Says 983.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1i"
+      }
+    },
+    {
+      "id": "r_ps_1k",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6 kilograms 851 grams",
+          "6 kg 851 g",
+          "6 kilograms and 851 grams"
+        ]
+      },
+      "correct": "Says 6 kilograms 851 grams.",
+      "partial": "Gets the kilograms or the grams right, but not both.",
+      "incorrect": "Gives a different amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1k"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "144",
+          "one hundred forty-four"
+        ]
+      },
+      "correct": "Says 144.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "617",
+          "six hundred seventeen",
+          "617 kilograms",
+          "six hundred seventeen kilograms"
+        ]
+      },
+      "correct": "Says 617.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 1b"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "324",
+          "three hundred twenty-four",
+          "324 kilograms",
+          "three hundred twenty-four kilograms"
+        ]
+      },
+      "correct": "Says 324.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3a"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says ones were renamed as a ten (14 ones) and tens were renamed as a hundred (12 tens).",
+      "partial": "Names only one renaming.",
+      "incorrect": "Says nothing was renamed.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (14 ones renamed as 1 ten 4 ones; 12 tens renamed as 1 hundred 2 tens)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_ones_first",
+      "level": 1,
+      "text": "Start with the ones column.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_rename_ten",
+      "level": 2,
+      "text": "10 or more ones? Rename 10 ones as 1 ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_rename_hundred",
+      "level": 2,
+      "text": "10 or more tens? Rename 10 tens as 1 hundred.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 3,
+      "text": "Draw a tape diagram. Find the missing part first if there are two steps.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 4)"
+      }
+    },
+    {
+      "id": "h_bond",
+      "level": 1,
+      "text": "Think of the whole: 1 hour is 60 minutes, 1 liter is 1,000 milliliters.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Part–Whole with Measurement Units"
+      }
+    },
+    {
+      "id": "h_skip",
+      "level": 1,
+      "text": "Skip-count and track the groups on your fingers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_place_value_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Disks or digits must be exact in each place, and regrouping (bundling or unbundling) must be shown step by step.",
+      "description": "A place value chart (hundreds, tens, ones) with number disks that can be bundled or unbundled.",
+      "must_show_exactly": [
+        "Columns: hundreds, tens, ones",
+        "Exactly the disks or digits in the stimulus",
+        "Regrouping shown as 10 of one unit becoming 1 of the next",
+        "q_pr_1: disks for 158 above disks for 266",
+        "q_pr_3: scale shows 424 g"
+      ],
+      "states_or_frames": [
+        "start number",
+        "regroup step",
+        "result"
+      ],
+      "interaction": "Child or tutor moves disks. Child answers by voice or typing.",
+      "alt_text": "A place value chart with hundreds, tens and ones.",
+      "used_by": [
+        "ex_158_266",
+        "exp_rename_twice",
+        "exp_where_to_write",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3"
+      ],
+      "generation_caption": "Three-column place value chart labelled hundreds, tens, ones, with round number disks, flat colours. [Build by code]"
+    },
+    {
+      "asset_id": "a_scale_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The pointer must point to an exact reading on an exactly labelled dial or number line.",
+      "description": "A gram scale showing Bag A (266 g) and Bag B (158 g) weighed together.",
+      "must_show_exactly": [
+        "Display exactly 424 g when both bags are on",
+        "Unit g shown",
+        "q_pr_3: scale shows 424 g"
+      ],
+      "states_or_frames": [
+        "Bag A alone 266 g",
+        "Bag B alone 158 g",
+        "both bags 424 g"
+      ],
+      "interaction": "Tutor sets the reading. Child answers by voice or typing.",
+      "alt_text": "A scale with a pointer showing a mass.",
+      "used_by": [
+        "ex_158_266",
+        "exp_check_scale",
+        "q_pr_3"
+      ],
+      "generation_caption": "Simple flat kitchen scale with a round dial, evenly spaced tick marks, pointer, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Unit bars must be exactly equal and the number of units must be exact. Labels and the question mark must be placed exactly.",
+      "description": "A tape diagram: one long bar cut into equal units. A label shows the size of a unit or the total, and a question mark shows the unknown.",
+      "must_show_exactly": [
+        "Exactly the number of equal units given in the stimulus",
+        "All units the same length",
+        "Known value labelled, unknown shown as a question mark",
+        "q_pr_4: tape: 68 cm and 47 cm, whole ?",
+        "q_pr_5: goldfish bar 189 L, guppy bar 189 + 94 L",
+        "q_ps_3: tape: 86 and 58, whole ?",
+        "q_pr_7: pony bar = 56 kg + 268 kg"
+      ],
+      "states_or_frames": [
+        "empty bar",
+        "bar cut into units",
+        "labels and question mark shown"
+      ],
+      "interaction": "Display only, or child taps a unit to label it. Child answers by voice or typing.",
+      "alt_text": "A bar cut into equal parts with a question mark.",
+      "used_by": [
+        "ex_jamal",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_7",
+        "q_ps_3"
+      ],
+      "generation_caption": "Clean horizontal bar divided into equal rectangular units, with a brace and a question mark, flat colours, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    },
+    {
+      "id": "na_counters",
+      "name": "Hands-on counters or objects",
+      "reason": "Physical materials; replaced by on-screen widgets where the card uses them.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_partner_coach",
+      "name": "Partner–coach strategy for Problem Set page 1",
+      "reason": "Needs two children taking turns as coach and writer.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set items 2, 4",
+      "issue": "Lane's cabbage and salt weights and the milk carton and juice box capacities exist only as pictures. Not used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Problem Set 1a, b, d, e, g, h, j; Exit Ticket 1a, c, 2; Homework 1a-k, 2 (Mrs. Haley) and 3b (Clydesdale) repeat used patterns."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "q_ps_1k, r_ps_1k",
+      "issue": "Mixed-unit answer (kilograms and grams). Check the Tutor normalises other wordings (for example '6,851 grams')."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source says to address misconceptions while circulating but states none. Proposal, not added: writing 12 tens as 12 in the tens column without renaming."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 35, 450, 245, 115, 472, 820, 900, 983, 6 kg 851 g, 144, 617, 324. Recheck."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "No Sprint",
+      "issue": "This lesson has no Sprint."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_add_rename_once (adding with one renaming, Lesson 15). Replace with real card ids after review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available: a_place_value_chart, a_scale_widget, a_tape_diagram. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.MD.2, 3.NBT.1, 3.OA.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

@@ -13,6 +13,7 @@ export type PreviewLesson = {
 export type SpeechFrame =
   | { type: "start"; segment_id: string }
   | { type: "audio"; utterance: number; caption: string; sample_rate: number; pcm_s16le: string; ready_after_s: number }
+  | { type: "lecture"; version: number; gap_ms: number; kind: string; sentences: { utterance: number; speech_start_ms: number; speech_end_ms: number }[]; gestures: { at_ms: number; name: string; seconds: number; mirror: boolean }[] | null }
   | { type: "done"; segment_id: string }
   | { type: "error"; detail: string };
 
@@ -22,7 +23,7 @@ export async function getPreviewLesson(signal: AbortSignal): Promise<PreviewLess
   return response.json();
 }
 
-export async function streamPreviewSpeech(segmentId: string, voice: string, signal: AbortSignal, onFrame: (frame: SpeechFrame) => void, delivery?: DeliveryContext) {
+export async function streamPreviewSpeech(segmentId: string, voice: string, signal: AbortSignal, onFrame: (frame: SpeechFrame) => void | Promise<void>, delivery?: DeliveryContext) {
   const response = await fetch(delivery ? `/api/lesson_delivery/${delivery.timetableId}/narrate` : "/voice-preview-api/narrate", {
     method: "POST", body: JSON.stringify({ segment_id: segmentId, voice, ...(delivery ? { slot_id: delivery.slotId } : {}) }),
     headers: { "Content-Type": "application/json" }, cache: "no-store", signal,
@@ -46,7 +47,7 @@ export async function streamPreviewSpeech(segmentId: string, voice: string, sign
         const frame: SpeechFrame = JSON.parse(line);
         if (frame.type === "error") throw new Error(frame.detail);
         if (frame.type === "done") finished = true;
-        onFrame(frame);
+        await onFrame(frame);
       }
       if (pending.length > 4_000_000) throw new Error("The narration response is too large.");
       if (done) break;

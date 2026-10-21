@@ -9,6 +9,8 @@ import { listProfiles, pickProfile, type Profile } from "@/lib/api";
 import { Avatar } from "./Avatar";
 import styles from "./home-profile.module.css";
 import { LockIcon } from "./icons";
+import { Pip } from "@/features/theme";
+import { lessonAlarm } from "@/features/voice";
 
 /** "Who's learning today?" Children tap their own tile; no passwords. */
 export function ProfilePicker() {
@@ -22,6 +24,8 @@ export function ProfilePicker() {
   }, []);
 
   async function choose(profile: Profile) {
+    // The profile tap is the child's first audio gesture; retain it for the scheduled chime.
+    void lessonAlarm().unlock();
     setBusy(profile.id);
     try {
       await pickProfile(profile.id);
@@ -33,10 +37,10 @@ export function ProfilePicker() {
   }
 
   return (
-    <div className={styles.scene}>
-      <div className={styles.ground} aria-hidden />
-      <div className={styles.sun} aria-hidden />
-      <div className={`page stack ${styles.sceneContent}`} style={{ gap: 36 }}>
+    <div className={`${styles.scene} ui-picker`}>
+      <div className={`${styles.ground} ui-ground`} aria-hidden />
+      <div className={`${styles.sun} ui-sun`} aria-hidden />
+      <div className={`page stack ${styles.sceneContent} ui-picker-content`} style={{ gap: 36 }}>
         <div className="row spread">
           <span className="wordmark">Edaptive</span>
           <Link className="btn" href="/parent">
@@ -44,7 +48,11 @@ export function ProfilePicker() {
           </Link>
         </div>
 
-        <h1>Who&apos;s learning today?</h1>
+        <div className="ui-picker-heading">
+          <Pip size={150} waving />
+          <h1>Who&apos;s <span className="ui-accent">learning</span> today?</h1>
+        </div>
+        <p className="ui-picker-sub ui-playful-only">Tap your picture to start.</p>
 
         {error && <p className="error">Something went wrong. Is the backend running?</p>}
 
@@ -61,12 +69,12 @@ export function ProfilePicker() {
         )}
 
         {profiles && profiles.length > 0 && (
-          <div className={styles.tiles}>
+          <div className={`${styles.tiles} ui-tiles`}>
             {profiles.map((p) => (
-              <button key={p.id} className={styles.tile} disabled={busy !== null} onClick={() => choose(p)}>
-                <Avatar name={p.display_name} avatarKey={p.avatar_key} size={108} />
-                <span className={styles.tileName}>{p.display_name}</span>
-                <span className={styles.grade}>Grade {p.grade}</span>
+              <button key={p.id} className={`${styles.tile} ui-tile`} disabled={busy !== null} onClick={() => choose(p)}>
+                <span className="ui-avatar-wrap"><Avatar name={p.display_name} avatarKey={p.avatar_key} size={108} /></span>
+                <span className={`${styles.tileName} ui-tile-name`}>{p.display_name}</span>
+                <span className={`${styles.grade} ui-grade`}>Grade {p.grade}</span>
               </button>
             ))}
           </div>

@@ -1,0 +1,1049 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l9_liter_milliliters",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-b-lesson-9.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 9",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.MD.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "A liter is 1,000 milliliters. Split a liter into 10 parts of 100 milliliters, then 10 milliliters, then 1 milliliter.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_kilogram_grams"
+  ],
+  "explanations": [
+    {
+      "id": "exp_capacity",
+      "title": "Capacity",
+      "text": "Capacity is how much liquid a container can hold. A swimming pool holds more than a glass.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "exp_liter",
+      "title": "A liter",
+      "text": "A liter is a unit for an amount of liquid. We write it with a capital L.",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "exp_liquid_volume",
+      "title": "Liquid volume",
+      "text": "The amount of liquid is called liquid volume. We can split 1 liter into 10 cups of 100 milliliters.",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "exp_like_kilogram",
+      "title": "Like the kilogram",
+      "text": "1 liter is 1,000 milliliters, like 1 kilogram is 1,000 grams. Each unit splits into 10 of the next smaller unit.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief and Problem Set Part 2"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_1000ml",
+      "title": "Count the milliliters",
+      "text": "10 cups of 100 milliliters: 100, 200, up to 1,000. 1,000 milliliters divided by 10 is 100 milliliters.",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "ex_100_to_10",
+      "title": "Split 100 milliliters",
+      "text": "Pour 100 milliliters into 10 equal cups. Each cup has 10 milliliters. 100 divided by 10 equals 10.",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "1 kilogram is 750 grams and how many more grams?",
+      "asset_ids": [
+        "a_number_bond_widget"
+      ],
+      "stimulus": {
+        "whole_g": 1000,
+        "part_g": 750
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 1 Kilogram (sequence: 750 g)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Which has the smallest capacity: a swimming pool, a bathtub, or a glass?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_compare_l"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "We pour 1 liter into a container the size of a gallon jug. Does it hold less than, more than, or about 1 liter?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "container": "gallon"
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_compare_l"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (Container 4, gallon)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "We pour 1 liter into a quart-size container. Does it hold less than, more than, or about 1 liter?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "container": "quart"
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_compare_l"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (Container 3, quart)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "1 liter is poured into cups of 100 milliliters. How many cups are filled?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "total_ml": 1000,
+        "cup_ml": 100
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_ten_parts",
+        "h_skip100"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "How many milliliters of water are in 1 liter?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_skip100"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Split 100 milliliters into 10 equal cups. How many milliliters are in each cup?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "total_ml": 100,
+        "cups": 10
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_ten_parts"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Cup K is marked at 100 milliliters. Cup L is marked at 10 milliliters. Why is Cup L's mark lower?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "cup_k_ml": 100,
+        "cup_l_ml": 10
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_compare_l"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "A dropper holds 1 milliliter. How many droppers full would fill 1 liter?",
+      "asset_ids": [],
+      "stimulus": {
+        "total_ml": 1000,
+        "dropper_ml": 1
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_ten_parts",
+        "h_skip100"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Morgan fills a 1 liter jar using a 100 milliliter cup. How many scoops does she need?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "total_ml": 1000,
+        "cup_ml": 100
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_ten_parts",
+        "h_skip100"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 1"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "How many groups of 10 milliliters are in 1 liter?",
+      "asset_ids": [],
+      "stimulus": {
+        "total_ml": 1000,
+        "group_ml": 10
+      },
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_ten_parts"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "q_ps_g",
+      "kind": "practice",
+      "text": "One liter of water weighs 1 kilogram. How much does 1 milliliter of water weigh? Explain.",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_ps_g",
+      "hint_ids": [
+        "h_ten_parts",
+        "h_bond"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Part 2 (last item)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Mrs. Goldstein pours 3 juice boxes into a bowl. Each holds 236 milliliters. How much juice is in the bowl?",
+      "asset_ids": [],
+      "stimulus": {
+        "groups": 3,
+        "size_ml": 236
+      },
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Daniel's tank holds 24 liters. His bucket holds 4 liters. How many buckets fill the tank?",
+      "asset_ids": [],
+      "stimulus": {
+        "total_l": 24,
+        "bucket_l": 4
+      },
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 4"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How is splitting 1 liter like splitting 1 kilogram?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_ten_parts"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "250",
+          "two hundred fifty",
+          "250 grams",
+          "two hundred fifty grams"
+        ]
+      },
+      "correct": "Says 250.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 1 Kilogram (sequence: 750 g)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "a glass",
+          "glass",
+          "the glass"
+        ]
+      },
+      "correct": "Says the glass.",
+      "partial": null,
+      "incorrect": "Says the pool or the bathtub.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (S: A glass holds the least amount of water.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "more than",
+          "more",
+          "more than 1 liter"
+        ]
+      },
+      "correct": "Says more than 1 liter.",
+      "partial": null,
+      "incorrect": "Says less than or about the same.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (Container 4 holds more than 1 liter)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "about the same",
+          "about 1 liter",
+          "the same"
+        ]
+      },
+      "correct": "Says about the same as 1 liter.",
+      "partial": null,
+      "incorrect": "Says less than or more than.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (Container 3 holds about the same as 1 liter)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (S: 10 cups!)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1000",
+          "one thousand",
+          "1,000",
+          "1,000 milliliters",
+          "1000 milliliters",
+          "one thousand milliliters"
+        ]
+      },
+      "correct": "Says 1000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (S: 1,000 milliliters!)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten",
+          "10 milliliters",
+          "ten milliliters"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (S: 10 milliliters.)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says Cup L shows a smaller liquid volume (10 mL is less than 100 mL).",
+      "partial": "Says it is lower but not why.",
+      "incorrect": "Says Cup L holds more.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (S: Cup L shows 10 milliliters. That is less than 100 milliliters.)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1000",
+          "one thousand",
+          "1,000",
+          "one thousand"
+        ]
+      },
+      "correct": "Says 1000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (S: 1,000 droppers full!)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10",
+          "ten"
+        ]
+      },
+      "correct": "Says 10.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 1"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "r_ps_g",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 1 gram: 1 liter is 1,000 milliliters and 1 kilogram is 1,000 grams, so each milliliter weighs 1 gram.",
+      "partial": "Says 1 gram but gives no reason.",
+      "incorrect": "Gives another weight.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Part 2 (last item)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "708",
+          "seven hundred eight",
+          "708 milliliters",
+          "seven hundred eight milliliters"
+        ]
+      },
+      "correct": "Says 708.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 4"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both split into 10 equal parts again and again (1,000 → 100 → 10 → 1), and both are 1,000 of the small unit.",
+      "partial": "Says they are alike but not how.",
+      "incorrect": "Says they are split differently.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief and Concept Development, Part 2 (1,000 mL ÷ 10 = 100 mL)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_ten_parts",
+      "level": 1,
+      "text": "How many equal parts do you split the bigger unit into?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (ten-frame)"
+      }
+    },
+    {
+      "id": "h_skip100",
+      "level": 2,
+      "text": "Skip-count by hundreds, one for each cup.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "h_compare_l",
+      "level": 1,
+      "text": "Picture the 1 liter bottle. Does this hold more or less?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "h_bond",
+      "level": 2,
+      "text": "1 kilogram is 1,000 grams. What part adds on to make 1,000?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Decompose 1 Kilogram"
+      }
+    },
+    {
+      "id": "h_op",
+      "level": 2,
+      "text": "Equal groups: multiply. Sharing or how many groups: divide.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework items (equal measures)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_beaker_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Liquid level and scale marks must be exact.",
+      "description": "A beaker or container with a vertical scale in liters or milliliters, filled to a level.",
+      "must_show_exactly": [
+        "Scale marks and labels exactly as in the stimulus",
+        "Liquid level exactly at the reading in the stimulus",
+        "Unit (L or mL) printed on the scale",
+        "q_pr_2: 1 L poured into a gallon container, water well below the rim",
+        "q_pr_3: 1 L poured into a quart container, water at the rim",
+        "q_pr_4: 10 cups of 100 mL on a ten-frame",
+        "q_pr_6: 10 cups of 10 mL",
+        "q_pr_7: two equal cups, marks at 100 mL and 10 mL",
+        "q_pr_9: 1 L jar filled by 100 mL scoops"
+      ],
+      "states_or_frames": [
+        "bottle with 1 L line",
+        "water poured into a container: below, at, or above its rim",
+        "10 cups of 100 mL on a ten-frame",
+        "10 cups of 10 mL",
+        "dropper drops of 1 mL"
+      ],
+      "interaction": "Tutor sets the scale and level. Child answers by voice or typing.",
+      "alt_text": "A container with a scale, filled with water.",
+      "used_by": [
+        "ex_1000ml",
+        "ex_100_to_10",
+        "exp_liquid_volume",
+        "exp_liter",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_9"
+      ],
+      "generation_caption": "Clear flat beaker with a vertical scale of evenly spaced marks and blue water inside, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_number_bond_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "A fixed diagram with exact numbers in exact boxes.",
+      "description": "A number bond with 1 kg (1,000 g) as the whole and two parts in grams.",
+      "must_show_exactly": [
+        "Whole: 1 kg (1,000 g)",
+        "One part shown in grams, one part unknown",
+        "q_pk_1: whole 1 kg, part 750 g"
+      ],
+      "states_or_frames": [
+        "empty",
+        "total filled",
+        "parts filled",
+        "all filled"
+      ],
+      "interaction": "Child or tutor fills the circles. Child answers by voice or typing.",
+      "alt_text": "A number bond with a total and two parts.",
+      "used_by": [
+        "q_pk_1"
+      ],
+      "generation_caption": "Number bond: big circle labelled 1 kg joined to two smaller circles, flat colours. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    },
+    {
+      "id": "na_pour_water",
+      "name": "Pouring water into containers, cups and droppers",
+      "reason": "Hands-on liquid work; replaced by the beaker widget.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Parts 1-2"
+      }
+    },
+    {
+      "id": "na_home_containers",
+      "name": "Finding and sketching 1 liter containers at home",
+      "reason": "Personal search and drawing with no fixed answer.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 1"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "q_pr_2, q_pr_3 (containers 1-4)",
+      "issue": "The source uses real cup, pint, quart and gallon containers. The card names the containers by size; a person must check the widget's containers show the same result as the source (cup and pint less, quart about the same, gallon more)."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "q_ps_g, r_ps_g",
+      "issue": "The source asks this but prints no answer. Key derived (1 gram) from 1 L = 1,000 mL and 1 kg = 1,000 g. Check it is acceptable."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Prediction items (Problem Set Part 1) have no fixed answer. Illustrate-and-describe items cannot be judged. Homework 2 (5 mL × 3) and 5 (15 L ÷ 3) repeat used patterns."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "q_pr_3, q_pr_6",
+      "issue": "Question text contains the answer number by chance ('about 1 liter'; '10 equal cups' and 10 mL). Check these."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The Debrief says students may think taller containers have larger capacities. This is source-stated but has no clear text-only signal, so it is a proposal only: add mis_taller_holds_more after review."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 250, 10 scoops, 100 groups, 708 mL, 6 buckets, 1 gram. Recheck."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "No Application Problem, no Sprint",
+      "issue": "This lesson has no Application Problem and no Sprint."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_kilogram_grams (decomposing 1 kilogram, Lesson 6 (the Debrief compares the two)). Replace with real card ids after review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_beaker_widget, a_number_bond_widget. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.MD.2. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

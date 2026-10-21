@@ -1,0 +1,1227 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l4_time_intervals_word_problems",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-a-lesson-4.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 4",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.OA.1",
+    "3.MD.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve time word problems within 1 hour. Count forward or backward on a number line or clock.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_time_nearest_minute"
+  ],
+  "explanations": [
+    {
+      "id": "exp_efficient",
+      "title": "Count in big jumps",
+      "text": "From 5:31 to 5:43, count ones to 5:35, fives to 5:40, then ones to 5:43. That is 12 minutes.",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (strategies)"
+      }
+    },
+    {
+      "id": "exp_three_kinds",
+      "title": "Three kinds of time problems",
+      "text": "You may need the end time, the minutes in between, or the start time.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (result, change and start unknown)"
+      }
+    },
+    {
+      "id": "exp_back_or_forward",
+      "title": "Forward or backward",
+      "text": "If you know the end time and want the start, count backward. If you know the start, count forward.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (will you count backward or forward?)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_dinner",
+      "title": "Start unknown: dinner",
+      "text": "Cooking ended at 5:56. It took 42 minutes. Count back 42 minutes from 5:56. It started at 5:14.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "ex_patrick_lilly",
+      "title": "Change unknown",
+      "text": "Patrick finished at 5:31. Lilly finished at 5:43. Lilly took 12 minutes more.",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Count by eights: 32, 40, 48. What number comes next?",
+      "asset_ids": [],
+      "stimulus": {
+        "step": 8,
+        "shown": [
+          32,
+          40,
+          48
+        ]
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (eights to 56)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Patrick and Lilly start chores at 5:00 p.m. Patrick ends at 5:31. Lilly ends at 5:43. Who finishes first?",
+      "asset_ids": [
+        "a_time_number_line",
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "patrick": "5:31",
+        "lilly": "5:43"
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_which"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Patrick finished at 5:31 p.m. Lilly finished at 5:43 p.m. How many more minutes did Lilly take?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "start": "5:31",
+        "end": "5:43"
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_which",
+        "h_jumps"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Math starts at 10:15 a.m. We work for 23 minutes. What time do we end?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "start": "10:15",
+        "minutes": 23,
+        "end": "10:38"
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_jumps",
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (result unknown)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Leslie reads from 11:24 a.m. to 11:57 a.m. How many minutes does she read?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "start": "11:24",
+        "end": "11:57"
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_which",
+        "h_jumps"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (change unknown)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Joe finishes homework at 5:48 p.m. He worked for 32 minutes. What time did he start?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "end": "5:48",
+        "minutes": 32,
+        "start": "5:16"
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_back",
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (start unknown)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "I finished cooking at 5:56 p.m. It took 42 minutes. What time did I start?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "end": "5:56",
+        "minutes": 42,
+        "start": "5:14"
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_back",
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Henry starts riding at 3:12 p.m. He rides for 36 minutes. What time does he stop?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "start": "3:12",
+        "minutes": 36,
+        "end": "3:48"
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_jumps",
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (result unknown)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "I exercise from 7:12 a.m. to 7:53 a.m. How many minutes do I exercise?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "start": "7:12",
+        "end": "7:53"
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_which",
+        "h_jumps"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (change unknown)"
+      }
+    },
+    {
+      "id": "q_ps_1",
+      "kind": "practice",
+      "text": "Cole reads from 6:23 p.m. to 6:49 p.m. How many minutes does he read?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "start": "6:23",
+        "end": "6:49"
+      },
+      "rubric_id": "r_ps_1",
+      "hint_ids": [
+        "h_which",
+        "h_jumps"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Natalie finishes piano at 2:45 p.m. after 37 minutes. What time did she start?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "end": "2:45",
+        "minutes": 37,
+        "start": "2:08"
+      },
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_back",
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2"
+      }
+    },
+    {
+      "id": "q_ps_5",
+      "kind": "practice",
+      "text": "Andrea starts fishing at 9:03 a.m. She fishes for 49 minutes. What time is she done?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "start": "9:03",
+        "minutes": 49,
+        "end": "9:52"
+      },
+      "rubric_id": "r_ps_5",
+      "hint_ids": [
+        "h_jumps",
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 5"
+      }
+    },
+    {
+      "id": "q_ps_7",
+      "kind": "practice",
+      "text": "Sydney cleans for 45 minutes. She starts at 11:13 a.m. What time does she finish?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "start": "11:13",
+        "minutes": 45,
+        "end": "11:58"
+      },
+      "rubric_id": "r_ps_7",
+      "hint_ids": [
+        "h_jumps",
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 7"
+      }
+    },
+    {
+      "id": "q_ps_8",
+      "kind": "practice",
+      "text": "A musical lasts 42 minutes. It ends at 1:59 p.m. What time did it start?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "end": "1:59",
+        "minutes": 42,
+        "start": "1:17"
+      },
+      "rubric_id": "r_ps_8",
+      "hint_ids": [
+        "h_back",
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 8"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Reading time starts at 1:34 p.m. and ends at 1:56 p.m. How many minutes is it?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "start": "1:34",
+        "end": "1:56"
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_which",
+        "h_jumps"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 3"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Cara finishes reading at 2:57 p.m. She read for 46 minutes. What time did she start?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "end": "2:57",
+        "minutes": 46,
+        "start": "2:11"
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_back",
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 4"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Sydney starts at 11:13 a.m. and cleans for 45 minutes. Is 11:58 a.m. a reasonable answer? Why?",
+      "asset_ids": [],
+      "stimulus": {
+        "start": "11:13",
+        "minutes": 45
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Is 11:58 a.m. a reasonable answer for Problem 7?)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "56",
+          "fifty-six"
+        ]
+      },
+      "correct": "Says 56.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (eights to 56)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "Patrick",
+          "patrick"
+        ]
+      },
+      "correct": "Says Patrick (5:31 is earlier than 5:43).",
+      "partial": null,
+      "incorrect": "Says Lilly.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (We know that Lilly finished after Patrick; plot 5:31 and 5:43)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve",
+          "12 minutes",
+          "twelve minutes"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 12 minutes more.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10:38",
+          "10:38 a.m.",
+          "10:38 am",
+          "ten thirty-eight",
+          "ten thirty-eight a.m."
+        ]
+      },
+      "correct": "Says 10:38 a.m..",
+      "partial": null,
+      "incorrect": "Gives a different time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (result unknown)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33",
+          "thirty-three",
+          "33 minutes",
+          "thirty-three minutes"
+        ]
+      },
+      "correct": "Says 33.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (change unknown)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5:16",
+          "5:16 p.m.",
+          "5:16 pm",
+          "five sixteen",
+          "five sixteen p.m."
+        ]
+      },
+      "correct": "Says 5:16 p.m..",
+      "partial": null,
+      "incorrect": "Gives a different time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (start unknown)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5:14",
+          "5:14 p.m.",
+          "5:14 pm",
+          "five fourteen",
+          "five fourteen p.m."
+        ]
+      },
+      "correct": "Says 5:14 p.m..",
+      "partial": null,
+      "incorrect": "Gives a different time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 5:14 p.m.)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3:48",
+          "3:48 p.m.",
+          "3:48 pm",
+          "three forty-eight",
+          "three forty-eight p.m."
+        ]
+      },
+      "correct": "Says 3:48 p.m..",
+      "partial": null,
+      "incorrect": "Gives a different time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (result unknown)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "41",
+          "forty-one",
+          "41 minutes",
+          "forty-one minutes"
+        ]
+      },
+      "correct": "Says 41.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (change unknown)"
+      }
+    },
+    {
+      "id": "r_ps_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty-six",
+          "26 minutes",
+          "twenty-six minutes"
+        ]
+      },
+      "correct": "Says 26.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2:08",
+          "2:08 p.m.",
+          "2:08 pm",
+          "two oh-eight",
+          "two oh-eight p.m."
+        ]
+      },
+      "correct": "Says 2:08 p.m..",
+      "partial": null,
+      "incorrect": "Gives a different time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2"
+      }
+    },
+    {
+      "id": "r_ps_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "9:52",
+          "9:52 a.m.",
+          "9:52 am",
+          "nine fifty-two",
+          "nine fifty-two a.m."
+        ]
+      },
+      "correct": "Says 9:52 a.m..",
+      "partial": null,
+      "incorrect": "Gives a different time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 5"
+      }
+    },
+    {
+      "id": "r_ps_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "11:58",
+          "11:58 a.m.",
+          "11:58 am",
+          "eleven fifty-eight",
+          "eleven fifty-eight a.m."
+        ]
+      },
+      "correct": "Says 11:58 a.m..",
+      "partial": null,
+      "incorrect": "Gives a different time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 7"
+      }
+    },
+    {
+      "id": "r_ps_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1:17",
+          "1:17 p.m.",
+          "1:17 pm",
+          "one seventeen",
+          "one seventeen p.m."
+        ]
+      },
+      "correct": "Says 1:17 p.m..",
+      "partial": null,
+      "incorrect": "Gives a different time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 8"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22",
+          "twenty-two",
+          "22 minutes",
+          "twenty-two minutes"
+        ]
+      },
+      "correct": "Says 22.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 3"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2:11",
+          "2:11 p.m.",
+          "2:11 pm",
+          "two eleven",
+          "two eleven p.m."
+        ]
+      },
+      "correct": "Says 2:11 p.m..",
+      "partial": null,
+      "incorrect": "Gives a different time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 4"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says yes: 11:13 plus 45 minutes is 11:58 (for example 11:13 + 40 = 11:53, + 5 = 11:58), and it is still before noon.",
+      "partial": "Says yes but gives no check.",
+      "incorrect": "Says no, or gives a different end time.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Is 11:58 a.m. a reasonable answer for Problem 7?)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_which",
+      "level": 1,
+      "text": "What is unknown: the start time, the end time, or the minutes?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "h_jumps",
+      "level": 2,
+      "text": "Count ones to the next five, then by fives, then by ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (strategies)"
+      }
+    },
+    {
+      "id": "h_back",
+      "level": 2,
+      "text": "You know the end time. Count backward by the minutes given.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "h_tens",
+      "level": 3,
+      "text": "Jump by tens first, then by ones. Add or take away a ten and some ones.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Add a ten and 2 ones.)"
+      }
+    },
+    {
+      "id": "h_skip",
+      "level": 1,
+      "text": "Count by the same number each time. Keep track on your fingers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_time_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Tick marks for each minute and labels at 5-minute intervals must be exact; hops must start and end at exact times.",
+      "description": "A number line for time: tick marks for minutes, labels every 5 minutes, and hops that show elapsed minutes.",
+      "must_show_exactly": [
+        "Endpoints exactly as in the stimulus",
+        "Equal spacing for each minute",
+        "Labels every 5 minutes",
+        "Hops start and end at the exact times in the stimulus",
+        "q_pr_1: 5:31 to 5:43",
+        "q_pr_2: start 10:15, hop 23 minutes",
+        "q_pr_3: 11:24 to 11:57",
+        "q_pr_4: end 5:48, hop back 32 minutes",
+        "q_ps_1: 6:23 to 6:49",
+        "q_ps_2: end 2:45, hop back 37 minutes",
+        "q_ps_5: start 9:03, hop 49 minutes",
+        "q_ps_7: start 11:13, hop 45 minutes",
+        "q_ps_8: end 1:59, hop back 42 minutes",
+        "q_pr_8: 1:34 to 1:56",
+        "q_pr_9: end 2:57, hop back 46 minutes"
+      ],
+      "states_or_frames": [
+        "empty line with endpoints",
+        "intervals of 5 labelled",
+        "hops drawn one at a time",
+        "point plotted at a time"
+      ],
+      "interaction": "Tutor sets the range and points. Child can drag a point or hop. Child answers by voice or typing.",
+      "alt_text": "A number line labelled in minutes with hops.",
+      "used_by": [
+        "ex_patrick_lilly",
+        "exp_efficient",
+        "q_app_1",
+        "q_pr_1",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_1",
+        "q_ps_2",
+        "q_ps_5",
+        "q_ps_7",
+        "q_ps_8"
+      ],
+      "generation_caption": "Horizontal number line with small minute ticks, bigger ticks every 5 minutes, curved hops above, flat colours. [Build by code]"
+    },
+    {
+      "asset_id": "a_clock_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Hand positions must show an exact time to the minute. Image models draw clocks with wrong numbers and hand positions.",
+      "description": "An analog clock with numbers 1-12, 60 minute tick marks, a short hour hand and a long minute hand.",
+      "must_show_exactly": [
+        "Numbers 1-12 in the correct places",
+        "60 minute marks, longer marks at every 5 minutes",
+        "Hands set exactly to the time in the stimulus (hour hand moves between numbers as minutes pass)",
+        "q_pr_5: end 5:56, hop back 42 minutes",
+        "q_pr_6: start 3:12, hop 36 minutes",
+        "q_pr_7: 7:12 to 7:53"
+      ],
+      "states_or_frames": [
+        "static time from the stimulus",
+        "minute hand moving in 5-minute jumps",
+        "child-settable hands"
+      ],
+      "interaction": "Tutor sets the time. In 'set' mode the child drags the hands. Child answers by voice or typing.",
+      "alt_text": "An analog clock showing a time.",
+      "used_by": [
+        "ex_dinner",
+        "exp_back_or_forward",
+        "q_app_1",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7"
+      ],
+      "generation_caption": "Clean analog clock face with numbers 1 to 12, minute ticks, short hour hand and long minute hand, flat style. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    },
+    {
+      "id": "na_record_own_time",
+      "name": "Recording the child's own homework start and end times",
+      "reason": "Personal clock reading at home; no fixed answer.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, items 6-7"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set item 6; Homework item 5; Application Problem pictures",
+      "issue": "Dion's and Jenna's clocks, and the Application Problem clock and number line, exist only as pictures. Dion and Jenna are not used. The Application times (5:31, 5:43) come from the Concept Development text."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "q_app_1, r_app_1",
+      "issue": "Patrick's and Lilly's times are taken from the Concept Development ('Plot the times 5:31 p.m. and 5:43 p.m.'), which then says Lilly finished after Patrick. Confirm against the Application Problem pictures."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Time answer keys",
+      "issue": "Clock-time answers accept '5:14', '5:14 p.m.', '5:14 pm' and words ('five fourteen'). Minutes answers accept '12', 'twelve', '12 minutes'. Check that the Tutor normalises other forms (for example '14 past 5')."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Problem Set 3-4 and Homework 1-3 repeat the same three problem types. Concept Development 'Cassie's art project' (1:48 p.m., 37 minutes) left out. Exit Ticket 1-2 ask to draw clock hands."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposal, not added: counting forward when the start time is unknown."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "All time keys are computed by script from the printed times, then checked by hand. Recheck: 10:38, 33, 5:16, 3:48, 41, 26, 2:08, 9:52, 11:58, 1:17, 22, 2:11."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "No Sprint",
+      "issue": "This lesson has no Sprint."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_time_nearest_minute (telling time to the nearest minute, Lesson 3). Replace with real card ids after review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_time_number_line, a_clock_widget. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.OA.1, 3.MD.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

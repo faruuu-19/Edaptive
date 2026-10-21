@@ -231,6 +231,78 @@ class JobTests(unittest.TestCase):
         self.assertEqual(narrator.releases, 0)
         jobs.close()
 
+    def test_incomplete_job_cannot_claim_one_hundred_percent(self):
+        key = self.jobs.submit(self.request)["id"]
+        for state in ("queued", "preparing", "paused", "failed"):
+            self.jobs.update(key, status=state, percent=100)
+            self.assertLess(self.jobs.public(key)["percent"], 100)
+        self.jobs.update(key, status="ready", percent=100)
+        self.assertEqual(self.jobs.public(key)["percent"], 100)
+
+    def test_failed_job_only_retries_after_a_revision_change(self):
+        key = self.jobs.submit(self.request)["id"]
+        self.jobs.update(key, status="failed", message="Script checks flagged a factual issue")
+        self.assertEqual(self.jobs.submit(self.request)["status"], "failed")
+        self.jobs.generator_revision += "-corrected"
+        self.assertEqual(self.jobs.submit(self.request)["status"], "queued")
+
+    def test_final_script_validation_still_blocks_unsafe_content(self):
+        self.jobs.loader = mock.Mock(side_effect=ValueError("Script checks flagged a factual issue"))
+        key = self.jobs.submit(self.request)["id"]
+        with self._runnable(key):
+            self.jobs.run(key)
+        self.assertEqual(self.jobs.get(key)["status"], "failed")
+        self.assertEqual(self.jobs.get(key)["failure_kind"], "validation")
+        self.assertLess(self.jobs.public(key)["percent"], 100)
+        with self.assertRaises(ValueError):
+            self.jobs.lesson(key)
+        self.assertEqual(self.jobs.submit(self.request)["status"], "failed")
+
+    def test_voice_memory_failure_resumes_validated_script_without_regenerating(self):
+        self.jobs.loader = mock.Mock(return_value={"segments": []})
+        self.jobs.narrator.warm = mock.Mock(side_effect=[RuntimeError("Not enough memory"), None, None])
+        key = self.jobs.submit(self.request)["id"]
+        with self._runnable(key):
+            self.jobs.run(key)
+        saved = self.jobs.get(key)
+        self.assertEqual(saved["status"], "paused")
+        self.assertEqual(saved["script"], "/x/s.json")
+        self.assertLess(self.jobs.public(key)["percent"], 100)
+        with mock.patch("voice_service.jobs.subprocess.Popen") as process:
+            self.jobs.run(key)
+        process.assert_not_called()
+        self.assertEqual(self.jobs.get(key)["status"], "ready")
+
+    def test_deleted_schedule_expires_work_and_checkpoint_can_resume(self):
+        from .jobs import SCHEDULE_LEASE_SECONDS
+        request = {**self.request, "managed": True}
+        key = self.jobs.submit(request)["id"]
+        saved = self.jobs.get(key)
+        now = saved["last_requested_at"] + SCHEDULE_LEASE_SECONDS + 1
+        with mock.patch("voice_service.jobs.time.time", return_value=now):
+            self.assertTrue(self.jobs.expire_schedule(key))
+            self.assertEqual(self.jobs.get(key)["status"], "cancelled")
+            self.assertEqual(self.jobs.submit(request)["status"], "queued")
+            self.assertFalse(self.jobs.expire_schedule(key))
+
+    def test_manual_demo_and_ready_jobs_do_not_expire(self):
+        key = self.jobs.submit(self.request)["id"]
+        self.jobs.update(key, last_requested_at=0)
+        self.assertFalse(self.jobs.expire_schedule(key))
+        self.jobs.update(key, managed=True, status="ready")
+        self.assertFalse(self.jobs.expire_schedule(key))
+
+    def test_missing_ready_artifact_does_not_break_catalog(self):
+        key = self.jobs.submit(self.request)["id"]
+        cid = self.request["concept_id"]
+        self.jobs.update(key, status="ready", script=str(self.root / "missing.json"))
+        self.jobs.catalog[cid]["plan_segments"] = 72
+        self.jobs._card_cache = [{"id": cid, "title": "Pairs to ten"}]
+        cards = self.jobs.list_cards()
+        self.assertEqual(cards[0]["title"], "Pairs to ten")
+        cards[0]["title"] = "mutated"
+        self.assertEqual(self.jobs.list_cards()[0]["title"], "Pairs to ten")
+
     def test_duration_reviews_text_and_has_buffer_and_bounds(self):
         little = [
             {

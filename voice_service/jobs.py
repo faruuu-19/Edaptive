@@ -1,5 +1,7 @@
 """Durable local computation jobs. No student identity or audio is persisted here."""
 
+import copy
+import hashlib
 import json
 import sqlite3
 import subprocess
@@ -11,6 +13,8 @@ from pathlib import Path
 
 from .catalog import load_catalog
 
+SCHEDULE_LEASE_SECONDS = 300
+
 
 class PreparationJobs:
     def __init__(self, root, narrator, loader, store=None, start_worker=True, catalog=None):
@@ -21,6 +25,10 @@ class PreparationJobs:
         self.folder.mkdir(parents=True, exist_ok=True)
         self.database = self.folder / "jobs.sqlite3"
         self.runtime_root = Path(__file__).resolve().parents[1]
+        source_files = sorted((self.runtime_root / "script_agent").glob("*.py"))
+        source_files += [Path(__file__), Path(__file__).with_name("preparation_worker.py")]
+        self.generator_revision = hashlib.sha256(b"".join(p.read_bytes() for p in source_files)).hexdigest()
+        self._card_cache = None
         self.catalog = {p["concept_id"]: p for p in
                         (load_catalog(self.root) if catalog is None else catalog)}
         self.lock = threading.RLock()
@@ -93,7 +101,13 @@ class PreparationJobs:
 
     def public(self, key):
         row = self.get(key)
+        row["percent"] = 100 if row["status"] == "ready" else max(0, min(98, row.get("percent", 0)))
         return {k: v for k, v in row.items() if k not in {"script"}}
+
+    def revision(self, cid):
+        pair = self.catalog[cid]
+        content = {k: pair.get(k) for k in ("concept_sha256", "assessment_sha256", "concept_version")}
+        return hashlib.sha256((self.generator_revision + json.dumps(content, sort_keys=True)).encode()).hexdigest()
 
     def submit(self, request):
         key = str(uuid.UUID(request["job_id"]))
@@ -105,6 +119,18 @@ class PreparationJobs:
                 old = self.get(key)
                 if old["concept_id"] != cid:
                     raise ValueError("Job identity cannot change content.")
+                changed = old["status"] == "failed" and old.get("revision") != self.revision(cid)
+                expired = old["status"] == "cancelled" and old.get("cancel_reason") == "schedule_expired"
+                if changed or expired:
+                    old.update(status="queued", percent=0, revision=self.revision(cid),
+                               message="Rechecking the lesson after an update" if changed else "Resuming scheduled preparation")
+                    old.pop("cancel_reason", None)
+                    if changed:
+                        old.pop("script", None)
+                if request.get("managed") is True:
+                    old.update(managed=True, last_requested_at=time.time())
+                if changed or expired or request.get("managed") is True:
+                    self.write(old)
                 return self.public(key)
             except ValueError as error:
                 if str(error) != "Unknown preparation job.":
@@ -119,15 +145,20 @@ class PreparationJobs:
                     "total": None,
                     "message": "Waiting for the local model",
                     "created_at": time.time(),
+                    "revision": self.revision(cid),
+                    "managed": request.get("managed") is True,
+                    "last_requested_at": time.time(),
                 }
             )
         return self.public(key)
 
-    def cancel(self, key):
+    def cancel(self, key, reason=None):
         with self.lock:
             row = self.get(key)
             if row["status"] != "cancelled":
                 row.update(status="cancelled", message="Preparation cancelled")
+                if reason:
+                    row["cancel_reason"] = reason
                 self.write(row)
             if self.running == key and self.process is not None:
                 self.process.terminate()
@@ -152,7 +183,8 @@ class PreparationJobs:
         return self.loader(Path(row["script"]))
 
     def list_cards(self):
-        sys.path.insert(0, str(self.root))
+        if str(self.root) not in sys.path:
+            sys.path.insert(0, str(self.root))
         from script_agent import plan_lesson
         from script_agent.sample_inputs import load_card
         from .timing import estimate_timing
@@ -162,11 +194,20 @@ class PreparationJobs:
         measured = []
         for job in saved:
             if job["status"] == "ready" and job.get("script"):
+                # A removed ready artifact must not make the entire curriculum catalog fail.
+                if not Path(job["script"]).is_file():
+                    continue
                 finished = job.get("finished_at") or Path(job["script"]).stat().st_mtime
                 measured.append(
                     (finished - job["created_at"]) / max(1, job.get("total", 84))
                 )
-        seconds_per_section = max(measured, default=12)
+        seconds_per_section = max(5, min(60, max(measured, default=12)))
+        if self._card_cache is not None:
+            result = copy.deepcopy(self._card_cache)
+            for card in result:
+                pair = self.catalog[card["id"]]
+                card["recommended_prepare_minutes"] = max(10, int(pair["plan_segments"] * seconds_per_section * 1.25 / 60) + 3)
+            return result
         result = []
         for p in self.catalog.values():
             concept = load_card(Path(p["concept"]), p["concept_id"])
@@ -194,7 +235,18 @@ class PreparationJobs:
                     "timing": {**timing, "basis": "card_plan"},
                 }
             )
+        self._card_cache = copy.deepcopy(result)
         return result
+
+    def expire_schedule(self, key):
+        """Unenrolled/deleted schedules stop renewing work. Keep content checkpoints, not student identity."""
+        row = self.get(key)
+        expired = (row.get("managed") and row["status"] in {"queued", "preparing", "paused", "paused_for_delivery"}
+                   and time.time() - row.get("last_requested_at", time.time()) > SCHEDULE_LEASE_SECONDS
+                   and time.time() >= self.reservation_until)
+        if expired:
+            self.cancel(key, reason="schedule_expired")
+        return bool(expired)
 
     def reserve(self, key):
         with self.lock:
@@ -258,7 +310,10 @@ class PreparationJobs:
                 key=lambda r: r["created_at"],
             )
             if queued and time.time() >= self.reservation_until:
-                self.run(queued[0]["id"])
+                for candidate in queued:
+                    if not self.expire_schedule(candidate["id"]):
+                        self.run(candidate["id"])
+                        break
 
     def update(self, key, **fields):
         with self.lock:
@@ -283,7 +338,7 @@ class PreparationJobs:
                     self.write(row)
                 self.running = key
                 self.idle.clear()
-                self.update(key, status="preparing", message="Planning the lesson")
+                self.update(key, status="preparing", revision=self.revision(row["concept_id"]), message="Planning the lesson")
             # Model ownership is exclusive; defer rather than fail when a child is listening.
             try:
                 self.narrator.release()
@@ -295,6 +350,13 @@ class PreparationJobs:
                 )
                 return
             pair = self.catalog[row["concept_id"]]
+            if row.get("script") and row.get("revision") == self.revision(row["concept_id"]):
+                # Voice warm-up can run out of memory after the script passed. Retry
+                # that last step without loading Qwen and generating the lesson again.
+                self.loader(Path(row["script"]))
+                self.narrator.warm()
+                self.update(key, status="ready", percent=100, message="Lesson ready", finished_at=time.time())
+                return
             command = [
                 sys.executable,
                 "-B",
@@ -325,6 +387,8 @@ class PreparationJobs:
             script = None
             failure = None
             for line in process.stdout:
+                if self.expire_schedule(key):
+                    break
                 try:
                     progress = json.loads(line)
                 except ValueError:
@@ -334,7 +398,7 @@ class PreparationJobs:
                 if "percent" in progress:
                     self.update(
                         key,
-                        percent=progress["percent"],
+                        percent=max(0, min(97, progress["percent"])),
                         completed=progress.get("completed", 0),
                         total=progress.get("total"),
                         message="Repairing flagged script sections"
@@ -352,7 +416,7 @@ class PreparationJobs:
                     or "Local preparation stopped. Retry after checking the model service."
                 )
             self.loader(Path(script))
-            self.update(key, percent=98, message="Warming the teacher voice")
+            self.update(key, percent=98, script=script, message="Warming the teacher voice")
             self.narrator.warm()
             self.update(
                 key,
@@ -364,28 +428,29 @@ class PreparationJobs:
             )
         except Exception as error:
             memory_guard = any(
-                term in str(error)
+                term in str(error).lower()
                 for term in [
-                    "Swap increased",
+                    "swap increased",
                     "memory pressure",
-                    "Not enough memory",
-                    "Critical",
+                    "not enough memory",
+                    "vm pressure",
                 ]
+            )
+            transient = isinstance(error, (OSError, TimeoutError)) or any(
+                term in str(error).lower()
+                for term in ("unavailable", "timed out", "connection refused", "model_call_failed")
             )
             self.update(
                 key,
-                status="paused" if memory_guard else "failed",
+                status="paused" if memory_guard or transient else "failed",
+                failure_kind="memory" if memory_guard else "service" if transient else "validation",
                 message=str(error)[:500],
                 retry_at=time.time() + 30,
             )
-            # Qwen has unloaded in the child; restore voice availability after a failed job.
-            try:
-                self.narrator.warm()
-            except Exception:
-                pass
         finally:
             try:
-                self.narrator.warm()
+                if self.get(key)["status"] != "ready":
+                    self.narrator.warm()
             except Exception:
                 pass
             with self.lock:

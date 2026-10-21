@@ -63,8 +63,28 @@ def module_index(grade, paired):
     ]
 
 
+def next_available(modules):
+    """Choose the first unclosed paired lesson in grade/module/lesson order."""
+    for module in modules:
+        for lesson in module["lessons"]:
+            if lesson["matched"] and lesson["status"] not in {"delivered", "unfinished"}:
+                return {
+                    "module": module["module"],
+                    "lesson": lesson["lesson"],
+                    "concept_id": lesson["concept_id"],
+                    "matched": True,
+                }
+    return None
+
+
 def synchronize(db, household_id, student_id, grade, paired):
-    histories = list(db.scalars(select(Timetable).where(Timetable.student_id == student_id)))
+    histories = list(
+        db.scalars(
+            select(Timetable).where(
+                Timetable.student_id == student_id, Timetable.household_id == household_id
+            )
+        )
+    )
     started = {
         slot["concept_id"]
         for history in histories
@@ -87,7 +107,6 @@ def synchronize(db, household_id, student_id, grade, paired):
     } - delivered
     bank = {c["id"]: c for c in paired}
     modules = []
-    next_required = None
     for module in module_index(grade, paired):
         expected = module["expected"]
         last = expected or max(module["lessons"], default=1)
@@ -109,23 +128,9 @@ def synchronize(db, household_id, student_id, grade, paired):
                     else "pending",
                 }
             )
-            if next_required is None and not complete:
-                next_required = {
-                    "module": module["module"],
-                    "lesson": number,
-                    "concept_id": cid,
-                    "matched": bool(cid and cid in bank),
-                }
         done = sum(item["status"] == "delivered" for item in lessons)
         closed = sum(item["status"] in {"delivered", "unfinished"} for item in lessons)
         complete = expected is not None and closed == expected
-        if next_required is None and not complete:
-            next_required = {
-                "module": module["module"],
-                "lesson": last + 1,
-                "concept_id": None,
-                "matched": False,
-            }
         modules.append(
             {
                 "module": module["module"],
@@ -135,7 +140,7 @@ def synchronize(db, household_id, student_id, grade, paired):
                 "status": "completed"
                 if complete
                 else "in_progress"
-                if done or any(item["status"] == "in_progress" for item in lessons)
+                if done or closed - done or any(item["status"] == "in_progress" for item in lessons)
                 else "yet_to_learn",
                 "coverage_confirmed": expected is not None,
                 "lessons": lessons,
@@ -146,7 +151,7 @@ def synchronize(db, household_id, student_id, grade, paired):
         "modules": modules,
         "delivered_concept_ids": sorted(delivered),
         "unfinished_concept_ids": sorted(unfinished),
-        "next_required": next_required,
+        "next_required": next_available(modules),
         "mastery_assessed": False,
     }
     row = db.get(LearningProgress, student_id)
@@ -165,32 +170,23 @@ def mark_delivered(db, student_id, concept_id):
         return
     state = copy.deepcopy(row.state)
     state["delivered_concept_ids"] = sorted(set(state["delivered_concept_ids"] + [concept_id]))
-    next_required = None
     for module in state["modules"]:
         for lesson in module["lessons"]:
             if lesson["concept_id"] == concept_id:
                 lesson["status"] = "delivered"
-            if next_required is None and lesson["status"] != "delivered":
-                next_required = {
-                    "module": module["module"],
-                    "lesson": lesson["lesson"],
-                    "concept_id": lesson["concept_id"],
-                    "matched": lesson["matched"],
-                }
         done = sum(item["status"] == "delivered" for item in module["lessons"])
-        complete = module["expected_lessons"] is not None and done == module["expected_lessons"]
+        unfinished = sum(item["status"] == "unfinished" for item in module["lessons"])
+        complete = module["expected_lessons"] is not None and done + unfinished == module["expected_lessons"]
         module.update(
             delivered_lessons=done,
-            status="completed" if complete else "in_progress" if done else "yet_to_learn",
+            unfinished_lessons=unfinished,
+            status="completed"
+            if complete
+            else "in_progress"
+            if done or unfinished or any(item["status"] == "in_progress" for item in module["lessons"])
+            else "yet_to_learn",
         )
-        if next_required is None and not complete:
-            next_required = {
-                "module": module["module"],
-                "lesson": len(module["lessons"]) + 1,
-                "concept_id": None,
-                "matched": False,
-            }
-    state["next_required"] = next_required
+    state["next_required"] = next_available(state["modules"])
     row.state = state
 
 

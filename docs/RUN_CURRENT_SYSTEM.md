@@ -1,15 +1,16 @@
 # Running the current local system
 
 The repository contains the script agent, voice service, frontend/backend,
-91 published draft lesson pairs, the two existing supplementary Grade 3 review
+146 published lesson pairs (91 original and 55 later pairs for Grade 3 Module 2, Grade 4 Module 1 and Grade 5 Module 1, all reviewed), the two existing supplementary Grade 3 review
 pairs, and a saved real Qwen Grade 2 Module 1 Lesson 1 example. The runtime catalog
 is `docs/content/lesson-pairs.json`. Paths are relative to this checkout and every
 concept/assessment file is checked by SHA-256 and matched ID/version before use.
-The original module collections under `ciriculam/gradeN/` still describe required
-curriculum order; missing lessons block advancement. No old Downloads workspace
+The original module collections under `ciriculam/gradeN/` still describe curriculum
+coverage. Scheduling uses the next available pair within the child's grade, in
+module/lesson order, and skips numbers without a pair. No old Downloads workspace
 or absolute-path pair inventory is required.
 
-> **Content status (2026-10-16):** all 93 lesson pairs are marked `reviewed` and ready for delivery by their content owner, so `--allow-draft-lessons` is no longer needed. The previous statuses are recorded in `docs/content/review-status-before.json`.
+> **Content status (2026-10-16):** all 148 lesson pairs are marked `reviewed` and ready for delivery by their content owner, so `--allow-draft-lessons` is not needed. The previous statuses are recorded in `docs/content/review-status-before.json`.
 
 ## Provisioning another machine
 
@@ -54,7 +55,7 @@ contains public development defaults only.
 ```sh
 python3 tools/verify_runtime.py
 python3 tools/run_local_application.py --check
-python3 tools/run_local_application.py --allow-draft-lessons
+python3 tools/run_local_application.py
 ```
 
 The launcher prefers `backend/.venv/bin/python` and
@@ -95,7 +96,7 @@ QA Postgres database for tests, never a household database. To reuse an existing
 activated backend virtualenv without installing uv, use `make check BACKEND_RUN=env`. Optional assessment arithmetic tests are documented in
 `authoring/assessment/README.md`.
 
-`tools/verify_runtime.py` checks all 93 pairs and revalidates the 84-section saved
+`tools/verify_runtime.py` checks all 148 pairs and revalidates the 84-section saved
 Qwen example, exposing its 19 main-path sections for speech preparation. It makes
 no model calls. `--check` additionally verifies the installed Qwen tag, Kokoro
 assets and configured Python executables without running migrations or services.

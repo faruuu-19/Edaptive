@@ -8,14 +8,15 @@ import { getLessonAlarmSetting, getTimetables } from '@/lib/lesson-delivery-api'
 import { lessonAlarm } from '@/features/voice';
 
 /**
- * Class time is noticed on every page. The child has no alarm controls: whether the chime plays is a
- * parent permission, and the browser's sound unlock happens silently on the child's first tap.
+ * Class time is noticed on every page. Parent permission controls whether the chime plays;
+ * the child's first tap unlocks browser audio, with an explicit retry if that tap was missed.
  */
 export function ScheduledAlarm() {
   const pathname = usePathname();
   const [student, setStudent] = useState(false);
   const [due, setDue] = useState(false);
   const [sound, setSound] = useState(false);
+  const [audioReady, setAudioReady] = useState(false);
   useEffect(() => {
     let active = true; let timer: ReturnType<typeof setTimeout>;
     async function poll() {
@@ -25,7 +26,8 @@ export function ScheduledAlarm() {
         const id = status.actor?.role === 'student' ? status.actor.student_id : null;
         setStudent(!!id);
         if (id) {
-          const [result, alarm] = await Promise.all([getTimetables(id), getLessonAlarmSetting(id)]);
+          const result = await getTimetables(id);
+          const alarm = await getLessonAlarmSetting(id).catch(() => ({ granted: false }));
           const timetable = result.timetables.find(t => t.status === 'active');
           const slot = timetable?.slots.find(s => s.id === timetable.current_slot_id);
           if (active) { setDue(slot?.class_phase === 'ringing'); setSound(alarm.granted); }
@@ -37,22 +39,29 @@ export function ScheduledAlarm() {
     return () => { active = false; clearTimeout(timer); };
   }, []);
   useEffect(() => {
-    if (!sound) return;
-    const unlock = () => void lessonAlarm().unlock();
-    window.addEventListener('pointerdown', unlock, { once: true });
-    window.addEventListener('keydown', unlock, { once: true });
-    return () => { window.removeEventListener('pointerdown', unlock); window.removeEventListener('keydown', unlock); };
-  }, [sound]);
+    if (!student) return;
+    let active = true;
+    const unlock = () => { void lessonAlarm().unlock().then(ready => { if (active) setAudioReady(ready); }); };
+    window.addEventListener('pointerdown', unlock);
+    window.addEventListener('keydown', unlock);
+    return () => { active = false; window.removeEventListener('pointerdown', unlock); window.removeEventListener('keydown', unlock); };
+  }, [student]);
   useEffect(() => {
-    if (due && sound) lessonAlarm().ring(); else lessonAlarm().stop();
-    return () => lessonAlarm().stop();
+    let active = true;
+    let ready = false;
+    if (due && sound) ready = lessonAlarm().ring();
+    else lessonAlarm().stop();
+    queueMicrotask(() => { if (active) setAudioReady(ready); });
+    return () => { active = false; lessonAlarm().stop(); };
   }, [due, sound]);
+  const needsTap = student && due && sound && !audioReady;
   // On the Maths screen the class card already says it is time; a second notice there is noise.
-  if (!student || !due || pathname.startsWith('/timetable')) return null;
+  if (!student || !due || (pathname.startsWith('/timetable') && !needsTap)) return null;
   return <aside className="page" aria-label="Scheduled class notification">
     <div className="card row spread" role="alert">
-      <p>It’s time for your Maths class.</p>
-      <Link className="btn btn-primary" href="/timetable">Open class</Link>
+      <p>{needsTap ? 'Tap to hear your class chime.' : 'It’s time for your Maths class.'}</p>
+      {needsTap && <button className="btn" onClick={() => { void lessonAlarm().unlock().then(setAudioReady); }}>Enable sound</button>}
+      {!pathname.startsWith('/timetable') && <Link className="btn btn-primary" href="/timetable">Open class</Link>}
     </div>
   </aside>;
 }

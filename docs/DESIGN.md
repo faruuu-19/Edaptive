@@ -6,6 +6,9 @@ Oct 2026. New UI must follow it; don't introduce a second look.
 The feel is a picture book: warm paper, navy ink outlines, tomato and mustard accents,
 chunky offset shadows. Calm enough to learn on, friendly enough for Grades 1–5.
 
+> **Opt-in alternative:** a softer, more colourful *Playful* look sits on top of this theme and can be switched
+> on or off per device. See [DESIGN-PLAYFUL.md](DESIGN-PLAYFUL.md). This Storybook theme remains the base and the fallback.
+
 ## Where it lives
 
 - **Tokens and shared classes:** `frontend/src/app/globals.css`. This is the single source:

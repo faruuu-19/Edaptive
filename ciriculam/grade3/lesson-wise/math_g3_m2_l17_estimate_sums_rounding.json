@@ -1,0 +1,1367 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l17_estimate_sums_rounding",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-d-lesson-17.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 17",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.OA.1",
+    "3.NBT.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Estimate sums by rounding. Choose a way to round that gives a close estimate, then check your exact answer.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_rounding_tens_hundreds",
+    "ext_g3_m2_add_measurements"
+  ],
+  "explanations": [
+    {
+      "id": "exp_estimate",
+      "title": "Estimate by rounding",
+      "text": "Round each number, then add. 362 rounds to 400 and 159 rounds to 200. The estimate is 600.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_choose_unit",
+      "title": "Choose how to round",
+      "text": "Rounding to tens gives 360 plus 160, which is 520. Rounding to fifties gives 350 plus 150, which is 500. The actual sum is 521.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_halfway_warning",
+      "title": "Numbers near halfway",
+      "text": "349 rounds to 300 but 352 rounds to 400. When numbers are near halfway, round to tens or fifties for a closer estimate.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "exp_reasonable",
+      "title": "Why estimate",
+      "text": "A close estimate helps you check if your exact answer makes sense.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: We want to see if our exact answer makes sense.)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_362_159",
+      "title": "362 plus 159",
+      "text": "Hundreds: 600. Tens: 520. Fifties: 500. Actual: 521. Rounding to tens was closest.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_balance",
+      "title": "One up, one down",
+      "text": "352 rounds up and 145 rounds down. They balance, so 400 plus 100 is 500, close to 497.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Count by sixes: 36, 42, 48. What number comes next?",
+      "asset_ids": [],
+      "stimulus": {
+        "step": 6,
+        "shown": [
+          36,
+          42,
+          48
+        ]
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_round_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (sixes to 60)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Round 362 and 159 to the nearest hundred. What is the estimated sum?",
+      "asset_ids": [],
+      "stimulus": {
+        "addends": [
+          362,
+          159
+        ],
+        "unit": 100
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_round_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Round 362 and 159 to the nearest ten. What is the estimated sum?",
+      "asset_ids": [],
+      "stimulus": {
+        "addends": [
+          362,
+          159
+        ],
+        "unit": 10
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_round_each",
+        "h_tens_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "362 plus 159. What is the actual sum?",
+      "asset_ids": [],
+      "stimulus": {
+        "addends": [
+          362,
+          159
+        ]
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Which estimate for 362 plus 159 is closest: 600, 520 or 500? Why?",
+      "asset_ids": [],
+      "stimulus": {
+        "estimates": [
+          600,
+          520,
+          500
+        ],
+        "actual": 521
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_closeness"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "352 plus 145 equals 497. Round each to the nearest hundred. What is the estimate?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "addends": [
+          352,
+          145
+        ],
+        "unit": 100
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_round_each",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (B)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "349 plus 145 is 494, but rounding to hundreds gives 400. Why is the estimate so far off?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "addends": [
+          349,
+          145
+        ]
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (A)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "A doctor prescribes 175 milliliters on Monday and 256 milliliters on Tuesday. Precisely how much in both days?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "addends_ml": [
+          175,
+          256
+        ]
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem, part b"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Estimate 175 milliliters plus 256 milliliters by rounding to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "addends_ml": [
+          175,
+          256
+        ],
+        "unit": 10
+      },
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_round_each",
+        "h_tens_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem, part a"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Janet watches a 94 minute movie and a 151 minute movie. How many minutes does she actually watch?",
+      "asset_ids": [],
+      "stimulus": {
+        "addends": [
+          94,
+          151
+        ]
+      },
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2b"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "Sadie the bear weighs 182 kilograms. Her cub weighs 74 kilograms. Estimate their total weight.",
+      "asset_ids": [],
+      "stimulus": {
+        "addends_kg": [
+          182,
+          74
+        ],
+        "actual": 256
+      },
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_round_each",
+        "h_closeness"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3a"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Jesse practices 165 minutes and then 245 minutes. Estimate the total by rounding to the nearest 10 minutes.",
+      "asset_ids": [],
+      "stimulus": {
+        "addends": [
+          165,
+          245
+        ],
+        "unit": 10
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_round_each",
+        "h_tens_ones"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item a"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Dena reads 361 minutes and 212 minutes. What is the actual total?",
+      "asset_ids": [],
+      "stimulus": {
+        "addends": [
+          361,
+          212
+        ]
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2c"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How does estimating help you check if your answer is reasonable?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_closeness"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "Round 21 to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 1
+      },
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1"
+      }
+    },
+    {
+      "id": "q_sp_a5",
+      "kind": "practice",
+      "text": "Round 59 to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 5
+      },
+      "rubric_id": "r_sp_a5",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 5"
+      }
+    },
+    {
+      "id": "q_sp_a17",
+      "kind": "practice",
+      "text": "Round 25 to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 17
+      },
+      "rubric_id": "r_sp_a17",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 17"
+      }
+    },
+    {
+      "id": "q_sp_a25",
+      "kind": "practice",
+      "text": "Round 99 to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 25
+      },
+      "rubric_id": "r_sp_a25",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 25"
+      }
+    },
+    {
+      "id": "q_sp_a28",
+      "kind": "practice",
+      "text": "Round 149 to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 28
+      },
+      "rubric_id": "r_sp_a28",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 28"
+      }
+    },
+    {
+      "id": "q_sp_a39",
+      "kind": "practice",
+      "text": "Round 999 to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 39
+      },
+      "rubric_id": "r_sp_a39",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 39"
+      }
+    },
+    {
+      "id": "q_sp_a42",
+      "kind": "practice",
+      "text": "Round 3,227 to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 42
+      },
+      "rubric_id": "r_sp_a42",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 42"
+      }
+    },
+    {
+      "id": "q_sp_a44",
+      "kind": "practice",
+      "text": "Round 7,885 to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 44
+      },
+      "rubric_id": "r_sp_a44",
+      "hint_ids": [
+        "h_tens_ones"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 44"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "54",
+          "fifty-four"
+        ]
+      },
+      "correct": "Says 54.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (sixes to 60)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "600",
+          "six hundred"
+        ]
+      },
+      "correct": "Says 600.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 600.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "520",
+          "five hundred twenty"
+        ]
+      },
+      "correct": "Says 520.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: ... the sum rounded to the nearest ten is 520.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "521",
+          "five hundred twenty-one"
+        ]
+      },
+      "correct": "Says 521.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: It's 521.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 520 (rounding to tens), because 362 and 159 are very close to 360 and 160.",
+      "partial": "Says 520 with no reason.",
+      "incorrect": "Says 600 or 500 is closest.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Rounding to the nearest ten will be really close because 159 is just 1 away and 362 is just 2 away)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500",
+          "five hundred"
+        ]
+      },
+      "correct": "Says 500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (rounding B: 400 + 100)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both numbers are just under halfway, so both round down, making the estimate too low.",
+      "partial": "Says they are near halfway but not that both rounded down.",
+      "incorrect": "Gives an unrelated reason.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: All the numbers we added are really close to the halfway point... A's numbers both rounded down.)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "431",
+          "four hundred thirty-one",
+          "431 milliliters",
+          "four hundred thirty-one milliliters"
+        ]
+      },
+      "correct": "Says 431.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer; 175 + 256)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "440",
+          "four hundred forty",
+          "440 milliliters",
+          "four hundred forty milliliters"
+        ]
+      },
+      "correct": "Says 440.",
+      "partial": "Gives a reasonable estimate by another method (for example 500 by hundreds, or 425 by fifties).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (the teacher notes rounding to the nearest 100 wasn't very precise; key uses nearest ten)"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "245",
+          "two hundred forty-five",
+          "245 minutes",
+          "two hundred forty-five minutes"
+        ]
+      },
+      "correct": "Says 245.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2b"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Gives a reasonable rounded estimate: 250 kg (tens: 180 + 70), 300 kg (hundreds: 200 + 100) or 250 kg (fifties: 200 + 50), and says how they rounded.",
+      "partial": "Gives the exact sum, 256, instead of an estimate, or an estimate with no method.",
+      "incorrect": "Gives an estimate far from 256 (for example 200 or 400).",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3a"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "420",
+          "four hundred twenty",
+          "420 minutes",
+          "four hundred twenty minutes"
+        ]
+      },
+      "correct": "Says 420.",
+      "partial": "Says 410 (the exact sum) without rounding.",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item a"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "573",
+          "five hundred seventy-three",
+          "573 minutes",
+          "five hundred seventy-three minutes"
+        ]
+      },
+      "correct": "Says 573.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2c"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says you compare the exact answer with a close estimate; if they are near each other, the answer makes sense.",
+      "partial": "Says estimating helps but not how.",
+      "incorrect": "Says estimating replaces finding the exact answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: We want to see if our exact answer makes sense... we need a close estimate)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20",
+          "twenty"
+        ]
+      },
+      "correct": "Says 20.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1"
+      }
+    },
+    {
+      "id": "r_sp_a5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty"
+        ]
+      },
+      "correct": "Says 60.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 5"
+      }
+    },
+    {
+      "id": "r_sp_a17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 17"
+      }
+    },
+    {
+      "id": "r_sp_a25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 25"
+      }
+    },
+    {
+      "id": "r_sp_a28",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "150",
+          "one hundred fifty"
+        ]
+      },
+      "correct": "Says 150.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 28"
+      }
+    },
+    {
+      "id": "r_sp_a39",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1000",
+          "one thousand",
+          "1,000"
+        ]
+      },
+      "correct": "Says 1000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 39"
+      }
+    },
+    {
+      "id": "r_sp_a42",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3230",
+          "three thousand two hundred thirty",
+          "3,230"
+        ]
+      },
+      "correct": "Says 3230.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 42"
+      }
+    },
+    {
+      "id": "r_sp_a44",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7890",
+          "seven thousand eight hundred ninety",
+          "7,890"
+        ]
+      },
+      "correct": "Says 7890.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 44"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_round_each",
+      "level": 1,
+      "text": "Round each number first. Then add the rounded numbers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "h_closeness",
+      "level": 2,
+      "text": "How far is each number from its rounded number? Smaller gaps give closer estimates.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 159 is just 1 away...)"
+      }
+    },
+    {
+      "id": "h_half",
+      "level": 2,
+      "text": "Is the number near halfway? Then round to tens or fifties instead.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "h_tens_ones",
+      "level": 1,
+      "text": "Look at the ones. 5 or more rounds up.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint (Round to the Nearest Ten)"
+      }
+    },
+    {
+      "id": "h_algorithm",
+      "level": 3,
+      "text": "Find the exact sum with the standard algorithm. Compare it with your estimate.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Let's calculate the actual sum.)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_vertical_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Endpoints, halfway point and the plotted number must be in exact positions.",
+      "description": "A vertical number line for rounding: the two nearest tens (or hundreds) as endpoints, the halfway point marked, and the number plotted.",
+      "must_show_exactly": [
+        "Endpoints exactly as in the stimulus",
+        "Halfway point marked and labelled",
+        "Number plotted at its exact position",
+        "Equal spacing",
+        "q_pr_5: 352 just above 350; 145 just below 150"
+      ],
+      "states_or_frames": [
+        "endpoints only",
+        "halfway point added",
+        "number plotted",
+        "arrow to the nearer endpoint"
+      ],
+      "interaction": "Tutor sets the number. Child answers by voice or typing.",
+      "alt_text": "A vertical number line with a number between two tens.",
+      "used_by": [
+        "exp_halfway_warning",
+        "q_pr_5",
+        "q_pr_6"
+      ],
+      "generation_caption": "Vertical number line with two labelled endpoints, a marked halfway point and one dot, flat colours, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Unit bars must be exactly equal and the number of units must be exact. Labels and the question mark must be placed exactly.",
+      "description": "A tape diagram: one long bar cut into equal units. A label shows the size of a unit or the total, and a question mark shows the unknown.",
+      "must_show_exactly": [
+        "Exactly the number of equal units given in the stimulus",
+        "All units the same length",
+        "Known value labelled, unknown shown as a question mark",
+        "q_app_1: tape: 175 mL and 256 mL"
+      ],
+      "states_or_frames": [
+        "empty bar",
+        "bar cut into units",
+        "labels and question mark shown"
+      ],
+      "interaction": "Display only, or child taps a unit to label it. Child answers by voice or typing.",
+      "alt_text": "A bar cut into equal parts with a question mark.",
+      "used_by": [
+        "q_app_1"
+      ],
+      "generation_caption": "Clean horizontal bar divided into equal rectangular units, with a brace and a question mark, flat colours, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Timed Sprint A and Sprint B race",
+      "reason": "Timed paper race with scoring, standing and Sprint A versus Sprint B. The printed items are used as practice questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint"
+      }
+    },
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set item 1",
+      "issue": "The table of sums to estimate is not in the extract (only the instructions). Not used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Estimate answers",
+      "issue": "Estimates depend on how the child rounds. Items that fix the rounding unit use exact keys (q_pr_1, q_pr_2, q_pr_5, q_app_2, q_pr_7). q_ps_3 accepts any reasonable method. Check this split."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Rounding to the nearest fifty",
+      "issue": "The source introduces rounding to fifty (350 + 150 = 500). It is used in explanations only, not as a separate question, because later lessons do not use it."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Sprint A and B item numbers",
+      "issue": "No printed numbers in the extract. Items numbered left column 1-22, right column 23-44. Check against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Sprint items used",
+      "issue": "Used Sprint A items 1, 5, 17, 25, 28, 39, 42, 44 (round down, round up, a 5 in the ones, crossing 100, three-digit, crossing 1,000, four-digit down and up). Sprint B repeats these patterns; not used. All keys derived; recheck."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Problem Set 2a, 2c, 3b; Exit Ticket parts b-c; Homework 1a-e and 2a-b repeat used patterns. Concept Development 253 + 544 and 296 + 609 left out."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source does not label a misconception. Proposal, not added: thinking rounding to hundreds is always good enough, even near halfway."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 54, 500, 431, 440, 245, 420, 573; Sprint: 20, 60, 30, 100, 150, 1,000, 3,230, 7,890. Recheck."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_rounding_tens_hundreds (rounding to the nearest ten and hundred, Lessons 12-14); ext_g3_m2_add_measurements (adding with the standard algorithm, Lessons 15-16). Replace with real card ids after review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_vertical_number_line, a_tape_diagram. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f19",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.OA.1, 3.NBT.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

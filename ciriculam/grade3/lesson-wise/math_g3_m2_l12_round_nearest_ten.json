@@ -1,0 +1,1054 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l12_round_nearest_ten",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-c-lesson-12.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 12",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.NBT.3",
+    "3.NBT.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Round two-digit measurements to the nearest ten. Use a vertical number line and its halfway point.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g2_place_value_tens",
+    "ext_g3_m2_liquid_volume_vertical_line"
+  ],
+  "explanations": [
+    {
+      "id": "exp_endpoints",
+      "title": "Find the two tens",
+      "text": "73 has 7 tens. The tens on each side are 70 and 80. Put them at the bottom and top of the line.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_halfway",
+      "title": "Mark halfway",
+      "text": "Halfway between 70 and 80 is 75. Mark it in the middle.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "exp_round",
+      "title": "Round to the nearer ten",
+      "text": "73 is less than halfway, so it is closer to 70. 73 milliliters rounds to 70 milliliters.",
+      "asset_ids": [
+        "a_vertical_number_line",
+        "a_beaker_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 73 milliliters is less than halfway...)"
+      }
+    },
+    {
+      "id": "exp_about",
+      "title": "About",
+      "text": "'About 70 milliliters' means close to 70, not exactly 70. Rounding gives an about amount.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (About means that 70 milliliters is not the exact amount.)"
+      }
+    },
+    {
+      "id": "exp_five_up",
+      "title": "Numbers that end in 5",
+      "text": "A number exactly halfway, like 25, rounds up to the next ten. 25 rounds to 30.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (convention of rounding numbers that end in 5 up)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_73",
+      "title": "Round 73 milliliters",
+      "text": "Endpoints 70 and 80. Halfway is 75. 73 is below 75, so it rounds to 70.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "ex_38",
+      "title": "Round 38 minutes",
+      "text": "Endpoints 30 and 40. Halfway is 35. 38 is above 35, so 38 minutes rounds to 40 minutes.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (38 minutes)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "17 tens equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "tens": 17
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_rename"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Tens (17 tens)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "What number is halfway between 90 and 100?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "low": 90,
+        "high": 100
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Halfway on the Number Line (90 and 100)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "A beaker has 73 milliliters. How many tens are in 73?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "value": 73
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_tens"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "What number is halfway between 70 and 80?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "low": 70,
+        "high": 80
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Is 73 more than halfway or less than halfway between 70 and 80?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 73,
+        "low": 70,
+        "high": 80
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_half",
+        "h_distance"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Round 73 milliliters to the nearest 10 milliliters.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 73
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_half",
+        "h_distance"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Round 61 centimeters to the nearest 10 centimeters.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 61
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (61 centimeters)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Round 38 minutes to the nearest 10 minutes.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 38
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (38 minutes)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "25 grams is exactly halfway between 20 and 30. Round it to the nearest 10 grams.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 25
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (25 grams; round 5 up)"
+      }
+    },
+    {
+      "id": "q_ps_ex",
+      "kind": "practice",
+      "text": "Container A has 33 milliliters. Which two tens is it between?",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 33
+      },
+      "rubric_id": "r_ps_ex",
+      "hint_ids": [
+        "h_tens",
+        "h_next_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3 example (33 mL)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "A desk is 48 centimeters wide. Round it to the nearest 10 centimeters.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 48
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 1 (width of desk)"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "A door is 81 centimeters wide. Round it to the nearest 10 centimeters.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "value": 81
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_tens",
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 1 (width of door)"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Gym class ends at 10:27 a.m. Round the time to the nearest 10 minutes.",
+      "asset_ids": [
+        "a_vertical_number_line"
+      ],
+      "stimulus": {
+        "time": "10:27"
+      },
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_half",
+        "h_distance"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How does marking the halfway point help you round?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_half"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "170",
+          "one hundred seventy"
+        ]
+      },
+      "correct": "Says 170.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Tens (17 tens)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "95",
+          "ninety-five"
+        ]
+      },
+      "correct": "Says 95.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Halfway on the Number Line (90 and 100)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7",
+          "seven",
+          "7 tens",
+          "seven tens"
+        ]
+      },
+      "correct": "Says 7.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 7 tens!)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "75",
+          "seventy-five"
+        ]
+      },
+      "correct": "Says 75.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 7 tens and 5 ones, or 75.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "less than halfway",
+          "less",
+          "less than"
+        ]
+      },
+      "correct": "Says less than halfway.",
+      "partial": null,
+      "incorrect": "Says more than halfway.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 73 milliliters is less than halfway...)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "70",
+          "seventy",
+          "70 milliliters",
+          "seventy milliliters"
+        ]
+      },
+      "correct": "Says 70.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (73 milliliters rounded to the nearest ten is 70 milliliters.)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty",
+          "60 centimeters",
+          "sixty centimeters"
+        ]
+      },
+      "correct": "Says 60.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (61 centimeters)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty",
+          "40 minutes",
+          "forty minutes"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (38 minutes)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty",
+          "30 grams",
+          "thirty grams"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": "Says 20 (rounds down at the halfway point).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (convention of rounding numbers that end in 5 up to the next ten)"
+      }
+    },
+    {
+      "id": "r_ps_ex",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 30 and 40 milliliters.",
+      "partial": "Names only one of the two tens.",
+      "incorrect": "Names other numbers.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3 example (30 and 40 mL; rounded 30 mL)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty",
+          "50 centimeters",
+          "fifty centimeters"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 1 (width of desk)"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "80",
+          "eighty",
+          "80 centimeters",
+          "eighty centimeters"
+        ]
+      },
+      "correct": "Says 80.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 1 (width of door)"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10:30",
+          "10:30 a.m.",
+          "10:30 am",
+          "ten thirty",
+          "ten thirty a.m."
+        ]
+      },
+      "correct": "Says 10:30 a.m.",
+      "partial": null,
+      "incorrect": "Gives another time, like 10:20.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says you check if the number is below halfway (round down) or at or above halfway (round up).",
+      "partial": "Says it shows the middle but not how it decides the rounding.",
+      "incorrect": "Says the halfway point is the answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: I know because 3 is less than 5, and 5 marks is halfway.)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_tens",
+      "level": 1,
+      "text": "How many tens are in the number? That is the bottom ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (How many tens are in 73?)"
+      }
+    },
+    {
+      "id": "h_next_ten",
+      "level": 1,
+      "text": "Add 1 more ten to find the top of the number line.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (What is 1 more ten than 7 tens?)"
+      }
+    },
+    {
+      "id": "h_half",
+      "level": 2,
+      "text": "Is the number below or above the halfway point?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_distance",
+      "level": 3,
+      "text": "How far is it to each ten? Pick the closer ten.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (S: 73 is 7 away from 80 but only 3 away from 70.)"
+      }
+    },
+    {
+      "id": "h_rename",
+      "level": 1,
+      "text": "10 tens is 100. Count the extra tens.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Rename the Tens"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_vertical_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Endpoints, halfway point and the plotted number must be in exact positions.",
+      "description": "A vertical number line for rounding: the two nearest tens (or hundreds) as endpoints, the halfway point marked, and the number plotted.",
+      "must_show_exactly": [
+        "Endpoints exactly as in the stimulus",
+        "Halfway point marked and labelled",
+        "Number plotted at its exact position",
+        "Equal spacing",
+        "q_pk_2: 90 at bottom, 100 at top, halfway marked",
+        "q_pr_2: 70 at bottom, 80 at top",
+        "q_pr_3: 70-80 line, 75 marked, 73 plotted",
+        "q_pr_4: 70-80 line, 73 plotted",
+        "q_pr_5: 60-70 line, 61 plotted",
+        "q_pr_6: 30-40 line, 38 plotted",
+        "q_pr_7: 20-30 line, 25 at halfway",
+        "q_ps_ex: 30-40 line, 33 plotted",
+        "q_pr_10: 10:20-10:30 line, 10:27 plotted"
+      ],
+      "states_or_frames": [
+        "endpoints only",
+        "halfway point added",
+        "number plotted",
+        "arrow to the nearer endpoint"
+      ],
+      "interaction": "Tutor sets the number. Child answers by voice or typing.",
+      "alt_text": "A vertical number line with a number between two tens.",
+      "used_by": [
+        "ex_38",
+        "ex_73",
+        "exp_endpoints",
+        "exp_halfway",
+        "exp_round",
+        "q_pk_2",
+        "q_pr_10",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_ex"
+      ],
+      "generation_caption": "Vertical number line with two labelled endpoints, a marked halfway point and one dot, flat colours, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_beaker_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Liquid level and scale marks must be exact.",
+      "description": "A 100 mL beaker holding a given liquid volume.",
+      "must_show_exactly": [
+        "Scale 0-100 mL",
+        "Water level exactly at the stimulus reading (73 mL in the lesson)",
+        "q_pr_1: beaker at 73 mL"
+      ],
+      "states_or_frames": [
+        "empty",
+        "filled to the reading",
+        "liquid poured in step by step"
+      ],
+      "interaction": "Tutor sets the scale and level. Child answers by voice or typing.",
+      "alt_text": "A container with a scale, filled with water.",
+      "used_by": [
+        "exp_round",
+        "q_pr_1"
+      ],
+      "generation_caption": "Clear flat beaker with a vertical scale of evenly spaced marks and blue water inside, plain background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_stations",
+      "name": "Measuring stations (centimeters, grams, milliliters, minutes) then rounding",
+      "reason": "Real measuring with rulers, scales, beakers and clocks; values differ per class. The rounding step is practised with given numbers instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set (stations)"
+      }
+    },
+    {
+      "id": "na_say_stop",
+      "name": "Say 'Stop!' when the teacher's finger reaches 73",
+      "reason": "Needs a live teacher pointing at a drawing.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Exit Ticket (golf ball); Homework items 3-5 (beaker, Mrs. Santos, chimp)",
+      "issue": "These readings exist only as pictures of scales and beakers. Not used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Problem Set (stations)",
+      "issue": "The Problem Set is a measuring activity with class-specific values. Only the printed examples (23 cm, 8 g, 33 mL, 10:03) are fixed; one is used as q_ps_ex."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "q_pr_1, q_pr_7",
+      "issue": "Question text contains the answer number: 7 (in 73) for 7 tens; 30 as an endpoint for rounding 25. The child still has to choose. Check these items."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposal, not added: rounding 25 down to 20 (linked only as partial in r_pr_7)."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Rounding keys computed by script: 60, 40, 30, 50, 80, 10:30. Recheck."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "explanations",
+      "issue": "The source teaches one approach (the vertical number line). The explanations split it into steps rather than offering a different method."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "No Application Problem, no Sprint",
+      "issue": "This lesson has no Application Problem and no Sprint."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g2_place_value_tens (tens and ones in two-digit numbers (Rename the Tens fluency)); ext_g3_m2_liquid_volume_vertical_line (the vertical number line on a beaker, Lesson 10). Replace with real card ids after review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_vertical_number_line, a_beaker_widget. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.NBT.3, 3.NBT.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

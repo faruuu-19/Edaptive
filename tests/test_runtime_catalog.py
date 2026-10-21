@@ -70,14 +70,24 @@ class RuntimeCatalogTests(unittest.TestCase):
 
     def test_all_published_pairs_and_the_new_module7_lessons_are_present(self):
         rows = load_catalog(ROOT)
-        self.assertEqual(93, len(rows))
-        self.assertEqual(91, sum(row["origin"] == "published_assessment_branch" for row in rows))
+        self.assertEqual(148, len(rows))
+        self.assertEqual(146, sum(row["origin"] == "published_assessment_branch" for row in rows))
         module = [row for row in rows if row["grade"] == 2 and row["module"] == 7]
         self.assertEqual(set(range(1, 27)), {row["lesson"] for row in module})
+        before = json.loads((ROOT / "docs/content/review-status-before.json").read_text())["pairs"]
+        self.assertEqual({row["concept_id"] for row in rows}, set(before) | {"math_g3_m7_l5_compare_classify_other_polygons"} - set(), "every pair's old status is on record")
         self.assertTrue(all(row["ready_for_delivery"] for row in rows))
         self.assertTrue(all(row["review_status"] == row["assessment_review_status"] == "reviewed" for row in rows))
+
+    def test_later_pairs_are_reviewed_and_their_old_status_is_on_record(self):
+        rows = load_catalog(ROOT)
+        later = [row for row in rows if row.get("published_in_commit")]
+        self.assertEqual(55, len(later))
+        self.assertEqual({(3, 2), (4, 1), (5, 1)}, {(row["grade"], row["module"]) for row in later})
+        self.assertTrue(all(row["ready_for_delivery"] for row in later))
+        self.assertTrue(all(row["review_status"] == row["assessment_review_status"] == "reviewed" for row in later))
         before = json.loads((ROOT / "docs/content/review-status-before.json").read_text())["pairs"]
-        self.assertEqual({row["concept_id"] for row in rows}, set(before), "the old statuses are on record")
+        self.assertTrue(all(before[row["concept_id"]]["assessment_review_status"] == "draft" for row in later))
 
 
 if __name__ == "__main__":

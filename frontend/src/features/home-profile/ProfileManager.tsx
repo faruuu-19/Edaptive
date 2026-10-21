@@ -15,6 +15,7 @@ import {
 
 import { AVATAR_COLOURS, DEFAULT_AVATAR } from "./avatars";
 import { Avatar } from "./Avatar";
+import { LookSwitch } from "@/features/theme";
 import styles from "./home-profile.module.css";
 import { LockIcon } from "./icons";
 import { UnenrollDialog } from "./UnenrollDialog";
@@ -77,6 +78,8 @@ export function ProfileManager({ headerActions }: { headerActions?: ReactNode } 
           </button>
         </div>
       </div>
+
+      <LookSwitch />
 
       <div className={styles.manager}>
         <div className="stack">

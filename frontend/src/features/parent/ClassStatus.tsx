@@ -21,7 +21,7 @@ export function describeClass(name: string, day: SavedTimetable | undefined): Cl
       return { headline: `${name}’s Maths lesson is paused`, detail: 'This computer is low on memory. Please close other browser tabs and apps; the lesson will carry on preparing by itself.', attention: true };
     }
     if (prep.status === 'failed') {
-      return { headline: `${name}’s Maths lesson could not be prepared`, detail: 'Edaptive will try again automatically. If this stays, restart Edaptive.', attention: true };
+      return { headline: `${name}’s Maths lesson needs a check`, detail: 'The lesson did not pass its final checks. It will be checked again after the lesson content or preparation software is corrected.', attention: true };
     }
     if (/unavailable/i.test(prep.message ?? '')) {
       return { headline: 'The lesson teacher is not responding', detail: 'Edaptive will keep trying. If this stays, restart Edaptive.', attention: true };
@@ -46,11 +46,11 @@ export function describeClass(name: string, day: SavedTimetable | undefined): Cl
         headline: `${name}’s Maths class ended unfinished`,
         detail: slot.exited_at_ms
           ? `They left at ${clock(slot.exited_at_ms)}, at ${part}. This lesson will not come back; the next school day starts the next lesson. Other classes keep their times.`
-          : `They did not join. This lesson will not come back; the next school day starts the next lesson.`,
+          : `They did not join. This live class will not repeat; the next school day starts the next lesson. The recorded lessons library is coming later.`,
         attention: true,
       };
     default:
-      if (slot.delay_notice) {
+      if (slot.delay_notice && prep?.status !== 'ready') {
         return {
           headline: `${name}’s Maths class was moved to ${clock(slot.start_ms)}`,
           detail: `${slot.delay_notice} The rest of the day moved too. Nothing for you to do.`,
@@ -59,7 +59,7 @@ export function describeClass(name: string, day: SavedTimetable | undefined): Cl
       }
       return {
         headline: `Maths starts at ${clock(slot.start_ms)}`,
-        detail: isWaitingToPrepare(slot.preparation) ? `The lesson will be prepared ${prepareTimeText(slot.prepare_at_ms, day.server_now_ms)}. Nothing for you to do.` : 'Nothing for you to do.',
+        detail: prep?.status === 'ready' ? 'The lesson is prepared and ready for class.' : isWaitingToPrepare(slot.preparation) ? `The lesson will be prepared ${prepareTimeText(slot.prepare_at_ms, day.server_now_ms)}. Nothing for you to do.` : 'Nothing for you to do.',
         attention: false,
       };
   }

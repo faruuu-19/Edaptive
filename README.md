@@ -72,12 +72,14 @@ Build phase (proposal defended Sept 2026). FYP-1 evaluation: 7–11 Dec 2026.
 The script agent and lesson inputs now ship in this repository. Follow
 [Run the current system](docs/RUN_CURRENT_SYSTEM.md) for provisioning, local model
 configuration, startup and the saved Grade 2 Lesson 1 preview. The canonical
-runtime catalog is [lesson-pairs.json](docs/content/lesson-pairs.json): 91 published
-assessment pairs plus the two existing supplementary Grade 3 review pairs, all
-draft. Relative paths and file hashes replace the older machine-specific catalog.
+runtime catalog is [lesson-pairs.json](docs/content/lesson-pairs.json): 148 reviewed
+concept–assessment pairs across Grades 1–5, including two supplementary Grade 3
+pairs. Relative paths and file hashes replace the older machine-specific catalog.
 
-The existing daily timetable, Kokoro teacher voice and parent controls are
-unchanged. Script generation uses the installed local Qwen model, with checkpoints
-and memory guards. Models, credentials, databases, generated jobs and audio stay
-outside Git. Start-up makes no model downloads. Assessment authoring source is
-preserved separately under `authoring/assessment/`.
+The daily timetable chooses the next available pair within the child's grade,
+in module/lesson order. Scheduled lessons include the local talking teacher,
+saved playback positions, parent controls and a consent-gated class chime.
+Script generation uses the installed local Qwen model, with checkpoints and memory
+guards. Model weights, credentials, databases, generated jobs and audio stay outside
+Git. Start-up makes no model downloads. Assessment authoring source is preserved
+separately under `authoring/assessment/`.

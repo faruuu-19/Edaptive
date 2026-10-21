@@ -1,0 +1,2240 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g5_m1_l12_multiply_decimals_estimate_to_place_decimal_point",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g5_m1",
+      "file": "math-g5-m1-topic-e-lesson-12.md",
+      "source_version": "not stated in file",
+      "title": "Eureka Math / EngageNY, Grade 5, Module 1, Lesson 12",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the file; page n/a, section named"
+    }
+  ],
+  "review_status": "reviewed",
+  "grade": 5,
+  "subject": "math",
+  "standards": [
+    "5.NBT.7"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Multiply a decimal by a single-digit whole number, using estimation to check the decimal point.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g5_m1_l11_multiply_decimals_by_single_digits_area_model",
+    "math_g5_m1_l10_subtract_decimals_place_value_strategies"
+  ],
+  "explanations": [
+    {
+      "id": "exp_same_digits",
+      "title": "Same digits, different units",
+      "text": "31 times 4, 3.1 times 4 and 0.31 times 4 all have the digits 1, 2 and 4. The units are different, so the decimal point is in a different place.",
+      "asset_ids": [
+        "a_area_model"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-3"
+      }
+    },
+    {
+      "id": "exp_smallest_unit",
+      "title": "Use the smallest unit",
+      "text": "5.1 is 51 tenths. 51 times 6 is 306, so the answer is 306 tenths. Estimate: 5 times 6 is 30, so the answer is 30.6.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6"
+      }
+    },
+    {
+      "id": "exp_hundredths",
+      "title": "Use hundredths",
+      "text": "3.12 is 312 hundredths. 312 times 4 is 1,248 hundredths. That is 12 ones 48 hundredths, or 12.48.",
+      "asset_ids": [
+        "a_area_model"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 7-9"
+      }
+    }
+  ],
+  "examples": [],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Multiply 4 by 2.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*2"
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Multiply 4 by 0.2.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*0.2"
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Multiply 4 by 0.02.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*0.02"
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "prior_knowledge",
+      "text": "Multiply 5 by 3.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "5*3"
+      },
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "prior_knowledge",
+      "text": "Multiply 5 by 0.3.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "5*0.3"
+      },
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "prior_knowledge",
+      "text": "Multiply 5 by 0.03.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "5*0.03"
+      },
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "Multiply 3 by 0.2.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "3*0.2"
+      },
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "Multiply 3 by 0.03.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "3*0.03"
+      },
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "Multiply 3 by 0.23.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "3*0.23"
+      },
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "Multiply 2 by 0.14.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "2*0.14"
+      },
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Patty buys 7 juice boxes a month. One juice box costs $2.79. How much does she spend each month?",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "7*2.79"
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (juice boxes)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Patty spends $19.53 on juice each month. How much does she spend in 10 months?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "19.53*10"
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_shift"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (juice boxes) (extension, 10 months)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Patty spends $19.53 on juice each month. How much does she spend in 12 months?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "19.53*12"
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (juice boxes) (extension, 12 months)"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Multiply 4 by 31.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*31"
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-3"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Multiply 4 by 3.1.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*3.1"
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-3"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Multiply 4 by 0.31.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*0.31"
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-3"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Multiply 6 by 5.1.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "6*5.1"
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Multiply 4 by 11.4.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*11.4"
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Multiply 3 by 7.8.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "3*7.8"
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Multiply 4 by 3.12.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*3.12"
+      },
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 7-9"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Multiply 5 by 3.22.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "5*3.22"
+      },
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 7-9"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Multiply 6 by 3.42.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "6*3.42"
+      },
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 7-9"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Multiply 4 by 0.733.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*0.733"
+      },
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 10-12"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Multiply 4 by 10.733.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*10.733"
+      },
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 10-12"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Multiply 4 by 5.733.",
+      "asset_ids": [
+        "a_area_model",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*5.733"
+      },
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 10-12"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "Estimate to choose the right product for 2 times 5.1. Choices are 0.102, 1.02, 10.2 and 102.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "10.2"
+      },
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_est"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6 (reasonable product)"
+      }
+    },
+    {
+      "id": "q_pr_17",
+      "kind": "practice",
+      "text": "Estimate to choose the right product for 4 times 8.93. Choices are 3.572, 35.72, 357.2 and 3572.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "35.72"
+      },
+      "rubric_id": "r_pr_17",
+      "hint_ids": [
+        "h_est"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6 (reasonable product)"
+      }
+    },
+    {
+      "id": "q_pr_18",
+      "kind": "practice",
+      "text": "Round 7.13 to the nearest whole number. Then multiply by 6 to estimate 7.13 times 6.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "42"
+      },
+      "rubric_id": "r_pr_18",
+      "hint_ids": [
+        "h_est"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2 (estimate)"
+      }
+    },
+    {
+      "id": "q_pr_19",
+      "kind": "practice",
+      "text": "Pedro builds a spice rack with 4 shelves. Each shelf is 0.55 meter long. Exactly how many meters of shelving does he need?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*0.55"
+      },
+      "rubric_id": "r_pr_19",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 1)"
+      }
+    },
+    {
+      "id": "q_pr_20",
+      "kind": "practice",
+      "text": "Pedro needs 2.2 meters of shelving. The store sells only whole meters. How many meters should he buy?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "3"
+      },
+      "rubric_id": "r_pr_20",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 1, whole meters)"
+      }
+    },
+    {
+      "id": "q_pr_21",
+      "kind": "practice",
+      "text": "Marcel rides to school and back on Tuesday and Thursday. School is 3.62 kilometers away. Exactly how many kilometers does he ride in a week?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*3.62"
+      },
+      "rubric_id": "r_pr_21",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 2)"
+      }
+    },
+    {
+      "id": "q_pr_22",
+      "kind": "practice",
+      "text": "A bake sale made $79.35. The club has 5 bake sales in all and makes the same amount each time. How much will they make after five bake sales?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "79.35*5"
+      },
+      "rubric_id": "r_pr_22",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3)"
+      }
+    },
+    {
+      "id": "q_pr_23",
+      "kind": "practice",
+      "text": "Yi Ting weighs 8.3 kilograms. Her older brother is 4 times as heavy. How much does he weigh in kilograms?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*8.3"
+      },
+      "rubric_id": "r_pr_23",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2)"
+      }
+    },
+    {
+      "id": "q_pr_24",
+      "kind": "practice",
+      "text": "Tim buys 4 gallons of white paint at $15.72 a gallon. He buys 3 gallons of blue paint at $21.87 a gallon. How much does he spend in all?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4*15.72+3*21.87"
+      },
+      "rubric_id": "r_pr_24",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3)"
+      }
+    },
+    {
+      "id": "q_pr_25",
+      "kind": "practice",
+      "text": "Ribbon is sold at 3 yards for $6.33. Jackie buys 24 yards. How much does she pay?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "expr": "24/3*6.33"
+      },
+      "rubric_id": "r_pr_25",
+      "hint_ids": [
+        "h_unit",
+        "h_est",
+        "h_area"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4)"
+      }
+    },
+    {
+      "id": "q_pr_x5",
+      "kind": "practice",
+      "text": "The bake sale made $79.35. Leslie says five sales will make $3,967.50. Peggy says $396.75. Use estimation to say who is right.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "estimation"
+      },
+      "rubric_id": "r_pr_x5",
+      "hint_ids": [
+        "h_est"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How can whole number multiplication help you with decimal multiplication?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "whole numbers help"
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_whole"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (whole numbers and decimals)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "Why is 306 tenths a reasonable answer for 6 times 5.1 but 306 ones is not?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "reasonable unit"
+      },
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_est",
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problems 4-6)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "Marcel can give two answers to two teachers. Why is a different answer fine for each?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "exact and estimate"
+      },
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_est"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.8",
+          "zero point eight",
+          "eight tenths"
+        ]
+      },
+      "correct": "Says 0.8.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.08",
+          "zero point zero eight",
+          "eight hundredths"
+        ]
+      },
+      "correct": "Says 0.08.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.5",
+          "one point five",
+          "one and five tenths"
+        ]
+      },
+      "correct": "Says 1.5.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.15",
+          "zero point one five",
+          "fifteen hundredths"
+        ]
+      },
+      "correct": "Says 0.15.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.6",
+          "zero point six",
+          "six tenths"
+        ]
+      },
+      "correct": "Says 0.6.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.09",
+          "zero point zero nine",
+          "nine hundredths"
+        ]
+      },
+      "correct": "Says 0.09.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.69",
+          "zero point six nine",
+          "sixty-nine hundredths"
+        ]
+      },
+      "correct": "Says 0.69.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.28",
+          "zero point two eight",
+          "twenty-eight hundredths"
+        ]
+      },
+      "correct": "Says 0.28.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Find the Product"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$19.53",
+          "19.53",
+          "19 dollars and 53 cents"
+        ]
+      },
+      "correct": "Says $19.53.",
+      "partial": "Makes one adding mistake.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (juice boxes)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$195.30",
+          "195.30",
+          "$195.3",
+          "195.3",
+          "195 dollars and 30 cents"
+        ]
+      },
+      "correct": "Says $195.30.",
+      "partial": "Makes one adding mistake.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (juice boxes) (extension, 10 months)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$234.36",
+          "234.36",
+          "234 dollars and 36 cents"
+        ]
+      },
+      "correct": "Says $234.36.",
+      "partial": "Makes one adding mistake.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (juice boxes) (extension, 12 months)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "124",
+          "one hundred twenty-four"
+        ]
+      },
+      "correct": "Says 124.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-3"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12.4",
+          "twelve point four",
+          "twelve and four tenths"
+        ]
+      },
+      "correct": "Says 12.4.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-3"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.24",
+          "one point two four",
+          "one and twenty-four hundredths"
+        ]
+      },
+      "correct": "Says 1.24.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 1-3"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30.6",
+          "thirty point six",
+          "thirty and six tenths"
+        ]
+      },
+      "correct": "Says 30.6.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "45.6",
+          "forty-five point six",
+          "forty-five and six tenths"
+        ]
+      },
+      "correct": "Says 45.6.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "23.4",
+          "twenty-three point four",
+          "twenty-three and four tenths"
+        ]
+      },
+      "correct": "Says 23.4.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12.48",
+          "twelve point four eight",
+          "twelve and forty-eight hundredths"
+        ]
+      },
+      "correct": "Says 12.48.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 7-9"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "16.1",
+          "sixteen point one",
+          "sixteen and one tenth"
+        ]
+      },
+      "correct": "Says 16.1.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 7-9"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "20.52",
+          "twenty point five two",
+          "twenty and fifty-two hundredths"
+        ]
+      },
+      "correct": "Says 20.52.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 7-9"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.932",
+          "two point nine three two",
+          "two and nine hundred thirty-two thousandths"
+        ]
+      },
+      "correct": "Says 2.932.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 10-12"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "42.932",
+          "forty-two point nine three two",
+          "forty-two and nine hundred thirty-two thousandths"
+        ]
+      },
+      "correct": "Says 42.932.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 10-12"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "22.932",
+          "twenty-two point nine three two",
+          "twenty-two and nine hundred thirty-two thousandths"
+        ]
+      },
+      "correct": "Says 22.932.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 10-12"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10.2",
+          "ten point two",
+          "ten and two tenths"
+        ]
+      },
+      "correct": "Says 10.2.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6 (reasonable product)"
+      }
+    },
+    {
+      "id": "r_pr_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "35.72",
+          "thirty-five point seven two",
+          "thirty-five and seventy-two hundredths"
+        ]
+      },
+      "correct": "Says 35.72.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-6 (reasonable product)"
+      }
+    },
+    {
+      "id": "r_pr_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "42",
+          "forty-two"
+        ]
+      },
+      "correct": "Says 42.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket 2 (estimate)"
+      }
+    },
+    {
+      "id": "r_pr_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.2",
+          "two point two",
+          "two and two tenths",
+          "2.2 meters",
+          "2.2 m"
+        ]
+      },
+      "correct": "Says 2.2 meters.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 1)"
+      }
+    },
+    {
+      "id": "r_pr_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 1, whole meters)"
+      }
+    },
+    {
+      "id": "r_pr_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14.48",
+          "fourteen point four eight",
+          "fourteen and forty-eight hundredths",
+          "14.48 kilometers",
+          "14.48 km"
+        ]
+      },
+      "correct": "Says 14.48 kilometers.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 2)"
+      }
+    },
+    {
+      "id": "r_pr_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$396.75",
+          "396.75",
+          "396 dollars and 75 cents"
+        ]
+      },
+      "correct": "Says $396.75.",
+      "partial": "Makes one adding mistake.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3)"
+      }
+    },
+    {
+      "id": "r_pr_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "33.2",
+          "thirty-three point two",
+          "thirty-three and two tenths",
+          "33.2 kilograms",
+          "33.2 kg"
+        ]
+      },
+      "correct": "Says 33.2 kilograms.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 2)"
+      }
+    },
+    {
+      "id": "r_pr_24",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$128.49",
+          "128.49",
+          "128 dollars and 49 cents"
+        ]
+      },
+      "correct": "Says $128.49.",
+      "partial": "Makes one adding mistake.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3)"
+      }
+    },
+    {
+      "id": "r_pr_25",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$50.64",
+          "50.64",
+          "50 dollars and 64 cents"
+        ]
+      },
+      "correct": "Says $50.64.",
+      "partial": "Makes one adding mistake.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4)"
+      }
+    },
+    {
+      "id": "r_pr_x5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says Peggy. 79.35 is about 80 and five times 80 is 400, so 396.75 is reasonable and 3,967.50 is far too big.",
+      "partial": "Says Peggy but gives no estimate.",
+      "incorrect": "Says Leslie.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem 3)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says multiply the digits as whole numbers first. Then use estimation or unit size to place the decimal point.",
+      "partial": "Says it helps but gives no way.",
+      "incorrect": "Says it does not help.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (whole numbers and decimals)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 5.1 is close to 5 and 5 times 6 is 30. 306 tenths is 30 and 6 tenths, which is close to 30.",
+      "partial": "Says 306 tenths is right but gives no estimate.",
+      "incorrect": "Says 306 ones is right.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problems 4-6)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the math teacher wants the exact product and the gym teacher wants an estimate. Each uses the number that fits the need.",
+      "partial": "Says there are two answers but gives no reason.",
+      "incorrect": "Says only one answer is right.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 2)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_chart",
+      "level": 1,
+      "text": "Draw the place value chart. Put each digit in its own place.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_shift",
+      "level": 1,
+      "text": "Multiplying by ten moves every digit one place to the left. Dividing moves it right.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_zeros",
+      "level": 2,
+      "text": "Count the zeros in the number you multiply or divide by. That tells how many places the digits move.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_exp",
+      "level": 2,
+      "text": "The exponent tells how many tens are multiplied together. It matches the zeros.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unit",
+      "level": 1,
+      "text": "Say the unit name. Then use a basic fact with that unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_conv",
+      "level": 2,
+      "text": "Think how many small units fit in a big unit. Then multiply or divide.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_like",
+      "level": 1,
+      "text": "Add or subtract like units. Tenths with tenths, hundredths with hundredths.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_regroup",
+      "level": 2,
+      "text": "Trade ten of a small unit for one of the next larger unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_cmp",
+      "level": 1,
+      "text": "Compare digits from the left. Find the first place where they differ.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unitcmp",
+      "level": 2,
+      "text": "Rename both numbers with the same unit. Then compare.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_round",
+      "level": 1,
+      "text": "Find the nearest numbers on each side for that place. Then check if you are past the halfway point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_est",
+      "level": 2,
+      "text": "Round the numbers and estimate first. Then place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_area",
+      "level": 2,
+      "text": "Draw an area model. Multiply each unit by the whole number. Then add the partial products.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unbundle",
+      "level": 2,
+      "text": "If you cannot share a unit evenly, trade it for ten of the next smaller unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 1,
+      "text": "Draw a tape diagram. Label the total and the parts.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_whole",
+      "level": 1,
+      "text": "Divide like whole numbers first. Then think about the unit to place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_pv_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A place value chart from millions to thousandths with a decimal point between ones and tenths. Disks or digits sit in the columns.",
+      "must_show_exactly": [
+        "Columns run millions down to thousandths in order",
+        "Decimal point sits between ones and tenths",
+        "Digits or disks match the stimulus"
+      ],
+      "states_or_frames": [
+        "empty chart",
+        "digits placed",
+        "arrows show shift left or right"
+      ],
+      "interaction": "Child types digits into columns. Tutor can draw arrows.",
+      "alt_text": "A place value chart with labelled columns.",
+      "used_by": [
+        "exp_smallest_unit",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_pk_1",
+        "q_pk_10",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pk_4",
+        "q_pk_5",
+        "q_pk_6",
+        "q_pk_7",
+        "q_pk_8",
+        "q_pk_9",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_18",
+        "q_pr_19",
+        "q_pr_2",
+        "q_pr_20",
+        "q_pr_21",
+        "q_pr_22",
+        "q_pr_23",
+        "q_pr_24",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_pr_x5"
+      ],
+      "generation_caption": "Flat place value chart with column headings from millions to thousandths, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_area_model",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A rectangle (area model) cut into equal rows and columns with some cells shaded.",
+      "must_show_exactly": [
+        "Rows, columns and shaded cells match the stimulus",
+        "All cells exactly equal"
+      ],
+      "states_or_frames": [
+        "empty rectangle",
+        "rows and columns drawn",
+        "cells shaded"
+      ],
+      "interaction": "Display only. Tutor sets rows, columns and shading.",
+      "alt_text": "A rectangle cut into equal cells with some cells shaded.",
+      "used_by": [
+        "exp_hundredths",
+        "exp_same_digits",
+        "exp_smallest_unit",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat rectangle grid of equal cells, some cells shaded, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A tape diagram: one long rectangle cut into equal units, with some units shaded and brackets above or below.",
+      "must_show_exactly": [
+        "Number of equal units and shaded units always match the question stimulus",
+        "All units are exactly the same size",
+        "Brackets and labels only where the question says"
+      ],
+      "states_or_frames": [
+        "empty tape",
+        "tape cut into n units",
+        "k units shaded",
+        "brackets and labels added"
+      ],
+      "interaction": "Display. Tutor sets the number of units, the shaded units and the labels from the question stimulus.",
+      "alt_text": "A tape diagram cut into equal parts with some parts shaded.",
+      "used_by": [
+        "q_pr_25"
+      ],
+      "generation_caption": "A flat tape diagram: one long rectangle cut into equal boxes, some boxes shaded blue, plain background, no text. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_add_decimals_sprint",
+      "name": "Sprint: Add Decimals",
+      "reason": "Timed sheet. Not added.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "source text quality",
+      "issue": "The lesson file is plain text with NO page images and NO page numbers. Fraction symbols, tape diagrams, number bonds and figures were lost in the text, so student answers such as 'S: [blank]' cannot be read. Only fractions written in words (for example '5 sixths') were used. Compare every question with the original PDF."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts or fractions. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "Prerequisites that start with math_g5_m1_ point to earlier cards of this module made in the same project. Check that each earlier lesson really teaches the needed skill."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Sheets present: Sprint / Problem Set / Exit Ticket",
+      "issue": "Area model pictures were not added. Number items were used. The printed items on these pages are pictures or formulas that were lost in the text."
+    },
+    {
+      "id": "f7",
+      "severity": "high",
+      "item": "Estimate question",
+      "issue": "Marcel's estimate has many right answers. The card asks only for the exact weekly distance. The estimate is in an open question."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set",
+      "issue": "The Problem Set item numbers were lost. Items were rebuilt from the Exit Ticket and Homework."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "Answers",
+      "issue": "Answers are computed from the printed numbers. Check them against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Marcel trips",
+      "issue": "The text says school and back on Tuesday and Thursday. That is 4 trips, so the card uses 4 times 3.62."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Bake sale",
+      "issue": "The bake sale question was reworded. The lesson text gives five bake sales in all."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Hints",
+      "issue": "Hint coverage is thin. Hints come from the lesson's teaching moves."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-answer items have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_pv_chart, a_area_model, a_tape_diagram). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with partners and objects. All child-facing text was rewritten for a screen and fractions are written in words. Needs an age-appropriate wording review."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs / page numbers",
+      "issue": "The file has no page numbers and no version footer. Every page is 'n/a' and the section name is used instead. source_version is 'not stated in file'. Fill in from the original PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

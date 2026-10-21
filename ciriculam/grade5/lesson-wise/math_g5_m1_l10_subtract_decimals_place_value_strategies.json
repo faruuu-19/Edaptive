@@ -1,0 +1,2446 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g5_m1_l10_subtract_decimals_place_value_strategies",
+  "card_version": 1,
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g5_m1",
+      "file": "math-g5-m1-topic-d-lesson-10.md",
+      "source_version": "not stated in file",
+      "title": "Eureka Math / EngageNY, Grade 5, Module 1, Lesson 10",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in the file; page n/a, section named"
+    }
+  ],
+  "review_status": "reviewed",
+  "grade": 5,
+  "subject": "math",
+  "standards": [
+    "5.NBT.1",
+    "5.NBT.7"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Subtract decimals using place value strategies, and relate those strategies to a written method.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "math_g5_m1_l9_add_decimals_place_value_strategies",
+    "math_g5_m1_l8_round_decimals_choose_helpful_decomposition"
+  ],
+  "explanations": [
+    {
+      "id": "exp_like_units",
+      "title": "Subtract like units",
+      "text": "5 tenths minus 3 tenths is 2 tenths. It is like 5 people minus 2 people. Only the unit name changes.",
+      "asset_ids": [
+        "a_pv_chart",
+        "a_place_value_disks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "exp_read_units",
+      "title": "Read the units carefully",
+      "text": "9 hundreds 5 hundredths minus 3 hundredths looks like a trick. Subtract 3 hundredths from 5 hundredths and keep the 9 hundreds.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "exp_regroup",
+      "title": "Regroup to subtract",
+      "text": "83 tenths minus 6.4 needs regrouping. Think of 83 tenths as 8.3. Then trade 1 one for 10 tenths and subtract tenths from tenths.",
+      "asset_ids": [
+        "a_pv_chart",
+        "a_place_value_disks"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 2-3"
+      }
+    },
+    {
+      "id": "exp_empty_place",
+      "title": "An empty place is a zero",
+      "text": "4.083 minus 1.29: think of 29 hundredths as 290 thousandths. Then no regrouping is needed in the thousandths.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-5"
+      }
+    }
+  ],
+  "examples": [],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "practice",
+      "text": "76.358 is 7 tens and how many thousandths?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "6358"
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Unit"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "practice",
+      "text": "76.358 is 763 tenths and how many thousandths?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "58"
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Unit"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "practice",
+      "text": "76.358 is how many hundredths and 8 thousandths?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "answer": "7635"
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Unit"
+      }
+    },
+    {
+      "id": "q_pk_4",
+      "kind": "practice",
+      "text": "Add 3 tenths and 2 tenths. Write the sum as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.3+0.2"
+      },
+      "rubric_id": "r_pk_4",
+      "hint_ids": [
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Add Decimals"
+      }
+    },
+    {
+      "id": "q_pk_5",
+      "kind": "practice",
+      "text": "Add 5 hundredths and 4 hundredths. Write the sum as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.05+0.04"
+      },
+      "rubric_id": "r_pk_5",
+      "hint_ids": [
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Add Decimals"
+      }
+    },
+    {
+      "id": "q_pk_6",
+      "kind": "practice",
+      "text": "Add 35 hundredths and 4 hundredths. Write the sum as a decimal.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.35+0.04"
+      },
+      "rubric_id": "r_pk_6",
+      "hint_ids": [
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Add Decimals"
+      }
+    },
+    {
+      "id": "q_pk_7",
+      "kind": "prior_knowledge",
+      "text": "What is one tenth less than 0.5?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.5",
+        "unit": "tenth",
+        "more": false
+      },
+      "rubric_id": "r_pk_7",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "q_pk_8",
+      "kind": "prior_knowledge",
+      "text": "What is one hundredth less than 0.05?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.05",
+        "unit": "hundredth",
+        "more": false
+      },
+      "rubric_id": "r_pk_8",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "q_pk_9",
+      "kind": "prior_knowledge",
+      "text": "What is one thousandth less than 0.005?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.005",
+        "unit": "thousandth",
+        "more": false
+      },
+      "rubric_id": "r_pk_9",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "q_pk_10",
+      "kind": "prior_knowledge",
+      "text": "What is one hundredth less than 0.07?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.07",
+        "unit": "hundredth",
+        "more": false
+      },
+      "rubric_id": "r_pk_10",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "q_pk_11",
+      "kind": "prior_knowledge",
+      "text": "What is one tenth less than 0.9?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.9",
+        "unit": "tenth",
+        "more": false
+      },
+      "rubric_id": "r_pk_11",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "q_pk_12",
+      "kind": "prior_knowledge",
+      "text": "What is one thousandth less than 0.029?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.029",
+        "unit": "thousandth",
+        "more": false
+      },
+      "rubric_id": "r_pk_12",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "q_pk_13",
+      "kind": "prior_knowledge",
+      "text": "What is one tenth less than 0.61?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.61",
+        "unit": "tenth",
+        "more": false
+      },
+      "rubric_id": "r_pk_13",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "q_pk_14",
+      "kind": "prior_knowledge",
+      "text": "What is one thousandth less than 0.061?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.061",
+        "unit": "thousandth",
+        "more": false
+      },
+      "rubric_id": "r_pk_14",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "q_pk_15",
+      "kind": "prior_knowledge",
+      "text": "What is one hundredth less than 0.549?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "value": "0.549",
+        "unit": "hundredth",
+        "more": false
+      },
+      "rubric_id": "r_pk_15",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "At the 2012 Olympics, Michael Phelps swam the first 50 meters in 26.96 seconds. The second 50 meters took 25.39 seconds. What was his total time?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "26.96+25.39"
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (Michael Phelps)"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Subtract 3 tenths from 5 tenths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.5-0.3"
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Subtract 2 ones 3 thousandths from 7 ones 5 thousandths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "7.005-2.003"
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "Subtract 3 hundredths from 9 hundreds 5 hundredths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "900.05-0.03"
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Subtract 6.4 from 83 tenths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "8.3-6.4"
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 2-3"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Subtract 6 ones 4 tenths from 9.2. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "9.2-6.4"
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 2-3"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Subtract 0.292 from 0.831.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.831-0.292"
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-5"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Subtract 1.29 from 4.083.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "4.083-1.29"
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-5"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Subtract 0.48 from 6.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "6-0.48"
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-5"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Subtract 2 tenths from 5 tenths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.5-0.2"
+      },
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Subtract 2 ones from 5 ones 9 thousandths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "5.009-2"
+      },
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "q_pr_12",
+      "kind": "practice",
+      "text": "Subtract 4 hundredths from 7 hundreds 8 hundredths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "700.08-0.04"
+      },
+      "rubric_id": "r_pr_12",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "q_pr_13",
+      "kind": "practice",
+      "text": "Subtract 16 thousandths from 37 thousandths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.037-0.016"
+      },
+      "rubric_id": "r_pr_13",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "q_pr_14",
+      "kind": "practice",
+      "text": "Subtract 3 tenths from 9 tenths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.9-0.3"
+      },
+      "rubric_id": "r_pr_14",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "q_pr_15",
+      "kind": "practice",
+      "text": "Subtract 3 ones from 9 ones 2 thousandths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "9.002-3"
+      },
+      "rubric_id": "r_pr_15",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "q_pr_16",
+      "kind": "practice",
+      "text": "Subtract 3 hundredths from 4 hundreds 6 hundredths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "400.06-0.03"
+      },
+      "rubric_id": "r_pr_16",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "q_pr_17",
+      "kind": "practice",
+      "text": "Subtract 23 thousandths from 56 thousandths. Write the difference as a decimal.",
+      "asset_ids": [
+        "a_place_value_disks",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.056-0.023"
+      },
+      "rubric_id": "r_pr_17",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "q_pr_18",
+      "kind": "practice",
+      "text": "Subtract 28.56 from 84.637.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "84.637-28.56"
+      },
+      "rubric_id": "r_pr_18",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2, vertical)"
+      }
+    },
+    {
+      "id": "q_pr_19",
+      "kind": "practice",
+      "text": "Subtract 0.35 from 7.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "7-0.35"
+      },
+      "rubric_id": "r_pr_19",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2, vertical)"
+      }
+    },
+    {
+      "id": "q_pr_20",
+      "kind": "practice",
+      "text": "Mrs. Fan wrote 5 tenths minus 3 hundredths. What is the answer as a decimal?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.5-0.03"
+      },
+      "rubric_id": "r_pr_20",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 3, Michael's mistake)"
+      }
+    },
+    {
+      "id": "q_pr_21",
+      "kind": "practice",
+      "text": "Mr. House wrote 8 tenths minus 5 hundredths. What is the answer as a decimal?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "0.8-0.05"
+      },
+      "rubric_id": "r_pr_21",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3, Maggie's mistake)"
+      }
+    },
+    {
+      "id": "q_pr_22",
+      "kind": "practice",
+      "text": "A pen costs $2.09. It costs $0.45 less than a marker. Ken buys one pen and one marker and pays with a $5 bill. How much change does he get?",
+      "asset_ids": [
+        "a_tape_diagram",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "5-(2.09+2.09+0.45)"
+      },
+      "rubric_id": "r_pr_22",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 4)"
+      }
+    },
+    {
+      "id": "q_pr_23",
+      "kind": "practice",
+      "text": "A clipboard costs $2.23. It costs $0.58 more than a notebook. Lisa buys two clipboards and one notebook and pays with a $10 bill. How much change does she get?",
+      "asset_ids": [
+        "a_tape_diagram",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "expr": "10-(2*2.23+(2.23-0.58))"
+      },
+      "rubric_id": "r_pr_23",
+      "hint_ids": [
+        "h_like",
+        "h_regroup",
+        "h_chart"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4)"
+      }
+    },
+    {
+      "id": "q_pr_x4",
+      "kind": "practice",
+      "text": "Michael says 5 tenths minus 3 hundredths is 2 tenths because 5 minus 3 is 2. Is he correct? Explain.",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "unlike units"
+      },
+      "rubric_id": "r_pr_x4",
+      "hint_ids": [
+        "h_unitcmp",
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 3)"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How is subtracting decimals the same as subtracting whole numbers? How is it different?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "same and different"
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (decimals and whole numbers)"
+      }
+    },
+    {
+      "id": "q_db_2",
+      "kind": "debrief",
+      "text": "What do you notice about the thousandths place in 4.083 minus 1.29? How do you handle it?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "empty place"
+      },
+      "rubric_id": "r_db_2",
+      "hint_ids": [
+        "h_unitcmp"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problems 4-5)"
+      }
+    },
+    {
+      "id": "q_db_3",
+      "kind": "debrief",
+      "text": "In 9 hundreds 5 hundredths minus 3 hundredths, why do you only subtract 3 hundredths from 5 hundredths?",
+      "asset_ids": [
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "read the units"
+      },
+      "rubric_id": "r_db_3",
+      "hint_ids": [
+        "h_like"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problem 1)"
+      }
+    },
+    {
+      "id": "q_db_4",
+      "kind": "debrief",
+      "text": "What does less than mean in a word problem? Why can it cause mistakes?",
+      "asset_ids": [
+        "a_tape_diagram",
+        "a_pv_chart"
+      ],
+      "stimulus": {
+        "topic": "less than phrase"
+      },
+      "rubric_id": "r_db_4",
+      "hint_ids": [
+        "h_tape"
+      ],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 5, less than)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6358",
+          "6,358",
+          "six thousand three hundred fifty-eight"
+        ]
+      },
+      "correct": "Says 6358.",
+      "partial": "Counts only the digits after the decimal point.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Unit"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "58",
+          "fifty-eight"
+        ]
+      },
+      "correct": "Says 58.",
+      "partial": "Counts the digits in the wrong unit.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Unit"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7635",
+          "7,635",
+          "seven thousand six hundred thirty-five"
+        ]
+      },
+      "correct": "Says 7635.",
+      "partial": "Counts only the digits after the decimal point.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Take Out the Unit"
+      }
+    },
+    {
+      "id": "r_pk_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.5",
+          "zero point five",
+          "five tenths"
+        ]
+      },
+      "correct": "Says 0.5.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Add Decimals"
+      }
+    },
+    {
+      "id": "r_pk_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.09",
+          "zero point zero nine",
+          "nine hundredths"
+        ]
+      },
+      "correct": "Says 0.09.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Add Decimals"
+      }
+    },
+    {
+      "id": "r_pk_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.39",
+          "zero point three nine",
+          "thirty-nine hundredths"
+        ]
+      },
+      "correct": "Says 0.39.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Add Decimals"
+      }
+    },
+    {
+      "id": "r_pk_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.4",
+          "zero point four",
+          "four tenths"
+        ]
+      },
+      "correct": "Says 0.4.",
+      "partial": "Changes the wrong place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "r_pk_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.04",
+          "zero point zero four",
+          "four hundredths"
+        ]
+      },
+      "correct": "Says 0.04.",
+      "partial": "Changes the wrong place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "r_pk_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.004",
+          "zero point zero zero four",
+          "four thousandths"
+        ]
+      },
+      "correct": "Says 0.004.",
+      "partial": "Changes the wrong place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "r_pk_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.06",
+          "zero point zero six",
+          "six hundredths"
+        ]
+      },
+      "correct": "Says 0.06.",
+      "partial": "Changes the wrong place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "r_pk_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.8",
+          "zero point eight",
+          "eight tenths"
+        ]
+      },
+      "correct": "Says 0.8.",
+      "partial": "Changes the wrong place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "r_pk_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.028",
+          "zero point zero two eight",
+          "twenty-eight thousandths"
+        ]
+      },
+      "correct": "Says 0.028.",
+      "partial": "Changes the wrong place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "r_pk_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.51",
+          "zero point five one",
+          "fifty-one hundredths"
+        ]
+      },
+      "correct": "Says 0.51.",
+      "partial": "Changes the wrong place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "r_pk_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.06",
+          "zero point zero six",
+          "six hundredths"
+        ]
+      },
+      "correct": "Says 0.06.",
+      "partial": "Changes the wrong place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "r_pk_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.539",
+          "zero point five three nine",
+          "five hundred thirty-nine thousandths"
+        ]
+      },
+      "correct": "Says 0.539.",
+      "partial": "Changes the wrong place.",
+      "incorrect": "Says any other number.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: One Unit Less"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "52.35",
+          "fifty-two point three five",
+          "fifty-two and thirty-five hundredths",
+          "52.35 seconds",
+          "52.35 s",
+          "52.35 sec"
+        ]
+      },
+      "correct": "Says 52.35 seconds.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (Michael Phelps)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.2",
+          "zero point two",
+          "two tenths"
+        ]
+      },
+      "correct": "Says 0.2.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5.002",
+          "five point zero zero two",
+          "five and two thousandths"
+        ]
+      },
+      "correct": "Says 5.002.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "900.02",
+          "nine hundred point zero two",
+          "nine hundred and two hundredths"
+        ]
+      },
+      "correct": "Says 900.02.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "1.9",
+          "one point nine",
+          "one and nine tenths"
+        ]
+      },
+      "correct": "Says 1.9.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 2-3"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.8",
+          "two point eight",
+          "two and eight tenths"
+        ]
+      },
+      "correct": "Says 2.8.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 2-3"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.539",
+          "zero point five three nine",
+          "five hundred thirty-nine thousandths"
+        ]
+      },
+      "correct": "Says 0.539.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-5"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "2.793",
+          "two point seven nine three",
+          "two and seven hundred ninety-three thousandths"
+        ]
+      },
+      "correct": "Says 2.793.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-5"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5.52",
+          "five point five two",
+          "five and fifty-two hundredths"
+        ]
+      },
+      "correct": "Says 5.52.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development Problems 4-5"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.3",
+          "zero point three",
+          "three tenths"
+        ]
+      },
+      "correct": "Says 0.3.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3.009",
+          "three point zero zero nine",
+          "three and nine thousandths"
+        ]
+      },
+      "correct": "Says 3.009.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "r_pr_12",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "700.04",
+          "seven hundred point zero four",
+          "seven hundred and four hundredths"
+        ]
+      },
+      "correct": "Says 700.04.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "r_pr_13",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.021",
+          "zero point zero two one",
+          "twenty-one thousandths"
+        ]
+      },
+      "correct": "Says 0.021.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "r_pr_14",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.6",
+          "zero point six",
+          "six tenths"
+        ]
+      },
+      "correct": "Says 0.6.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "r_pr_15",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6.002",
+          "six point zero zero two",
+          "six and two thousandths"
+        ]
+      },
+      "correct": "Says 6.002.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "r_pr_16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "400.03",
+          "four hundred point zero three",
+          "four hundred and three hundredths"
+        ]
+      },
+      "correct": "Says 400.03.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "r_pr_17",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.033",
+          "zero point zero three three",
+          "thirty-three thousandths"
+        ]
+      },
+      "correct": "Says 0.033.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Problem Set 1 and Homework 1)"
+      }
+    },
+    {
+      "id": "r_pr_18",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "56.077",
+          "fifty-six point zero seven seven",
+          "fifty-six and seventy-seven thousandths"
+        ]
+      },
+      "correct": "Says 56.077.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2, vertical)"
+      }
+    },
+    {
+      "id": "r_pr_19",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6.65",
+          "six point six five",
+          "six and sixty-five hundredths"
+        ]
+      },
+      "correct": "Says 6.65.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 2, vertical)"
+      }
+    },
+    {
+      "id": "r_pr_20",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.47",
+          "zero point four seven",
+          "forty-seven hundredths"
+        ]
+      },
+      "correct": "Says 0.47.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 3, Michael's mistake)"
+      }
+    },
+    {
+      "id": "r_pr_21",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "0.75",
+          "zero point seven five",
+          "seventy-five hundredths"
+        ]
+      },
+      "correct": "Says 0.75.",
+      "partial": "Gets the digits right but puts the decimal point in the wrong place.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 3, Maggie's mistake)"
+      }
+    },
+    {
+      "id": "r_pr_22",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$0.37",
+          "0.37",
+          "37 cents"
+        ]
+      },
+      "correct": "Says $0.37.",
+      "partial": "Makes one adding mistake.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 4)"
+      }
+    },
+    {
+      "id": "r_pr_23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "$3.89",
+          "3.89",
+          "3 dollars and 89 cents"
+        ]
+      },
+      "correct": "Says $3.89.",
+      "partial": "Makes one adding mistake.",
+      "incorrect": "Says any other amount.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Homework 4)"
+      }
+    },
+    {
+      "id": "r_pr_x4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no. The units are different. 5 tenths is 50 hundredths, and 50 hundredths minus 3 hundredths is 47 hundredths.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says Michael is correct.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket and Problem Set (Exit Ticket 3)"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both subtract like units and trade one larger unit for ten smaller units when needed. Decimals have units smaller than ones.",
+      "partial": "Says they are alike but gives no difference.",
+      "incorrect": "Says they are not alike.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (decimals and whole numbers)"
+      }
+    },
+    {
+      "id": "r_db_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says 1.29 has no thousandths, so think of 29 hundredths as 290 thousandths. Then subtract.",
+      "partial": "Says there is no digit but does not say what to do.",
+      "incorrect": "Says you cannot subtract.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problems 4-5)"
+      }
+    },
+    {
+      "id": "r_db_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the hundreds and hundredths are different units. Only like units can be subtracted, so 5 hundredths minus 3 hundredths is 2 hundredths.",
+      "partial": "Says to subtract the hundredths but gives no reason.",
+      "incorrect": "Says to subtract from the hundreds.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Concept Development (Problem 1)"
+      }
+    },
+    {
+      "id": "r_db_4",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says less than means the first amount is smaller than the second by some amount. The numbers are written in the opposite order from the words.",
+      "partial": "Says it means subtract but gives no more.",
+      "incorrect": "Says it means add.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 5, less than)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_chart",
+      "level": 1,
+      "text": "Draw the place value chart. Put each digit in its own place.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_shift",
+      "level": 1,
+      "text": "Multiplying by ten moves every digit one place to the left. Dividing moves it right.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_zeros",
+      "level": 2,
+      "text": "Count the zeros in the number you multiply or divide by. That tells how many places the digits move.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_exp",
+      "level": 2,
+      "text": "The exponent tells how many tens are multiplied together. It matches the zeros.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unit",
+      "level": 1,
+      "text": "Say the unit name. Then use a basic fact with that unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_conv",
+      "level": 2,
+      "text": "Think how many small units fit in a big unit. Then multiply or divide.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_like",
+      "level": 1,
+      "text": "Add or subtract like units. Tenths with tenths, hundredths with hundredths.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_regroup",
+      "level": 2,
+      "text": "Trade ten of a small unit for one of the next larger unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_cmp",
+      "level": 1,
+      "text": "Compare digits from the left. Find the first place where they differ.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unitcmp",
+      "level": 2,
+      "text": "Rename both numbers with the same unit. Then compare.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_round",
+      "level": 1,
+      "text": "Find the nearest numbers on each side for that place. Then check if you are past the halfway point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_est",
+      "level": 2,
+      "text": "Round the numbers and estimate first. Then place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_area",
+      "level": 2,
+      "text": "Draw an area model. Multiply each unit by the whole number. Then add the partial products.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_unbundle",
+      "level": 2,
+      "text": "If you cannot share a unit evenly, trade it for ten of the next smaller unit.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 1,
+      "text": "Draw a tape diagram. Label the total and the parts.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_whole",
+      "level": 1,
+      "text": "Divide like whole numbers first. Then think about the unit to place the decimal point.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_pv_chart",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A place value chart from millions to thousandths with a decimal point between ones and tenths. Disks or digits sit in the columns.",
+      "must_show_exactly": [
+        "Columns run millions down to thousandths in order",
+        "Decimal point sits between ones and tenths",
+        "Digits or disks match the stimulus"
+      ],
+      "states_or_frames": [
+        "empty chart",
+        "digits placed",
+        "arrows show shift left or right"
+      ],
+      "interaction": "Child types digits into columns. Tutor can draw arrows.",
+      "alt_text": "A place value chart with labelled columns.",
+      "used_by": [
+        "exp_empty_place",
+        "exp_like_units",
+        "exp_read_units",
+        "exp_regroup",
+        "q_db_1",
+        "q_db_2",
+        "q_db_3",
+        "q_db_4",
+        "q_pk_1",
+        "q_pk_10",
+        "q_pk_11",
+        "q_pk_12",
+        "q_pk_13",
+        "q_pk_14",
+        "q_pk_15",
+        "q_pk_2",
+        "q_pk_3",
+        "q_pk_4",
+        "q_pk_5",
+        "q_pk_6",
+        "q_pk_7",
+        "q_pk_8",
+        "q_pk_9",
+        "q_pr_1",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_18",
+        "q_pr_19",
+        "q_pr_2",
+        "q_pr_20",
+        "q_pr_21",
+        "q_pr_22",
+        "q_pr_23",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9",
+        "q_pr_x4"
+      ],
+      "generation_caption": "Flat place value chart with column headings from millions to thousandths, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_place_value_disks",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "Place value disks: tens, ones, tenths (and hundredths when asked), laid out in five-group formation. Child can bundle 10 disks into 1 disk of the next larger unit.",
+      "must_show_exactly": [
+        "Number of disks of each unit matches the stimulus",
+        "Each disk shows its value (10, 1, 0.1, 0.01)",
+        "Bundling 10 disks gives 1 disk of the next unit"
+      ],
+      "states_or_frames": [
+        "disks laid out",
+        "10 disks circled",
+        "disks traded for 1 larger disk"
+      ],
+      "interaction": "Child taps disks to circle or trade. Tutor sets the disks from the stimulus.",
+      "alt_text": "Round place value disks in rows of five, each showing a value.",
+      "used_by": [
+        "exp_like_units",
+        "exp_regroup",
+        "q_pr_10",
+        "q_pr_11",
+        "q_pr_12",
+        "q_pr_13",
+        "q_pr_14",
+        "q_pr_15",
+        "q_pr_16",
+        "q_pr_17",
+        "q_pr_2",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_5",
+        "q_pr_6",
+        "q_pr_7",
+        "q_pr_8",
+        "q_pr_9"
+      ],
+      "generation_caption": "Flat round disks in neat rows of five, each with a number on it, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_widget",
+      "diffusion_suitable": "no",
+      "why_this_method": "Exact fractions, parts and layout must be right. Image models cannot do this. Build by code.",
+      "description": "A tape diagram: one long rectangle cut into equal units, with some units shaded and brackets above or below.",
+      "must_show_exactly": [
+        "Number of equal units and shaded units always match the question stimulus",
+        "All units are exactly the same size",
+        "Brackets and labels only where the question says"
+      ],
+      "states_or_frames": [
+        "empty tape",
+        "tape cut into n units",
+        "k units shaded",
+        "brackets and labels added"
+      ],
+      "interaction": "Display. Tutor sets the number of units, the shaded units and the labels from the question stimulus.",
+      "alt_text": "A tape diagram cut into equal parts with some parts shaded.",
+      "used_by": [
+        "q_db_4",
+        "q_pr_22",
+        "q_pr_23"
+      ],
+      "generation_caption": "A flat tape diagram: one long rectangle cut into equal boxes, some boxes shaded blue, plain background, no text. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must credit Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "source text quality",
+      "issue": "The lesson file is plain text with NO page images and NO page numbers. Fraction symbols, tape diagrams, number bonds and figures were lost in the text, so student answers such as 'S: [blank]' cannot be read. Only fractions written in words (for example '5 sixths') were used. Compare every question with the original PDF."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Diffusion cannot be trusted for counts or fractions. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against the answer key."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "Prerequisites that start with math_g5_m1_ point to earlier cards of this module made in the same project. Check that each earlier lesson really teaches the needed skill."
+    },
+    {
+      "id": "f6",
+      "severity": "medium",
+      "item": "Sheets present: Problem Set / Exit Ticket / Template",
+      "issue": "Place value charts and tape diagrams were not added. Number items were used. The printed items on these pages are pictures or formulas that were lost in the text."
+    },
+    {
+      "id": "f7",
+      "severity": "high",
+      "item": "Lost items",
+      "issue": "Several Exit Ticket and Problem Set subtraction items (for example the tenths subtract problem and the Problem 3 list) lost their numbers. They were skipped."
+    },
+    {
+      "id": "f8",
+      "severity": "high",
+      "item": "Problem Set",
+      "issue": "The Problem Set item numbers were lost. Items were rebuilt from the Exit Ticket and Homework."
+    },
+    {
+      "id": "f9",
+      "severity": "high",
+      "item": "Answers",
+      "issue": "Answers are computed from the printed numbers. Check them against the PDF."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "Standard algorithm",
+      "issue": "The lesson asks for work with the vertical algorithm. The questions ask for the difference only."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Tape diagrams",
+      "issue": "The lesson asks for tape diagrams in word problems. The pictures were not added."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "Hints",
+      "issue": "Hint coverage is thin. Hints come from the lesson's teaching moves."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available (a_pv_chart, a_place_value_disks, a_tape_diagram). Each has a visual spec. Items that use them cannot launch until the asset exists."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with partners and objects. All child-facing text was rewritten for a screen and fractions are written in words. Needs an age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "low",
+      "item": "source_refs / page numbers",
+      "issue": "The file has no page numbers and no version footer. Every page is 'n/a' and the section name is used instead. source_version is 'not stated in file'. Fill in from the original PDF."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

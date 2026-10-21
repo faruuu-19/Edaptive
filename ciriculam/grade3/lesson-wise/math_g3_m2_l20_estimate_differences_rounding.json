@@ -1,0 +1,1336 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l20_estimate_differences_rounding",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-e-lesson-20.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 20",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.NBT.1",
+    "3.MD.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Estimate differences by rounding. Pick a way to round that gives a close estimate, then check your exact answer.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_estimate_sums",
+    "ext_g3_m2_subtract_measurements"
+  ],
+  "explanations": [
+    {
+      "id": "exp_round_both",
+      "title": "Round both numbers",
+      "text": "362 minus 189: round to hundreds, 400 minus 200 is 200. Round to tens, 360 minus 190 is 170.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_round_part",
+      "title": "Round only the part",
+      "text": "189 is close to 200. Keep 362 and subtract 200: 162. The real answer is 173.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: Let's just round the part.)"
+      }
+    },
+    {
+      "id": "exp_same_direction",
+      "title": "Round the same way for subtraction",
+      "text": "When both numbers round the same way, the distance between them stays about the same. That gives a close estimate.",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (number line)"
+      }
+    },
+    {
+      "id": "exp_add_same",
+      "title": "Add the same to both",
+      "text": "For 532 minus 198, add 2 to both: 534 minus 200 is 334. The difference does not change.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: ... add 2 to both numbers so I have 534 – 200)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_362_189",
+      "title": "362 minus 189",
+      "text": "Hundreds estimate 200, tens estimate 170, round-the-part estimate 162. Actual 173. Tens was closest.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "ex_349_149",
+      "title": "349 minus 149",
+      "text": "Both round down: 300 minus 100 is 200. The actual answer is also 200.",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (B)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "450 liters minus 228 liters equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 450,
+        "b": 228
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Use Subtraction Algorithm (450 L – 228 L)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Round 362 and 189 to the nearest hundred. What is the estimated difference?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 362,
+        "b": 189,
+        "unit": 100
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_round_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Round 362 and 189 to the nearest ten. What is the estimated difference?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 362,
+        "b": 189,
+        "unit": 10
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_round_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Round only 189 to 200. What is 362 minus 200?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 362,
+        "b_rounded": 200
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_part"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "What is the actual difference, 362 minus 189?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 362,
+        "b": 189
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "349 minus 149 and 351 minus 154 gave the closest estimates. What do their rounded numbers have in common?",
+      "asset_ids": [
+        "a_time_number_line"
+      ],
+      "stimulus": {
+        "pairs": [
+          [
+            349,
+            149
+          ],
+          [
+            351,
+            154
+          ]
+        ]
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_same_way"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Add 2 to both numbers in 532 minus 198. What is the difference?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 532,
+        "b": 198
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_part"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Millie's tank holds 403 liters. She empties 185 liters. How many liters are actually left?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "whole_l": 403,
+        "removed_l": 185
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem, part c"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Estimate 403 liters minus 185 liters by rounding to the nearest ten.",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 403,
+        "b": 185,
+        "unit": 10
+      },
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_round_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem, part a"
+      }
+    },
+    {
+      "id": "q_ps_2",
+      "kind": "practice",
+      "text": "Camden uses 372 liters of gas in two months. 184 liters are in the first month. How many in the second month?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "whole_l": 372,
+        "part_l": 184
+      },
+      "rubric_id": "r_ps_2",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2b"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Kathy buys 416 grams of yogurt. The large cup is 363 grams. How many grams are in the small cup?",
+      "asset_ids": [],
+      "stimulus": {
+        "whole_g": 416,
+        "part_g": 363
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, part c"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Kathy's yogurt: 416 grams in all, 363 in the large cup. Why is rounding to hundreds a poor estimate here?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 416,
+        "b": 363
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_same_way",
+        "h_round_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, part d"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "They drive 87 kilometers before lunch and 59 after. Estimate the difference by rounding to the nearest 10.",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 87,
+        "b": 59,
+        "unit": 10
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_round_each"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 1a"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How is rounding to estimate a difference different from estimating a sum?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_same_way"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problem 1(b))"
+      }
+    },
+    {
+      "id": "q_sp_a1",
+      "kind": "practice",
+      "text": "Round 201 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 1
+      },
+      "rubric_id": "r_sp_a1",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1"
+      }
+    },
+    {
+      "id": "q_sp_a11",
+      "kind": "practice",
+      "text": "Round 490 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 11
+      },
+      "rubric_id": "r_sp_a11",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 11"
+      }
+    },
+    {
+      "id": "q_sp_a16",
+      "kind": "practice",
+      "text": "Round 7,890 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 16
+      },
+      "rubric_id": "r_sp_a16",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 16"
+      }
+    },
+    {
+      "id": "q_sp_a23",
+      "kind": "practice",
+      "text": "Round 350 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 23
+      },
+      "rubric_id": "r_sp_a23",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 23"
+      }
+    },
+    {
+      "id": "q_sp_a29",
+      "kind": "practice",
+      "text": "Round 649 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 29
+      },
+      "rubric_id": "r_sp_a29",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 29"
+      }
+    },
+    {
+      "id": "q_sp_a30",
+      "kind": "practice",
+      "text": "Round 651 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 30
+      },
+      "rubric_id": "r_sp_a30",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 30"
+      }
+    },
+    {
+      "id": "q_sp_a37",
+      "kind": "practice",
+      "text": "Round 9,998 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 37
+      },
+      "rubric_id": "r_sp_a37",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 37"
+      }
+    },
+    {
+      "id": "q_sp_a38",
+      "kind": "practice",
+      "text": "Round 7,049 to the nearest hundred.",
+      "asset_ids": [],
+      "stimulus": {
+        "sprint": "A",
+        "item": 38
+      },
+      "rubric_id": "r_sp_a38",
+      "hint_ids": [
+        "h_hundreds"
+      ],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 38"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "222",
+          "two hundred twenty-two",
+          "222 liters",
+          "two hundred twenty-two liters"
+        ]
+      },
+      "correct": "Says 222.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Use Subtraction Algorithm (450 L – 228 L)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred"
+        ]
+      },
+      "correct": "Says 200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 200.)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "170",
+          "one hundred seventy"
+        ]
+      },
+      "correct": "Says 170.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (360 – 190 ... which is 170)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "162",
+          "one hundred sixty-two"
+        ]
+      },
+      "correct": "Says 162.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 362 – 200 is 162.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "173",
+          "one hundred seventy-three"
+        ]
+      },
+      "correct": "Says 173.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Solve the problem; actual not printed)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both numbers rounded the same way (both down in one, both up in the other).",
+      "partial": "Says they are near halfway but not the direction.",
+      "incorrect": "Says one rounded up and one rounded down.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: In B both the numbers rounded down. And in C, both numbers rounded up... If we round them the same way, the difference is closer.)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "334",
+          "three hundred thirty-four"
+        ]
+      },
+      "correct": "Says 334.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: 534 – 200, and the answer is exactly right, 334.)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "218",
+          "two hundred eighteen",
+          "218 liters",
+          "two hundred eighteen liters"
+        ]
+      },
+      "correct": "Says 218.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer; 403 − 185)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "210",
+          "two hundred ten",
+          "210 liters",
+          "two hundred ten liters"
+        ]
+      },
+      "correct": "Says 210.",
+      "partial": "Gives a reasonable estimate by another method (for example 200 by hundreds).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem, part a"
+      }
+    },
+    {
+      "id": "r_ps_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "188",
+          "one hundred eighty-eight",
+          "188 liters",
+          "one hundred eighty-eight liters"
+        ]
+      },
+      "correct": "Says 188.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2b"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "53",
+          "fifty-three",
+          "53 grams",
+          "fifty-three grams"
+        ]
+      },
+      "correct": "Says 53.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, part c"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says both round to 400, so the estimate is 0, which is far from 53; rounding to tens (420 − 360 = 60) is much closer.",
+      "partial": "Says tens is closer but does not explain why hundreds fails.",
+      "incorrect": "Says the hundreds estimate is closest.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, part d"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty",
+          "30 kilometers",
+          "thirty kilometers"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": "Says 28 (the exact difference).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 1a"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says for differences, rounding both numbers the same way keeps the estimate close; for sums, one up and one down is closer.",
+      "partial": "Describes only subtraction or only addition.",
+      "incorrect": "Says they work the same way.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: So, it's different for subtraction than for addition... With addition the answer was closer when one number rounded down and one rounded up.)"
+      }
+    },
+    {
+      "id": "r_sp_a1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "200",
+          "two hundred"
+        ]
+      },
+      "correct": "Says 200.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 1"
+      }
+    },
+    {
+      "id": "r_sp_a11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "500",
+          "five hundred"
+        ]
+      },
+      "correct": "Says 500.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 11"
+      }
+    },
+    {
+      "id": "r_sp_a16",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7900",
+          "seven thousand nine hundred",
+          "7,900"
+        ]
+      },
+      "correct": "Says 7900.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 16"
+      }
+    },
+    {
+      "id": "r_sp_a23",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "400",
+          "four hundred"
+        ]
+      },
+      "correct": "Says 400.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 23"
+      }
+    },
+    {
+      "id": "r_sp_a29",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "600",
+          "six hundred"
+        ]
+      },
+      "correct": "Says 600.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 29"
+      }
+    },
+    {
+      "id": "r_sp_a30",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "700",
+          "seven hundred"
+        ]
+      },
+      "correct": "Says 700.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 30"
+      }
+    },
+    {
+      "id": "r_sp_a37",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "10000",
+          "ten thousand",
+          "10,000"
+        ]
+      },
+      "correct": "Says 10000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 37"
+      }
+    },
+    {
+      "id": "r_sp_a38",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "7000",
+          "seven thousand",
+          "7,000"
+        ]
+      },
+      "correct": "Says 7000.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Sprint A item 38"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_round_each",
+      "level": 1,
+      "text": "Round each number first. Then subtract the rounded numbers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "h_part",
+      "level": 2,
+      "text": "Is the part close to a hundred? Round just the part.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "h_same_way",
+      "level": 2,
+      "text": "Do both numbers round the same way? Then the estimate stays close.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "h_algorithm",
+      "level": 3,
+      "text": "Find the exact difference with the algorithm. Compare it with your estimate.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (Solve the problem)"
+      }
+    },
+    {
+      "id": "h_hundreds",
+      "level": 1,
+      "text": "Look at the tens digit. 5 tens or more rounds up.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Sprint (Round to the Nearest Hundred)"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_time_number_line",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Tick marks for each minute and labels at 5-minute intervals must be exact; hops must start and end at exact times.",
+      "description": "A horizontal number line (0 to 500) showing two numbers and the distance (difference) between them, before and after rounding.",
+      "must_show_exactly": [
+        "Both numbers plotted at their exact places",
+        "Rounded numbers plotted at their exact places",
+        "Distance between them shown as a bracket",
+        "q_pr_5: number line: 349 and 149, 351 and 154 with brackets"
+      ],
+      "states_or_frames": [
+        "exact numbers and distance",
+        "both rounded the same way",
+        "rounded in opposite directions"
+      ],
+      "interaction": "Tutor sets the range and points. Child can drag a point or hop. Child answers by voice or typing.",
+      "alt_text": "A number line labelled in minutes with hops.",
+      "used_by": [
+        "ex_349_149",
+        "exp_same_direction",
+        "q_pr_5"
+      ],
+      "generation_caption": "Horizontal number line with two dots and a bracket for the distance between them, flat colours. [Build by code]"
+    },
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Unit bars must be exactly equal and the number of units must be exact. Labels and the question mark must be placed exactly.",
+      "description": "A tape diagram: one long bar cut into equal units. A label shows the size of a unit or the total, and a question mark shows the unknown.",
+      "must_show_exactly": [
+        "Exactly the number of equal units given in the stimulus",
+        "All units the same length",
+        "Known value labelled, unknown shown as a question mark",
+        "q_app_1: tape: 403 L with 185 L removed"
+      ],
+      "states_or_frames": [
+        "empty bar",
+        "bar cut into units",
+        "labels and question mark shown"
+      ],
+      "interaction": "Display only, or child taps a unit to label it. Child answers by voice or typing.",
+      "alt_text": "A bar cut into equal parts with a question mark.",
+      "used_by": [
+        "q_app_1",
+        "q_ps_2"
+      ],
+      "generation_caption": "Clean horizontal bar divided into equal rectangular units, with a brace and a question mark, flat colours, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_sprint",
+      "name": "Timed Sprint A and Sprint B race",
+      "reason": "Timed paper race with scoring, standing and Sprint A versus Sprint B. The printed items are used as practice questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice: Sprint"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set items 1, 3; Homework item 3",
+      "issue": "The Problem Set 1 table and the fruit and meat weights (peach, ham) exist only as pictures. Not used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Estimate answers",
+      "issue": "Items that fix the rounding unit use exact keys (q_pr_1, q_pr_2, q_app_2, q_pr_9). Free-choice estimates are not asked as exact items. Check this split."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Sprint A and B item numbers",
+      "issue": "No printed numbers in the extract. Items numbered left column 1-22, right column 23-44. Check against the PDF."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Sprint items used",
+      "issue": "Used Sprint A items 1, 11, 16, 23, 29, 30, 37, 38 (just past a hundred, just under, four-digit, halfway rounds up, 649 vs 651, crossing 10,000, zero in the hundreds). Sprint B repeats these patterns; not used. All keys derived; recheck."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_pr_8, r_pr_8",
+      "issue": "The Exit Ticket asks which estimate was closer and why, without a printed answer. Key derived: both numbers round to 400 by hundreds, so tens is better."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Problem Set 2a; Homework 1b-c, 2 (Amy, 393 − 184), 4 (Kate, 506 − 252); Concept Development 496 − 209 left out (same patterns)."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source does not label a misconception. Proposal, not added: using the addition rule (round opposite ways) for subtraction estimates."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 222, 173, 218, 210, 188, 53, 30; Sprint: 200, 500, 7,900, 400, 600, 700, 10,000, 7,000. Recheck."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_estimate_sums (estimating sums by rounding, Lesson 17); ext_g3_m2_subtract_measurements (subtracting with the standard algorithm, Lessons 18-19). Replace with real card ids after review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_time_number_line, a_tape_diagram. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f19",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.NBT.1, 3.MD.2. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

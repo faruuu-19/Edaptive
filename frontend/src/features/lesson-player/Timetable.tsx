@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { useAuthStatus } from '@/features/auth';
 import { getProfile, listProfiles, type Profile } from '@/lib/api';
-import { deliveryAction, getSchoolRoutine, getTimetables, saveSchoolStartTime, type SchoolRoutine, type SavedTimetable } from '@/lib/lesson-delivery-api';
+import { deliveryAction, getSchoolRoutine, getTimetables, saveSchoolStartTime, type SchoolRoutine, type SavedTimetable, type LearningProgress, type MathsModulesByGrade } from '@/lib/lesson-delivery-api';
 import { childMessage } from '@/lib/friendly-error';
 import { LessonPlayer } from './LessonPlayer';
 import styles from './timetable.module.css';
@@ -16,13 +16,17 @@ import { useRouter } from 'next/navigation';
 
 const timeText = (ms: number) => new Intl.DateTimeFormat('en-PK', { timeZone: 'Asia/Karachi', month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit' }).format(ms);
 
-export function Timetable({ autoStart = false, studentId }: { autoStart?: boolean; studentId?: string } = {}) {
+export function Timetable({ autoStart = false, studentId, mathsModules = {} }: { autoStart?: boolean; studentId?: string; mathsModules?: MathsModulesByGrade } = {}) {
   const router = useRouter();
   const { status, error: authError, refresh } = useAuthStatus();
   const [profiles, setProfiles] = useState<Profile[]>([]);
   const [student, setStudent] = useState('');
   const [routine, setRoutine] = useState<SchoolRoutine | null>(null);
-  const [schedule, setSchedule] = useState<SavedTimetable | null>(null);
+  const [savedSchedule, setSchedule] = useState<SavedTimetable | null>(null);
+  const schedule = savedSchedule?.student_id === student ? savedSchedule : null;
+  const [savedProgress, setLearningProgress] = useState<LearningProgress | null>(null);
+  const [loadedStudent, setLoadedStudent] = useState('');
+  const learningProgress = loadedStudent === student ? savedProgress : null;
   const [startTime, setStartTime] = useState('');
   const [error, setError] = useState('');
   const [pollError, setPollError] = useState('');
@@ -36,7 +40,7 @@ export function Timetable({ autoStart = false, studentId }: { autoStart?: boolea
     const actor = status?.actor;
     if (!actor) return;
     (actor.role === 'parent' ? listProfiles() : getProfile(actor.student_id!).then(p => [p])).then(p => {
-      if (active) { setProfiles(p); setStudent(p.find(x => x.id === studentId)?.id ?? p[0]?.id ?? ''); }
+      if (active) { setProfiles(p); setStudent(current => p.find(x => x.id === studentId)?.id ?? p.find(x => x.id === current)?.id ?? p[0]?.id ?? ''); }
     }, e => { if (active) setError(e.message); });
     return () => { active = false; };
   }, [status, studentId]);
@@ -52,7 +56,7 @@ export function Timetable({ autoStart = false, studentId }: { autoStart?: boolea
     if (!student) return;
     let active = true; let timer: ReturnType<typeof setTimeout>;
     const poll = async () => {
-      try { const r = await getTimetables(student); if (active) { setSchedule(chooseDay(r.timetables)); setRoutine(r.routine); setPollError(''); setLoaded(true); } }
+      try { const r = await getTimetables(student); if (active) { setSchedule(chooseDay(r.timetables.filter(day => day.student_id === student))); setLearningProgress(r.learning_progress); setLoadedStudent(student); setRoutine(r.routine); setPollError(''); setLoaded(true); } }
       catch (e) { if (active) setPollError(parent ? (e as Error).message : childMessage(e)); }
       if (active) timer = setTimeout(poll, 1000);
     };
@@ -86,13 +90,14 @@ export function Timetable({ autoStart = false, studentId }: { autoStart?: boolea
   if (!status) return <p>Loading your timetable…</p>;
   if (!status.setup_complete) return <div className="stack"><h1>Set up your household</h1><p>Create your parent PIN and child profile to set a daily school start time.</p><Link className="btn btn-primary" href="/setup">Set up Edaptive</Link></div>;
   if (!status.actor) return <div className="stack"><h1>Your timetable</h1><p>Select a child profile or unlock the parent area.</p><Link className="btn btn-primary" href="/">Choose a profile</Link><Link className="btn" href="/parent">Parent area</Link></div>;
+  if (!parent && status.actor.student_id !== student) return <p>Loading your learning day…</p>;
 
   if (!parent && slot?.class_phase === 'started') return <div className="stack">
     <LessonPlayer key={slot.id} delivery={{ timetableId: schedule!.id, slotId: slot.id }} autoStart={playOnStart} onLeave={async () => { await action('exit', true); }} onFinished={() => void action('finish')} />
     {(error || pollError) && <p className="error" role="alert">{error || pollError}</p>}
   </div>;
 
-  if (!parent) return <ChildClass loaded={loaded} schedule={schedule} slot={slot} busy={busy} error={error || pollError} onJoin={() => void action('start')} onSnooze={() => void action('borrow')} onRejoin={() => void action('rejoin')} />;
+  if (!parent) return <ChildClass key={student} grade={profiles.find(p => p.id === student)?.grade} mathsModules={mathsModules} progress={learningProgress} loaded={loaded && loadedStudent === student} schedule={schedule} slot={slot} busy={busy} error={error || pollError} onJoin={() => void action('start')} onSnooze={() => void action('borrow')} onRejoin={() => void action('rejoin')} />;
 
   const active = schedule?.status === 'active';
   const remaining = slot ? Math.max(0, Math.ceil((slot.start_ms - schedule!.server_now_ms) / 1000)) : 0;

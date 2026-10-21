@@ -1,0 +1,1012 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l1_time_seconds_minutes",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-a-lesson-1.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 1",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "2.MD.7",
+    "3.MD.1",
+    "3.OA.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Seconds and minutes measure time. Time keeps going all the time, even when you stop measuring.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g2_tell_time_5_minutes",
+    "ext_g3_m1_multiplication"
+  ],
+  "explanations": [
+    {
+      "id": "exp_seconds",
+      "title": "Seconds",
+      "text": "A second is a very short time. Seconds are a unit of time. They are smaller than minutes.",
+      "asset_ids": [
+        "a_stopwatch"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "exp_minutes",
+      "title": "Minutes",
+      "text": "A minute is much longer than a second. There are 60 minutes in 1 hour.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 and Fluency: Minute Counting"
+      }
+    },
+    {
+      "id": "exp_continuous",
+      "title": "Time is continuous",
+      "text": "Time never stops. It always moves forward. A stopwatch only measures a little part of it.",
+      "asset_ids": [
+        "a_stopwatch"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Parts 1 and 3"
+      }
+    },
+    {
+      "id": "exp_feels",
+      "title": "How a minute feels",
+      "text": "A minute can feel fast or slow. But a minute is always the same amount of time.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_shoes",
+      "title": "Tying 8 shoes",
+      "text": "1 shoe takes 5 seconds. Count by fives 8 times: 5, 10, 15, 20, 25, 30, 35, 40. That is 40 seconds.",
+      "asset_ids": [
+        "a_stopwatch"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem and Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "ex_count_5_minutes",
+      "title": "Count by 5 minutes",
+      "text": "Start at 12 on the clock. Count 5, 10, 15, up to 60. 60 minutes is 1 hour.",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Tell Time on the Clock"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "Count by 5 minutes from 12 on the clock. How many minutes when you get back to 12?",
+      "asset_ids": [
+        "a_clock_widget"
+      ],
+      "stimulus": {
+        "count_by": 5
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_clock_numbers",
+        "h_count5"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Tell Time on the Clock"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "How many minutes are in a half hour?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_count5"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Minute Counting"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Count by sevens: 7, 14, 21. What number comes next?",
+      "asset_ids": [],
+      "stimulus": {
+        "step": 7,
+        "shown": [
+          7,
+          14,
+          21
+        ]
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_count5"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (sevens to 28)"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Ms. Bower takes 5 seconds to tie 1 shoe. How many seconds does it take to tie 8 shoes?",
+      "asset_ids": [
+        "a_stopwatch"
+      ],
+      "stimulus": {
+        "story": "tie_shoes",
+        "groups": 8,
+        "size": 5
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_count5"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Which unit is longer, a second or a minute?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_count5"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "We stopped the stopwatch. Did time stop? Explain.",
+      "asset_ids": [
+        "a_stopwatch"
+      ],
+      "stimulus": {},
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_stop_measuring"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "Is a stopwatch a good tool to measure how long it takes to turn 10 years old? Why?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_stop_measuring"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 3"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "A minute of talking feels faster than a minute of waiting. Is it still 1 minute?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_stop_measuring"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Jumping jack times: Maya 16, Riley 15, Jake 14, Nicholas 15, Adeline 17 seconds. Who was fastest?",
+      "asset_ids": [],
+      "stimulus": {
+        "times": {
+          "Maya": 16,
+          "Riley": 15,
+          "Jake": 14,
+          "Nicholas": 15,
+          "Adeline": 17
+        }
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 1"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Who took the exact same time: Maya 16, Riley 15, Jake 14, Nicholas 15, or Adeline 17 seconds?",
+      "asset_ids": [],
+      "stimulus": {
+        "times": {
+          "Maya": 16,
+          "Riley": 15,
+          "Jake": 14,
+          "Nicholas": 15,
+          "Adeline": 17
+        }
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "Jake took 14 seconds. Adeline took 17 seconds. How many seconds faster was Jake?",
+      "asset_ids": [],
+      "stimulus": {
+        "jake": 14,
+        "adeline": 17
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 3"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Samantha ran 100 meters in 19 seconds. Louie took 24 seconds. How many seconds faster was Samantha?",
+      "asset_ids": [],
+      "stimulus": {
+        "samantha": 19,
+        "louie": 24
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_subtract"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "Run times: Samantha 19, Melanie 22, Chester 26, Dominique 18, Louie 24 seconds. Who is the slowest?",
+      "asset_ids": [],
+      "stimulus": {
+        "times": {
+          "Samantha": 19,
+          "Melanie": 22,
+          "Chester": 26,
+          "Dominique": 18,
+          "Louie": 24
+        }
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Seconds and minutes both measure time. How are they different?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_count5"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "60",
+          "sixty"
+        ]
+      },
+      "correct": "Says 60.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Tell Time on the Clock (S: ... 55, 60)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty",
+          "30 minutes",
+          "thirty minutes"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Minute Counting (S: 30 minutes)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "28",
+          "twenty-eight"
+        ]
+      },
+      "correct": "Says 28.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting (sevens to 28)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "40",
+          "forty",
+          "40 seconds",
+          "forty seconds"
+        ]
+      },
+      "correct": "Says 40.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (40 seconds... the amount of time it takes Ms. Bower to tie 8 shoes)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "minute",
+          "a minute",
+          "minutes"
+        ]
+      },
+      "correct": "Says a minute.",
+      "partial": null,
+      "incorrect": "Says a second.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (Minutes are longer than seconds)"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no, time did not stop; we only stopped measuring (time is continuous).",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says yes, time stopped.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1 (S: Time didn't stop... We only stopped measuring.)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says no, a stopwatch is for short amounts of time.",
+      "partial": "Says no but gives no reason.",
+      "incorrect": "Says yes.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 3 (S: No! It's better for measuring an amount of time that is not very long.)"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "yes",
+          "yes, it is still 1 minute"
+        ]
+      },
+      "correct": "Says yes.",
+      "partial": null,
+      "incorrect": "Says no.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 2 (How long a minute feels can change... but the measurement always stays the same)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "Jake",
+          "jake"
+        ]
+      },
+      "correct": "Says Jake.",
+      "partial": null,
+      "incorrect": "Names any other student.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 1"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says Riley and Nicholas.",
+      "partial": "Names only one of Riley or Nicholas.",
+      "incorrect": "Names other students.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 2"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three",
+          "3 seconds",
+          "three seconds"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item 3"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five",
+          "5 seconds",
+          "five seconds"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "Chester",
+          "chester"
+        ]
+      },
+      "correct": "Says Chester.",
+      "partial": null,
+      "incorrect": "Names any other student.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says a second is shorter (smaller) than a minute, or a minute is longer.",
+      "partial": "Says they are different but not how.",
+      "incorrect": "Says a second is longer than a minute.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Parts 1-2 (seconds are smaller than minutes; minutes are longer than seconds)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_count5",
+      "level": 2,
+      "text": "Count by fives. Say one number for each group.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Minute Counting"
+      }
+    },
+    {
+      "id": "h_compare",
+      "level": 1,
+      "text": "Look at the times. A smaller number of seconds means faster.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket (fastest)"
+      }
+    },
+    {
+      "id": "h_subtract",
+      "level": 2,
+      "text": "Subtract the smaller time from the bigger time.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket (how many seconds faster)"
+      }
+    },
+    {
+      "id": "h_clock_numbers",
+      "level": 1,
+      "text": "Each number on the clock is 5 more minutes. Count from 12.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Tell Time on the Clock"
+      }
+    },
+    {
+      "id": "h_stop_measuring",
+      "level": 3,
+      "text": "Think: did time stop, or did we only stop measuring?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_clock_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Hand positions must show an exact time to the minute. Image models draw clocks with wrong numbers and hand positions.",
+      "description": "An analog clock with numbers 1-12, 60 minute tick marks, a short hour hand and a long minute hand.",
+      "must_show_exactly": [
+        "Numbers 1-12 in the correct places",
+        "60 minute marks, longer marks at every 5 minutes",
+        "Hands set exactly to the time in the stimulus (hour hand moves between numbers as minutes pass)",
+        "q_pk_1: clock, finger moves 12 → 1 → ... → 12"
+      ],
+      "states_or_frames": [
+        "static time from the stimulus",
+        "minute hand moving in 5-minute jumps",
+        "child-settable hands"
+      ],
+      "interaction": "Tutor sets the time. In 'set' mode the child drags the hands. Child answers by voice or typing.",
+      "alt_text": "An analog clock showing a time.",
+      "used_by": [
+        "ex_count_5_minutes",
+        "q_pk_1"
+      ],
+      "generation_caption": "Clean analog clock face with numbers 1 to 12, minute ticks, short hour hand and long minute hand, flat style. [Build by code]"
+    },
+    {
+      "asset_id": "a_stopwatch",
+      "status": "not_available",
+      "kind": "static_illustration",
+      "recommended_method": "scene_by_code_with_icon_art",
+      "diffusion_suitable": "icon_only_then_code_layout",
+      "why_this_method": "Story with exact counts. Diffusion may draw one icon only. Code places the exact number of copies.",
+      "description": "A simple stopwatch display that counts seconds, with a start button and a stop/reset button.",
+      "must_show_exactly": [
+        "Digital display showing exact whole seconds from the stimulus",
+        "Two buttons: start (right) and stop/reset (left)",
+        "q_app_1: stopwatch counts to 40 seconds"
+      ],
+      "states_or_frames": [
+        "0 seconds",
+        "counting up 1 second at a time",
+        "stopped at the stimulus value"
+      ],
+      "interaction": "Display only. Child answers by voice or typing.",
+      "alt_text": "A stopwatch counting seconds.",
+      "used_by": [
+        "ex_shoes",
+        "exp_continuous",
+        "exp_seconds",
+        "q_app_1",
+        "q_pr_2"
+      ],
+      "generation_caption": "ICON ONLY: one plain stopwatch body with no numbers on it, flat style. (Code draws the digits.) (Code tiles the exact count.)"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_stopwatch",
+      "name": "Timing real activities with a stopwatch (arrays, jumping jacks, relay, walking to seats)",
+      "reason": "Needs real movement and a real stopwatch. The tutor cannot see or time the child's activity.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development and Problem Set"
+      }
+    },
+    {
+      "id": "na_estimate_walk",
+      "name": "Estimating and timing the walk from carpet to seats",
+      "reason": "A whole-class physical activity with no fixed answer.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Part 1"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set items 1-2",
+      "issue": "The Problem Set is a stopwatch measuring task and a 100 meter relay. There are no fixed answers. Not used as questions."
+    },
+    {
+      "id": "f7",
+      "severity": "high",
+      "item": "Homework item 5 (Match the analog clock with the digital clock)",
+      "issue": "Exists only as pictures; not in the extract. Not used. Needs vision extraction."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Homework item 4 (list home activities for 30, 45, 60 seconds)",
+      "issue": "Open personal list with no answer key. Not used."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "q_pr_5, q_pr_6, q_pr_9",
+      "issue": "These questions read the whole time table aloud. On screen, consider showing the table instead. Key derived from the table."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "q_pr_4",
+      "issue": "Question text contains '1 minute'; the answer is yes/no, not the number. Check the item."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "Fluency: Tell Time on the Clock (11:10, 6:30)",
+      "issue": "Reading times from the demonstration clock needs the clock widget and an exact time format key. Not used; add once the clock widget exists."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposal, not added: thinking time stops when the stopwatch stops (the lesson addresses this as a question)."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Exit Ticket and Homework keys are read from the printed tables. Recheck: Jake fastest; Riley and Nicholas same; 17 − 14 = 3; 24 − 19 = 5; Chester slowest."
+    },
+    {
+      "id": "f14",
+      "severity": "low",
+      "item": "No Sprint",
+      "issue": "This lesson has no Sprint."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g2_tell_time_5_minutes (Grade 2 telling time to the nearest 5 minutes, named in the fluency notes); ext_g3_m1_multiplication (the Application Problem uses 8 groups of 5 from Module 1). Replace with real card ids after review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f17",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f18",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 2 assets are marked not_available: a_clock_widget, a_stopwatch. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f19",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f20",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 2.MD.7, 3.MD.1, 3.OA.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

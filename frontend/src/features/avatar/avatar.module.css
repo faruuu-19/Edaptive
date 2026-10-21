@@ -1,0 +1,70 @@
+/* The artwork has a transparent background, so the teacher stands directly on the page. */
+.frame {
+  width: 300px;
+  max-width: 100%;
+  aspect-ratio: 1;
+}
+
+.art {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+.bob {
+  --dip: 0px;
+  transform-origin: 50% 100%;
+  transform: translateY(var(--dip));
+  animation: breathe 4.2s ease-in-out infinite;
+}
+
+.talking .bob {
+  animation-duration: 2.6s;
+}
+
+@keyframes breathe {
+  0%, 100% { scale: 1; }
+  50% { scale: 1.006; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bob { animation: none; }
+}
+
+/* The 3D teacher: a wide, transparent canvas, so an outstretched arm or a raised hand is never cut off. */
+.stage3d {
+  position: relative;
+  width: 460px;
+  max-width: 100%;
+  aspect-ratio: 460 / 427;
+}
+
+.host {
+  width: 100%;
+  height: 100%;
+}
+
+.loading {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  color: var(--muted);
+  text-align: center;
+}
+
+.changing {
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 4px 14px;
+  border: 2px solid var(--ink);
+  border-radius: 20px;
+  background: var(--notice);
+  font-size: .9rem;
+  white-space: nowrap;
+}

@@ -48,11 +48,20 @@ export async function checkHealth(): Promise<boolean> {
 
 export type AuthStatus = { setup_complete: boolean; actor: Actor | null };
 
+export const AUTH_CHANGED_EVENT = 'edaptive-auth-changed';
+async function authPost(path: string, body?: unknown) {
+  await post<void>(path, body);
+  if (typeof window !== 'undefined') {
+    window.dispatchEvent(new Event(AUTH_CHANGED_EVENT));
+    try { localStorage.setItem(AUTH_CHANGED_EVENT, crypto.randomUUID()); } catch { /* storage may be disabled */ }
+  }
+}
+
 export const getAuthStatus = () => request<AuthStatus>("/api/auth/status");
 export const setupHousehold = (pin: string) => post<void>("/api/auth/setup", { pin });
-export const unlockParent = (pin: string) => post<void>("/api/auth/parent", { pin });
-export const pickProfile = (studentId: string) => post<void>("/api/auth/student", { student_id: studentId });
-export const signOut = () => post<void>("/api/auth/logout");
+export const unlockParent = (pin: string) => authPost("/api/auth/parent", { pin });
+export const pickProfile = (studentId: string) => authPost("/api/auth/student", { student_id: studentId });
+export const signOut = () => authPost("/api/auth/logout");
 
 // --- profiles -----------------------------------------------------------------------
 
@@ -65,7 +74,7 @@ export const createProfile = (input: ProfileInput) => post<Profile>("/api/profil
 export const updateProfile = (id: string, input: Partial<ProfileInput>) =>
   request<Profile>(`/api/profiles/${id}`, { method: "PATCH", body: JSON.stringify(input) });
 // Permanently deletes the child and their stored data. The parent PIN is asked again.
-export const unenrollProfile = (id: string, pin: string) => post<void>(`/api/profiles/${id}/unenroll`, { pin });
+export const unenrollProfile = (id: string, pin: string) => authPost(`/api/profiles/${id}/unenroll`, { pin });
 
 // --- session log --------------------------------------------------------------------
 

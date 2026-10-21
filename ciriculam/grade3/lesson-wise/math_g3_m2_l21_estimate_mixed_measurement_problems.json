@@ -1,0 +1,1041 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l21_estimate_mixed_measurement_problems",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-e-lesson-21.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 21",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.OA.1",
+    "3.MD.2",
+    "3.NBT.2"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Estimate sums and differences of measurements by rounding. Then solve exactly and check that the answer is reasonable.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_estimate_sums_differences"
+  ],
+  "explanations": [
+    {
+      "id": "exp_estimate_first",
+      "title": "Estimate, then solve",
+      "text": "First round to estimate. Then use the standard algorithm. Compare the two answers.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (round to estimate, then use the standard algorithm)"
+      }
+    },
+    {
+      "id": "exp_reasonable",
+      "title": "Is it reasonable?",
+      "text": "If the exact answer is close to the estimate, it is reasonable. If it is far away, check your work.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (use estimates to assess the reasonableness of actual answers)"
+      }
+    },
+    {
+      "id": "exp_choose_rounding",
+      "title": "Choose how to round",
+      "text": "238 rounds to 240 by tens and 200 by hundreds. Tens gives a closer estimate here.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (Which gives a closer estimate?)"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_balloons",
+      "title": "Two water balloons",
+      "text": "238 plus 238 is 476. Tens estimate: 240 plus 240 is 480. Hundreds estimate: 200 plus 200 is 400. Tens is closer.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "ex_rice_beans",
+      "title": "Rice and beans",
+      "text": "58 grams and 91 grams. Estimate 60 plus 90 is 150. Exact total 149 grams. That is reasonable.",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1 (materials: 58 g rice, 91 g beans)"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "495 liters plus 126 liters equals what number?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 495,
+        "b": 126
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Use Algorithms with Different Units (495 L + 126 L)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Round to the nearest ten. About how much is 71 minus 23?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 71,
+        "b": 23
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Estimate and Subtract"
+      }
+    },
+    {
+      "id": "q_app_1",
+      "kind": "application",
+      "text": "Each water balloon has 238 milliliters. How many milliliters are in two balloons?",
+      "asset_ids": [],
+      "stimulus": {
+        "each_ml": 238,
+        "count": 2
+      },
+      "rubric_id": "r_app_1",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_app_2",
+      "kind": "application",
+      "text": "Estimate two 238 milliliter balloons by rounding to tens, then to hundreds. Which estimate is closer?",
+      "asset_ids": [],
+      "stimulus": {
+        "each_ml": 238,
+        "actual": 476
+      },
+      "rubric_id": "r_app_2",
+      "hint_ids": [
+        "h_round",
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "q_ps_1a",
+      "kind": "practice",
+      "text": "Rice weighs 58 grams and beans weigh 91 grams. What is the actual total weight?",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "stimulus": {
+        "rice_g": 58,
+        "beans_g": 91
+      },
+      "rubric_id": "r_ps_1a",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1 (materials: 58 g, 91 g)"
+      }
+    },
+    {
+      "id": "q_ps_1b",
+      "kind": "practice",
+      "text": "Beans weigh 91 grams and rice weighs 58 grams. Estimate the difference by rounding to the nearest ten.",
+      "asset_ids": [
+        "a_scale_widget"
+      ],
+      "stimulus": {
+        "a": 91,
+        "b": 58,
+        "unit": 10
+      },
+      "rubric_id": "r_ps_1b",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1 (difference estimate)"
+      }
+    },
+    {
+      "id": "q_ps_2a",
+      "kind": "practice",
+      "text": "Yarn A is 64 centimeters and Yarn C is 38 centimeters. What is their actual total length?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "a_cm": 64,
+        "c_cm": 38
+      },
+      "rubric_id": "r_ps_2a",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2a (materials: A 64 cm, C 38 cm)"
+      }
+    },
+    {
+      "id": "q_ps_2b",
+      "kind": "practice",
+      "text": "Yarns A and C total 102 centimeters. Yarn B is 88 centimeters. What is the actual difference?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "total_cm": 102,
+        "b_cm": 88
+      },
+      "rubric_id": "r_ps_2b",
+      "hint_ids": [
+        "h_tape",
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2b"
+      }
+    },
+    {
+      "id": "q_ps_3a",
+      "kind": "practice",
+      "text": "Containers hold 212, 238 and 195 milliliters. Round each to the nearest 10 and add. What is the estimate?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "amounts_ml": [
+          212,
+          238,
+          195
+        ],
+        "unit": 10
+      },
+      "rubric_id": "r_ps_3a",
+      "hint_ids": [
+        "h_round"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3b (estimate)"
+      }
+    },
+    {
+      "id": "q_ps_3b",
+      "kind": "practice",
+      "text": "Containers hold 212, 238 and 195 milliliters. What is the actual total?",
+      "asset_ids": [
+        "a_beaker_widget"
+      ],
+      "stimulus": {
+        "amounts_ml": [
+          212,
+          238,
+          195
+        ]
+      },
+      "rubric_id": "r_ps_3b",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3b (actual)"
+      }
+    },
+    {
+      "id": "q_ps_4",
+      "kind": "practice",
+      "text": "A movie with trailers is 115 minutes. The trailers are 5, 4, 3, 5 and 4 minutes. How long is the movie without them?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "total": 115,
+        "trailers": [
+          5,
+          4,
+          3,
+          5,
+          4
+        ]
+      },
+      "rubric_id": "r_ps_4",
+      "hint_ids": [
+        "h_tape",
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Rogelio drinks 237, 300 and 177 milliliters at three meals. How much does he drink in all?",
+      "asset_ids": [],
+      "stimulus": {
+        "amounts_ml": [
+          237,
+          300,
+          177
+        ]
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item a"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Mr. Williams sells 367 liters of gas in the morning and 219 in the evening. How many more in the morning?",
+      "asset_ids": [],
+      "stimulus": {
+        "a": 367,
+        "b": 219
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_algorithm"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2b"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "How can an estimate show that your exact answer is reasonable?",
+      "asset_ids": [],
+      "stimulus": {},
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_compare"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "621",
+          "six hundred twenty-one",
+          "621 liters",
+          "six hundred twenty-one liters"
+        ]
+      },
+      "correct": "Says 621.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Use Algorithms with Different Units (495 L + 126 L)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "50",
+          "fifty"
+        ]
+      },
+      "correct": "Says 50.",
+      "partial": "Says 48 (the exact difference).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Estimate and Subtract (S: 50.)"
+      }
+    },
+    {
+      "id": "r_app_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "476",
+          "four hundred seventy-six",
+          "476 milliliters",
+          "four hundred seventy-six milliliters"
+        ]
+      },
+      "correct": "Says 476.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem (source gives no answer; 238 + 238)"
+      }
+    },
+    {
+      "id": "r_app_2",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says tens (480) is closer than hundreds (400) to the actual 476.",
+      "partial": "Names tens but gives no estimates, or gives both estimates without choosing.",
+      "incorrect": "Says the hundreds estimate is closer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Application Problem"
+      }
+    },
+    {
+      "id": "r_ps_1a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "149",
+          "one hundred forty-nine",
+          "149 grams",
+          "one hundred forty-nine grams"
+        ]
+      },
+      "correct": "Says 149.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1 (materials: 58 g, 91 g)"
+      }
+    },
+    {
+      "id": "r_ps_1b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "30",
+          "thirty",
+          "30 grams",
+          "thirty grams"
+        ]
+      },
+      "correct": "Says 30.",
+      "partial": "Says 33 (the exact difference).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 1 (difference estimate)"
+      }
+    },
+    {
+      "id": "r_ps_2a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "102",
+          "one hundred two",
+          "102 centimeters",
+          "one hundred two centimeters"
+        ]
+      },
+      "correct": "Says 102.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2a (materials: A 64 cm, C 38 cm)"
+      }
+    },
+    {
+      "id": "r_ps_2b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "14",
+          "fourteen",
+          "14 centimeters",
+          "fourteen centimeters"
+        ]
+      },
+      "correct": "Says 14.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2b"
+      }
+    },
+    {
+      "id": "r_ps_3a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "650",
+          "six hundred fifty",
+          "650 milliliters",
+          "six hundred fifty milliliters"
+        ]
+      },
+      "correct": "Says 650.",
+      "partial": "Says 645 (the exact total).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3b (estimate)"
+      }
+    },
+    {
+      "id": "r_ps_3b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "645",
+          "six hundred forty-five",
+          "645 milliliters",
+          "six hundred forty-five milliliters"
+        ]
+      },
+      "correct": "Says 645.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3b (actual)"
+      }
+    },
+    {
+      "id": "r_ps_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "94",
+          "ninety-four",
+          "94 minutes",
+          "ninety-four minutes"
+        ]
+      },
+      "correct": "Says 94.",
+      "partial": "Says 21 (the trailers only).",
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 4"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "714",
+          "seven hundred fourteen",
+          "714 milliliters",
+          "seven hundred fourteen milliliters"
+        ]
+      },
+      "correct": "Says 714.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Exit Ticket, item a"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "148",
+          "one hundred forty-eight",
+          "148 liters",
+          "one hundred forty-eight liters"
+        ]
+      },
+      "correct": "Says 148.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 2b"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says if the exact answer is close to the estimate it makes sense; if it is far off, you should check your work.",
+      "partial": "Says to compare them but not what to look for.",
+      "incorrect": "Says the estimate is the answer.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (use their estimates to assess the reasonableness of actual answers)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_round",
+      "level": 1,
+      "text": "Round each number first, then add or subtract.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "h_algorithm",
+      "level": 2,
+      "text": "Use the standard algorithm. Unbundle or rename where needed.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Use Algorithms with Different Units"
+      }
+    },
+    {
+      "id": "h_compare",
+      "level": 2,
+      "text": "Compare your exact answer with your estimate. Are they close?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (assess the reasonableness)"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 3,
+      "text": "Draw a tape diagram. Find the total first, then the difference.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2b (Model the problem with a tape diagram.)"
+      }
+    },
+    {
+      "id": "h_skip",
+      "level": 1,
+      "text": "Skip-count and track the groups on your fingers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Group Counting"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Unit bars must be exactly equal and the number of units must be exact. Labels and the question mark must be placed exactly.",
+      "description": "A tape diagram: one long bar cut into equal units. A label shows the size of a unit or the total, and a question mark shows the unknown.",
+      "must_show_exactly": [
+        "Exactly the number of equal units given in the stimulus",
+        "All units the same length",
+        "Known value labelled, unknown shown as a question mark",
+        "q_ps_2b: tape: A + C = 102 cm above B = 88 cm, difference ?",
+        "q_ps_4: tape: 115 minutes with 21 minutes of trailers"
+      ],
+      "states_or_frames": [
+        "empty bar",
+        "bar cut into units",
+        "labels and question mark shown"
+      ],
+      "interaction": "Display only, or child taps a unit to label it. Child answers by voice or typing.",
+      "alt_text": "A bar cut into equal parts with a question mark.",
+      "used_by": [
+        "q_ps_2a",
+        "q_ps_2b",
+        "q_ps_4"
+      ],
+      "generation_caption": "Clean horizontal bar divided into equal rectangular units, with a brace and a question mark, flat colours, white background. [Build by code]"
+    },
+    {
+      "asset_id": "a_scale_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "The pointer must point to an exact reading on an exactly labelled dial or number line.",
+      "description": "A digital scale showing a bag of rice (58 g) and a bag of beans (91 g).",
+      "must_show_exactly": [
+        "Rice bag: exactly 58 g",
+        "Beans bag: exactly 91 g",
+        "Unit g shown"
+      ],
+      "states_or_frames": [
+        "rice on scale",
+        "beans on scale"
+      ],
+      "interaction": "Tutor sets the reading. Child answers by voice or typing.",
+      "alt_text": "A scale with a pointer showing a mass.",
+      "used_by": [
+        "ex_rice_beans",
+        "q_ps_1a",
+        "q_ps_1b"
+      ],
+      "generation_caption": "Simple flat kitchen scale with a round dial, evenly spaced tick marks, pointer, plain background. [Build by code]"
+    },
+    {
+      "asset_id": "a_beaker_widget",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Liquid level and scale marks must be exact.",
+      "description": "Three containers: D with 212 mL, E with 238 mL, F with 195 mL, each poured into a 400 mL beaker.",
+      "must_show_exactly": [
+        "Beaker scale 0-400 mL",
+        "D exactly 212 mL",
+        "E exactly 238 mL",
+        "F exactly 195 mL"
+      ],
+      "states_or_frames": [
+        "D in beaker",
+        "E in beaker",
+        "F in beaker"
+      ],
+      "interaction": "Tutor sets the scale and level. Child answers by voice or typing.",
+      "alt_text": "A container with a scale, filled with water.",
+      "used_by": [
+        "q_ps_3a",
+        "q_ps_3b"
+      ],
+      "generation_caption": "Clear flat beaker with a vertical scale of evenly spaced marks and blue water inside, plain background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_measure_groups",
+      "name": "Group measuring of rice, yarn and liquids",
+      "reason": "Hands-on measuring in groups. The pre-measured values in the materials list (58 g, 91 g, 64 cm, 88 cm, 38 cm, 212 mL, 238 mL, 195 mL) are used instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development (materials description)"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Homework item 4 (banners)",
+      "issue": "The banner lengths exist only as a picture. Not used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Problem Set values",
+      "issue": "Problem Set items 1-3 ask students to measure. The card uses the teacher's pre-measured values from the materials list. If a class measures differently, the keys do not apply."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "Estimate answers",
+      "issue": "Items that fix the rounding unit use exact keys (q_ps_1b, q_ps_3a). q_app_2 asks for a comparison with an open rubric."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Fluency repeats, Problem Set 3c (D vs E), Exit Ticket b (300 − 177), Homework 1 (153 + 459, 459 − 153), 2a, 3 (relay) repeat used patterns."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposal, not added: giving the exact answer when asked for an estimate (linked as partial in several rubrics)."
+    },
+    {
+      "id": "f11",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 621, 50, 476, 149, 30, 102, 14, 650, 645, 94, 714, 148. Recheck."
+    },
+    {
+      "id": "f12",
+      "severity": "low",
+      "item": "No Sprint",
+      "issue": "This lesson has no Sprint."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_estimate_sums_differences (estimating sums and differences, Lessons 17 and 20). Replace with real card ids after review."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f16",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 3 assets are marked not_available: a_tape_diagram, a_scale_widget, a_beaker_widget. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f18",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.OA.1, 3.MD.2, 3.NBT.2. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

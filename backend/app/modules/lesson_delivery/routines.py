@@ -1,4 +1,4 @@
-"""System-owned daily schedule, strict curriculum order and persistent progress."""
+"""System-owned daily schedule, available grade-order lessons and persistent progress."""
 
 import copy
 import os
@@ -12,7 +12,7 @@ from app.core.household import get_active_profile
 
 from .curriculum import synchronize
 from .models import LearningProgress, SchoolRoutine, Timetable
-from .runtime import close_day_if_over, settle_attendance, shift, voice_request
+from .runtime import can_rejoin, close_day_if_over, settle_attendance, settle_due, shift, voice_request
 
 SCHOOL_ZONE = ZoneInfo("Asia/Karachi")
 BREAK_MINUTES = 5
@@ -150,7 +150,7 @@ def make_timetable(db, routine, cards, start, required=None):
         "allow_drafts": allow_drafts,
         "voice": "af_heart",
         "school_date": start.date().isoformat(),
-        "planning_policy": "strict_curriculum_order",
+        "planning_policy": "available_grade_order",
     }
     append_coming_soon(state)
     row = Timetable(student_id=routine.student_id, household_id=routine.household_id, state=state)
@@ -171,9 +171,13 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
         .with_for_update()
     )
     if active:
+        # Expiry must run before deciding whether a live timetable can be replaced.
+        settle_due(db, active, now.timestamp() * 1000)
         state = copy.deepcopy(active.state)
         append_coming_soon(state)
-        started = any(s["status"] == "started" for s in state["slots"])
+        started = any(
+            s["status"] == "started" or can_rejoin(s, now.timestamp() * 1000) for s in state["slots"]
+        )
         missed = state.get("school_date", "9999") < now.astimezone(SCHOOL_ZONE).date().isoformat()
         now_ms = now.timestamp() * 1000
         if (changed or missed) and not started:
@@ -197,6 +201,8 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
                 lesson = state["slots"][index]
                 shift(state, index, at.timestamp() * 1000 - lesson["start_ms"])
                 lesson.update(borrowed_minutes=0)
+                for key in ("delay_notice", "delayed_from_ms", "delay_minutes"):
+                    lesson.pop(key, None)
                 lesson.pop("attendance", None)
                 if lesson.get("preparation", {}).get("status") in {"cancelled", "failed"}:
                     # A cancelled or failed job is never reused: prepare again when the new time comes.
@@ -213,7 +219,9 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
         active.state = state
         if active.status != "active":
             active = None  # the day is complete: the next school day is planned below
-        elif any(s["kind"] == "lesson" and s["status"] in {"planned", "started"} for s in state["slots"]):
+        elif any(
+            s["kind"] == "lesson" and s["status"] in {"planned", "started", "exited"} for s in state["slots"]
+        ):
             if force or db.get(LearningProgress, routine.student_id) is None:
                 try:
                     synchronize(
@@ -249,12 +257,7 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
         routine.message = "The next Maths lesson needs content review before delivery."
     elif card is None:
         routine.status = "content_unavailable"
-        routine.message = (
-            f"Waiting for Maths Module {required['module']}, Lesson {required['lesson']}. "
-            "The system will not skip it."
-            if required
-            else "All indexed Maths lessons have been delivered. Waiting for the next curriculum stage."
-        )
+        routine.message = "No further reviewed Maths lesson pairs are available for this grade yet."
     if active:
         if card:
             state = copy.deepcopy(active.state)
@@ -278,6 +281,6 @@ def refresh_routine(db, routine, cards_loader=None, changed=False, force=False):
     )
 
 
-def maintain_routines(db):
+def maintain_routines(db, cards_loader=None):
     for routine in db.scalars(select(SchoolRoutine).with_for_update(skip_locked=True)):
-        refresh_routine(db, routine)
+        refresh_routine(db, routine, cards_loader)

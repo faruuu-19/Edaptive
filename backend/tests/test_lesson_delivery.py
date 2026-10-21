@@ -142,7 +142,8 @@ def test_start_position_reload_finish_events_are_real(parent_client, student_cli
     result = create_plan(parent_client, child)
     _, slot = prepared(db, result)
     monkeypatch.setattr(runtime.time, "time", lambda: slot["start_ms"] / 1000 + 1)
-    assert action(student_client, result, slot, "start").status_code == 200
+    response = action(student_client, result, slot, "start")
+    assert response.status_code == 200, response.text
     assert db.get(LearningProgress, uuid.UUID(child["id"])).state["modules"][0]["status"] == "in_progress"
     assert action(student_client, result, slot, "position", position=2).status_code == 409
     assert action(student_client, result, slot, "finish").status_code == 409
@@ -388,6 +389,19 @@ def test_parent_cannot_read_another_households_routine_or_mark_narration(parent_
     )
 
 
+def test_leaving_a_class_still_saves_when_voice_cleanup_fails(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+
+    def unavailable(*args, **kwargs):
+        raise ValueError("The local voice service is restarting")
+
+    monkeypatch.setattr(runtime, "voice_request", unavailable)
+    assert action(student_client, result, slot, "exit").status_code == 200
+    assert db.get(Timetable, uuid.UUID(result["id"])).state["slots"][0]["status"] == "exited"
+
+
 def _voice(monkeypatch, *, job, lesson=None):
     def fake(path, payload=None, timeout=5):
         if path.endswith("/lesson"):
@@ -400,7 +414,7 @@ def _voice(monkeypatch, *, job, lesson=None):
 
 
 FINISHED = {"status": "ready", "percent": 100, "message": "Lesson ready", "completed": 84, "total": 84}
-LESSON = {"segments": [{"id": "a"}, {"id": "b"}], "timing": TIMING}
+LESSON = {"concept_id": CID, "segments": [{"id": "a"}, {"id": "b"}], "timing": TIMING}
 
 
 def test_a_finished_voice_job_becomes_ready_not_stuck_at_98(
@@ -414,7 +428,7 @@ def test_a_finished_voice_job_becomes_ready_not_stuck_at_98(
     slot = state["slots"][0]
     assert slot["preparation"]["status"] == "ready"
     assert slot["preparation"]["percent"] == 100
-    assert slot["segment_count"] == 2 and slot["timing"] == TIMING
+    assert slot["segment_count"] == 2 and slot["timing"] == {**TIMING, "minutes": 20}
     # Saved like the worker saves it, the child can now join at class time.
     row.state = state
     db.flush()
@@ -451,6 +465,77 @@ def started_class(parent_client, student_client, child, db, monkeypatch):
     monkeypatch.setattr(runtime.time, "time", lambda: slot["start_ms"] / 1000 + 1)
     assert action(student_client, result, slot, "start").status_code == 200
     return result, slot
+
+
+def test_voice_is_reserved_before_timetable_row_is_locked(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    _, slot = prepared(db, result)
+    monkeypatch.setattr(runtime.time, "time", lambda: slot["start_ms"] / 1000 + 1)
+    original_owned = router.owned
+    locked = False
+
+    def observe_owned(*args, **kwargs):
+        nonlocal locked
+        if len(args) > 3 and args[3] or kwargs.get("lock"):
+            locked = True
+        return original_owned(*args, **kwargs)
+
+    def service(path, *args):
+        if path.endswith("/reserve"):
+            assert not locked, "voice loading must finish before the timetable lock is taken"
+        return {"reserved": True}
+
+    monkeypatch.setattr(router, "owned", observe_owned)
+    monkeypatch.setattr(runtime, "voice_request", service)
+    assert action(student_client, result, slot, "start").status_code == 200
+    assert locked
+
+
+def test_schedule_cancelled_during_voice_loading_cannot_start_class(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    row, slot = prepared(db, result)
+    monkeypatch.setattr(runtime.time, "time", lambda: slot["start_ms"] / 1000 + 1)
+    calls = []
+
+    def service(path, *args):
+        calls.append(path)
+        if path.endswith("/reserve"):
+            row.status = "cancelled"
+            db.flush()
+        return {"reserved": True}
+
+    monkeypatch.setattr(runtime, "voice_request", service)
+    assert action(student_client, result, slot, "start").status_code == 409
+    assert any(path.endswith("/release") for path in calls)
+    assert not any(kind == "session.started" for kind, _ in delivery_actions(db, child))
+
+
+def test_narration_rejects_a_shortened_prepared_lesson_without_reserving_voice(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    state = copy.deepcopy(row.state)
+    state["slots"][0]["position"] = 2
+    row.state = state
+    db.flush()
+    calls = []
+
+    def prepared_lesson(path, *args):
+        calls.append(path)
+        return {"concept_id": CID, "segments": [{"id": "only"}]}
+
+    monkeypatch.setattr(router, "voice_request", prepared_lesson)
+    response = student_client.post(
+        f"/api/lesson_delivery/{result['id']}/narrate",
+        json={"slot_id": slot["id"], "segment_id": "only", "voice": "af_heart"},
+    )
+    assert response.status_code == 409
+    assert not any(path.endswith("/reserve") for path in calls)
 
 
 def day_slots(parent_client, child):
@@ -505,6 +590,7 @@ def test_a_child_can_rejoin_where_they_stopped_until_class_time_ends(
     assert action(student_client, result, slot, "position", position=1).status_code == 200
     first = day_slots(parent_client, child)[0]["session_id"]
     assert action(student_client, result, slot, "exit").status_code == 200
+    assert action(student_client, result, slot, "start").status_code == 409
     calls = []
     monkeypatch.setattr(runtime, "voice_request", lambda *a, **k: calls.append(a[0]) or {"reserved": True})
     back = action(student_client, result, slot, "rejoin")
@@ -512,6 +598,7 @@ def test_a_child_can_rejoin_where_they_stopped_until_class_time_ends(
     out = back.json()["slots"][0]
     assert out["class_phase"] == "started" and out["position"] == 1
     assert out["session_id"] != first and out["exit_count"] == 1
+    assert out["end_ms"] - out["started_at_ms"] == 20 * 60000
     assert any(path.endswith("/reserve") for path in calls)
     assert len([k for k in delivery_actions(db, child) if k[0] == "session.started"]) == 2
 
@@ -530,13 +617,15 @@ def test_after_class_time_ends_the_lesson_is_left_early_and_cannot_be_rejoined(
     assert after["slots"][0]["class_phase"] == "unfinished"
 
 
-def test_a_child_can_leave_at_most_twice(parent_client, student_client, child, db, monkeypatch):
+def test_repeated_exits_keep_rejoin_available_until_deadline(
+    parent_client, student_client, child, db, monkeypatch
+):
     result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
     assert action(student_client, result, slot, "exit").status_code == 200
     assert action(student_client, result, slot, "rejoin").status_code == 200
     second = action(student_client, result, slot, "exit")
-    assert second.status_code == 200 and second.json()["slots"][0]["class_phase"] == "unfinished"
-    assert action(student_client, result, slot, "rejoin").status_code == 409
+    assert second.status_code == 200 and second.json()["slots"][0]["class_phase"] == "exited"
+    assert action(student_client, result, slot, "rejoin").status_code == 200
 
 
 def test_a_lost_connection_counts_as_leaving(parent_client, student_client, child, db, monkeypatch):
@@ -588,11 +677,11 @@ def test_finishing_the_lesson_marks_the_child_present(parent_client, student_cli
     ("parts", "status", "reason"),
     [
         (6, "absent", "left_early"),
-        (7, "present", "left_after_threshold"),
-        (9, "present", "left_after_threshold"),
+        (7, "absent", "left_early"),
+        (9, "absent", "left_early"),
     ],
 )
-def test_leaving_is_present_only_from_70_percent_and_is_settled_when_class_time_ends(
+def test_not_rejoining_marks_absent_at_end_regardless_of_parts_heard(
     parent_client, student_client, child, db, monkeypatch, parts, status, reason
 ):
     result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
@@ -608,12 +697,17 @@ def test_leaving_is_present_only_from_70_percent_and_is_settled_when_class_time_
     assert len(attendance_events(db, child)) == 1
 
 
-def test_the_second_exit_settles_attendance_at_once(parent_client, student_client, child, db, monkeypatch):
+def test_the_second_exit_keeps_attendance_pending_until_class_end(
+    parent_client, student_client, child, db, monkeypatch
+):
     result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
     set_progress(db, result, 3)
     assert action(student_client, result, slot, "exit").status_code == 200
     assert action(student_client, result, slot, "rejoin").status_code == 200
     assert action(student_client, result, slot, "exit").status_code == 200
+    assert attendance_events(db, child) == []
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    runtime.settle_due(db, row, row.state["slots"][0]["end_ms"])
     (record,) = attendance_events(db, child)
     assert record["status"] == "absent" and record["attended_percent"] == 30
 
@@ -778,9 +872,7 @@ def test_a_lesson_left_early_is_closed_and_the_next_day_brings_the_next_lesson(
     assert (record["status"], record["reason"], record["attended_percent"]) == ("absent", "left_early", 50)
 
 
-def test_a_class_never_joined_is_absent_at_the_end_of_the_day_and_the_lesson_does_not_return(
-    parent_client, child, db, monkeypatch
-):
+def test_a_class_never_joined_is_absent_and_the_next_lesson_is_planned(parent_client, child, db, monkeypatch):
     second = two_lessons(monkeypatch)
     result = create_plan(parent_client, child)
     prepared(db, result)
@@ -801,8 +893,9 @@ def test_progress_counts_an_unfinished_lesson_as_taken_so_the_plan_moves_on(
     result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
     assert action(student_client, result, slot, "exit").status_code == 200
     assert action(student_client, result, slot, "rejoin").status_code == 200
-    assert action(student_client, result, slot, "exit").status_code == 200  # second exit: class over
+    assert action(student_client, result, slot, "exit").status_code == 200
     row = timetables_of(db, child)[0]
+    runtime.settle_due(db, row, row.state["slots"][0]["end_ms"])
     assert row.state["slots"][0]["status"] == "unfinished" and row.status == "completed"
     refresh_at(db, child, monkeypatch, datetime(2026, 10, 14, 10, 0, tzinfo=UTC))
     progress = parent_client.get("/api/lesson_delivery/student/" + child["id"]).json()["learning_progress"]
@@ -911,6 +1004,21 @@ def test_a_ready_class_is_never_delayed(parent_client, student_client, child, db
     assert view["class_phase"] == "ringing"
 
 
+def test_failed_preparation_does_not_ring_a_false_class_start(
+    parent_client, student_client, child, db, monkeypatch
+):
+    result = create_plan(parent_client, child)
+    _, slot = preparing(db, result, 30)
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    state = copy.deepcopy(row.state)
+    state["slots"][0]["preparation"] = {"status": "failed", "percent": 30}
+    row.state = state
+    db.flush()
+    monkeypatch.setattr(runtime.time, "time", lambda: (slot["start_ms"] + 1) / 1000)
+    view = student_view(student_client, child)["slots"][0]
+    assert view["class_phase"] == "waiting"
+
+
 def test_a_class_is_not_delayed_before_its_time(parent_client, student_client, child, db, monkeypatch):
     result = create_plan(parent_client, child)
     _, slot = preparing(db, result, 5)
@@ -937,3 +1045,37 @@ def test_a_delay_does_not_use_up_the_childs_snooze(parent_client, student_client
     monkeypatch.setattr(runtime.time, "time", lambda: (slot["start_ms"] + 1) / 1000)
     view = student_view(student_client, child)["slots"][0]
     assert view.get("borrowed_minutes", 0) == 0
+
+
+@pytest.mark.parametrize("changed,force", [(False, False), (False, True), (True, True)])
+def test_routine_refresh_preserves_exited_class_until_deadline(
+    parent_client, student_client, child, db, monkeypatch, changed, force
+):
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    assert action(student_client, result, slot, "position", position=1).status_code == 200
+    left = action(student_client, result, slot, "exit").json()["slots"][0]
+    row = db.get(Timetable, uuid.UUID(result["id"]))
+    routine = db.get(SchoolRoutine, uuid.UUID(child["id"]))
+    now = datetime.fromtimestamp((left["start_ms"] + 5 * 60000) / 1000, UTC)
+    monkeypatch.setattr(routines, "clock_now", lambda: now)
+    monkeypatch.setattr(runtime.time, "time", lambda: now.timestamp())
+    for _ in range(3):
+        routines.refresh_routine(db, routine, router.available, changed=changed, force=force)
+        assert row.state["slots"][0] == {k: v for k, v in left.items() if k != "class_phase"}
+        assert row.status == "active"
+    back = action(student_client, result, slot, "rejoin").json()["slots"][0]
+    assert back["position"] == 1 and back["job_id"] == left["job_id"]
+    assert back["end_ms"] == left["end_ms"]
+
+
+def test_routine_refresh_settles_exit_at_deadline_and_plans_next_lesson(
+    parent_client, student_client, child, db, monkeypatch
+):
+    second = two_lessons(monkeypatch)
+    result, slot = started_class(parent_client, student_client, child, db, monkeypatch)
+    row = set_progress(db, result, 9)
+    left = action(student_client, result, slot, "exit").json()["slots"][0]
+    refresh_at(db, child, monkeypatch, datetime.fromtimestamp(left["end_ms"] / 1000, UTC))
+    assert row.status == "completed" and row.state["slots"][0]["status"] == "unfinished"
+    assert attendance_events(db, child)[0]["status"] == "absent"
+    assert timetables_of(db, child)[-1].state["slots"][0]["concept_id"] == second

@@ -1,0 +1,1216 @@
+{
+  "schema_version": "0.1-draft",
+  "concept_id": "math_g3_m2_l8_weight_word_problems",
+  "card_version": 1,
+  "review_status": "reviewed",
+  "source_refs": [
+    {
+      "src": "src1",
+      "source_id": "engageny_math_g3_m2",
+      "file": "math-g3-m2-topic-b-lesson-8.md",
+      "source_version": "unknown (markdown extract has no page footer)",
+      "title": "Eureka Math / EngageNY, Grade 3, Module 2, Lesson 8",
+      "license": "CC BY-NC-SA 3.0 (Great Minds)",
+      "page_numbering": "none in source extract; page 'n/a' with section names"
+    }
+  ],
+  "grade": 3,
+  "subject": "math",
+  "standards": [
+    "3.MD.2",
+    "3.OA.1"
+  ],
+  "objective": {
+    "id": "obj_1",
+    "text": "Solve one-step word problems about weight in grams and kilograms. Use mental math tricks like making a ten.",
+    "origin": "adapted",
+    "source_ref": {
+      "src": "src1",
+      "page": "n/a",
+      "section": "Lesson objective"
+    }
+  },
+  "prerequisite_ids": [
+    "ext_g3_m2_estimate_weight",
+    "ext_g3_m1_multiply_divide"
+  ],
+  "explanations": [
+    {
+      "id": "exp_make_ten",
+      "title": "Make a ten to add",
+      "text": "28 is close to 30. Take 2 from 36 to make 30. Then 30 plus 34 equals 64.",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "exp_subtract_tens",
+      "title": "Subtract with tens",
+      "text": "For 32 minus 14, take away 10, then take away 4. 32 minus 10 is 22. 22 minus 4 is 18.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (S: How about 32 – 10 – 4?)"
+      }
+    },
+    {
+      "id": "exp_about_same",
+      "title": "Suppose each is about the same",
+      "text": "If each box weighs about 2 kilograms, multiply the number of boxes by 2. That is simpler than weighing each one.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3"
+      }
+    },
+    {
+      "id": "exp_divide_weight",
+      "title": "Divide to share weight",
+      "text": "8 chairs weigh 24 kilograms. Skip-count by eights to 24. Each chair weighs 3 kilograms.",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "ex_49_34",
+      "title": "49 plus 34",
+      "text": "Move 1 from 34 to 49. 50 plus 33 equals 83.",
+      "asset_ids": [],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 49 + 34 becomes 49 + 1 + 33)"
+      }
+    },
+    {
+      "id": "ex_lindsey",
+      "title": "Lindsey's weight",
+      "text": "The ride needs 32 kilograms. Lindsey weighs 14 kilograms less. 32 minus 14 equals 18 kilograms.",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    }
+  ],
+  "questions": [
+    {
+      "id": "q_pk_1",
+      "kind": "prior_knowledge",
+      "text": "1,000 grams divided by 10 equals how many grams?",
+      "asset_ids": [],
+      "stimulus": {
+        "total_g": 1000,
+        "divisor": 10
+      },
+      "rubric_id": "r_pk_1",
+      "hint_ids": [
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Divide Grams and Kilograms (1,000 g ÷ 10)"
+      }
+    },
+    {
+      "id": "q_pk_2",
+      "kind": "prior_knowledge",
+      "text": "Should a dog be measured in grams or kilograms?",
+      "asset_ids": [],
+      "stimulus": {
+        "object": "dog"
+      },
+      "rubric_id": "r_pk_2",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Determine the Unit of Measure (dog)"
+      }
+    },
+    {
+      "id": "q_pk_3",
+      "kind": "prior_knowledge",
+      "text": "Should a paper clip be measured in grams or kilograms?",
+      "asset_ids": [],
+      "stimulus": {
+        "object": "paper clip"
+      },
+      "rubric_id": "r_pk_3",
+      "hint_ids": [
+        "h_unit"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Determine the Unit of Measure (paper clip)"
+      }
+    },
+    {
+      "id": "q_pr_1",
+      "kind": "practice",
+      "text": "Beans weigh 28 grams. Popcorn kernels weigh 36 grams. What is the total weight?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "parts_g": [
+          28,
+          36
+        ]
+      },
+      "rubric_id": "r_pr_1",
+      "hint_ids": [
+        "h_ten",
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "q_pr_2",
+      "kind": "practice",
+      "text": "Use make a ten. What is 49 plus 34?",
+      "asset_ids": [],
+      "stimulus": {
+        "parts": [
+          49,
+          34
+        ]
+      },
+      "rubric_id": "r_pr_2",
+      "hint_ids": [
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 50 + 33 = 83)"
+      }
+    },
+    {
+      "id": "q_pr_3",
+      "kind": "practice",
+      "text": "The ride needs 32 kilograms. Lindsey weighs 14 kilograms less. How much does Lindsey weigh?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "whole_kg": 32,
+        "less_kg": 14
+      },
+      "rubric_id": "r_pr_3",
+      "hint_ids": [
+        "h_tape",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "q_pr_4",
+      "kind": "practice",
+      "text": "A box weighs 42 kilograms. Pieces weighing 16 kilograms are taken out. How much does the box weigh now?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "whole_kg": 42,
+        "removed_kg": 16
+      },
+      "rubric_id": "r_pr_4",
+      "hint_ids": [
+        "h_tape",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (Ms. Casallas)"
+      }
+    },
+    {
+      "id": "q_pr_5",
+      "kind": "practice",
+      "text": "Mr. Flores weighed 73 kilograms. Now he weighs 67 kilograms. How much weight did he lose?",
+      "asset_ids": [],
+      "stimulus": {
+        "before_kg": 73,
+        "after_kg": 67
+      },
+      "rubric_id": "r_pr_5",
+      "hint_ids": [
+        "h_op",
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (Mr. Flores)"
+      }
+    },
+    {
+      "id": "q_pr_6",
+      "kind": "practice",
+      "text": "Each of 6 supply boxes weighs about 2 kilograms. About how much do they weigh in all?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "groups": 6,
+        "size_kg": 2
+      },
+      "rubric_id": "r_pr_6",
+      "hint_ids": [
+        "h_op",
+        "h_skip"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: Partner A writes 6 × 2)"
+      }
+    },
+    {
+      "id": "q_pr_7",
+      "kind": "practice",
+      "text": "A dictionary weighs 3 kilograms. How much do 9 dictionaries weigh?",
+      "asset_ids": [],
+      "stimulus": {
+        "groups": 9,
+        "size_kg": 3
+      },
+      "rubric_id": "r_pr_7",
+      "hint_ids": [
+        "h_skip",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (dictionaries)"
+      }
+    },
+    {
+      "id": "q_pr_8",
+      "kind": "practice",
+      "text": "Eight chairs weigh 24 kilograms. What is the weight of 1 chair?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "total_kg": 24,
+        "groups": 8
+      },
+      "rubric_id": "r_pr_8",
+      "hint_ids": [
+        "h_skip",
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    },
+    {
+      "id": "q_pr_9",
+      "kind": "practice",
+      "text": "A tricycle weighs 8 kilograms. A truck can hold 40 more kilograms. How many more tricycles can it hold?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "total_kg": 40,
+        "size_kg": 8
+      },
+      "rubric_id": "r_pr_9",
+      "hint_ids": [
+        "h_skip",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (tricycles)"
+      }
+    },
+    {
+      "id": "q_ps_2a",
+      "kind": "practice",
+      "text": "Keiko weighs 35 kilograms. Jiro weighs 43 kilograms. What is their total weight?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "parts_kg": [
+          35,
+          43
+        ]
+      },
+      "rubric_id": "r_ps_2a",
+      "hint_ids": [
+        "h_tape",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2a"
+      }
+    },
+    {
+      "id": "q_ps_2b",
+      "kind": "practice",
+      "text": "Keiko weighs 35 kilograms. Jiro weighs 43 kilograms. How much heavier is Jiro?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "a_kg": 35,
+        "b_kg": 43
+      },
+      "rubric_id": "r_ps_2b",
+      "hint_ids": [
+        "h_tape",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2b"
+      }
+    },
+    {
+      "id": "q_ps_3",
+      "kind": "practice",
+      "text": "A houseplant is about as heavy as a 5 kilogram bowling ball. About how much do 3 houseplants weigh?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "groups": 3,
+        "size_kg": 5
+      },
+      "rubric_id": "r_ps_3",
+      "hint_ids": [
+        "h_skip",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3"
+      }
+    },
+    {
+      "id": "q_pr_10",
+      "kind": "practice",
+      "text": "Ms. Rios buys 453 grams of strawberries. She has 23 grams left. How many grams did she use?",
+      "asset_ids": [],
+      "stimulus": {
+        "whole_g": 453,
+        "left_g": 23
+      },
+      "rubric_id": "r_pr_10",
+      "hint_ids": [
+        "h_tape",
+        "h_op"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3"
+      }
+    },
+    {
+      "id": "q_pr_11",
+      "kind": "practice",
+      "text": "Andrea weighs 34 kilograms. Her dad is 57 kilograms heavier. How much does her dad weigh?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "andrea_kg": 34,
+        "more_kg": 57
+      },
+      "rubric_id": "r_pr_11",
+      "hint_ids": [
+        "h_tape",
+        "h_ten"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 4a"
+      }
+    },
+    {
+      "id": "q_db_1",
+      "kind": "debrief",
+      "text": "Keiko is 35 kg and Jiro is 43 kg. How is finding their total different from finding how much heavier Jiro is?",
+      "asset_ids": [
+        "a_tape_diagram"
+      ],
+      "stimulus": {
+        "a_kg": 35,
+        "b_kg": 43
+      },
+      "rubric_id": "r_db_1",
+      "hint_ids": [
+        "h_op",
+        "h_tape"
+      ],
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problems 2a and 2b)"
+      }
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "r_pk_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "100",
+          "one hundred",
+          "100 grams",
+          "one hundred grams"
+        ]
+      },
+      "correct": "Says 100.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Divide Grams and Kilograms (1,000 g ÷ 10)"
+      }
+    },
+    {
+      "id": "r_pk_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "kilograms",
+          "kilogram",
+          "kg"
+        ]
+      },
+      "correct": "Says kilograms.",
+      "partial": null,
+      "incorrect": "Says grams.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Determine the Unit of Measure (dog)"
+      }
+    },
+    {
+      "id": "r_pk_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "grams",
+          "gram",
+          "g"
+        ]
+      },
+      "correct": "Says grams.",
+      "partial": null,
+      "incorrect": "Says kilograms.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Determine the Unit of Measure (paper clip)"
+      }
+    },
+    {
+      "id": "r_pr_1",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "64",
+          "sixty-four",
+          "64 grams",
+          "sixty-four grams"
+        ]
+      },
+      "correct": "Says 64.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "r_pr_2",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "83",
+          "eighty-three"
+        ]
+      },
+      "correct": "Says 83.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "source",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1 (S: 49 + 34 becomes 49 + 1 + 33, then 50 + 33 = 83)"
+      }
+    },
+    {
+      "id": "r_pr_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "18",
+          "eighteen",
+          "18 kilograms",
+          "eighteen kilograms",
+          "18 kg"
+        ]
+      },
+      "correct": "Says 18.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "r_pr_4",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "26",
+          "twenty-six",
+          "26 kilograms",
+          "twenty-six kilograms",
+          "26 kg"
+        ]
+      },
+      "correct": "Says 26.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (Ms. Casallas)"
+      }
+    },
+    {
+      "id": "r_pr_5",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "6",
+          "six",
+          "6 kilograms",
+          "six kilograms",
+          "6 kg"
+        ]
+      },
+      "correct": "Says 6.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2 (Mr. Flores)"
+      }
+    },
+    {
+      "id": "r_pr_6",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "12",
+          "twelve",
+          "12 kilograms",
+          "twelve kilograms",
+          "12 kg"
+        ]
+      },
+      "correct": "Says 12.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (S: Partner A writes 6 × 2)"
+      }
+    },
+    {
+      "id": "r_pr_7",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "27",
+          "twenty-seven",
+          "27 kilograms",
+          "twenty-seven kilograms",
+          "27 kg"
+        ]
+      },
+      "correct": "Says 27.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 3 (dictionaries)"
+      }
+    },
+    {
+      "id": "r_pr_8",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "3",
+          "three",
+          "3 kilograms",
+          "three kilograms",
+          "3 kg"
+        ]
+      },
+      "correct": "Says 3.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    },
+    {
+      "id": "r_pr_9",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "5",
+          "five"
+        ]
+      },
+      "correct": "Says 5.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4 (tricycles)"
+      }
+    },
+    {
+      "id": "r_ps_2a",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "78",
+          "seventy-eight",
+          "78 kilograms",
+          "seventy-eight kilograms",
+          "78 kg"
+        ]
+      },
+      "correct": "Says 78.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2a"
+      }
+    },
+    {
+      "id": "r_ps_2b",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "8",
+          "eight",
+          "8 kilograms",
+          "eight kilograms",
+          "8 kg"
+        ]
+      },
+      "correct": "Says 8.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 2b"
+      }
+    },
+    {
+      "id": "r_ps_3",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "15",
+          "fifteen",
+          "15 kilograms",
+          "fifteen kilograms",
+          "15 kg"
+        ]
+      },
+      "correct": "Says 15.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, item 3"
+      }
+    },
+    {
+      "id": "r_pr_10",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "430",
+          "four hundred thirty",
+          "430 grams",
+          "four hundred thirty grams"
+        ]
+      },
+      "correct": "Says 430.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 3"
+      }
+    },
+    {
+      "id": "r_pr_11",
+      "answer_key": {
+        "mode": "exact",
+        "accept": [
+          "91",
+          "ninety-one",
+          "91 kilograms",
+          "ninety-one kilograms",
+          "91 kg"
+        ]
+      },
+      "correct": "Says 91.",
+      "partial": null,
+      "incorrect": "Says any other number.",
+      "unclear": "No number that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Homework, item 4a"
+      }
+    },
+    {
+      "id": "r_db_1",
+      "answer_key": {
+        "mode": "open"
+      },
+      "correct": "Says the total puts the two weights together (add: 78 kg); 'how much heavier' compares them (subtract: 8 kg).",
+      "partial": "Names the operations or the answers but not both.",
+      "incorrect": "Says both use the same operation.",
+      "unclear": "No answer that can be understood.",
+      "misconception_ids": [],
+      "origin": "derived",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Student Debrief (Problems 2a and 2b)"
+      }
+    }
+  ],
+  "hints": [
+    {
+      "id": "h_op",
+      "level": 1,
+      "text": "Is the problem putting together, taking away, equal groups, or sharing?",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problems 1-4"
+      }
+    },
+    {
+      "id": "h_ten",
+      "level": 2,
+      "text": "Make a ten first. Move a little from one number to the other.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    },
+    {
+      "id": "h_tape",
+      "level": 2,
+      "text": "Draw a tape diagram. Label the known weights and put ? on the unknown.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 2"
+      }
+    },
+    {
+      "id": "h_skip",
+      "level": 2,
+      "text": "Skip-count by the weight of one item. Track the count on your fingers.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 4"
+      }
+    },
+    {
+      "id": "h_unit",
+      "level": 1,
+      "text": "Is it light like a pencil, or heavy like a dog? Light things use grams.",
+      "origin": "adapted",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency: Determine the Unit of Measure"
+      }
+    }
+  ],
+  "misconceptions": [],
+  "assets_required": [
+    {
+      "asset_id": "a_tape_diagram",
+      "status": "not_available",
+      "kind": "interactive_widget",
+      "recommended_method": "code_rendered_svg",
+      "diffusion_suitable": "no",
+      "why_this_method": "Unit bars must be exactly equal and the number of units must be exact. Labels and the question mark must be placed exactly.",
+      "description": "A tape diagram: one long bar cut into equal units. A label shows the size of a unit or the total, and a question mark shows the unknown.",
+      "must_show_exactly": [
+        "Exactly the number of equal units given in the stimulus",
+        "All units the same length",
+        "Known value labelled, unknown shown as a question mark",
+        "q_pr_1: tape: 28 g and 36 g, ? total",
+        "q_pr_3: tape: 32 kg, Lindsey's bar 14 kg shorter",
+        "q_pr_6: 6 units of 2 kg",
+        "q_pr_8: 24 kg split into 8 units",
+        "q_pr_9: units of 8 kg up to 40 kg",
+        "q_ps_2b: two bars, 35 kg and 43 kg, difference ?"
+      ],
+      "states_or_frames": [
+        "empty bar",
+        "bar cut into units",
+        "labels and question mark shown"
+      ],
+      "interaction": "Display only, or child taps a unit to label it. Child answers by voice or typing.",
+      "alt_text": "A bar cut into equal parts with a question mark.",
+      "used_by": [
+        "ex_lindsey",
+        "exp_divide_weight",
+        "exp_make_ten",
+        "q_db_1",
+        "q_pr_1",
+        "q_pr_11",
+        "q_pr_3",
+        "q_pr_4",
+        "q_pr_6",
+        "q_pr_8",
+        "q_pr_9",
+        "q_ps_2a",
+        "q_ps_2b",
+        "q_ps_3"
+      ],
+      "generation_caption": "Clean horizontal bar divided into equal rectangular units, with a brace and a question mark, flat colours, white background. [Build by code]"
+    }
+  ],
+  "activities_not_tutorable": [
+    {
+      "id": "na_choral_signals",
+      "name": "Whole-class choral counting with hand signals, whispering or humming",
+      "reason": "Needs a group and teacher hand signals; the camera cannot check them. Counting facts are asked as single questions instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Fluency Practice"
+      }
+    },
+    {
+      "id": "na_partner_talk",
+      "name": "Turn and talk to a partner",
+      "reason": "Needs a second child. Where useful, the idea is asked as a tutor question instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_whiteboard",
+      "name": "Writing and drawing on a personal white board",
+      "reason": "The tutor cannot see paper or boards. Answers are typed or spoken instead.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development"
+      }
+    },
+    {
+      "id": "na_paper_drawing",
+      "name": "Drawing pictures, arrays or tape diagrams on worksheets",
+      "reason": "The tutor sees typed text or speech only, so drawings cannot be judged.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Problem Set, Exit Ticket, Homework"
+      }
+    },
+    {
+      "id": "na_weigh_bags",
+      "name": "Weighing bags of beans and popcorn kernels with spring scales",
+      "reason": "Hands-on weighing; replaced by the scale widget. The bags' weights (28 g, 36 g) come from the text.",
+      "source_ref": {
+        "src": "src1",
+        "page": "n/a",
+        "section": "Concept Development, Problem 1"
+      }
+    }
+  ],
+  "review_flags": [
+    {
+      "id": "f1",
+      "severity": "high",
+      "item": "review_status",
+      "issue": "Card is a DRAFT made by an AI. Not reviewed. Needs the content review in the pipeline doc before publishing."
+    },
+    {
+      "id": "f2",
+      "severity": "high",
+      "item": "license",
+      "issue": "Source is Eureka Math / EngageNY, CC BY-NC-SA 3.0 (Great Minds). Cards made from it must keep attribution to Great Minds, stay non-commercial, and share under the same license. Check this before any paid deployment."
+    },
+    {
+      "id": "f3",
+      "severity": "high",
+      "item": "all visuals",
+      "issue": "Image models cannot be trusted for counts. Use code-rendered visuals for anything with exact numbers, and have a person check each visual against its rubric."
+    },
+    {
+      "id": "f4",
+      "severity": "high",
+      "item": "source_ref.page (all items)",
+      "issue": "The source was a markdown text extract with no printed page numbers and no page images. Every citation uses page 'n/a' plus a section name. A person must map each item to its printed footer page in the PDF."
+    },
+    {
+      "id": "f5",
+      "severity": "medium",
+      "item": "worksheet sheets",
+      "issue": "The extract has three unlabeled 'Name / Date' sheets. They were read as Problem Set, Exit Ticket, Homework (the Eureka order). Pictures on these sheets are missing from the text. Confirm against the PDF."
+    },
+    {
+      "id": "f6",
+      "severity": "high",
+      "item": "Problem Set items 1, 4; Exit Ticket; Homework items 1, 5",
+      "issue": "The weights of Tim's beans and grapes, Jane's apples, the backpack and suitcase, the fruit baskets and the carrots are shown only on scale pictures. Not used. Needs vision extraction."
+    },
+    {
+      "id": "f7",
+      "severity": "medium",
+      "item": "Items left out",
+      "issue": "Concept Development repeats (Jerry 3 × 4; 36 kg into 4 crates) and Homework item 2 (3 journals × 280 g) and 4b (Andrea plus dad, 125 kg) repeat used patterns."
+    },
+    {
+      "id": "f8",
+      "severity": "medium",
+      "item": "q_pr_1, r_pr_1",
+      "issue": "The bean and kernel weights (about 28 g and 36 g) are from the text. The total 64 g is derived; the source does not print it."
+    },
+    {
+      "id": "f9",
+      "severity": "medium",
+      "item": "misconceptions",
+      "issue": "The source states no misconception. Proposal, not added: adding when the problem says 'less than' (Lindsey)."
+    },
+    {
+      "id": "f10",
+      "severity": "medium",
+      "item": "derived answer keys",
+      "issue": "Keys computed: 64, 18, 26, 6, 12, 27, 3, 5, 78, 8, 15, 430, 91, 100. Recheck."
+    },
+    {
+      "id": "f11",
+      "severity": "low",
+      "item": "No Application Problem, no Sprint",
+      "issue": "This lesson has no Application Problem and no Sprint."
+    },
+    {
+      "id": "f12",
+      "severity": "medium",
+      "item": "prerequisite_ids",
+      "issue": "No AVAILABLE_PREREQUISITE_IDS were given, so every prerequisite is an external id: ext_g3_m2_estimate_weight (grams, kilograms and reading scales, Lessons 6-7); ext_g3_m1_multiply_divide (multiplication and division from Module 1). Replace with real card ids after review."
+    },
+    {
+      "id": "f13",
+      "severity": "medium",
+      "item": "partial = null in exact-answer rubrics",
+      "issue": "Single-number answers have no real partial outcome. The script must map partial to the same path as incorrect, or the shared schema must allow null."
+    },
+    {
+      "id": "f14",
+      "severity": "medium",
+      "item": "Wording",
+      "issue": "The source is a teacher script for a 60-minute class with objects, partners and white boards. All child-facing text was rewritten for a screen. Needs age-appropriate wording review."
+    },
+    {
+      "id": "f15",
+      "severity": "medium",
+      "item": "assets_required",
+      "issue": "All 1 assets are marked not_available: a_tape_diagram. Items that use them cannot be launched until the asset exists."
+    },
+    {
+      "id": "f16",
+      "severity": "low",
+      "item": "source_refs.source_version",
+      "issue": "The markdown extract has no page footer, so the 'This file derived from' version string is unknown. Fill it in from the PDF."
+    },
+    {
+      "id": "f17",
+      "severity": "low",
+      "item": "standards",
+      "issue": "Standards are only the codes printed in this lesson file: 3.MD.2, 3.OA.1. The Grade 3 module-level standards are in the Module Overview and were not added."
+    }
+  ],
+  "extensions_beyond_pipeline_doc": [
+    "schema_version",
+    "grade",
+    "subject",
+    "standards",
+    "misconceptions",
+    "assets_required",
+    "activities_not_tutorable",
+    "review_flags",
+    "origin (per item)",
+    "visual_generation_rules",
+    "assets_required.* visual spec fields",
+    "assets_required.*.generation_caption"
+  ],
+  "visual_generation_rules": [
+    "Diffusion cannot count reliably. Any picture where an exact number of objects matters must be built by code (SVG or widget) or drawn by an artist.",
+    "Diffusion is allowed only for: style or background art, and single icons (one ball, one pencil, one leaf, one character) that code then tiles to the exact count.",
+    "Every visual must be checked by a person: the count shown must equal the stimulus in the question and the rubric answer key.",
+    "Animations are described as frames with exact counts per frame, so they can be built or generated and then checked frame by frame.",
+    "Visual explanations are valid only when the asset exists (pipeline doc, Planner rules)."
+  ]
+}

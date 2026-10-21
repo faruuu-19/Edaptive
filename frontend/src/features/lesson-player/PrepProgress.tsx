@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { getTimetables } from '@/lib/lesson-delivery-api';
 import { chooseDay } from './DayPlan';
 import { isWaitingToPrepare, prepareTimeText } from './prepare-time';
-import { needsMemoryHelp } from './preparation-message';
+import { needsMemoryHelp, preparationPercent } from './preparation-message';
 import styles from './timetable.module.css';
 
 /** A small preparation bar with a percentage for the Maths tile on the child's home screen. */
@@ -21,7 +21,7 @@ export function PrepProgress({ studentId }: { studentId: string }) {
         const slot = day?.status === 'active' ? day.slots.find(s => s.id === day.current_slot_id) : undefined;
         // A cancelled or failed lesson is not being prepared, so there is nothing to show.
         const dead = slot?.preparation?.status === 'cancelled' || slot?.preparation?.status === 'failed';
-        const value = slot && !dead ? (slot.preparation?.status === 'ready' ? 100 : Math.round(slot.preparation?.percent ?? 0)) : null;
+        const value = slot && !dead ? preparationPercent(slot.preparation) : null;
         if (active) { setPercent(value === null ? null : Math.max(0, Math.min(100, value))); setPaused(!!slot && needsMemoryHelp(slot.preparation)); setWaitingText(slot && day && isWaitingToPrepare(slot.preparation) ? prepareTimeText(slot.prepare_at_ms, day.server_now_ms) : null); }
       } catch { if (active) setPercent(null); }
       if (active) timer = setTimeout(poll, 2000);

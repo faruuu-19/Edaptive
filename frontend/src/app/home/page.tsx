@@ -6,6 +6,7 @@ import { useEffect, useState } from "react";
 import { useAuthStatus } from "@/features/auth";
 import { PrepProgress, TodaysTimetable } from "@/features/lesson-player";
 import { ChildHome } from "@/features/home-profile";
+import { Meadow } from "@/features/theme";
 import { getProfile, type Profile } from "@/lib/api";
 
 export default function Home() {
@@ -14,11 +15,14 @@ export default function Home() {
   const [profile, setProfile] = useState<Profile | null>(null);
 
   useEffect(() => {
+    let active = true;
     if (!status) return;
     const studentId = status.actor?.role === "student" ? status.actor.student_id : null;
     if (!studentId) router.replace("/");
-    else getProfile(studentId).then(setProfile, () => router.replace("/"));
+    else getProfile(studentId).then(p => { if (active) setProfile(p); }, () => { if (active) router.replace("/"); });
+    return () => { active = false; };
   }, [status, router]);
 
-  return <main className="page">{profile && <div className="stack" style={{ gap: 30 }}><ChildHome profile={profile} mathsHref="/timetable" mathsNote={<PrepProgress studentId={profile.id} />} /><TodaysTimetable studentId={profile.id} /></div>}</main>;
+  const currentProfile = status?.actor?.role === 'student' && profile?.id === status.actor.student_id ? profile : null;
+  return <main className="page">{currentProfile && <ChildHome key={currentProfile.id} profile={currentProfile} mathsHref="/timetable" mathsNote={<PrepProgress studentId={currentProfile.id} />} aside={<TodaysTimetable studentId={currentProfile.id} />} />}{currentProfile && <Meadow />}</main>;
 }

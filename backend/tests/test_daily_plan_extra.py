@@ -61,7 +61,7 @@ def test_real_day_has_four_classes_and_separate_breaks_with_no_inactive_alarms(p
     assert all(s["class_phase"] == "coming_soon" for s in result["slots"] if s["kind"] == "unavailable")
 
 
-def test_prepared_script_duration_moves_all_later_classes_without_double_buffer(plan):
+def test_prepared_script_keeps_twenty_minute_class_and_later_breaks(plan):
     row, _, _ = plan
     state = copy.deepcopy(row.state)
     before = copy.deepcopy(state)
@@ -74,14 +74,14 @@ def test_prepared_script_duration_moves_all_later_classes_without_double_buffer(
         },
         {"status": "ready", "percent": 100},
     )
-    assert state["slots"][0]["end_ms"] - state["slots"][0]["start_ms"] == 31 * 60000
+    assert state["slots"][0]["end_ms"] - state["slots"][0]["start_ms"] == 20 * 60000
     for earlier, later in zip(before["slots"][1:], state["slots"][1:], strict=True):
-        assert later["start_ms"] - earlier["start_ms"] == 11 * 60000
-        assert later["end_ms"] - earlier["end_ms"] == 11 * 60000
+        assert later["start_ms"] - earlier["start_ms"] == 0
+        assert later["end_ms"] - earlier["end_ms"] == 0
     assert state["slots"][1]["end_ms"] - state["slots"][1]["start_ms"] == 5 * 60000
 
 
-def test_completed_lesson_persists_but_missing_second_is_not_skipped(plan, db):
+def test_completed_lesson_persists_and_next_available_pair_is_planned(plan, db):
     row, routine, card = plan
     state = copy.deepcopy(row.state)
     state["slots"][0]["status"] = "completed"
@@ -89,15 +89,15 @@ def test_completed_lesson_persists_but_missing_second_is_not_skipped(plan, db):
     row.status = "completed"
     db.flush()
     next_day = routines.refresh_routine(db, routine, lambda: [card, {**card, "id": THIRD}], force=True)
-    assert next_day.state["slots"][0]["kind"] == "unavailable"
-    assert "Lesson 2" in routine.message
+    assert next_day.state["slots"][0]["concept_id"] == THIRD
     saved = db.get(LearningProgress, routine.student_id).state
-    assert saved["next_required"]["lesson"] == 2 and saved["next_required"]["matched"] is False
+    assert saved["next_required"]["lesson"] == 3 and saved["next_required"]["matched"] is True
+    assert saved["modules"][0]["lessons"][1]["matched"] is False
     assert saved["modules"][0]["status"] == "in_progress" and saved["modules"][0]["delivered_lessons"] == 1
     assert saved["mastery_assessed"] is False
 
 
-def test_missing_pair_appearing_activates_existing_placeholder_in_place(plan, db):
+def test_new_pair_activates_existing_placeholder_in_place(plan, db):
     row, routine, card = plan
     state = copy.deepcopy(row.state)
     state["slots"][0]["status"] = "completed"
@@ -126,3 +126,37 @@ def test_partial_contiguous_export_cannot_confirm_module_complete(tmp_path, monk
     )
     monkeypatch.setattr(curriculum, "ROOT", tmp_path)
     assert curriculum.module_index(3, [])[0]["expected"] is None
+
+
+def test_next_pair_can_cross_module_gap_without_leaving_the_grade(parent_client, child, db, monkeypatch):
+    from app.core.household import StudentProfile
+
+    profile = db.get(StudentProfile, uuid.UUID(child["id"]))
+    profile.grade = 1
+    first = "math_g1_m1_l1_first"
+    later = "math_g1_m2_l1_later"
+    other_grade = "math_g2_m1_l1_other"
+    monkeypatch.setattr(
+        curriculum,
+        "module_index",
+        lambda *args: [
+            {"module": 1, "expected": 3, "lessons": {1: first}},
+            {"module": 2, "expected": 2, "lessons": {1: later}},
+        ],
+    )
+    cards = [{"id": cid} for cid in (first, later, other_grade)]
+    routine = SchoolRoutine(student_id=profile.id, household_id=profile.household_id, start_time="09:00")
+    db.add(routine)
+    db.flush()
+    progress = curriculum.synchronize(db, routine.household_id, routine.student_id, 1, cards)
+    assert progress["next_required"]["concept_id"] == first
+    curriculum.mark_delivered(db, routine.student_id, first)
+    progress = db.get(LearningProgress, routine.student_id).state
+    assert progress["next_required"] == {
+        "module": 2,
+        "lesson": 1,
+        "concept_id": later,
+        "matched": True,
+    }
+    assert progress["modules"][0]["lessons"][1]["matched"] is False
+    assert progress["modules"][0]["coverage_confirmed"] is True

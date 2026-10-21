@@ -42,4 +42,4 @@ check: gen lint test runtime-check  ## run before every PR
 runtime-check:
 	$(PYTHON) tools/verify_runtime.py
 	$(PYTHON) -m unittest discover -s tests
-	$(PYTHON) -m unittest voice_service.test_jobs voice_service.test_service
+	$(PYTHON) -m unittest voice_service.test_jobs voice_service.test_service voice_service.test_demo_server
